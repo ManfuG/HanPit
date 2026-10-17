@@ -1,0 +1,66 @@
+HanPit offline neural Mandarin vocabulary audio
+
+Generated with hexgrad/Kokoro-82M-v1.1-zh, voice zf_001, speed 1.0.
+Model: https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
+Pinned revision: 01e7505bd6a7a2ac4975463114c3a7650a9f7218
+License: Apache License, Version 2.0 (included as LICENSE).
+The model weights and CPU runtime are not served with these audio assets.
+
+Model source SHA256:
+config.json: bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890
+kokoro-v1_1-zh.pth: b1d8410fa44dfb5c15471fd6c4225ea6b4e9ac7fa03c98e8bea47a9928476e2b
+voices/zf_001.pt: 9bdc9a87e13e9bb1ea3e7803259c2ecbfebaeeb2ff80b5d0c76df1a464c1c962
+
+Upstream model attribution (from the pinned model card):
+Kokoro is an open-weight series of small but powerful TTS models.
+This model is the result of a short training run that added 100 Chinese
+speakers from a professional dataset. The Chinese data was freely and
+permissively granted by LongMaoData (https://www.longmaosoft.com/).
+Separately, crowdsourced synthetic English data entered the training mix:
+1 hour of Maple (American female), 1 hour of Sol (American female), and
+1 hour of Vale (older British female). LongMaoData had no involvement
+in the crowdsourced synthetic English data.
+
+Pronunciation frontend:
+Misaki 0.9.4: https://github.com/hexgrad/misaki
+Its v1.1 Chinese ZH_MAP phoneme alphabet and contextual ToneSandhi rules
+are adapted from PaddlePaddle/PaddleSpeech under Apache-2.0.
+Copyright (c) 2021 PaddlePaddle Authors. All Rights Reserved.
+HanPit adaptation: authoritative GF0025-2021 vocabulary Pinyin replaces
+hanzi-based polyphone inference; explicit tone/neutral/erhua markings are
+retained, and contextual surface sandhi is applied separately.
+The Python generator contains the adapter; upstream packages are unmodified.
+
+Phonetic policy:
+- Use the first slash-separated documented reading: 谁 shei2, 熟 shu2.
+- Segment marked source Pinyin, preserving apostrophe/space/hyphen boundaries.
+  Tone marks determine each citation tone; unmarked syllables use neutral5.
+  Hanzi heteronyms may resolve syllable boundaries, never replace source reading.
+- Normalize ü/v into the v1.1 phoneme alphabet, including apical zi/ci/si
+  versus zhi/chi/shi/ri finals and expanded iu/ui/un finals.
+- Explicit attached r (e.g. 女孩儿 nv3 hai2+r) becomes the model R suffix.
+  Explicit ér remains a full syllable (e.g. 女儿 nv3 er2).
+- Use Misaki/PaddleSpeech contextual third-tone rules with deterministic jieba
+  segmentation and boundary merging; do not globally flatten third-tone chains.
+- 不 before a citation fourth tone becomes second tone. A不A/A一A middles
+  are neutral. 一 becomes second tone before fourth, fourth before first,
+  second or third; ordinal 第一 and numeric sequences retain citation tone.
+- Preserve source lexical neutral tones; do not apply a dictionary that would
+  silently override a deliberately marked source tone.
+- These are isolated-word clips, not sentence-level prosody; deterministic
+  segmentation is an approximation of natural phrasal tone-sandhi grouping.
+  No human auditory validation is claimed.
+
+Encoding: MP3, libmp3lame, 64kbps, 24000Hz, mono.
+Identical final phoneme strings may share generated audio, copied to every
+individual official ID. Distinct readings are never cached by hanzi alone.
+Each MP3 is fully decoded for finite samples, meaningful duration and RMS.
+manifest.json records per-ID citation/surface phonemes, SHA256, duration,
+RMS and byte count, source hashes, dependency versions and input hashes.
+Resume requires matching source/settings/script/vocabulary fingerprints and
+checksums; stale outputs are not silently skipped.
+
+CPU benchmark (i7-1165G7, 20 mixed 1-5-syllable syntheses after warmup):
+1 thread: 20.163s; 2 threads: 11.611s; 4 threads: 7.821s;
+2 workers x 2 threads: 7.295s. Selected 2 workers x 2 threads.
+Each worker loads the pinned CPU model once; no runtime model/backend/API.

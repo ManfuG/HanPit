@@ -1,6 +1,7 @@
 import './style.css';
 import { getStudyState, preview, type Grade } from './study';
 import { openStorage, type StudyStorage } from './storage';
+import { createPronunciation } from './audio';
 import type { Word } from './types';
 
 const element = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -9,6 +10,7 @@ const revealButton = element<HTMLButtonElement>('reveal');
 const ratings = element('ratings');
 const speakButton = element<HTMLButtonElement>('speak');
 const flashcards = element('flashcards');
+const pronunciation = createPronunciation(element('speech-status'));
 const gradeButtons = [...ratings.querySelectorAll<HTMLButtonElement>('button')];
 const dateFormat = new Intl.DateTimeFormat('it', { dateStyle: 'short', timeStyle: 'short' });
 const numberFormat = new Intl.NumberFormat('it');
@@ -54,11 +56,11 @@ function interval(due: Date, now: Date): string {
 
 function render() {
   clearTimeout(wakeTimer);
-  window.speechSynthesis?.cancel();
   const now = new Date();
   const state = getStudyState(words, storage.progress, now);
   current = state.word;
   revealed = false;
+  pronunciation.preload(current?.id);
   element('new-count').textContent = numberFormat.format(state.newCount);
   element('due-count').textContent = numberFormat.format(state.dueCount);
   element('studied-count').textContent = numberFormat.format(state.studiedCount);
@@ -82,32 +84,9 @@ function render() {
   }
 }
 
-function mandarinVoice() {
-  return window.speechSynthesis?.getVoices()
-    .filter(voice => /^(zh(?:[-_](?:CN|TW|SG|Hans|Hant)(?:[-_].*)?)?|cmn(?:[-_].*)?)$/i.test(voice.lang))
-    .sort((a, b) => Number(/^zh[-_]CN$/i.test(b.lang)) - Number(/^zh[-_]CN$/i.test(a.lang)))[0];
-}
-
-function updateVoice() {
-  const available = !!mandarinVoice();
-  speakButton.disabled = !available;
-  element('speech-status').hidden = available;
-  element('speech-status').textContent = available ? '' : 'Voce mandarino non disponibile sul dispositivo.';
-}
-
 function speak() {
-  const voice = mandarinVoice();
-  if (!current || !revealed || !voice) return;
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(current.speech);
-  utterance.voice = voice;
-  utterance.lang = voice.lang;
-  utterance.onerror = event => {
-    if (event.error === 'canceled' || event.error === 'interrupted') return;
-    element('speech-status').textContent = 'Pronuncia non disponibile. Verifica la voce mandarino del dispositivo.';
-    element('speech-status').hidden = false;
-  };
-  window.speechSynthesis.speak(utterance);
+  if (busy || !current || !revealed || activeSection !== 'flashcards' || document.hidden) return;
+  void pronunciation.play();
 }
 
 function reveal() {
@@ -123,13 +102,13 @@ function reveal() {
   element('answer').hidden = false;
   revealButton.hidden = true;
   ratings.hidden = false;
-  updateVoice();
   speak();
   gradeButtons[2].focus({ preventScroll: true });
 }
 
 async function rate(grade: Grade) {
   if (busy || !revealed || !current) return;
+  pronunciation.stop();
   busy = true;
   gradeButtons.forEach(button => { button.disabled = true; });
   levelSelect.disabled = true;
@@ -150,10 +129,10 @@ async function rate(grade: Grade) {
 
 revealButton.addEventListener('click', reveal);
 speakButton.addEventListener('click', speak);
-window.speechSynthesis?.addEventListener('voiceschanged', updateVoice);
 gradeButtons.forEach(button => button.addEventListener('click', () => { void rate(Number(button.dataset.grade) as Grade); }));
 
 levelSelect.addEventListener('change', async () => {
+  pronunciation.stop();
   busy = true;
   levelSelect.disabled = true;
   revealButton.disabled = true;
@@ -179,7 +158,7 @@ levelSelect.addEventListener('change', async () => {
 
 for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
   tab.addEventListener('click', () => {
-    window.speechSynthesis?.cancel();
+    pronunciation.stop();
     activeSection = tab.dataset.section!;
     for (const other of document.querySelectorAll<HTMLElement>('[data-section]')) {
       const active = other === tab;
@@ -203,6 +182,10 @@ document.addEventListener('keydown', event => {
 });
 
 window.addEventListener('focus', () => { if (!busy && !current) render(); });
+window.addEventListener('pagehide', pronunciation.stop);
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) pronunciation.stop();
+});
 
 async function start() {
   try {

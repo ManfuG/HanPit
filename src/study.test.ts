@@ -8,11 +8,11 @@ const now = new Date('2026-01-15T12:00:00.000Z');
 const minute = 60_000;
 const day = 24 * 60 * minute;
 const words: readonly Word[] = Object.freeze([
-  { id: 'new', level: 1, hanzi: '你', pinyin: 'nǐ', meaning: 'you', speech: 'pronoun' },
-  { id: 'review', level: 1, hanzi: '好', pinyin: 'hǎo', meaning: 'good', speech: 'adjective' },
-  { id: 'learning', level: 1, hanzi: '我', pinyin: 'wǒ', meaning: 'I', speech: 'pronoun' },
-  { id: 'relearning', level: 1, hanzi: '他', pinyin: 'tā', meaning: 'he', speech: 'pronoun' },
-  { id: 'later', level: 2, hanzi: '她', pinyin: 'tā', meaning: 'she', speech: 'pronoun' },
+  { id: 'new', level: 1, hanzi: '你', pinyin: 'nǐ', meaning: 'you' },
+  { id: 'review', level: 1, hanzi: '好', pinyin: 'hǎo', meaning: 'good' },
+  { id: 'learning', level: 1, hanzi: '我', pinyin: 'wǒ', meaning: 'I' },
+  { id: 'relearning', level: 1, hanzi: '他', pinyin: 'tā', meaning: 'he' },
+  { id: 'later', level: 2, hanzi: '她', pinyin: 'tā', meaning: 'she' },
 ]);
 
 function scheduled(state: State, offset: number): Card {
@@ -125,11 +125,11 @@ test('FSRS Again and Good use learning steps, then graduate and reappear only wh
   assert.equal(getStudyState(eligible, progress, graduated.due).word, words[0]);
 });
 
-test('Easy graduates immediately using FSRS-6, and a failed review uses the relearning step', () => {
+test('first Easy schedules five days with matching stability; a failed review enters relearning', () => {
   const easy = preview(undefined, now)[Rating.Easy].card;
   assert.equal(easy.state, State.Review);
-  assert.ok(easy.scheduled_days >= 1);
-  assert.equal(easy.due.getTime(), now.getTime() + easy.scheduled_days * day);
+  assert.equal(easy.stability, 5);
+  assert.equal(easy.due.getTime(), now.getTime() + 5 * day);
   const failed = preview(easy, easy.due)[Rating.Again].card;
   assert.equal(failed.state, State.Relearning);
   assert.equal(failed.lapses, 1);

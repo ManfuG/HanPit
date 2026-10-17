@@ -1,0 +1,28 @@
+{
+  "official_ids": 11092,
+  "unique_pronunciations": 10207,
+  "audio_bytes": 95647088,
+  "audio_mib": 91.216,
+  "total_duration_seconds": 10974.653,
+  "duration_seconds": {
+    "min": 0.475,
+    "max": 2.05
+  },
+  "rms": {
+    "min": 0.038554,
+    "max": 0.06102
+  },
+  "full_run_seconds": 4262.32,
+  "full_run_unique_syntheses": 10192,
+  "smoke_unique_syntheses": 15,
+  "full_run_syntheses_per_second": 2.391,
+  "model_revision": "01e7505bd6a7a2ac4975463114c3a7650a9f7218",
+  "model_source_sha256": {
+    "config.json": "bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890",
+    "kokoro-v1_1-zh.pth": "b1d8410fa44dfb5c15471fd6c4225ea6b4e9ac7fa03c98e8bea47a9928476e2b",
+    "voices/zf_001.pt": "9bdc9a87e13e9bb1ea3e7803259c2ecbfebaeeb2ff80b5d0c76df1a464c1c962"
+  },
+  "fingerprint": "b6bfbaa67801ca31d790c4137b2230196dd4ef966ed5176e7f5bbb23e9d32c26",
+  "validation": "All 11092 official filenames/IDs exactly match dataset and manifest. Every MP3 fully decoded; 24000Hz mono; all finite samples, duration>=0.15s, RMS>=0.001; per-file SHA256 matches manifest. Generator and all seven vocabulary input hashes match.",
+  "human_auditory_validation": false
+}

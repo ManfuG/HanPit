@@ -15,9 +15,9 @@ Aprire l’indirizzo mostrato da Vite. Build statica: `npm run build`; anteprima
 
 ## Comportamento
 
-- Fronte: carattere/parola. Retro: pinyin, significato **in inglese**, sintesi vocale mandarino.
+- Fronte: carattere/parola. Retro: pinyin, significato **in inglese**, pronuncia neurale mandarino.
 - Valutazioni Di nuovo / Difficile / Bene / Facile, con anteprima dell’intervallo. Spazio mostra la risposta; 1–4 valutano.
-- FSRS-6 tramite `ts-fsrs`: ritenzione 90%, apprendimento 1/10 minuti, riapprendimento 10 minuti. Prima le carte in apprendimento scadute, poi i ripassi scaduti, poi le nuove; nessun limite giornaliero. Le carte future non vengono anticipate.
+- FSRS-6 tramite `ts-fsrs`: ritenzione 90%, apprendimento 1/10 minuti, riapprendimento 10 minuti. **Il primo Facile su una carta nuova vale 5 giorni**, con stabilità iniziale FSRS di 5 giorni, non una scadenza sovrascritta dopo il calcolo. Gli altri parametri restano quelli di FSRS-6. Le scadenze già salvate non vengono riscritte. Prima le carte in apprendimento scadute, poi i ripassi scaduti, poi le nuove; nessun limite giornaliero. Le carte future non vengono anticipate.
 - Carte, storico delle valutazioni e livello conservati in IndexedDB. Il salvataggio di carta e storico è atomico; si passa alla carta successiva solo dopo il salvataggio. Dati locali al browser e all’origine, senza account o sincronizzazione; cancellare i dati del sito elimina i progressi.
 - Si parte da HSK 1. Il selettore include cumulativamente il vocabolario dei livelli precedenti senza azzerarne i progressi. Tornare a un livello inferiore nasconde, ma non elimina, le carte superiori.
 - Grammatica e Test sono intenzionalmente vuoti. Il blocco dei livelli tramite test non è implementato: per ora il livello si seleziona manualmente.
@@ -38,7 +38,25 @@ L’importazione verifica SHA-256, conteggi ufficiali, ID e copertura delle defi
 
 ## Pronuncia e compatibilità
 
-Browser moderno con IndexedDB, `Promise.withResolvers` e Web Speech API. L’audio richiede una voce **mandarino** disponibile nel sistema/browser, preferibilmente `zh-CN`. Alla rivelazione viene avviata la pronuncia; Ascolta la ripete. Se manca la voce, il controllo è disabilitato e il motivo è visibile: non viene usata una voce di un’altra lingua. Le voci possono richiedere rete o un pacchetto lingua installato. La scelta della lettura dei caratteri polifonici dipende dal sintetizzatore; il pinyin del dataset resta il riferimento esplicito.
+Browser moderno con IndexedDB, `Promise.withResolvers` e riproduzione MP3. La voce è **Kokoro-82M-v1.1-zh, zf_001**, modello neurale dedicato al cinese con [licenza Apache 2.0](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh). Le **11.092 pronunce** sono generate in anticipo e incluse in `public/audio/` (circa **91,2 MiB** complessivi): nessun servizio a pagamento, chiave API, voce del sistema o modello da eseguire sul dispositivo. Durante lo studio si scarica/precarica solo il piccolo file della carta corrente, non l’intero corpus.
+
+Il generatore usa il **pinyin della carta** per distinguere i caratteri polifonici, comprese ü, sillabe neutre ed erhua, e applica il sandhi tonale contestuale. Per le voci con più letture ufficiali viene pronunciata la prima. Il manifest registra pinyin di citazione, lettura di superficie e fonemi per ogni ID. La prosodia riguarda parole isolate, non frasi: il pinyin resta il riferimento e non si dichiara una revisione d’ascolto umana di ogni voce.
+
+Alla rivelazione parte l’audio; Ascolta lo ripete. Cambiare carta, livello, sezione o nascondere la pagina interrompe la riproduzione. Se il browser blocca l’avvio automatico o il file non è disponibile, il motivo è visibile e Ascolta permette di riprovare. Nessun fallback alla vecchia voce robotica.
+
+### Rigenerazione audio, solo sviluppo
+
+I file sono inclusi: per usare o compilare la web app non serve Python. Per rigenerarli servono Python 3.12, `uv`, FFmpeg con `libmp3lame` e rete per il primo download del modello:
+
+```sh
+uv venv --python 3.12 .venv-audio
+uv pip install --python .venv-audio/bin/python -r scripts/audio-requirements.txt
+npm run audio:generate
+npm run audio:check
+npm run audio:test
+```
+
+Il modello e le dipendenze CPU restano nella directory ignorata `.venv-audio/`; non entrano nella build né in git. Revisione del modello, SHA-256, dipendenze, voce e regole fonetiche sono fissati e registrati nel manifest. `audio:check` decodifica i file e verifica copertura, hash, durata e segnale non silenzioso. Dopo una modifica al vocabolario, rigenerare e verificare anche l’audio.
 
 ## Verifiche
 
@@ -47,6 +65,6 @@ npm test
 npm run build
 ```
 
-7 test su precedenze, scadenze, espansione cumulativa, transizioni FSRS e conservazione dello stato. Smoke browser desktop/mobile eseguito su rivelazione, quattro valutazioni, persistenza dopo ricaricamento, tutti i livelli, carta 7–9, ripassi scaduti, attesa/riapparizione automatica, tastiera e sezioni vuote. Chromium di verifica non espone voci: verificato il messaggio di indisponibilità, **non verificato l’ascolto audio**. La build genera circa 9,4 kB gzip di JavaScript, escluso il vocabolario.
+Test dello scheduler su precedenze, scadenze, espansione cumulativa, transizioni FSRS, primo Facile a 5 giorni e conservazione dello stato. Test fonetici su polifonia, segmentazione, ü, erhua, toni neutri, sandhi e pinyin non allineato. Smoke browser su desktop/mobile: rivelazione, valutazioni, persistenza, livelli cumulativi, attesa e scorciatoie. La nuova riproduzione MP3 è stata esercitata anche in Chromium senza voci di sistema: precaricamento silenzioso, avvio, fine, ripetizione, arresto al cambio sezione/livello e recupero dopo un file corrotto simulato. La verifica strumentale non equivale a una valutazione umana della naturalezza o di tutte le pronunce.
 
-Verificata anche la build servita da `npm run preview`: rivelazione, valutazione e persistenza dopo reload su viewport mobile.
+Verificata anche la nuova build servita da `npm run preview`: MP3 riprodotti fino a fine, rivelazione, primo Facile a 5 giorni, persistenza dopo reload e assenza di overflow mobile. Il corpus completo è stato decodificato: 11.092 file, 24 kHz mono, durate 0,475–2,05 secondi, nessun segnale silenzioso. Verificati anche tutti gli SHA-256 degli MP3 e dei JSON copiati nella distribuzione; nessun peso del modello incluso. Build TypeScript/Vite riuscita, JavaScript circa 9,5 kB gzip esclusi dati/audio.

@@ -1,10 +1,14 @@
-import { createEmptyCard, fsrs, State, type Card, type RecordLog } from 'ts-fsrs';
+import { createEmptyCard, fsrs, generatorParameters, State, type Card, type RecordLog } from 'ts-fsrs';
 import type { Word } from './types';
 
 export type { Grade } from 'ts-fsrs';
 
+const weights = [...generatorParameters().w];
+weights[3] = 5; // FSRS initial stability for a new card rated Easy, in days.
+
 const scheduler = fsrs({
   request_retention: 0.9,
+  w: weights,
   enable_fuzz: false,
   enable_short_term: true,
   learning_steps: ['1m', '10m'],

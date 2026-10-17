@@ -8,7 +8,10 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --experimental-strip-types --test src/*.test.ts",
-    "data:import": "node scripts/import-vocabulary.mjs"
+    "data:import": "node scripts/import-vocabulary.mjs",
+    "audio:generate": ".venv-audio/bin/python scripts/generate-audio.py",
+    "audio:check": ".venv-audio/bin/python scripts/generate-audio.py --validate",
+    "audio:test": ".venv-audio/bin/python scripts/test_audio.py"
   },
   "dependencies": {
     "ts-fsrs": "5.4.2"

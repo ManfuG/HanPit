@@ -235,7 +235,7 @@ for (const row of rows) {
     if (keys.some((key) => !(entries.get(normalizeKey(key))?.modern.some(meaningful)))) coverage.resolvedReferences++;
     coverage.exactDictionary++;
   }
-  const word = { id: row.ID, level, hanzi, pinyin: pronunciations, meaning: meanings.join('; '), speech: hanzi };
+  const word = { id: row.ID, level, hanzi, pinyin: pronunciations, meaning: meanings.join('; ') };
   assert(/^[\p{Script=Han}〇]+$/u.test(word.hanzi), `Unclean hanzi: ${row.ID}: ${word.hanzi}`);
   assert(/[a-züāēīōūǖáéíóúǘǎěǐǒǔǚàèìòùǜ]/i.test(word.pinyin), `Invalid pinyin: ${row.ID}`);
   assert(!/[0-9]/.test(word.pinyin), `Unclean pinyin: ${row.ID}`);

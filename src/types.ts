@@ -4,5 +4,4 @@ export interface Word {
   hanzi: string;
   pinyin: string;
   meaning: string; // English dictionary gloss.
-  speech: string;
 }
