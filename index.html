@@ -18,21 +18,21 @@
         <button type="button" data-section="tests">Test</button>
       </nav>
       <p id="error" role="alert" hidden></p>
+      <div id="section-heading" class="deck-heading">
+        <h1 id="section-title">Flashcard</h1>
+        <label class="level-label" for="level">Livello
+          <select id="level" disabled>
+            <option value="1">HSK 1</option>
+            <option value="2">HSK 2</option>
+            <option value="3">HSK 3</option>
+            <option value="4">HSK 4</option>
+            <option value="5">HSK 5</option>
+            <option value="6">HSK 6</option>
+            <option value="7">HSK 7–9</option>
+          </select>
+        </label>
+      </div>
       <section id="flashcards" aria-label="Flashcard" aria-busy="true">
-        <div class="deck-heading">
-          <h1>Flashcard</h1>
-          <label class="level-label" for="level">Vocabolario fino a
-            <select id="level" disabled>
-              <option value="1">HSK 1</option>
-              <option value="2">HSK 2</option>
-              <option value="3">HSK 3</option>
-              <option value="4">HSK 4</option>
-              <option value="5">HSK 5</option>
-              <option value="6">HSK 6</option>
-              <option value="7">HSK 7–9</option>
-            </select>
-          </label>
-        </div>
         <dl class="counts" aria-label="Stato del mazzo">
           <div><dt>Nuove</dt><dd id="new-count">—</dd></div>
           <div><dt>Da ripassare</dt><dd id="due-count">—</dd></div>

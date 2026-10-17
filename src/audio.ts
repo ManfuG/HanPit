@@ -1,7 +1,14 @@
-export function createPronunciation(status: HTMLElement) {
+export interface Pronunciation {
+  preload(id: string | undefined, status?: HTMLElement): void;
+  play(): Promise<void>;
+  stop(): void;
+}
+
+export function createPronunciation(defaultStatus: HTMLElement): Pronunciation {
   const audio = new Audio();
   audio.preload = 'auto';
   let source: string | undefined;
+  let status = defaultStatus;
   let attempt = 0;
   let onError: (() => void) | undefined;
 
@@ -14,8 +21,9 @@ export function createPronunciation(status: HTMLElement) {
     status.textContent = '';
   }
 
-  function preload(id: string | undefined) {
+  function preload(id: string | undefined, nextStatus = defaultStatus) {
     stop();
+    status = nextStatus;
     if (id) {
       audio.src = `${import.meta.env.BASE_URL}audio/${id}.mp3`;
       source = audio.src;

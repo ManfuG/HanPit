@@ -1,6 +1,6 @@
-# HanPit vocabulary: GF0025-2021
+# HanPit vocabulary and grammar: GF0025-2021
 
-These seven JSON files contain **all 11,092 official vocabulary entries**, not a selection of convenient dictionary headwords. Definitions are **English**, not Italian translations. The interface language does not change the dictionary's language.
+The seven `level-*.json` files contain **all 11,092 official vocabulary entries**, not a selection of convenient dictionary headwords. Definitions are **English**, not Italian translations. The interface language does not change the dictionary's language.
 
 | File | Official new entries | Cumulative |
 | --- | ---: | ---: |
@@ -78,6 +78,42 @@ The **derived `level-*.json` vocabulary dataset**, including its adapted CC-CEDI
 Attribution: **CC-CEDICT / MDBG and its community contributors; Ivan Krasilnikov and the transcription contributors named below; Yanis Zafirópulos (Dr.Kameleon); HanPit contributors for the adapted per-level dataset.** This file records the sources, immutable versions and changes. CC-CEDICT is based in part on CEDICT, copyright (C) 1997, 1998 Paul Andrew Denisowski. Attribution does not imply endorsement by these authors or by the Ministry of Education.
 
 You may share and adapt the data, including commercially, subject to attribution, a license link, indication of changes, and sharing adaptations under the same or a compatible license as permitted by CC BY-SA 3.0. No additional restrictions are imposed here. The upstream MIT notices below are retained for their respective contributions; they do **not** remove CC-CEDICT's attribution/share-alike requirements. This data licensing statement does not relicense unrelated application source code.
+
+## Grammar inventory and original lessons
+
+The grammar follows **Appendix A of GF0025-2021**, with **572 points**, not a later examination syllabus. `grammar-level-7.json` represents the common advanced 7–9 block, without an invented subdivision.
+
+| Level | Grammar points | Authored examples |
+| --- | ---: | ---: |
+| 1 | 48 | 134 |
+| 2 | 81 | 221 |
+| 3 | 81 | 203 |
+| 4 | 76 | 181 |
+| 5 | 71 | 164 |
+| 6 | 67 | 142 |
+| 7–9 | 148 | 320 |
+| Total | 572 | 1,365 |
+
+Primary source: the Ministry’s [official scanned PDF](https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/W020211118507389477190.pdf), SHA-256 `e451fdf0899d9267bbd122db66e7e75bdd2851ad1e6732e47b6e960290d73a63`. Appendix A occupies PDF pages 176–260, printed pages 170–254.
+
+The inventory uses Ivan Krasilnikov’s [hsk30-grammar.csv at commit 4ff9e3915ce87baaecd7ebe263085573a4ea3192](https://github.com/ivankra/hsk30/blob/4ff9e3915ce87baaecd7ebe263085573a4ea3192/hsk30-grammar.csv), SHA-256 `9a546944af00976a3afb160fe70dd564a035d36eff82eb275b6aed7ed8a9ccf4`, vendored unchanged as `scripts/sources/grammar.csv`. Its MIT notice is retained below. Three source treatments are explicit in `scripts/check-grammar.py`:
+
+- Row `No=123` is an unnumbered `※` cross-reference under official 【二74】, not an extra grammar point. Excluding it gives 81 level-2 points and 572 overall; see PDF page 196, printed page 190.
+- Row `No=67`, official 【二19】: restore missing **一定** in `必须、差不多、好像、一定、也许`; PDF page 187, printed page 181.
+- Row `No=297`, A.5.1.4.2 **将**: preserve category **介词**, correct its function to **引出施事、受事**, rather than purpose/cause; PDF page 223, printed page 217.
+
+`grammar-index.json` preserves the corrected inventory’s source group, category, details and construction. `sourceNo` is the original CSV number. **`G1-001` … `G7-148` are stable local lesson IDs, not official appendix numbers**; in particular, the advanced transcription’s order differs from the PDF’s order. No point is deduplicated by its spelling.
+
+The seven lesson files contain original Italian titles, schemas and explanations, plus original Chinese examples, explicit citation Pinyin and Italian translations. They are teaching material aligned to the inventory, not an official Italian translation or Ministry endorsement. These explanations and examples do not derive from CC-CEDICT glosses; the vocabulary’s CC BY-SA statement above applies to `level-*.json`, not these independent lesson texts. The upstream MIT notice applies to the source transcription and its adapted inventory.
+
+Validation from the project root:
+
+```sh
+npm run grammar:check
+python3 scripts/check-grammar.py --write-index
+```
+
+The second command rebuilds only the canonical inventory from the pinned CSV; it does not generate or rewrite teaching prose. Validation checks exact point coverage, source identities, per-level order, unique example IDs, required fields, Unicode normalization and at least two examples per rule. Example audio is generated separately under `../audio/grammar/`; its manifest records the source text, Pinyin, surface pronunciation, phonemes and hashes.
 
 ## Upstream MIT notices (retained)
 

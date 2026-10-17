@@ -1,0 +1,680 @@
+[
+  {
+    "id": "G6-001", "level": 6, "sourceNo": 359,
+    "title": "Prefissi che modificano il significato",
+    "pattern": "超、多、反、无、亚、准 + base",
+    "explanation": "Questi elementi formano parole: 超 indica il superamento di un limite, 多 la molteplicità, 反 l'opposizione e 无 l'assenza. 亚 indica una condizione secondaria o inferiore a quella piena, come 亚健康; 准 una condizione prossima o prevista, come 准妈妈. Non sono prefissi liberamente applicabili a qualsiasi nome: si imparano nelle combinazioni in uso.",
+    "examples": [
+      {"id":"G6-001-1","hanzi":"这是一家无烟餐厅。","pinyin":"Zhè shì yī jiā wúyān cāntīng.","translation":"Questo è un ristorante in cui non si fuma."},
+      {"id":"G6-001-2","hanzi":"我们需要从多角度分析这个问题。","pinyin":"Wǒmen xūyào cóng duōjiǎodù fēnxī zhège wèntí.","translation":"Dobbiamo analizzare questo problema da più prospettive."}
+    ]
+  },
+  {
+    "id": "G6-002", "level": 6, "sourceNo": 360,
+    "title": "Suffissi di trasformazione, stile, tipo e proprietà",
+    "pattern": "base + 化、式、型、性",
+    "explanation": "化 esprime una trasformazione o il suo processo, come 现代化; 式 indica uno stile o un modello, come 中式. 型 classifica per tipo o dimensione, come 小型, mentre 性 forma nomi di proprietà o carattere, come 安全性. La funzione dipende dalla parola completa: non tutti questi composti sono verbi.",
+    "examples": [
+      {"id":"G6-002-1","hanzi":"这家工厂正在实现自动化。","pinyin":"Zhè jiā gōngchǎng zhèngzài shíxiàn zìdònghuà.","translation":"Questa fabbrica sta passando all'automazione."},
+      {"id":"G6-002-2","hanzi":"这种小型汽车的安全性很高。","pinyin":"Zhè zhǒng xiǎoxíng qìchē de ānquánxìng hěn gāo.","translation":"Questo tipo di automobile compatta offre un elevato livello di sicurezza."}
+    ]
+  },
+  {
+    "id": "G6-003", "level": 6, "sourceNo": 361,
+    "title": "本 e 此 nel registro formale",
+    "pattern": "本 + nome；此 + nome／此外",
+    "explanation": "本 davanti a un nome indica l'ente, il luogo o il periodo a cui appartiene chi parla o il testo: 本校 è la nostra scuola o la scuola in questione. 此 significa questo o ciò e riprende spesso un elemento già menzionato; 此外 introduce un'aggiunta. Sono forme soprattutto scritte, non sostituti universali di 这 nel parlato.",
+    "examples": [
+      {"id":"G6-003-1","hanzi":"本校不收报名费。","pinyin":"Běn xiào bù shōu bàomíngfèi.","translation":"La nostra scuola non richiede una quota d'iscrizione."},
+      {"id":"G6-003-2","hanzi":"此事需要保密，此外还有几个问题要讨论。","pinyin":"Cǐ shì xūyào bǎomì, cǐwài hái yǒu jǐ ge wèntí yào tǎolùn.","translation":"Questa faccenda deve restare riservata; inoltre ci sono altri problemi da discutere."}
+    ]
+  },
+  {
+    "id": "G6-004", "level": 6, "sourceNo": 362,
+    "title": "Classificatori per pasti, insiemi e quantità",
+    "pattern": "numero + 餐、串、滴、副、股、集、枝 + nome",
+    "explanation": "餐 conta i pasti, 串 gli elementi infilati o riuniti in una fila e 滴 le gocce. 副 conta coppie o insiemi funzionali, come guanti e racchette; 股 quantità di forza, odore o corrente. 集 conta episodi di serie e 枝 fiori o oggetti a forma di stelo: la scelta dipende dal modo in cui si considera il referente.",
+    "examples": [
+      {"id":"G6-004-1","hanzi":"她买了一串葡萄和两枝花。","pinyin":"Tā mǎi le yī chuàn pútáo hé liǎng zhī huā.","translation":"Ha comprato un grappolo d'uva e due fiori."},
+      {"id":"G6-004-2","hanzi":"吃完一餐饭，我们看了两集电视剧。","pinyin":"Chī wán yī cān fàn, wǒmen kàn le liǎng jí diànshìjù.","translation":"Dopo il pasto abbiamo guardato due episodi di una serie televisiva."}
+    ]
+  },
+  {
+    "id": "G6-005", "level": 6, "sourceNo": 363,
+    "title": "Contare un'attività, un suono o un tragitto",
+    "pattern": "verbo + numero + 番、声、趟",
+    "explanation": "番 presenta un'attività articolata come un unico episodio, spesso con 一番, per esempio una discussione o una riflessione. 声 conta emissioni di voce o suoni, mentre 趟 conta spostamenti effettuati verso un luogo. Non sono intercambiabili con 次, che conta genericamente le occorrenze.",
+    "examples": [
+      {"id":"G6-005-1","hanzi":"我们认真讨论了一番。","pinyin":"Wǒmen rènzhēn tǎolùn le yī fān.","translation":"Ne abbiamo discusso con attenzione per un po'."},
+      {"id":"G6-005-2","hanzi":"他喊了一声，又跑了一趟办公室。","pinyin":"Tā hǎn le yī shēng, yòu pǎo le yī tàng bàngōngshì.","translation":"Ha lanciato un grido ed è tornato di corsa in ufficio."}
+    ]
+  },
+  {
+    "id": "G6-006", "level": 6, "sourceNo": 364,
+    "title": "Intensità con 特 e 异常",
+    "pattern": "特／异常 + aggettivo",
+    "explanation": "特 intensifica un aggettivo nel parlato, con il senso di davvero o particolarmente. 异常 indica un grado fuori dall'ordinario ed è più comune nella descrizione scritta o formale. Entrambi precedono il predicato aggettivale senza richiedere 是.",
+    "examples": [
+      {"id":"G6-006-1","hanzi":"这家面馆的面特好吃。","pinyin":"Zhè jiā miànguǎn de miàn tè hǎochī.","translation":"La pasta di questo ristorante è davvero buona."},
+      {"id":"G6-006-2","hanzi":"今天的湖面异常平静。","pinyin":"Jīntiān de húmiàn yìcháng píngjìng.","translation":"Oggi la superficie del lago è insolitamente calma."}
+    ]
+  },
+  {
+    "id": "G6-007", "level": 6, "sourceNo": 365,
+    "title": "Esclusività e azione collettiva",
+    "pattern": "尽／净 + predicato；一齐／一同 + verbo",
+    "explanation": "尽, letto jìn in questo uso, e 净 indicano che ciò che si trova o accade è tutto di un certo tipo, spesso con tono di insoddisfazione. 一齐 mette in risalto la simultaneità di più partecipanti; 一同 il fatto di svolgere insieme la stessa attività. Con 尽是 e 净是 l'esclusività riguarda ciò che segue 是.",
+    "examples": [
+      {"id":"G6-007-1","hanzi":"抽屉里尽是旧照片，桌上净是废纸。","pinyin":"Chōuti lǐ jìn shì jiù zhàopiàn, zhuō shàng jìng shì fèizhǐ.","translation":"Nel cassetto ci sono solo vecchie foto e sul tavolo soltanto cartacce."},
+      {"id":"G6-007-2","hanzi":"大家一齐站起来，跟老师一同走出教室。","pinyin":"Dàjiā yīqí zhàn qǐlái, gēn lǎoshī yītóng zǒu chū jiàoshì.","translation":"Tutti si alzarono contemporaneamente e uscirono dall'aula insieme all'insegnante."}
+    ]
+  },
+  {
+    "id": "G6-008", "level": 6, "sourceNo": 366,
+    "title": "Ricorrenza, brevità e inevitabilità",
+    "pattern": "时时／一时／早晚 + predicato",
+    "explanation": "时时 indica una ricorrenza frequente o un'attenzione costante. 一时 delimita un momento o un periodo breve, spesso in 一时想不起来 per un'incapacità momentanea. 早晚, come avverbio, significa prima o poi e presenta l'evento come destinato ad accadere, non come una scelta tra mattina e sera.",
+    "examples": [
+      {"id":"G6-008-1","hanzi":"老师的提醒让我时时保持警惕。","pinyin":"Lǎoshī de tíxǐng ràng wǒ shíshí bǎochí jǐngtì.","translation":"Gli avvertimenti dell'insegnante mi tengono costantemente all'erta."},
+      {"id":"G6-008-2","hanzi":"我一时想不出办法，但早晚会解决的。","pinyin":"Wǒ yīshí xiǎng bù chū bànfǎ, dàn zǎowǎn huì jiějué de.","translation":"Al momento non mi viene in mente una soluzione, ma prima o poi risolverò il problema."}
+    ]
+  },
+  {
+    "id": "G6-009", "level": 6, "sourceNo": 367,
+    "title": "便 come conseguenza immediata",
+    "pattern": "一 + evento + 便 + conseguenza",
+    "explanation": "便 collega una circostanza all'azione che ne segue, con valore simile a 就 ma dal tono più scritto. È frequente dopo 一 per indicare che l'azione successiva scatta appena si verifica l'evento. Si trova prima del verbo della conseguenza, non prima del soggetto di quella proposizione.",
+    "examples": [
+      {"id":"G6-009-1","hanzi":"他一听到消息便赶来了。","pinyin":"Tā yī tīngdào xiāoxi biàn gǎn lái le.","translation":"Appena ha saputo la notizia è accorso."},
+      {"id":"G6-009-2","hanzi":"我一有空便去河边散步。","pinyin":"Wǒ yī yǒu kòng biàn qù hébiān sànbù.","translation":"Appena ho un momento libero vado a passeggiare lungo il fiume."}
+    ]
+  },
+  {
+    "id": "G6-010", "level": 6, "sourceNo": 368,
+    "title": "Reazioni involontarie e azioni intenzionali",
+    "pattern": "不禁／赶忙／亲眼／特地／特意 + verbo",
+    "explanation": "不禁 introduce una reazione che non si riesce a trattenere; 赶忙 un'azione compiuta in fretta in risposta a una situazione. 亲眼 sottolinea la testimonianza diretta della vista. 特地 e 特意 esprimono intenzione deliberata, spesso un gesto fatto appositamente per qualcuno: 特地 mette facilmente in risalto il disturbo o lo spostamento affrontato.",
+    "examples": [
+      {"id":"G6-010-1","hanzi":"看到这张照片，我不禁笑了起来。","pinyin":"Kàndào zhè zhāng zhàopiàn, wǒ bùjīn xiào le qǐlái.","translation":"Vedendo questa foto non ho potuto fare a meno di ridere."},
+      {"id":"G6-010-2","hanzi":"我亲眼看见孩子摔倒，赶忙跑过去扶他。","pinyin":"Wǒ qīnyǎn kànjiàn háizi shuāidǎo, gǎnmáng pǎo guòqù fú tā.","translation":"Ho visto con i miei occhi il bambino cadere e sono corso subito ad aiutarlo a rialzarsi."},
+      {"id":"G6-010-3","hanzi":"她特地来看我，还特意带了我爱吃的点心。","pinyin":"Tā tèdì lái kàn wǒ, hái tèyì dài le wǒ ài chī de diǎnxin.","translation":"È venuta apposta a trovarmi e ha anche portato proprio i dolci che mi piacciono."}
+    ]
+  },
+  {
+    "id": "G6-011", "level": 6, "sourceNo": 369,
+    "title": "Somiglianza e impressione con 仿佛",
+    "pattern": "soggetto + 仿佛 + descrizione",
+    "explanation": "仿佛 introduce un'impressione o una somiglianza: sembra che, come se. Non afferma necessariamente che la situazione descritta sia reale e può accompagnare 一样 per rendere esplicito il paragone. La sua portata può essere un'intera descrizione, non solo un nome.",
+    "examples": [
+      {"id":"G6-011-1","hanzi":"走进这条老街，仿佛回到了童年。","pinyin":"Zǒu jìn zhè tiáo lǎojiē, fǎngfú huídào le tóngnián.","translation":"Entrando in questa vecchia strada sembra di tornare all'infanzia."},
+      {"id":"G6-011-2","hanzi":"她仿佛没有听见我的话。","pinyin":"Tā fǎngfú méiyǒu tīngjiàn wǒ de huà.","translation":"Sembra che non abbia sentito quello che ho detto."}
+    ]
+  },
+  {
+    "id": "G6-012", "level": 6, "sourceNo": 370,
+    "title": "Rifiuto enfatico, coincidenza e ostinazione",
+    "pattern": "才不／才没；刚好／恰好；偏要／偏不",
+    "explanation": "才 davanti a una negazione respinge con forza un'ipotesi o una proposta: non significa qui soltanto o appena. 刚好 e 恰好 indicano una coincidenza o una corrispondenza precisa; 恰好 può anche evidenziare un contrasto esatto, come 恰好相反. 偏 presenta un fatto o una scelta contrari all'attesa, spesso ostinati con 偏要 o 偏不.",
+    "examples": [
+      {"id":"G6-012-1","hanzi":"我才不信他的借口呢。","pinyin":"Wǒ cái bù xìn tā de jièkǒu ne.","translation":"Non credo proprio alle sue scuse."},
+      {"id":"G6-012-2","hanzi":"我到车站时，车刚好来了，时间恰好合适。","pinyin":"Wǒ dào chēzhàn shí, chē gānghǎo lái le, shíjiān qiàhǎo héshì.","translation":"Quando sono arrivato alla fermata è arrivato anche l'autobus: il momento era proprio quello giusto."},
+      {"id":"G6-012-3","hanzi":"大家劝他休息，他偏要继续工作。","pinyin":"Dàjiā quàn tā xiūxi, tā piān yào jìxù gōngzuò.","translation":"Tutti gli consigliano di riposare, ma lui si ostina a voler continuare a lavorare."}
+    ]
+  },
+  {
+    "id": "G6-013", "level": 6, "sourceNo": 371,
+    "title": "Tempo e luogo formali con 于",
+    "pattern": "verbo + 于 + tempo／luogo",
+    "explanation": "于 introduce il momento o il luogo di un evento in espressioni formali come 出生于 e 位于. A differenza del comune 在 anteposto al verbo, in queste costruzioni segue il verbo e precede il riferimento temporale o spaziale. È frequente in biografie, descrizioni e comunicazioni ufficiali.",
+    "examples": [
+      {"id":"G6-013-1","hanzi":"这座桥建于清代。","pinyin":"Zhè zuò qiáo jiàn yú Qīngdài.","translation":"Questo ponte fu costruito durante la dinastia Qing."},
+      {"id":"G6-013-2","hanzi":"研究所位于城市北部。","pinyin":"Yánjiūsuǒ wèiyú chéngshì běibù.","translation":"L'istituto di ricerca si trova nella parte settentrionale della città."}
+    ]
+  },
+  {
+    "id": "G6-014", "level": 6, "sourceNo": 372,
+    "title": "Seguire un percorso con 沿 e 沿着",
+    "pattern": "沿（着）+ percorso + verbo di movimento",
+    "explanation": "沿 o 沿着 introduce la linea seguita durante uno spostamento, come una strada, una riva o un corridoio. Non indica semplicemente la destinazione: descrive il percorso lungo il quale ci si muove. 着 è facoltativo in molte di queste espressioni.",
+    "examples": [
+      {"id":"G6-014-1","hanzi":"沿着这条小路走，就能到海边。","pinyin":"Yánzhe zhè tiáo xiǎolù zǒu, jiù néng dào hǎibiān.","translation":"Seguendo questo sentiero arriverai al mare."},
+      {"id":"G6-014-2","hanzi":"我们沿河慢慢往前走。","pinyin":"Wǒmen yán hé mànmàn wǎng qián zǒu.","translation":"Procediamo lentamente lungo il fiume."}
+    ]
+  },
+  {
+    "id": "G6-015", "level": 6, "sourceNo": 373,
+    "title": "Interlocutore e termine di confronto con 同 e 与",
+    "pattern": "同／与 + persona + predicato",
+    "explanation": "Come preposizioni, 同 e 与 introducono chi partecipa a un rapporto, a uno scambio o a un confronto. Corrispondono spesso a 跟 o 和, ma 与 è particolarmente comune nello scritto formale. Il gruppo preposizionale dipende dal predicato: qui non si stanno semplicemente coordinando due nomi.",
+    "examples": [
+      {"id":"G6-015-1","hanzi":"我想同你商量一下旅行计划。","pinyin":"Wǒ xiǎng tóng nǐ shāngliang yīxià lǚxíng jìhuà.","translation":"Vorrei discutere con te il programma del viaggio."},
+      {"id":"G6-015-2","hanzi":"这个结果与我们的预测一致。","pinyin":"Zhège jiéguǒ yǔ wǒmen de yùcè yīzhì.","translation":"Questo risultato coincide con le nostre previsioni."}
+    ]
+  },
+  {
+    "id": "G6-016", "level": 6, "sourceNo": 374,
+    "title": "Cambiare tema con 至于",
+    "pattern": "tema già trattato，至于 + nuovo tema，commento",
+    "explanation": "至于 introduce un aspetto distinto di cui si vuole parlare: quanto a, per quanto riguarda. Spesso separa ciò che è già deciso da ciò che rimane da chiarire. Non esprime qui una destinazione e non va usato come semplice traduzione di ogni riguardo a.",
+    "examples": [
+      {"id":"G6-016-1","hanzi":"地点已经选好了，至于时间，我们再商量。","pinyin":"Dìdiǎn yǐjīng xuǎn hǎo le, zhìyú shíjiān, wǒmen zài shāngliang.","translation":"Il luogo è già stato scelto; quanto all'orario, ne riparliamo."},
+      {"id":"G6-016-2","hanzi":"我同意这个方案，至于费用，还得问经理。","pinyin":"Wǒ tóngyì zhège fāng'àn, zhìyú fèiyòng, hái děi wèn jīnglǐ.","translation":"Sono d'accordo con questo piano; per i costi bisogna però sentire il direttore."}
+    ]
+  },
+  {
+    "id": "G6-017", "level": 6, "sourceNo": 375,
+    "title": "Causa concisa con 因",
+    "pattern": "因 + causa + predicato",
+    "explanation": "因 introduce una causa con tono conciso e formale, spesso davanti a un nome o a un breve gruppo verbale. Compare in avvisi e motivazioni come 因病, per malattia, e 因工作需要, per esigenze lavorative. Rispetto a 因为 è meno comune nelle spiegazioni conversazionali estese.",
+    "examples": [
+      {"id":"G6-017-1","hanzi":"航班因大雾取消了。","pinyin":"Hángbān yīn dàwù qǔxiāo le.","translation":"Il volo è stato cancellato a causa della fitta nebbia."},
+      {"id":"G6-017-2","hanzi":"她因工作需要搬到了广州。","pinyin":"Tā yīn gōngzuò xūyào bān dào le Guǎngzhōu.","translation":"Si è trasferita a Guangzhou per esigenze lavorative."}
+    ]
+  },
+  {
+    "id": "G6-018", "level": 6, "sourceNo": 376,
+    "title": "Escludere un elemento con 除",
+    "pattern": "除 + elemento + 以外，其他／都／没有…",
+    "explanation": "除 è la forma concisa di 除了 e può introdurre l'elemento escluso da una generalizzazione. Con 都 ciò che segue vale per tutti gli altri; con 没有其他 si dice invece che non esistono ulteriori elementi oltre a quello indicato. Qui è il resto della frase a chiarire l'estensione dell'esclusione.",
+    "examples": [
+      {"id":"G6-018-1","hanzi":"除周一以外，图书馆每天都开放。","pinyin":"Chú zhōuyī yǐwài, túshūguǎn měi tiān dōu kāifàng.","translation":"La biblioteca è aperta ogni giorno tranne il lunedì."},
+      {"id":"G6-018-2","hanzi":"除这两个箱子以外，我没有其他行李。","pinyin":"Chú zhè liǎng ge xiāngzi yǐwài, wǒ méiyǒu qítā xíngli.","translation":"Oltre a queste due valigie non ho altri bagagli."}
+    ]
+  },
+  {
+    "id": "G6-019", "level": 6, "sourceNo": 377,
+    "title": "Indicare la fonte con 据",
+    "pattern": "据 + fonte／verbo di comunicazione，affermazione",
+    "explanation": "据 introduce la fonte su cui si basa un'affermazione, come un rapporto, un'indagine o le parole di un esperto. Il gruppo precede spesso l'intera frase e ne qualifica l'informazione senza garantirne personalmente la verità. Sono comuni anche le forme compatte 据说, a quanto si dice, e 据统计, secondo le statistiche.",
+    "examples": [
+      {"id":"G6-019-1","hanzi":"据调查，多数居民支持这个计划。","pinyin":"Jù diàochá, duōshù jūmín zhīchí zhège jìhuà.","translation":"Secondo l'indagine, la maggior parte dei residenti sostiene questo progetto."},
+      {"id":"G6-019-2","hanzi":"据说这家书店下个月就关门了。","pinyin":"Jùshuō zhè jiā shūdiàn xià ge yuè jiù guānmén le.","translation":"A quanto si dice, questa libreria chiuderà già il mese prossimo."}
+    ]
+  },
+  {
+    "id": "G6-020", "level": 6, "sourceNo": 378,
+    "title": "Coordinare parole con 而、同、与",
+    "pattern": "qualità + 而 + qualità；nome + 同／与 + nome",
+    "explanation": "而 può unire due qualità compatibili della stessa entità, soprattutto nello scritto, senza implicare un contrasto. 同 e 与 coordinano nomi o gruppi nominali e corrispondono a e. In questo uso i due nomi svolgono insieme la stessa funzione nella frase, diversamente dal gruppo preposizionale dipendente da un verbo.",
+    "examples": [
+      {"id":"G6-020-1","hanzi":"她的回答简短而清楚。","pinyin":"Tā de huídá jiǎnduǎn ér qīngchu.","translation":"La sua risposta è breve e chiara."},
+      {"id":"G6-020-2","hanzi":"老师同学生都参加了讨论。","pinyin":"Lǎoshī tóng xuésheng dōu cānjiā le tǎolùn.","translation":"Sia gli insegnanti sia gli studenti hanno partecipato alla discussione."},
+      {"id":"G6-020-3","hanzi":"理论与实践同样重要。","pinyin":"Lǐlùn yǔ shíjiàn tóngyàng zhòngyào.","translation":"Teoria e pratica sono ugualmente importanti."}
+    ]
+  },
+  {
+    "id": "G6-021", "level": 6, "sourceNo": 379,
+    "title": "Sorpresa, contrasto e ipotesi tra proposizioni",
+    "pattern": "不料 + esito inatteso；可 + contrasto；若…就…",
+    "explanation": "不料 introduce un risultato non previsto, spesso contrario al progetto iniziale. 可, usato come congiunzione, apre un contrasto colloquiale e non significa qui potere. 若 introduce un'ipotesi ed equivale a 如果, con registro più scritto; può essere ripreso da 就 nella conseguenza.",
+    "examples": [
+      {"id":"G6-021-1","hanzi":"我本想早点到，不料路上堵车了。","pinyin":"Wǒ běn xiǎng zǎodiǎn dào, bùliào lù shàng dǔchē le.","translation":"Volevo arrivare presto, ma inaspettatamente ho trovato traffico."},
+      {"id":"G6-021-2","hanzi":"我想帮忙，可我实在没有时间。","pinyin":"Wǒ xiǎng bāngmáng, kě wǒ shízài méiyǒu shíjiān.","translation":"Vorrei aiutare, ma davvero non ho tempo."},
+      {"id":"G6-021-3","hanzi":"若有变化，请及时通知我们。","pinyin":"Ruò yǒu biànhuà, qǐng jíshí tōngzhī wǒmen.","translation":"Se ci saranno cambiamenti, vi preghiamo di avvisarci tempestivamente."}
+    ]
+  },
+  {
+    "id": "G6-022", "level": 6, "sourceNo": 380,
+    "title": "Nominalizzare con 所",
+    "pattern": "autore + 所 + verbo + 的 + nome；所 + verbo",
+    "explanation": "所 precede un verbo per richiamare ciò a cui si applica l'azione, spesso in una relativa con 的. In 我所写的文章, 我 è chi scrive e 文章 ciò che è stato scritto. Nelle formule come 据我所知, il nome non è espresso e 所知 significa ciò che si sa; il registro è prevalentemente scritto.",
+    "examples": [
+      {"id":"G6-022-1","hanzi":"你所提供的信息很有价值。","pinyin":"Nǐ suǒ tígōng de xìnxī hěn yǒu jiàzhí.","translation":"Le informazioni che hai fornito sono molto preziose."},
+      {"id":"G6-022-2","hanzi":"据我所知，他还没有离开北京。","pinyin":"Jù wǒ suǒ zhī, tā hái méiyǒu líkāi Běijīng.","translation":"Per quanto ne so, non ha ancora lasciato Pechino."}
+    ]
+  },
+  {
+    "id": "G6-023", "level": 6, "sourceNo": 381,
+    "title": "Ridimensionare, annunciare e richiamare l'evidenza",
+    "pattern": "不过／只是…罢了；frase + 啦／嘛",
+    "explanation": "罢了, letto bàle, chiude una frase ridimensionando quanto detto: tutto qui, nient'altro. 啦 dà vivacità a un annuncio o a un'esortazione ed è spesso collegato alla combinazione di 了 e 啊. 嘛 presenta una ragione come ovvia o condivisa, oppure rende insistente un invito; il tono può risultare confidenziale o impaziente.",
+    "examples": [
+      {"id":"G6-023-1","hanzi":"我只是随便问问罢了。","pinyin":"Wǒ zhǐshì suíbiàn wènwen bàle.","translation":"Ho fatto soltanto una domanda così, senza un motivo particolare."},
+      {"id":"G6-023-2","hanzi":"车来啦，快上车！","pinyin":"Chē lái la, kuài shàng chē!","translation":"È arrivato l'autobus, salite presto!"},
+      {"id":"G6-023-3","hanzi":"别着急嘛，我们还有时间。","pinyin":"Bié zháojí ma, wǒmen hái yǒu shíjiān.","translation":"Non agitarti, dai, abbiamo ancora tempo."}
+    ]
+  },
+  {
+    "id": "G6-024", "level": 6, "sourceNo": 382,
+    "title": "Descrivere la quantità dentro il classificatore",
+    "pattern": "numero + aggettivo + classificatore + nome",
+    "explanation": "Un aggettivo come 大、小 o 长 può inserirsi tra il numero e il classificatore per descrivere la dimensione della porzione o dell'insieme contato. 一大杯茶 è una tazza abbondante di tè, non una normale relativa con 的. La costruzione è limitata a combinazioni naturali di aggettivo e classificatore.",
+    "examples": [
+      {"id":"G6-024-1","hanzi":"他一口气喝了一大杯水。","pinyin":"Tā yī kǒu qì hē le yī dà bēi shuǐ.","translation":"Ha bevuto un bicchierone d'acqua tutto d'un fiato."},
+      {"id":"G6-024-2","hanzi":"请给我一小份米饭。","pinyin":"Qǐng gěi wǒ yī xiǎo fèn mǐfàn.","translation":"Mi dia una piccola porzione di riso, per favore."}
+    ]
+  },
+  {
+    "id": "G6-025", "level": 6, "sourceNo": 383,
+    "title": "Variabilità con 或A或B",
+    "pattern": "或 + qualità A + 或 + qualità B",
+    "explanation": "或A或B accosta due possibilità, spesso opposte, per descrivere una gamma variabile: più o meno grandi, alti o bassi. Si usa facilmente come modificatore con 的 e non impone al destinatario di scegliere tra due azioni. Il contesto può indicare che individui diversi presentano gradi diversi.",
+    "examples": [
+      {"id":"G6-025-1","hanzi":"每个人都有或多或少的烦恼。","pinyin":"Měi ge rén dōu yǒu huò duō huò shǎo de fánnǎo.","translation":"Tutti hanno qualche preoccupazione, chi più chi meno."},
+      {"id":"G6-025-2","hanzi":"墙上挂着或大或小的照片。","pinyin":"Qiáng shàng guàzhe huò dà huò xiǎo de zhàopiàn.","translation":"Alla parete sono appese fotografie di varie dimensioni."}
+    ]
+  },
+  {
+    "id": "G6-026", "level": 6, "sourceNo": 384,
+    "title": "Assenza totale con 无A无B",
+    "pattern": "无 + elemento A + 无 + elemento B",
+    "explanation": "无A无B forma espressioni compatte che negano entrambi gli elementi, come 无忧无虑, senza pensieri. Sono in gran parte combinazioni lessicalizzate, non uno schema da riempire arbitrariamente. In 无时无刻不 la doppia negazione esprime continuità: non c'è momento in cui non accada qualcosa.",
+    "examples": [
+      {"id":"G6-026-1","hanzi":"孩子们在院子里无忧无虑地玩着。","pinyin":"Háizimen zài yuànzi lǐ wúyōuwúlǜ de wánzhe.","translation":"I bambini giocano spensierati nel cortile."},
+      {"id":"G6-026-2","hanzi":"她无时无刻不在牵挂家人。","pinyin":"Tā wúshíwúkè bù zài qiānguà jiārén.","translation":"Non c'è momento in cui non pensi con apprensione ai suoi familiari."}
+    ]
+  },
+  {
+    "id": "G6-027", "level": 6, "sourceNo": 385,
+    "title": "Questo e quello con A这A那",
+    "pattern": "verbo + 这 + stesso verbo + 那",
+    "explanation": "Ripetendo il verbo con 这 e 那 si estende l'azione a cose diverse non specificate: chiedere questo e quello, lamentarsi di tutto. La valutazione dipende dal verbo e dal contesto, ma spesso si suggeriscono insistenza o dispersione. Non si riferisce necessariamente a due oggetti concretamente indicati.",
+    "examples": [
+      {"id":"G6-027-1","hanzi":"他刚进门就问这问那。","pinyin":"Tā gāng jìn mén jiù wèn zhè wèn nà.","translation":"Appena entrato ha cominciato a chiedere questo e quello."},
+      {"id":"G6-027-2","hanzi":"别总嫌这嫌那，先试试看。","pinyin":"Bié zǒng xián zhè xián nà, xiān shìshi kàn.","translation":"Non trovare sempre da ridire su tutto, prima prova."}
+    ]
+  },
+  {
+    "id": "G6-028", "level": 6, "sourceNo": 386,
+    "title": "Azione in più direzioni con 左A右B",
+    "pattern": "左 + verbo A + 右 + verbo B",
+    "explanation": "左A右B presenta movimenti o attività rivolti a più lati, spesso con due verbi uguali o vicini di significato. Può descrivere un movimento concreto, come guardarsi intorno, oppure uno sforzo ripetuto, come riflettere da ogni punto di vista. Le combinazioni convenzionali vanno apprese come unità.",
+    "examples": [
+      {"id":"G6-028-1","hanzi":"他在商店里左看右看，什么也没买。","pinyin":"Tā zài shāngdiàn lǐ zuǒ kàn yòu kàn, shénme yě méi mǎi.","translation":"Nel negozio ha guardato da tutte le parti senza comprare nulla."},
+      {"id":"G6-028-2","hanzi":"我左思右想，还是决定留下来。","pinyin":"Wǒ zuǒ sī yòu xiǎng, háishi juédìng liú xiàlái.","translation":"Ci ho riflettuto a lungo e alla fine ho deciso di restare."}
+    ]
+  },
+  {
+    "id": "G6-029", "level": 6, "sourceNo": 387,
+    "title": "Negazione attenuata con 不怎么",
+    "pattern": "不怎么 + aggettivo／verbo",
+    "explanation": "不怎么 riduce il grado di una qualità o la frequenza di un'attività: non molto, non particolarmente. Davanti a verbi come 喜欢 o 在意 ne attenua l'intensità. Deve essere seguito da un predicato, a differenza di 不怎么样 che può già costituire una valutazione completa.",
+    "examples": [
+      {"id":"G6-029-1","hanzi":"这双鞋不怎么舒服。","pinyin":"Zhè shuāng xié bù zěnme shūfu.","translation":"Queste scarpe non sono molto comode."},
+      {"id":"G6-029-2","hanzi":"我最近不怎么出门。","pinyin":"Wǒ zuìjìn bù zěnme chūmén.","translation":"Ultimamente esco poco."}
+    ]
+  },
+  {
+    "id": "G6-030", "level": 6, "sourceNo": 388,
+    "title": "Una valutazione poco positiva con 不怎么样",
+    "pattern": "soggetto + 不怎么样；verbo + 得 + 不怎么样",
+    "explanation": "不怎么样 significa non un granché ed esprime un giudizio complessivo poco favorevole. Può essere predicato autonomo o seguire 得 per valutare come è stata svolta un'azione. Non significa non importa e non equivale a una domanda con 怎么样.",
+    "examples": [
+      {"id":"G6-030-1","hanzi":"这家餐厅的服务不怎么样。","pinyin":"Zhè jiā cāntīng de fúwù bù zěnmeyàng.","translation":"Il servizio di questo ristorante non è un granché."},
+      {"id":"G6-030-2","hanzi":"他这次唱得不怎么样。","pinyin":"Tā zhè cì chàng de bù zěnmeyàng.","translation":"Questa volta non ha cantato molto bene."}
+    ]
+  },
+  {
+    "id": "G6-031", "level": 6, "sourceNo": 389,
+    "title": "Riuscire finalmente con 好容易 e 好不容易",
+    "pattern": "好容易／好不容易 + risultato raggiunto",
+    "explanation": "好容易 e 好不容易 possono entrambi significare finalmente, dopo molta fatica: il 不 della seconda forma non ne capovolge il senso. Di norma presentano un risultato raggiunto con difficoltà e spesso accompagnato da 才 o 了. Non vanno confusi con 很容易, che descrive qualcosa di facile.",
+    "examples": [
+      {"id":"G6-031-1","hanzi":"我好不容易才找到这本书。","pinyin":"Wǒ hǎobùróngyì cái zhǎodào zhè běn shū.","translation":"Sono riuscito a trovare questo libro solo dopo parecchia fatica."},
+      {"id":"G6-031-2","hanzi":"我们好容易见一次面，别急着走。","pinyin":"Wǒmen hǎoróngyì jiàn yī cì miàn, bié jízhe zǒu.","translation":"Finalmente riusciamo a vederci una volta, non avere fretta di andare via."}
+    ]
+  },
+  {
+    "id": "G6-032", "level": 6, "sourceNo": 390,
+    "title": "Concedere un punto con 那倒也是",
+    "pattern": "那倒是／那倒也是 + eventuale seguito",
+    "explanation": "那倒是 e 那倒也是 riconoscono che quanto appena detto dall'altro è vero: su questo hai ragione. 倒 segnala spesso una concessione rispetto a dubbi o riserve precedenti. L'accordo può essere limitato a quel punto e seguito da 但是 o 不过.",
+    "examples": [
+      {"id":"G6-032-1","hanzi":"那倒也是，坐地铁确实更快。","pinyin":"Nà dào yě shì, zuò dìtiě quèshí gèng kuài.","translation":"Su questo hai ragione: in metropolitana si fa davvero prima."},
+      {"id":"G6-032-2","hanzi":"那倒是，不过我们还得考虑费用。","pinyin":"Nà dào shì, bùguò wǒmen hái děi kǎolǜ fèiyòng.","translation":"Questo è vero, ma dobbiamo considerare anche i costi."}
+    ]
+  },
+  {
+    "id": "G6-033", "level": 6, "sourceNo": 391,
+    "title": "Riformulare con 就是说",
+    "pattern": "affermazione，就是说／这就是说 + riformulazione",
+    "explanation": "就是说 introduce una spiegazione equivalente o una conseguenza interpretativa: cioè, in altre parole. 这就是说 richiama in modo più esplicito quanto appena esposto. La seconda parte chiarisce il significato della prima e non deve necessariamente riportare parole pronunciate da qualcuno.",
+    "examples": [
+      {"id":"G6-033-1","hanzi":"他明天不来，就是说我们得自己处理。","pinyin":"Tā míngtiān bù lái, jiùshì shuō wǒmen děi zìjǐ chǔlǐ.","translation":"Domani non viene; in altre parole dobbiamo occuparcene da soli."},
+      {"id":"G6-033-2","hanzi":"门票已经卖完了，这就是说今天进不去了。","pinyin":"Ménpiào yǐjīng mài wán le, zhè jiùshì shuō jīntiān jìn bù qù le.","translation":"I biglietti sono esauriti: questo significa che oggi non possiamo entrare."}
+    ]
+  },
+  {
+    "id": "G6-034", "level": 6, "sourceNo": 392,
+    "title": "Lasciar perdere con 算了",
+    "pattern": "算了；tema + 就算了吧",
+    "explanation": "算了, con 了 neutro, propone di smettere, rinunciare o non insistere su una questione. Può essere una risposta autonoma o introdurre una decisione alternativa. Non è il verbo calcolare al passato: la funzione è quella di chiudere pragmaticamente l'argomento.",
+    "examples": [
+      {"id":"G6-034-1","hanzi":"算了，我们改天再来吧。","pinyin":"Suàn le, wǒmen gǎitiān zài lái ba.","translation":"Lasciamo perdere, torniamo un altro giorno."},
+      {"id":"G6-034-2","hanzi":"这次就算了吧，下次注意。","pinyin":"Zhè cì jiù suàn le ba, xià cì zhùyì.","translation":"Per questa volta lasciamo correre, la prossima stai attento."}
+    ]
+  },
+  {
+    "id": "G6-035", "level": 6, "sourceNo": 393,
+    "title": "Distribuzione alternata: uno qui e uno là",
+    "pattern": "A + 一 + classificatore，B + 一 + classificatore",
+    "explanation": "Due elementi seguiti da 一 e un classificatore distribuiscono piccole unità tra parti, luoghi o partecipanti diversi. Si può descrivere una superficie a chiazze oppure un'alternanza come 你一句，我一句, una battuta ciascuno. L'insieme suggerisce spesso una successione vivace o una disposizione irregolare, non un conteggio preciso.",
+    "examples": [
+      {"id":"G6-035-1","hanzi":"孩子们你一句，我一句，说得特别热闹。","pinyin":"Háizimen nǐ yī jù, wǒ yī jù, shuō de tèbié rènao.","translation":"I bambini parlavano animatamente, intervenendo uno dopo l'altro."},
+      {"id":"G6-035-2","hanzi":"墙上红一块，白一块，还没刷完。","pinyin":"Qiáng shàng hóng yī kuài, bái yī kuài, hái méi shuā wán.","translation":"La parete è rossa a tratti e bianca a tratti: non hanno ancora finito di dipingerla."}
+    ]
+  },
+  {
+    "id": "G6-036", "level": 6, "sourceNo": 394,
+    "title": "Dispersione con 东一A西一A",
+    "pattern": "东一 + unità，西一 + stessa unità",
+    "explanation": "东一A西一A descrive elementi o azioni distribuiti qua e là senza ordine. 东 e 西 non vanno necessariamente interpretati come est e ovest: insieme danno un senso di dispersione spaziale o mancanza di un filo logico. L'unità ripetuta può essere un classificatore, come 句 o 堆.",
+    "examples": [
+      {"id":"G6-036-1","hanzi":"他东一句，西一句，谁也听不懂重点。","pinyin":"Tā dōng yī jù, xī yī jù, shéi yě tīng bù dǒng zhòngdiǎn.","translation":"Parla saltando da un argomento all'altro e nessuno capisce il punto centrale."},
+      {"id":"G6-036-2","hanzi":"院子里的木头东一堆，西一堆。","pinyin":"Yuànzi lǐ de mùtou dōng yī duī, xī yī duī.","translation":"Nel cortile ci sono mucchi di legna sparsi qua e là."}
+    ]
+  },
+  {
+    "id": "G6-037", "level": 6, "sourceNo": 395,
+    "title": "Scopo esplicito con 为了…而…",
+    "pattern": "为了 + scopo + 而 + azione",
+    "explanation": "为了 presenta lo scopo che motiva l'azione introdotta da 而. Quest'ultimo rende più esplicito il nesso e compare spesso nello scritto, ma non aggiunge il senso avversativo di ma. Lo scopo può essere condiviso da un'intera frase o comparire in una relativa con 的.",
+    "examples": [
+      {"id":"G6-037-1","hanzi":"她为了保护孩子而放弃了这次机会。","pinyin":"Tā wèile bǎohù háizi ér fàngqì le zhè cì jīhuì.","translation":"Ha rinunciato a questa opportunità per proteggere il bambino."},
+      {"id":"G6-037-2","hanzi":"这是为了减少浪费而采取的措施。","pinyin":"Zhè shì wèile jiǎnshǎo làngfèi ér cǎiqǔ de cuòshī.","translation":"Questa è una misura adottata per ridurre gli sprechi."}
+    ]
+  },
+  {
+    "id": "G6-038", "level": 6, "sourceNo": 396,
+    "title": "Oggetti che indicano luogo o prodotto dell'azione",
+    "pattern": "verbo + luogo；verbo + entità prodotta",
+    "explanation": "Un oggetto grammaticale non indica sempre un paziente che subisce l'azione: può essere il luogo raggiunto o occupato, come 教室 dopo 进. Può anche indicare ciò che l'azione crea, come una casa costruita o un disegno realizzato. Questo oggetto di risultato è distinto dal complemento risultativo: in 画一幅画 il secondo 画 è un nome, non un esito verbale come 完.",
+    "examples": [
+      {"id":"G6-038-1","hanzi":"学生们听到铃声就进教室了。","pinyin":"Xuéshengmen tīngdào língshēng jiù jìn jiàoshì le.","translation":"Gli studenti sono entrati in aula appena hanno sentito la campanella."},
+      {"id":"G6-038-2","hanzi":"村里正在建一座新桥。","pinyin":"Cūn lǐ zhèngzài jiàn yī zuò xīn qiáo.","translation":"Nel villaggio si sta costruendo un ponte nuovo."}
+    ]
+  },
+  {
+    "id": "G6-039", "level": 6, "sourceNo": 397,
+    "title": "Complementi direzionali che descrivono uno stato",
+    "pattern": "verbo／aggettivo + 下来／下去／起来／过来",
+    "explanation": "In usi estesi, 下来 può indicare stabilizzazione o passaggio a uno stato quieto, mentre 下去 può indicare il protrarsi o il declino di uno stato. 起来 può segnalarne l'inizio oppure la conservazione di qualcosa, come 藏起来. 过来 indica anche recupero della coscienza o di una condizione normale: non si tratta necessariamente di movimento fisico verso chi parla.",
+    "examples": [
+      {"id":"G6-039-1","hanzi":"等大家安静下来，我们再开始。","pinyin":"Děng dàjiā ānjìng xiàlái, wǒmen zài kāishǐ.","translation":"Cominciamo quando tutti si saranno calmati."},
+      {"id":"G6-039-2","hanzi":"他的兴趣慢慢淡了下去。","pinyin":"Tā de xìngqù mànmàn dàn le xiàqù.","translation":"Il suo interesse si è affievolito gradualmente."},
+      {"id":"G6-039-3","hanzi":"先把这封信收起来。","pinyin":"Xiān bǎ zhè fēng xìn shōu qǐlái.","translation":"Per prima cosa metti via questa lettera."},
+      {"id":"G6-039-4","hanzi":"休息了一会儿，他终于缓过来了。","pinyin":"Xiūxi le yīhuìr, tā zhōngyú huǎn guòlái le.","translation":"Dopo essersi riposato un po', si è finalmente ripreso."}
+    ]
+  },
+  {
+    "id": "G6-040", "level": 6, "sourceNo": 398,
+    "title": "把 con valore causativo",
+    "pattern": "causa + 把 + persona + verbo + risultato／得 + stato",
+    "explanation": "Una frase con 把 può presentare una causa che provoca una reazione o un cambiamento nella persona introdotta da 把. Il soggetto può essere inanimato, come un rumore; la persona dopo 把 può essere chi compie la reazione, per esempio ridere o piangere, non un semplice oggetto manipolato. Il predicato deve specificare l'effetto, spesso con un risultato o con 得.",
+    "examples": [
+      {"id":"G6-040-1","hanzi":"外面的雷声把孩子吓醒了。","pinyin":"Wàimian de léishēng bǎ háizi xià xǐng le.","translation":"Il tuono fuori ha svegliato il bambino di soprassalto."},
+      {"id":"G6-040-2","hanzi":"他把大家逗得笑个不停。","pinyin":"Tā bǎ dàjiā dòu de xiào ge bù tíng.","translation":"Li ha fatti ridere tutti senza sosta."}
+    ]
+  },
+  {
+    "id": "G6-041", "level": 6, "sourceNo": 399,
+    "title": "给 dentro la frase passiva",
+    "pattern": "paziente + 被／叫／让 + agente + 给 + verbo + risultato",
+    "explanation": "Nel parlato 给 può comparire davanti al verbo dopo l'agente di una passiva con 被, 叫 o 让. Qui rafforza la costruzione passiva e non introduce un destinatario né significa dare. Il contesto e il risultato rendono chiaro che il soggetto subisce l'azione; 叫 e 让 sono più colloquiali di 被.",
+    "examples": [
+      {"id":"G6-041-1","hanzi":"我的雨伞被他给拿走了。","pinyin":"Wǒ de yǔsǎn bèi tā gěi ná zǒu le.","translation":"Il mio ombrello se l'è portato via lui."},
+      {"id":"G6-041-2","hanzi":"这张纸叫弟弟给撕破了。","pinyin":"Zhè zhāng zhǐ jiào dìdi gěi sī pò le.","translation":"Questo foglio è stato strappato dal fratellino."},
+      {"id":"G6-041-3","hanzi":"钥匙差点让你给扔了。","pinyin":"Yàoshi chàdiǎn ràng nǐ gěi rēng le.","translation":"Per poco non buttavi via le chiavi."}
+    ]
+  },
+  {
+    "id": "G6-042", "level": 6, "sourceNo": 400,
+    "title": "Alternanza con 时而…时而…",
+    "pattern": "时而 + situazione A，时而 + situazione B",
+    "explanation": "时而 ripetuto presenta situazioni che si alternano nel tempo: ora una, ora l'altra. Le due parti hanno struttura parallela e possono descrivere azioni, stati o caratteristiche mutevoli. L'alternanza non deve avere intervalli regolari.",
+    "examples": [
+      {"id":"G6-042-1","hanzi":"风时而强，时而弱。","pinyin":"Fēng shí'ér qiáng, shí'ér ruò.","translation":"Il vento è ora forte, ora debole."},
+      {"id":"G6-042-2","hanzi":"她时而低头写字，时而抬头思考。","pinyin":"Tā shí'ér dītóu xiězì, shí'ér táitóu sīkǎo.","translation":"Ora china la testa per scrivere, ora la alza per riflettere."}
+    ]
+  },
+  {
+    "id": "G6-043", "level": 6, "sourceNo": 401,
+    "title": "Stati instabili con 一时…一时…",
+    "pattern": "一时 + stato A，一时 + stato B",
+    "explanation": "一时 ripetuto descrive stati che cambiano a distanza di poco tempo, spesso mettendone in risalto l'instabilità. A differenza di 一时 usato da solo per dire momentaneamente, qui le due parti creano un'alternanza. È comune con qualità opposte o variazioni di andamento.",
+    "examples": [
+      {"id":"G6-043-1","hanzi":"这里的天气一时冷，一时热。","pinyin":"Zhèlǐ de tiānqì yīshí lěng, yīshí rè.","translation":"Qui il tempo passa continuamente dal freddo al caldo."},
+      {"id":"G6-043-2","hanzi":"他的病情一时好，一时坏。","pinyin":"Tā de bìngqíng yīshí hǎo, yīshí huài.","translation":"Le sue condizioni di salute a tratti migliorano e a tratti peggiorano."}
+    ]
+  },
+  {
+    "id": "G6-044", "level": 6, "sourceNo": 402,
+    "title": "Sequenza narrativa con 便",
+    "pattern": "prima azione，soggetto + 便 + azione successiva",
+    "explanation": "Tra due proposizioni 便 presenta la seconda azione come seguito rapido o naturale della prima. È simile a 就 e ricorre spesso nella narrazione scritta. La prima parte può anche dire che un'azione preparatoria non è stata completata prima di passare subito alla successiva.",
+    "examples": [
+      {"id":"G6-044-1","hanzi":"他放下书包，便跑出去玩了。","pinyin":"Tā fàng xià shūbāo, biàn pǎo chūqù wán le.","translation":"Ha posato lo zaino ed è subito corso fuori a giocare."},
+      {"id":"G6-044-2","hanzi":"她听完解释，便点了点头。","pinyin":"Tā tīng wán jiěshì, biàn diǎn le diǎn tóu.","translation":"Ascoltata la spiegazione, ha annuito."}
+    ]
+  },
+  {
+    "id": "G6-045", "level": 6, "sourceNo": 403,
+    "title": "Un risultato opposto all'attesa",
+    "pattern": "不但不／不但没有 + attesa，反而 + esito opposto",
+    "explanation": "La prima parte nega ciò che ci si sarebbe aspettati; 反而 introduce un risultato di segno opposto, spesso ancora più sorprendente. 不 riguarda un comportamento o una proprietà, mentre 没有 nega che un evento si sia verificato. Non basta aggiungere una seconda informazione: deve esserci un rovesciamento dell'aspettativa.",
+    "examples": [
+      {"id":"G6-045-1","hanzi":"他不但不生气，反而笑了。","pinyin":"Tā bùdàn bù shēngqì, fǎn'ér xiào le.","translation":"Non solo non si è arrabbiato, ma anzi ha sorriso."},
+      {"id":"G6-045-2","hanzi":"雨不但没有停，反而下得更大了。","pinyin":"Yǔ bùdàn méiyǒu tíng, fǎn'ér xià de gèng dà le.","translation":"La pioggia non solo non è cessata, ma è diventata ancora più intensa."}
+    ]
+  },
+  {
+    "id": "G6-046", "level": 6, "sourceNo": 404,
+    "title": "Negare che qualcosa basti",
+    "pattern": "不是…就够了，还要…；不是…就能…，还是要…",
+    "explanation": "不是 può negare l'intera idea che una prima condizione basti: non è che facendo questo sia già tutto risolto. 还 o 还是 aggiunge ciò che rimane necessario. Non va confuso con 不是A而是B: qui la seconda parte integra o limita la prima, anziché sostituire semplicemente un'identità con un'altra.",
+    "examples": [
+      {"id":"G6-046-1","hanzi":"不是交了钱就够了，还要填表。","pinyin":"Bù shì jiāo le qián jiù gòu le, hái yào tián biǎo.","translation":"Non basta aver pagato: bisogna anche compilare il modulo."},
+      {"id":"G6-046-2","hanzi":"不是想参加就能参加，还是得先报名。","pinyin":"Bù shì xiǎng cānjiā jiù néng cānjiā, háishi děi xiān bàomíng.","translation":"Non si può partecipare solo perché lo si vuole: bisogna comunque prima iscriversi."}
+    ]
+  },
+  {
+    "id": "G6-047", "level": 6, "sourceNo": 405,
+    "title": "Dal caso estremo a quello ancora più evidente",
+    "pattern": "连 + caso estremo + 都／也…，altro caso + 更…",
+    "explanation": "连 introduce un caso sorprendente che stabilisce un punto su una scala. La seconda parte con 更 conclude che un altro caso, per il quale il predicato è ancora più prevedibile, lo manifesta a maggior ragione. Il rapporto può essere positivo o negativo: se non riesce nemmeno un esperto, tanto meno riuscirà un principiante.",
+    "examples": [
+      {"id":"G6-047-1","hanzi":"连老师都答不出，学生更答不出了。","pinyin":"Lián lǎoshī dōu dá bù chū, xuésheng gèng dá bù chū le.","translation":"Non sa rispondere nemmeno l'insegnante, figuriamoci gli studenti."},
+      {"id":"G6-047-2","hanzi":"连大人也爱看，孩子就更喜欢了。","pinyin":"Lián dàren yě ài kàn, háizi jiù gèng xǐhuan le.","translation":"Piace persino agli adulti, ai bambini piace ancora di più."}
+    ]
+  },
+  {
+    "id": "G6-048", "level": 6, "sourceNo": 406,
+    "title": "Due alternative con 要么…要么…",
+    "pattern": "要么 + alternativa A，要么 + alternativa B",
+    "explanation": "要么 ripetuto presenta due alternative tra cui scegliere oppure due possibili situazioni. Diversamente da 还是 in una domanda diretta, può far parte di un'affermazione o di un invito a decidere. Le due alternative devono avere funzioni e strutture comparabili.",
+    "examples": [
+      {"id":"G6-048-1","hanzi":"我们要么坐船，要么走山路。","pinyin":"Wǒmen yàome zuò chuán, yàome zǒu shānlù.","translation":"O prendiamo la barca o percorriamo il sentiero di montagna."},
+      {"id":"G6-048-2","hanzi":"他周末要么在家做饭，要么出去爬山。","pinyin":"Tā zhōumò yàome zài jiā zuò fàn, yàome chūqù pá shān.","translation":"Nel fine settimana o cucina a casa o va a fare escursioni in montagna."}
+    ]
+  },
+  {
+    "id": "G6-049", "level": 6, "sourceNo": 407,
+    "title": "Concessione con la forma breve 虽",
+    "pattern": "虽 + fatto， 但／可／却／也 + risultato inatteso",
+    "explanation": "虽 è una forma più concisa e scritta di 虽然: riconosce un fatto che farebbe prevedere un esito diverso. La seconda parte può iniziare con 但 o 可, oppure avere 却 o 也 davanti al predicato. Questi elementi non occupano tutti la stessa posizione: 却 e 也 seguono normalmente il soggetto.",
+    "examples": [
+      {"id":"G6-049-1","hanzi":"房间虽小，但很整洁。","pinyin":"Fángjiān suī xiǎo, dàn hěn zhěngjié.","translation":"La stanza è piccola, ma molto ordinata."},
+      {"id":"G6-049-2","hanzi":"她虽累了，却不肯休息。","pinyin":"Tā suī lèi le, què bù kěn xiūxi.","translation":"Benché sia stanca, non vuole riposare."}
+    ]
+  },
+  {
+    "id": "G6-050", "level": 6, "sourceNo": 408,
+    "title": "Altrimenti e proposta alternativa",
+    "pattern": "azione necessaria，要不然／不然 + conseguenza；不然 + proposta",
+    "explanation": "要不然 e 不然 possono introdurre ciò che accadrà se non si segue l'indicazione precedente: altrimenti. Nel parlato 不然 può anche proporre un'alternativa alla situazione attuale, spesso con 吧. È il contesto a distinguere l'avvertimento da una proposta come allora facciamo così.",
+    "examples": [
+      {"id":"G6-050-1","hanzi":"快点走，要不然就赶不上船了。","pinyin":"Kuài diǎn zǒu, yàobùrán jiù gǎn bù shàng chuán le.","translation":"Sbrigati, altrimenti perderemo la barca."},
+      {"id":"G6-050-2","hanzi":"外面太冷了，不然我们在家吃吧。","pinyin":"Wàimian tài lěng le, bùrán wǒmen zài jiā chī ba.","translation":"Fuori fa troppo freddo; allora potremmo mangiare a casa."}
+    ]
+  },
+  {
+    "id": "G6-051", "level": 6, "sourceNo": 409,
+    "title": "Tutti i casi che soddisfano una condizione",
+    "pattern": "凡是 + condizione／categoria，都 + conseguenza",
+    "explanation": "凡是 seleziona tutti i membri di una categoria o tutti i casi che soddisfano una condizione. 都 riprende questa estensione universale nella conseguenza, senza limitarsi a un singolo episodio. È frequente in regolamenti, principi e generalizzazioni.",
+    "examples": [
+      {"id":"G6-051-1","hanzi":"凡是参加活动的人，都要提前报名。","pinyin":"Fánshì cānjiā huódòng de rén, dōu yào tíqián bàomíng.","translation":"Chiunque partecipi all'attività deve iscriversi in anticipo."},
+      {"id":"G6-051-2","hanzi":"凡是他答应的事，他都会做到。","pinyin":"Fánshì tā dāying de shì, tā dōu huì zuòdào.","translation":"Tutto ciò che promette, lo mantiene."}
+    ]
+  },
+  {
+    "id": "G6-052", "level": 6, "sourceNo": 410,
+    "title": "Anche ammettendo che",
+    "pattern": "就算／就是 + ipotesi，也 + esito invariato",
+    "explanation": "就算 e 就是 introducono una concessione ipotetica: anche se si verificasse quella situazione, la conclusione non cambierebbe. 也 mantiene valido l'esito nonostante la condizione ammessa. 就是 ha qui funzione concessiva, non quella di semplice copula enfatica.",
+    "examples": [
+      {"id":"G6-052-1","hanzi":"就算下雨，我们也照常出发。","pinyin":"Jiùsuàn xià yǔ, wǒmen yě zhàocháng chūfā.","translation":"Anche se piovesse, partiremo comunque come previsto."},
+      {"id":"G6-052-2","hanzi":"就是你不提醒我，我也不会忘。","pinyin":"Jiùshì nǐ bù tíxǐng wǒ, wǒ yě bù huì wàng.","translation":"Anche se non me lo ricordassi, non me ne dimenticherei."}
+    ]
+  },
+  {
+    "id": "G6-053", "level": 6, "sourceNo": 411,
+    "title": "Condizione e soglia con 不…不…",
+    "pattern": "不 + evento A + 不 + evento B",
+    "explanation": "La sequenza compatta 不A不B può significare che senza A non avviene B, oppure che B non si farà finché A non è raggiunto. Il nesso condizionale o temporale resta implicito, senza 如果 o 就. Espressioni come 不打不相识 sono convenzionali; non tutte le coppie di negazioni hanno automaticamente questo valore.",
+    "examples": [
+      {"id":"G6-053-1","hanzi":"不试不知道，这台机器真好用。","pinyin":"Bù shì bù zhīdào, zhè tái jīqì zhēn hǎoyòng.","translation":"Senza provarla non te ne accorgi: questa macchina è davvero pratica."},
+      {"id":"G6-053-2","hanzi":"今天不完成任务不回家。","pinyin":"Jīntiān bù wánchéng rènwu bù huí jiā.","translation":"Oggi non torno a casa finché non avrò finito il compito."}
+    ]
+  },
+  {
+    "id": "G6-054", "level": 6, "sourceNo": 412,
+    "title": "Collegare due frasi già complesse",
+    "pattern": "gruppo di proposizioni + nesso logico + gruppo di proposizioni",
+    "explanation": "Una frase a due livelli può collegare due blocchi che contengono già ciascuno più proposizioni. Bisogna riconoscere prima il rapporto principale tra i blocchi, per esempio causa o contrasto, e poi i rapporti interni. La punteggiatura aiuta, ma sono soprattutto i connettivi e il significato a stabilire la gerarchia.",
+    "examples": [
+      {"id":"G6-054-1","hanzi":"因为路远，而且车少，所以我们早点出发，免得迟到。","pinyin":"Yīnwèi lù yuǎn, érqiě chē shǎo, suǒyǐ wǒmen zǎodiǎn chūfā, miǎnde chídào.","translation":"Poiché la strada è lunga e i mezzi sono pochi, partiamo prima per evitare di arrivare in ritardo."},
+      {"id":"G6-054-2","hanzi":"虽然下着雨，风也很大，但是他没有回家，而是继续往前走。","pinyin":"Suīrán xiàzhe yǔ, fēng yě hěn dà, dànshì tā méiyǒu huí jiā, érshì jìxù wǎng qián zǒu.","translation":"Benché piovesse e ci fosse anche molto vento, non è tornato a casa, ma ha continuato a camminare."}
+    ]
+  },
+  {
+    "id": "G6-055", "level": 6, "sourceNo": 413,
+    "title": "Necessità categorica con 非…不可",
+    "pattern": "非（要／得）+ azione + 不可",
+    "explanation": "非…不可 esprime una necessità inderogabile o una determinazione ostinata: bisogna proprio, a ogni costo. Può includere 要 o 得 davanti all'azione. In una domanda può mettere in discussione l'insistenza altrui, non chiedere semplicemente se l'azione sia possibile.",
+    "examples": [
+      {"id":"G6-055-1","hanzi":"这件事我非亲自去办不可。","pinyin":"Zhè jiàn shì wǒ fēi qīnzì qù bàn bùkě.","translation":"Di questa faccenda devo occuparmi personalmente, senza alternative."},
+      {"id":"G6-055-2","hanzi":"你非要现在讨论不可吗？","pinyin":"Nǐ fēi yào xiànzài tǎolùn bùkě ma?","translation":"Devi proprio discuterne adesso?"}
+    ]
+  },
+  {
+    "id": "G6-056", "level": 6, "sourceNo": 414,
+    "title": "Essere coinvolti personalmente: 到头上来",
+    "pattern": "azione／evento + 到 + persona + 头上来了",
+    "explanation": "头上 in questo schema non indica letteralmente la testa: segnala che un'azione o una situazione arriva a toccare una persona. Si può parlare di un torto subito, di una richiesta rivolta direttamente a noi o di un'occasione toccata in sorte. 来 presenta il coinvolgimento come ormai giunto nella sfera della persona interessata.",
+    "examples": [
+      {"id":"G6-056-1","hanzi":"他都欺负到你头上来了，你还不说话？","pinyin":"Tā dōu qīfu dào nǐ tóu shàng lái le, nǐ hái bù shuōhuà?","translation":"Ormai se la prende direttamente con te e tu ancora non dici niente?"},
+      {"id":"G6-056-2","hanzi":"人家都求到我头上来了，我不能不帮。","pinyin":"Rénjia dōu qiú dào wǒ tóu shàng lái le, wǒ bù néng bù bāng.","translation":"Sono venuti a chiedere aiuto proprio a me: non posso rifiutarmi di aiutarli."}
+    ]
+  },
+  {
+    "id": "G6-057", "level": 6, "sourceNo": 415,
+    "title": "Accettazione rassegnata con X就X吧",
+    "pattern": "X + 就 + X + 吧",
+    "explanation": "Ripetere X ai due lati di 就 esprime l'accettazione di una situazione, spesso con rassegnazione o dopo aver rinunciato a opporsi. X può essere un verbo o una qualità. La frase non promette necessariamente che qualcosa accadrà: comunica soprattutto l'atteggiamento di chi parla.",
+    "examples": [
+      {"id":"G6-057-1","hanzi":"等就等吧，反正今天没别的事。","pinyin":"Děng jiù děng ba, fǎnzhèng jīntiān méi bié de shì.","translation":"Aspettiamo pure, tanto oggi non abbiamo altro da fare."},
+      {"id":"G6-057-2","hanzi":"贵就贵吧，质量好就行。","pinyin":"Guì jiù guì ba, zhìliàng hǎo jiù xíng.","translation":"Pazienza se costa, basta che sia di buona qualità."}
+    ]
+  },
+  {
+    "id": "G6-058", "level": 6, "sourceNo": 416,
+    "title": "Concedere una qualità con X是X",
+    "pattern": "X + 是 + X，ma／però + riserva",
+    "explanation": "X是X ammette che una qualità o un fatto sia vero, ma prepara normalmente una limitazione. Non è una tautologia inutile: la ripetizione riconosce il punto prima di aggiungere una riserva. Con un evento compiuto, il secondo verbo può portare 了.",
+    "examples": [
+      {"id":"G6-058-1","hanzi":"方便是方便，就是太贵了。","pinyin":"Fāngbiàn shì fāngbiàn, jiùshì tài guì le.","translation":"Comodo è comodo, solo che costa troppo."},
+      {"id":"G6-058-2","hanzi":"看是看了，可我没看懂。","pinyin":"Kàn shì kàn le, kě wǒ méi kàn dǒng.","translation":"L'ho guardato, sì, ma non l'ho capito."}
+    ]
+  },
+  {
+    "id": "G6-059", "level": 6, "sourceNo": 417,
+    "title": "La sorpresa che emerge solo provando",
+    "pattern": "不 + X + 不 + scoperta，一 + X + reazione／scoperta",
+    "explanation": "Questo schema contrappone il non fare un'azione alla scoperta sorprendente che si ha appena la si compie. Sono tipiche formule come 不看不知道，一看吓一跳: finché non guardi non lo sai, appena guardi resti stupito. Il secondo 不 non nega lo stesso verbo: introduce ciò che non si sapeva o non si notava.",
+    "examples": [
+      {"id":"G6-059-1","hanzi":"不算不知道，一算才发现花了这么多钱。","pinyin":"Bù suàn bù zhīdào, yī suàn cái fāxiàn huā le zhème duō qián.","translation":"Finché non fai i conti non te ne accorgi: facendoli ho scoperto quanto avevo speso."},
+      {"id":"G6-059-2","hanzi":"不看不知道，一看吓一跳，河水都黑了。","pinyin":"Bù kàn bù zhīdào, yī kàn xià yī tiào, héshuǐ dōu hēi le.","translation":"Non me ne rendevo conto finché non ho guardato: che spavento, l'acqua del fiume è diventata nera."}
+    ]
+  },
+  {
+    "id": "G6-060", "level": 6, "sourceNo": 418,
+    "title": "Rimprovero diretto con 好你个",
+    "pattern": "好你个 + appellativo，rimprovero",
+    "explanation": "好你个 si rivolge direttamente a qualcuno con sorpresa e rimprovero, spesso chiamandolo per nome o con un appellativo. 好 non significa qui bravo in senso letteralmente positivo: può esprimere indignazione o una finta accusa scherzosa. L'effetto dipende dal rapporto e dall'intonazione, e può essere offensivo con persone poco conosciute.",
+    "examples": [
+      {"id":"G6-060-1","hanzi":"好你个骗子，差点把我骗了！","pinyin":"Hǎo nǐ ge piànzi, chàdiǎn bǎ wǒ piàn le!","translation":"Ah, imbroglione che non sei altro, per poco non ci cascavo!"},
+      {"id":"G6-060-2","hanzi":"好你个老张，搬家也不告诉我！","pinyin":"Hǎo nǐ ge Lǎo Zhāng, bān jiā yě bù gàosu wǒ!","translation":"Ah, Zhang, hai traslocato senza neppure dirmelo!"}
+    ]
+  },
+  {
+    "id": "G6-061", "level": 6, "sourceNo": 419,
+    "title": "Accettare o contestare ciò che l'altro decide",
+    "pattern": "verbo + 什么 +（就）是 + 什么",
+    "explanation": "说什么就是什么 può riconoscere all'altro piena autorità: sia come dici tu. La stessa struttura, soprattutto con 想 e in domanda retorica, contesta che basti desiderare o affermare qualcosa perché sia vero. 什么 non chiede qui un'informazione precisa: riprende liberamente qualsiasi contenuto venga detto o voluto.",
+    "examples": [
+      {"id":"G6-061-1","hanzi":"今天听你的，你说什么就是什么。","pinyin":"Jīntiān tīng nǐ de, nǐ shuō shénme jiù shì shénme.","translation":"Oggi decidiamo come vuoi tu: quello che dici va bene."},
+      {"id":"G6-061-2","hanzi":"哪有那么容易，难道你想什么就是什么？","pinyin":"Nǎ yǒu nàme róngyì, nándào nǐ xiǎng shénme jiù shì shénme?","translation":"Non è mica così facile: credi che tutto possa essere come vuoi tu?"}
+    ]
+  },
+  {
+    "id": "G6-062", "level": 6, "sourceNo": 420,
+    "title": "Proprio nel momento meno opportuno",
+    "pattern": "早（也）不 + X，晚（也）不 + X，偏偏 + momento",
+    "explanation": "早不X晚不X lamenta che un evento non sia accaduto prima o dopo, ma proprio in un momento scomodo o significativo. Il verbo X viene ripetuto e la frase successiva precisa l'inopportunità, spesso con 偏偏. Non è una descrizione letterale di ciò che non succede al mattino e alla sera.",
+    "examples": [
+      {"id":"G6-062-1","hanzi":"早不来，晚不来，偏偏我出门时你来了。","pinyin":"Zǎo bù lái, wǎn bù lái, piānpiān wǒ chūmén shí nǐ lái le.","translation":"Non potevi arrivare prima o dopo: sei arrivato proprio mentre uscivo."},
+      {"id":"G6-062-2","hanzi":"早也不坏，晚也不坏，电脑偏偏今天坏了。","pinyin":"Zǎo yě bù huài, wǎn yě bù huài, diànnǎo piānpiān jīntiān huài le.","translation":"Il computer doveva rompersi proprio oggi, non un altro giorno!"}
+    ]
+  },
+  {
+    "id": "G6-063", "level": 6, "sourceNo": 421,
+    "title": "Richiamare una reazione evidente con 看把",
+    "pattern": "看／瞧 + 把 + persona + reazione + 得，eventuale seguito",
+    "explanation": "看把 e 瞧把 richiamano l'attenzione sul grado evidente di una reazione: guarda come è contento o quanto si è spaventato. La persona dopo 把 è chi prova lo stato o compie la reazione. Nel parlato il complemento dopo 得 può restare sottinteso, oppure essere esplicitato nella frase seguente.",
+    "examples": [
+      {"id":"G6-063-1","hanzi":"看把你高兴得，都笑出声了！","pinyin":"Kàn bǎ nǐ gāoxìng de, dōu xiào chū shēng le!","translation":"Guarda quanto sei contento, ti viene persino da ridere ad alta voce!"},
+      {"id":"G6-063-2","hanzi":"瞧把他吓得，脸都白了。","pinyin":"Qiáo bǎ tā xià de, liǎn dōu bái le.","translation":"Guarda che spavento si è preso, è diventato tutto pallido."}
+    ]
+  },
+  {
+    "id": "G6-064", "level": 6, "sourceNo": 422,
+    "title": "Trascurare qualcosa che si ha a disposizione",
+    "pattern": "放着 + risorsa／opportunità + 不 + uso appropriato，altra scelta",
+    "explanation": "放着X不Y rimprovera il fatto di non usare o non apprezzare una risorsa o un'opportunità disponibile. La seconda parte spesso contrappone una scelta meno sensata, con 却 o 偏要. 放着 non descrive necessariamente un oggetto posato da qualche parte: mette in evidenza ciò che si lascia inutilizzato.",
+    "examples": [
+      {"id":"G6-064-1","hanzi":"你放着热饭不吃，偏要吃饼干。","pinyin":"Nǐ fàngzhe rè fàn bù chī, piān yào chī bǐnggān.","translation":"Hai un pasto caldo a disposizione e invece ti ostini a mangiare biscotti."},
+      {"id":"G6-064-2","hanzi":"他放着好好的工作不做，非要辞职。","pinyin":"Tā fàngzhe hǎohāo de gōngzuò bù zuò, fēi yào cízhí.","translation":"Ha un buon lavoro, ma non vuole continuare e si ostina a dimettersi."}
+    ]
+  },
+  {
+    "id": "G6-065", "level": 6, "sourceNo": 423,
+    "title": "Girare intorno allo stesso risultato",
+    "pattern": "verbo + 来 + stesso verbo + 去，都是／就是 + conclusione",
+    "explanation": "X来X去 descrive un'attività ripetuta o svolta in varie direzioni, anche in senso astratto. Con 都是 o 就是 si conclude che, nonostante tutti i tentativi, si torna allo stesso contenuto o risultato. Può esprimere esasperazione, mancanza di progresso o una conclusione stabile.",
+    "examples": [
+      {"id":"G6-065-1","hanzi":"说来说去，就是不愿意帮忙。","pinyin":"Shuō lái shuō qù, jiùshì bù yuànyì bāngmáng.","translation":"A forza di girarci intorno, il punto è che non vuole aiutare."},
+      {"id":"G6-065-2","hanzi":"选来选去，都是这几种颜色。","pinyin":"Xuǎn lái xuǎn qù, dōu shì zhè jǐ zhǒng yánsè.","translation":"Per quanto si scelga, i colori disponibili sono sempre questi pochi."}
+    ]
+  },
+  {
+    "id": "G6-066", "level": 6, "sourceNo": 424,
+    "title": "Ridimensionare un fatto ormai avvenuto",
+    "pattern": "X了就X了，有什么…／没有什么…",
+    "explanation": "Ripetere X了 ai lati di 就 accetta un fatto già compiuto e ne riduce l'importanza: è successo, pazienza. Il seguito può negare esplicitamente una conseguenza grave con 没有什么, oppure farlo con una domanda retorica introdotta da 有什么. La funzione non è esprimere una sequenza temporale, ma consolare, rassicurare o minimizzare.",
+    "examples": [
+      {"id":"G6-066-1","hanzi":"输了就输了，没有什么好难过的。","pinyin":"Shū le jiù shū le, méiyǒu shénme hǎo nánguò de.","translation":"Abbiamo perso, pazienza: non c'è motivo di abbattersi."},
+      {"id":"G6-066-2","hanzi":"坏了就坏了，有什么大不了的？","pinyin":"Huài le jiù huài le, yǒu shénme dàbùliǎo de?","translation":"Si è rotto, pazienza: che sarà mai?"}
+    ]
+  },
+  {
+    "id": "G6-067", "level": 6, "sourceNo": 425,
+    "title": "Rifiutare ogni possibilità con 这也不…那也不…",
+    "pattern": "这也不 + X，那也不 + Y",
+    "explanation": "Due negazioni parallele con 这也 e 那也 elencano possibilità rifiutate o comportamenti che non vengono adottati. Spesso chi parla critica un atteggiamento difficile da accontentare o le conseguenze di tanti rifiuti. 这 e 那 possono richiamare proposte del contesto senza indicare oggetti materialmente vicini o lontani.",
+    "examples": [
+      {"id":"G6-067-1","hanzi":"这也不吃，那也不喝，你到底想要什么？","pinyin":"Zhè yě bù chī, nà yě bù hē, nǐ dàodǐ xiǎng yào shénme?","translation":"Non vuoi mangiare questo né bere quello: insomma, che cosa vuoi?"},
+      {"id":"G6-067-2","hanzi":"那也不合适，这也不满意，真难选。","pinyin":"Nà yě bù héshì, zhè yě bù mǎnyì, zhēn nán xuǎn.","translation":"Quello non va bene, questo non ti soddisfa: è davvero difficile scegliere."}
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+HanPit offline neural Mandarin grammar sentence audio
+
+Copyright 2026 HanPit contributors. Original HanPit teaching sentences and
+reviewed Pinyin accompany the GF0025-2021-aligned grammar lessons. The authored
+examples and Italian teaching prose are not official examples or quotations
+from the standard, and are not copied from commercial grammar websites.
+
+Generated with hexgrad/Kokoro-82M-v1.1-zh, pinned revision
+01e7505bd6a7a2ac4975463114c3a7650a9f7218, Mandarin voice zf_001, speed 1.0.
+Model: https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
+License: Apache License, Version 2.0, available in ../LICENSE.
+Model source hashes and upstream training-data/front-end attribution are in
+../NOTICE; the vocabulary and grammar generators use the same pinned model,
+Misaki/PaddleSpeech phoneme alphabet and contextual sandhi adapter.
+Copyright (c) 2021 PaddlePaddle Authors. All Rights Reserved.
+No model weights, runtime model, browser speech synthesis, or external speech
+service is used by the application: the browser plays these static MP3 files.
+
+Sentence pronunciation policy:
+- Explicit reviewed example Pinyin is authoritative, including polyphones,
+  citation tones, unmarked neutral tones, ü, apostrophes and attached erhua r.
+- Hanzi/Pinyin punctuation and clause boundaries must align. Chinese and ASCII
+  commas, periods, questions, exclamations, semicolons and colons normalize to
+  model punctuation; enumeration comma becomes a comma. No punctuation is
+  discarded and no tone sandhi crosses a punctuation boundary.
+- Each Hanzi clause reuses scripts/generate-audio.py unchanged for base phonetic
+  conversion and contextual sandhi, with the grammar-only yi correction below.
+  Punctuation is restored in the full sentence phoneme sequence for pauses and
+  question intonation.
+- Citation yi1 remains unchanged at numeral/ordinal positions, in decimals and
+  at the end of multi-syllable Pinyin words such as shiyi, zhouyi and tongyi.
+  Other yi1 takes contextual sandhi. Before a neutral syllable, only its
+  underlying tone is consulted among readings matching the explicit Pinyin
+  base (e.g. ge5 has underlying ge4); the authored neutral tone is retained.
+- Unknown model phonemes, misalignment and more than 510 phoneme tokens abort
+  generation; there is no inferred-reading fallback, splitting or truncation.
+- Deterministic jieba phrasing approximates contextual third-tone grouping;
+  no human auditory validation of synthesized sentences is claimed.
+
+Encoding: MP3, libmp3lame 64kbps, 24000Hz, mono. Every new MP3 is fully decoded
+and checked for finite samples, meaningful duration and non-silent RMS.
+Identical final sentence phonemes may reuse a synthesis, copied to each
+example ID. Files are named G<level>-<rule ordinal>-<example ordinal>.mp3.
+manifest.json records full source text/Pinyin, individual clauses and their
+citation/surface readings, full punctuation-bearing phonemes, audio SHA256,
+duration, RMS, bytes, both generator hashes, model/settings/dependency hashes
+and input file hashes. Resume only trusts matching fingerprints and checksums.
+The grammar corpus does not alter or regenerate the existing vocabulary audio.

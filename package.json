@@ -11,7 +11,11 @@
     "data:import": "node scripts/import-vocabulary.mjs",
     "audio:generate": ".venv-audio/bin/python scripts/generate-audio.py",
     "audio:check": ".venv-audio/bin/python scripts/generate-audio.py --validate",
-    "audio:test": ".venv-audio/bin/python scripts/test_audio.py"
+    "audio:test": ".venv-audio/bin/python scripts/test_audio.py",
+    "grammar:check": "python3 scripts/check-grammar.py",
+    "grammar:audio": ".venv-audio/bin/python scripts/generate-grammar-audio.py",
+    "grammar:audio:check": ".venv-audio/bin/python scripts/generate-grammar-audio.py --validate",
+    "grammar:audio:test": ".venv-audio/bin/python scripts/test_grammar_audio.py"
   },
   "dependencies": {
     "ts-fsrs": "5.4.2"

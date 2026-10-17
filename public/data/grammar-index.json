@@ -1,0 +1,5150 @@
+[
+  {
+    "id": "G1-001",
+    "level": 1,
+    "sourceNo": 1,
+    "group": "词类",
+    "category": "名词",
+    "details": "方位名词",
+    "content": "上、下、里、外、前、后、左、右、东、南、西、北；上边、下边、 里边、外边、前边、后边、左边、右边、东边、南边、西边、北边"
+  },
+  {
+    "id": "G1-002",
+    "level": 1,
+    "sourceNo": 2,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "会、能"
+  },
+  {
+    "id": "G1-003",
+    "level": 1,
+    "sourceNo": 3,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "想、要"
+  },
+  {
+    "id": "G1-004",
+    "level": 1,
+    "sourceNo": 4,
+    "group": "词类",
+    "category": "代词",
+    "details": "疑问代词",
+    "content": "多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么"
+  },
+  {
+    "id": "G1-005",
+    "level": 1,
+    "sourceNo": 5,
+    "group": "词类",
+    "category": "代词",
+    "details": "人称代词",
+    "content": "我、你、您、他、她、我们、你们、他们、她们"
+  },
+  {
+    "id": "G1-006",
+    "level": 1,
+    "sourceNo": 6,
+    "group": "词类",
+    "category": "代词",
+    "details": "指示代词",
+    "content": "这、那、这儿、那儿、这里、那里、这些、那些、别的、有的"
+  },
+  {
+    "id": "G1-007",
+    "level": 1,
+    "sourceNo": 7,
+    "group": "词类",
+    "category": "数词",
+    "details": "一、二/两、三、四、五、六、七、八、九、零；十、百；半",
+    "content": ""
+  },
+  {
+    "id": "G1-008",
+    "level": 1,
+    "sourceNo": 8,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "杯、本、个、家、间、口、块、页"
+  },
+  {
+    "id": "G1-009",
+    "level": 1,
+    "sourceNo": 9,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "非常、很、太、真、最"
+  },
+  {
+    "id": "G1-010",
+    "level": 1,
+    "sourceNo": 10,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "都1、一块儿、一起"
+  },
+  {
+    "id": "G1-011",
+    "level": 1,
+    "sourceNo": 11,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "马上、先、有时、在、正、正在"
+  },
+  {
+    "id": "G1-012",
+    "level": 1,
+    "sourceNo": 12,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "常、常常、再1"
+  },
+  {
+    "id": "G1-013",
+    "level": 1,
+    "sourceNo": 13,
+    "group": "词类",
+    "category": "副词",
+    "details": "关联副词",
+    "content": "还1、也"
+  },
+  {
+    "id": "G1-014",
+    "level": 1,
+    "sourceNo": 14,
+    "group": "词类",
+    "category": "副词",
+    "details": "否定副词",
+    "content": "别、不、没、没有"
+  },
+  {
+    "id": "G1-015",
+    "level": 1,
+    "sourceNo": 15,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "从1"
+  },
+  {
+    "id": "G1-016",
+    "level": 1,
+    "sourceNo": 16,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "在"
+  },
+  {
+    "id": "G1-017",
+    "level": 1,
+    "sourceNo": 17,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "跟1、和1"
+  },
+  {
+    "id": "G1-018",
+    "level": 1,
+    "sourceNo": 18,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "比"
+  },
+  {
+    "id": "G1-019",
+    "level": 1,
+    "sourceNo": 19,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接词或词组",
+    "content": "跟2、还是、和2"
+  },
+  {
+    "id": "G1-020",
+    "level": 1,
+    "sourceNo": 20,
+    "group": "词类",
+    "category": "助词",
+    "details": "结构助词",
+    "content": "的1、地"
+  },
+  {
+    "id": "G1-021",
+    "level": 1,
+    "sourceNo": 21,
+    "group": "词类",
+    "category": "助词",
+    "details": "动态助词",
+    "content": "了1"
+  },
+  {
+    "id": "G1-022",
+    "level": 1,
+    "sourceNo": 22,
+    "group": "词类",
+    "category": "助词",
+    "details": "语气助词",
+    "content": "吧1、了2、吗、呢"
+  },
+  {
+    "id": "G1-023",
+    "level": 1,
+    "sourceNo": 23,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "其他结构类型",
+    "content": "数量短语"
+  },
+  {
+    "id": "G1-024",
+    "level": 1,
+    "sourceNo": 24,
+    "group": "句子成分",
+    "category": "主语",
+    "details": "名词、代词或名词性短语作主语",
+    "content": ""
+  },
+  {
+    "id": "G1-025",
+    "level": 1,
+    "sourceNo": 25,
+    "group": "句子成分",
+    "category": "谓语",
+    "details": "动词或动词性短语、形容词或形容词性短语作谓语",
+    "content": ""
+  },
+  {
+    "id": "G1-026",
+    "level": 1,
+    "sourceNo": 26,
+    "group": "句子成分",
+    "category": "宾语",
+    "details": "名词、代词或名词性短语作宾语",
+    "content": ""
+  },
+  {
+    "id": "G1-027",
+    "level": 1,
+    "sourceNo": 27,
+    "group": "句子成分",
+    "category": "定语",
+    "details": "名词性词语、形容词性词语、数量短语作定语",
+    "content": ""
+  },
+  {
+    "id": "G1-028",
+    "level": 1,
+    "sourceNo": 28,
+    "group": "句子成分",
+    "category": "状语",
+    "details": "副词、形容词作状语； \n表示时间、处所的词语作状语",
+    "content": ""
+  },
+  {
+    "id": "G1-029",
+    "level": 1,
+    "sourceNo": 29,
+    "group": "句子的类型",
+    "category": "句型",
+    "details": "单句",
+    "content": "主谓句1：动词谓语句"
+  },
+  {
+    "id": "G1-030",
+    "level": 1,
+    "sourceNo": 30,
+    "group": "句子的类型",
+    "category": "句型",
+    "details": "单句",
+    "content": "主谓句2：形容词谓语句"
+  },
+  {
+    "id": "G1-031",
+    "level": 1,
+    "sourceNo": 31,
+    "group": "句子的类型",
+    "category": "句型",
+    "details": "单句",
+    "content": "非主谓句"
+  },
+  {
+    "id": "G1-032",
+    "level": 1,
+    "sourceNo": 32,
+    "group": "句子的类型",
+    "category": "句类",
+    "details": "陈述句",
+    "content": "陈述句"
+  },
+  {
+    "id": "G1-033",
+    "level": 1,
+    "sourceNo": 33,
+    "group": "句子的类型",
+    "category": "句类",
+    "details": "疑问句",
+    "content": "（1）是非问句（2）特指问句（3）选择问句（4）正反问句"
+  },
+  {
+    "id": "G1-034",
+    "level": 1,
+    "sourceNo": 34,
+    "group": "句子的类型",
+    "category": "句类",
+    "details": "祈使句",
+    "content": "祈使句"
+  },
+  {
+    "id": "G1-035",
+    "level": 1,
+    "sourceNo": 35,
+    "group": "句子的类型",
+    "category": "句类",
+    "details": "感叹句",
+    "content": "感叹句"
+  },
+  {
+    "id": "G1-036",
+    "level": 1,
+    "sourceNo": 36,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“是”字句",
+    "content": "（1）表示等同或类属；（2）表示说明或特征；（3）表示存在"
+  },
+  {
+    "id": "G1-037",
+    "level": 1,
+    "sourceNo": 37,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“有”字句",
+    "content": "“有”字句1：（1）表示领有；（2）表示存在"
+  },
+  {
+    "id": "G1-038",
+    "level": 1,
+    "sourceNo": 38,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "比较句",
+    "content": "比较句1：（1）A比B +形容词（2）A没有B +形容词"
+  },
+  {
+    "id": "G1-039",
+    "level": 1,
+    "sourceNo": 39,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "（1）不用关联词语 \n（2）用关联词语：一边……，一边……；……，也……"
+  },
+  {
+    "id": "G1-040",
+    "level": 1,
+    "sourceNo": 40,
+    "group": "动作的态",
+    "category": "动作的态",
+    "details": "变化态",
+    "content": "用语气助词“了2”表示"
+  },
+  {
+    "id": "G1-041",
+    "level": 1,
+    "sourceNo": 41,
+    "group": "动作的态",
+    "category": "动作的态",
+    "details": "完成态",
+    "content": "用动态助词“了1”表示"
+  },
+  {
+    "id": "G1-042",
+    "level": 1,
+    "sourceNo": 42,
+    "group": "动作的态",
+    "category": "动作的态",
+    "details": "进行态",
+    "content": "（1）……在/正在+动词 \n（2）……在/正/正在+动词……+呢 \n（3）……呢"
+  },
+  {
+    "id": "G1-043",
+    "level": 1,
+    "sourceNo": 43,
+    "group": "特殊表达法",
+    "category": "数的表示法",
+    "details": "钱数表示法",
+    "content": ""
+  },
+  {
+    "id": "G1-044",
+    "level": 1,
+    "sourceNo": 44,
+    "group": "特殊表达法",
+    "category": "时间表示法",
+    "details": "（1）年、月、日、星期表示法（2）钟点表示法",
+    "content": ""
+  },
+  {
+    "id": "G1-045",
+    "level": 1,
+    "sourceNo": 45,
+    "group": "提问的方法",
+    "category": "用“吗”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G1-046",
+    "level": 1,
+    "sourceNo": 46,
+    "group": "提问的方法",
+    "category": "用“多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G1-047",
+    "level": 1,
+    "sourceNo": 47,
+    "group": "提问的方法",
+    "category": "用“还是”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G1-048",
+    "level": 1,
+    "sourceNo": 48,
+    "group": "提问的方法",
+    "category": "用正反疑问形式提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-001",
+    "level": 2,
+    "sourceNo": 49,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "（1）可能；（2）可以"
+  },
+  {
+    "id": "G2-002",
+    "level": 2,
+    "sourceNo": 50,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "该、应该"
+  },
+  {
+    "id": "G2-003",
+    "level": 2,
+    "sourceNo": 51,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "愿意"
+  },
+  {
+    "id": "G2-004",
+    "level": 2,
+    "sourceNo": 52,
+    "group": "词类",
+    "category": "动词",
+    "details": "动词重叠",
+    "content": "动词重叠：AA、A一A、A了A、ABAB"
+  },
+  {
+    "id": "G2-005",
+    "level": 2,
+    "sourceNo": 53,
+    "group": "词类",
+    "category": "代词",
+    "details": "疑问代词",
+    "content": "多久、为什么、怎么样、怎样"
+  },
+  {
+    "id": "G2-006",
+    "level": 2,
+    "sourceNo": 54,
+    "group": "词类",
+    "category": "代词",
+    "details": "人称代词",
+    "content": "别人、大家、它、它们、咱、咱们、自己"
+  },
+  {
+    "id": "G2-007",
+    "level": 2,
+    "sourceNo": 55,
+    "group": "词类",
+    "category": "代词",
+    "details": "指示代词",
+    "content": "那么、那样、这么、这样"
+  },
+  {
+    "id": "G2-008",
+    "level": 2,
+    "sourceNo": 56,
+    "group": "词类",
+    "category": "形容词",
+    "details": "形容词重叠",
+    "content": "AA、AABB"
+  },
+  {
+    "id": "G2-009",
+    "level": 2,
+    "sourceNo": 57,
+    "group": "词类",
+    "category": "数词",
+    "details": "千、万、亿",
+    "content": ""
+  },
+  {
+    "id": "G2-010",
+    "level": 2,
+    "sourceNo": 58,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "层、封、件、条、位"
+  },
+  {
+    "id": "G2-011",
+    "level": 2,
+    "sourceNo": 59,
+    "group": "词类",
+    "category": "量词",
+    "details": "动量词",
+    "content": "遍、次、场、回、下"
+  },
+  {
+    "id": "G2-012",
+    "level": 2,
+    "sourceNo": 60,
+    "group": "词类",
+    "category": "量词",
+    "details": "时量词",
+    "content": "分钟、年、天、周"
+  },
+  {
+    "id": "G2-013",
+    "level": 2,
+    "sourceNo": 61,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "多、多么、好、更、十分、特别、挺、有（一）点儿"
+  },
+  {
+    "id": "G2-014",
+    "level": 2,
+    "sourceNo": 62,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "全、一共、只"
+  },
+  {
+    "id": "G2-015",
+    "level": 2,
+    "sourceNo": 63,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "刚、刚刚、还2、忽然、一直、已经"
+  },
+  {
+    "id": "G2-016",
+    "level": 2,
+    "sourceNo": 64,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "重新、经常、老、老是、又"
+  },
+  {
+    "id": "G2-017",
+    "level": 2,
+    "sourceNo": 65,
+    "group": "词类",
+    "category": "副词",
+    "details": "关联副词",
+    "content": "就1"
+  },
+  {
+    "id": "G2-018",
+    "level": 2,
+    "sourceNo": 66,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "故意"
+  },
+  {
+    "id": "G2-019",
+    "level": 2,
+    "sourceNo": 67,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "必须、差不多、好像、一定、也许"
+  },
+  {
+    "id": "G2-020",
+    "level": 2,
+    "sourceNo": 68,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "才1、都2、就2、正好"
+  },
+  {
+    "id": "G2-021",
+    "level": 2,
+    "sourceNo": 69,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "当"
+  },
+  {
+    "id": "G2-022",
+    "level": 2,
+    "sourceNo": 70,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出方向、路径",
+    "content": "往"
+  },
+  {
+    "id": "G2-023",
+    "level": 2,
+    "sourceNo": 71,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出方向、路径",
+    "content": "向1"
+  },
+  {
+    "id": "G2-024",
+    "level": 2,
+    "sourceNo": 72,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出方向、路径",
+    "content": "从2"
+  },
+  {
+    "id": "G2-025",
+    "level": 2,
+    "sourceNo": 73,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "对"
+  },
+  {
+    "id": "G2-026",
+    "level": 2,
+    "sourceNo": 74,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "给"
+  },
+  {
+    "id": "G2-027",
+    "level": 2,
+    "sourceNo": 75,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "离"
+  },
+  {
+    "id": "G2-028",
+    "level": 2,
+    "sourceNo": 76,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出目的、原因",
+    "content": "为1"
+  },
+  {
+    "id": "G2-029",
+    "level": 2,
+    "sourceNo": 77,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接词或词组",
+    "content": "或、或者"
+  },
+  {
+    "id": "G2-030",
+    "level": 2,
+    "sourceNo": 78,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接分句或句子",
+    "content": "不过、但、但是、而且、那、如果、虽然、只要"
+  },
+  {
+    "id": "G2-031",
+    "level": 2,
+    "sourceNo": 79,
+    "group": "词类",
+    "category": "助词",
+    "details": "结构助词",
+    "content": "得"
+  },
+  {
+    "id": "G2-032",
+    "level": 2,
+    "sourceNo": 80,
+    "group": "词类",
+    "category": "助词",
+    "details": "动态助词",
+    "content": "过"
+  },
+  {
+    "id": "G2-033",
+    "level": 2,
+    "sourceNo": 81,
+    "group": "词类",
+    "category": "助词",
+    "details": "着",
+    "content": ""
+  },
+  {
+    "id": "G2-034",
+    "level": 2,
+    "sourceNo": 82,
+    "group": "词类",
+    "category": "助词",
+    "details": "语气助词",
+    "content": "啊1、吧2、的2"
+  },
+  {
+    "id": "G2-035",
+    "level": 2,
+    "sourceNo": 83,
+    "group": "词类",
+    "category": "助词",
+    "details": "其他助词",
+    "content": "的话、等"
+  },
+  {
+    "id": "G2-036",
+    "level": 2,
+    "sourceNo": 84,
+    "group": "词类",
+    "category": "叹词",
+    "details": "喂",
+    "content": ""
+  },
+  {
+    "id": "G2-037",
+    "level": 2,
+    "sourceNo": 85,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "基本结构类型",
+    "content": "基本结构类型：（1）联合短语（2）偏正短语（3）动宾短语（4）动补短语（5）主谓短语"
+  },
+  {
+    "id": "G2-038",
+    "level": 2,
+    "sourceNo": 86,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "其他结构类型",
+    "content": "其他结构类型1：（1）“的”字短语（2）连谓短语"
+  },
+  {
+    "id": "G2-039",
+    "level": 2,
+    "sourceNo": 87,
+    "group": "短语",
+    "category": "功能类型",
+    "details": "名词性短语",
+    "content": ""
+  },
+  {
+    "id": "G2-040",
+    "level": 2,
+    "sourceNo": 88,
+    "group": "短语",
+    "category": "功能类型",
+    "details": "动词性短语",
+    "content": ""
+  },
+  {
+    "id": "G2-041",
+    "level": 2,
+    "sourceNo": 89,
+    "group": "短语",
+    "category": "功能类型",
+    "details": "形容词性短语",
+    "content": ""
+  },
+  {
+    "id": "G2-042",
+    "level": 2,
+    "sourceNo": 90,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "不一会儿"
+  },
+  {
+    "id": "G2-043",
+    "level": 2,
+    "sourceNo": 91,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "什么的"
+  },
+  {
+    "id": "G2-044",
+    "level": 2,
+    "sourceNo": 92,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "越来越"
+  },
+  {
+    "id": "G2-045",
+    "level": 2,
+    "sourceNo": 93,
+    "group": "固定格式",
+    "category": "还是……吧",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-046",
+    "level": 2,
+    "sourceNo": 94,
+    "group": "固定格式",
+    "category": "又……又……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-047",
+    "level": 2,
+    "sourceNo": 95,
+    "group": "固定格式",
+    "category": "（在）……以前/以后/前/后",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-048",
+    "level": 2,
+    "sourceNo": 96,
+    "group": "句子成分",
+    "category": "谓语",
+    "details": "名词、代词、数词、数量短语、名词性短语作谓语",
+    "content": ""
+  },
+  {
+    "id": "G2-049",
+    "level": 2,
+    "sourceNo": 97,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "结果补语",
+    "content": "结果补语1：动词+错/懂/干净/好/会/清楚/完"
+  },
+  {
+    "id": "G2-050",
+    "level": 2,
+    "sourceNo": 98,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "趋向补语",
+    "content": "趋向补语1 \n简单趋向补语的趋向意义用法： \n（1）动词+来/去（2）动词+上/下/进/出/起/过/回/开"
+  },
+  {
+    "id": "G2-051",
+    "level": 2,
+    "sourceNo": 99,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "状态补语",
+    "content": "状态补语1：动词+得+形容词性词语"
+  },
+  {
+    "id": "G2-052",
+    "level": 2,
+    "sourceNo": 100,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "数量补语",
+    "content": "数量补语1：动词+动量补语"
+  },
+  {
+    "id": "G2-053",
+    "level": 2,
+    "sourceNo": 101,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "数量补语",
+    "content": "数量补语2：形容词+数量补语"
+  },
+  {
+    "id": "G2-054",
+    "level": 2,
+    "sourceNo": 102,
+    "group": "句子的类型",
+    "category": "句型",
+    "details": "单句",
+    "content": "主谓句3：名词谓语句"
+  },
+  {
+    "id": "G2-055",
+    "level": 2,
+    "sourceNo": 103,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“有”字句",
+    "content": "“有”字句2：（1）表示评价、达到； \n（2）表示比较（见“比较句 2-（4）”）"
+  },
+  {
+    "id": "G2-056",
+    "level": 2,
+    "sourceNo": 104,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "存现句",
+    "content": "存现句1：表示存在 \n（1）处所+有+数量短语+名词（见“‘有’字句1-（2）”） \n（2）处所+动词+着（+数量短语）+名词"
+  },
+  {
+    "id": "G2-057",
+    "level": 2,
+    "sourceNo": 105,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "连动句",
+    "content": "连动句1：表示前后动作先后发生"
+  },
+  {
+    "id": "G2-058",
+    "level": 2,
+    "sourceNo": 106,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "比较句",
+    "content": "比较句2： \n（1）A比B +形容词+数量补语（2）A比B +更/还+形容词（3）A不如B（+形容词）（4）A有B（+这么/那么）+形容词"
+  },
+  {
+    "id": "G2-059",
+    "level": 2,
+    "sourceNo": 107,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "比较句",
+    "content": "比较句3：（1）A跟B一样/相同（2）A跟B一样+形容词"
+  },
+  {
+    "id": "G2-060",
+    "level": 2,
+    "sourceNo": 108,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“是……的”句",
+    "content": "“是……的”句1：强调时间、地点、方式、动作者"
+  },
+  {
+    "id": "G2-061",
+    "level": 2,
+    "sourceNo": 109,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "双宾语句",
+    "content": "（1）主语+动词+宾语1+宾语2 \n（2）主语+动词+给+宾语1+宾语2"
+  },
+  {
+    "id": "G2-062",
+    "level": 2,
+    "sourceNo": 110,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "（1）不用关联词语（2）用关联词语：先……，再/然后……"
+  },
+  {
+    "id": "G2-063",
+    "level": 2,
+    "sourceNo": 111,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "（1）不用关联词语（2）用关联词语：……，更/还……；不但……，而且……"
+  },
+  {
+    "id": "G2-064",
+    "level": 2,
+    "sourceNo": 112,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "（1）不用关联词语（2）用关联词语：（是）……，还是……"
+  },
+  {
+    "id": "G2-065",
+    "level": 2,
+    "sourceNo": 113,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "（1）不用关联词语（2）用关联词语：虽然……，但是/可是……；……，不过……"
+  },
+  {
+    "id": "G2-066",
+    "level": 2,
+    "sourceNo": 114,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "（1）不用关联词语（2）用关联词语：如果……，就……；……的话，就……"
+  },
+  {
+    "id": "G2-067",
+    "level": 2,
+    "sourceNo": 115,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "只要……，就……"
+  },
+  {
+    "id": "G2-068",
+    "level": 2,
+    "sourceNo": 116,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "（1）不用关联词语（2）用关联词语：因为……，所以……"
+  },
+  {
+    "id": "G2-069",
+    "level": 2,
+    "sourceNo": 117,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "一……就……"
+  },
+  {
+    "id": "G2-070",
+    "level": 2,
+    "sourceNo": 118,
+    "group": "动作的态",
+    "category": "动作的态",
+    "details": "持续态",
+    "content": "动词+着 \n（1）表示状态的持续（2）表示动作的持续"
+  },
+  {
+    "id": "G2-071",
+    "level": 2,
+    "sourceNo": 119,
+    "group": "动作的态",
+    "category": "动作的态",
+    "details": "经历态",
+    "content": "用动态助词“过”表示"
+  },
+  {
+    "id": "G2-072",
+    "level": 2,
+    "sourceNo": 120,
+    "group": "特殊表达法",
+    "category": "数的表示法",
+    "details": "序数表示法",
+    "content": ""
+  },
+  {
+    "id": "G2-073",
+    "level": 2,
+    "sourceNo": 121,
+    "group": "特殊表达法",
+    "category": "数的表示法",
+    "details": "概数表示法1： \n（1）数词+多+量词（2）数词+量词+多",
+    "content": ""
+  },
+  {
+    "id": "G2-074",
+    "level": 2,
+    "sourceNo": 122,
+    "group": "强调的方法",
+    "category": "用“就”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-075",
+    "level": 2,
+    "sourceNo": 124,
+    "group": "提问的方法",
+    "category": "用“好吗/可以吗/行吗/怎么样”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-076",
+    "level": 2,
+    "sourceNo": 125,
+    "group": "提问的方法",
+    "category": "用“什么时候、什么样、为什么、怎么样、怎样”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-077",
+    "level": 2,
+    "sourceNo": 126,
+    "group": "提问的方法",
+    "category": "用“呢”构成的省略式疑问句“代词/名词+呢？”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-078",
+    "level": 2,
+    "sourceNo": 127,
+    "group": "提问的方法",
+    "category": "用“是不是”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-079",
+    "level": 2,
+    "sourceNo": 128,
+    "group": "提问的方法",
+    "category": "用“吧”提问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-080",
+    "level": 2,
+    "sourceNo": 129,
+    "group": "口语格式",
+    "category": "该……了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G2-081",
+    "level": 2,
+    "sourceNo": 130,
+    "group": "口语格式",
+    "category": "要/快要/就要……了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-001",
+    "level": 3,
+    "sourceNo": 131,
+    "group": "语素",
+    "category": "前缀",
+    "details": "第-、老-、小-",
+    "content": ""
+  },
+  {
+    "id": "G3-002",
+    "level": 3,
+    "sourceNo": 132,
+    "group": "语素",
+    "category": "后缀",
+    "details": "-儿、-家、-们、-头、-子",
+    "content": ""
+  },
+  {
+    "id": "G3-003",
+    "level": 3,
+    "sourceNo": 133,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "敢"
+  },
+  {
+    "id": "G3-004",
+    "level": 3,
+    "sourceNo": 134,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "需要"
+  },
+  {
+    "id": "G3-005",
+    "level": 3,
+    "sourceNo": 135,
+    "group": "词类",
+    "category": "动词",
+    "details": "离合词",
+    "content": "动宾式离合词：帮忙、点头、放假、干杯、见面、结婚、看病、睡觉、洗澡、理发、说话"
+  },
+  {
+    "id": "G3-006",
+    "level": 3,
+    "sourceNo": 136,
+    "group": "词类",
+    "category": "动词",
+    "details": "离合词",
+    "content": "动补式离合词：打开、看见、离开、完成"
+  },
+  {
+    "id": "G3-007",
+    "level": 3,
+    "sourceNo": 137,
+    "group": "词类",
+    "category": "代词",
+    "details": "疑问代词",
+    "content": "疑问代词的非疑问用法 \n（1）任指用法 \n①疑问代词+都……②疑问代词……疑问代词……（2）不定指用法"
+  },
+  {
+    "id": "G3-008",
+    "level": 3,
+    "sourceNo": 138,
+    "group": "词类",
+    "category": "代词",
+    "details": "指示代词",
+    "content": "各、各位、各种、每、任何"
+  },
+  {
+    "id": "G3-009",
+    "level": 3,
+    "sourceNo": 139,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "把、行、架、群、束、双、台、张、支、只、种"
+  },
+  {
+    "id": "G3-010",
+    "level": 3,
+    "sourceNo": 140,
+    "group": "词类",
+    "category": "量词",
+    "details": "动量词",
+    "content": "顿、口、眼"
+  },
+  {
+    "id": "G3-011",
+    "level": 3,
+    "sourceNo": 141,
+    "group": "词类",
+    "category": "量词",
+    "details": "量词重叠",
+    "content": "量词重叠：AA"
+  },
+  {
+    "id": "G3-012",
+    "level": 3,
+    "sourceNo": 142,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "比较、更加、还3、相当"
+  },
+  {
+    "id": "G3-013",
+    "level": 3,
+    "sourceNo": 143,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "光、仅、仅仅、就3、至少"
+  },
+  {
+    "id": "G3-014",
+    "level": 3,
+    "sourceNo": 144,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "本来、才2、曾经、从来、赶紧、赶快、立刻、连忙、始终、已、早已"
+  },
+  {
+    "id": "G3-015",
+    "level": 3,
+    "sourceNo": 145,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "通常、往往、总、总是"
+  },
+  {
+    "id": "G3-016",
+    "level": 3,
+    "sourceNo": 146,
+    "group": "词类",
+    "category": "副词",
+    "details": "关联副词",
+    "content": "再2"
+  },
+  {
+    "id": "G3-017",
+    "level": 3,
+    "sourceNo": 147,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "互相、尽量、亲自、相互"
+  },
+  {
+    "id": "G3-018",
+    "level": 3,
+    "sourceNo": 148,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "大概、恐怕"
+  },
+  {
+    "id": "G3-019",
+    "level": 3,
+    "sourceNo": 149,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "白、并1、当然、到底、反正、根本、果然、简直、绝对、难道、其实、千万、确实、只好、终于"
+  },
+  {
+    "id": "G3-020",
+    "level": 3,
+    "sourceNo": 150,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "由1"
+  },
+  {
+    "id": "G3-021",
+    "level": 3,
+    "sourceNo": 151,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "自从"
+  },
+  {
+    "id": "G3-022",
+    "level": 3,
+    "sourceNo": 152,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出方向、路径",
+    "content": "朝"
+  },
+  {
+    "id": "G3-023",
+    "level": 3,
+    "sourceNo": 153,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "为2"
+  },
+  {
+    "id": "G3-024",
+    "level": 3,
+    "sourceNo": 154,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "向2"
+  },
+  {
+    "id": "G3-025",
+    "level": 3,
+    "sourceNo": 155,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出目的、原因",
+    "content": "由于1、因为"
+  },
+  {
+    "id": "G3-026",
+    "level": 3,
+    "sourceNo": 156,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出目的、原因",
+    "content": "为了"
+  },
+  {
+    "id": "G3-027",
+    "level": 3,
+    "sourceNo": 157,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出施事、受事",
+    "content": "把、被、叫、让"
+  },
+  {
+    "id": "G3-028",
+    "level": 3,
+    "sourceNo": 158,
+    "group": "词类",
+    "category": "介词",
+    "details": "表示排除",
+    "content": "除了"
+  },
+  {
+    "id": "G3-029",
+    "level": 3,
+    "sourceNo": 159,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "按、按照"
+  },
+  {
+    "id": "G3-030",
+    "level": 3,
+    "sourceNo": 160,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接分句或句子",
+    "content": "并且、不光、不仅、另外、要是、因此、由于2、只有"
+  },
+  {
+    "id": "G3-031",
+    "level": 3,
+    "sourceNo": 161,
+    "group": "词类",
+    "category": "拟声词",
+    "details": "哈哈",
+    "content": ""
+  },
+  {
+    "id": "G3-032",
+    "level": 3,
+    "sourceNo": 162,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "其他结构类型",
+    "content": "其他结构类型2：（1）介宾短语（2）方位短语（3）兼语短语（4）同位短语"
+  },
+  {
+    "id": "G3-033",
+    "level": 3,
+    "sourceNo": 163,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "数量重叠：数词+量词+数词+量词",
+    "content": ""
+  },
+  {
+    "id": "G3-034",
+    "level": 3,
+    "sourceNo": 164,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "不A不B"
+  },
+  {
+    "id": "G3-035",
+    "level": 3,
+    "sourceNo": 165,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "看起来"
+  },
+  {
+    "id": "G3-036",
+    "level": 3,
+    "sourceNo": 166,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "看上去"
+  },
+  {
+    "id": "G3-037",
+    "level": 3,
+    "sourceNo": 167,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "有的是"
+  },
+  {
+    "id": "G3-038",
+    "level": 3,
+    "sourceNo": 168,
+    "group": "固定格式",
+    "category": "除了……（以外），……还/也/都……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-039",
+    "level": 3,
+    "sourceNo": 169,
+    "group": "固定格式",
+    "category": "从……起",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-040",
+    "level": 3,
+    "sourceNo": 170,
+    "group": "固定格式",
+    "category": "对……来说",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-041",
+    "level": 3,
+    "sourceNo": 171,
+    "group": "固定格式",
+    "category": "一……也/都+不/没……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-042",
+    "level": 3,
+    "sourceNo": 172,
+    "group": "固定格式",
+    "category": "越……越……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-043",
+    "level": 3,
+    "sourceNo": 173,
+    "group": "句子成分",
+    "category": "主语",
+    "details": "动词或动词性短语、形容词或形容词性短语作主语",
+    "content": ""
+  },
+  {
+    "id": "G3-044",
+    "level": 3,
+    "sourceNo": 174,
+    "group": "句子成分",
+    "category": "宾语",
+    "details": "动词或动词性短语、形容词或形容词性短语和主谓短语作宾语",
+    "content": ""
+  },
+  {
+    "id": "G3-045",
+    "level": 3,
+    "sourceNo": 175,
+    "group": "句子成分",
+    "category": "定语",
+    "details": "动词或动词性短语、主谓短语作定语",
+    "content": ""
+  },
+  {
+    "id": "G3-046",
+    "level": 3,
+    "sourceNo": 176,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "结果补语",
+    "content": "结果补语2：动词+到/住/走"
+  },
+  {
+    "id": "G3-047",
+    "level": 3,
+    "sourceNo": 177,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "趋向补语",
+    "content": "趋向补语2 \n复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/ 起来/上来/上去/下来/下去"
+  },
+  {
+    "id": "G3-048",
+    "level": 3,
+    "sourceNo": 178,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "可能补语",
+    "content": "可能补语1：动词+得/不+动词/形容词；动词+得/不+了"
+  },
+  {
+    "id": "G3-049",
+    "level": 3,
+    "sourceNo": 179,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "程度补语",
+    "content": "程度补语1：形容词/心理动词+得很/极了/死了"
+  },
+  {
+    "id": "G3-050",
+    "level": 3,
+    "sourceNo": 180,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "数量补语",
+    "content": "数量补语 3（动词+动量补语）：宾语和动量补语共现"
+  },
+  {
+    "id": "G3-051",
+    "level": 3,
+    "sourceNo": 181,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "数量补语",
+    "content": "数量补语4（动词+时量补语）：表示动作持续的时间"
+  },
+  {
+    "id": "G3-052",
+    "level": 3,
+    "sourceNo": 182,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "数量补语",
+    "content": "数量补语5（动词+时量补语）：表示动作结束后到某个时间点的间隔时间"
+  },
+  {
+    "id": "G3-053",
+    "level": 3,
+    "sourceNo": 183,
+    "group": "句子的类型",
+    "category": "句型",
+    "details": "单句",
+    "content": "主谓句4：主谓谓语句"
+  },
+  {
+    "id": "G3-054",
+    "level": 3,
+    "sourceNo": 184,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“把”字句",
+    "content": "“把”字句1：表处置 \n（1）主语+把+宾语+动词+在/到+处所（2）主语+把+宾语1 +动词（+给）+宾语2（3）主语+把+宾语+动词+结果补语/趋向补语/状态补语"
+  },
+  {
+    "id": "G3-055",
+    "level": 3,
+    "sourceNo": 185,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "被动句",
+    "content": "被动句1：主语+被/叫/让+宾语+动词+其他成分"
+  },
+  {
+    "id": "G3-056",
+    "level": 3,
+    "sourceNo": 186,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "连动句",
+    "content": "连动句2： \n（1）前一动作是后一动作的方式（2）后一动作是前一动作的目的"
+  },
+  {
+    "id": "G3-057",
+    "level": 3,
+    "sourceNo": 187,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "兼语句",
+    "content": "兼语句1 \n表使令：主语+叫/派/请/让……+宾语1 +动词+宾语2"
+  },
+  {
+    "id": "G3-058",
+    "level": 3,
+    "sourceNo": 188,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "比较句",
+    "content": "比较句4： \n（1）A比B +动词+得+形容词 \n（2）A不比B +形容词 \n（3）A +动词+得+比+ B +形容词 \n（4）A比B +多/少/早/晚+动词+数量短语"
+  },
+  {
+    "id": "G3-059",
+    "level": 3,
+    "sourceNo": 189,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "重动句",
+    "content": "主语+动词+宾语+动词+补语"
+  },
+  {
+    "id": "G3-060",
+    "level": 3,
+    "sourceNo": 190,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "（也）……，也……"
+  },
+  {
+    "id": "G3-061",
+    "level": 3,
+    "sourceNo": 191,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "一会儿……，一会儿……"
+  },
+  {
+    "id": "G3-062",
+    "level": 3,
+    "sourceNo": 192,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "一方面……，另一方面……"
+  },
+  {
+    "id": "G3-063",
+    "level": 3,
+    "sourceNo": 193,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "又……，又……"
+  },
+  {
+    "id": "G3-064",
+    "level": 3,
+    "sourceNo": 194,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "首先……，然后……"
+  },
+  {
+    "id": "G3-065",
+    "level": 3,
+    "sourceNo": 195,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，并且……"
+  },
+  {
+    "id": "G3-066",
+    "level": 3,
+    "sourceNo": 196,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "不仅/不光……，还/而且……"
+  },
+  {
+    "id": "G3-067",
+    "level": 3,
+    "sourceNo": 197,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "不是……，就是……"
+  },
+  {
+    "id": "G3-068",
+    "level": 3,
+    "sourceNo": 198,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "……X是X，就是/不过……"
+  },
+  {
+    "id": "G3-069",
+    "level": 3,
+    "sourceNo": 199,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "要是……，就……"
+  },
+  {
+    "id": "G3-070",
+    "level": 3,
+    "sourceNo": 200,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "只有……，才……"
+  },
+  {
+    "id": "G3-071",
+    "level": 3,
+    "sourceNo": 201,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "（由于）……，所以/因此……"
+  },
+  {
+    "id": "G3-072",
+    "level": 3,
+    "sourceNo": 202,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "目的复句",
+    "content": "为了……，……"
+  },
+  {
+    "id": "G3-073",
+    "level": 3,
+    "sourceNo": 203,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "……了……（就）……"
+  },
+  {
+    "id": "G3-074",
+    "level": 3,
+    "sourceNo": 204,
+    "group": "特殊表达法",
+    "category": "数的表示法",
+    "details": "概数表示法2： \n（1）用“大概、大约、几”表示概数（2）相邻数词连用表示概数（3）用“左右、前后”表示概数",
+    "content": ""
+  },
+  {
+    "id": "G3-075",
+    "level": 3,
+    "sourceNo": 205,
+    "group": "强调的方法",
+    "category": "用“一点儿也不……”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-076",
+    "level": 3,
+    "sourceNo": 206,
+    "group": "强调的方法",
+    "category": "用反问句表示强调 \n反问句1：不是……吗？/难道……吗？",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-077",
+    "level": 3,
+    "sourceNo": 207,
+    "group": "强调的方法",
+    "category": "用“是”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-078",
+    "level": 3,
+    "sourceNo": 208,
+    "group": "提问的方法",
+    "category": "用疑问语调表示疑问",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-079",
+    "level": 3,
+    "sourceNo": 209,
+    "group": "口语格式",
+    "category": "都……了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-080",
+    "level": 3,
+    "sourceNo": 210,
+    "group": "口语格式",
+    "category": "X就X（点儿）吧",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G3-081",
+    "level": 3,
+    "sourceNo": 211,
+    "group": "口语格式",
+    "category": "X什么（啊）",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-001",
+    "level": 4,
+    "sourceNo": 212,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "得"
+  },
+  {
+    "id": "G4-002",
+    "level": 4,
+    "sourceNo": 213,
+    "group": "词类",
+    "category": "代词",
+    "details": "人称代词",
+    "content": "人家"
+  },
+  {
+    "id": "G4-003",
+    "level": 4,
+    "sourceNo": 214,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "打、袋、根、卷、棵、批"
+  },
+  {
+    "id": "G4-004",
+    "level": 4,
+    "sourceNo": 215,
+    "group": "词类",
+    "category": "量词",
+    "details": "借用量词",
+    "content": "（1）名量词：碗、脸、手、屋子、桌子 \n（2）动量词：刀、针"
+  },
+  {
+    "id": "G4-005",
+    "level": 4,
+    "sourceNo": 216,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "格外、极、极其"
+  },
+  {
+    "id": "G4-006",
+    "level": 4,
+    "sourceNo": 217,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "共"
+  },
+  {
+    "id": "G4-007",
+    "level": 4,
+    "sourceNo": 218,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "按时、即将、急忙、渐渐、尽快"
+  },
+  {
+    "id": "G4-008",
+    "level": 4,
+    "sourceNo": 219,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "一再、再三"
+  },
+  {
+    "id": "G4-009",
+    "level": 4,
+    "sourceNo": 220,
+    "group": "词类",
+    "category": "副词",
+    "details": "关联副词",
+    "content": "却"
+  },
+  {
+    "id": "G4-010",
+    "level": 4,
+    "sourceNo": 221,
+    "group": "词类",
+    "category": "副词",
+    "details": "否定副词",
+    "content": "未必"
+  },
+  {
+    "id": "G4-011",
+    "level": 4,
+    "sourceNo": 222,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "几乎、似乎"
+  },
+  {
+    "id": "G4-012",
+    "level": 4,
+    "sourceNo": 223,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "的确、反而、还4、竟然、究竟"
+  },
+  {
+    "id": "G4-013",
+    "level": 4,
+    "sourceNo": 224,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "自"
+  },
+  {
+    "id": "G4-014",
+    "level": 4,
+    "sourceNo": 225,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "对于"
+  },
+  {
+    "id": "G4-015",
+    "level": 4,
+    "sourceNo": 226,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "关于"
+  },
+  {
+    "id": "G4-016",
+    "level": 4,
+    "sourceNo": 227,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "替"
+  },
+  {
+    "id": "G4-017",
+    "level": 4,
+    "sourceNo": 228,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "根据"
+  },
+  {
+    "id": "G4-018",
+    "level": 4,
+    "sourceNo": 229,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "作为"
+  },
+  {
+    "id": "G4-019",
+    "level": 4,
+    "sourceNo": 230,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接词或词组",
+    "content": "并2、以及"
+  },
+  {
+    "id": "G4-020",
+    "level": 4,
+    "sourceNo": 231,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接分句或句子",
+    "content": "此外、而1、而是、既然、可见、甚至、假如、总之"
+  },
+  {
+    "id": "G4-021",
+    "level": 4,
+    "sourceNo": 232,
+    "group": "词类",
+    "category": "助词",
+    "details": "其他助词",
+    "content": "似的"
+  },
+  {
+    "id": "G4-022",
+    "level": 4,
+    "sourceNo": 233,
+    "group": "词类",
+    "category": "叹词",
+    "details": "啊2",
+    "content": ""
+  },
+  {
+    "id": "G4-023",
+    "level": 4,
+    "sourceNo": 234,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "大A大B"
+  },
+  {
+    "id": "G4-024",
+    "level": 4,
+    "sourceNo": 235,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "一A一B"
+  },
+  {
+    "id": "G4-025",
+    "level": 4,
+    "sourceNo": 236,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "看来"
+  },
+  {
+    "id": "G4-026",
+    "level": 4,
+    "sourceNo": 237,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "来得及/来不及"
+  },
+  {
+    "id": "G4-027",
+    "level": 4,
+    "sourceNo": 238,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "说不定"
+  },
+  {
+    "id": "G4-028",
+    "level": 4,
+    "sourceNo": 239,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "一般来说"
+  },
+  {
+    "id": "G4-029",
+    "level": 4,
+    "sourceNo": 240,
+    "group": "固定格式",
+    "category": "一+量词+比+一+量词",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-030",
+    "level": 4,
+    "sourceNo": 241,
+    "group": "固定格式",
+    "category": "（自）……以来",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-031",
+    "level": 4,
+    "sourceNo": 242,
+    "group": "固定格式",
+    "category": "由……组成",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-032",
+    "level": 4,
+    "sourceNo": 243,
+    "group": "固定格式",
+    "category": "在……方面",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-033",
+    "level": 4,
+    "sourceNo": 244,
+    "group": "固定格式",
+    "category": "在……上/下/中",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-034",
+    "level": 4,
+    "sourceNo": 245,
+    "group": "句子成分",
+    "category": "主语",
+    "details": "主谓短语作主语",
+    "content": ""
+  },
+  {
+    "id": "G4-035",
+    "level": 4,
+    "sourceNo": 246,
+    "group": "句子成分",
+    "category": "主语",
+    "details": "受事主语",
+    "content": ""
+  },
+  {
+    "id": "G4-036",
+    "level": 4,
+    "sourceNo": 247,
+    "group": "句子成分",
+    "category": "定语",
+    "details": "多项定语",
+    "content": ""
+  },
+  {
+    "id": "G4-037",
+    "level": 4,
+    "sourceNo": 248,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "趋向补语",
+    "content": "趋向补语3 \n表示结果意义（引申用法）：动词+上/出/起/下"
+  },
+  {
+    "id": "G4-038",
+    "level": 4,
+    "sourceNo": 249,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“把”字句",
+    "content": "“把”字句2：表处置（1） \n主语+把+宾语+动词（+一/了）+动词（2）主语+把+宾语（+给）+动词+了/着（3）主语+把+宾语+动词+动量补语/时量补语"
+  },
+  {
+    "id": "G4-039",
+    "level": 4,
+    "sourceNo": 250,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "被动句",
+    "content": "被动句2：主语+被+动词+其他成分"
+  },
+  {
+    "id": "G4-040",
+    "level": 4,
+    "sourceNo": 251,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "存现句",
+    "content": "存现句2： \n（1）表示出现：处所词+动词+趋向补语/结果补语+动态助词（了）+数量短语+人/物（2）表示消失：处所词+动词+结果补语+动态助词（了）+数量短语+人/物"
+  },
+  {
+    "id": "G4-041",
+    "level": 4,
+    "sourceNo": 252,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "兼语句",
+    "content": "兼语句2 \n（1）表爱憎义：主语+表扬/批评+宾语1+动词+宾语2（2）表称谓或认定义：主语+叫/称（呼）/说/收/选+宾语1 +做/为/当/是+宾语2"
+  },
+  {
+    "id": "G4-042",
+    "level": 4,
+    "sourceNo": 253,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“是……的”句",
+    "content": "“是……的”句2：强调说话人的看法或态度"
+  },
+  {
+    "id": "G4-043",
+    "level": 4,
+    "sourceNo": 254,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "不是……，而是……"
+  },
+  {
+    "id": "G4-044",
+    "level": 4,
+    "sourceNo": 255,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "既……，又/也……"
+  },
+  {
+    "id": "G4-045",
+    "level": 4,
+    "sourceNo": 256,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "首先……，其次……"
+  },
+  {
+    "id": "G4-046",
+    "level": 4,
+    "sourceNo": 257,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "……，于是……"
+  },
+  {
+    "id": "G4-047",
+    "level": 4,
+    "sourceNo": 258,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，甚至……"
+  },
+  {
+    "id": "G4-048",
+    "level": 4,
+    "sourceNo": 259,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "或者……，或者……"
+  },
+  {
+    "id": "G4-049",
+    "level": 4,
+    "sourceNo": 260,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "……，然而……"
+  },
+  {
+    "id": "G4-050",
+    "level": 4,
+    "sourceNo": 261,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "……，否则……"
+  },
+  {
+    "id": "G4-051",
+    "level": 4,
+    "sourceNo": 262,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "假如……，（就）……"
+  },
+  {
+    "id": "G4-052",
+    "level": 4,
+    "sourceNo": 263,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "万一……，（就）……"
+  },
+  {
+    "id": "G4-053",
+    "level": 4,
+    "sourceNo": 264,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "不管……，都/也……"
+  },
+  {
+    "id": "G4-054",
+    "level": 4,
+    "sourceNo": 265,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "无论……，都/也……"
+  },
+  {
+    "id": "G4-055",
+    "level": 4,
+    "sourceNo": 266,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "既然……，就……"
+  },
+  {
+    "id": "G4-056",
+    "level": 4,
+    "sourceNo": 267,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "……，可见……"
+  },
+  {
+    "id": "G4-057",
+    "level": 4,
+    "sourceNo": 268,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "哪怕……，也/还……"
+  },
+  {
+    "id": "G4-058",
+    "level": 4,
+    "sourceNo": 269,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "目的复句",
+    "content": "……，好……"
+  },
+  {
+    "id": "G4-059",
+    "level": 4,
+    "sourceNo": 270,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "无标记"
+  },
+  {
+    "id": "G4-060",
+    "level": 4,
+    "sourceNo": 271,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "不……也……"
+  },
+  {
+    "id": "G4-061",
+    "level": 4,
+    "sourceNo": 272,
+    "group": "特殊表达法",
+    "category": "数的表示法",
+    "details": "概数表示法3：数词+来+量词",
+    "content": ""
+  },
+  {
+    "id": "G4-062",
+    "level": 4,
+    "sourceNo": 273,
+    "group": "特殊表达法",
+    "category": "数的表示法",
+    "details": "小数、分数、百分数、倍数的表示法；",
+    "content": ""
+  },
+  {
+    "id": "G4-063",
+    "level": 4,
+    "sourceNo": 274,
+    "group": "强调的方法",
+    "category": "用反问句表示强调 \n反问句2：由疑问代词构成的反问句",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-064",
+    "level": 4,
+    "sourceNo": 275,
+    "group": "强调的方法",
+    "category": "用双重否定表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-065",
+    "level": 4,
+    "sourceNo": 276,
+    "group": "强调的方法",
+    "category": "用“一+量词（+名词）+也（都）/也没（不）……”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-066",
+    "level": 4,
+    "sourceNo": 277,
+    "group": "强调的方法",
+    "category": "用“连……也/都……”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-067",
+    "level": 4,
+    "sourceNo": 278,
+    "group": "口语格式",
+    "category": "不X白不X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-068",
+    "level": 4,
+    "sourceNo": 279,
+    "group": "口语格式",
+    "category": "动词+一X是一X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-069",
+    "level": 4,
+    "sourceNo": 280,
+    "group": "口语格式",
+    "category": "（没）有什么（好）X的",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-070",
+    "level": 4,
+    "sourceNo": 281,
+    "group": "口语格式",
+    "category": "X是X，Y是Y",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-071",
+    "level": 4,
+    "sourceNo": 282,
+    "group": "口语格式",
+    "category": "X也得X，不X也得X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-072",
+    "level": 4,
+    "sourceNo": 283,
+    "group": "口语格式",
+    "category": "X就是了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-073",
+    "level": 4,
+    "sourceNo": 284,
+    "group": "口语格式",
+    "category": "还X呢",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-074",
+    "level": 4,
+    "sourceNo": 285,
+    "group": "口语格式",
+    "category": "你X你的吧",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-075",
+    "level": 4,
+    "sourceNo": 286,
+    "group": "口语格式",
+    "category": "让/叫你X你就X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G4-076",
+    "level": 4,
+    "sourceNo": 287,
+    "group": "口语格式",
+    "category": "说什么/怎么（着）也得X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-001",
+    "level": 5,
+    "sourceNo": 288,
+    "group": "词类",
+    "category": "代词",
+    "details": "指示代词",
+    "content": "彼此、如此"
+  },
+  {
+    "id": "G5-002",
+    "level": 5,
+    "sourceNo": 289,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "册、朵、幅、届、颗、匹、扇"
+  },
+  {
+    "id": "G5-003",
+    "level": 5,
+    "sourceNo": 290,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "过于、可1、稍、稍微、尤其"
+  },
+  {
+    "id": "G5-004",
+    "level": 5,
+    "sourceNo": 291,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "大都"
+  },
+  {
+    "id": "G5-005",
+    "level": 5,
+    "sourceNo": 292,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "不时、将、将要、仍旧、时常、时刻、依旧、一向"
+  },
+  {
+    "id": "G5-006",
+    "level": 5,
+    "sourceNo": 293,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "偶尔、再次"
+  },
+  {
+    "id": "G5-007",
+    "level": 5,
+    "sourceNo": 294,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "偷偷"
+  },
+  {
+    "id": "G5-008",
+    "level": 5,
+    "sourceNo": 295,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "毕竟、不免、差（一）点儿、倒是、干脆、就4、居然、可2、明明、总算"
+  },
+  {
+    "id": "G5-009",
+    "level": 5,
+    "sourceNo": 296,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "随着"
+  },
+  {
+    "id": "G5-010",
+    "level": 5,
+    "sourceNo": 297,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出施事、受事",
+    "content": "将"
+  },
+  {
+    "id": "G5-011",
+    "level": 5,
+    "sourceNo": 298,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出施事、受事",
+    "content": "由2"
+  },
+  {
+    "id": "G5-012",
+    "level": 5,
+    "sourceNo": 299,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "凭"
+  },
+  {
+    "id": "G5-013",
+    "level": 5,
+    "sourceNo": 300,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "依据"
+  },
+  {
+    "id": "G5-014",
+    "level": 5,
+    "sourceNo": 301,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "依照"
+  },
+  {
+    "id": "G5-015",
+    "level": 5,
+    "sourceNo": 302,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接分句或句子",
+    "content": "从而、加上、完了、一旦"
+  },
+  {
+    "id": "G5-016",
+    "level": 5,
+    "sourceNo": 303,
+    "group": "词类",
+    "category": "助词",
+    "details": "其他助词",
+    "content": "也好"
+  },
+  {
+    "id": "G5-017",
+    "level": 5,
+    "sourceNo": 304,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "A来A去"
+  },
+  {
+    "id": "G5-018",
+    "level": 5,
+    "sourceNo": 305,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "A着A着"
+  },
+  {
+    "id": "G5-019",
+    "level": 5,
+    "sourceNo": 306,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "没A没B"
+  },
+  {
+    "id": "G5-020",
+    "level": 5,
+    "sourceNo": 307,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "说A就A"
+  },
+  {
+    "id": "G5-021",
+    "level": 5,
+    "sourceNo": 308,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "有A有B"
+  },
+  {
+    "id": "G5-022",
+    "level": 5,
+    "sourceNo": 309,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "不得了"
+  },
+  {
+    "id": "G5-023",
+    "level": 5,
+    "sourceNo": 310,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "不敢当"
+  },
+  {
+    "id": "G5-024",
+    "level": 5,
+    "sourceNo": 311,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "得了"
+  },
+  {
+    "id": "G5-025",
+    "level": 5,
+    "sourceNo": 312,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "用不着"
+  },
+  {
+    "id": "G5-026",
+    "level": 5,
+    "sourceNo": 313,
+    "group": "固定格式",
+    "category": "从……来看",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-027",
+    "level": 5,
+    "sourceNo": 314,
+    "group": "固定格式",
+    "category": "到……为止",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-028",
+    "level": 5,
+    "sourceNo": 315,
+    "group": "固定格式",
+    "category": "够……的",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-029",
+    "level": 5,
+    "sourceNo": 316,
+    "group": "固定格式",
+    "category": "拿……来说",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-030",
+    "level": 5,
+    "sourceNo": 317,
+    "group": "固定格式",
+    "category": "A的A，B的B",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-031",
+    "level": 5,
+    "sourceNo": 318,
+    "group": "固定格式",
+    "category": "在……看来",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-032",
+    "level": 5,
+    "sourceNo": 319,
+    "group": "句子成分",
+    "category": "宾语",
+    "details": "宾语的语义类型1：（1）施事宾语；（2）受事宾语",
+    "content": ""
+  },
+  {
+    "id": "G5-033",
+    "level": 5,
+    "sourceNo": 320,
+    "group": "句子成分",
+    "category": "状语",
+    "details": "多项状语",
+    "content": ""
+  },
+  {
+    "id": "G5-034",
+    "level": 5,
+    "sourceNo": 321,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "趋向补语",
+    "content": "趋向补语4 \n表示时间意义（引申用法） \n（1）表示动作行为的开始：动词+上/起来（2）表示动作行为的持续：动词+下去/下来"
+  },
+  {
+    "id": "G5-035",
+    "level": 5,
+    "sourceNo": 322,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "可能补语",
+    "content": "可能补语2：动词+得/不得"
+  },
+  {
+    "id": "G5-036",
+    "level": 5,
+    "sourceNo": 323,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "程度补语",
+    "content": "程度补语2： \n（1）形容词/心理动词+得+不得了/慌/厉害；（2）动词/形容词+坏/透+了"
+  },
+  {
+    "id": "G5-037",
+    "level": 5,
+    "sourceNo": 324,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "状态补语",
+    "content": "状态补语2：动词/形容词+得+短语 \n（1）动词/形容词+得+动词短语（2）动词/形容词+得+主谓短语（3）动词/形容词+得+固定短语"
+  },
+  {
+    "id": "G5-038",
+    "level": 5,
+    "sourceNo": 325,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“有”字句",
+    "content": "“有”字句3： \n（1）表示存在、具有：主语+有+着+宾语（2）表示附着：主语+动词+有+宾语"
+  },
+  {
+    "id": "G5-039",
+    "level": 5,
+    "sourceNo": 326,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“把”字句",
+    "content": "“把”字句3：表处置 \n（1）主语+把+宾语+状语+动词 \n（2）主语+把+宾语+一+动词 \n（3）主语+把+宾语+动词+了 \n（4）主语+把+宾语1+动词+宾语2"
+  },
+  {
+    "id": "G5-040",
+    "level": 5,
+    "sourceNo": 327,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "被动句",
+    "content": "被动句3：意念被动句"
+  },
+  {
+    "id": "G5-041",
+    "level": 5,
+    "sourceNo": 328,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "连动句",
+    "content": "连动句3：前后两个动词性词语具有因果、转折、条件关系"
+  },
+  {
+    "id": "G5-042",
+    "level": 5,
+    "sourceNo": 329,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "兼语句",
+    "content": "兼语句3 \n表致使：主语+叫/令/使/让+人称代词+动词短语"
+  },
+  {
+    "id": "G5-043",
+    "level": 5,
+    "sourceNo": 330,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "比较句",
+    "content": "比较句5：（1）跟……相比 \n（2）A+形容词+B+数量补语"
+  },
+  {
+    "id": "G5-044",
+    "level": 5,
+    "sourceNo": 331,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "或是……，或是……"
+  },
+  {
+    "id": "G5-045",
+    "level": 5,
+    "sourceNo": 332,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "尽管……，但是/可是……"
+  },
+  {
+    "id": "G5-046",
+    "level": 5,
+    "sourceNo": 333,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "一旦……，就……"
+  },
+  {
+    "id": "G5-047",
+    "level": 5,
+    "sourceNo": 334,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "要是……，（就）……，否则……"
+  },
+  {
+    "id": "G5-048",
+    "level": 5,
+    "sourceNo": 335,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "除非……，才……"
+  },
+  {
+    "id": "G5-049",
+    "level": 5,
+    "sourceNo": 336,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "除非……，否则/不然……"
+  },
+  {
+    "id": "G5-050",
+    "level": 5,
+    "sourceNo": 337,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "……，因而……"
+  },
+  {
+    "id": "G5-051",
+    "level": 5,
+    "sourceNo": 338,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "即使……，也……"
+  },
+  {
+    "id": "G5-052",
+    "level": 5,
+    "sourceNo": 339,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "目的复句",
+    "content": "……，为的是……"
+  },
+  {
+    "id": "G5-053",
+    "level": 5,
+    "sourceNo": 340,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "目的复句",
+    "content": "……，以便……"
+  },
+  {
+    "id": "G5-054",
+    "level": 5,
+    "sourceNo": 341,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "没有……就没有……"
+  },
+  {
+    "id": "G5-055",
+    "level": 5,
+    "sourceNo": 342,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "再……也……"
+  },
+  {
+    "id": "G5-056",
+    "level": 5,
+    "sourceNo": 343,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "多重复句",
+    "content": "二重复句1：单句+复句；复句+单句"
+  },
+  {
+    "id": "G5-057",
+    "level": 5,
+    "sourceNo": 344,
+    "group": "强调的方法",
+    "category": "用“再也不/没”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-058",
+    "level": 5,
+    "sourceNo": 345,
+    "group": "强调的方法",
+    "category": "用副词“可”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-059",
+    "level": 5,
+    "sourceNo": 346,
+    "group": "强调的方法",
+    "category": "用“怎么都/也+不/没”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-060",
+    "level": 5,
+    "sourceNo": 347,
+    "group": "口语格式",
+    "category": "X也不是，Y也不是",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-061",
+    "level": 5,
+    "sourceNo": 348,
+    "group": "口语格式",
+    "category": "X也X不得，Y也Y不得",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-062",
+    "level": 5,
+    "sourceNo": 349,
+    "group": "口语格式",
+    "category": "X是它，Y也是它",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-063",
+    "level": 5,
+    "sourceNo": 350,
+    "group": "口语格式",
+    "category": "X着也是X着",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-064",
+    "level": 5,
+    "sourceNo": 351,
+    "group": "口语格式",
+    "category": "X归X，Y归Y",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-065",
+    "level": 5,
+    "sourceNo": 352,
+    "group": "口语格式",
+    "category": "不管怎样说",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-066",
+    "level": 5,
+    "sourceNo": 353,
+    "group": "口语格式",
+    "category": "看你X的/瞧他X的",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-067",
+    "level": 5,
+    "sourceNo": 354,
+    "group": "口语格式",
+    "category": "真有你/他/她的",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-068",
+    "level": 5,
+    "sourceNo": 355,
+    "group": "口语格式",
+    "category": "X什么X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-069",
+    "level": 5,
+    "sourceNo": 356,
+    "group": "口语格式",
+    "category": "什么X不X（的）",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G5-070",
+    "level": 5,
+    "sourceNo": 357,
+    "group": "句群",
+    "category": "形式分类",
+    "details": "用代词复指",
+    "content": "（1）用人称代词复指（2）用指示代词复指（3）各种代词相间使用"
+  },
+  {
+    "id": "G5-071",
+    "level": 5,
+    "sourceNo": 358,
+    "group": "句群",
+    "category": "形式分类",
+    "details": "带省略成分",
+    "content": "（1）省略主语（2）省略宾语"
+  },
+  {
+    "id": "G6-001",
+    "level": 6,
+    "sourceNo": 359,
+    "group": "语素",
+    "category": "前缀",
+    "details": "类前缀：超-、多-、反-、无-、亚-、准-",
+    "content": ""
+  },
+  {
+    "id": "G6-002",
+    "level": 6,
+    "sourceNo": 360,
+    "group": "语素",
+    "category": "后缀",
+    "details": "类后缀：-化、-式、-型、-性",
+    "content": ""
+  },
+  {
+    "id": "G6-003",
+    "level": 6,
+    "sourceNo": 361,
+    "group": "词类",
+    "category": "代词",
+    "details": "指示代词",
+    "content": "本、此"
+  },
+  {
+    "id": "G6-004",
+    "level": 6,
+    "sourceNo": 362,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "餐、串、滴、副、股、集、枝"
+  },
+  {
+    "id": "G6-005",
+    "level": 6,
+    "sourceNo": 363,
+    "group": "词类",
+    "category": "量词",
+    "details": "动量词",
+    "content": "番、声、趟"
+  },
+  {
+    "id": "G6-006",
+    "level": 6,
+    "sourceNo": 364,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "特、异常"
+  },
+  {
+    "id": "G6-007",
+    "level": 6,
+    "sourceNo": 365,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "尽、净、一齐、一同"
+  },
+  {
+    "id": "G6-008",
+    "level": 6,
+    "sourceNo": 366,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "时时、一时、早晚"
+  },
+  {
+    "id": "G6-009",
+    "level": 6,
+    "sourceNo": 367,
+    "group": "词类",
+    "category": "副词",
+    "details": "关联副词",
+    "content": "便"
+  },
+  {
+    "id": "G6-010",
+    "level": 6,
+    "sourceNo": 368,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "不禁、赶忙、亲眼、特地、特意"
+  },
+  {
+    "id": "G6-011",
+    "level": 6,
+    "sourceNo": 369,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "仿佛"
+  },
+  {
+    "id": "G6-012",
+    "level": 6,
+    "sourceNo": 370,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "才3、刚好、偏、恰好"
+  },
+  {
+    "id": "G6-013",
+    "level": 6,
+    "sourceNo": 371,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出时间、处所",
+    "content": "于"
+  },
+  {
+    "id": "G6-014",
+    "level": 6,
+    "sourceNo": 372,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出方向、路径",
+    "content": "沿（着）"
+  },
+  {
+    "id": "G6-015",
+    "level": 6,
+    "sourceNo": 373,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "同1、与1"
+  },
+  {
+    "id": "G6-016",
+    "level": 6,
+    "sourceNo": 374,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "至于"
+  },
+  {
+    "id": "G6-017",
+    "level": 6,
+    "sourceNo": 375,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出目的、原因",
+    "content": "因"
+  },
+  {
+    "id": "G6-018",
+    "level": 6,
+    "sourceNo": 376,
+    "group": "词类",
+    "category": "介词",
+    "details": "表示排除",
+    "content": "除"
+  },
+  {
+    "id": "G6-019",
+    "level": 6,
+    "sourceNo": 377,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "据"
+  },
+  {
+    "id": "G6-020",
+    "level": 6,
+    "sourceNo": 378,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接词或词组",
+    "content": "而2、同2、与2"
+  },
+  {
+    "id": "G6-021",
+    "level": 6,
+    "sourceNo": 379,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接分句或句子",
+    "content": "不料、可3、若"
+  },
+  {
+    "id": "G6-022",
+    "level": 6,
+    "sourceNo": 380,
+    "group": "词类",
+    "category": "助词",
+    "details": "结构助词",
+    "content": "所"
+  },
+  {
+    "id": "G6-023",
+    "level": 6,
+    "sourceNo": 381,
+    "group": "词类",
+    "category": "助词",
+    "details": "语气助词",
+    "content": "罢了、啦、嘛"
+  },
+  {
+    "id": "G6-024",
+    "level": 6,
+    "sourceNo": 382,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "基本结构类型",
+    "content": "数词+形容词+量词"
+  },
+  {
+    "id": "G6-025",
+    "level": 6,
+    "sourceNo": 383,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "或A或B"
+  },
+  {
+    "id": "G6-026",
+    "level": 6,
+    "sourceNo": 384,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "无A无B"
+  },
+  {
+    "id": "G6-027",
+    "level": 6,
+    "sourceNo": 385,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "A这A那"
+  },
+  {
+    "id": "G6-028",
+    "level": 6,
+    "sourceNo": 386,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "左A右B"
+  },
+  {
+    "id": "G6-029",
+    "level": 6,
+    "sourceNo": 387,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "不怎么"
+  },
+  {
+    "id": "G6-030",
+    "level": 6,
+    "sourceNo": 388,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "不怎么样"
+  },
+  {
+    "id": "G6-031",
+    "level": 6,
+    "sourceNo": 389,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "好（不）容易"
+  },
+  {
+    "id": "G6-032",
+    "level": 6,
+    "sourceNo": 390,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "那倒（也）是"
+  },
+  {
+    "id": "G6-033",
+    "level": 6,
+    "sourceNo": 391,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "就是说/这就是说"
+  },
+  {
+    "id": "G6-034",
+    "level": 6,
+    "sourceNo": 392,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "算了"
+  },
+  {
+    "id": "G6-035",
+    "level": 6,
+    "sourceNo": 393,
+    "group": "固定格式",
+    "category": "A一+量词，B一+量词",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-036",
+    "level": 6,
+    "sourceNo": 394,
+    "group": "固定格式",
+    "category": "东一A，西一A",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-037",
+    "level": 6,
+    "sourceNo": 395,
+    "group": "固定格式",
+    "category": "为了……而……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-038",
+    "level": 6,
+    "sourceNo": 396,
+    "group": "句子成分",
+    "category": "宾语",
+    "details": "宾语的语义类型2： \n（1）处所宾语（2）结果宾语",
+    "content": ""
+  },
+  {
+    "id": "G6-039",
+    "level": 6,
+    "sourceNo": 397,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "趋向补语",
+    "content": "趋向补语5 \n表示状态意义（引申用法）：动词/形容词+下来/下去/起来/过来"
+  },
+  {
+    "id": "G6-040",
+    "level": 6,
+    "sourceNo": 398,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“把”字句",
+    "content": "“把”字句4：表致使 \n（1）主语（非生物体）+把+宾语+动词+其他成分 \n（2）主语+把+宾语（施事）+动词+其他成分"
+  },
+  {
+    "id": "G6-041",
+    "level": 6,
+    "sourceNo": 399,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "被动句",
+    "content": "被动句4：主语+被/叫/让+宾语+给+动词+其他成分"
+  },
+  {
+    "id": "G6-042",
+    "level": 6,
+    "sourceNo": 400,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "时而……，时而……"
+  },
+  {
+    "id": "G6-043",
+    "level": 6,
+    "sourceNo": 401,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "一时……一时……"
+  },
+  {
+    "id": "G6-044",
+    "level": 6,
+    "sourceNo": 402,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "……便……"
+  },
+  {
+    "id": "G6-045",
+    "level": 6,
+    "sourceNo": 403,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "不但不/不但没有……，反而……"
+  },
+  {
+    "id": "G6-046",
+    "level": 6,
+    "sourceNo": 404,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "不是……，还/还是……"
+  },
+  {
+    "id": "G6-047",
+    "level": 6,
+    "sourceNo": 405,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "连……都/也……，……更……"
+  },
+  {
+    "id": "G6-048",
+    "level": 6,
+    "sourceNo": 406,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "要么……，要么……"
+  },
+  {
+    "id": "G6-049",
+    "level": 6,
+    "sourceNo": 407,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "虽……，但/可/却/也……"
+  },
+  {
+    "id": "G6-050",
+    "level": 6,
+    "sourceNo": 408,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "……，要不然/不然……"
+  },
+  {
+    "id": "G6-051",
+    "level": 6,
+    "sourceNo": 409,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "凡是……，都……"
+  },
+  {
+    "id": "G6-052",
+    "level": 6,
+    "sourceNo": 410,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "就算/就是……也……"
+  },
+  {
+    "id": "G6-053",
+    "level": 6,
+    "sourceNo": 411,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "不……不……"
+  },
+  {
+    "id": "G6-054",
+    "level": 6,
+    "sourceNo": 412,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "多重复句",
+    "content": "二重复句2：复句+复句"
+  },
+  {
+    "id": "G6-055",
+    "level": 6,
+    "sourceNo": 413,
+    "group": "强调的方法",
+    "category": "用“非……不可”表示强调",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-056",
+    "level": 6,
+    "sourceNo": 414,
+    "group": "口语格式",
+    "category": "X到Y头上来了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-057",
+    "level": 6,
+    "sourceNo": 415,
+    "group": "口语格式",
+    "category": "X就X吧",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-058",
+    "level": 6,
+    "sourceNo": 416,
+    "group": "口语格式",
+    "category": "X是X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-059",
+    "level": 6,
+    "sourceNo": 417,
+    "group": "口语格式",
+    "category": "不X不……，一X……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-060",
+    "level": 6,
+    "sourceNo": 418,
+    "group": "口语格式",
+    "category": "好你个X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-061",
+    "level": 6,
+    "sourceNo": 419,
+    "group": "口语格式",
+    "category": "动词+什么（就）是什么",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-062",
+    "level": 6,
+    "sourceNo": 420,
+    "group": "口语格式",
+    "category": "早（也）不X，晚（也）不X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-063",
+    "level": 6,
+    "sourceNo": 421,
+    "group": "口语格式",
+    "category": "看/瞧+把+宾语（施事）+ X 得",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-064",
+    "level": 6,
+    "sourceNo": 422,
+    "group": "口语格式",
+    "category": "放着X不Y",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-065",
+    "level": 6,
+    "sourceNo": 423,
+    "group": "口语格式",
+    "category": "X来X去，都是/就是 ……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-066",
+    "level": 6,
+    "sourceNo": 424,
+    "group": "口语格式",
+    "category": "X了就X了，（没）有……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G6-067",
+    "level": 6,
+    "sourceNo": 425,
+    "group": "口语格式",
+    "category": "这/那也不X，那/这也不Y",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-001",
+    "level": 7,
+    "sourceNo": 426,
+    "group": "词类",
+    "category": "动词",
+    "details": "能愿动词",
+    "content": "需"
+  },
+  {
+    "id": "G7-002",
+    "level": 7,
+    "sourceNo": 427,
+    "group": "词类",
+    "category": "代词",
+    "details": "疑问代词",
+    "content": "何"
+  },
+  {
+    "id": "G7-003",
+    "level": 7,
+    "sourceNo": 428,
+    "group": "词类",
+    "category": "代词",
+    "details": "指示代词",
+    "content": "该、另、兹"
+  },
+  {
+    "id": "G7-004",
+    "level": 7,
+    "sourceNo": 429,
+    "group": "词类",
+    "category": "量词",
+    "details": "名量词",
+    "content": "（1）栋、粒、枚、则、盏（2）复合量词：人次"
+  },
+  {
+    "id": "G7-005",
+    "level": 7,
+    "sourceNo": 430,
+    "group": "词类",
+    "category": "副词",
+    "details": "关联副词",
+    "content": "亦"
+  },
+  {
+    "id": "G7-006",
+    "level": 7,
+    "sourceNo": 431,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出方向、路径",
+    "content": "顺着"
+  },
+  {
+    "id": "G7-007",
+    "level": 7,
+    "sourceNo": 432,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接词或词组",
+    "content": "及"
+  },
+  {
+    "id": "G7-008",
+    "level": 7,
+    "sourceNo": 433,
+    "group": "词类",
+    "category": "连词",
+    "details": "连接分句或句子",
+    "content": "继而、要不是"
+  },
+  {
+    "id": "G7-009",
+    "level": 7,
+    "sourceNo": 434,
+    "group": "词类",
+    "category": "助词",
+    "details": "结构助词",
+    "content": "之"
+  },
+  {
+    "id": "G7-010",
+    "level": 7,
+    "sourceNo": 435,
+    "group": "短语",
+    "category": "结构类型",
+    "details": "基本结构类型",
+    "content": "数词+量词+抽象事物"
+  },
+  {
+    "id": "G7-011",
+    "level": 7,
+    "sourceNo": 436,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "爱A不A"
+  },
+  {
+    "id": "G7-012",
+    "level": 7,
+    "sourceNo": 437,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "半A半B"
+  },
+  {
+    "id": "G7-013",
+    "level": 7,
+    "sourceNo": 438,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "东A西B"
+  },
+  {
+    "id": "G7-014",
+    "level": 7,
+    "sourceNo": 439,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "非A非B"
+  },
+  {
+    "id": "G7-015",
+    "level": 7,
+    "sourceNo": 440,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "忽A忽B"
+  },
+  {
+    "id": "G7-016",
+    "level": 7,
+    "sourceNo": 441,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "连A带B"
+  },
+  {
+    "id": "G7-017",
+    "level": 7,
+    "sourceNo": 442,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "时A时B"
+  },
+  {
+    "id": "G7-018",
+    "level": 7,
+    "sourceNo": 443,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "四字格",
+    "content": "自A自B"
+  },
+  {
+    "id": "G7-019",
+    "level": 7,
+    "sourceNo": 444,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "巴不得"
+  },
+  {
+    "id": "G7-020",
+    "level": 7,
+    "sourceNo": 445,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "别提了"
+  },
+  {
+    "id": "G7-021",
+    "level": 7,
+    "sourceNo": 446,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "除此之外"
+  },
+  {
+    "id": "G7-022",
+    "level": 7,
+    "sourceNo": 447,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "归根到底"
+  },
+  {
+    "id": "G7-023",
+    "level": 7,
+    "sourceNo": 448,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "可不是"
+  },
+  {
+    "id": "G7-024",
+    "level": 7,
+    "sourceNo": 449,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "没说的"
+  },
+  {
+    "id": "G7-025",
+    "level": 7,
+    "sourceNo": 450,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "无论如何"
+  },
+  {
+    "id": "G7-026",
+    "level": 7,
+    "sourceNo": 451,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "由此可见"
+  },
+  {
+    "id": "G7-027",
+    "level": 7,
+    "sourceNo": 452,
+    "group": "固定格式",
+    "category": "不知……好",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-028",
+    "level": 7,
+    "sourceNo": 453,
+    "group": "固定格式",
+    "category": "所谓……就是……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-029",
+    "level": 7,
+    "sourceNo": 454,
+    "group": "固定格式",
+    "category": "无非/不过/只不过/只是……而已/罢了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-030",
+    "level": 7,
+    "sourceNo": 455,
+    "group": "固定格式",
+    "category": "以……为……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-031",
+    "level": 7,
+    "sourceNo": 456,
+    "group": "固定格式",
+    "category": "因……而……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-032",
+    "level": 7,
+    "sourceNo": 457,
+    "group": "句子成分",
+    "category": "宾语",
+    "details": "宾语的语义类型3：  \n（1）方式宾语（2）工具宾语（3）材料宾语（4）目的宾语",
+    "content": ""
+  },
+  {
+    "id": "G7-033",
+    "level": 7,
+    "sourceNo": 458,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "程度补语",
+    "content": "程度补语3：（1）形容词/动词+得+不行（2）形容词/动词+得+要命/要死"
+  },
+  {
+    "id": "G7-034",
+    "level": 7,
+    "sourceNo": 459,
+    "group": "句子成分",
+    "category": "补语",
+    "details": "状态补语",
+    "content": "状态补语3：“个”引导的补语"
+  },
+  {
+    "id": "G7-035",
+    "level": 7,
+    "sourceNo": 460,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "“把”字句",
+    "content": "“把”字句5：表致使  \n（主语+）把+宾语（施事）+动词+了"
+  },
+  {
+    "id": "G7-036",
+    "level": 7,
+    "sourceNo": 461,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "被动句",
+    "content": "被动句5：（1）被……所……（2）为……所……"
+  },
+  {
+    "id": "G7-037",
+    "level": 7,
+    "sourceNo": 462,
+    "group": "句子的类型",
+    "category": "特殊句型",
+    "details": "比较句",
+    "content": "比较句6：（1）比起……（来） \n（2）A +形容词+于+ B  \n（3）A +比+名词+还+名词"
+  },
+  {
+    "id": "G7-038",
+    "level": 7,
+    "sourceNo": 463,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "并列复句",
+    "content": "一面……，一面……"
+  },
+  {
+    "id": "G7-039",
+    "level": 7,
+    "sourceNo": 464,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "……，此后……"
+  },
+  {
+    "id": "G7-040",
+    "level": 7,
+    "sourceNo": 465,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "承接复句",
+    "content": "起初……，……才……"
+  },
+  {
+    "id": "G7-041",
+    "level": 7,
+    "sourceNo": 466,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "别说……，连……也/都……；连……也/都……，别说……；别说……， 即使……也……；即使……也……，别说……"
+  },
+  {
+    "id": "G7-042",
+    "level": 7,
+    "sourceNo": 467,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，况且……"
+  },
+  {
+    "id": "G7-043",
+    "level": 7,
+    "sourceNo": 468,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "连……，更不用说……"
+  },
+  {
+    "id": "G7-044",
+    "level": 7,
+    "sourceNo": 469,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，乃至……"
+  },
+  {
+    "id": "G7-045",
+    "level": 7,
+    "sourceNo": 470,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，且……"
+  },
+  {
+    "id": "G7-046",
+    "level": 7,
+    "sourceNo": 471,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，甚至于……"
+  },
+  {
+    "id": "G7-047",
+    "level": 7,
+    "sourceNo": 472,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "或……，或……"
+  },
+  {
+    "id": "G7-048",
+    "level": 7,
+    "sourceNo": 473,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "宁可/宁愿……，也……"
+  },
+  {
+    "id": "G7-049",
+    "level": 7,
+    "sourceNo": 474,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "与其……，不如……"
+  },
+  {
+    "id": "G7-050",
+    "level": 7,
+    "sourceNo": 475,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "选择复句",
+    "content": "与其……，宁可/宁愿……"
+  },
+  {
+    "id": "G7-051",
+    "level": 7,
+    "sourceNo": 476,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "……，而……（则）……"
+  },
+  {
+    "id": "G7-052",
+    "level": 7,
+    "sourceNo": 477,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "转折复句",
+    "content": "……，……倒/反倒……"
+  },
+  {
+    "id": "G7-053",
+    "level": 7,
+    "sourceNo": 478,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "倘若/若……，……"
+  },
+  {
+    "id": "G7-054",
+    "level": 7,
+    "sourceNo": 479,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "倘若/假设/假使/若……，就/那（么）……"
+  },
+  {
+    "id": "G7-055",
+    "level": 7,
+    "sourceNo": 480,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "假设复句",
+    "content": "幸亏……，要不然/不然/要不/否则……"
+  },
+  {
+    "id": "G7-056",
+    "level": 7,
+    "sourceNo": 481,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "别管……，都……"
+  },
+  {
+    "id": "G7-057",
+    "level": 7,
+    "sourceNo": 482,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "条件复句",
+    "content": "任……，也……"
+  },
+  {
+    "id": "G7-058",
+    "level": 7,
+    "sourceNo": 483,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "（因）……，故……"
+  },
+  {
+    "id": "G7-059",
+    "level": 7,
+    "sourceNo": 484,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "鉴于……，……"
+  },
+  {
+    "id": "G7-060",
+    "level": 7,
+    "sourceNo": 485,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "（由于）……，以致……"
+  },
+  {
+    "id": "G7-061",
+    "level": 7,
+    "sourceNo": 486,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "……，以至于……"
+  },
+  {
+    "id": "G7-062",
+    "level": 7,
+    "sourceNo": 487,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "因果复句",
+    "content": "之所以……，是因为/是由于……"
+  },
+  {
+    "id": "G7-063",
+    "level": 7,
+    "sourceNo": 488,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "固然……，也……"
+  },
+  {
+    "id": "G7-064",
+    "level": 7,
+    "sourceNo": 489,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "……固然……，但是/可是/不过……"
+  },
+  {
+    "id": "G7-065",
+    "level": 7,
+    "sourceNo": 490,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "即便……，也……"
+  },
+  {
+    "id": "G7-066",
+    "level": 7,
+    "sourceNo": 491,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "虽说……，但是/可是/不过……"
+  },
+  {
+    "id": "G7-067",
+    "level": 7,
+    "sourceNo": 492,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "让步复句",
+    "content": "纵然……，也……"
+  },
+  {
+    "id": "G7-068",
+    "level": 7,
+    "sourceNo": 493,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "目的复句",
+    "content": "……，以……"
+  },
+  {
+    "id": "G7-069",
+    "level": 7,
+    "sourceNo": 494,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "目的复句",
+    "content": "……，以免/免得……"
+  },
+  {
+    "id": "G7-070",
+    "level": 7,
+    "sourceNo": 495,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "解说复句",
+    "content": "……，也就是说……"
+  },
+  {
+    "id": "G7-071",
+    "level": 7,
+    "sourceNo": 496,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "（要+）动词+就+动词+个+补语"
+  },
+  {
+    "id": "G7-072",
+    "level": 7,
+    "sourceNo": 497,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "紧缩复句",
+    "content": "动词（+宾语1）+就+动词（+宾语1），别……"
+  },
+  {
+    "id": "G7-073",
+    "level": 7,
+    "sourceNo": 498,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "多重复句",
+    "content": "三重或三重以上的复句"
+  },
+  {
+    "id": "G7-074",
+    "level": 7,
+    "sourceNo": 499,
+    "group": "强调的方法",
+    "category": "用反问句表示强调 \n反问句3：何必/何苦……呢？",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-075",
+    "level": 7,
+    "sourceNo": 500,
+    "group": "口语格式",
+    "category": "（不过/但/可是）话又说回来，……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-076",
+    "level": 7,
+    "sourceNo": 501,
+    "group": "口语格式",
+    "category": "X（也）不是，不X也不是",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-077",
+    "level": 7,
+    "sourceNo": 502,
+    "group": "口语格式",
+    "category": "X也好/也罢，Y也好/也罢",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-078",
+    "level": 7,
+    "sourceNo": 503,
+    "group": "口语格式",
+    "category": "X了又Y，Y了又X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-079",
+    "level": 7,
+    "sourceNo": 504,
+    "group": "口语格式",
+    "category": "X也X不……，Y也Y不……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-080",
+    "level": 7,
+    "sourceNo": 505,
+    "group": "口语格式",
+    "category": "别提（有）多X了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-081",
+    "level": 7,
+    "sourceNo": 506,
+    "group": "口语格式",
+    "category": "不知X的",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-082",
+    "level": 7,
+    "sourceNo": 507,
+    "group": "口语格式",
+    "category": "话（说）是这么说，不过/可/可是……",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-083",
+    "level": 7,
+    "sourceNo": 508,
+    "group": "口语格式",
+    "category": "看/瞧你那（X）样",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-084",
+    "level": 7,
+    "sourceNo": 509,
+    "group": "口语格式",
+    "category": "看在X的面子上",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-085",
+    "level": 7,
+    "sourceNo": 510,
+    "group": "口语格式",
+    "category": "哪有X这么Y的/有X这样Y的吗",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-086",
+    "level": 7,
+    "sourceNo": 511,
+    "group": "口语格式",
+    "category": "什么X的Y的",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-087",
+    "level": 7,
+    "sourceNo": 512,
+    "group": "口语格式",
+    "category": "说到/想到哪儿去了",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-088",
+    "level": 7,
+    "sourceNo": 513,
+    "group": "口语格式",
+    "category": "无所谓X不X",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-089",
+    "level": 7,
+    "sourceNo": 514,
+    "group": "口语格式",
+    "category": "要X有/没X，要Y有/没Y",
+    "details": "",
+    "content": ""
+  },
+  {
+    "id": "G7-090",
+    "level": 7,
+    "sourceNo": 515,
+    "group": "句群",
+    "category": "形式分类",
+    "details": "带关联词语",
+    "content": "带关联词语"
+  },
+  {
+    "id": "G7-091",
+    "level": 7,
+    "sourceNo": 516,
+    "group": "句群",
+    "category": "形式分类",
+    "details": "不带关联词语",
+    "content": "不带关联词语"
+  },
+  {
+    "id": "G7-092",
+    "level": 7,
+    "sourceNo": 517,
+    "group": "句群",
+    "category": "意义分类",
+    "details": "联合关系：并列句群、承接句群、递进句群、选择句群、解说句群、总括句群",
+    "content": ""
+  },
+  {
+    "id": "G7-093",
+    "level": 7,
+    "sourceNo": 518,
+    "group": "句群",
+    "category": "意义分类",
+    "details": "偏正关系：条件句群、因果句群、目的句群、转折句群、假设句群、让步句群",
+    "content": ""
+  },
+  {
+    "id": "G7-094",
+    "level": 7,
+    "sourceNo": 519,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "极为"
+  },
+  {
+    "id": "G7-095",
+    "level": 7,
+    "sourceNo": 520,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "尽"
+  },
+  {
+    "id": "G7-096",
+    "level": 7,
+    "sourceNo": 521,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "蛮"
+  },
+  {
+    "id": "G7-097",
+    "level": 7,
+    "sourceNo": 522,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "颇"
+  },
+  {
+    "id": "G7-098",
+    "level": 7,
+    "sourceNo": 523,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "稍稍"
+  },
+  {
+    "id": "G7-099",
+    "level": 7,
+    "sourceNo": 524,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "尤为"
+  },
+  {
+    "id": "G7-100",
+    "level": 7,
+    "sourceNo": 525,
+    "group": "词类",
+    "category": "副词",
+    "details": "程度副词",
+    "content": "越发"
+  },
+  {
+    "id": "G7-101",
+    "level": 7,
+    "sourceNo": 526,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，何况……"
+  },
+  {
+    "id": "G7-102",
+    "level": 7,
+    "sourceNo": 527,
+    "group": "句子的类型",
+    "category": "复句",
+    "details": "递进复句",
+    "content": "……，进而……"
+  },
+  {
+    "id": "G7-103",
+    "level": 7,
+    "sourceNo": 528,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "凡"
+  },
+  {
+    "id": "G7-104",
+    "level": 7,
+    "sourceNo": 529,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "皆"
+  },
+  {
+    "id": "G7-105",
+    "level": 7,
+    "sourceNo": 530,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "统统"
+  },
+  {
+    "id": "G7-106",
+    "level": 7,
+    "sourceNo": 531,
+    "group": "词类",
+    "category": "副词",
+    "details": "范围、协同副词",
+    "content": "唯独"
+  },
+  {
+    "id": "G7-107",
+    "level": 7,
+    "sourceNo": 532,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "不由得"
+  },
+  {
+    "id": "G7-108",
+    "level": 7,
+    "sourceNo": 533,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "一连"
+  },
+  {
+    "id": "G7-109",
+    "level": 7,
+    "sourceNo": 534,
+    "group": "词类",
+    "category": "副词",
+    "details": "方式副词",
+    "content": "顺便"
+  },
+  {
+    "id": "G7-110",
+    "level": 7,
+    "sourceNo": 535,
+    "group": "词类",
+    "category": "副词",
+    "details": "否定副词",
+    "content": "未"
+  },
+  {
+    "id": "G7-111",
+    "level": 7,
+    "sourceNo": 536,
+    "group": "词类",
+    "category": "副词",
+    "details": "否定副词",
+    "content": "勿"
+  },
+  {
+    "id": "G7-112",
+    "level": 7,
+    "sourceNo": 537,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "频频"
+  },
+  {
+    "id": "G7-113",
+    "level": 7,
+    "sourceNo": 538,
+    "group": "词类",
+    "category": "副词",
+    "details": "频率、重复副词",
+    "content": "再度"
+  },
+  {
+    "id": "G7-114",
+    "level": 7,
+    "sourceNo": 539,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "与此同时"
+  },
+  {
+    "id": "G7-115",
+    "level": 7,
+    "sourceNo": 540,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "这样一来"
+  },
+  {
+    "id": "G7-116",
+    "level": 7,
+    "sourceNo": 541,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "综上所述"
+  },
+  {
+    "id": "G7-117",
+    "level": 7,
+    "sourceNo": 542,
+    "group": "短语",
+    "category": "固定短语",
+    "details": "其他",
+    "content": "总的来说/总而言之"
+  },
+  {
+    "id": "G7-118",
+    "level": 7,
+    "sourceNo": 543,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "必定"
+  },
+  {
+    "id": "G7-119",
+    "level": 7,
+    "sourceNo": 544,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "不妨"
+  },
+  {
+    "id": "G7-120",
+    "level": 7,
+    "sourceNo": 545,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "何必"
+  },
+  {
+    "id": "G7-121",
+    "level": 7,
+    "sourceNo": 546,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "莫非"
+  },
+  {
+    "id": "G7-122",
+    "level": 7,
+    "sourceNo": 547,
+    "group": "词类",
+    "category": "副词",
+    "details": "情态副词",
+    "content": "按说"
+  },
+  {
+    "id": "G7-123",
+    "level": 7,
+    "sourceNo": 548,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "即"
+  },
+  {
+    "id": "G7-124",
+    "level": 7,
+    "sourceNo": 549,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "历来"
+  },
+  {
+    "id": "G7-125",
+    "level": 7,
+    "sourceNo": 550,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "尚"
+  },
+  {
+    "id": "G7-126",
+    "level": 7,
+    "sourceNo": 551,
+    "group": "词类",
+    "category": "副词",
+    "details": "时间副词",
+    "content": "向来"
+  },
+  {
+    "id": "G7-127",
+    "level": 7,
+    "sourceNo": 552,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "当着"
+  },
+  {
+    "id": "G7-128",
+    "level": 7,
+    "sourceNo": 553,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出对象",
+    "content": "就5"
+  },
+  {
+    "id": "G7-129",
+    "level": 7,
+    "sourceNo": 554,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "趁"
+  },
+  {
+    "id": "G7-130",
+    "level": 7,
+    "sourceNo": 555,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "基于"
+  },
+  {
+    "id": "G7-131",
+    "level": 7,
+    "sourceNo": 556,
+    "group": "词类",
+    "category": "介词",
+    "details": "引出凭借、依据",
+    "content": "依"
+  },
+  {
+    "id": "G7-132",
+    "level": 7,
+    "sourceNo": 557,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "白白"
+  },
+  {
+    "id": "G7-133",
+    "level": 7,
+    "sourceNo": 558,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "反倒"
+  },
+  {
+    "id": "G7-134",
+    "level": 7,
+    "sourceNo": 559,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "分明"
+  },
+  {
+    "id": "G7-135",
+    "level": 7,
+    "sourceNo": 560,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "怪不得"
+  },
+  {
+    "id": "G7-136",
+    "level": 7,
+    "sourceNo": 561,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "好在"
+  },
+  {
+    "id": "G7-137",
+    "level": 7,
+    "sourceNo": 562,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "乃"
+  },
+  {
+    "id": "G7-138",
+    "level": 7,
+    "sourceNo": 563,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "难怪"
+  },
+  {
+    "id": "G7-139",
+    "level": 7,
+    "sourceNo": 564,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "偏偏"
+  },
+  {
+    "id": "G7-140",
+    "level": 7,
+    "sourceNo": 565,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "索性"
+  },
+  {
+    "id": "G7-141",
+    "level": 7,
+    "sourceNo": 566,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "万万"
+  },
+  {
+    "id": "G7-142",
+    "level": 7,
+    "sourceNo": 567,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "未免"
+  },
+  {
+    "id": "G7-143",
+    "level": 7,
+    "sourceNo": 568,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "无非"
+  },
+  {
+    "id": "G7-144",
+    "level": 7,
+    "sourceNo": 569,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "幸好"
+  },
+  {
+    "id": "G7-145",
+    "level": 7,
+    "sourceNo": 570,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "幸亏"
+  },
+  {
+    "id": "G7-146",
+    "level": 7,
+    "sourceNo": 571,
+    "group": "词类",
+    "category": "副词",
+    "details": "语气副词",
+    "content": "终究"
+  },
+  {
+    "id": "G7-147",
+    "level": 7,
+    "sourceNo": 572,
+    "group": "词类",
+    "category": "助词",
+    "details": "语气助词",
+    "content": "而已"
+  },
+  {
+    "id": "G7-148",
+    "level": 7,
+    "sourceNo": 573,
+    "group": "词类",
+    "category": "助词",
+    "details": "语气助词",
+    "content": "矣"
+  }
+]

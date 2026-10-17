@@ -2,6 +2,7 @@ import './style.css';
 import { getStudyState, preview, type Grade } from './study';
 import { openStorage, type StudyStorage } from './storage';
 import { createPronunciation } from './audio';
+import { createGrammar } from './grammar';
 import type { Word } from './types';
 
 const element = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -11,10 +12,11 @@ const ratings = element('ratings');
 const speakButton = element<HTMLButtonElement>('speak');
 const flashcards = element('flashcards');
 const pronunciation = createPronunciation(element('speech-status'));
+const grammar = createGrammar(element('grammar'), pronunciation);
 const gradeButtons = [...ratings.querySelectorAll<HTMLButtonElement>('button')];
 const dateFormat = new Intl.DateTimeFormat('it', { dateStyle: 'short', timeStyle: 'short' });
 const numberFormat = new Intl.NumberFormat('it');
-const cache: Partial<Record<number, Word[]>> = {};
+const cache = new Map<number, Promise<Word[]>>();
 let storage: StudyStorage;
 let words: Word[] = [];
 let current: Word | undefined;
@@ -23,6 +25,18 @@ let busy = true;
 let activeSection = 'flashcards';
 let level = 1;
 let wakeTimer: number | undefined;
+let ready = false;
+let levelSaving = false;
+let deckLoading = false;
+let deckLevel: number | undefined;
+let deckRequest = 0;
+let needsStudyRender = false;
+
+function updateControls() {
+  levelSelect.disabled = !ready || busy;
+  revealButton.disabled = busy || deckLoading;
+  gradeButtons.forEach(button => { button.disabled = busy || deckLoading; });
+}
 
 function showError(error: unknown) {
   const message = error instanceof Error ? error.message : String(error);
@@ -31,14 +45,22 @@ function showError(error: unknown) {
 }
 
 async function loadDeck(target: number): Promise<Word[]> {
-  const levels = await Promise.all(Array.from({ length: target }, async (_, index) => {
+  const levels = await Promise.all(Array.from({ length: target }, (_, index) => {
     const n = index + 1;
-    if (!cache[n]) {
-      const response = await fetch(`${import.meta.env.BASE_URL}data/level-${n}.json`);
-      if (!response.ok) throw new Error(`Vocabolario HSK ${n}: HTTP ${response.status}.`);
-      cache[n] = await response.json() as Word[];
+    let pending = cache.get(n);
+    if (!pending) {
+      pending = fetch(`${import.meta.env.BASE_URL}data/level-${n}.json`)
+        .then(async response => {
+          if (!response.ok) throw new Error(`Vocabolario HSK ${n}: HTTP ${response.status}.`);
+          return await response.json() as Word[];
+        })
+        .catch((error: unknown) => {
+          cache.delete(n);
+          throw error;
+        });
+      cache.set(n, pending);
     }
-    return cache[n]!;
+    return pending;
   }));
   return levels.flat();
 }
@@ -56,6 +78,8 @@ function interval(due: Date, now: Date): string {
 
 function render() {
   clearTimeout(wakeTimer);
+  if (activeSection !== 'flashcards' || deckLevel !== level) return;
+  needsStudyRender = false;
   const now = new Date();
   const state = getStudyState(words, storage.progress, now);
   current = state.word;
@@ -85,12 +109,12 @@ function render() {
 }
 
 function speak() {
-  if (busy || !current || !revealed || activeSection !== 'flashcards' || document.hidden) return;
+  if (busy || deckLoading || !current || !revealed || activeSection !== 'flashcards' || document.hidden) return;
   void pronunciation.play();
 }
 
 function reveal() {
-  if (busy || !current || revealed) return;
+  if (busy || deckLoading || !current || revealed || activeSection !== 'flashcards') return;
   revealed = true;
   const now = new Date();
   const outcomes = preview(storage.progress.get(current.id), now);
@@ -107,23 +131,25 @@ function reveal() {
 }
 
 async function rate(grade: Grade) {
-  if (busy || !revealed || !current) return;
+  if (busy || deckLoading || !revealed || !current || activeSection !== 'flashcards') return;
+  const rated = current;
   pronunciation.stop();
   busy = true;
-  gradeButtons.forEach(button => { button.disabled = true; });
-  levelSelect.disabled = true;
+  updateControls();
   try {
-    const outcome = preview(storage.progress.get(current.id), new Date())[grade];
-    await storage.review(current.id, outcome.card, outcome.log);
-    element('error').hidden = true;
-    render();
-    revealButton.focus({ preventScroll: true });
+    const outcome = preview(storage.progress.get(rated.id), new Date())[grade];
+    await storage.review(rated.id, outcome.card, outcome.log);
+    needsStudyRender = true;
+    if (activeSection === 'flashcards') {
+      element('error').hidden = true;
+      render();
+      revealButton.focus({ preventScroll: true });
+    }
   } catch (error) {
-    showError(error);
+    if (activeSection === 'flashcards') showError(error);
   } finally {
     busy = false;
-    gradeButtons.forEach(button => { button.disabled = false; });
-    levelSelect.disabled = false;
+    updateControls();
   }
 }
 
@@ -131,46 +157,100 @@ revealButton.addEventListener('click', reveal);
 speakButton.addEventListener('click', speak);
 gradeButtons.forEach(button => button.addEventListener('click', () => { void rate(Number(button.dataset.grade) as Grade); }));
 
-levelSelect.addEventListener('change', async () => {
-  pronunciation.stop();
-  busy = true;
-  levelSelect.disabled = true;
-  revealButton.disabled = true;
-  gradeButtons.forEach(button => { button.disabled = true; });
+async function showDeck() {
+  const request = ++deckRequest;
+  const target = level;
+  if (deckLevel === target) {
+    if (!current || needsStudyRender) render();
+    else pronunciation.preload(current.id);
+    return;
+  }
+  deckLoading = true;
+  current = undefined;
+  revealed = false;
+  flashcards.setAttribute('aria-busy', 'true');
+  element('card').hidden = true;
+  revealButton.hidden = true;
+  ratings.hidden = true;
+  element('empty').hidden = false;
+  element('empty').textContent = 'Caricamento…';
+  for (const id of ['new-count', 'due-count', 'studied-count']) element(id).textContent = '—';
+  updateControls();
   try {
-    const target = Number(levelSelect.value);
     const nextWords = await loadDeck(target);
-    await storage.setLevel(target);
-    level = target;
+    if (request !== deckRequest || activeSection !== 'flashcards' || target !== level) return;
     words = nextWords;
-    element('error').hidden = true;
+    deckLevel = target;
     render();
   } catch (error) {
-    levelSelect.value = String(level);
+    if (request !== deckRequest || activeSection !== 'flashcards' || target !== level) return;
+    element('empty').textContent = 'Caricamento non riuscito. Seleziona di nuovo Flashcard o un livello per riprovare.';
     showError(error);
   } finally {
+    if (request === deckRequest) {
+      deckLoading = false;
+      flashcards.setAttribute('aria-busy', 'false');
+      updateControls();
+    }
+  }
+}
+
+function showSection() {
+  pronunciation.stop();
+  clearTimeout(wakeTimer);
+  deckRequest += 1;
+  deckLoading = false;
+  flashcards.setAttribute('aria-busy', 'false');
+  grammar.hide();
+  element('error').hidden = true;
+  element('section-heading').hidden = activeSection === 'tests';
+  element('section-title').textContent = activeSection === 'grammar' ? 'Grammatica' : 'Flashcard';
+  for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
+    const active = tab.dataset.section === activeSection;
+    if (active) tab.setAttribute('aria-current', 'page');
+    else tab.removeAttribute('aria-current');
+    element(tab.dataset.section!).hidden = !active;
+  }
+  updateControls();
+  if (!ready || levelSaving) return;
+  if (activeSection === 'flashcards') void showDeck();
+  else if (activeSection === 'grammar') void grammar.show(level);
+}
+
+levelSelect.addEventListener('change', async () => {
+  pronunciation.stop();
+  clearTimeout(wakeTimer);
+  deckRequest += 1;
+  deckLoading = false;
+  grammar.hide();
+  busy = true;
+  levelSaving = true;
+  updateControls();
+  let saveError: unknown;
+  try {
+    const target = Number(levelSelect.value);
+    await storage.setLevel(target);
+    level = target;
+  } catch (error) {
+    levelSelect.value = String(level);
+    saveError = error;
+  } finally {
     busy = false;
-    levelSelect.disabled = false;
-    revealButton.disabled = false;
-    gradeButtons.forEach(button => { button.disabled = false; });
+    levelSaving = false;
+    showSection();
+    if (saveError !== undefined && activeSection !== 'tests') showError(saveError);
   }
 });
 
 for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
   tab.addEventListener('click', () => {
-    pronunciation.stop();
     activeSection = tab.dataset.section!;
-    for (const other of document.querySelectorAll<HTMLElement>('[data-section]')) {
-      const active = other === tab;
-      other.toggleAttribute('aria-current', active);
-      if (active) other.setAttribute('aria-current', 'page');
-      element(other.dataset.section!).hidden = !active;
-    }
+    showSection();
   });
 }
 
 document.addEventListener('keydown', event => {
-  if (activeSection !== 'flashcards' || busy || event.repeat || event.altKey || event.ctrlKey || event.metaKey) return;
+  if (activeSection !== 'flashcards' || busy || deckLoading || event.repeat || event.altKey || event.ctrlKey || event.metaKey) return;
   if ((event.target as HTMLElement).matches('select, input, textarea, a, [contenteditable]')) return;
   if (event.code === 'Space' && !revealed) {
     event.preventDefault();
@@ -181,7 +261,9 @@ document.addEventListener('keydown', event => {
   }
 });
 
-window.addEventListener('focus', () => { if (!busy && !current) render(); });
+window.addEventListener('focus', () => {
+  if (ready && activeSection === 'flashcards' && !busy && !deckLoading && !current && deckLevel === level) render();
+});
 window.addEventListener('pagehide', pronunciation.stop);
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) pronunciation.stop();
@@ -191,15 +273,13 @@ async function start() {
   try {
     storage = await openStorage();
     level = storage.level;
-    words = await loadDeck(level);
     levelSelect.value = String(level);
-    render();
+    ready = true;
     busy = false;
-    levelSelect.disabled = false;
+    showSection();
   } catch (error) {
     element('empty').textContent = 'Caricamento non riuscito. Ricarica la pagina per riprovare.';
-    showError(error);
-  } finally {
+    if (activeSection !== 'tests') showError(error);
     flashcards.setAttribute('aria-busy', 'false');
   }
 }

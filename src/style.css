@@ -13,7 +13,7 @@ button, select { font: inherit; }
 button, select, a { -webkit-tap-highlight-color: transparent; }
 button { cursor: pointer; }
 button:disabled { cursor: default; opacity: .5; }
-button:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid #3c9582; outline-offset: 4px; }
+button:focus-visible, select:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid #3c9582; outline-offset: 4px; }
 [hidden] { display: none !important; }
 .header { max-width: 1040px; margin: auto; padding: 26px 32px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: flex; gap: 10px; align-items: center; text-decoration: none; color: inherit; font-size: 22px; font-weight: 650; letter-spacing: -.6px; }
@@ -55,6 +55,19 @@ kbd { font-family: inherit; font-weight: 400; opacity: .55; font-size: 10px; mar
 .ratings button[data-grade="4"] { color: #366487; }
 .empty { text-align: center; color: var(--muted); padding: 100px 20px; line-height: 1.8; font-size: 15px; }
 #error { background: #fff0ee; color: #91392e; border-radius: 8px; padding: 14px; font-size: 13px; line-height: 1.5; }
+.grammar-status { color: var(--muted); font-size: 13px; line-height: 1.7; margin: 22px 0; }
+.grammar-status[role="alert"] { color: #91392e; }
+.grammar-rule { border-bottom: 1px solid var(--border); }
+.grammar-rule summary { cursor: pointer; padding: 17px 0; font-size: 15px; line-height: 1.6; overflow-wrap: anywhere; }
+.grammar-rule[open] summary { color: var(--accent); }
+.grammar-body { padding: 0 0 20px; font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.grammar-body p { margin: 0 0 10px; }
+.grammar-pattern { margin-top: 0; }
+.grammar-example { margin-top: 24px; }
+.grammar-example .grammar-hanzi { font-size: 22px; line-height: 1.7; margin-bottom: 4px; }
+.grammar-example .grammar-pinyin { color: var(--accent); margin-bottom: 4px; }
+.grammar-example .speak { margin: 10px 0 0; }
+.grammar-example .grammar-audio-status { color: var(--muted); font-size: 12px; margin: 10px 0 0; }
 @media (hover: hover) { button:not(:disabled):hover { filter: brightness(.96); } }
 @media (max-width: 540px) {
   .header { padding: 20px; }
