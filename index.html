@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17695b" />
+    <title>HanPit</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="./" aria-label="HanPit, inizio"><span lang="zh-CN">汉</span> HanPit</a>
+      <span class="standard">HSK 3.0</span>
+    </header>
+    <main>
+      <nav class="tabs" aria-label="Sezioni">
+        <button type="button" data-section="flashcards" aria-current="page">Flashcard</button>
+        <button type="button" data-section="grammar">Grammatica</button>
+        <button type="button" data-section="tests">Test</button>
+      </nav>
+      <p id="error" role="alert" hidden></p>
+      <section id="flashcards" aria-label="Flashcard" aria-busy="true">
+        <div class="deck-heading">
+          <h1>Flashcard</h1>
+          <label class="level-label" for="level">Vocabolario fino a
+            <select id="level" disabled>
+              <option value="1">HSK 1</option>
+              <option value="2">HSK 2</option>
+              <option value="3">HSK 3</option>
+              <option value="4">HSK 4</option>
+              <option value="5">HSK 5</option>
+              <option value="6">HSK 6</option>
+              <option value="7">HSK 7–9</option>
+            </select>
+          </label>
+        </div>
+        <dl class="counts" aria-label="Stato del mazzo">
+          <div><dt>Nuove</dt><dd id="new-count">—</dd></div>
+          <div><dt>Da ripassare</dt><dd id="due-count">—</dd></div>
+          <div><dt>Studiate</dt><dd id="studied-count">—</dd></div>
+        </dl>
+        <article class="card" id="card" aria-label="Carta da studiare" hidden>
+          <span class="card-level" id="card-level"></span>
+          <div class="card-content">
+            <h2 id="hanzi" lang="zh-CN"></h2>
+            <div id="answer" hidden>
+              <p id="pinyin" lang="zh-Latn-pinyin"></p>
+              <p class="meaning-label">Significato · EN</p>
+              <p id="meaning" lang="en"></p>
+              <button id="speak" class="speak" type="button" aria-label="Ascolta la pronuncia">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M11 4 5 9H2v6h3l6 5V4Z" stroke-linejoin="round"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></svg>
+                Ascolta
+              </button>
+              <p id="speech-status" role="status" hidden></p>
+            </div>
+          </div>
+        </article>
+        <p id="empty" class="empty" role="status">Caricamento…</p>
+        <div class="actions">
+          <button id="reveal" class="primary" type="button" hidden>Mostra risposta <kbd>Spazio</kbd></button>
+          <div id="ratings" class="ratings" aria-label="Quanto ricordi?" hidden>
+            <button type="button" data-grade="1"><span>Di nuovo</span><small></small><kbd>1</kbd></button>
+            <button type="button" data-grade="2"><span>Difficile</span><small></small><kbd>2</kbd></button>
+            <button type="button" data-grade="3"><span>Bene</span><small></small><kbd>3</kbd></button>
+            <button type="button" data-grade="4"><span>Facile</span><small></small><kbd>4</kbd></button>
+          </div>
+        </div>
+      </section>
+      <section id="grammar" aria-label="Grammatica" hidden></section>
+      <section id="tests" aria-label="Test" hidden></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

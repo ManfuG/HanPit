@@ -1,0 +1,20 @@
+{
+  "name": "hanpit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --experimental-strip-types --test src/*.test.ts",
+    "data:import": "node scripts/import-vocabulary.mjs"
+  },
+  "dependencies": {
+    "ts-fsrs": "5.4.2"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "8.3.4"
+  }
+}

@@ -1,0 +1,6178 @@
+[
+  {
+    "id": "L2-0001",
+    "level": 2,
+    "hanzi": "啊",
+    "pinyin": "a",
+    "meaning": "modal particle ending sentence, showing affirmation, approval, or consent",
+    "speech": "啊"
+  },
+  {
+    "id": "L2-0002",
+    "level": 2,
+    "hanzi": "爱情",
+    "pinyin": "àiqíng",
+    "meaning": "romance; love (romantic)",
+    "speech": "爱情"
+  },
+  {
+    "id": "L2-0003",
+    "level": 2,
+    "hanzi": "爱人",
+    "pinyin": "àiren",
+    "meaning": "spouse (PRC); lover (non-PRC)",
+    "speech": "爱人"
+  },
+  {
+    "id": "L2-0004",
+    "level": 2,
+    "hanzi": "安静",
+    "pinyin": "ānjìng",
+    "meaning": "quiet; peaceful; calm",
+    "speech": "安静"
+  },
+  {
+    "id": "L2-0005",
+    "level": 2,
+    "hanzi": "安全",
+    "pinyin": "ānquán",
+    "meaning": "safe; secure; safety; security",
+    "speech": "安全"
+  },
+  {
+    "id": "L2-0006",
+    "level": 2,
+    "hanzi": "白色",
+    "pinyin": "báisè",
+    "meaning": "white; fig. reactionary; anti-communist",
+    "speech": "白色"
+  },
+  {
+    "id": "L2-0007",
+    "level": 2,
+    "hanzi": "班长",
+    "pinyin": "bānzhǎng",
+    "meaning": "class monitor; squad leader; team leader",
+    "speech": "班长"
+  },
+  {
+    "id": "L2-0008",
+    "level": 2,
+    "hanzi": "办",
+    "pinyin": "bàn",
+    "meaning": "to do; to manage; to handle; to go about; to run; to set up; to deal with",
+    "speech": "办"
+  },
+  {
+    "id": "L2-0009",
+    "level": 2,
+    "hanzi": "办法",
+    "pinyin": "bànfǎ",
+    "meaning": "means; method; way (of doing sth)",
+    "speech": "办法"
+  },
+  {
+    "id": "L2-0010",
+    "level": 2,
+    "hanzi": "办公室",
+    "pinyin": "bàngōngshì",
+    "meaning": "office; business premises; bureau",
+    "speech": "办公室"
+  },
+  {
+    "id": "L2-0011",
+    "level": 2,
+    "hanzi": "半夜",
+    "pinyin": "bànyè",
+    "meaning": "midnight; in the middle of the night",
+    "speech": "半夜"
+  },
+  {
+    "id": "L2-0012",
+    "level": 2,
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "meaning": "assistance; aid; to help; to assist",
+    "speech": "帮助"
+  },
+  {
+    "id": "L2-0013",
+    "level": 2,
+    "hanzi": "饱",
+    "pinyin": "bǎo",
+    "meaning": "to eat till full; satisfied",
+    "speech": "饱"
+  },
+  {
+    "id": "L2-0014",
+    "level": 2,
+    "hanzi": "报名",
+    "pinyin": "bàomíng",
+    "meaning": "to sign up; to enter one's name; to apply; to register; to enroll; to enlist",
+    "speech": "报名"
+  },
+  {
+    "id": "L2-0015",
+    "level": 2,
+    "hanzi": "报纸",
+    "pinyin": "bàozhǐ",
+    "meaning": "newspaper; newsprint",
+    "speech": "报纸"
+  },
+  {
+    "id": "L2-0016",
+    "level": 2,
+    "hanzi": "北方",
+    "pinyin": "běifāng",
+    "meaning": "north; the northern part a country; China north of the Yellow River",
+    "speech": "北方"
+  },
+  {
+    "id": "L2-0017",
+    "level": 2,
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "meaning": "the back of a body or object; to turn one's back; to hide something from; to learn by heart; to recite from memory; unlucky (slang); hard of hearing",
+    "speech": "背"
+  },
+  {
+    "id": "L2-0018",
+    "level": 2,
+    "hanzi": "比如",
+    "pinyin": "bǐrú",
+    "meaning": "for example; for instance; such as",
+    "speech": "比如"
+  },
+  {
+    "id": "L2-0019",
+    "level": 2,
+    "hanzi": "比如说",
+    "pinyin": "bǐrú shuō",
+    "meaning": "for example",
+    "speech": "比如说"
+  },
+  {
+    "id": "L2-0020",
+    "level": 2,
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "meaning": "pen; pencil; writing brush; to write or compose; the strokes of Chinese characters; classifier for sums of money, deals",
+    "speech": "笔"
+  },
+  {
+    "id": "L2-0021",
+    "level": 2,
+    "hanzi": "笔记",
+    "pinyin": "bǐjì",
+    "meaning": "to take down (in writing); notes; a type of literature consisting mainly of short sketches",
+    "speech": "笔记"
+  },
+  {
+    "id": "L2-0022",
+    "level": 2,
+    "hanzi": "笔记本",
+    "pinyin": "bǐjìběn",
+    "meaning": "notebook (stationery); notebook (computing)",
+    "speech": "笔记本"
+  },
+  {
+    "id": "L2-0023",
+    "level": 2,
+    "hanzi": "必须",
+    "pinyin": "bìxū",
+    "meaning": "to have to; must; compulsory; necessarily",
+    "speech": "必须"
+  },
+  {
+    "id": "L2-0024",
+    "level": 2,
+    "hanzi": "边",
+    "pinyin": "biān",
+    "meaning": "side; edge; margin; border; boundary; simultaneously",
+    "speech": "边"
+  },
+  {
+    "id": "L2-0025",
+    "level": 2,
+    "hanzi": "变",
+    "pinyin": "biàn",
+    "meaning": "to change; to become different; to transform; to vary; rebellion",
+    "speech": "变"
+  },
+  {
+    "id": "L2-0026",
+    "level": 2,
+    "hanzi": "变成",
+    "pinyin": "biànchéng",
+    "meaning": "to change into; to turn into; to become",
+    "speech": "变成"
+  },
+  {
+    "id": "L2-0027",
+    "level": 2,
+    "hanzi": "遍",
+    "pinyin": "biàn",
+    "meaning": "everywhere; all over; classifier for actions: one time",
+    "speech": "遍"
+  },
+  {
+    "id": "L2-0028",
+    "level": 2,
+    "hanzi": "表",
+    "pinyin": "biǎo",
+    "meaning": "exterior surface; family relationship via females; to show (one's opinion); a model; a table (listing information); a form; a meter (measuring sth); watch (timepiece); meter; gauge",
+    "speech": "表"
+  },
+  {
+    "id": "L2-0029",
+    "level": 2,
+    "hanzi": "表示",
+    "pinyin": "biǎoshì",
+    "meaning": "to express; to show; to say; to state; to indicate; to mean",
+    "speech": "表示"
+  },
+  {
+    "id": "L2-0030",
+    "level": 2,
+    "hanzi": "不错",
+    "pinyin": "bùcuò",
+    "meaning": "correct; right; not bad; pretty good",
+    "speech": "不错"
+  },
+  {
+    "id": "L2-0031",
+    "level": 2,
+    "hanzi": "不但",
+    "pinyin": "bùdàn",
+    "meaning": "not only (... but also ...)",
+    "speech": "不但"
+  },
+  {
+    "id": "L2-0032",
+    "level": 2,
+    "hanzi": "不够",
+    "pinyin": "bùgòu",
+    "meaning": "not enough; insufficient; inadequate",
+    "speech": "不够"
+  },
+  {
+    "id": "L2-0033",
+    "level": 2,
+    "hanzi": "不过",
+    "pinyin": "bùguò",
+    "meaning": "only; merely; no more than; but; however; anyway (to get back to a previous topic); cannot be more (after adjectival)",
+    "speech": "不过"
+  },
+  {
+    "id": "L2-0034",
+    "level": 2,
+    "hanzi": "不太",
+    "pinyin": "bù tài",
+    "meaning": "not very; not too",
+    "speech": "不太"
+  },
+  {
+    "id": "L2-0035",
+    "level": 2,
+    "hanzi": "不要",
+    "pinyin": "bùyào",
+    "meaning": "don't!; must not",
+    "speech": "不要"
+  },
+  {
+    "id": "L2-0036",
+    "level": 2,
+    "hanzi": "不好意思",
+    "pinyin": "bù hǎoyìsi",
+    "meaning": "to feel embarrassed; to find it embarrassing; to be sorry (for inconveniencing sb)",
+    "speech": "不好意思"
+  },
+  {
+    "id": "L2-0037",
+    "level": 2,
+    "hanzi": "不久",
+    "pinyin": "bùjiǔ",
+    "meaning": "not long (after); before too long; soon; soon after",
+    "speech": "不久"
+  },
+  {
+    "id": "L2-0038",
+    "level": 2,
+    "hanzi": "不满",
+    "pinyin": "bùmǎn",
+    "meaning": "resentful; discontented; dissatisfied",
+    "speech": "不满"
+  },
+  {
+    "id": "L2-0039",
+    "level": 2,
+    "hanzi": "不如",
+    "pinyin": "bùrú",
+    "meaning": "not equal to; not as good as; inferior to; it would be better to",
+    "speech": "不如"
+  },
+  {
+    "id": "L2-0040",
+    "level": 2,
+    "hanzi": "不少",
+    "pinyin": "bù shǎo",
+    "meaning": "many; a lot; not few",
+    "speech": "不少"
+  },
+  {
+    "id": "L2-0041",
+    "level": 2,
+    "hanzi": "不同",
+    "pinyin": "bù tóng",
+    "meaning": "different; distinct; not the same; not alike",
+    "speech": "不同"
+  },
+  {
+    "id": "L2-0042",
+    "level": 2,
+    "hanzi": "不行",
+    "pinyin": "bùxíng",
+    "meaning": "won't do; be out of the question; be no good; not work; not be capable",
+    "speech": "不行"
+  },
+  {
+    "id": "L2-0043",
+    "level": 2,
+    "hanzi": "不一定",
+    "pinyin": "bùyīdìng",
+    "meaning": "not necessarily; maybe",
+    "speech": "不一定"
+  },
+  {
+    "id": "L2-0044",
+    "level": 2,
+    "hanzi": "不一会儿",
+    "pinyin": "bù yīhuìr",
+    "meaning": "soon; in a short while",
+    "speech": "不一会儿"
+  },
+  {
+    "id": "L2-0045",
+    "level": 2,
+    "hanzi": "部分",
+    "pinyin": "bùfen",
+    "meaning": "part; share; section; piece",
+    "speech": "部分"
+  },
+  {
+    "id": "L2-0046",
+    "level": 2,
+    "hanzi": "才",
+    "pinyin": "cái",
+    "meaning": "ability; talent; sb of a certain type; a capable individual; then and only then; just now; (before an expression of quantity) only",
+    "speech": "才"
+  },
+  {
+    "id": "L2-0047",
+    "level": 2,
+    "hanzi": "菜单",
+    "pinyin": "càidān",
+    "meaning": "menu",
+    "speech": "菜单"
+  },
+  {
+    "id": "L2-0048",
+    "level": 2,
+    "hanzi": "参观",
+    "pinyin": "cānguān",
+    "meaning": "to look around; to tour; to visit",
+    "speech": "参观"
+  },
+  {
+    "id": "L2-0049",
+    "level": 2,
+    "hanzi": "参加",
+    "pinyin": "cānjiā",
+    "meaning": "to participate; to take part; to join",
+    "speech": "参加"
+  },
+  {
+    "id": "L2-0050",
+    "level": 2,
+    "hanzi": "草",
+    "pinyin": "cǎo",
+    "meaning": "grass; straw; manuscript; draft (of a document); careless; rough",
+    "speech": "草"
+  },
+  {
+    "id": "L2-0051",
+    "level": 2,
+    "hanzi": "草地",
+    "pinyin": "cǎodì",
+    "meaning": "lawn; meadow; sod; turf",
+    "speech": "草地"
+  },
+  {
+    "id": "L2-0052",
+    "level": 2,
+    "hanzi": "层",
+    "pinyin": "céng",
+    "meaning": "to pile on top of one another; layer; stratum; floor (of a building); story; (math.) sheaf; classifier for layers",
+    "speech": "层"
+  },
+  {
+    "id": "L2-0053",
+    "level": 2,
+    "hanzi": "查",
+    "pinyin": "chá",
+    "meaning": "to research; to check; to investigate; to examine; to refer to; to look up (e.g. a word in a dictionary)",
+    "speech": "查"
+  },
+  {
+    "id": "L2-0054",
+    "level": 2,
+    "hanzi": "差不多",
+    "pinyin": "chàbuduō",
+    "meaning": "almost; nearly; more or less; about the same; good enough; not bad",
+    "speech": "差不多"
+  },
+  {
+    "id": "L2-0055",
+    "level": 2,
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "meaning": "length; long; forever; always; constantly",
+    "speech": "长"
+  },
+  {
+    "id": "L2-0056",
+    "level": 2,
+    "hanzi": "常见",
+    "pinyin": "cháng jiàn",
+    "meaning": "commonly seen; common; to see sth frequently",
+    "speech": "常见"
+  },
+  {
+    "id": "L2-0057",
+    "level": 2,
+    "hanzi": "常用",
+    "pinyin": "cháng yòng",
+    "meaning": "in common usage",
+    "speech": "常用"
+  },
+  {
+    "id": "L2-0058",
+    "level": 2,
+    "hanzi": "场",
+    "pinyin": "chǎng",
+    "meaning": "large place used for a specific purpose; stage; scene (of a play); classifier for sporting or recreational activities; classifier for number of exams",
+    "speech": "场"
+  },
+  {
+    "id": "L2-0059",
+    "level": 2,
+    "hanzi": "超过",
+    "pinyin": "chāoguò",
+    "meaning": "to surpass; to exceed; to outstrip",
+    "speech": "超过"
+  },
+  {
+    "id": "L2-0060",
+    "level": 2,
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaning": "supermarket (abbr. for 超级市场)",
+    "speech": "超市"
+  },
+  {
+    "id": "L2-0061",
+    "level": 2,
+    "hanzi": "车辆",
+    "pinyin": "chēliàng",
+    "meaning": "vehicle",
+    "speech": "车辆"
+  },
+  {
+    "id": "L2-0062",
+    "level": 2,
+    "hanzi": "称",
+    "pinyin": "chēng",
+    "meaning": "to weigh",
+    "speech": "称"
+  },
+  {
+    "id": "L2-0063",
+    "level": 2,
+    "hanzi": "成",
+    "pinyin": "chéng",
+    "meaning": "to succeed; to finish; to complete; to accomplish; to become; to turn into; to be all right; OK!; one tenth",
+    "speech": "成"
+  },
+  {
+    "id": "L2-0064",
+    "level": 2,
+    "hanzi": "成绩",
+    "pinyin": "chéngjì",
+    "meaning": "achievement; performance records; grades",
+    "speech": "成绩"
+  },
+  {
+    "id": "L2-0065",
+    "level": 2,
+    "hanzi": "成为",
+    "pinyin": "chéngwéi",
+    "meaning": "to become; to turn into",
+    "speech": "成为"
+  },
+  {
+    "id": "L2-0066",
+    "level": 2,
+    "hanzi": "重复",
+    "pinyin": "chóngfù",
+    "meaning": "to repeat; to duplicate",
+    "speech": "重复"
+  },
+  {
+    "id": "L2-0067",
+    "level": 2,
+    "hanzi": "重新",
+    "pinyin": "chóngxīn",
+    "meaning": "again; once more; re-",
+    "speech": "重新"
+  },
+  {
+    "id": "L2-0068",
+    "level": 2,
+    "hanzi": "出发",
+    "pinyin": "chūfā",
+    "meaning": "to set off; to start (on a journey)",
+    "speech": "出发"
+  },
+  {
+    "id": "L2-0069",
+    "level": 2,
+    "hanzi": "出国",
+    "pinyin": "chūguó",
+    "meaning": "to go abroad; to leave the country",
+    "speech": "出国"
+  },
+  {
+    "id": "L2-0070",
+    "level": 2,
+    "hanzi": "出口",
+    "pinyin": "chūkǒu",
+    "meaning": "an exit; to speak; to export; (of a ship) to leave port",
+    "speech": "出口"
+  },
+  {
+    "id": "L2-0071",
+    "level": 2,
+    "hanzi": "出门",
+    "pinyin": "chūmén",
+    "meaning": "to go out; to leave home; to go on a journey; away from home; (of a woman) to get married",
+    "speech": "出门"
+  },
+  {
+    "id": "L2-0072",
+    "level": 2,
+    "hanzi": "出生",
+    "pinyin": "chūshēng",
+    "meaning": "to be born",
+    "speech": "出生"
+  },
+  {
+    "id": "L2-0073",
+    "level": 2,
+    "hanzi": "出现",
+    "pinyin": "chūxiàn",
+    "meaning": "to appear; to arise; to emerge; to show up",
+    "speech": "出现"
+  },
+  {
+    "id": "L2-0074",
+    "level": 2,
+    "hanzi": "出院",
+    "pinyin": "chūyuàn",
+    "meaning": "to leave hospital; to be discharged from hospital",
+    "speech": "出院"
+  },
+  {
+    "id": "L2-0075",
+    "level": 2,
+    "hanzi": "出租",
+    "pinyin": "chūzū",
+    "meaning": "to rent",
+    "speech": "出租"
+  },
+  {
+    "id": "L2-0076",
+    "level": 2,
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning": "taxi; (Tw) rental car",
+    "speech": "出租车"
+  },
+  {
+    "id": "L2-0077",
+    "level": 2,
+    "hanzi": "船",
+    "pinyin": "chuán",
+    "meaning": "boat; vessel; ship",
+    "speech": "船"
+  },
+  {
+    "id": "L2-0078",
+    "level": 2,
+    "hanzi": "吹",
+    "pinyin": "chuī",
+    "meaning": "to blow; to play a wind instrument; to blast; to puff; to boast; to brag; to end in failure; to fall through",
+    "speech": "吹"
+  },
+  {
+    "id": "L2-0079",
+    "level": 2,
+    "hanzi": "春节",
+    "pinyin": "Chūnjié",
+    "meaning": "Spring Festival (Chinese New Year)",
+    "speech": "春节"
+  },
+  {
+    "id": "L2-0080",
+    "level": 2,
+    "hanzi": "春天",
+    "pinyin": "chūntiān",
+    "meaning": "spring (season)",
+    "speech": "春天"
+  },
+  {
+    "id": "L2-0081",
+    "level": 2,
+    "hanzi": "词",
+    "pinyin": "cí",
+    "meaning": "word; statement; speech; lyrics; a form of lyric poetry, flourishing in the Song dynasty 宋朝",
+    "speech": "词"
+  },
+  {
+    "id": "L2-0082",
+    "level": 2,
+    "hanzi": "词典",
+    "pinyin": "cídiǎn",
+    "meaning": "dictionary",
+    "speech": "词典"
+  },
+  {
+    "id": "L2-0083",
+    "level": 2,
+    "hanzi": "词语",
+    "pinyin": "cíyǔ",
+    "meaning": "word (general term including monosyllables through to short phrases); term (e.g. technical term); expression",
+    "speech": "词语"
+  },
+  {
+    "id": "L2-0084",
+    "level": 2,
+    "hanzi": "从小",
+    "pinyin": "cóngxiǎo",
+    "meaning": "from childhood; from a young age",
+    "speech": "从小"
+  },
+  {
+    "id": "L2-0085",
+    "level": 2,
+    "hanzi": "答应",
+    "pinyin": "dāying",
+    "meaning": "to answer; to respond; to answer positively; to agree; to accept; to promise",
+    "speech": "答应"
+  },
+  {
+    "id": "L2-0086",
+    "level": 2,
+    "hanzi": "打工",
+    "pinyin": "dǎgōng",
+    "meaning": "to work a temporary or casual job; (of students) to have a job outside of class time, or during vacation",
+    "speech": "打工"
+  },
+  {
+    "id": "L2-0087",
+    "level": 2,
+    "hanzi": "打算",
+    "pinyin": "dǎsuàn",
+    "meaning": "to plan; to intend; to calculate; plan; intention; calculation",
+    "speech": "打算"
+  },
+  {
+    "id": "L2-0088",
+    "level": 2,
+    "hanzi": "打印",
+    "pinyin": "dǎyìn",
+    "meaning": "to affix a seal; to stamp; to print out (with a printer)",
+    "speech": "打印"
+  },
+  {
+    "id": "L2-0089",
+    "level": 2,
+    "hanzi": "大部分",
+    "pinyin": "dàbùfen",
+    "meaning": "in large part; the greater part; the majority",
+    "speech": "大部分"
+  },
+  {
+    "id": "L2-0090",
+    "level": 2,
+    "hanzi": "大大",
+    "pinyin": "dàdà",
+    "meaning": "greatly; enormously; (dialect) dad; uncle",
+    "speech": "大大"
+  },
+  {
+    "id": "L2-0091",
+    "level": 2,
+    "hanzi": "大多数",
+    "pinyin": "dàduōshù",
+    "meaning": "(great) majority",
+    "speech": "大多数"
+  },
+  {
+    "id": "L2-0092",
+    "level": 2,
+    "hanzi": "大海",
+    "pinyin": "dàhǎi",
+    "meaning": "sea; ocean",
+    "speech": "大海"
+  },
+  {
+    "id": "L2-0093",
+    "level": 2,
+    "hanzi": "大家",
+    "pinyin": "dàjiā",
+    "meaning": "everyone; influential family; great expert",
+    "speech": "大家"
+  },
+  {
+    "id": "L2-0094",
+    "level": 2,
+    "hanzi": "大量",
+    "pinyin": "dàliàng",
+    "meaning": "great amount; large quantity; bulk; numerous; generous; magnanimous",
+    "speech": "大量"
+  },
+  {
+    "id": "L2-0095",
+    "level": 2,
+    "hanzi": "大门",
+    "pinyin": "dàmén",
+    "meaning": "entrance; door; gate; large and influential family",
+    "speech": "大门"
+  },
+  {
+    "id": "L2-0096",
+    "level": 2,
+    "hanzi": "大人",
+    "pinyin": "dàren",
+    "meaning": "adult; grownup; title of respect toward superiors",
+    "speech": "大人"
+  },
+  {
+    "id": "L2-0097",
+    "level": 2,
+    "hanzi": "大声",
+    "pinyin": "dà shēng",
+    "meaning": "loud voice; in a loud voice; loudly",
+    "speech": "大声"
+  },
+  {
+    "id": "L2-0098",
+    "level": 2,
+    "hanzi": "大小",
+    "pinyin": "dàxiǎo",
+    "meaning": "dimension; magnitude; size; measurement; large and small; at any rate; adults and children; consideration of seniority",
+    "speech": "大小"
+  },
+  {
+    "id": "L2-0099",
+    "level": 2,
+    "hanzi": "大衣",
+    "pinyin": "dàyī",
+    "meaning": "overcoat; topcoat; cloak",
+    "speech": "大衣"
+  },
+  {
+    "id": "L2-0100",
+    "level": 2,
+    "hanzi": "大自然",
+    "pinyin": "dàzìrán",
+    "meaning": "nature (the natural world)",
+    "speech": "大自然"
+  },
+  {
+    "id": "L2-0101",
+    "level": 2,
+    "hanzi": "带",
+    "pinyin": "dài",
+    "meaning": "band; belt; girdle; ribbon; tire; area; zone; region; to wear; to carry; to take along; to bear (i.e. to have); to lead; to bring; to look after; to raise",
+    "speech": "带"
+  },
+  {
+    "id": "L2-0102",
+    "level": 2,
+    "hanzi": "带来",
+    "pinyin": "dàilái",
+    "meaning": "to bring; (fig.) to bring about; to produce",
+    "speech": "带来"
+  },
+  {
+    "id": "L2-0103",
+    "level": 2,
+    "hanzi": "单位",
+    "pinyin": "dānwèi",
+    "meaning": "unit (of measure); unit (group of people as a whole); work unit (place of employment, esp. in the PRC prior to economic reform)",
+    "speech": "单位"
+  },
+  {
+    "id": "L2-0104",
+    "level": 2,
+    "hanzi": "但",
+    "pinyin": "dàn",
+    "meaning": "but; yet; however; still; merely; only; just",
+    "speech": "但"
+  },
+  {
+    "id": "L2-0105",
+    "level": 2,
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "meaning": "but; however",
+    "speech": "但是"
+  },
+  {
+    "id": "L2-0106",
+    "level": 2,
+    "hanzi": "蛋",
+    "pinyin": "dàn",
+    "meaning": "egg; oval-shaped thing",
+    "speech": "蛋"
+  },
+  {
+    "id": "L2-0107",
+    "level": 2,
+    "hanzi": "当",
+    "pinyin": "dāng",
+    "meaning": "to be; to act as; manage; withstand; when; during; ought; should; match equally; equal; same; obstruct; just at (a time or place); on the spot; right; just at",
+    "speech": "当"
+  },
+  {
+    "id": "L2-0108",
+    "level": 2,
+    "hanzi": "当时",
+    "pinyin": "dāngshí",
+    "meaning": "then; at that time; while",
+    "speech": "当时"
+  },
+  {
+    "id": "L2-0109",
+    "level": 2,
+    "hanzi": "倒",
+    "pinyin": "dǎo",
+    "meaning": "to fall; to collapse; to lie horizontally; to fail; to go bankrupt; to overthrow; to change (trains or buses); to move around; to resell at a profit",
+    "speech": "倒"
+  },
+  {
+    "id": "L2-0110",
+    "level": 2,
+    "hanzi": "到处",
+    "pinyin": "dàochù",
+    "meaning": "everywhere",
+    "speech": "到处"
+  },
+  {
+    "id": "L2-0111",
+    "level": 2,
+    "hanzi": "倒",
+    "pinyin": "dào",
+    "meaning": "to invert; to place upside down or frontside back; to pour out; to tip out; to dump; inverted; upside down; reversed; to go backward; contrary to what one might expect; but; yet",
+    "speech": "倒"
+  },
+  {
+    "id": "L2-0112",
+    "level": 2,
+    "hanzi": "道",
+    "pinyin": "dào",
+    "meaning": "road; path; principle; truth; morality; reason; skill; method; Dao (of Daoism); to say; to speak; to talk; classifier for long thin things (rivers, cracks etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process; (old) circuit (administrative division)",
+    "speech": "道"
+  },
+  {
+    "id": "L2-0113",
+    "level": 2,
+    "hanzi": "道理",
+    "pinyin": "dàolǐ",
+    "meaning": "reason; argument; sense; principle; basis; justification",
+    "speech": "道理"
+  },
+  {
+    "id": "L2-0114",
+    "level": 2,
+    "hanzi": "道路",
+    "pinyin": "dàolù",
+    "meaning": "road; path; way",
+    "speech": "道路"
+  },
+  {
+    "id": "L2-0115",
+    "level": 2,
+    "hanzi": "得",
+    "pinyin": "dé",
+    "meaning": "to obtain; to get; to gain; to catch (a disease); proper; suitable; proud; contented; to allow; to permit; ready; finished",
+    "speech": "得"
+  },
+  {
+    "id": "L2-0116",
+    "level": 2,
+    "hanzi": "得出",
+    "pinyin": "déchū",
+    "meaning": "to obtain (a result); to arrive at (a conclusion)",
+    "speech": "得出"
+  },
+  {
+    "id": "L2-0117",
+    "level": 2,
+    "hanzi": "的话",
+    "pinyin": "dehuà",
+    "meaning": "if (coming after a conditional clause)",
+    "speech": "的话"
+  },
+  {
+    "id": "L2-0118",
+    "level": 2,
+    "hanzi": "得",
+    "pinyin": "de",
+    "meaning": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc",
+    "speech": "得"
+  },
+  {
+    "id": "L2-0119",
+    "level": 2,
+    "hanzi": "灯",
+    "pinyin": "dēng",
+    "meaning": "lamp; light; lantern",
+    "speech": "灯"
+  },
+  {
+    "id": "L2-0120",
+    "level": 2,
+    "hanzi": "等",
+    "pinyin": "děng",
+    "meaning": "class; rank; grade; equal to; same as; to wait for; to await; et cetera; and so on; et al. (and other authors); after; as soon as; once",
+    "speech": "等"
+  },
+  {
+    "id": "L2-0121",
+    "level": 2,
+    "hanzi": "等到",
+    "pinyin": "děngdào",
+    "meaning": "to wait until; by the time when (sth is ready etc)",
+    "speech": "等到"
+  },
+  {
+    "id": "L2-0122",
+    "level": 2,
+    "hanzi": "等于",
+    "pinyin": "děngyú",
+    "meaning": "to equal; to be tantamount to",
+    "speech": "等于"
+  },
+  {
+    "id": "L2-0123",
+    "level": 2,
+    "hanzi": "低",
+    "pinyin": "dī",
+    "meaning": "low; beneath; to lower (one's head); to let droop; to hang down; to incline",
+    "speech": "低"
+  },
+  {
+    "id": "L2-0124",
+    "level": 2,
+    "hanzi": "地球",
+    "pinyin": "dìqiú",
+    "meaning": "the earth",
+    "speech": "地球"
+  },
+  {
+    "id": "L2-0125",
+    "level": 2,
+    "hanzi": "地铁",
+    "pinyin": "dìtiě",
+    "meaning": "underground railway; subway; subway train",
+    "speech": "地铁"
+  },
+  {
+    "id": "L2-0126",
+    "level": 2,
+    "hanzi": "地铁站",
+    "pinyin": "dìtiězhàn",
+    "meaning": "subway station",
+    "speech": "地铁站"
+  },
+  {
+    "id": "L2-0127",
+    "level": 2,
+    "hanzi": "点头",
+    "pinyin": "diǎntóu",
+    "meaning": "to nod",
+    "speech": "点头"
+  },
+  {
+    "id": "L2-0128",
+    "level": 2,
+    "hanzi": "店",
+    "pinyin": "diàn",
+    "meaning": "inn; old-style hotel; (bound form) shop; store",
+    "speech": "店"
+  },
+  {
+    "id": "L2-0129",
+    "level": 2,
+    "hanzi": "掉",
+    "pinyin": "diào",
+    "meaning": "to fall; to drop; to lag behind; to lose; to go missing; to reduce; fall (in prices); to lose (value, weight etc); to wag; to swing; to turn; to change; to exchange; to swap; to show off; to shed (hair); (used after certain verbs to express completion, fulfillment, removal etc)",
+    "speech": "掉"
+  },
+  {
+    "id": "L2-0130",
+    "level": 2,
+    "hanzi": "东北",
+    "pinyin": "dōngběi",
+    "meaning": "northeast",
+    "speech": "东北"
+  },
+  {
+    "id": "L2-0131",
+    "level": 2,
+    "hanzi": "东方",
+    "pinyin": "dōngfāng",
+    "meaning": "east",
+    "speech": "东方"
+  },
+  {
+    "id": "L2-0132",
+    "level": 2,
+    "hanzi": "东南",
+    "pinyin": "dōngnán",
+    "meaning": "southeast",
+    "speech": "东南"
+  },
+  {
+    "id": "L2-0133",
+    "level": 2,
+    "hanzi": "冬天",
+    "pinyin": "dōngtiān",
+    "meaning": "winter",
+    "speech": "冬天"
+  },
+  {
+    "id": "L2-0134",
+    "level": 2,
+    "hanzi": "懂",
+    "pinyin": "dǒng",
+    "meaning": "to understand; to comprehend",
+    "speech": "懂"
+  },
+  {
+    "id": "L2-0135",
+    "level": 2,
+    "hanzi": "懂得",
+    "pinyin": "dǒngde",
+    "meaning": "to understand; to know; to comprehend",
+    "speech": "懂得"
+  },
+  {
+    "id": "L2-0136",
+    "level": 2,
+    "hanzi": "动物",
+    "pinyin": "dòngwù",
+    "meaning": "animal",
+    "speech": "动物"
+  },
+  {
+    "id": "L2-0137",
+    "level": 2,
+    "hanzi": "动物园",
+    "pinyin": "dòngwùyuán",
+    "meaning": "zoo",
+    "speech": "动物园"
+  },
+  {
+    "id": "L2-0138",
+    "level": 2,
+    "hanzi": "读音",
+    "pinyin": "dúyīn",
+    "meaning": "pronunciation; literary (rather than colloquial) pronunciation of a Chinese character",
+    "speech": "读音"
+  },
+  {
+    "id": "L2-0139",
+    "level": 2,
+    "hanzi": "度",
+    "pinyin": "dù",
+    "meaning": "to pass; to spend (time); measure; limit; extent; degree of intensity; degree (angles, temperature etc); kilowatt-hour; classifier for events and occurrences",
+    "speech": "度"
+  },
+  {
+    "id": "L2-0140",
+    "level": 2,
+    "hanzi": "短",
+    "pinyin": "duǎn",
+    "meaning": "short; brief; to lack; weak point; fault",
+    "speech": "短"
+  },
+  {
+    "id": "L2-0141",
+    "level": 2,
+    "hanzi": "短信",
+    "pinyin": "duǎnxìn",
+    "meaning": "text message; SMS",
+    "speech": "短信"
+  },
+  {
+    "id": "L2-0142",
+    "level": 2,
+    "hanzi": "段",
+    "pinyin": "duàn",
+    "meaning": "paragraph; section; segment; stage (of a process); classifier for stories, periods of time, lengths of thread etc",
+    "speech": "段"
+  },
+  {
+    "id": "L2-0143",
+    "level": 2,
+    "hanzi": "队",
+    "pinyin": "duì",
+    "meaning": "squadron; team; group",
+    "speech": "队"
+  },
+  {
+    "id": "L2-0144",
+    "level": 2,
+    "hanzi": "队长",
+    "pinyin": "duìzhǎng",
+    "meaning": "captain; team leader",
+    "speech": "队长"
+  },
+  {
+    "id": "L2-0145",
+    "level": 2,
+    "hanzi": "对",
+    "pinyin": "duì",
+    "meaning": "right; correct; towards; at; for; concerning; regarding; to treat (sb a certain way); to face; (bound form) opposite; facing; matching; to match together; to adjust; to fit; to suit; to answer; to reply; to add; to pour in (a fluid); to check; to compare; classifier: couple; pair",
+    "speech": "对"
+  },
+  {
+    "id": "L2-0146",
+    "level": 2,
+    "hanzi": "对话",
+    "pinyin": "duìhuà",
+    "meaning": "to talk (with sb); dialogue; conversation",
+    "speech": "对话"
+  },
+  {
+    "id": "L2-0147",
+    "level": 2,
+    "hanzi": "对面",
+    "pinyin": "duìmiàn",
+    "meaning": "(sitting) opposite; across (the street); directly in front; to be face to face",
+    "speech": "对面"
+  },
+  {
+    "id": "L2-0148",
+    "level": 2,
+    "hanzi": "多",
+    "pinyin": "duō",
+    "meaning": "many; much; too many; in excess; (after a numeral) ... odd; how (to what extent) (Taiwan pr. [duó]); (bound form) multi-; poly-",
+    "speech": "多"
+  },
+  {
+    "id": "L2-0149",
+    "level": 2,
+    "hanzi": "多久",
+    "pinyin": "duōjiǔ",
+    "meaning": "(of time) how long?; (not) a long time",
+    "speech": "多久"
+  },
+  {
+    "id": "L2-0150",
+    "level": 2,
+    "hanzi": "多么",
+    "pinyin": "duōme",
+    "meaning": "how (wonderful etc); what (a great idea etc); however (difficult it may be etc); (in interrogative sentences) how (much etc); to what extent",
+    "speech": "多么"
+  },
+  {
+    "id": "L2-0151",
+    "level": 2,
+    "hanzi": "多数",
+    "pinyin": "duōshù",
+    "meaning": "majority; most",
+    "speech": "多数"
+  },
+  {
+    "id": "L2-0152",
+    "level": 2,
+    "hanzi": "多云",
+    "pinyin": "duōyún",
+    "meaning": "cloudy (meteorology)",
+    "speech": "多云"
+  },
+  {
+    "id": "L2-0153",
+    "level": 2,
+    "hanzi": "而且",
+    "pinyin": "érqiě",
+    "meaning": "(not only ...) but also; moreover; in addition; furthermore",
+    "speech": "而且"
+  },
+  {
+    "id": "L2-0154",
+    "level": 2,
+    "hanzi": "发",
+    "pinyin": "fā",
+    "meaning": "to send out; to show (one's feeling); to issue; to develop; to make a bundle of money; classifier for gunshots (rounds)",
+    "speech": "发"
+  },
+  {
+    "id": "L2-0155",
+    "level": 2,
+    "hanzi": "发现",
+    "pinyin": "fāxiàn",
+    "meaning": "to notice; to become aware of; to discover; to find; to detect; a discovery",
+    "speech": "发现"
+  },
+  {
+    "id": "L2-0156",
+    "level": 2,
+    "hanzi": "饭馆",
+    "pinyin": "fànguǎn",
+    "meaning": "restaurant",
+    "speech": "饭馆"
+  },
+  {
+    "id": "L2-0157",
+    "level": 2,
+    "hanzi": "方便",
+    "pinyin": "fāngbiàn",
+    "meaning": "convenient; suitable; to facilitate; to make things easy; having money to spare; (euphemism) to relieve oneself",
+    "speech": "方便"
+  },
+  {
+    "id": "L2-0158",
+    "level": 2,
+    "hanzi": "方便面",
+    "pinyin": "fāngbiànmiàn",
+    "meaning": "instant noodles",
+    "speech": "方便面"
+  },
+  {
+    "id": "L2-0159",
+    "level": 2,
+    "hanzi": "方法",
+    "pinyin": "fāngfǎ",
+    "meaning": "method; way; means",
+    "speech": "方法"
+  },
+  {
+    "id": "L2-0160",
+    "level": 2,
+    "hanzi": "方面",
+    "pinyin": "fāngmiàn",
+    "meaning": "respect; aspect; field; side",
+    "speech": "方面"
+  },
+  {
+    "id": "L2-0161",
+    "level": 2,
+    "hanzi": "方向",
+    "pinyin": "fāngxiàng",
+    "meaning": "direction; orientation",
+    "speech": "方向"
+  },
+  {
+    "id": "L2-0162",
+    "level": 2,
+    "hanzi": "放下",
+    "pinyin": "fàngxia",
+    "meaning": "to lay down; to put down; to let go of; to relinquish; to set aside; to lower (the blinds etc)",
+    "speech": "放下"
+  },
+  {
+    "id": "L2-0163",
+    "level": 2,
+    "hanzi": "放心",
+    "pinyin": "fàngxīn",
+    "meaning": "to feel relieved; to feel reassured; to be at ease",
+    "speech": "放心"
+  },
+  {
+    "id": "L2-0164",
+    "level": 2,
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "meaning": "to divide; to separate; to distribute; to allocate; to distinguish (good and bad); (bound form) branch of (an organization); sub- (as in 局); fraction; one tenth (of certain units); unit of length equivalent to 0.33 cm; minute (unit of time); minute (angular measurement unit); a point (in sports or games); 0.01 yuan (unit of money)",
+    "speech": "分"
+  },
+  {
+    "id": "L2-0165",
+    "level": 2,
+    "hanzi": "分开",
+    "pinyin": "fēnkāi",
+    "meaning": "to separate; to part",
+    "speech": "分开"
+  },
+  {
+    "id": "L2-0166",
+    "level": 2,
+    "hanzi": "分数",
+    "pinyin": "fēnshù",
+    "meaning": "(exam) grade; mark; score; fraction",
+    "speech": "分数"
+  },
+  {
+    "id": "L2-0167",
+    "level": 2,
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "meaning": "minute",
+    "speech": "分钟"
+  },
+  {
+    "id": "L2-0168",
+    "level": 2,
+    "hanzi": "份",
+    "pinyin": "fèn",
+    "meaning": "classifier for gifts, newspaper, magazine, papers, reports, contracts etc",
+    "speech": "份"
+  },
+  {
+    "id": "L2-0169",
+    "level": 2,
+    "hanzi": "封",
+    "pinyin": "fēng",
+    "meaning": "to confer; to grant; to bestow a title; to seal; classifier for sealed objects, esp. letters",
+    "speech": "封"
+  },
+  {
+    "id": "L2-0170",
+    "level": 2,
+    "hanzi": "服务",
+    "pinyin": "fúwù",
+    "meaning": "to serve; service",
+    "speech": "服务"
+  },
+  {
+    "id": "L2-0171",
+    "level": 2,
+    "hanzi": "复习",
+    "pinyin": "fùxí",
+    "meaning": "to review; revision",
+    "speech": "复习"
+  },
+  {
+    "id": "L2-0172",
+    "level": 2,
+    "hanzi": "该",
+    "pinyin": "gāi",
+    "meaning": "should; ought to; probably; must be; to deserve; to owe; to be sb's turn to do sth; that; the above-mentioned",
+    "speech": "该"
+  },
+  {
+    "id": "L2-0173",
+    "level": 2,
+    "hanzi": "改",
+    "pinyin": "gǎi",
+    "meaning": "to change; to alter; to transform; to correct",
+    "speech": "改"
+  },
+  {
+    "id": "L2-0174",
+    "level": 2,
+    "hanzi": "改变",
+    "pinyin": "gǎibiàn",
+    "meaning": "to change; to alter; to transform",
+    "speech": "改变"
+  },
+  {
+    "id": "L2-0175",
+    "level": 2,
+    "hanzi": "干杯",
+    "pinyin": "gānbēi",
+    "meaning": "to drink a toast; Cheers! (proposing a toast); Here's to you!; Bottoms up!; lit. dry cup",
+    "speech": "干杯"
+  },
+  {
+    "id": "L2-0176",
+    "level": 2,
+    "hanzi": "感到",
+    "pinyin": "gǎndào",
+    "meaning": "to feel; to sense; to perceive",
+    "speech": "感到"
+  },
+  {
+    "id": "L2-0177",
+    "level": 2,
+    "hanzi": "感动",
+    "pinyin": "gǎndòng",
+    "meaning": "to move (sb); to touch (sb emotionally); moving",
+    "speech": "感动"
+  },
+  {
+    "id": "L2-0178",
+    "level": 2,
+    "hanzi": "感觉",
+    "pinyin": "gǎnjué",
+    "meaning": "feeling; impression; sensation; to feel; to perceive",
+    "speech": "感觉"
+  },
+  {
+    "id": "L2-0179",
+    "level": 2,
+    "hanzi": "感谢",
+    "pinyin": "gǎnxiè",
+    "meaning": "(express) thanks; gratitude; grateful; thankful; thanks",
+    "speech": "感谢"
+  },
+  {
+    "id": "L2-0180",
+    "level": 2,
+    "hanzi": "干活儿",
+    "pinyin": "gànhuór",
+    "meaning": "to work; manual labor",
+    "speech": "干活儿"
+  },
+  {
+    "id": "L2-0181",
+    "level": 2,
+    "hanzi": "刚",
+    "pinyin": "gāng",
+    "meaning": "hard; firm; strong; just; barely; exactly",
+    "speech": "刚"
+  },
+  {
+    "id": "L2-0182",
+    "level": 2,
+    "hanzi": "刚才",
+    "pinyin": "gāngcái",
+    "meaning": "just now; a moment ago",
+    "speech": "刚才"
+  },
+  {
+    "id": "L2-0183",
+    "level": 2,
+    "hanzi": "刚刚",
+    "pinyin": "gānggāng",
+    "meaning": "just recently; just a moment ago",
+    "speech": "刚刚"
+  },
+  {
+    "id": "L2-0184",
+    "level": 2,
+    "hanzi": "高级",
+    "pinyin": "gāojí",
+    "meaning": "high level; high grade; advanced; high-ranking",
+    "speech": "高级"
+  },
+  {
+    "id": "L2-0185",
+    "level": 2,
+    "hanzi": "高中",
+    "pinyin": "gāozhōng",
+    "meaning": "senior high school; abbr. for 高级中学",
+    "speech": "高中"
+  },
+  {
+    "id": "L2-0186",
+    "level": 2,
+    "hanzi": "个子",
+    "pinyin": "gèzi",
+    "meaning": "height; stature; build; size",
+    "speech": "个子"
+  },
+  {
+    "id": "L2-0187",
+    "level": 2,
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "meaning": "more; even more; further; still; still more",
+    "speech": "更"
+  },
+  {
+    "id": "L2-0188",
+    "level": 2,
+    "hanzi": "公共汽车",
+    "pinyin": "gōnggòng qìchē",
+    "meaning": "bus",
+    "speech": "公共汽车"
+  },
+  {
+    "id": "L2-0189",
+    "level": 2,
+    "hanzi": "公交车",
+    "pinyin": "gōngjiāochē",
+    "meaning": "public transport vehicle; town bus",
+    "speech": "公交车"
+  },
+  {
+    "id": "L2-0190",
+    "level": 2,
+    "hanzi": "公斤",
+    "pinyin": "gōngjīn",
+    "meaning": "kilogram (kg)",
+    "speech": "公斤"
+  },
+  {
+    "id": "L2-0191",
+    "level": 2,
+    "hanzi": "公里",
+    "pinyin": "gōnglǐ",
+    "meaning": "kilometer",
+    "speech": "公里"
+  },
+  {
+    "id": "L2-0192",
+    "level": 2,
+    "hanzi": "公路",
+    "pinyin": "gōnglù",
+    "meaning": "highway; road",
+    "speech": "公路"
+  },
+  {
+    "id": "L2-0193",
+    "level": 2,
+    "hanzi": "公平",
+    "pinyin": "gōngpíng",
+    "meaning": "fair; impartial",
+    "speech": "公平"
+  },
+  {
+    "id": "L2-0194",
+    "level": 2,
+    "hanzi": "公司",
+    "pinyin": "gōngsī",
+    "meaning": "company; firm; corporation",
+    "speech": "公司"
+  },
+  {
+    "id": "L2-0195",
+    "level": 2,
+    "hanzi": "公园",
+    "pinyin": "gōngyuán",
+    "meaning": "park (for public recreation)",
+    "speech": "公园"
+  },
+  {
+    "id": "L2-0196",
+    "level": 2,
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "meaning": "dog",
+    "speech": "狗"
+  },
+  {
+    "id": "L2-0197",
+    "level": 2,
+    "hanzi": "够",
+    "pinyin": "gòu",
+    "meaning": "enough (sufficient); enough (too much); (coll.) (before adj.) really; (coll.) to reach by stretching out",
+    "speech": "够"
+  },
+  {
+    "id": "L2-0198",
+    "level": 2,
+    "hanzi": "故事",
+    "pinyin": "gùshi",
+    "meaning": "narrative; story; tale",
+    "speech": "故事"
+  },
+  {
+    "id": "L2-0199",
+    "level": 2,
+    "hanzi": "故意",
+    "pinyin": "gùyì",
+    "meaning": "deliberately; on purpose",
+    "speech": "故意"
+  },
+  {
+    "id": "L2-0200",
+    "level": 2,
+    "hanzi": "顾客",
+    "pinyin": "gùkè",
+    "meaning": "customer; client",
+    "speech": "顾客"
+  },
+  {
+    "id": "L2-0201",
+    "level": 2,
+    "hanzi": "关机",
+    "pinyin": "guānjī",
+    "meaning": "to turn off (a machine or device); to finish shooting a film",
+    "speech": "关机"
+  },
+  {
+    "id": "L2-0202",
+    "level": 2,
+    "hanzi": "关心",
+    "pinyin": "guānxīn",
+    "meaning": "to be concerned about; to care about",
+    "speech": "关心"
+  },
+  {
+    "id": "L2-0203",
+    "level": 2,
+    "hanzi": "观点",
+    "pinyin": "guāndiǎn",
+    "meaning": "point of view; viewpoint; standpoint",
+    "speech": "观点"
+  },
+  {
+    "id": "L2-0204",
+    "level": 2,
+    "hanzi": "广场",
+    "pinyin": "guǎngchǎng",
+    "meaning": "public square; plaza",
+    "speech": "广场"
+  },
+  {
+    "id": "L2-0205",
+    "level": 2,
+    "hanzi": "广告",
+    "pinyin": "guǎnggào",
+    "meaning": "to advertise; a commercial; advertisement",
+    "speech": "广告"
+  },
+  {
+    "id": "L2-0206",
+    "level": 2,
+    "hanzi": "国际",
+    "pinyin": "guójì",
+    "meaning": "international",
+    "speech": "国际"
+  },
+  {
+    "id": "L2-0207",
+    "level": 2,
+    "hanzi": "过来",
+    "pinyin": "guòlái",
+    "meaning": "to come over; to manage; to handle; to be able to take care of",
+    "speech": "过来"
+  },
+  {
+    "id": "L2-0208",
+    "level": 2,
+    "hanzi": "过年",
+    "pinyin": "guònián",
+    "meaning": "to celebrate the Chinese New Year",
+    "speech": "过年"
+  },
+  {
+    "id": "L2-0209",
+    "level": 2,
+    "hanzi": "过去",
+    "pinyin": "guòqù",
+    "meaning": "(in the) past; former; previous; to go over; to pass by",
+    "speech": "过去"
+  },
+  {
+    "id": "L2-0210",
+    "level": 2,
+    "hanzi": "过",
+    "pinyin": "guo",
+    "meaning": "(experienced action marker)",
+    "speech": "过"
+  },
+  {
+    "id": "L2-0211",
+    "level": 2,
+    "hanzi": "海",
+    "pinyin": "hǎi",
+    "meaning": "ocean; sea; great number of people or things; (dialect) numerous",
+    "speech": "海"
+  },
+  {
+    "id": "L2-0212",
+    "level": 2,
+    "hanzi": "海边",
+    "pinyin": "hǎi biān",
+    "meaning": "coast; seaside; seashore; beach",
+    "speech": "海边"
+  },
+  {
+    "id": "L2-0213",
+    "level": 2,
+    "hanzi": "喊",
+    "pinyin": "hǎn",
+    "meaning": "to yell; to shout; to call out for (a person)",
+    "speech": "喊"
+  },
+  {
+    "id": "L2-0214",
+    "level": 2,
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning": "good; appropriate; proper; all right!; (before a verb) easy to; (before a verb) good to; (before an adjective for exclamatory effect) so; (verb complement indicating completion); (of two people) close; on intimate terms; (after a personal pronoun) hello",
+    "speech": "好"
+  },
+  {
+    "id": "L2-0215",
+    "level": 2,
+    "hanzi": "好处",
+    "pinyin": "hǎochù",
+    "meaning": "benefit; advantage; merit; gain; profit; also pr. [hǎo chù]",
+    "speech": "好处"
+  },
+  {
+    "id": "L2-0216",
+    "level": 2,
+    "hanzi": "好多",
+    "pinyin": "hǎoduō",
+    "meaning": "many; quite a lot; much better",
+    "speech": "好多"
+  },
+  {
+    "id": "L2-0217",
+    "level": 2,
+    "hanzi": "好久",
+    "pinyin": "hǎojiǔ",
+    "meaning": "quite a while",
+    "speech": "好久"
+  },
+  {
+    "id": "L2-0218",
+    "level": 2,
+    "hanzi": "好人",
+    "pinyin": "hǎorén",
+    "meaning": "good person; healthy person; person who tries not to offend anyone, even at the expense of principle",
+    "speech": "好人"
+  },
+  {
+    "id": "L2-0219",
+    "level": 2,
+    "hanzi": "好事",
+    "pinyin": "hǎoshì",
+    "meaning": "good action, deed, thing or work (also sarcastic, \"a fine thing indeed\"); charity; happy occasion; Daoist or Buddhist ceremony for the souls of the dead",
+    "speech": "好事"
+  },
+  {
+    "id": "L2-0220",
+    "level": 2,
+    "hanzi": "好像",
+    "pinyin": "hǎoxiàng",
+    "meaning": "as if; to seem like",
+    "speech": "好像"
+  },
+  {
+    "id": "L2-0221",
+    "level": 2,
+    "hanzi": "合适",
+    "pinyin": "héshì",
+    "meaning": "suitable; fitting; appropriate",
+    "speech": "合适"
+  },
+  {
+    "id": "L2-0222",
+    "level": 2,
+    "hanzi": "河",
+    "pinyin": "hé",
+    "meaning": "river",
+    "speech": "河"
+  },
+  {
+    "id": "L2-0223",
+    "level": 2,
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "meaning": "black; dark; sinister; secret; shady; illegal; to hide (sth) away; to vilify; (loanword) to hack (computing)",
+    "speech": "黑"
+  },
+  {
+    "id": "L2-0224",
+    "level": 2,
+    "hanzi": "黑板",
+    "pinyin": "hēibǎn",
+    "meaning": "blackboard",
+    "speech": "黑板"
+  },
+  {
+    "id": "L2-0225",
+    "level": 2,
+    "hanzi": "黑色",
+    "pinyin": "hēisè",
+    "meaning": "black",
+    "speech": "黑色"
+  },
+  {
+    "id": "L2-0226",
+    "level": 2,
+    "hanzi": "红",
+    "pinyin": "hóng",
+    "meaning": "red; popular; revolutionary; bonus",
+    "speech": "红"
+  },
+  {
+    "id": "L2-0227",
+    "level": 2,
+    "hanzi": "红色",
+    "pinyin": "hóngsè",
+    "meaning": "red (color); revolutionary",
+    "speech": "红色"
+  },
+  {
+    "id": "L2-0228",
+    "level": 2,
+    "hanzi": "后来",
+    "pinyin": "hòulái",
+    "meaning": "afterwards; later; newly arrived",
+    "speech": "后来"
+  },
+  {
+    "id": "L2-0229",
+    "level": 2,
+    "hanzi": "忽然",
+    "pinyin": "hūrán",
+    "meaning": "suddenly; all of a sudden",
+    "speech": "忽然"
+  },
+  {
+    "id": "L2-0230",
+    "level": 2,
+    "hanzi": "湖",
+    "pinyin": "hú",
+    "meaning": "lake",
+    "speech": "湖"
+  },
+  {
+    "id": "L2-0231",
+    "level": 2,
+    "hanzi": "护照",
+    "pinyin": "hùzhào",
+    "meaning": "passport",
+    "speech": "护照"
+  },
+  {
+    "id": "L2-0232",
+    "level": 2,
+    "hanzi": "花",
+    "pinyin": "huā",
+    "meaning": "flower; blossom; fancy pattern; florid; to spend (money, time); (coll.) lecherous; lustful",
+    "speech": "花"
+  },
+  {
+    "id": "L2-0233",
+    "level": 2,
+    "hanzi": "花园",
+    "pinyin": "huāyuán",
+    "meaning": "garden",
+    "speech": "花园"
+  },
+  {
+    "id": "L2-0234",
+    "level": 2,
+    "hanzi": "画",
+    "pinyin": "huà",
+    "meaning": "to draw; to paint; picture; painting; to draw (a line) (variant of 划); stroke of a Chinese character (variant of 划); (calligraphy) horizontal stroke (variant of 划)",
+    "speech": "画"
+  },
+  {
+    "id": "L2-0235",
+    "level": 2,
+    "hanzi": "画家",
+    "pinyin": "huàjiā",
+    "meaning": "painter",
+    "speech": "画家"
+  },
+  {
+    "id": "L2-0236",
+    "level": 2,
+    "hanzi": "画儿",
+    "pinyin": "huàr",
+    "meaning": "picture; drawing; painting",
+    "speech": "画儿"
+  },
+  {
+    "id": "L2-0237",
+    "level": 2,
+    "hanzi": "坏处",
+    "pinyin": "huàichù",
+    "meaning": "harm; troubles",
+    "speech": "坏处"
+  },
+  {
+    "id": "L2-0238",
+    "level": 2,
+    "hanzi": "坏人",
+    "pinyin": "huàirén",
+    "meaning": "bad person; villain",
+    "speech": "坏人"
+  },
+  {
+    "id": "L2-0239",
+    "level": 2,
+    "hanzi": "欢迎",
+    "pinyin": "huānyíng",
+    "meaning": "to welcome; welcome",
+    "speech": "欢迎"
+  },
+  {
+    "id": "L2-0240",
+    "level": 2,
+    "hanzi": "换",
+    "pinyin": "huàn",
+    "meaning": "to exchange; to change (clothes etc); to substitute; to switch; to convert (currency)",
+    "speech": "换"
+  },
+  {
+    "id": "L2-0241",
+    "level": 2,
+    "hanzi": "黄",
+    "pinyin": "huáng",
+    "meaning": "yellow; pornographic; to fall through",
+    "speech": "黄"
+  },
+  {
+    "id": "L2-0242",
+    "level": 2,
+    "hanzi": "黄色",
+    "pinyin": "huángsè",
+    "meaning": "yellow (color); pornographic",
+    "speech": "黄色"
+  },
+  {
+    "id": "L2-0243",
+    "level": 2,
+    "hanzi": "回",
+    "pinyin": "huí",
+    "meaning": "to circle; to go back; to turn around; to answer; to return; to revolve; Hui ethnic group (Chinese Muslims); time; classifier for acts of a play; section or chapter (of a classic book)",
+    "speech": "回"
+  },
+  {
+    "id": "L2-0244",
+    "level": 2,
+    "hanzi": "回国",
+    "pinyin": "huí guó",
+    "meaning": "to return to one's home country",
+    "speech": "回国"
+  },
+  {
+    "id": "L2-0245",
+    "level": 2,
+    "hanzi": "会",
+    "pinyin": "huì",
+    "meaning": "can; to have the skill; to know how to; to be likely to; to be sure to; to meet; to get together; meeting; gathering; (suffix) union; group; association; (bound form) a moment (Taiwan pr. [huǐ])",
+    "speech": "会"
+  },
+  {
+    "id": "L2-0246",
+    "level": 2,
+    "hanzi": "活动",
+    "pinyin": "huódòng",
+    "meaning": "to exercise; to move about; to operate; to use connections (personal influence); loose; shaky; active; movable; activity; campaign; maneuver; behavior",
+    "speech": "活动"
+  },
+  {
+    "id": "L2-0247",
+    "level": 2,
+    "hanzi": "或",
+    "pinyin": "huò",
+    "meaning": "maybe; perhaps; might; possibly; or",
+    "speech": "或"
+  },
+  {
+    "id": "L2-0248",
+    "level": 2,
+    "hanzi": "或者",
+    "pinyin": "huòzhě",
+    "meaning": "or; possibly; maybe; perhaps",
+    "speech": "或者"
+  },
+  {
+    "id": "L2-0249",
+    "level": 2,
+    "hanzi": "机会",
+    "pinyin": "jīhuì",
+    "meaning": "opportunity; chance; occasion",
+    "speech": "机会"
+  },
+  {
+    "id": "L2-0250",
+    "level": 2,
+    "hanzi": "鸡",
+    "pinyin": "jī",
+    "meaning": "fowl; chicken; (slang) prostitute",
+    "speech": "鸡"
+  },
+  {
+    "id": "L2-0251",
+    "level": 2,
+    "hanzi": "级",
+    "pinyin": "jí",
+    "meaning": "level; grade; rank; step (of stairs); classifier: step, level",
+    "speech": "级"
+  },
+  {
+    "id": "L2-0252",
+    "level": 2,
+    "hanzi": "急",
+    "pinyin": "jí",
+    "meaning": "urgent; pressing; rapid; hurried; worried; to make (sb) anxious",
+    "speech": "急"
+  },
+  {
+    "id": "L2-0253",
+    "level": 2,
+    "hanzi": "计划",
+    "pinyin": "jìhuà",
+    "meaning": "plan; project; program; to plan; to map out",
+    "speech": "计划"
+  },
+  {
+    "id": "L2-0254",
+    "level": 2,
+    "hanzi": "计算机",
+    "pinyin": "jìsuànjī",
+    "meaning": "computer; (Tw) calculator",
+    "speech": "计算机"
+  },
+  {
+    "id": "L2-0255",
+    "level": 2,
+    "hanzi": "加",
+    "pinyin": "jiā",
+    "meaning": "to add; plus; (used after an adverb such as 不, 大, 稍 etc, and before a disyllabic verb, to indicate that the action of the verb is applied to sth or sb previously mentioned); to apply (restrictions etc) to (sb); to give (support, consideration etc) to (sth)",
+    "speech": "加"
+  },
+  {
+    "id": "L2-0256",
+    "level": 2,
+    "hanzi": "加油",
+    "pinyin": "jiāyóu",
+    "meaning": "to add oil; to top up with gas; to refuel; to accelerate; to step on the gas; (fig.) to make an extra effort; to cheer sb on",
+    "speech": "加油"
+  },
+  {
+    "id": "L2-0257",
+    "level": 2,
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaning": "noun suffix for a specialist or expert; -ist; -er",
+    "speech": "家"
+  },
+  {
+    "id": "L2-0258",
+    "level": 2,
+    "hanzi": "家庭",
+    "pinyin": "jiātíng",
+    "meaning": "family; household",
+    "speech": "家庭"
+  },
+  {
+    "id": "L2-0259",
+    "level": 2,
+    "hanzi": "家长",
+    "pinyin": "jiāzhǎng",
+    "meaning": "head of a household; family head; patriarch; parent or guardian of a child",
+    "speech": "家长"
+  },
+  {
+    "id": "L2-0260",
+    "level": 2,
+    "hanzi": "假",
+    "pinyin": "jiǎ",
+    "meaning": "fake; false; artificial; to borrow; if; suppose",
+    "speech": "假"
+  },
+  {
+    "id": "L2-0261",
+    "level": 2,
+    "hanzi": "假期",
+    "pinyin": "jiàqī",
+    "meaning": "vacation",
+    "speech": "假期"
+  },
+  {
+    "id": "L2-0262",
+    "level": 2,
+    "hanzi": "检查",
+    "pinyin": "jiǎnchá",
+    "meaning": "inspection; to examine; to inspect",
+    "speech": "检查"
+  },
+  {
+    "id": "L2-0263",
+    "level": 2,
+    "hanzi": "见到",
+    "pinyin": "jiàndào",
+    "meaning": "to see",
+    "speech": "见到"
+  },
+  {
+    "id": "L2-0264",
+    "level": 2,
+    "hanzi": "见过",
+    "pinyin": "jiànguo",
+    "meaning": "to have seen or met before",
+    "speech": "见过"
+  },
+  {
+    "id": "L2-0265",
+    "level": 2,
+    "hanzi": "件",
+    "pinyin": "jiàn",
+    "meaning": "item; component; classifier for events, things, clothes etc",
+    "speech": "件"
+  },
+  {
+    "id": "L2-0266",
+    "level": 2,
+    "hanzi": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "health; healthy",
+    "speech": "健康"
+  },
+  {
+    "id": "L2-0267",
+    "level": 2,
+    "hanzi": "讲",
+    "pinyin": "jiǎng",
+    "meaning": "to speak; to explain; to negotiate; to emphasize; to be particular about; as far as sth is concerned; speech; lecture",
+    "speech": "讲"
+  },
+  {
+    "id": "L2-0268",
+    "level": 2,
+    "hanzi": "讲话",
+    "pinyin": "jiǎnghuà",
+    "meaning": "a speech; to speak; to talk; to address",
+    "speech": "讲话"
+  },
+  {
+    "id": "L2-0269",
+    "level": 2,
+    "hanzi": "交",
+    "pinyin": "jiāo",
+    "meaning": "to hand over; to deliver; to pay (money); to turn over; to make friends; to intersect (lines)",
+    "speech": "交"
+  },
+  {
+    "id": "L2-0270",
+    "level": 2,
+    "hanzi": "交给",
+    "pinyin": "jiāo gěi",
+    "meaning": "to give; to deliver; to hand over",
+    "speech": "交给"
+  },
+  {
+    "id": "L2-0271",
+    "level": 2,
+    "hanzi": "交朋友",
+    "pinyin": "jiāo péngyou",
+    "meaning": "to make friends; (dialect) to start an affair with sb",
+    "speech": "交朋友"
+  },
+  {
+    "id": "L2-0272",
+    "level": 2,
+    "hanzi": "交通",
+    "pinyin": "jiāotōng",
+    "meaning": "to be connected; traffic; transportation; communications; liaison",
+    "speech": "交通"
+  },
+  {
+    "id": "L2-0273",
+    "level": 2,
+    "hanzi": "角",
+    "pinyin": "jiǎo",
+    "meaning": "angle; corner; horn; horn-shaped; unit of money equal to 0.1 yuan, or 10 cents (a dime)",
+    "speech": "角"
+  },
+  {
+    "id": "L2-0274",
+    "level": 2,
+    "hanzi": "角度",
+    "pinyin": "jiǎodù",
+    "meaning": "angle; point of view",
+    "speech": "角度"
+  },
+  {
+    "id": "L2-0275",
+    "level": 2,
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning": "dumpling; pot-sticker",
+    "speech": "饺子"
+  },
+  {
+    "id": "L2-0276",
+    "level": 2,
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "meaning": "foot; leg (of an animal or an object); base (of an object); classifier for kicks",
+    "speech": "脚"
+  },
+  {
+    "id": "L2-0277",
+    "level": 2,
+    "hanzi": "叫作",
+    "pinyin": "jiàozuò",
+    "meaning": "to call; to be called",
+    "speech": "叫作"
+  },
+  {
+    "id": "L2-0278",
+    "level": 2,
+    "hanzi": "教师",
+    "pinyin": "jiàoshī",
+    "meaning": "teacher",
+    "speech": "教师"
+  },
+  {
+    "id": "L2-0279",
+    "level": 2,
+    "hanzi": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "classroom",
+    "speech": "教室"
+  },
+  {
+    "id": "L2-0280",
+    "level": 2,
+    "hanzi": "教学",
+    "pinyin": "jiàoxué",
+    "meaning": "teaching; instruction",
+    "speech": "教学"
+  },
+  {
+    "id": "L2-0281",
+    "level": 2,
+    "hanzi": "教育",
+    "pinyin": "jiàoyù",
+    "meaning": "to educate; to teach; education",
+    "speech": "教育"
+  },
+  {
+    "id": "L2-0282",
+    "level": 2,
+    "hanzi": "接",
+    "pinyin": "jiē",
+    "meaning": "to receive; to answer (the phone); to meet or welcome sb; to connect; to catch; to join; to extend; to take one's turn on duty; to take over for sb",
+    "speech": "接"
+  },
+  {
+    "id": "L2-0283",
+    "level": 2,
+    "hanzi": "接到",
+    "pinyin": "jiēdào",
+    "meaning": "to receive (letter etc)",
+    "speech": "接到"
+  },
+  {
+    "id": "L2-0284",
+    "level": 2,
+    "hanzi": "接受",
+    "pinyin": "jiēshòu",
+    "meaning": "to accept; to receive",
+    "speech": "接受"
+  },
+  {
+    "id": "L2-0285",
+    "level": 2,
+    "hanzi": "接下来",
+    "pinyin": "jiē xiàlái",
+    "meaning": "to accept; to take; next; following",
+    "speech": "接下来"
+  },
+  {
+    "id": "L2-0286",
+    "level": 2,
+    "hanzi": "接着",
+    "pinyin": "jiēzhe",
+    "meaning": "to catch and hold on; to continue; to go on to do sth; to follow; to carry on; then; after that; subsequently; to proceed; to ensue; in turn; in one's turn",
+    "speech": "接着"
+  },
+  {
+    "id": "L2-0287",
+    "level": 2,
+    "hanzi": "街",
+    "pinyin": "jiē",
+    "meaning": "street",
+    "speech": "街"
+  },
+  {
+    "id": "L2-0288",
+    "level": 2,
+    "hanzi": "节",
+    "pinyin": "jié",
+    "meaning": "joint; node; (bound form) section; segment; solar term (one of the 24 divisions of the year in the traditional Chinese calendar); seasonal festival; (bound form) to economize; to save; (bound form) moral integrity; chastity; classifier for segments: lessons, train wagons, biblical verses etc; knot (nautical miles per hour)",
+    "speech": "节"
+  },
+  {
+    "id": "L2-0289",
+    "level": 2,
+    "hanzi": "节目",
+    "pinyin": "jiémù",
+    "meaning": "program; item (on a program)",
+    "speech": "节目"
+  },
+  {
+    "id": "L2-0290",
+    "level": 2,
+    "hanzi": "节日",
+    "pinyin": "jiérì",
+    "meaning": "holiday; festival",
+    "speech": "节日"
+  },
+  {
+    "id": "L2-0291",
+    "level": 2,
+    "hanzi": "结果",
+    "pinyin": "jiéguǒ",
+    "meaning": "outcome; result; conclusion; in the end; as a result; to kill; to dispatch",
+    "speech": "结果"
+  },
+  {
+    "id": "L2-0292",
+    "level": 2,
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "meaning": "to lend; to borrow; by means of; to take (an opportunity)",
+    "speech": "借"
+  },
+  {
+    "id": "L2-0293",
+    "level": 2,
+    "hanzi": "斤",
+    "pinyin": "jīn",
+    "meaning": "catty; (PRC) weight equal to 500 g; (Tw) weight equal to 600 g; (HK, Malaysia, Singapore) slightly over 604 g",
+    "speech": "斤"
+  },
+  {
+    "id": "L2-0294",
+    "level": 2,
+    "hanzi": "今后",
+    "pinyin": "jīnhòu",
+    "meaning": "hereafter; henceforth; in the future; from now on",
+    "speech": "今后"
+  },
+  {
+    "id": "L2-0295",
+    "level": 2,
+    "hanzi": "进入",
+    "pinyin": "jìnrù",
+    "meaning": "to enter; to join; to go into",
+    "speech": "进入"
+  },
+  {
+    "id": "L2-0296",
+    "level": 2,
+    "hanzi": "进行",
+    "pinyin": "jìnxíng",
+    "meaning": "to advance; to conduct; underway; in progress; to do; to carry out; to carry on; to execute",
+    "speech": "进行"
+  },
+  {
+    "id": "L2-0297",
+    "level": 2,
+    "hanzi": "近",
+    "pinyin": "jìn",
+    "meaning": "near; close to; approximately",
+    "speech": "近"
+  },
+  {
+    "id": "L2-0298",
+    "level": 2,
+    "hanzi": "经常",
+    "pinyin": "jīngcháng",
+    "meaning": "frequently; constantly; regularly; often; day-to-day; everyday; daily",
+    "speech": "经常"
+  },
+  {
+    "id": "L2-0299",
+    "level": 2,
+    "hanzi": "经过",
+    "pinyin": "jīngguò",
+    "meaning": "to pass; to go through; process; course",
+    "speech": "经过"
+  },
+  {
+    "id": "L2-0300",
+    "level": 2,
+    "hanzi": "经理",
+    "pinyin": "jīnglǐ",
+    "meaning": "manager; director",
+    "speech": "经理"
+  },
+  {
+    "id": "L2-0301",
+    "level": 2,
+    "hanzi": "酒",
+    "pinyin": "jiǔ",
+    "meaning": "wine (esp. rice wine); liquor; spirits; alcoholic beverage",
+    "speech": "酒"
+  },
+  {
+    "id": "L2-0302",
+    "level": 2,
+    "hanzi": "酒店",
+    "pinyin": "jiǔdiàn",
+    "meaning": "wine shop; pub (public house); hotel; restaurant; (Tw) hostess club",
+    "speech": "酒店"
+  },
+  {
+    "id": "L2-0303",
+    "level": 2,
+    "hanzi": "就要",
+    "pinyin": "jiùyào",
+    "meaning": "will; shall; to be going to",
+    "speech": "就要"
+  },
+  {
+    "id": "L2-0304",
+    "level": 2,
+    "hanzi": "举",
+    "pinyin": "jǔ",
+    "meaning": "to lift; to hold up; to cite; to enumerate; to act; to raise; to choose; to elect; act; move; deed",
+    "speech": "举"
+  },
+  {
+    "id": "L2-0305",
+    "level": 2,
+    "hanzi": "举手",
+    "pinyin": "jǔshǒu",
+    "meaning": "to raise a hand; to put up one's hand (as signal)",
+    "speech": "举手"
+  },
+  {
+    "id": "L2-0306",
+    "level": 2,
+    "hanzi": "举行",
+    "pinyin": "jǔxíng",
+    "meaning": "to hold (a meeting, ceremony etc)",
+    "speech": "举行"
+  },
+  {
+    "id": "L2-0307",
+    "level": 2,
+    "hanzi": "句",
+    "pinyin": "jù",
+    "meaning": "sentence; clause; phrase; classifier for phrases or lines of verse",
+    "speech": "句"
+  },
+  {
+    "id": "L2-0308",
+    "level": 2,
+    "hanzi": "句子",
+    "pinyin": "jùzi",
+    "meaning": "sentence",
+    "speech": "句子"
+  },
+  {
+    "id": "L2-0309",
+    "level": 2,
+    "hanzi": "卡",
+    "pinyin": "kǎ",
+    "meaning": "to stop; to block; (computing) (coll.) slow; (loanword) card; truck (from \"car\"); calorie (abbr. for 里); cassette",
+    "speech": "卡"
+  },
+  {
+    "id": "L2-0310",
+    "level": 2,
+    "hanzi": "开机",
+    "pinyin": "kāijī",
+    "meaning": "to start an engine; to boot up (a computer); to press Ctrl-Alt-Delete; to begin shooting a film or TV show",
+    "speech": "开机"
+  },
+  {
+    "id": "L2-0311",
+    "level": 2,
+    "hanzi": "开心",
+    "pinyin": "kāixīn",
+    "meaning": "to feel happy; to rejoice; to have a great time; to make fun of sb",
+    "speech": "开心"
+  },
+  {
+    "id": "L2-0312",
+    "level": 2,
+    "hanzi": "开学",
+    "pinyin": "kāixué",
+    "meaning": "foundation of a University or College; school opening; the start of a new term",
+    "speech": "开学"
+  },
+  {
+    "id": "L2-0313",
+    "level": 2,
+    "hanzi": "看法",
+    "pinyin": "kànfǎ",
+    "meaning": "way of looking at a thing; view; opinion",
+    "speech": "看法"
+  },
+  {
+    "id": "L2-0314",
+    "level": 2,
+    "hanzi": "考生",
+    "pinyin": "kǎoshēng",
+    "meaning": "exam candidate; student whose name has been put forward for an exam",
+    "speech": "考生"
+  },
+  {
+    "id": "L2-0315",
+    "level": 2,
+    "hanzi": "靠",
+    "pinyin": "kào",
+    "meaning": "to lean against or on; to stand by the side of; to come near to; to depend on; to trust; to fuck (vulgar); traditional military costume drama where the performers wear armor (old)",
+    "speech": "靠"
+  },
+  {
+    "id": "L2-0316",
+    "level": 2,
+    "hanzi": "科",
+    "pinyin": "kē",
+    "meaning": "branch of study; administrative section; division; field; branch; stage directions; family (taxonomy); rules; laws; to mete out (punishment); to levy (taxes etc); to fine sb",
+    "speech": "科"
+  },
+  {
+    "id": "L2-0317",
+    "level": 2,
+    "hanzi": "科学",
+    "pinyin": "kēxué",
+    "meaning": "science; scientific knowledge; scientific; rational",
+    "speech": "科学"
+  },
+  {
+    "id": "L2-0318",
+    "level": 2,
+    "hanzi": "可爱",
+    "pinyin": "kě'ài",
+    "meaning": "adorable; cute; lovely",
+    "speech": "可爱"
+  },
+  {
+    "id": "L2-0319",
+    "level": 2,
+    "hanzi": "可能",
+    "pinyin": "kěnéng",
+    "meaning": "might (happen); possible; probable; possibility; probability; maybe; perhaps",
+    "speech": "可能"
+  },
+  {
+    "id": "L2-0320",
+    "level": 2,
+    "hanzi": "可怕",
+    "pinyin": "kěpà",
+    "meaning": "awful; dreadful; fearful; formidable; frightful; scary; hideous; horrible; terrible; terribly",
+    "speech": "可怕"
+  },
+  {
+    "id": "L2-0321",
+    "level": 2,
+    "hanzi": "可是",
+    "pinyin": "kěshì",
+    "meaning": "but; however; (used for emphasis) indeed",
+    "speech": "可是"
+  },
+  {
+    "id": "L2-0322",
+    "level": 2,
+    "hanzi": "可以",
+    "pinyin": "kěyǐ",
+    "meaning": "can; may; possible; able to; not bad; pretty good",
+    "speech": "可以"
+  },
+  {
+    "id": "L2-0323",
+    "level": 2,
+    "hanzi": "克",
+    "pinyin": "kè",
+    "meaning": "to be able to; to subdue; to restrain; to overcome; gram; Tibetan unit of land area, about 6 ares",
+    "speech": "克"
+  },
+  {
+    "id": "L2-0324",
+    "level": 2,
+    "hanzi": "刻",
+    "pinyin": "kè",
+    "meaning": "quarter (hour); moment; to carve; to engrave; to cut; oppressive; classifier for short time intervals",
+    "speech": "刻"
+  },
+  {
+    "id": "L2-0325",
+    "level": 2,
+    "hanzi": "客人",
+    "pinyin": "kèrén",
+    "meaning": "visitor; guest; customer; client",
+    "speech": "客人"
+  },
+  {
+    "id": "L2-0326",
+    "level": 2,
+    "hanzi": "课堂",
+    "pinyin": "kètáng",
+    "meaning": "classroom",
+    "speech": "课堂"
+  },
+  {
+    "id": "L2-0327",
+    "level": 2,
+    "hanzi": "空气",
+    "pinyin": "kōngqì",
+    "meaning": "air; atmosphere",
+    "speech": "空气"
+  },
+  {
+    "id": "L2-0328",
+    "level": 2,
+    "hanzi": "哭",
+    "pinyin": "kū",
+    "meaning": "to cry; to weep",
+    "speech": "哭"
+  },
+  {
+    "id": "L2-0329",
+    "level": 2,
+    "hanzi": "快餐",
+    "pinyin": "kuàicān",
+    "meaning": "fast food; snack; quick meal",
+    "speech": "快餐"
+  },
+  {
+    "id": "L2-0330",
+    "level": 2,
+    "hanzi": "快点儿",
+    "pinyin": "kuài diǎnr",
+    "meaning": "to do sth more quickly; Hurry up!; Get a move on!",
+    "speech": "快点儿"
+  },
+  {
+    "id": "L2-0331",
+    "level": 2,
+    "hanzi": "快乐",
+    "pinyin": "kuàilè",
+    "meaning": "happy; joyful",
+    "speech": "快乐"
+  },
+  {
+    "id": "L2-0332",
+    "level": 2,
+    "hanzi": "快要",
+    "pinyin": "kuàiyào",
+    "meaning": "nearly at the point of (doing sth); about to (do sth)",
+    "speech": "快要"
+  },
+  {
+    "id": "L2-0333",
+    "level": 2,
+    "hanzi": "筷子",
+    "pinyin": "kuàizi",
+    "meaning": "chopsticks",
+    "speech": "筷子"
+  },
+  {
+    "id": "L2-0334",
+    "level": 2,
+    "hanzi": "拉",
+    "pinyin": "lā",
+    "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat; (coll.) to empty one's bowels",
+    "speech": "拉"
+  },
+  {
+    "id": "L2-0335",
+    "level": 2,
+    "hanzi": "来自",
+    "pinyin": "láizì",
+    "meaning": "to come from (a place); From: (in email header)",
+    "speech": "来自"
+  },
+  {
+    "id": "L2-0336",
+    "level": 2,
+    "hanzi": "蓝",
+    "pinyin": "lán",
+    "meaning": "blue; indigo plant",
+    "speech": "蓝"
+  },
+  {
+    "id": "L2-0337",
+    "level": 2,
+    "hanzi": "蓝色",
+    "pinyin": "lánsè",
+    "meaning": "blue (color)",
+    "speech": "蓝色"
+  },
+  {
+    "id": "L2-0338",
+    "level": 2,
+    "hanzi": "篮球",
+    "pinyin": "lánqiú",
+    "meaning": "basketball",
+    "speech": "篮球"
+  },
+  {
+    "id": "L2-0339",
+    "level": 2,
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "meaning": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people); venerable (person); experienced; of long standing; always; all the time; of the past; very; outdated; (of meat etc) tough",
+    "speech": "老"
+  },
+  {
+    "id": "L2-0340",
+    "level": 2,
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "meaning": "familiar or affectionate prefix before a surname",
+    "speech": "老"
+  },
+  {
+    "id": "L2-0341",
+    "level": 2,
+    "hanzi": "老年",
+    "pinyin": "lǎonián",
+    "meaning": "elderly; old age; autumn of one's years",
+    "speech": "老年"
+  },
+  {
+    "id": "L2-0342",
+    "level": 2,
+    "hanzi": "老朋友",
+    "pinyin": "lǎo péngyou",
+    "meaning": "old friend; (slang) period; menstruation",
+    "speech": "老朋友"
+  },
+  {
+    "id": "L2-0343",
+    "level": 2,
+    "hanzi": "老是",
+    "pinyin": "lǎoshì",
+    "meaning": "always",
+    "speech": "老是"
+  },
+  {
+    "id": "L2-0344",
+    "level": 2,
+    "hanzi": "离",
+    "pinyin": "lí",
+    "meaning": "to leave; to part from; to be away from; (in giving distances) from; without (sth); independent of; one of the Eight Trigrams 卦, symbolizing fire",
+    "speech": "离"
+  },
+  {
+    "id": "L2-0345",
+    "level": 2,
+    "hanzi": "离开",
+    "pinyin": "líkāi",
+    "meaning": "to depart; to leave",
+    "speech": "离开"
+  },
+  {
+    "id": "L2-0346",
+    "level": 2,
+    "hanzi": "礼物",
+    "pinyin": "lǐwù",
+    "meaning": "gift; present",
+    "speech": "礼物"
+  },
+  {
+    "id": "L2-0347",
+    "level": 2,
+    "hanzi": "里头",
+    "pinyin": "lǐtou",
+    "meaning": "inside; interior",
+    "speech": "里头"
+  },
+  {
+    "id": "L2-0348",
+    "level": 2,
+    "hanzi": "理想",
+    "pinyin": "lǐxiǎng",
+    "meaning": "an ideal; a dream; ideal; perfect",
+    "speech": "理想"
+  },
+  {
+    "id": "L2-0349",
+    "level": 2,
+    "hanzi": "例如",
+    "pinyin": "lìrú",
+    "meaning": "for example; for instance; such as",
+    "speech": "例如"
+  },
+  {
+    "id": "L2-0350",
+    "level": 2,
+    "hanzi": "例子",
+    "pinyin": "lìzi",
+    "meaning": "case; (for) instance; example",
+    "speech": "例子"
+  },
+  {
+    "id": "L2-0351",
+    "level": 2,
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "meaning": "face",
+    "speech": "脸"
+  },
+  {
+    "id": "L2-0352",
+    "level": 2,
+    "hanzi": "练",
+    "pinyin": "liàn",
+    "meaning": "to practice; to train; to drill; to perfect (one's skill); exercise; (literary) white silk; to boil and scour raw silk",
+    "speech": "练"
+  },
+  {
+    "id": "L2-0353",
+    "level": 2,
+    "hanzi": "练习",
+    "pinyin": "liànxí",
+    "meaning": "to practice; exercise; drill; practice",
+    "speech": "练习"
+  },
+  {
+    "id": "L2-0354",
+    "level": 2,
+    "hanzi": "凉",
+    "pinyin": "liáng",
+    "meaning": "cool; cold",
+    "speech": "凉"
+  },
+  {
+    "id": "L2-0355",
+    "level": 2,
+    "hanzi": "凉快",
+    "pinyin": "liángkuai",
+    "meaning": "nice and cold; pleasantly cool",
+    "speech": "凉快"
+  },
+  {
+    "id": "L2-0356",
+    "level": 2,
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "meaning": "two; both; some; a few; tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)",
+    "speech": "两"
+  },
+  {
+    "id": "L2-0357",
+    "level": 2,
+    "hanzi": "亮",
+    "pinyin": "liàng",
+    "meaning": "bright; clear; resonant; to shine; to show; to reveal",
+    "speech": "亮"
+  },
+  {
+    "id": "L2-0358",
+    "level": 2,
+    "hanzi": "辆",
+    "pinyin": "liàng",
+    "meaning": "classifier for vehicles",
+    "speech": "辆"
+  },
+  {
+    "id": "L2-0359",
+    "level": 2,
+    "hanzi": "零下",
+    "pinyin": "líng xià",
+    "meaning": "below zero",
+    "speech": "零下"
+  },
+  {
+    "id": "L2-0360",
+    "level": 2,
+    "hanzi": "留",
+    "pinyin": "liú",
+    "meaning": "to leave (a message etc); to retain; to stay; to remain; to keep; to preserve",
+    "speech": "留"
+  },
+  {
+    "id": "L2-0361",
+    "level": 2,
+    "hanzi": "留下",
+    "pinyin": "liúxia",
+    "meaning": "to leave behind; to stay behind; to remain; to keep; not to let (sb) go",
+    "speech": "留下"
+  },
+  {
+    "id": "L2-0362",
+    "level": 2,
+    "hanzi": "留学生",
+    "pinyin": "liúxuéshēng",
+    "meaning": "student studying abroad; (foreign) exchange student",
+    "speech": "留学生"
+  },
+  {
+    "id": "L2-0363",
+    "level": 2,
+    "hanzi": "流",
+    "pinyin": "liú",
+    "meaning": "to flow; to disseminate; to circulate or spread; to move or drift; to degenerate; to banish or send into exile; stream of water or sth resembling one; class, rate or grade",
+    "speech": "流"
+  },
+  {
+    "id": "L2-0364",
+    "level": 2,
+    "hanzi": "流利",
+    "pinyin": "liúlì",
+    "meaning": "fluent",
+    "speech": "流利"
+  },
+  {
+    "id": "L2-0365",
+    "level": 2,
+    "hanzi": "流行",
+    "pinyin": "liúxíng",
+    "meaning": "(of a contagious disease etc) to spread; to propagate; (of a style of clothing, song etc) popular; fashionable",
+    "speech": "流行"
+  },
+  {
+    "id": "L2-0366",
+    "level": 2,
+    "hanzi": "路边",
+    "pinyin": "lù biān",
+    "meaning": "curb; roadside; wayside",
+    "speech": "路边"
+  },
+  {
+    "id": "L2-0367",
+    "level": 2,
+    "hanzi": "旅客",
+    "pinyin": "lǚkè",
+    "meaning": "traveler; tourist",
+    "speech": "旅客"
+  },
+  {
+    "id": "L2-0368",
+    "level": 2,
+    "hanzi": "旅行",
+    "pinyin": "lǚxíng",
+    "meaning": "to travel; journey; trip",
+    "speech": "旅行"
+  },
+  {
+    "id": "L2-0369",
+    "level": 2,
+    "hanzi": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "trip; journey; tourism; travel; tour; to travel",
+    "speech": "旅游"
+  },
+  {
+    "id": "L2-0370",
+    "level": 2,
+    "hanzi": "绿",
+    "pinyin": "lǜ",
+    "meaning": "green; (slang) (derived from 绿帽子) to cheat on (one's spouse or boyfriend or girlfriend)",
+    "speech": "绿"
+  },
+  {
+    "id": "L2-0371",
+    "level": 2,
+    "hanzi": "绿色",
+    "pinyin": "lǜsè",
+    "meaning": "green",
+    "speech": "绿色"
+  },
+  {
+    "id": "L2-0372",
+    "level": 2,
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "meaning": "to sell; to betray; to spare no effort; to show off or flaunt",
+    "speech": "卖"
+  },
+  {
+    "id": "L2-0373",
+    "level": 2,
+    "hanzi": "满",
+    "pinyin": "mǎn",
+    "meaning": "to fill; full; filled; packed; fully; completely; quite; to reach the limit; to satisfy; satisfied; contented",
+    "speech": "满"
+  },
+  {
+    "id": "L2-0374",
+    "level": 2,
+    "hanzi": "满意",
+    "pinyin": "mǎnyì",
+    "meaning": "satisfied; pleased; to one's satisfaction",
+    "speech": "满意"
+  },
+  {
+    "id": "L2-0375",
+    "level": 2,
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "meaning": "cat; (dialect) to hide oneself; (coll.) modem",
+    "speech": "猫"
+  },
+  {
+    "id": "L2-0376",
+    "level": 2,
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "meaning": "rice; meter (classifier)",
+    "speech": "米"
+  },
+  {
+    "id": "L2-0377",
+    "level": 2,
+    "hanzi": "面",
+    "pinyin": "miàn",
+    "meaning": "face; side; surface; aspect; top; classifier for objects with flat surfaces such as drums, mirrors, flags etc",
+    "speech": "面"
+  },
+  {
+    "id": "L2-0378",
+    "level": 2,
+    "hanzi": "面",
+    "pinyin": "miàn",
+    "meaning": "flour; noodles; (of food) soft (not crunchy); (slang) (of a person) ineffectual; spineless",
+    "speech": "面"
+  },
+  {
+    "id": "L2-0379",
+    "level": 2,
+    "hanzi": "面前",
+    "pinyin": "miànqián",
+    "meaning": "in front of; facing; (in the) presence (of)",
+    "speech": "面前"
+  },
+  {
+    "id": "L2-0380",
+    "level": 2,
+    "hanzi": "名",
+    "pinyin": "míng",
+    "meaning": "name; noun (part of speech); place (e.g. among winners); famous; classifier for people",
+    "speech": "名"
+  },
+  {
+    "id": "L2-0381",
+    "level": 2,
+    "hanzi": "名称",
+    "pinyin": "míngchēng",
+    "meaning": "name (of a thing); name (of an organization)",
+    "speech": "名称"
+  },
+  {
+    "id": "L2-0382",
+    "level": 2,
+    "hanzi": "名单",
+    "pinyin": "míngdān",
+    "meaning": "list of names",
+    "speech": "名单"
+  },
+  {
+    "id": "L2-0383",
+    "level": 2,
+    "hanzi": "明星",
+    "pinyin": "míngxīng",
+    "meaning": "star; celebrity",
+    "speech": "明星"
+  },
+  {
+    "id": "L2-0384",
+    "level": 2,
+    "hanzi": "目的",
+    "pinyin": "mùdì",
+    "meaning": "purpose; aim; goal; target; objective",
+    "speech": "目的"
+  },
+  {
+    "id": "L2-0385",
+    "level": 2,
+    "hanzi": "拿出",
+    "pinyin": "náchū",
+    "meaning": "to take out; to put out; to provide; to put forward (a proposal); to come up with (evidence)",
+    "speech": "拿出"
+  },
+  {
+    "id": "L2-0386",
+    "level": 2,
+    "hanzi": "拿到",
+    "pinyin": "nádào",
+    "meaning": "to get; to obtain",
+    "speech": "拿到"
+  },
+  {
+    "id": "L2-0387",
+    "level": 2,
+    "hanzi": "那",
+    "pinyin": "nà",
+    "meaning": "(specifier) that; the; those (colloquial pr. [nèi]); (pronoun) that (referring to persons, things or situations); then (in that case)",
+    "speech": "那"
+  },
+  {
+    "id": "L2-0388",
+    "level": 2,
+    "hanzi": "那会儿",
+    "pinyin": "nàhuìr",
+    "meaning": "at that time (in the past or the future); also pr. [nèi huì r]",
+    "speech": "那会儿"
+  },
+  {
+    "id": "L2-0389",
+    "level": 2,
+    "hanzi": "那么",
+    "pinyin": "nàme",
+    "meaning": "like that; in that way; or so; so; so very much; about; in that case",
+    "speech": "那么"
+  },
+  {
+    "id": "L2-0390",
+    "level": 2,
+    "hanzi": "那时候",
+    "pinyin": "nà shíhou",
+    "meaning": "at that time",
+    "speech": "那时候"
+  },
+  {
+    "id": "L2-0391",
+    "level": 2,
+    "hanzi": "那样",
+    "pinyin": "nàyàng",
+    "meaning": "that kind; that sort",
+    "speech": "那样"
+  },
+  {
+    "id": "L2-0392",
+    "level": 2,
+    "hanzi": "南方",
+    "pinyin": "nánfāng",
+    "meaning": "south; the southern part of the country; the South",
+    "speech": "南方"
+  },
+  {
+    "id": "L2-0393",
+    "level": 2,
+    "hanzi": "难过",
+    "pinyin": "nánguò",
+    "meaning": "to feel sad; to feel unwell; (of life) to be difficult",
+    "speech": "难过"
+  },
+  {
+    "id": "L2-0394",
+    "level": 2,
+    "hanzi": "难看",
+    "pinyin": "nánkàn",
+    "meaning": "ugly; unsightly",
+    "speech": "难看"
+  },
+  {
+    "id": "L2-0395",
+    "level": 2,
+    "hanzi": "难受",
+    "pinyin": "nánshòu",
+    "meaning": "to feel unwell; to suffer pain; to be difficult to bear",
+    "speech": "难受"
+  },
+  {
+    "id": "L2-0396",
+    "level": 2,
+    "hanzi": "难题",
+    "pinyin": "nántí",
+    "meaning": "difficult problem",
+    "speech": "难题"
+  },
+  {
+    "id": "L2-0397",
+    "level": 2,
+    "hanzi": "难听",
+    "pinyin": "nántīng",
+    "meaning": "unpleasant to hear; coarse; vulgar; offensive; shameful",
+    "speech": "难听"
+  },
+  {
+    "id": "L2-0398",
+    "level": 2,
+    "hanzi": "能够",
+    "pinyin": "nénggòu",
+    "meaning": "to be capable of; to be able to; can",
+    "speech": "能够"
+  },
+  {
+    "id": "L2-0399",
+    "level": 2,
+    "hanzi": "年级",
+    "pinyin": "niánjí",
+    "meaning": "grade; year (in school, college etc)",
+    "speech": "年级"
+  },
+  {
+    "id": "L2-0400",
+    "level": 2,
+    "hanzi": "年轻",
+    "pinyin": "niánqīng",
+    "meaning": "young",
+    "speech": "年轻"
+  },
+  {
+    "id": "L2-0401",
+    "level": 2,
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "meaning": "bird; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to; (intensifier) damned; goddamn",
+    "speech": "鸟"
+  },
+  {
+    "id": "L2-0402",
+    "level": 2,
+    "hanzi": "弄",
+    "pinyin": "nòng",
+    "meaning": "to do; to manage; to handle; to play with; to fool with; to mess with; to fix; to toy with",
+    "speech": "弄"
+  },
+  {
+    "id": "L2-0403",
+    "level": 2,
+    "hanzi": "努力",
+    "pinyin": "nǔlì",
+    "meaning": "to make an effort; to try hard; to strive; hard-working; conscientious",
+    "speech": "努力"
+  },
+  {
+    "id": "L2-0404",
+    "level": 2,
+    "hanzi": "爬",
+    "pinyin": "pá",
+    "meaning": "to crawl; to climb; to get up or sit up",
+    "speech": "爬"
+  },
+  {
+    "id": "L2-0405",
+    "level": 2,
+    "hanzi": "爬山",
+    "pinyin": "pá shān",
+    "meaning": "to climb a mountain; to mountaineer; hiking; mountaineering",
+    "speech": "爬山"
+  },
+  {
+    "id": "L2-0406",
+    "level": 2,
+    "hanzi": "怕",
+    "pinyin": "pà",
+    "meaning": "to be afraid; to fear; to dread; to be unable to endure; perhaps",
+    "speech": "怕"
+  },
+  {
+    "id": "L2-0407",
+    "level": 2,
+    "hanzi": "排",
+    "pinyin": "pái",
+    "meaning": "a row; a line; to set in order; to arrange; to line up; to eliminate; to drain; to push open; platoon; raft; classifier for lines, rows etc",
+    "speech": "排"
+  },
+  {
+    "id": "L2-0408",
+    "level": 2,
+    "hanzi": "排队",
+    "pinyin": "páiduì",
+    "meaning": "to line up",
+    "speech": "排队"
+  },
+  {
+    "id": "L2-0409",
+    "level": 2,
+    "hanzi": "排球",
+    "pinyin": "páiqiú",
+    "meaning": "volleyball",
+    "speech": "排球"
+  },
+  {
+    "id": "L2-0410",
+    "level": 2,
+    "hanzi": "碰",
+    "pinyin": "pèng",
+    "meaning": "to touch; to meet with; to bump",
+    "speech": "碰"
+  },
+  {
+    "id": "L2-0411",
+    "level": 2,
+    "hanzi": "碰到",
+    "pinyin": "pèngdào",
+    "meaning": "to come across; to run into; to meet; to hit",
+    "speech": "碰到"
+  },
+  {
+    "id": "L2-0412",
+    "level": 2,
+    "hanzi": "碰见",
+    "pinyin": "pèngjiàn",
+    "meaning": "to run into; to meet (unexpectedly); to bump into",
+    "speech": "碰见"
+  },
+  {
+    "id": "L2-0413",
+    "level": 2,
+    "hanzi": "篇",
+    "pinyin": "piān",
+    "meaning": "sheet; piece of writing; bound set of bamboo slips used for record keeping (old); classifier for written items: chapter, article",
+    "speech": "篇"
+  },
+  {
+    "id": "L2-0414",
+    "level": 2,
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "meaning": "cheap; inexpensive; small advantages; to let sb off lightly",
+    "speech": "便宜"
+  },
+  {
+    "id": "L2-0415",
+    "level": 2,
+    "hanzi": "片",
+    "pinyin": "piàn",
+    "meaning": "thin piece; flake; a slice; film; TV play; to slice; to carve thin; partial; incomplete; one-sided; classifier for slices, tablets, tract of land, area of water; classifier for CDs, movies, DVDs etc; used with numeral 一: classifier for scenario, scene, feeling, atmosphere, sound etc; Kangxi radical 91",
+    "speech": "片"
+  },
+  {
+    "id": "L2-0416",
+    "level": 2,
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning": "pretty; beautiful",
+    "speech": "漂亮"
+  },
+  {
+    "id": "L2-0417",
+    "level": 2,
+    "hanzi": "平",
+    "pinyin": "píng",
+    "meaning": "flat; level; equal; to tie (make the same score); to draw (score); calm; peaceful; abbr. for 平声",
+    "speech": "平"
+  },
+  {
+    "id": "L2-0418",
+    "level": 2,
+    "hanzi": "平安",
+    "pinyin": "píng'ān",
+    "meaning": "safe and sound; well; without mishap; quiet and safe; at peace",
+    "speech": "平安"
+  },
+  {
+    "id": "L2-0419",
+    "level": 2,
+    "hanzi": "平常",
+    "pinyin": "píngcháng",
+    "meaning": "ordinary; common; usually; ordinarily",
+    "speech": "平常"
+  },
+  {
+    "id": "L2-0420",
+    "level": 2,
+    "hanzi": "平等",
+    "pinyin": "píngděng",
+    "meaning": "equal; equality",
+    "speech": "平等"
+  },
+  {
+    "id": "L2-0421",
+    "level": 2,
+    "hanzi": "平时",
+    "pinyin": "píngshí",
+    "meaning": "ordinarily; in normal times; in peacetime",
+    "speech": "平时"
+  },
+  {
+    "id": "L2-0422",
+    "level": 2,
+    "hanzi": "瓶",
+    "pinyin": "píng",
+    "meaning": "bottle; vase; pitcher; classifier for wine and liquids",
+    "speech": "瓶"
+  },
+  {
+    "id": "L2-0423",
+    "level": 2,
+    "hanzi": "瓶子",
+    "pinyin": "píngzi",
+    "meaning": "bottle",
+    "speech": "瓶子"
+  },
+  {
+    "id": "L2-0424",
+    "level": 2,
+    "hanzi": "普通",
+    "pinyin": "pǔtōng",
+    "meaning": "common; ordinary; general; average",
+    "speech": "普通"
+  },
+  {
+    "id": "L2-0425",
+    "level": 2,
+    "hanzi": "普通话",
+    "pinyin": "pǔtōnghuà",
+    "meaning": "Mandarin (common language); Putonghua (common speech of the Chinese language); ordinary speech",
+    "speech": "普通话"
+  },
+  {
+    "id": "L2-0426",
+    "level": 2,
+    "hanzi": "其他",
+    "pinyin": "qítā",
+    "meaning": "other; (sth or sb) else; the rest",
+    "speech": "其他"
+  },
+  {
+    "id": "L2-0427",
+    "level": 2,
+    "hanzi": "其中",
+    "pinyin": "qízhōng",
+    "meaning": "among; in; included among these",
+    "speech": "其中"
+  },
+  {
+    "id": "L2-0428",
+    "level": 2,
+    "hanzi": "骑",
+    "pinyin": "qí",
+    "meaning": "to sit astride; to ride (a horse, bike etc); classifier for saddle horses",
+    "speech": "骑"
+  },
+  {
+    "id": "L2-0429",
+    "level": 2,
+    "hanzi": "骑车",
+    "pinyin": "qí chē",
+    "meaning": "to ride a bike (motorbike or bicycle)",
+    "speech": "骑车"
+  },
+  {
+    "id": "L2-0430",
+    "level": 2,
+    "hanzi": "起飞",
+    "pinyin": "qǐfēi",
+    "meaning": "(of an aircraft) to take off",
+    "speech": "起飞"
+  },
+  {
+    "id": "L2-0431",
+    "level": 2,
+    "hanzi": "气",
+    "pinyin": "qì",
+    "meaning": "gas; air; smell; weather; to make angry; to annoy; to get angry; vital energy; qi",
+    "speech": "气"
+  },
+  {
+    "id": "L2-0432",
+    "level": 2,
+    "hanzi": "气温",
+    "pinyin": "qìwēn",
+    "meaning": "air temperature",
+    "speech": "气温"
+  },
+  {
+    "id": "L2-0433",
+    "level": 2,
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "meaning": "thousand",
+    "speech": "千"
+  },
+  {
+    "id": "L2-0434",
+    "level": 2,
+    "hanzi": "千克",
+    "pinyin": "qiānkè",
+    "meaning": "kilogram",
+    "speech": "千克"
+  },
+  {
+    "id": "L2-0435",
+    "level": 2,
+    "hanzi": "前年",
+    "pinyin": "qiánnián",
+    "meaning": "the year before last",
+    "speech": "前年"
+  },
+  {
+    "id": "L2-0436",
+    "level": 2,
+    "hanzi": "墙",
+    "pinyin": "qiáng",
+    "meaning": "wall",
+    "speech": "墙"
+  },
+  {
+    "id": "L2-0437",
+    "level": 2,
+    "hanzi": "青年",
+    "pinyin": "qīngnián",
+    "meaning": "youth; youthful years; young person; the young",
+    "speech": "青年"
+  },
+  {
+    "id": "L2-0438",
+    "level": 2,
+    "hanzi": "青少年",
+    "pinyin": "qīng-shàonián",
+    "meaning": "adolescent; youth; teenager",
+    "speech": "青少年"
+  },
+  {
+    "id": "L2-0439",
+    "level": 2,
+    "hanzi": "轻",
+    "pinyin": "qīng",
+    "meaning": "light; easy; gentle; soft; reckless; unimportant; frivolous; small in number; unstressed; neutral; to disparage",
+    "speech": "轻"
+  },
+  {
+    "id": "L2-0440",
+    "level": 2,
+    "hanzi": "清楚",
+    "pinyin": "qīngchu",
+    "meaning": "clear; distinct; to understand thoroughly; to be clear about",
+    "speech": "清楚"
+  },
+  {
+    "id": "L2-0441",
+    "level": 2,
+    "hanzi": "晴",
+    "pinyin": "qíng",
+    "meaning": "clear; fine (weather)",
+    "speech": "晴"
+  },
+  {
+    "id": "L2-0442",
+    "level": 2,
+    "hanzi": "晴天",
+    "pinyin": "qíngtiān",
+    "meaning": "clear sky; sunny day",
+    "speech": "晴天"
+  },
+  {
+    "id": "L2-0443",
+    "level": 2,
+    "hanzi": "请客",
+    "pinyin": "qǐngkè",
+    "meaning": "to give a dinner party; to entertain guests; to invite to dinner",
+    "speech": "请客"
+  },
+  {
+    "id": "L2-0444",
+    "level": 2,
+    "hanzi": "请求",
+    "pinyin": "qǐngqiú",
+    "meaning": "to request; to ask; request",
+    "speech": "请求"
+  },
+  {
+    "id": "L2-0445",
+    "level": 2,
+    "hanzi": "秋天",
+    "pinyin": "qiūtiān",
+    "meaning": "autumn",
+    "speech": "秋天"
+  },
+  {
+    "id": "L2-0446",
+    "level": 2,
+    "hanzi": "求",
+    "pinyin": "qiú",
+    "meaning": "to seek; to look for; to request; to demand; to beseech",
+    "speech": "求"
+  },
+  {
+    "id": "L2-0447",
+    "level": 2,
+    "hanzi": "球场",
+    "pinyin": "qiúchǎng",
+    "meaning": "stadium; sports ground; court; pitch; field; golf course",
+    "speech": "球场"
+  },
+  {
+    "id": "L2-0448",
+    "level": 2,
+    "hanzi": "球队",
+    "pinyin": "qiúduì",
+    "meaning": "sports team (basketball, soccer, football etc)",
+    "speech": "球队"
+  },
+  {
+    "id": "L2-0449",
+    "level": 2,
+    "hanzi": "球鞋",
+    "pinyin": "qiúxié",
+    "meaning": "athletic shoes",
+    "speech": "球鞋"
+  },
+  {
+    "id": "L2-0450",
+    "level": 2,
+    "hanzi": "取",
+    "pinyin": "qǔ",
+    "meaning": "to take; to get; to choose; to fetch",
+    "speech": "取"
+  },
+  {
+    "id": "L2-0451",
+    "level": 2,
+    "hanzi": "取得",
+    "pinyin": "qǔdé",
+    "meaning": "to acquire; to get; to obtain",
+    "speech": "取得"
+  },
+  {
+    "id": "L2-0452",
+    "level": 2,
+    "hanzi": "全",
+    "pinyin": "quán",
+    "meaning": "all; whole; entire; every; complete",
+    "speech": "全"
+  },
+  {
+    "id": "L2-0453",
+    "level": 2,
+    "hanzi": "全部",
+    "pinyin": "quánbù",
+    "meaning": "whole; all",
+    "speech": "全部"
+  },
+  {
+    "id": "L2-0454",
+    "level": 2,
+    "hanzi": "全国",
+    "pinyin": "quánguó",
+    "meaning": "whole nation; nationwide; countrywide; national",
+    "speech": "全国"
+  },
+  {
+    "id": "L2-0455",
+    "level": 2,
+    "hanzi": "全家",
+    "pinyin": "quánjiā",
+    "meaning": "whole family",
+    "speech": "全家"
+  },
+  {
+    "id": "L2-0456",
+    "level": 2,
+    "hanzi": "全年",
+    "pinyin": "quánnián",
+    "meaning": "the whole year; all year long",
+    "speech": "全年"
+  },
+  {
+    "id": "L2-0457",
+    "level": 2,
+    "hanzi": "全身",
+    "pinyin": "quánshēn",
+    "meaning": "the whole body; (typography) em",
+    "speech": "全身"
+  },
+  {
+    "id": "L2-0458",
+    "level": 2,
+    "hanzi": "全体",
+    "pinyin": "quántǐ",
+    "meaning": "all; entire",
+    "speech": "全体"
+  },
+  {
+    "id": "L2-0459",
+    "level": 2,
+    "hanzi": "然后",
+    "pinyin": "ránhòu",
+    "meaning": "then; after that; afterwards",
+    "speech": "然后"
+  },
+  {
+    "id": "L2-0460",
+    "level": 2,
+    "hanzi": "让",
+    "pinyin": "ràng",
+    "meaning": "to yield; to permit; to let sb do sth; to have sb do sth; to make sb (feel sad etc); by (indicates the agent in a passive clause, like 被)",
+    "speech": "让"
+  },
+  {
+    "id": "L2-0461",
+    "level": 2,
+    "hanzi": "热情",
+    "pinyin": "rèqíng",
+    "meaning": "cordial; enthusiastic; passion; passionate; passionately",
+    "speech": "热情"
+  },
+  {
+    "id": "L2-0462",
+    "level": 2,
+    "hanzi": "人口",
+    "pinyin": "rénkǒu",
+    "meaning": "population; people",
+    "speech": "人口"
+  },
+  {
+    "id": "L2-0463",
+    "level": 2,
+    "hanzi": "人们",
+    "pinyin": "rénmen",
+    "meaning": "people",
+    "speech": "人们"
+  },
+  {
+    "id": "L2-0464",
+    "level": 2,
+    "hanzi": "人数",
+    "pinyin": "rénshù",
+    "meaning": "number of people",
+    "speech": "人数"
+  },
+  {
+    "id": "L2-0465",
+    "level": 2,
+    "hanzi": "认为",
+    "pinyin": "rènwéi",
+    "meaning": "to believe; to think; to consider; to feel",
+    "speech": "认为"
+  },
+  {
+    "id": "L2-0466",
+    "level": 2,
+    "hanzi": "日报",
+    "pinyin": "rìbào",
+    "meaning": "daily newspaper",
+    "speech": "日报"
+  },
+  {
+    "id": "L2-0467",
+    "level": 2,
+    "hanzi": "日子",
+    "pinyin": "rìzi",
+    "meaning": "day; a (calendar) date; days of one's life",
+    "speech": "日子"
+  },
+  {
+    "id": "L2-0468",
+    "level": 2,
+    "hanzi": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": "if; in case; in the event that",
+    "speech": "如果"
+  },
+  {
+    "id": "L2-0469",
+    "level": 2,
+    "hanzi": "入口",
+    "pinyin": "rùkǒu",
+    "meaning": "entrance; to import",
+    "speech": "入口"
+  },
+  {
+    "id": "L2-0470",
+    "level": 2,
+    "hanzi": "商量",
+    "pinyin": "shāngliang",
+    "meaning": "to consult; to talk over; to discuss",
+    "speech": "商量"
+  },
+  {
+    "id": "L2-0471",
+    "level": 2,
+    "hanzi": "商人",
+    "pinyin": "shāngrén",
+    "meaning": "merchant; businessman",
+    "speech": "商人"
+  },
+  {
+    "id": "L2-0472",
+    "level": 2,
+    "hanzi": "上周",
+    "pinyin": "shàng zhōu",
+    "meaning": "last week",
+    "speech": "上周"
+  },
+  {
+    "id": "L2-0473",
+    "level": 2,
+    "hanzi": "少数",
+    "pinyin": "shǎoshù",
+    "meaning": "small number; few; minority",
+    "speech": "少数"
+  },
+  {
+    "id": "L2-0474",
+    "level": 2,
+    "hanzi": "少年",
+    "pinyin": "shàonián",
+    "meaning": "early youth; youngster; (literary) youth; young man",
+    "speech": "少年"
+  },
+  {
+    "id": "L2-0475",
+    "level": 2,
+    "hanzi": "身边",
+    "pinyin": "shēnbiān",
+    "meaning": "at one's side; on hand",
+    "speech": "身边"
+  },
+  {
+    "id": "L2-0476",
+    "level": 2,
+    "hanzi": "什么样",
+    "pinyin": "shénmeyàng",
+    "meaning": "what kind?; what sort?",
+    "speech": "什么样"
+  },
+  {
+    "id": "L2-0477",
+    "level": 2,
+    "hanzi": "生",
+    "pinyin": "shēng",
+    "meaning": "to be born; to give birth; life; to grow; raw; uncooked; student",
+    "speech": "生"
+  },
+  {
+    "id": "L2-0478",
+    "level": 2,
+    "hanzi": "生词",
+    "pinyin": "shēngcí",
+    "meaning": "new word (in textbook); word that is unfamiliar or not yet studied",
+    "speech": "生词"
+  },
+  {
+    "id": "L2-0479",
+    "level": 2,
+    "hanzi": "生活",
+    "pinyin": "shēnghuó",
+    "meaning": "to live; life; livelihood",
+    "speech": "生活"
+  },
+  {
+    "id": "L2-0480",
+    "level": 2,
+    "hanzi": "声音",
+    "pinyin": "shēngyīn",
+    "meaning": "voice; sound",
+    "speech": "声音"
+  },
+  {
+    "id": "L2-0481",
+    "level": 2,
+    "hanzi": "省",
+    "pinyin": "shěng",
+    "meaning": "to save; to economize; to be frugal; to omit; to delete; to leave out; province; provincial capital; a ministry (of the Japanese government)",
+    "speech": "省"
+  },
+  {
+    "id": "L2-0482",
+    "level": 2,
+    "hanzi": "省",
+    "pinyin": "shěng",
+    "meaning": "to save; to economize; to be frugal; to omit; to delete; to leave out; province; provincial capital; a ministry (of the Japanese government)",
+    "speech": "省"
+  },
+  {
+    "id": "L2-0483",
+    "level": 2,
+    "hanzi": "十分",
+    "pinyin": "shífēn",
+    "meaning": "very; completely; utterly; extremely; absolutely; hundred percent; to divide into ten equal parts",
+    "speech": "十分"
+  },
+  {
+    "id": "L2-0484",
+    "level": 2,
+    "hanzi": "实际",
+    "pinyin": "shíjì",
+    "meaning": "reality; practice; practical; realistic; real; actual",
+    "speech": "实际"
+  },
+  {
+    "id": "L2-0485",
+    "level": 2,
+    "hanzi": "实习",
+    "pinyin": "shíxí",
+    "meaning": "to practice; field work; to intern; internship",
+    "speech": "实习"
+  },
+  {
+    "id": "L2-0486",
+    "level": 2,
+    "hanzi": "实现",
+    "pinyin": "shíxiàn",
+    "meaning": "to achieve; to implement; to realize; to bring about",
+    "speech": "实现"
+  },
+  {
+    "id": "L2-0487",
+    "level": 2,
+    "hanzi": "实在",
+    "pinyin": "shízài",
+    "meaning": "really; actually; indeed; true; real; honest; dependable; (philosophy) reality",
+    "speech": "实在"
+  },
+  {
+    "id": "L2-0488",
+    "level": 2,
+    "hanzi": "实在",
+    "pinyin": "shízai",
+    "meaning": "really; actually; indeed; true; real; honest; dependable; (philosophy) reality",
+    "speech": "实在"
+  },
+  {
+    "id": "L2-0489",
+    "level": 2,
+    "hanzi": "食物",
+    "pinyin": "shíwù",
+    "meaning": "food",
+    "speech": "食物"
+  },
+  {
+    "id": "L2-0490",
+    "level": 2,
+    "hanzi": "使用",
+    "pinyin": "shǐyòng",
+    "meaning": "to use; to employ; to apply; to make use of",
+    "speech": "使用"
+  },
+  {
+    "id": "L2-0491",
+    "level": 2,
+    "hanzi": "市",
+    "pinyin": "shì",
+    "meaning": "market; city",
+    "speech": "市"
+  },
+  {
+    "id": "L2-0492",
+    "level": 2,
+    "hanzi": "市长",
+    "pinyin": "shìzhǎng",
+    "meaning": "mayor",
+    "speech": "市长"
+  },
+  {
+    "id": "L2-0493",
+    "level": 2,
+    "hanzi": "事情",
+    "pinyin": "shìqing",
+    "meaning": "affair; matter; thing; business",
+    "speech": "事情"
+  },
+  {
+    "id": "L2-0494",
+    "level": 2,
+    "hanzi": "收",
+    "pinyin": "shōu",
+    "meaning": "to receive; to accept; to collect; to put away; to restrain; to stop; in care of (used on address line after name)",
+    "speech": "收"
+  },
+  {
+    "id": "L2-0495",
+    "level": 2,
+    "hanzi": "收到",
+    "pinyin": "shōudào",
+    "meaning": "to receive",
+    "speech": "收到"
+  },
+  {
+    "id": "L2-0496",
+    "level": 2,
+    "hanzi": "收入",
+    "pinyin": "shōurù",
+    "meaning": "to take in; income; revenue",
+    "speech": "收入"
+  },
+  {
+    "id": "L2-0497",
+    "level": 2,
+    "hanzi": "手表",
+    "pinyin": "shǒubiǎo",
+    "meaning": "wristwatch",
+    "speech": "手表"
+  },
+  {
+    "id": "L2-0498",
+    "level": 2,
+    "hanzi": "受到",
+    "pinyin": "shòudào",
+    "meaning": "to receive (praise, an education, punishment etc); to be ...ed (praised, educated, punished etc)",
+    "speech": "受到"
+  },
+  {
+    "id": "L2-0499",
+    "level": 2,
+    "hanzi": "舒服",
+    "pinyin": "shūfu",
+    "meaning": "comfortable; feeling well",
+    "speech": "舒服"
+  },
+  {
+    "id": "L2-0500",
+    "level": 2,
+    "hanzi": "熟",
+    "pinyin": "shú / shóu",
+    "meaning": "ripe; mature; thoroughly cooked; done; familiar; acquainted; experienced; skilled; (of sleep etc) deep; profound; also pr. [shóu]",
+    "speech": "熟"
+  },
+  {
+    "id": "L2-0501",
+    "level": 2,
+    "hanzi": "数",
+    "pinyin": "shǔ",
+    "meaning": "to count; to count as; to regard as; to enumerate; to list",
+    "speech": "数"
+  },
+  {
+    "id": "L2-0502",
+    "level": 2,
+    "hanzi": "数字",
+    "pinyin": "shùzì",
+    "meaning": "numeral; digit; number; figure; amount; digital (electronics etc)",
+    "speech": "数字"
+  },
+  {
+    "id": "L2-0503",
+    "level": 2,
+    "hanzi": "水平",
+    "pinyin": "shuǐpíng",
+    "meaning": "level (of achievement etc); standard; horizontal",
+    "speech": "水平"
+  },
+  {
+    "id": "L2-0504",
+    "level": 2,
+    "hanzi": "顺利",
+    "pinyin": "shùnlì",
+    "meaning": "smoothly; without a hitch",
+    "speech": "顺利"
+  },
+  {
+    "id": "L2-0505",
+    "level": 2,
+    "hanzi": "说明",
+    "pinyin": "shuōmíng",
+    "meaning": "to explain; to illustrate; to indicate; to show; to prove; explanation; directions; caption",
+    "speech": "说明"
+  },
+  {
+    "id": "L2-0506",
+    "level": 2,
+    "hanzi": "司机",
+    "pinyin": "sījī",
+    "meaning": "chauffeur; driver",
+    "speech": "司机"
+  },
+  {
+    "id": "L2-0507",
+    "level": 2,
+    "hanzi": "送到",
+    "pinyin": "sòngdào",
+    "meaning": "to deliver to; to send to a destination",
+    "speech": "送到"
+  },
+  {
+    "id": "L2-0508",
+    "level": 2,
+    "hanzi": "送给",
+    "pinyin": "sòng gěi",
+    "meaning": "to send; to give as a present",
+    "speech": "送给"
+  },
+  {
+    "id": "L2-0509",
+    "level": 2,
+    "hanzi": "算",
+    "pinyin": "suàn",
+    "meaning": "to regard as; to figure; to calculate; to compute",
+    "speech": "算"
+  },
+  {
+    "id": "L2-0510",
+    "level": 2,
+    "hanzi": "虽然",
+    "pinyin": "suīrán",
+    "meaning": "although; even though (often used correlatively with 是 or 是 etc)",
+    "speech": "虽然"
+  },
+  {
+    "id": "L2-0511",
+    "level": 2,
+    "hanzi": "随便",
+    "pinyin": "suíbiàn",
+    "meaning": "as one wishes; as one pleases; at random; negligent; casual; wanton",
+    "speech": "随便"
+  },
+  {
+    "id": "L2-0512",
+    "level": 2,
+    "hanzi": "随时",
+    "pinyin": "suíshí",
+    "meaning": "at any time; at all times; at the right time; whenever necessary",
+    "speech": "随时"
+  },
+  {
+    "id": "L2-0513",
+    "level": 2,
+    "hanzi": "所以",
+    "pinyin": "suǒyǐ",
+    "meaning": "therefore; as a result; so; the reason why",
+    "speech": "所以"
+  },
+  {
+    "id": "L2-0514",
+    "level": 2,
+    "hanzi": "所有",
+    "pinyin": "suǒyǒu",
+    "meaning": "all; to have; to possess; to own",
+    "speech": "所有"
+  },
+  {
+    "id": "L2-0515",
+    "level": 2,
+    "hanzi": "它",
+    "pinyin": "tā",
+    "meaning": "it",
+    "speech": "它"
+  },
+  {
+    "id": "L2-0516",
+    "level": 2,
+    "hanzi": "它们",
+    "pinyin": "tāmen",
+    "meaning": "they (for inanimate objects)",
+    "speech": "它们"
+  },
+  {
+    "id": "L2-0517",
+    "level": 2,
+    "hanzi": "太太",
+    "pinyin": "tàitai",
+    "meaning": "married woman; Mrs.; Madam; wife",
+    "speech": "太太"
+  },
+  {
+    "id": "L2-0518",
+    "level": 2,
+    "hanzi": "太阳",
+    "pinyin": "tàiyáng",
+    "meaning": "sun; abbr. for 太阳穴",
+    "speech": "太阳"
+  },
+  {
+    "id": "L2-0519",
+    "level": 2,
+    "hanzi": "态度",
+    "pinyin": "tàidù",
+    "meaning": "manner; bearing; attitude; approach",
+    "speech": "态度"
+  },
+  {
+    "id": "L2-0520",
+    "level": 2,
+    "hanzi": "讨论",
+    "pinyin": "tǎolùn",
+    "meaning": "to discuss; to talk over",
+    "speech": "讨论"
+  },
+  {
+    "id": "L2-0521",
+    "level": 2,
+    "hanzi": "套",
+    "pinyin": "tào",
+    "meaning": "to cover; to encase; cover; sheath; to overlap; to interleave; to model after; to copy; formula; harness; loop of rope; (fig.) to fish for; to obtain slyly; classifier for sets, collections; bend (of a river or mountain range, in place names); tau (Greek letter Ττ)",
+    "speech": "套"
+  },
+  {
+    "id": "L2-0522",
+    "level": 2,
+    "hanzi": "特别",
+    "pinyin": "tèbié",
+    "meaning": "unusual; special; very; especially; particularly; expressly; for a specific purpose; (often followed by 是) in particular",
+    "speech": "特别"
+  },
+  {
+    "id": "L2-0523",
+    "level": 2,
+    "hanzi": "特点",
+    "pinyin": "tèdiǎn",
+    "meaning": "characteristic (feature); trait; feature",
+    "speech": "特点"
+  },
+  {
+    "id": "L2-0524",
+    "level": 2,
+    "hanzi": "疼",
+    "pinyin": "téng",
+    "meaning": "(it) hurts; sore; to love dearly",
+    "speech": "疼"
+  },
+  {
+    "id": "L2-0525",
+    "level": 2,
+    "hanzi": "提",
+    "pinyin": "tí",
+    "meaning": "to carry (hanging down from the hand); to lift; to put forward; to mention; to raise (an issue); upwards character stroke; lifting brush stroke (in painting); scoop for measuring liquid",
+    "speech": "提"
+  },
+  {
+    "id": "L2-0526",
+    "level": 2,
+    "hanzi": "提出",
+    "pinyin": "tíchū",
+    "meaning": "to raise (an issue); to propose; to put forward; to suggest; to post (on a website); to withdraw (cash)",
+    "speech": "提出"
+  },
+  {
+    "id": "L2-0527",
+    "level": 2,
+    "hanzi": "提到",
+    "pinyin": "tídào",
+    "meaning": "to mention; to raise (a subject); to refer to",
+    "speech": "提到"
+  },
+  {
+    "id": "L2-0528",
+    "level": 2,
+    "hanzi": "提高",
+    "pinyin": "tígāo",
+    "meaning": "to raise; to increase; to improve",
+    "speech": "提高"
+  },
+  {
+    "id": "L2-0529",
+    "level": 2,
+    "hanzi": "题",
+    "pinyin": "tí",
+    "meaning": "topic; problem for discussion; exam question; subject; to inscribe; to mention",
+    "speech": "题"
+  },
+  {
+    "id": "L2-0530",
+    "level": 2,
+    "hanzi": "体育",
+    "pinyin": "tǐyù",
+    "meaning": "sports; physical education",
+    "speech": "体育"
+  },
+  {
+    "id": "L2-0531",
+    "level": 2,
+    "hanzi": "体育场",
+    "pinyin": "tǐyùchǎng",
+    "meaning": "stadium",
+    "speech": "体育场"
+  },
+  {
+    "id": "L2-0532",
+    "level": 2,
+    "hanzi": "体育馆",
+    "pinyin": "tǐyùguǎn",
+    "meaning": "gym; gymnasium; stadium",
+    "speech": "体育馆"
+  },
+  {
+    "id": "L2-0533",
+    "level": 2,
+    "hanzi": "天上",
+    "pinyin": "tiānshàng",
+    "meaning": "celestial; heavenly",
+    "speech": "天上"
+  },
+  {
+    "id": "L2-0534",
+    "level": 2,
+    "hanzi": "条",
+    "pinyin": "tiáo",
+    "meaning": "strip; item; article; clause (of law or treaty); classifier for long thin things (ribbon, river, road, trousers etc)",
+    "speech": "条"
+  },
+  {
+    "id": "L2-0535",
+    "level": 2,
+    "hanzi": "条件",
+    "pinyin": "tiáojiàn",
+    "meaning": "condition; circumstance; term; factor; requirement; prerequisite; qualification; situation; state; condition",
+    "speech": "条件"
+  },
+  {
+    "id": "L2-0536",
+    "level": 2,
+    "hanzi": "听讲",
+    "pinyin": "tīngjiǎng",
+    "meaning": "to attend a lecture; to listen to a talk",
+    "speech": "听讲"
+  },
+  {
+    "id": "L2-0537",
+    "level": 2,
+    "hanzi": "听说",
+    "pinyin": "tīngshuō",
+    "meaning": "to hear (sth said); one hears (that); hearsay; listening and speaking",
+    "speech": "听说"
+  },
+  {
+    "id": "L2-0538",
+    "level": 2,
+    "hanzi": "停",
+    "pinyin": "tíng",
+    "meaning": "to stop; to halt; to park (a car)",
+    "speech": "停"
+  },
+  {
+    "id": "L2-0539",
+    "level": 2,
+    "hanzi": "停车",
+    "pinyin": "tíngchē",
+    "meaning": "to pull up (stop one's vehicle); to park; (of a machine) to stop working; to stall",
+    "speech": "停车"
+  },
+  {
+    "id": "L2-0540",
+    "level": 2,
+    "hanzi": "停车场",
+    "pinyin": "tíngchēchǎng",
+    "meaning": "parking lot; car park",
+    "speech": "停车场"
+  },
+  {
+    "id": "L2-0541",
+    "level": 2,
+    "hanzi": "挺",
+    "pinyin": "tǐng",
+    "meaning": "straight; erect; to stick out (a part of the body); to (physically) straighten up; to support; to withstand; outstanding; (coll.) quite; very; classifier for machine guns",
+    "speech": "挺"
+  },
+  {
+    "id": "L2-0542",
+    "level": 2,
+    "hanzi": "挺好",
+    "pinyin": "tǐng hǎo",
+    "meaning": "very good",
+    "speech": "挺好"
+  },
+  {
+    "id": "L2-0543",
+    "level": 2,
+    "hanzi": "通",
+    "pinyin": "tōng",
+    "meaning": "to go through; to know well; (suffix) expert; to connect; to communicate; open; to clear; classifier for letters, telegrams, phone calls etc",
+    "speech": "通"
+  },
+  {
+    "id": "L2-0544",
+    "level": 2,
+    "hanzi": "通过",
+    "pinyin": "tōngguò",
+    "meaning": "to pass through; to get through; to adopt (a resolution); to pass (legislation); to pass (a test); by means of; through; via",
+    "speech": "通过"
+  },
+  {
+    "id": "L2-0545",
+    "level": 2,
+    "hanzi": "通知",
+    "pinyin": "tōngzhī",
+    "meaning": "to notify; to inform; notice; notification",
+    "speech": "通知"
+  },
+  {
+    "id": "L2-0546",
+    "level": 2,
+    "hanzi": "同时",
+    "pinyin": "tóngshí",
+    "meaning": "at the same time; simultaneously",
+    "speech": "同时"
+  },
+  {
+    "id": "L2-0547",
+    "level": 2,
+    "hanzi": "同事",
+    "pinyin": "tóngshì",
+    "meaning": "colleague; co-worker",
+    "speech": "同事"
+  },
+  {
+    "id": "L2-0548",
+    "level": 2,
+    "hanzi": "同样",
+    "pinyin": "tóngyàng",
+    "meaning": "same; equal; equivalent",
+    "speech": "同样"
+  },
+  {
+    "id": "L2-0549",
+    "level": 2,
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "meaning": "head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock",
+    "speech": "头"
+  },
+  {
+    "id": "L2-0550",
+    "level": 2,
+    "hanzi": "头",
+    "pinyin": "tou",
+    "meaning": "suffix for nouns",
+    "speech": "头"
+  },
+  {
+    "id": "L2-0551",
+    "level": 2,
+    "hanzi": "头发",
+    "pinyin": "tóufa",
+    "meaning": "hair (on the head)",
+    "speech": "头发"
+  },
+  {
+    "id": "L2-0552",
+    "level": 2,
+    "hanzi": "图片",
+    "pinyin": "túpiàn",
+    "meaning": "picture; photograph",
+    "speech": "图片"
+  },
+  {
+    "id": "L2-0553",
+    "level": 2,
+    "hanzi": "推",
+    "pinyin": "tuī",
+    "meaning": "to push; to cut; to refuse; to reject; to decline; to shirk (responsibility); to put off; to delay; to push forward; to nominate; to elect; massage",
+    "speech": "推"
+  },
+  {
+    "id": "L2-0554",
+    "level": 2,
+    "hanzi": "腿",
+    "pinyin": "tuǐ",
+    "meaning": "leg",
+    "speech": "腿"
+  },
+  {
+    "id": "L2-0555",
+    "level": 2,
+    "hanzi": "外地",
+    "pinyin": "wàidì",
+    "meaning": "parts of the country other than where one is",
+    "speech": "外地"
+  },
+  {
+    "id": "L2-0556",
+    "level": 2,
+    "hanzi": "外卖",
+    "pinyin": "wàimài",
+    "meaning": "(of a restaurant) to provide a takeout or home delivery meal; takeout (business); takeout (meal)",
+    "speech": "外卖"
+  },
+  {
+    "id": "L2-0557",
+    "level": 2,
+    "hanzi": "完",
+    "pinyin": "wán",
+    "meaning": "to finish; to be over; whole; complete; entire",
+    "speech": "完"
+  },
+  {
+    "id": "L2-0558",
+    "level": 2,
+    "hanzi": "完成",
+    "pinyin": "wánchéng",
+    "meaning": "to complete; to accomplish",
+    "speech": "完成"
+  },
+  {
+    "id": "L2-0559",
+    "level": 2,
+    "hanzi": "完全",
+    "pinyin": "wánquán",
+    "meaning": "complete; whole; totally; entirely",
+    "speech": "完全"
+  },
+  {
+    "id": "L2-0560",
+    "level": 2,
+    "hanzi": "晚安",
+    "pinyin": "wǎn'ān",
+    "meaning": "Good night!; Good evening!",
+    "speech": "晚安"
+  },
+  {
+    "id": "L2-0561",
+    "level": 2,
+    "hanzi": "晚报",
+    "pinyin": "wǎnbào",
+    "meaning": "evening newspaper; (in a newspaper's name) Evening News",
+    "speech": "晚报"
+  },
+  {
+    "id": "L2-0562",
+    "level": 2,
+    "hanzi": "晚餐",
+    "pinyin": "wǎncān",
+    "meaning": "evening meal; dinner",
+    "speech": "晚餐"
+  },
+  {
+    "id": "L2-0563",
+    "level": 2,
+    "hanzi": "晚会",
+    "pinyin": "wǎnhuì",
+    "meaning": "evening party",
+    "speech": "晚会"
+  },
+  {
+    "id": "L2-0564",
+    "level": 2,
+    "hanzi": "碗",
+    "pinyin": "wǎn",
+    "meaning": "bowl; cup",
+    "speech": "碗"
+  },
+  {
+    "id": "L2-0565",
+    "level": 2,
+    "hanzi": "万",
+    "pinyin": "wàn",
+    "meaning": "ten thousand; a great number",
+    "speech": "万"
+  },
+  {
+    "id": "L2-0566",
+    "level": 2,
+    "hanzi": "网",
+    "pinyin": "wǎng",
+    "meaning": "net; network",
+    "speech": "网"
+  },
+  {
+    "id": "L2-0567",
+    "level": 2,
+    "hanzi": "网球",
+    "pinyin": "wǎngqiú",
+    "meaning": "tennis; tennis ball",
+    "speech": "网球"
+  },
+  {
+    "id": "L2-0568",
+    "level": 2,
+    "hanzi": "网站",
+    "pinyin": "wǎngzhàn",
+    "meaning": "website; network station; node",
+    "speech": "网站"
+  },
+  {
+    "id": "L2-0569",
+    "level": 2,
+    "hanzi": "往",
+    "pinyin": "wǎng",
+    "meaning": "to go (in a direction); to; towards; (of a train) bound for; past; previous",
+    "speech": "往"
+  },
+  {
+    "id": "L2-0570",
+    "level": 2,
+    "hanzi": "为",
+    "pinyin": "wèi",
+    "meaning": "because of; for; to",
+    "speech": "为"
+  },
+  {
+    "id": "L2-0571",
+    "level": 2,
+    "hanzi": "为什么",
+    "pinyin": "wèi shénme",
+    "meaning": "why?; for what reason?",
+    "speech": "为什么"
+  },
+  {
+    "id": "L2-0572",
+    "level": 2,
+    "hanzi": "位",
+    "pinyin": "wèi",
+    "meaning": "position; location; place; seat; classifier for people (honorific); classifier for binary bits (e.g. 十六位 16-bit or 2 bytes); (physics) potential",
+    "speech": "位"
+  },
+  {
+    "id": "L2-0573",
+    "level": 2,
+    "hanzi": "味道",
+    "pinyin": "wèidào",
+    "meaning": "flavor; taste; (fig.) feeling (of ...); sense (of ...); hint (of ...); (fig.) interest; delight; (dialect) smell; odor",
+    "speech": "味道"
+  },
+  {
+    "id": "L2-0574",
+    "level": 2,
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "meaning": "hey; to feed (an animal, baby, invalid etc)",
+    "speech": "喂"
+  },
+  {
+    "id": "L2-0575",
+    "level": 2,
+    "hanzi": "温度",
+    "pinyin": "wēndù",
+    "meaning": "temperature",
+    "speech": "温度"
+  },
+  {
+    "id": "L2-0576",
+    "level": 2,
+    "hanzi": "闻",
+    "pinyin": "wén",
+    "meaning": "to hear; news; well-known; famous; reputation; fame; to smell; to sniff at",
+    "speech": "闻"
+  },
+  {
+    "id": "L2-0577",
+    "level": 2,
+    "hanzi": "问路",
+    "pinyin": "wènlù",
+    "meaning": "to ask for directions; to ask the way (to some place)",
+    "speech": "问路"
+  },
+  {
+    "id": "L2-0578",
+    "level": 2,
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "meaning": "question; problem; issue; topic",
+    "speech": "问题"
+  },
+  {
+    "id": "L2-0579",
+    "level": 2,
+    "hanzi": "午餐",
+    "pinyin": "wǔcān",
+    "meaning": "lunch; luncheon",
+    "speech": "午餐"
+  },
+  {
+    "id": "L2-0580",
+    "level": 2,
+    "hanzi": "午睡",
+    "pinyin": "wǔshuì",
+    "meaning": "to take a nap; siesta",
+    "speech": "午睡"
+  },
+  {
+    "id": "L2-0581",
+    "level": 2,
+    "hanzi": "西北",
+    "pinyin": "xīběi",
+    "meaning": "northwest",
+    "speech": "西北"
+  },
+  {
+    "id": "L2-0582",
+    "level": 2,
+    "hanzi": "西餐",
+    "pinyin": "xīcān",
+    "meaning": "Western-style food",
+    "speech": "西餐"
+  },
+  {
+    "id": "L2-0583",
+    "level": 2,
+    "hanzi": "西方",
+    "pinyin": "xīfāng",
+    "meaning": "the West; the Occident; Western countries",
+    "speech": "西方"
+  },
+  {
+    "id": "L2-0584",
+    "level": 2,
+    "hanzi": "西南",
+    "pinyin": "xīnán",
+    "meaning": "southwest",
+    "speech": "西南"
+  },
+  {
+    "id": "L2-0585",
+    "level": 2,
+    "hanzi": "西医",
+    "pinyin": "xīyī",
+    "meaning": "Western medicine; a doctor trained in Western medicine",
+    "speech": "西医"
+  },
+  {
+    "id": "L2-0586",
+    "level": 2,
+    "hanzi": "习惯",
+    "pinyin": "xíguàn",
+    "meaning": "habit; custom; usual practice; to be used to",
+    "speech": "习惯"
+  },
+  {
+    "id": "L2-0587",
+    "level": 2,
+    "hanzi": "洗衣机",
+    "pinyin": "xǐyījī",
+    "meaning": "washing machine; washer",
+    "speech": "洗衣机"
+  },
+  {
+    "id": "L2-0588",
+    "level": 2,
+    "hanzi": "洗澡",
+    "pinyin": "xǐzǎo",
+    "meaning": "to bathe; to take a shower",
+    "speech": "洗澡"
+  },
+  {
+    "id": "L2-0589",
+    "level": 2,
+    "hanzi": "下",
+    "pinyin": "xià",
+    "meaning": "down; downwards; below; lower; later; next (week etc); second (of two parts); to decline; to go down; to arrive at (a decision, conclusion etc); measure word to show the frequency of an action",
+    "speech": "下"
+  },
+  {
+    "id": "L2-0590",
+    "level": 2,
+    "hanzi": "下雪",
+    "pinyin": "xià xuě",
+    "meaning": "to snow",
+    "speech": "下雪"
+  },
+  {
+    "id": "L2-0591",
+    "level": 2,
+    "hanzi": "下周",
+    "pinyin": "xià zhōu",
+    "meaning": "next week",
+    "speech": "下周"
+  },
+  {
+    "id": "L2-0592",
+    "level": 2,
+    "hanzi": "夏天",
+    "pinyin": "xiàtiān",
+    "meaning": "summer",
+    "speech": "夏天"
+  },
+  {
+    "id": "L2-0593",
+    "level": 2,
+    "hanzi": "相同",
+    "pinyin": "xiāngtóng",
+    "meaning": "identical; same",
+    "speech": "相同"
+  },
+  {
+    "id": "L2-0594",
+    "level": 2,
+    "hanzi": "相信",
+    "pinyin": "xiāngxìn",
+    "meaning": "to be convinced (that sth is true); to believe; to accept sth as true",
+    "speech": "相信"
+  },
+  {
+    "id": "L2-0595",
+    "level": 2,
+    "hanzi": "响",
+    "pinyin": "xiǎng",
+    "meaning": "echo; sound; noise; to make a sound; to sound; to ring; loud; classifier for noises",
+    "speech": "响"
+  },
+  {
+    "id": "L2-0596",
+    "level": 2,
+    "hanzi": "想到",
+    "pinyin": "xiǎngdào",
+    "meaning": "to think of; to call to mind; to anticipate",
+    "speech": "想到"
+  },
+  {
+    "id": "L2-0597",
+    "level": 2,
+    "hanzi": "想法",
+    "pinyin": "xiǎngfǎ",
+    "meaning": "way of thinking; opinion; notion; to think of a way (to do sth)",
+    "speech": "想法"
+  },
+  {
+    "id": "L2-0598",
+    "level": 2,
+    "hanzi": "想起",
+    "pinyin": "xiǎngqǐ",
+    "meaning": "to recall; to think of; to call to mind",
+    "speech": "想起"
+  },
+  {
+    "id": "L2-0599",
+    "level": 2,
+    "hanzi": "向",
+    "pinyin": "xiàng",
+    "meaning": "towards; to face; to turn towards; direction; to support; to side with; shortly before; formerly; always; all along; (suffix) suitable for ...; oriented to ...",
+    "speech": "向"
+  },
+  {
+    "id": "L2-0600",
+    "level": 2,
+    "hanzi": "相机",
+    "pinyin": "xiàngjī",
+    "meaning": "camera (abbr. for 照相机); at the opportune moment; as the circumstances allow",
+    "speech": "相机"
+  },
+  {
+    "id": "L2-0601",
+    "level": 2,
+    "hanzi": "像",
+    "pinyin": "xiàng",
+    "meaning": "to resemble; to be like; to look as if; such as; appearance; image; portrait; image under a mapping (math.)",
+    "speech": "像"
+  },
+  {
+    "id": "L2-0602",
+    "level": 2,
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "meaning": "young; junior (familiar prefix before a surname)",
+    "speech": "小"
+  },
+  {
+    "id": "L2-0603",
+    "level": 2,
+    "hanzi": "小声",
+    "pinyin": "xiǎo shēng",
+    "meaning": "in a low voice; (speak) in whispers",
+    "speech": "小声"
+  },
+  {
+    "id": "L2-0604",
+    "level": 2,
+    "hanzi": "小时候",
+    "pinyin": "xiǎoshíhou",
+    "meaning": "in one's childhood",
+    "speech": "小时候"
+  },
+  {
+    "id": "L2-0605",
+    "level": 2,
+    "hanzi": "小说",
+    "pinyin": "xiǎoshuō",
+    "meaning": "novel; fiction",
+    "speech": "小说"
+  },
+  {
+    "id": "L2-0606",
+    "level": 2,
+    "hanzi": "小心",
+    "pinyin": "xiǎoxīn",
+    "meaning": "to be careful; to take care",
+    "speech": "小心"
+  },
+  {
+    "id": "L2-0607",
+    "level": 2,
+    "hanzi": "小组",
+    "pinyin": "xiǎozǔ",
+    "meaning": "group",
+    "speech": "小组"
+  },
+  {
+    "id": "L2-0608",
+    "level": 2,
+    "hanzi": "校园",
+    "pinyin": "xiàoyuán",
+    "meaning": "campus",
+    "speech": "校园"
+  },
+  {
+    "id": "L2-0609",
+    "level": 2,
+    "hanzi": "校长",
+    "pinyin": "xiàozhǎng",
+    "meaning": "(college, university) president; headmaster",
+    "speech": "校长"
+  },
+  {
+    "id": "L2-0610",
+    "level": 2,
+    "hanzi": "笑话",
+    "pinyin": "xiàohua",
+    "meaning": "joke; jest; to laugh at; to mock",
+    "speech": "笑话"
+  },
+  {
+    "id": "L2-0611",
+    "level": 2,
+    "hanzi": "笑话儿",
+    "pinyin": "xiàohuar",
+    "meaning": "joke; jest; to laugh at; to mock",
+    "speech": "笑话儿"
+  },
+  {
+    "id": "L2-0612",
+    "level": 2,
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "meaning": "shoe",
+    "speech": "鞋"
+  },
+  {
+    "id": "L2-0613",
+    "level": 2,
+    "hanzi": "心里",
+    "pinyin": "xīnlǐ",
+    "meaning": "chest; heart; mind",
+    "speech": "心里"
+  },
+  {
+    "id": "L2-0614",
+    "level": 2,
+    "hanzi": "心情",
+    "pinyin": "xīnqíng",
+    "meaning": "mood; frame of mind",
+    "speech": "心情"
+  },
+  {
+    "id": "L2-0615",
+    "level": 2,
+    "hanzi": "心中",
+    "pinyin": "xīnzhōng",
+    "meaning": "central point; in one's thoughts; in one's heart",
+    "speech": "心中"
+  },
+  {
+    "id": "L2-0616",
+    "level": 2,
+    "hanzi": "新闻",
+    "pinyin": "xīnwén",
+    "meaning": "news",
+    "speech": "新闻"
+  },
+  {
+    "id": "L2-0617",
+    "level": 2,
+    "hanzi": "信",
+    "pinyin": "xìn",
+    "meaning": "letter; mail; to trust; to believe; to profess faith in; truthful; confidence; trust; at will; at random",
+    "speech": "信"
+  },
+  {
+    "id": "L2-0618",
+    "level": 2,
+    "hanzi": "信号",
+    "pinyin": "xìnhào",
+    "meaning": "signal",
+    "speech": "信号"
+  },
+  {
+    "id": "L2-0619",
+    "level": 2,
+    "hanzi": "信息",
+    "pinyin": "xìnxī",
+    "meaning": "information; news; message",
+    "speech": "信息"
+  },
+  {
+    "id": "L2-0620",
+    "level": 2,
+    "hanzi": "信心",
+    "pinyin": "xìnxīn",
+    "meaning": "confidence; faith (in sb or sth)",
+    "speech": "信心"
+  },
+  {
+    "id": "L2-0621",
+    "level": 2,
+    "hanzi": "信用卡",
+    "pinyin": "xìnyòngkǎ",
+    "meaning": "credit card",
+    "speech": "信用卡"
+  },
+  {
+    "id": "L2-0622",
+    "level": 2,
+    "hanzi": "星星",
+    "pinyin": "xīngxing",
+    "meaning": "(coll.) a star; the stars in the sky",
+    "speech": "星星"
+  },
+  {
+    "id": "L2-0623",
+    "level": 2,
+    "hanzi": "行动",
+    "pinyin": "xíngdòng",
+    "meaning": "operation; action; to move about; mobile",
+    "speech": "行动"
+  },
+  {
+    "id": "L2-0624",
+    "level": 2,
+    "hanzi": "行人",
+    "pinyin": "xíngrén",
+    "meaning": "pedestrian; traveler on foot; passer-by; official responsible for arranging audiences with the emperor",
+    "speech": "行人"
+  },
+  {
+    "id": "L2-0625",
+    "level": 2,
+    "hanzi": "行为",
+    "pinyin": "xíngwéi",
+    "meaning": "action; conduct; behavior; activity",
+    "speech": "行为"
+  },
+  {
+    "id": "L2-0626",
+    "level": 2,
+    "hanzi": "姓",
+    "pinyin": "xìng",
+    "meaning": "family name; surname; to be surnamed",
+    "speech": "姓"
+  },
+  {
+    "id": "L2-0627",
+    "level": 2,
+    "hanzi": "姓名",
+    "pinyin": "xìngmíng",
+    "meaning": "surname and given name; full name",
+    "speech": "姓名"
+  },
+  {
+    "id": "L2-0628",
+    "level": 2,
+    "hanzi": "休假",
+    "pinyin": "xiūjià",
+    "meaning": "to go on vacation; to have a holiday; to take leave",
+    "speech": "休假"
+  },
+  {
+    "id": "L2-0629",
+    "level": 2,
+    "hanzi": "许多",
+    "pinyin": "xǔduō",
+    "meaning": "many; a lot of; much",
+    "speech": "许多"
+  },
+  {
+    "id": "L2-0630",
+    "level": 2,
+    "hanzi": "选",
+    "pinyin": "xuǎn",
+    "meaning": "to choose; to pick; to select; to elect",
+    "speech": "选"
+  },
+  {
+    "id": "L2-0631",
+    "level": 2,
+    "hanzi": "学期",
+    "pinyin": "xuéqī",
+    "meaning": "term; semester",
+    "speech": "学期"
+  },
+  {
+    "id": "L2-0632",
+    "level": 2,
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "meaning": "snow; (literary) to wipe away (a humiliation etc)",
+    "speech": "雪"
+  },
+  {
+    "id": "L2-0633",
+    "level": 2,
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "color; countenance; appearance; facial expression; pigment; dyestuff",
+    "speech": "颜色"
+  },
+  {
+    "id": "L2-0634",
+    "level": 2,
+    "hanzi": "眼",
+    "pinyin": "yǎn",
+    "meaning": "eye; small hole; crux (of a matter); classifier for big hollow things (wells, stoves, pots etc)",
+    "speech": "眼"
+  },
+  {
+    "id": "L2-0635",
+    "level": 2,
+    "hanzi": "眼睛",
+    "pinyin": "yǎnjing",
+    "meaning": "eye",
+    "speech": "眼睛"
+  },
+  {
+    "id": "L2-0636",
+    "level": 2,
+    "hanzi": "养",
+    "pinyin": "yǎng",
+    "meaning": "to raise (animals); to bring up (children); to keep (pets); to support; to give birth",
+    "speech": "养"
+  },
+  {
+    "id": "L2-0637",
+    "level": 2,
+    "hanzi": "样子",
+    "pinyin": "yàngzi",
+    "meaning": "appearance; manner; pattern; model",
+    "speech": "样子"
+  },
+  {
+    "id": "L2-0638",
+    "level": 2,
+    "hanzi": "要求",
+    "pinyin": "yāoqiú",
+    "meaning": "to request; to require; requirement; to stake a claim; to ask; to demand",
+    "speech": "要求"
+  },
+  {
+    "id": "L2-0639",
+    "level": 2,
+    "hanzi": "药",
+    "pinyin": "yào",
+    "meaning": "medicine; drug; substance used for a specific purpose (e.g. poisoning, explosion, fermenting); to poison",
+    "speech": "药"
+  },
+  {
+    "id": "L2-0640",
+    "level": 2,
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "meaning": "pharmacy",
+    "speech": "药店"
+  },
+  {
+    "id": "L2-0641",
+    "level": 2,
+    "hanzi": "药片",
+    "pinyin": "yàopiàn",
+    "meaning": "a (medicine) pill or tablet",
+    "speech": "药片"
+  },
+  {
+    "id": "L2-0642",
+    "level": 2,
+    "hanzi": "药水",
+    "pinyin": "yàoshuǐ",
+    "meaning": "medicine in liquid form; bottled medicine; lotion",
+    "speech": "药水"
+  },
+  {
+    "id": "L2-0643",
+    "level": 2,
+    "hanzi": "也许",
+    "pinyin": "yěxǔ",
+    "meaning": "perhaps; maybe",
+    "speech": "也许"
+  },
+  {
+    "id": "L2-0644",
+    "level": 2,
+    "hanzi": "夜",
+    "pinyin": "yè",
+    "meaning": "night",
+    "speech": "夜"
+  },
+  {
+    "id": "L2-0645",
+    "level": 2,
+    "hanzi": "夜里",
+    "pinyin": "yèlǐ",
+    "meaning": "during the night; at night; nighttime",
+    "speech": "夜里"
+  },
+  {
+    "id": "L2-0646",
+    "level": 2,
+    "hanzi": "一部分",
+    "pinyin": "yī bùfen",
+    "meaning": "portion; part of; subset",
+    "speech": "一部分"
+  },
+  {
+    "id": "L2-0647",
+    "level": 2,
+    "hanzi": "一定",
+    "pinyin": "yīdìng",
+    "meaning": "surely; certainly; necessarily; fixed; a certain (extent etc); given; particular; must",
+    "speech": "一定"
+  },
+  {
+    "id": "L2-0648",
+    "level": 2,
+    "hanzi": "一共",
+    "pinyin": "yīgòng",
+    "meaning": "altogether",
+    "speech": "一共"
+  },
+  {
+    "id": "L2-0649",
+    "level": 2,
+    "hanzi": "一会儿",
+    "pinyin": "yīhuìr",
+    "meaning": "a moment; a while; in a moment; now...now...; also pr. [yī huǐ r]",
+    "speech": "一会儿"
+  },
+  {
+    "id": "L2-0650",
+    "level": 2,
+    "hanzi": "一路平安",
+    "pinyin": "yīlù-píng'ān",
+    "meaning": "to have a pleasant journey; Bon voyage!",
+    "speech": "一路平安"
+  },
+  {
+    "id": "L2-0651",
+    "level": 2,
+    "hanzi": "一路顺风",
+    "pinyin": "yīlù-shùnfēng",
+    "meaning": "to have a pleasant journey (idiom)",
+    "speech": "一路顺风"
+  },
+  {
+    "id": "L2-0652",
+    "level": 2,
+    "hanzi": "已经",
+    "pinyin": "yǐjīng",
+    "meaning": "already",
+    "speech": "已经"
+  },
+  {
+    "id": "L2-0653",
+    "level": 2,
+    "hanzi": "以后",
+    "pinyin": "yǐhòu",
+    "meaning": "after; later; afterwards; following; later on; in the future",
+    "speech": "以后"
+  },
+  {
+    "id": "L2-0654",
+    "level": 2,
+    "hanzi": "以前",
+    "pinyin": "yǐqián",
+    "meaning": "before; formerly; previous; ago",
+    "speech": "以前"
+  },
+  {
+    "id": "L2-0655",
+    "level": 2,
+    "hanzi": "以上",
+    "pinyin": "yǐshàng",
+    "meaning": "that level or higher; that amount or more; the above-mentioned; (used to indicate that one has completed one's remarks) That is all.",
+    "speech": "以上"
+  },
+  {
+    "id": "L2-0656",
+    "level": 2,
+    "hanzi": "以外",
+    "pinyin": "yǐwài",
+    "meaning": "apart from; other than; except for; external; outside of; on the other side of; beyond",
+    "speech": "以外"
+  },
+  {
+    "id": "L2-0657",
+    "level": 2,
+    "hanzi": "以为",
+    "pinyin": "yǐwéi",
+    "meaning": "to think (i.e. to take it to be true that ...) (Usually there is an implication that the notion is mistaken – except when expressing one's own current opinion.)",
+    "speech": "以为"
+  },
+  {
+    "id": "L2-0658",
+    "level": 2,
+    "hanzi": "以下",
+    "pinyin": "yǐxià",
+    "meaning": "that level or lower; that amount or less; the following",
+    "speech": "以下"
+  },
+  {
+    "id": "L2-0659",
+    "level": 2,
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "chair",
+    "speech": "椅子"
+  },
+  {
+    "id": "L2-0660",
+    "level": 2,
+    "hanzi": "一般",
+    "pinyin": "yībān",
+    "meaning": "same; ordinary; so-so; common; general; generally; in general",
+    "speech": "一般"
+  },
+  {
+    "id": "L2-0661",
+    "level": 2,
+    "hanzi": "一点点",
+    "pinyin": "yī diǎndiǎn",
+    "meaning": "a little bit",
+    "speech": "一点点"
+  },
+  {
+    "id": "L2-0662",
+    "level": 2,
+    "hanzi": "一生",
+    "pinyin": "yīshēng",
+    "meaning": "all one's life; throughout one's life",
+    "speech": "一生"
+  },
+  {
+    "id": "L2-0663",
+    "level": 2,
+    "hanzi": "一直",
+    "pinyin": "yīzhí",
+    "meaning": "straight (in a straight line); continuously; always; all the way through",
+    "speech": "一直"
+  },
+  {
+    "id": "L2-0664",
+    "level": 2,
+    "hanzi": "亿",
+    "pinyin": "yì",
+    "meaning": "100 million",
+    "speech": "亿"
+  },
+  {
+    "id": "L2-0665",
+    "level": 2,
+    "hanzi": "意见",
+    "pinyin": "yìjiàn",
+    "meaning": "idea; opinion; suggestion; objection; complaint",
+    "speech": "意见"
+  },
+  {
+    "id": "L2-0666",
+    "level": 2,
+    "hanzi": "意思",
+    "pinyin": "yìsi",
+    "meaning": "idea; opinion; meaning; wish; desire; interest; fun; token of appreciation, affection etc; to give as a small token; to do sth as a gesture of goodwill etc",
+    "speech": "意思"
+  },
+  {
+    "id": "L2-0667",
+    "level": 2,
+    "hanzi": "因为",
+    "pinyin": "yīnwèi",
+    "meaning": "because; owing to; on account of",
+    "speech": "因为"
+  },
+  {
+    "id": "L2-0668",
+    "level": 2,
+    "hanzi": "阴",
+    "pinyin": "yīn",
+    "meaning": "overcast (weather); cloudy; shady; Yin (the negative principle of Yin and Yang); negative (electric.); feminine; moon; implicit; hidden; genitalia",
+    "speech": "阴"
+  },
+  {
+    "id": "L2-0669",
+    "level": 2,
+    "hanzi": "阴天",
+    "pinyin": "yīntiān",
+    "meaning": "cloudy day; overcast sky",
+    "speech": "阴天"
+  },
+  {
+    "id": "L2-0670",
+    "level": 2,
+    "hanzi": "音节",
+    "pinyin": "yīnjié",
+    "meaning": "syllable",
+    "speech": "音节"
+  },
+  {
+    "id": "L2-0671",
+    "level": 2,
+    "hanzi": "音乐",
+    "pinyin": "yīnyuè",
+    "meaning": "music",
+    "speech": "音乐"
+  },
+  {
+    "id": "L2-0672",
+    "level": 2,
+    "hanzi": "音乐会",
+    "pinyin": "yīnyuèhuì",
+    "meaning": "concert",
+    "speech": "音乐会"
+  },
+  {
+    "id": "L2-0673",
+    "level": 2,
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "meaning": "bank",
+    "speech": "银行"
+  },
+  {
+    "id": "L2-0674",
+    "level": 2,
+    "hanzi": "银行卡",
+    "pinyin": "yínhángkǎ",
+    "meaning": "bank card; ATM card",
+    "speech": "银行卡"
+  },
+  {
+    "id": "L2-0675",
+    "level": 2,
+    "hanzi": "应该",
+    "pinyin": "yīnggāi",
+    "meaning": "ought to; should; must",
+    "speech": "应该"
+  },
+  {
+    "id": "L2-0676",
+    "level": 2,
+    "hanzi": "英文",
+    "pinyin": "Yīngwén",
+    "meaning": "English (language)",
+    "speech": "英文"
+  },
+  {
+    "id": "L2-0677",
+    "level": 2,
+    "hanzi": "英语",
+    "pinyin": "Yīngyǔ",
+    "meaning": "English (language)",
+    "speech": "英语"
+  },
+  {
+    "id": "L2-0678",
+    "level": 2,
+    "hanzi": "影片",
+    "pinyin": "yǐngpiàn",
+    "meaning": "a copy of a film; film; motion picture; movie",
+    "speech": "影片"
+  },
+  {
+    "id": "L2-0679",
+    "level": 2,
+    "hanzi": "影响",
+    "pinyin": "yǐngxiǎng",
+    "meaning": "influence; effect; to influence; to affect (usually adversely); to disturb",
+    "speech": "影响"
+  },
+  {
+    "id": "L2-0680",
+    "level": 2,
+    "hanzi": "永远",
+    "pinyin": "yǒngyuǎn",
+    "meaning": "forever; eternal",
+    "speech": "永远"
+  },
+  {
+    "id": "L2-0681",
+    "level": 2,
+    "hanzi": "油",
+    "pinyin": "yóu",
+    "meaning": "oil; fat; grease; petroleum; to apply tung oil, paint or varnish; oily; greasy; glib; cunning",
+    "speech": "油"
+  },
+  {
+    "id": "L2-0682",
+    "level": 2,
+    "hanzi": "游客",
+    "pinyin": "yóukè",
+    "meaning": "traveler; tourist; (online gaming) guest player",
+    "speech": "游客"
+  },
+  {
+    "id": "L2-0683",
+    "level": 2,
+    "hanzi": "友好",
+    "pinyin": "yǒuhǎo",
+    "meaning": "friendly; amicable; close friend",
+    "speech": "友好"
+  },
+  {
+    "id": "L2-0684",
+    "level": 2,
+    "hanzi": "有空儿",
+    "pinyin": "yǒukòngr",
+    "meaning": "to have time; to be free or available",
+    "speech": "有空儿"
+  },
+  {
+    "id": "L2-0685",
+    "level": 2,
+    "hanzi": "有人",
+    "pinyin": "yǒu rén",
+    "meaning": "someone; people; anyone; there is someone there; occupied (as in restroom)",
+    "speech": "有人"
+  },
+  {
+    "id": "L2-0686",
+    "level": 2,
+    "hanzi": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "meaning": "slightly; a little; somewhat",
+    "speech": "有点儿"
+  },
+  {
+    "id": "L2-0687",
+    "level": 2,
+    "hanzi": "有意思",
+    "pinyin": "yǒu yìsi",
+    "meaning": "interesting; meaningful; enjoyable; fun",
+    "speech": "有意思"
+  },
+  {
+    "id": "L2-0688",
+    "level": 2,
+    "hanzi": "又",
+    "pinyin": "yòu",
+    "meaning": "(once) again; also; both... and...; and yet; (used for emphasis) anyway",
+    "speech": "又"
+  },
+  {
+    "id": "L2-0689",
+    "level": 2,
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "meaning": "fish",
+    "speech": "鱼"
+  },
+  {
+    "id": "L2-0690",
+    "level": 2,
+    "hanzi": "语言",
+    "pinyin": "yǔyán",
+    "meaning": "language",
+    "speech": "语言"
+  },
+  {
+    "id": "L2-0691",
+    "level": 2,
+    "hanzi": "原来",
+    "pinyin": "yuánlái",
+    "meaning": "original; former; originally; formerly; at first; so, actually, as it turns out",
+    "speech": "原来"
+  },
+  {
+    "id": "L2-0692",
+    "level": 2,
+    "hanzi": "原因",
+    "pinyin": "yuányīn",
+    "meaning": "cause; origin; root cause; reason",
+    "speech": "原因"
+  },
+  {
+    "id": "L2-0693",
+    "level": 2,
+    "hanzi": "院",
+    "pinyin": "yuàn",
+    "meaning": "courtyard; institution",
+    "speech": "院"
+  },
+  {
+    "id": "L2-0694",
+    "level": 2,
+    "hanzi": "院长",
+    "pinyin": "yuànzhǎng",
+    "meaning": "the head of an institution whose name ends in 院; chair of a board; president of a university; department head; dean; premier of the Republic of China",
+    "speech": "院长"
+  },
+  {
+    "id": "L2-0695",
+    "level": 2,
+    "hanzi": "院子",
+    "pinyin": "yuànzi",
+    "meaning": "courtyard; garden; yard; patio; (old) servant",
+    "speech": "院子"
+  },
+  {
+    "id": "L2-0696",
+    "level": 2,
+    "hanzi": "愿意",
+    "pinyin": "yuànyì",
+    "meaning": "to wish; to want; ready; willing (to do sth)",
+    "speech": "愿意"
+  },
+  {
+    "id": "L2-0697",
+    "level": 2,
+    "hanzi": "月份",
+    "pinyin": "yuèfèn",
+    "meaning": "month",
+    "speech": "月份"
+  },
+  {
+    "id": "L2-0698",
+    "level": 2,
+    "hanzi": "月亮",
+    "pinyin": "yuèliang",
+    "meaning": "the moon",
+    "speech": "月亮"
+  },
+  {
+    "id": "L2-0699",
+    "level": 2,
+    "hanzi": "越",
+    "pinyin": "yuè",
+    "meaning": "to exceed; to climb over; to surpass; the more... the more",
+    "speech": "越"
+  },
+  {
+    "id": "L2-0700",
+    "level": 2,
+    "hanzi": "越来越",
+    "pinyin": "yuè lái yuè",
+    "meaning": "more and more",
+    "speech": "越来越"
+  },
+  {
+    "id": "L2-0701",
+    "level": 2,
+    "hanzi": "云",
+    "pinyin": "yún",
+    "meaning": "cloud",
+    "speech": "云"
+  },
+  {
+    "id": "L2-0702",
+    "level": 2,
+    "hanzi": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "to move; to exercise; sports; exercise; motion; movement; campaign",
+    "speech": "运动"
+  },
+  {
+    "id": "L2-0703",
+    "level": 2,
+    "hanzi": "咱",
+    "pinyin": "zán",
+    "meaning": "I or me; we (including both the speaker and the person spoken to)",
+    "speech": "咱"
+  },
+  {
+    "id": "L2-0704",
+    "level": 2,
+    "hanzi": "咱们",
+    "pinyin": "zánmen",
+    "meaning": "we or us (including both the speaker and the person(s) spoken to); (dialect) I or me; (dialect) (in a coaxing or familiar way) you; also pr. [zá men]",
+    "speech": "咱们"
+  },
+  {
+    "id": "L2-0705",
+    "level": 2,
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "meaning": "dirty; filthy; to get (sth) dirty",
+    "speech": "脏"
+  },
+  {
+    "id": "L2-0706",
+    "level": 2,
+    "hanzi": "早餐",
+    "pinyin": "zǎocān",
+    "meaning": "breakfast",
+    "speech": "早餐"
+  },
+  {
+    "id": "L2-0707",
+    "level": 2,
+    "hanzi": "早晨",
+    "pinyin": "zǎochen",
+    "meaning": "early morning; also pr. [zǎo chen]",
+    "speech": "早晨"
+  },
+  {
+    "id": "L2-0708",
+    "level": 2,
+    "hanzi": "早就",
+    "pinyin": "zǎo jiù",
+    "meaning": "already at an earlier time",
+    "speech": "早就"
+  },
+  {
+    "id": "L2-0709",
+    "level": 2,
+    "hanzi": "怎么办",
+    "pinyin": "zěnme bàn",
+    "meaning": "what's to be done",
+    "speech": "怎么办"
+  },
+  {
+    "id": "L2-0710",
+    "level": 2,
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning": "how?; how about?; how was it?; how are things?",
+    "speech": "怎么样"
+  },
+  {
+    "id": "L2-0711",
+    "level": 2,
+    "hanzi": "怎样",
+    "pinyin": "zěnyàng",
+    "meaning": "how; what kind",
+    "speech": "怎样"
+  },
+  {
+    "id": "L2-0712",
+    "level": 2,
+    "hanzi": "占",
+    "pinyin": "zhàn",
+    "meaning": "to take possession of; to occupy; to take up",
+    "speech": "占"
+  },
+  {
+    "id": "L2-0713",
+    "level": 2,
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "meaning": "station; to stand; to halt; to stop; branch of a company or organization; website",
+    "speech": "站"
+  },
+  {
+    "id": "L2-0714",
+    "level": 2,
+    "hanzi": "站住",
+    "pinyin": "zhànzhù",
+    "meaning": "to stand",
+    "speech": "站住"
+  },
+  {
+    "id": "L2-0715",
+    "level": 2,
+    "hanzi": "长",
+    "pinyin": "zhǎng",
+    "meaning": "chief; head; elder; to grow; to develop; to increase; to enhance",
+    "speech": "长"
+  },
+  {
+    "id": "L2-0716",
+    "level": 2,
+    "hanzi": "长大",
+    "pinyin": "zhǎngdà",
+    "meaning": "to grow up",
+    "speech": "长大"
+  },
+  {
+    "id": "L2-0717",
+    "level": 2,
+    "hanzi": "找出",
+    "pinyin": "zhǎochū",
+    "meaning": "to find; to search out",
+    "speech": "找出"
+  },
+  {
+    "id": "L2-0718",
+    "level": 2,
+    "hanzi": "照顾",
+    "pinyin": "zhàogù",
+    "meaning": "to take care of; to show consideration; to attend to; to look after",
+    "speech": "照顾"
+  },
+  {
+    "id": "L2-0719",
+    "level": 2,
+    "hanzi": "照片",
+    "pinyin": "zhàopiàn",
+    "meaning": "photograph; picture",
+    "speech": "照片"
+  },
+  {
+    "id": "L2-0720",
+    "level": 2,
+    "hanzi": "照相",
+    "pinyin": "zhàoxiàng",
+    "meaning": "to take a photograph",
+    "speech": "照相"
+  },
+  {
+    "id": "L2-0721",
+    "level": 2,
+    "hanzi": "这么",
+    "pinyin": "zhème",
+    "meaning": "so much; this much; how much?; this way; like this",
+    "speech": "这么"
+  },
+  {
+    "id": "L2-0722",
+    "level": 2,
+    "hanzi": "这时候",
+    "pinyin": "zhè shíhou",
+    "meaning": "at this time; at this moment",
+    "speech": "这时候"
+  },
+  {
+    "id": "L2-0723",
+    "level": 2,
+    "hanzi": "这样",
+    "pinyin": "zhèyàng",
+    "meaning": "this kind of; so; this way; like this; such",
+    "speech": "这样"
+  },
+  {
+    "id": "L2-0724",
+    "level": 2,
+    "hanzi": "真正",
+    "pinyin": "zhēnzhèng",
+    "meaning": "genuine; real; true; really; indeed",
+    "speech": "真正"
+  },
+  {
+    "id": "L2-0725",
+    "level": 2,
+    "hanzi": "正常",
+    "pinyin": "zhèngcháng",
+    "meaning": "regular; normal; ordinary",
+    "speech": "正常"
+  },
+  {
+    "id": "L2-0726",
+    "level": 2,
+    "hanzi": "正好",
+    "pinyin": "zhènghǎo",
+    "meaning": "just (in time); just right; just enough; to happen to; to chance to; by chance; it just so happens that",
+    "speech": "正好"
+  },
+  {
+    "id": "L2-0727",
+    "level": 2,
+    "hanzi": "正确",
+    "pinyin": "zhèngquè",
+    "meaning": "correct; sound; right; proper",
+    "speech": "正确"
+  },
+  {
+    "id": "L2-0728",
+    "level": 2,
+    "hanzi": "正是",
+    "pinyin": "zhèngshì",
+    "meaning": "is precisely",
+    "speech": "正是"
+  },
+  {
+    "id": "L2-0729",
+    "level": 2,
+    "hanzi": "直接",
+    "pinyin": "zhíjiē",
+    "meaning": "direct (opposite: indirect 间接); immediate; straightforward",
+    "speech": "直接"
+  },
+  {
+    "id": "L2-0730",
+    "level": 2,
+    "hanzi": "只",
+    "pinyin": "zhǐ",
+    "meaning": "only; merely; just; but",
+    "speech": "只"
+  },
+  {
+    "id": "L2-0731",
+    "level": 2,
+    "hanzi": "只能",
+    "pinyin": "zhǐ néng",
+    "meaning": "can only; obliged to do sth; to have no other choice",
+    "speech": "只能"
+  },
+  {
+    "id": "L2-0732",
+    "level": 2,
+    "hanzi": "只要",
+    "pinyin": "zhǐyào",
+    "meaning": "if only; so long as",
+    "speech": "只要"
+  },
+  {
+    "id": "L2-0733",
+    "level": 2,
+    "hanzi": "纸",
+    "pinyin": "zhǐ",
+    "meaning": "paper; classifier for documents, letter etc",
+    "speech": "纸"
+  },
+  {
+    "id": "L2-0734",
+    "level": 2,
+    "hanzi": "中餐",
+    "pinyin": "zhōngcān",
+    "meaning": "lunch; Chinese meal; Chinese food",
+    "speech": "中餐"
+  },
+  {
+    "id": "L2-0735",
+    "level": 2,
+    "hanzi": "中级",
+    "pinyin": "zhōngjí",
+    "meaning": "middle level (in a hierarchy)",
+    "speech": "中级"
+  },
+  {
+    "id": "L2-0736",
+    "level": 2,
+    "hanzi": "中年",
+    "pinyin": "zhōngnián",
+    "meaning": "middle age",
+    "speech": "中年"
+  },
+  {
+    "id": "L2-0737",
+    "level": 2,
+    "hanzi": "中小学",
+    "pinyin": "zhōng-xiǎoxué",
+    "meaning": "middle and elementary school",
+    "speech": "中小学"
+  },
+  {
+    "id": "L2-0738",
+    "level": 2,
+    "hanzi": "中心",
+    "pinyin": "zhōngxīn",
+    "meaning": "center; heart; core",
+    "speech": "中心"
+  },
+  {
+    "id": "L2-0739",
+    "level": 2,
+    "hanzi": "中医",
+    "pinyin": "zhōngyī",
+    "meaning": "traditional Chinese medical science; a doctor trained in Chinese medicine",
+    "speech": "中医"
+  },
+  {
+    "id": "L2-0740",
+    "level": 2,
+    "hanzi": "重点",
+    "pinyin": "zhòngdiǎn",
+    "meaning": "important point; main point; focus; key (project etc); to focus on; to put the emphasis on",
+    "speech": "重点"
+  },
+  {
+    "id": "L2-0741",
+    "level": 2,
+    "hanzi": "重视",
+    "pinyin": "zhòngshì",
+    "meaning": "to attach importance to sth; to value",
+    "speech": "重视"
+  },
+  {
+    "id": "L2-0742",
+    "level": 2,
+    "hanzi": "周",
+    "pinyin": "zhōu",
+    "meaning": "week; weekly",
+    "speech": "周"
+  },
+  {
+    "id": "L2-0743",
+    "level": 2,
+    "hanzi": "周末",
+    "pinyin": "zhōumò",
+    "meaning": "weekend",
+    "speech": "周末"
+  },
+  {
+    "id": "L2-0744",
+    "level": 2,
+    "hanzi": "周年",
+    "pinyin": "zhōunián",
+    "meaning": "anniversary; annual",
+    "speech": "周年"
+  },
+  {
+    "id": "L2-0745",
+    "level": 2,
+    "hanzi": "主人",
+    "pinyin": "zhǔrén",
+    "meaning": "master; host; owner",
+    "speech": "主人"
+  },
+  {
+    "id": "L2-0746",
+    "level": 2,
+    "hanzi": "主要",
+    "pinyin": "zhǔyào",
+    "meaning": "main; principal; major; primary",
+    "speech": "主要"
+  },
+  {
+    "id": "L2-0747",
+    "level": 2,
+    "hanzi": "住房",
+    "pinyin": "zhùfáng",
+    "meaning": "housing",
+    "speech": "住房"
+  },
+  {
+    "id": "L2-0748",
+    "level": 2,
+    "hanzi": "住院",
+    "pinyin": "zhùyuàn",
+    "meaning": "to be in hospital; to be hospitalized",
+    "speech": "住院"
+  },
+  {
+    "id": "L2-0749",
+    "level": 2,
+    "hanzi": "装",
+    "pinyin": "zhuāng",
+    "meaning": "adornment; to adorn; dress; clothing; costume (of an actor in a play); to play a role; to pretend; to install; to fix; to wrap (sth in a bag); to load; to pack",
+    "speech": "装"
+  },
+  {
+    "id": "L2-0750",
+    "level": 2,
+    "hanzi": "准确",
+    "pinyin": "zhǔnquè",
+    "meaning": "accurate; exact; precise",
+    "speech": "准确"
+  },
+  {
+    "id": "L2-0751",
+    "level": 2,
+    "hanzi": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "oneself; one's own",
+    "speech": "自己"
+  },
+  {
+    "id": "L2-0752",
+    "level": 2,
+    "hanzi": "自行车",
+    "pinyin": "zìxíngchē",
+    "meaning": "bicycle; bike",
+    "speech": "自行车"
+  },
+  {
+    "id": "L2-0753",
+    "level": 2,
+    "hanzi": "自由",
+    "pinyin": "zìyóu",
+    "meaning": "freedom; liberty; free; unrestricted",
+    "speech": "自由"
+  },
+  {
+    "id": "L2-0754",
+    "level": 2,
+    "hanzi": "字典",
+    "pinyin": "zìdiǎn",
+    "meaning": "Chinese character dictionary (containing entries for single characters, contrasted with a 词典, which has entries for words of one or more characters); (coll.) dictionary",
+    "speech": "字典"
+  },
+  {
+    "id": "L2-0755",
+    "level": 2,
+    "hanzi": "走过",
+    "pinyin": "zǒuguò",
+    "meaning": "to walk past; to pass by",
+    "speech": "走过"
+  },
+  {
+    "id": "L2-0756",
+    "level": 2,
+    "hanzi": "走进",
+    "pinyin": "zǒujìn",
+    "meaning": "to enter",
+    "speech": "走进"
+  },
+  {
+    "id": "L2-0757",
+    "level": 2,
+    "hanzi": "走开",
+    "pinyin": "zǒukāi",
+    "meaning": "to leave; to walk away; to beat it; to move aside",
+    "speech": "走开"
+  },
+  {
+    "id": "L2-0758",
+    "level": 2,
+    "hanzi": "租",
+    "pinyin": "zū",
+    "meaning": "to hire; to rent; to charter; to rent out; to lease out; rent; land tax",
+    "speech": "租"
+  },
+  {
+    "id": "L2-0759",
+    "level": 2,
+    "hanzi": "组",
+    "pinyin": "zǔ",
+    "meaning": "to form; to organize; group; team; classifier for sets, series, groups of people, batteries",
+    "speech": "组"
+  },
+  {
+    "id": "L2-0760",
+    "level": 2,
+    "hanzi": "组成",
+    "pinyin": "zǔchéng",
+    "meaning": "to form; to make up; to constitute",
+    "speech": "组成"
+  },
+  {
+    "id": "L2-0761",
+    "level": 2,
+    "hanzi": "组长",
+    "pinyin": "zǔzhǎng",
+    "meaning": "group leader",
+    "speech": "组长"
+  },
+  {
+    "id": "L2-0762",
+    "level": 2,
+    "hanzi": "嘴",
+    "pinyin": "zuǐ",
+    "meaning": "mouth; beak; nozzle; spout (of teapot etc)",
+    "speech": "嘴"
+  },
+  {
+    "id": "L2-0763",
+    "level": 2,
+    "hanzi": "最近",
+    "pinyin": "zuìjìn",
+    "meaning": "recently; soon; nearest",
+    "speech": "最近"
+  },
+  {
+    "id": "L2-0764",
+    "level": 2,
+    "hanzi": "作家",
+    "pinyin": "zuòjiā",
+    "meaning": "author",
+    "speech": "作家"
+  },
+  {
+    "id": "L2-0765",
+    "level": 2,
+    "hanzi": "作文",
+    "pinyin": "zuòwén",
+    "meaning": "to write an essay; composition (student essay)",
+    "speech": "作文"
+  },
+  {
+    "id": "L2-0766",
+    "level": 2,
+    "hanzi": "作业",
+    "pinyin": "zuòyè",
+    "meaning": "school assignment; homework; work; task; operation; to operate",
+    "speech": "作业"
+  },
+  {
+    "id": "L2-0767",
+    "level": 2,
+    "hanzi": "作用",
+    "pinyin": "zuòyòng",
+    "meaning": "to act on; to affect; action; function; activity; impact; result; effect; purpose; intent; (suffix) -ation, -tion etc, as in 用, inhibition",
+    "speech": "作用"
+  },
+  {
+    "id": "L2-0768",
+    "level": 2,
+    "hanzi": "座",
+    "pinyin": "zuò",
+    "meaning": "seat; base; stand; (archaic) suffix used in a respectful form of address, e.g. 师座; classifier for buildings, mountains and similar immovable objects",
+    "speech": "座"
+  },
+  {
+    "id": "L2-0769",
+    "level": 2,
+    "hanzi": "座位",
+    "pinyin": "zuòwèi",
+    "meaning": "seat",
+    "speech": "座位"
+  },
+  {
+    "id": "L2-0770",
+    "level": 2,
+    "hanzi": "做到",
+    "pinyin": "zuòdào",
+    "meaning": "to accomplish; to achieve",
+    "speech": "做到"
+  },
+  {
+    "id": "L2-0771",
+    "level": 2,
+    "hanzi": "做法",
+    "pinyin": "zuòfǎ",
+    "meaning": "way of handling sth; method for making; work method; recipe; practice",
+    "speech": "做法"
+  },
+  {
+    "id": "L2-0772",
+    "level": 2,
+    "hanzi": "做饭",
+    "pinyin": "zuòfàn",
+    "meaning": "to prepare a meal; to cook",
+    "speech": "做饭"
+  }
+]
