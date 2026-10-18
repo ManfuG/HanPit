@@ -4,3 +4,9 @@ dist/
 .DS_Store
 .venv-audio/
 __pycache__/
+.env
+.env.*
+!.env.example
+.venv/
+*.py[cod]
+*.tsbuildinfo

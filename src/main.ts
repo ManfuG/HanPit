@@ -192,7 +192,7 @@ function showSection() {
   grammar.hide();
   readings.hide();
   tests?.hide();
-  element('error').hidden = true;
+  if (ready) element('error').hidden = true;
   element('section-heading').hidden = false;
   element('section-title').textContent = sectionTitles[activeSection]!;
   for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
@@ -232,7 +232,7 @@ levelSelect.addEventListener('change', async () => {
     busy = false;
     levelSaving = false;
     showSection();
-    if (saveError !== undefined && activeSection !== 'tests') showError(saveError);
+    if (saveError !== undefined) showError(saveError);
   }
 });
 
@@ -247,6 +247,7 @@ document.addEventListener('keydown', event => {
   if (activeSection !== 'flashcards' || busy || deckLoading || event.repeat || event.altKey || event.ctrlKey || event.metaKey) return;
   if ((event.target as HTMLElement).matches('select, input, textarea, a, [contenteditable]')) return;
   if (event.code === 'Space' && !revealed) {
+    if ((event.target as HTMLElement).closest('button')) return;
     event.preventDefault();
     reveal();
   } else if (revealed && /^[1-4]$/.test(event.key)) {
@@ -274,7 +275,7 @@ async function start() {
     showSection();
   } catch (error) {
     element('empty').textContent = 'Loading failed. Reload the page to retry.';
-    if (activeSection !== 'tests') showError(error);
+    showError(error);
     flashcards.setAttribute('aria-busy', 'false');
   }
 }

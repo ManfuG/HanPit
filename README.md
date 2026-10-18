@@ -1,10 +1,12 @@
 # HanPit
 
-Minimal HSK 3.0 Chinese study web app: flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
+Local-first Chinese study with HSK flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
+
+The interface shares Syne/Fraunces typography and rounded dark panels with QuantaPit and KnightPit, using a distinct forest-green and citron palette. Fonts are served locally; the four-section study layout is unchanged.
 
 ## Run
 
-Node.js 24 or later.
+Node.js 24 LTS (`.nvmrc`; `nvm use` if installed). The npm lockfile is committed; use `npm ci` for a clean install.
 
 ```sh
 npm ci
@@ -12,6 +14,20 @@ npm run dev
 ```
 
 Open the URL printed by Vite. Static build: `npm run build`; production preview: `npm run preview`.
+
+## Static hosting preparation
+
+`npm run build` writes `dist/`. Vite uses a relative base so the same build can be served at a domain root or a GitHub project subpath such as `/HanPit/`; data and audio requests use `import.meta.env.BASE_URL`. Serve the directory over HTTP(S), with the project URL ending in `/`, rather than opening `index.html` as a local file. Preview locally before any separately authorized upload.
+
+Only `dist/` is needed by a static host. It includes the local data/audio, font licenses and runtime dependency notice; keep those files together. Do not upload source environments or model weights. No deployment workflow, hosting activation or remote repository is configured by these instructions.
+
+Study progress remains in IndexedDB for the browser origin. Moving from localhost to a public domain does not transfer progress; projects on the same origin share the `hanpit` database even when hosted at different paths.
+
+## Licensing
+
+There is **no project-wide application license** in this repository. Public source visibility alone does not grant general reuse rights to the application or original lesson/reading content. Choosing a license requires the rights holder's decision; none is inferred from dependency licenses.
+
+The adapted vocabulary dataset is CC BY-SA 3.0, upstream transcription notices are retained, and local Syne/Fraunces fonts use OFL 1.1. Kokoro's Apache-2.0 model license and synthesis attribution do not establish a blanket license for all app content or generated recordings. Scope, sources and bundled notices are listed in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## Flashcards
 
@@ -87,7 +103,7 @@ Sentence audio respects punctuation, neutral tones, erhua and contextual tone sa
 
 ### Offline audio tools
 
-The app does not require Python to run or build. Regeneration requires Python 3.12, `uv`, FFmpeg with `libmp3lame`, and network access for the initial pinned-model download:
+The app does not require Python to run or build. Regeneration uses the existing Linux x86-64 CPU environment: Python 3.12, `uv`, FFmpeg with `libmp3lame`, and network access for the initial pinned-model download. The requirements include a platform-specific PyTorch wheel; they are not a cross-platform installation recipe.
 
 ```sh
 uv venv --python 3.12 .venv-audio
@@ -103,6 +119,8 @@ npm run grammar:audio:test
 
 Weights and CPU dependencies stay in ignored `.venv-audio/`, outside Git and the build. Manifests pin model revision, sources, generators and runtime. Audio checks decode complete corpora and verify coverage, format, duration, signal and SHA-256. Changed spoken Chinese/pinyin requires regeneration. English-only editorial changes preserved all pronunciation records and MP3s; grammar source fingerprints were refreshed only after verifying phonetic equivalence.
 
+The audio requirements pin package versions, not wheel hashes; they are not a fully hash-locked supply chain. Model files are separately checked against pinned SHA-256 values before use. These optional tools and their dependencies are not installed by CI or shipped to the browser. Retain their upstream license notices if redistributing an environment or binaries.
+
 ## Verification
 
 ```sh
@@ -114,10 +132,6 @@ npm run tests:check
 npm run build
 ```
 
-54 behavior/phonetic tests passed: 7 FSRS, 4 quiz, 4 test progression, 5 readiness, 14 curriculum, 7 vocabulary phonetics and 13 sentence phonetics. The grammar audio check decoded and validated all 1,365 existing clips after the English migration.
+The GitHub workflow runs the checks above on pushes and pull requests using Node 24 and Python 3.12. It installs no TTS environment, regenerates no datasets/audio and has no deployment job. Full phonetic/audio validation remains an explicit local operation using the offline environment above.
 
-Development Chromium smoke at 1280×900 and 390×844 covered actual saved-review thresholds (9→10 and 49→50), missing current/prior vocabulary, retained lesson bodies, and a review held open while navigating: readiness stayed red until commit. All grammar lessons and readings were opened; English supports and the absence of reading audio or additional vocabulary requests were checked. An English 20/20 test exercised all four question types, persisted its streak across reload, then reset it on a wrong answer. Another 1,400 generated attempts covered all seven cumulative pools. Chinese, pinyin, IDs, ordering and pronunciation records were compared against the pre-translation data.
-
-Production Chromium at 390×844 confirmed the 49→50 reading boundary, four ready grammar rules after fifty studied words, retained reading supports, and no redundant readiness-attribute writes when revisiting unchanged progress. Vocabulary and grammar MP3s reached native `ended` with a single reused player; first Easy remained five days. A complete English test persisted its success after reload without changing cards, review history, Dates or the reset marker. No unhandled runtime errors, external requests or overflow were observed.
-
-Final TypeScript/Vite build: JavaScript **15.70 kB gzip**, excluding data/audio. All **12,457 MP3 hashes**, **30 JSON files** and **two manifests** in the distribution were verified; no model weights, obsolete Italian glossaries or reading/test audio are included. Synthetic data was removed only from verification origins localhost:5177 and :5178; the user origin localhost:5173 was not cleared by this update.
+Before a separately authorized publication, review the files being committed and the complete Git history for private data or credentials; ignore rules do not remove already-tracked files. No API keys or environment variables are needed by the app. Never place secrets in Vite's client-exposed `VITE_*` variables.
