@@ -3,8 +3,16 @@
     "id": "R3-01",
     "title": "Il coraggio di fare domande",
     "paragraphs": [
-      "最近，我在学校学中文。读课文不太难，可是写文章需要很多时间。我常常写了又改，还是觉得不好。老师说，不懂就问，不用觉得不好意思。我想请教同学，又不敢问，觉得自己的问题太简单。一天，一个同学请我去学校外的小店喝咖啡。他说，他写中文也有不少问题，我们可以一起学习。",
-      "我们在店里坐下，拿出本子，先读我写的文章。他不明白的地方，我就用简单的话再说一次。我不会写的字，他也不一定会，我们一起查词典。咖啡有点儿甜，店里很安静，我第一次觉得，写文章也可以很有意思。回家时，我决定明天也请他看我的作业。我希望以后能写得更好，也能帮助别的同学。"
+      {
+        "hanzi": "最近，我在学校学中文。读课文不太难，可是写文章需要很多时间。我常常写了又改，还是觉得不好。老师说，不懂就问，不用觉得不好意思。我想请教同学，又不敢问，觉得自己的问题太简单。一天，一个同学请我去学校外的小店喝咖啡。他说，他写中文也有不少问题，我们可以一起学习。",
+        "pinyin": "Zuìjìn, wǒ zài xuéxiào xué Zhōngwén. Dú kèwén bù tài nán, kěshì xiě wénzhāng xūyào hěn duō shíjiān. Wǒ chángcháng xiě le yòu gǎi, háishi juéde bù hǎo. Lǎoshī shuō, bù dǒng jiù wèn, bùyòng juéde bù hǎoyìsi. Wǒ xiǎng qǐngjiào tóngxué, yòu bù gǎn wèn, juéde zìjǐ de wèntí tài jiǎndān. Yī tiān, yī ge tóngxué qǐng wǒ qù xuéxiào wài de xiǎo diàn hē kāfēi. Tā shuō, tā xiě Zhōngwén yě yǒu bù shǎo wèntí, wǒmen kěyǐ yīqǐ xuéxí.",
+        "translation": "Ultimamente studio cinese a scuola. Leggere i testi delle lezioni non è troppo difficile, ma scrivere dei temi richiede molto tempo. Spesso scrivo e poi correggo, ma continuo a pensare che il risultato non vada bene. L’insegnante dice che, quando non si capisce, bisogna chiedere senza sentirsi in imbarazzo. Vorrei chiedere consiglio ai compagni, ma non oso fare domande perché penso che siano troppo semplici. Un giorno un compagno mi invita a bere un caffè in un piccolo locale fuori dalla scuola. Dice che anche lui ha parecchie difficoltà a scrivere in cinese e che possiamo studiare insieme."
+      },
+      {
+        "hanzi": "我们在店里坐下，拿出本子，先读我写的文章。他不明白的地方，我就用简单的话再说一次。我不会写的字，他也不一定会，我们一起查词典。咖啡有点儿甜，店里很安静，我第一次觉得，写文章也可以很有意思。回家时，我决定明天也请他看我的作业。我希望以后能写得更好，也能帮助别的同学。",
+        "pinyin": "Wǒmen zài diàn lǐ zuò xià, ná chū běnzi, xiān dú wǒ xiě de wénzhāng. Tā bù míngbai de dìfang, wǒ jiù yòng jiǎndān de huà zài shuō yī cì. Wǒ bù huì xiě de zì, tā yě bù yīdìng huì, wǒmen yīqǐ chá cídiǎn. Kāfēi yǒudiǎnr tián, diàn lǐ hěn ānjìng, wǒ dì yī cì juéde, xiě wénzhāng yě kěyǐ hěn yǒu yìsi. Huí jiā shí, wǒ juédìng míngtiān yě qǐng tā kàn wǒ de zuòyè. Wǒ xīwàng yǐhòu néng xiě de gèng hǎo, yě néng bāngzhù bié de tóngxué.",
+        "translation": "Ci sediamo nel locale, tiriamo fuori i quaderni e leggiamo prima il tema che ho scritto. Nei punti che lui non capisce, spiego di nuovo con parole semplici. I caratteri che io non so scrivere non è detto che li sappia scrivere lui: consultiamo insieme il dizionario. Il caffè è un po’ dolce e il locale è molto tranquillo. Per la prima volta penso che anche scrivere temi possa essere interessante. Tornando a casa, decido di chiedergli anche domani di guardare i miei compiti. Spero di riuscire in futuro a scrivere meglio e di poter aiutare anche altri compagni."
+      }
     ],
     "grammarIds": ["G3-003", "G3-004"]
   },
@@ -12,8 +20,16 @@
     "id": "R3-02",
     "title": "Una parete per tutta la classe",
     "paragraphs": [
-      "我们班的教室后边有一面很大的白墙，墙上本来没有图片。开学以后，班长安排大家在这里介绍自己的爱好。大家带来了各种彩色的纸，很快就放满了两张桌子。有的同学画画，有的同学写故事，还有人带来了一张全家的照片。我们想让别的班级也来看看，就在门口写了一个大标题。",
-      "下午，有人发现一张画不见了，大家赶紧去找。画画的同学有点儿不安，以为有人不喜欢他的画。保安走进教室，手里拿着那张画。原来，风从门口进来，画飞到了楼下。大家这才放心。班长说，保护大家的东西也很重要。我们重新安排了墙上的图片，还请那位同学介绍他的画，他笑着答应了。"
+      {
+        "hanzi": "我们班的教室后边有一面很大的白墙，墙上本来没有图片。开学以后，班长安排大家在这里介绍自己的爱好。大家带来了各种彩色的纸，很快就放满了两张桌子。有的同学画画，有的同学写故事，还有人带来了一张全家的照片。我们想让别的班级也来看看，就在门口写了一个大标题。",
+        "pinyin": "Wǒmen bān de jiàoshì hòubian yǒu yī miàn hěn dà de bái qiáng, qiáng shàng běnlái méiyǒu túpiàn. Kāixué yǐhòu, bānzhǎng ānpái dàjiā zài zhèlǐ jièshào zìjǐ de àihào. Dàjiā dài lái le gè zhǒng cǎisè de zhǐ, hěn kuài jiù fàng mǎn le liǎng zhāng zhuōzi. Yǒu de tóngxué huà huà, yǒu de tóngxué xiě gùshi, hái yǒu rén dài lái le yī zhāng quán jiā de zhàopiàn. Wǒmen xiǎng ràng bié de bānjí yě lái kànkan, jiù zài ménkǒu xiě le yī ge dà biāotí.",
+        "translation": "In fondo alla nostra aula c’è una grande parete bianca, sulla quale inizialmente non c’erano immagini. Dopo l’inizio della scuola, il capoclasse ha organizzato una presentazione degli interessi di ciascuno proprio lì. Tutti hanno portato carta di vari colori, che ha riempito in poco tempo due tavoli. Alcuni compagni hanno disegnato, altri hanno scritto storie e qualcuno ha portato una foto di tutta la propria famiglia. Volevamo che anche le altre classi venissero a vedere, così abbiamo scritto un grande titolo all’ingresso."
+      },
+      {
+        "hanzi": "下午，有人发现一张画不见了，大家赶紧去找。画画的同学有点儿不安，以为有人不喜欢他的画。保安走进教室，手里拿着那张画。原来，风从门口进来，画飞到了楼下。大家这才放心。班长说，保护大家的东西也很重要。我们重新安排了墙上的图片，还请那位同学介绍他的画，他笑着答应了。",
+        "pinyin": "Xiàwǔ, yǒu rén fāxiàn yī zhāng huà bù jiàn le, dàjiā gǎnjǐn qù zhǎo. Huà huà de tóngxué yǒudiǎnr bù'ān, yǐwéi yǒu rén bù xǐhuan tā de huà. Bǎo'ān zǒu jìn jiàoshì, shǒu lǐ ná zhe nà zhāng huà. Yuánlái, fēng cóng ménkǒu jìn lái, huà fēi dào le lóu xià. Dàjiā zhè cái fàngxīn. Bānzhǎng shuō, bǎohù dàjiā de dōngxi yě hěn zhòngyào. Wǒmen chóngxīn ānpái le qiáng shàng de túpiàn, hái qǐng nà wèi tóngxué jièshào tā de huà, tā xiào zhe dāying le.",
+        "translation": "Nel pomeriggio qualcuno ha scoperto che mancava un disegno e tutti si sono affrettati a cercarlo. Il compagno che l’aveva realizzato era un po’ in ansia: pensava che a qualcuno il suo disegno non piacesse. L’addetto alla sicurezza è entrato in aula con quel disegno in mano. A quanto pare, il vento era entrato dalla porta e lo aveva fatto volare al piano di sotto. Solo allora tutti si sono tranquillizzati. Il capoclasse ha detto che anche proteggere le cose di tutti è importante. Abbiamo risistemato le immagini sulla parete e abbiamo invitato quel compagno a presentare il suo disegno. Lui ha accettato sorridendo."
+      }
     ],
     "grammarIds": ["G3-008", "G3-009", "G3-014", "G2-004"]
   },
@@ -21,8 +37,16 @@
     "id": "R3-03",
     "title": "Le voci della radio scolastica",
     "paragraphs": [
-      "学校的电台想听听同学们对午饭的看法，请我们做一次调查。我们小组有四个成员，大家先讨论用什么方式问问题。有人只想问饭和菜好不好吃，我认为还应该问价格和等待的时间。组长说，问题不能太多，也不能让对方不知道怎么回答。我们反复读了几遍，才在午饭后去教室里找人说话。",
-      "自从开始调查以后，我发现同学们的看法很不一样。有的人觉得饭和菜太少，有的人希望午饭后能多休息一会儿。我们尽量记住他们的意思，没有只写自己喜欢的话。最后，组长亲自给学校的电台发送了电子邮件。星期五中午，电台里传来了我们的名字。大家很高兴，因为这次我们不只是听学校新闻的人，也为学校做了一件事。"
+      {
+        "hanzi": "学校的电台想听听同学们对午饭的看法，请我们做一次调查。我们小组有四个成员，大家先讨论用什么方式问问题。有人只想问饭和菜好不好吃，我认为还应该问价格和等待的时间。组长说，问题不能太多，也不能让对方不知道怎么回答。我们反复读了几遍，才在午饭后去教室里找人说话。",
+        "pinyin": "Xuéxiào de diàntái xiǎng tīngting tóngxuémen duì wǔfàn de kànfǎ, qǐng wǒmen zuò yī cì diàochá. Wǒmen xiǎozǔ yǒu sì ge chéngyuán, dàjiā xiān tǎolùn yòng shénme fāngshì wèn wèntí. Yǒu rén zhǐ xiǎng wèn fàn hé cài hǎo bù hǎochī, wǒ rènwéi hái yīnggāi wèn jiàgé hé děngdài de shíjiān. Zǔzhǎng shuō, wèntí bù néng tài duō, yě bù néng ràng duìfāng bù zhīdào zěnme huídá. Wǒmen fǎnfù dú le jǐ biàn, cái zài wǔfàn hòu qù jiàoshì lǐ zhǎo rén shuōhuà.",
+        "translation": "La radio scolastica voleva sentire le opinioni degli studenti sul pranzo e ci ha chiesto di svolgere un’indagine. Il nostro gruppo era composto da quattro persone e per prima cosa abbiamo discusso su come porre le domande. Qualcuno voleva chiedere soltanto se il riso e le pietanze fossero buoni; io ritenevo che si dovesse chiedere anche del prezzo e del tempo di attesa. Il capogruppo ha detto che le domande non dovevano essere troppe e che non dovevano mettere gli intervistati in difficoltà nel rispondere. Le abbiamo rilette più volte e soltanto dopo pranzo siamo andati nelle aule a cercare persone con cui parlare."
+      },
+      {
+        "hanzi": "自从开始调查以后，我发现同学们的看法很不一样。有的人觉得饭和菜太少，有的人希望午饭后能多休息一会儿。我们尽量记住他们的意思，没有只写自己喜欢的话。最后，组长亲自给学校的电台发送了电子邮件。星期五中午，电台里传来了我们的名字。大家很高兴，因为这次我们不只是听学校新闻的人，也为学校做了一件事。",
+        "pinyin": "Zìcóng kāishǐ diàochá yǐhòu, wǒ fāxiàn tóngxuémen de kànfǎ hěn bù yīyàng. Yǒu de rén juéde fàn hé cài tài shǎo, yǒu de rén xīwàng wǔfàn hòu néng duō xiūxi yīhuìr. Wǒmen jǐnliàng jì zhù tāmen de yìsi, méiyǒu zhǐ xiě zìjǐ xǐhuan de huà. Zuìhòu, zǔzhǎng qīnzì gěi xuéxiào de diàntái fāsòng le diànzǐ yóujiàn. Xīngqīwǔ zhōngwǔ, diàntái lǐ chuán lái le wǒmen de míngzi. Dàjiā hěn gāoxìng, yīnwèi zhè cì wǒmen bù zhǐ shì tīng xuéxiào xīnwén de rén, yě wèi xuéxiào zuò le yī jiàn shì.",
+        "translation": "Da quando abbiamo iniziato l’indagine, ho notato che le opinioni degli studenti erano molto diverse. Alcuni pensavano che il riso e le pietanze fossero troppo pochi; altri speravano di poter riposare un po’ di più dopo pranzo. Abbiamo cercato di ricordare ciò che intendevano dire, senza annotare soltanto le parole che piacevano a noi. Alla fine il capogruppo ha inviato personalmente un’e-mail alla radio scolastica. Venerdì a mezzogiorno i nostri nomi sono stati pronunciati alla radio. Eravamo tutti felici, perché questa volta non ci eravamo limitati ad ascoltare le notizie della scuola: avevamo anche fatto qualcosa per la scuola."
+      }
     ],
     "grammarIds": ["G3-017", "G3-021", "G3-023", "G2-004"]
   },
@@ -30,8 +54,16 @@
     "id": "R3-04",
     "title": "La prima casa vicino alla fabbrica",
     "paragraphs": [
-      "姐姐在一家工厂找到工作，准备在离工厂不远的地方租房子。她想租的房屋不大，但是离工厂很近。房东告诉她，房租以外还要付用水和用电的钱。姐姐第一次自己安排生活，不知道这些费用要多少钱，就请同事帮忙。大家按照她的工资一起算了算，认为这间房子比较合适，她才放心地租了这间房子。",
-      "搬家的那天，父母也来了。为了让房间更干净，爸爸把旧桌子搬到门外，妈妈洗了桌子。姐姐负责做饭，我和她的同事一起洗碗。房间很小，东西也不多，可是大家合作得很好。吃饭时，姐姐说，以后要学会自己管理生活，不能什么事都找父母。爸爸笑着说，有问题可以说，能自己做的就好好做。"
+      {
+        "hanzi": "姐姐在一家工厂找到工作，准备在离工厂不远的地方租房子。她想租的房屋不大，但是离工厂很近。房东告诉她，房租以外还要付用水和用电的钱。姐姐第一次自己安排生活，不知道这些费用要多少钱，就请同事帮忙。大家按照她的工资一起算了算，认为这间房子比较合适，她才放心地租了这间房子。",
+        "pinyin": "Jiějie zài yī jiā gōngchǎng zhǎo dào gōngzuò, zhǔnbèi zài lí gōngchǎng bù yuǎn de dìfang zū fángzi. Tā xiǎng zū de fángwū bù dà, dànshì lí gōngchǎng hěn jìn. Fángdōng gàosu tā, fángzū yǐwài hái yào fù yòng shuǐ hé yòng diàn de qián. Jiějie dì yī cì zìjǐ ānpái shēnghuó, bù zhīdào zhèxiē fèiyòng yào duōshao qián, jiù qǐng tóngshì bāngmáng. Dàjiā ànzhào tā de gōngzī yīqǐ suàn le suàn, rènwéi zhè jiān fángzi bǐjiào héshì, tā cái fàngxīn de zū le zhè jiān fángzi.",
+        "translation": "Mia sorella maggiore ha trovato lavoro in una fabbrica e si prepara ad affittare una casa non lontano da lì. L’abitazione che vorrebbe affittare non è grande, ma è molto vicina alla fabbrica. Il proprietario le ha detto che, oltre all’affitto, dovrà pagare anche l’acqua e l’elettricità. È la prima volta che mia sorella organizza da sola la propria vita e non sa a quanto ammonteranno queste spese, così chiede aiuto ai colleghi. Tutti fanno insieme qualche conto sulla base del suo stipendio e ritengono che questa casa sia abbastanza adatta. Solo allora lei la affitta con tranquillità."
+      },
+      {
+        "hanzi": "搬家的那天，父母也来了。为了让房间更干净，爸爸把旧桌子搬到门外，妈妈洗了桌子。姐姐负责做饭，我和她的同事一起洗碗。房间很小，东西也不多，可是大家合作得很好。吃饭时，姐姐说，以后要学会自己管理生活，不能什么事都找父母。爸爸笑着说，有问题可以说，能自己做的就好好做。",
+        "pinyin": "Bān jiā de nà tiān, fùmǔ yě lái le. Wèile ràng fángjiān gèng gānjìng, bàba bǎ jiù zhuōzi bān dào mén wài, māma xǐ le zhuōzi. Jiějie fùzé zuò fàn, wǒ hé tā de tóngshì yīqǐ xǐ wǎn. Fángjiān hěn xiǎo, dōngxi yě bù duō, kěshì dàjiā hézuò de hěn hǎo. Chī fàn shí, jiějie shuō, yǐhòu yào xuéhuì zìjǐ guǎnlǐ shēnghuó, bù néng shénme shì dōu zhǎo fùmǔ. Bàba xiào zhe shuō, yǒu wèntí kěyǐ shuō, néng zìjǐ zuò de jiù hǎohāo zuò.",
+        "translation": "Il giorno del trasloco sono venuti anche i nostri genitori. Per pulire meglio la stanza, papà ha portato il vecchio tavolo fuori dalla porta e mamma lo ha lavato. Mia sorella si è occupata di cucinare e io ho lavato i piatti insieme ai suoi colleghi. La stanza è piccola e non ci sono molte cose, ma tutti hanno collaborato molto bene. Durante il pasto, mia sorella ha detto che d’ora in poi deve imparare a gestire da sola la propria vita, senza rivolgersi ai genitori per ogni cosa. Papà ha detto sorridendo che, se ci sono problemi, può parlarne, e che ciò che sa fare da sola deve farlo per bene."
+      }
     ],
     "grammarIds": ["G3-026", "G3-027", "G3-029", "G2-004"]
   },
@@ -39,8 +71,16 @@
     "id": "R3-05",
     "title": "Quanta acqua usiamo a scuola",
     "paragraphs": [
-      "学校最近开展了一次环保活动。我们小组先去观察大家平时怎样用水，没有马上做广告。午饭以后，洗手间里有几个学生一边说话一边洗手，水一直在流。有的人走了，水还没有关好。我们觉得，节约用水应该从这些小事做起，就决定记录大家用水的习惯，看看可以怎样改变。",
-      "有的同学建议买新机器，也有人说，只要大家小心一点儿，就能少用很多水。我们把具体的记录交给老师，又请同学在用完水后认真检查。一个星期以后，大家用的水比以前少了。学校的小记者来问我们有什么经验。组长说，这件事看起来很小，可是要坚持做并不简单。我们还想继续观察，让更多的人参加这次活动。"
+      {
+        "hanzi": "学校最近开展了一次环保活动。我们小组先去观察大家平时怎样用水，没有马上做广告。午饭以后，洗手间里有几个学生一边说话一边洗手，水一直在流。有的人走了，水还没有关好。我们觉得，节约用水应该从这些小事做起，就决定记录大家用水的习惯，看看可以怎样改变。",
+        "pinyin": "Xuéxiào zuìjìn kāizhǎn le yī cì huánbǎo huódòng. Wǒmen xiǎozǔ xiān qù guānchá dàjiā píngshí zěnyàng yòng shuǐ, méiyǒu mǎshàng zuò guǎnggào. Wǔfàn yǐhòu, xǐshǒujiān lǐ yǒu jǐ ge xuésheng yībiān shuōhuà yībiān xǐ shǒu, shuǐ yīzhí zài liú. Yǒu de rén zǒu le, shuǐ hái méiyǒu guān hǎo. Wǒmen juéde, jiéyuē yòng shuǐ yīnggāi cóng zhèxiē xiǎo shì zuò qǐ, jiù juédìng jìlù dàjiā yòng shuǐ de xíguàn, kànkan kěyǐ zěnyàng gǎibiàn.",
+        "translation": "Di recente la scuola ha avviato un’attività per la tutela dell’ambiente. Il nostro gruppo è andato prima a osservare come tutti usano abitualmente l’acqua, senza fare subito pubblicità all’iniziativa. Dopo pranzo, nei bagni, alcuni studenti si lavavano le mani chiacchierando e l’acqua continuava a scorrere. Alcuni se ne erano andati senza chiudere bene il rubinetto. Pensavamo che il risparmio d’acqua dovesse cominciare da queste piccole cose, così abbiamo deciso di annotare le abitudini di tutti nell’uso dell’acqua e vedere come si potessero cambiare."
+      },
+      {
+        "hanzi": "有的同学建议买新机器，也有人说，只要大家小心一点儿，就能少用很多水。我们把具体的记录交给老师，又请同学在用完水后认真检查。一个星期以后，大家用的水比以前少了。学校的小记者来问我们有什么经验。组长说，这件事看起来很小，可是要坚持做并不简单。我们还想继续观察，让更多的人参加这次活动。",
+        "pinyin": "Yǒu de tóngxué jiànyì mǎi xīn jīqì, yě yǒu rén shuō, zhǐyào dàjiā xiǎoxīn yīdiǎnr, jiù néng shǎo yòng hěn duō shuǐ. Wǒmen bǎ jùtǐ de jìlù jiāo gěi lǎoshī, yòu qǐng tóngxué zài yòng wán shuǐ hòu rènzhēn jiǎnchá. Yī ge xīngqī yǐhòu, dàjiā yòng de shuǐ bǐ yǐqián shǎo le. Xuéxiào de xiǎo jìzhě lái wèn wǒmen yǒu shénme jīngyàn. Zǔzhǎng shuō, zhè jiàn shì kàn qǐ lái hěn xiǎo, kěshì yào jiānchí zuò bìng bù jiǎndān. Wǒmen hái xiǎng jìxù guānchá, ràng gèng duō de rén cānjiā zhè cì huódòng.",
+        "translation": "Alcuni compagni hanno proposto di acquistare nuove macchine; altri hanno detto che basterebbe un po’ più di attenzione da parte di tutti per usare molta meno acqua. Abbiamo consegnato all’insegnante le annotazioni dettagliate e chiesto ai compagni di controllare con cura dopo aver finito di usare l’acqua. Dopo una settimana tutti consumavano meno acqua di prima. I giovani giornalisti della scuola sono venuti a chiederci quale esperienza avessimo maturato. Il capogruppo ha detto che questa può sembrare una piccola cosa, ma portarla avanti con costanza non è affatto semplice. Vogliamo continuare a osservare e far partecipare più persone a questa attività."
+      }
     ],
     "grammarIds": ["G3-035", "G2-004", "G3-039"]
   },
@@ -48,8 +88,16 @@
     "id": "R3-06",
     "title": "Un viaggio per ascoltare il paese",
     "paragraphs": [
-      "放假前，我和朋友请旅行社帮忙安排去南部农村的旅行。我们不想只坐车看景色，还希望听当地人讲自己的生活。出发那天，我带了地图和手机，准备录音，朋友负责看路线。到了村里，一位老太太请我们到家里喝茶。她说，村子以前没有大路，去城里要走很久，现在坐车就方便多了。",
-      "老太太还给我们唱了民间的歌。我一句也听不懂，她就慢慢地讲给我听。我问能不能录音，她高兴地答应了。朋友原来怕我们和村里人没有话说，后来也问了很多问题。我们越听越觉得有意思。认识一个地方，不能只看地图，还需要理解这里的人。回去以后，我想把这些声音带到课堂上，让同学们也听听。"
+      {
+        "hanzi": "放假前，我和朋友请旅行社帮忙安排去南部农村的旅行。我们不想只坐车看景色，还希望听当地人讲自己的生活。出发那天，我带了地图和手机，准备录音，朋友负责看路线。到了村里，一位老太太请我们到家里喝茶。她说，村子以前没有大路，去城里要走很久，现在坐车就方便多了。",
+        "pinyin": "Fàng jià qián, wǒ hé péngyou qǐng lǚxíngshè bāngmáng ānpái qù nánbù nóngcūn de lǚxíng. Wǒmen bù xiǎng zhǐ zuò chē kàn jǐngsè, hái xīwàng tīng dāngdì rén jiǎng zìjǐ de shēnghuó. Chūfā nà tiān, wǒ dài le dìtú hé shǒujī, zhǔnbèi lù yīn, péngyou fùzé kàn lùxiàn. Dào le cūn lǐ, yī wèi lǎotàitai qǐng wǒmen dào jiā lǐ hē chá. Tā shuō, cūnzi yǐqián méiyǒu dà lù, qù chéng lǐ yào zǒu hěn jiǔ, xiànzài zuò chē jiù fāngbiàn duō le.",
+        "translation": "Prima delle vacanze, io e un amico abbiamo chiesto a un’agenzia di viaggi di aiutarci a organizzare un viaggio nelle campagne del sud. Non volevamo limitarci a guardare il paesaggio da un veicolo: speravamo anche di ascoltare gli abitanti del posto raccontare la propria vita. Il giorno della partenza ho portato una cartina e il cellulare, pronto a registrare, mentre il mio amico si occupava dell’itinerario. Arrivati al villaggio, un’anziana signora ci ha invitati a bere il tè a casa sua. Ci ha detto che un tempo il villaggio non aveva una strada grande e per andare in città bisognava camminare a lungo; adesso, con i mezzi, è molto più comodo."
+      },
+      {
+        "hanzi": "老太太还给我们唱了民间的歌。我一句也听不懂，她就慢慢地讲给我听。我问能不能录音，她高兴地答应了。朋友原来怕我们和村里人没有话说，后来也问了很多问题。我们越听越觉得有意思。认识一个地方，不能只看地图，还需要理解这里的人。回去以后，我想把这些声音带到课堂上，让同学们也听听。",
+        "pinyin": "Lǎotàitai hái gěi wǒmen chàng le mínjiān de gē. Wǒ yī jù yě tīng bù dǒng, tā jiù mànmàn de jiǎng gěi wǒ tīng. Wǒ wèn néng bù néng lù yīn, tā gāoxìng de dāying le. Péngyou yuánlái pà wǒmen hé cūn lǐ rén méiyǒu huà shuō, hòulái yě wèn le hěn duō wèntí. Wǒmen yuè tīng yuè juéde yǒu yìsi. Rènshi yī ge dìfang, bù néng zhǐ kàn dìtú, hái xūyào lǐjiě zhèlǐ de rén. Huí qù yǐhòu, wǒ xiǎng bǎ zhèxiē shēngyīn dài dào kètáng shàng, ràng tóngxuémen yě tīngting.",
+        "translation": "L’anziana signora ci ha anche cantato delle canzoni popolari. Non ne capivo neppure una frase, così me le ha spiegate lentamente. Le ho chiesto se potevo registrare e lei ha accettato con gioia. Il mio amico inizialmente temeva che non avremmo avuto nulla da dire agli abitanti del villaggio, ma poi anche lui ha fatto molte domande. Più ascoltavamo, più ci sembrava interessante. Per conoscere un luogo non basta guardare la cartina: bisogna anche capire le persone che ci vivono. Al ritorno vorrei portare queste voci in classe, perché anche i compagni possano ascoltarle."
+      }
     ],
     "grammarIds": ["G3-041", "G3-042", "G3-044", "G3-048", "G2-004", "G3-002"]
   },
@@ -57,8 +105,16 @@
     "id": "R3-07",
     "title": "Una corsa senza classifica",
     "paragraphs": [
-      "哥哥喜欢跑步，但是我以前觉得跑步太累，只愿意在河边散步。春天的时候，哥哥说，不一定要参加比赛，也不用总想着排名，慢慢跑也很好。我跟他去了河边。那天有风，桥上的人不多，我跑了不到十分钟，就累得很，想坐下休息。哥哥没有批评我，只说下次可以少跑一点儿。",
-      "后来，我们一个星期去三次。我跑步跑了一个月，发现自己已经能从家门口跑到那座桥了。有一天，哥哥有事，我就自己出门。一个常见面的老人认出了我，亲切地问，今天怎么只有你一个人。我笑着说，哥哥没来，我也可以跑。到了桥上，我看见河水在太阳下很亮，忽然觉得，不一定要得第一名，也有可以庆祝的事。"
+      {
+        "hanzi": "哥哥喜欢跑步，但是我以前觉得跑步太累，只愿意在河边散步。春天的时候，哥哥说，不一定要参加比赛，也不用总想着排名，慢慢跑也很好。我跟他去了河边。那天有风，桥上的人不多，我跑了不到十分钟，就累得很，想坐下休息。哥哥没有批评我，只说下次可以少跑一点儿。",
+        "pinyin": "Gēge xǐhuan pǎo bù, dànshì wǒ yǐqián juéde pǎo bù tài lèi, zhǐ yuànyì zài hé biān sàn bù. Chūntiān de shíhou, gēge shuō, bù yīdìng yào cānjiā bǐsài, yě bùyòng zǒng xiǎng zhe páimíng, mànmàn pǎo yě hěn hǎo. Wǒ gēn tā qù le hé biān. Nà tiān yǒu fēng, qiáo shàng de rén bù duō, wǒ pǎo le bù dào shí fēnzhōng, jiù lèi de hěn, xiǎng zuò xià xiūxi. Gēge méiyǒu pīpíng wǒ, zhǐ shuō xià cì kěyǐ shǎo pǎo yīdiǎnr.",
+        "translation": "A mio fratello maggiore piace correre, ma prima io pensavo che fosse troppo faticoso e volevo soltanto passeggiare lungo il fiume. In primavera mio fratello mi ha detto che non è necessario partecipare a gare né pensare sempre alla classifica: anche correre piano va benissimo. Sono andato con lui lungo il fiume. Quel giorno c’era vento e sul ponte c’erano poche persone. Dopo meno di dieci minuti di corsa ero già molto stanco e volevo sedermi a riposare. Mio fratello non mi ha criticato: ha detto soltanto che la prossima volta avrei potuto correre un po’ meno."
+      },
+      {
+        "hanzi": "后来，我们一个星期去三次。我跑步跑了一个月，发现自己已经能从家门口跑到那座桥了。有一天，哥哥有事，我就自己出门。一个常见面的老人认出了我，亲切地问，今天怎么只有你一个人。我笑着说，哥哥没来，我也可以跑。到了桥上，我看见河水在太阳下很亮，忽然觉得，不一定要得第一名，也有可以庆祝的事。",
+        "pinyin": "Hòulái, wǒmen yī ge xīngqī qù sān cì. Wǒ pǎo bù pǎo le yī ge yuè, fāxiàn zìjǐ yǐjīng néng cóng jiā ménkǒu pǎo dào nà zuò qiáo le. Yǒu yī tiān, gēge yǒu shì, wǒ jiù zìjǐ chū mén. Yī ge cháng jiàn miàn de lǎorén rèn chū le wǒ, qīnqiè de wèn, jīntiān zěnme zhǐ yǒu nǐ yī ge rén. Wǒ xiào zhe shuō, gēge méi lái, wǒ yě kěyǐ pǎo. Dào le qiáo shàng, wǒ kànjiàn hé shuǐ zài tàiyáng xià hěn liàng, hūrán juéde, bù yīdìng yào dé dì yī míng, yě yǒu kěyǐ qìngzhù de shì.",
+        "translation": "In seguito abbiamo cominciato ad andarci tre volte alla settimana. Dopo un mese di corsa mi sono accorto che ormai riuscivo a correre dalla porta di casa fino a quel ponte. Un giorno mio fratello aveva un impegno e sono uscito da solo. Un anziano che incontravamo spesso mi ha riconosciuto e mi ha chiesto con gentilezza come mai quel giorno fossi da solo. Ho risposto sorridendo che mio fratello non era venuto, ma che potevo correre lo stesso. Arrivato sul ponte, ho visto l’acqua del fiume brillare al sole e all’improvviso ho pensato che non è necessario arrivare primi per avere qualcosa da festeggiare."
+      }
     ],
     "grammarIds": ["G3-049", "G3-051"]
   },
@@ -66,8 +122,16 @@
     "id": "R3-08",
     "title": "Le domande in laboratorio",
     "paragraphs": [
-      "学校的实验室星期三下午开放，我们小组去看小树的生长。老师让我们先看这两组小树，再说它们有什么区别。一组在门口，一组在房间里面。我们给它们的水一样多，可是长得不一样。有的同学说是空气不同，也有人觉得和太阳有关系。老师没有马上回答，只让大家提出自己的问题。",
-      "首先，我们把看到的情况画在纸上，然后讨论下一次怎样做试验。朋友画得比我快，但是我记录得比他认真，我们就一起完成一份报告。我一会儿看门口的小树，一会儿看桌子上的记录，发现自己还有不少问题。实际上，这次活动不只是看小树，更是学习怎样提问。我们同意下星期提前来，继续看看这些小小的生命有什么变化。"
+      {
+        "hanzi": "学校的实验室星期三下午开放，我们小组去看小树的生长。老师让我们先看这两组小树，再说它们有什么区别。一组在门口，一组在房间里面。我们给它们的水一样多，可是长得不一样。有的同学说是空气不同，也有人觉得和太阳有关系。老师没有马上回答，只让大家提出自己的问题。",
+        "pinyin": "Xuéxiào de shíyànshì xīngqīsān xiàwǔ kāifàng, wǒmen xiǎozǔ qù kàn xiǎo shù de shēngzhǎng. Lǎoshī ràng wǒmen xiān kàn zhè liǎng zǔ xiǎo shù, zài shuō tāmen yǒu shénme qūbié. Yī zǔ zài ménkǒu, yī zǔ zài fángjiān lǐmiàn. Wǒmen gěi tāmen de shuǐ yīyàng duō, kěshì zhǎng de bù yīyàng. Yǒu de tóngxué shuō shì kōngqì bù tóng, yě yǒu rén juéde hé tàiyáng yǒu guānxi. Lǎoshī méiyǒu mǎshàng huídá, zhǐ ràng dàjiā tí chū zìjǐ de wèntí.",
+        "translation": "Il laboratorio della scuola è aperto il mercoledì pomeriggio e il nostro gruppo va a osservare la crescita di alcuni alberelli. L’insegnante ci chiede prima di guardare questi due gruppi di alberelli e poi di dire quali differenze ci sono tra loro. Un gruppo è all’ingresso e l’altro all’interno della stanza. Diamo loro la stessa quantità d’acqua, ma crescono in modo diverso. Alcuni compagni dicono che l’aria è diversa; altri pensano che c’entri il sole. L’insegnante non risponde subito, ma chiede soltanto a tutti di formulare le proprie domande."
+      },
+      {
+        "hanzi": "首先，我们把看到的情况画在纸上，然后讨论下一次怎样做试验。朋友画得比我快，但是我记录得比他认真，我们就一起完成一份报告。我一会儿看门口的小树，一会儿看桌子上的记录，发现自己还有不少问题。实际上，这次活动不只是看小树，更是学习怎样提问。我们同意下星期提前来，继续看看这些小小的生命有什么变化。",
+        "pinyin": "Shǒuxiān, wǒmen bǎ kàn dào de qíngkuàng huà zài zhǐ shàng, ránhòu tǎolùn xià yī cì zěnyàng zuò shìyàn. Péngyou huà de bǐ wǒ kuài, dànshì wǒ jìlù de bǐ tā rènzhēn, wǒmen jiù yīqǐ wánchéng yī fèn bàogào. Wǒ yīhuìr kàn ménkǒu de xiǎo shù, yīhuìr kàn zhuōzi shàng de jìlù, fāxiàn zìjǐ hái yǒu bù shǎo wèntí. Shíjìshàng, zhè cì huódòng bù zhǐ shì kàn xiǎo shù, gèng shì xuéxí zěnyàng tíwèn. Wǒmen tóngyì xià xīngqī tíqián lái, jìxù kànkan zhèxiē xiǎoxiǎo de shēngmìng yǒu shénme biànhuà.",
+        "translation": "Per prima cosa disegniamo su un foglio ciò che abbiamo osservato, poi discutiamo di come svolgere l’esperimento la prossima volta. Il mio amico disegna più in fretta di me, ma io prendo appunti con maggiore attenzione di lui, così completiamo insieme una relazione. Guardo ora gli alberelli all’ingresso, ora gli appunti sul tavolo, e mi accorgo di avere ancora parecchie domande. In realtà questa attività non consiste soltanto nell’osservare gli alberelli: soprattutto ci insegna a fare domande. Ci accordiamo per venire in anticipo la settimana prossima e continuare a osservare quali cambiamenti ci saranno in queste piccole vite."
+      }
     ],
     "grammarIds": ["G3-057", "G3-058", "G3-061", "G3-064", "G2-004", "G2-008"]
   },
@@ -75,8 +139,16 @@
     "id": "R3-09",
     "title": "Dietro il palco dell’opera",
     "paragraphs": [
-      "第一次去剧场看京剧时，我只看舞台上的演员，觉得他们的服装特别漂亮。今年，学校请一位演员来介绍京剧，我才知道舞台后面还有很多工作。为了准备一场演出，演员不仅要练习唱歌，还要练各种动作。老师请我们到舞台上试一试，我刚走了几步，就发现看起来简单的动作其实很难。",
-      "演出结束后，我们又和演员谈了一会儿。有人问，天天做同样的训练，会不会觉得没有意思。她说，难是难，不过每次演出都有新的感受，只有认真准备，才能让观众看得开心。听了这些话，我对京剧有了不同的印象。回家以后，我把那天的经历写成文章，发给一个外国朋友，希望他有机会也来认识这种艺术。"
+      {
+        "hanzi": "第一次去剧场看京剧时，我只看舞台上的演员，觉得他们的服装特别漂亮。今年，学校请一位演员来介绍京剧，我才知道舞台后面还有很多工作。为了准备一场演出，演员不仅要练习唱歌，还要练各种动作。老师请我们到舞台上试一试，我刚走了几步，就发现看起来简单的动作其实很难。",
+        "pinyin": "Dì yī cì qù jùchǎng kàn jīngjù shí, wǒ zhǐ kàn wǔtái shàng de yǎnyuán, juéde tāmen de fúzhuāng tèbié piàoliang. Jīnnián, xuéxiào qǐng yī wèi yǎnyuán lái jièshào jīngjù, wǒ cái zhīdào wǔtái hòumiàn hái yǒu hěn duō gōngzuò. Wèile zhǔnbèi yī chǎng yǎnchū, yǎnyuán bùjǐn yào liànxí chàng gē, hái yào liàn gè zhǒng dòngzuò. Lǎoshī qǐng wǒmen dào wǔtái shàng shì yī shì, wǒ gāng zǒu le jǐ bù, jiù fāxiàn kàn qǐ lái jiǎndān de dòngzuò qíshí hěn nán.",
+        "translation": "La prima volta che sono andato a teatro a vedere l’opera di Pechino, guardavo soltanto gli attori sul palco e trovavo i loro costumi particolarmente belli. Quest’anno la scuola ha invitato un’attrice a presentare l’opera di Pechino e solo allora ho saputo quanto lavoro ci sia anche dietro le quinte. Per preparare uno spettacolo, gli attori non devono soltanto esercitarsi nel canto, ma anche allenarsi in ogni tipo di movimento. L’insegnante ci ha invitati a salire sul palco e a provare. Avevo appena fatto qualche passo quando mi sono accorto che movimenti apparentemente semplici erano in realtà molto difficili."
+      },
+      {
+        "hanzi": "演出结束后，我们又和演员谈了一会儿。有人问，天天做同样的训练，会不会觉得没有意思。她说，难是难，不过每次演出都有新的感受，只有认真准备，才能让观众看得开心。听了这些话，我对京剧有了不同的印象。回家以后，我把那天的经历写成文章，发给一个外国朋友，希望他有机会也来认识这种艺术。",
+        "pinyin": "Yǎnchū jiéshù hòu, wǒmen yòu hé yǎnyuán tán le yīhuìr. Yǒu rén wèn, tiāntiān zuò tóngyàng de xùnliàn, huì bù huì juéde méiyǒu yìsi. Tā shuō, nán shì nán, bùguò měi cì yǎnchū dōu yǒu xīn de gǎnshòu, zhǐyǒu rènzhēn zhǔnbèi, cái néng ràng guānzhòng kàn de kāixīn. Tīng le zhèxiē huà, wǒ duì jīngjù yǒu le bù tóng de yìnxiàng. Huí jiā yǐhòu, wǒ bǎ nà tiān de jīnglì xiě chéng wénzhāng, fā gěi yī ge wàiguó péngyou, xīwàng tā yǒu jīhuì yě lái rènshi zhè zhǒng yìshù.",
+        "translation": "Dopo lo spettacolo abbiamo parlato ancora per un po’ con l’attrice. Qualcuno le ha chiesto se fare ogni giorno lo stesso allenamento non diventasse noioso. Ha risposto che è difficile, sì, ma che ogni spettacolo dà sensazioni nuove e che soltanto preparandosi con cura si può offrire al pubblico uno spettacolo piacevole. Dopo aver ascoltato queste parole, ho avuto un’impressione diversa dell’opera di Pechino. Tornato a casa, ho raccontato l’esperienza di quel giorno in un testo e l’ho inviato a un amico straniero, sperando che abbia occasione anche lui di venire a conoscere questa forma d’arte."
+      }
     ],
     "grammarIds": ["G3-066", "G3-068", "G3-070", "G3-072", "G2-004"]
   },
@@ -84,8 +156,16 @@
     "id": "R3-10",
     "title": "Volontari tra libri e storie",
     "paragraphs": [
-      "星期六，我第一次到图书馆当志愿者。图书馆的老师先介绍了我们的任务，再指导我们整理书架。几位小朋友要来参加读书活动，我们需要选一些适合他们的作品。我拿起一本画儿很多的书，发现作者就住在图书馆外的那条路上。图书馆的老师说，作者今天也会来，带大家用纸制作书里的小动物。",
-      "活动大约九点开始，作者到了就和孩子们坐在一起。他先问大家最想听什么故事，没有先讲很多道理。孩子们一边听，一边自己做小动物，整个房间充满了快乐。结束以后，我们总结了那天的工作，提出下次活动的主意。我整整忙了一上午，一点儿也不觉得累。看到孩子们主动把桌子整理干净，我觉得，这样的活动值得继续办下去。"
+      {
+        "hanzi": "星期六，我第一次到图书馆当志愿者。图书馆的老师先介绍了我们的任务，再指导我们整理书架。几位小朋友要来参加读书活动，我们需要选一些适合他们的作品。我拿起一本画儿很多的书，发现作者就住在图书馆外的那条路上。图书馆的老师说，作者今天也会来，带大家用纸制作书里的小动物。",
+        "pinyin": "Xīngqīliù, wǒ dì yī cì dào túshūguǎn dāng zhìyuànzhě. Túshūguǎn de lǎoshī xiān jièshào le wǒmen de rènwu, zài zhǐdǎo wǒmen zhěnglǐ shūjià. Jǐ wèi xiǎopéngyǒu yào lái cānjiā dú shū huódòng, wǒmen xūyào xuǎn yīxiē shìhé tāmen de zuòpǐn. Wǒ ná qǐ yī běn huàr hěn duō de shū, fāxiàn zuòzhě jiù zhù zài túshūguǎn wài de nà tiáo lù shàng. Túshūguǎn de lǎoshī shuō, zuòzhě jīntiān yě huì lái, dài dàjiā yòng zhǐ zhìzuò shū lǐ de xiǎo dòngwù.",
+        "translation": "Sabato sono andato per la prima volta in biblioteca come volontario. L’insegnante della biblioteca ci ha prima illustrato i nostri compiti, poi ci ha guidati nel riordinare gli scaffali. Alcuni bambini sarebbero venuti a partecipare a un’attività di lettura e dovevamo scegliere opere adatte a loro. Ho preso un libro con molte illustrazioni e ho scoperto che l’autore abitava proprio nella strada fuori dalla biblioteca. L’insegnante ci ha detto che anche l’autore sarebbe venuto quel giorno, per insegnare a tutti a realizzare con la carta i piccoli animali del libro."
+      },
+      {
+        "hanzi": "活动大约九点开始，作者到了就和孩子们坐在一起。他先问大家最想听什么故事，没有先讲很多道理。孩子们一边听，一边自己做小动物，整个房间充满了快乐。结束以后，我们总结了那天的工作，提出下次活动的主意。我整整忙了一上午，一点儿也不觉得累。看到孩子们主动把桌子整理干净，我觉得，这样的活动值得继续办下去。",
+        "pinyin": "Huódòng dàyuē jiǔ diǎn kāishǐ, zuòzhě dào le jiù hé háizimen zuò zài yīqǐ. Tā xiān wèn dàjiā zuì xiǎng tīng shénme gùshi, méiyǒu xiān jiǎng hěn duō dàoli. Háizimen yībiān tīng, yībiān zìjǐ zuò xiǎo dòngwù, zhěng ge fángjiān chōngmǎn le kuàilè. Jiéshù yǐhòu, wǒmen zǒngjié le nà tiān de gōngzuò, tí chū xià cì huódòng de zhǔyi. Wǒ zhěngzhěng máng le yī shàngwǔ, yīdiǎnr yě bù juéde lèi. Kàn dào háizimen zhǔdòng bǎ zhuōzi zhěnglǐ gānjìng, wǒ juéde, zhèyàng de huódòng zhíde jìxù bàn xià qù.",
+        "translation": "L’attività è iniziata verso le nove e, appena arrivato, l’autore si è seduto insieme ai bambini. Per prima cosa ha chiesto quale storia volessero ascoltare di più, senza cominciare con tanti discorsi su come ci si deve comportare. I bambini ascoltavano e intanto realizzavano da soli i piccoli animali; tutta la stanza era piena di allegria. Alla fine abbiamo fatto il punto sul lavoro di quel giorno e proposto idee per l’attività successiva. Sono rimasto occupato per l’intera mattinata, senza sentirmi minimamente stanco. Vedendo i bambini riordinare e pulire spontaneamente il tavolo, ho pensato che valesse la pena continuare a organizzare attività come questa."
+      }
     ],
     "grammarIds": ["G3-073", "G3-074", "G3-075"]
   }

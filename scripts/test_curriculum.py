@@ -40,6 +40,17 @@ class CurriculumTest(unittest.TestCase):
         plan = {'level': 1, 'words': ['L1-0001'], 'grammar': ['G1-001']}
         self.assertFalse(c.validate_plan(data, plan)['ok'])
 
+    def test_contextual_neutral_tone_retains_all_unresolved_citation_ids(self):
+        data = corpus({1: [word('ought', '应', 'yīng')],
+                       2: [word('respond', '应', 'yìng', 2)]}, {})
+        result = c.segment('应', data.lexicon(2), pinyin='ying')
+        self.assertTrue(result['ok'])
+        self.assertEqual(result['wordIds'], ['ought', 'respond'])
+        self.assertFalse(c.segment('应', data.lexicon(1), pinyin='ying')['ok'])
+        ground, particle = word('ground', '地', 'dì'), word('particle', '地', 'de')
+        exact = c.segment('地', [ground, particle], pinyin='de')
+        self.assertEqual(exact['wordIds'], ['particle'])
+
     def test_unknown_characters_are_not_invented(self):
         result = c.segment('我看屋檐。', [word('w', '我', 'wǒ'), word('v', '看', 'kàn')])
         self.assertFalse(result['ok'])
@@ -77,6 +88,16 @@ class CurriculumTest(unittest.TestCase):
         self.assertEqual(result['wordIds'], ['look'])
         self.assertFalse(c.segment('看看', data.lexicon(2, {'guard'}),
                                    forms=forms, pinyin='kànkan')['ok'])
+
+    def test_neutral_reduplication_keeps_alternative_lexical_boundaries(self):
+        data = corpus({1: [word('able', '能', 'néng'), word('good', '好', 'hǎo'),
+                           word('pretty', '好看', 'hǎokàn'), word('look', '看', 'kàn')],
+                       2: [word('guard', '看', 'kān', 2)]}, {})
+        result = c.segment('能好好看看', data.lexicon(2), forms=data.forms_for({'G2-004'}),
+                           pinyin='Néng hǎohǎo kànkan')
+        self.assertTrue(result['ok'])
+        self.assertIn('look', result['wordIds'])
+        self.assertNotIn('guard', result['wordIds'])
 
     def test_expressive_interjection_requires_its_lexeme_and_rule(self):
         particle = word('L2-0001', '啊', 'a', 2)
@@ -126,12 +147,32 @@ class CurriculumTest(unittest.TestCase):
         data = corpus({1: current}, {1: [rule('G1-001'), rule('G1-002')]})
         plan = {'level': 1, 'words': [w['id'] for w in current], 'grammar': ['G1-001', 'G1-002']}
         readings = [{'id': f'R1-{i:02d}', 'title': 'Una persona',
-                     'paragraphs': ['我。'], 'grammarIds': []} for i in range(1, 11)]
+                     'paragraphs': [{'hanzi': '我。', 'pinyin': 'Wǒ.', 'translation': 'Io.'}],
+                     'grammarIds': []} for i in range(1, 11)]
         self.assertTrue(c.validate_readings(data, plan, readings)['ok'])
-        readings[0] = {**readings[0], 'paragraphs': ['你。']}
+        readings[0] = {**readings[0], 'paragraphs': [
+            {'hanzi': '你。', 'pinyin': 'Nǐ.', 'translation': 'Tu.'}]}
         self.assertFalse(c.validate_readings(data, plan, readings)['ok'])
-        readings[0] = {**readings[0], 'paragraphs': ['我。'], 'grammarIds': ['G1-002']}
+        readings[0] = {**readings[0], 'paragraphs': [
+            {'hanzi': '我。', 'pinyin': 'Wǒ.', 'translation': 'Io.'}], 'grammarIds': ['G1-002']}
         self.assertFalse(c.validate_readings(data, plan, readings)['ok'])
+
+    def test_reading_support_rejects_wrong_pronunciation_and_missing_translation(self):
+        current = [word('w', '我', 'wǒ')] + [
+            word(f'n{i}', hanzi, pinyin) for i, (hanzi, pinyin) in enumerate(
+                zip('一二三四五六七八九', ['yī', 'èr', 'sān', 'sì', 'wǔ', 'liù', 'qī', 'bā', 'jiǔ']))]
+        data = corpus({1: current}, {1: [rule('G1-001')]})
+        plan = {'level': 1, 'words': [w['id'] for w in current], 'grammar': ['G1-001']}
+        readings = [{'id': f'R1-{i:02d}', 'title': 'Una persona',
+                     'paragraphs': [{'hanzi': '我。', 'pinyin': 'Wǒ.', 'translation': 'Io.'}],
+                     'grammarIds': []} for i in range(1, 11)]
+        self.assertTrue(c.validate_readings(data, plan, readings)['ok'])
+        readings[-1]['paragraphs'][0]['pinyin'] = 'Nǐ.'
+        self.assertTrue(any(f['reason'] == 'pinyin_alignment_unresolved'
+                            for f in c.validate_readings(data, plan, readings)['failures']))
+        readings[-1]['paragraphs'][0] = {'hanzi': '我。', 'pinyin': 'Wǒ.', 'translation': ''}
+        self.assertTrue(any(f['reason'] == 'reading_support_fields'
+                            for f in c.validate_readings(data, plan, readings)['failures']))
 
 
 if __name__ == '__main__':

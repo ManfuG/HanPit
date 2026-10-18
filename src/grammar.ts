@@ -25,7 +25,7 @@ interface GrammarLesson {
 
 const cache = new Map<number, Promise<GrammarLesson>>();
 
-function loadRules(level: number): Promise<GrammarLesson> {
+export function loadRules(level: number): Promise<GrammarLesson> {
   let pending = cache.get(level);
   if (!pending) {
     pending = Promise.all([

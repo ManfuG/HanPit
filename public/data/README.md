@@ -70,7 +70,7 @@ English dictionaries do not always subdivide a reading exactly as the standard d
 
 ## Data license: CC BY-SA 3.0
 
-The **derived `level-*.json` vocabulary dataset**, including its adapted CC-CEDICT definitions and editorial dictionary adaptations, is distributed under the **Creative Commons Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0)**:
+The **derived `level-*.json` vocabulary dataset**, including its adapted CC-CEDICT definitions and editorial dictionary adaptations, and the **`word-italian-level-*.json` Italian adaptations of those glosses**, are distributed under the **Creative Commons Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0)**:
 
 - [License deed](https://creativecommons.org/licenses/by-sa/3.0/)
 - [Full legal code](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
@@ -123,9 +123,9 @@ For a block with N new words and R new rules, rule i may use the first `floor(N*
 
 Some grammatical forms are not independent flashcard entries. `scripts/sources/grammar-forms.json` records narrow exceptions evidenced by the owning official inventory entry, not arbitrary lexical additions. The checker constrains bound suffixes/prefixes and separated compounds, derives AA/AABB/A一A forms from known roots only when their rule is available, and distinguishes contextual interjection tones from the separate 啊 particle ID. Unknown content words and proper names are not given a free-character fallback. Example Pinyin disambiguates polyphonic IDs; unresolved readings fail rather than silently using another pronunciation.
 
-`readings-level-1.json` through `readings-level-7.json` contain **70 original HanPit passages**, ten per block, with Italian topic titles and Chinese paragraphs. They are not official examination texts or copied Ministry examples. Stage j permits the first `floor(N*j/10)` current words and the current rules whose cumulative word limit has been reached, plus all previous knowledge. `grammarIds` identifies actual targeted constructions and required grammatical-form owners; it is not a complete syntactic parse. Topics vary with the available vocabulary and later passages introduce words from their own new batch.
+`readings-level-1.json` through `readings-level-7.json` contain **70 original HanPit passages**, ten per block, with Italian topic titles and 193 paragraphs. Paragraphs now have `hanzi`, authored citation-tone `pinyin` and original Italian `translation`; the original Chinese remains unchanged. These are not official examination texts or copied Ministry examples. Stage j permits the first `floor(N*j/10)` current words and the current rules whose cumulative word limit has been reached, plus all previous knowledge. `grammarIds` identifies targeted constructions and required grammatical-form owners, including neutral verb reduplication; it is not a complete syntactic parse. No reading audio is generated.
 
-The word-prefix validator conservatively reports ambiguous written identities; it does not pretend to resolve every homograph’s meaning without Pinyin. Chinese syntax and discourse coherence also receive a separate editorial review against the available rules, not an automated-parser guarantee.
+The word-prefix validator now aligns the authored Pinyin, retaining distinct official lexical identities. Its dynamic-programming state keeps the preceding lexical context needed for neutral reduplication rather than pruning a valid reading at an ambiguous word boundary. A contextual neutral reading without its own dictionary entry retains all unresolved same-base citation identities; it cannot borrow a future-level reading or collapse an explicit neutral particle into another official entry. Chinese syntax and discourse coherence also receive separate editorial review, not an automated-parser guarantee or a claim of native-speaker review.
 
 ```sh
 npm run curriculum:check
@@ -134,6 +134,16 @@ npm run curriculum:build
 ```
 
 These commands use the Python standard library only and run offline. `curriculum:build` writes only missing, valid plans and never overwrites a frozen sequence. `curriculum:check` checks all saved plans and all seventy readings. After lesson changes, recheck the fixed prefixes and regenerate grammar audio; do not alter official IDs or rewrite existing review progress.
+
+## Test content
+
+`word-italian-level-{1..7}.json` maps all **11,092 official IDs** to concise Italian core glosses authored from the existing pronunciation-qualified English dictionary senses. This is an editorial translation/adaptation of the CC-CEDICT-derived data, not an official HSK translation. Original IDs remain distinct. Source attribution and CC BY-SA 3.0 above apply; unchanged English flashcard data and all existing audio remain intact.
+
+`test-pinyin.json` is a derived index of the **138 repeated written forms** and their distinct raw official Pinyin values across all seven blocks. Quiz distractors must exclude every valid reading of the displayed form, including a pronunciation belonging to a later block; loading a lower test does not grant access to that later vocabulary.
+
+Sentence-translation questions use the existing original grammar examples and Italian translations. Every attempt samples 15 distinct word IDs and five distinct grammar rules, balanced across four question types. Conservative gloss/concept/Chinese-content overlap filters reject synonymous and near-duplicate distractors; this is not a complete semantic parser or an official examination bank.
+
+`npm run tests:check` checks exact per-level Italian ID coverage and equality of the Pinyin index with the unchanged source vocabulary. `python3 scripts/check-tests.py --write-pinyin` rebuilds only the index. Content is shipped as local JSON; no translation model, remote service or reading/test audio is part of the client.
 
 ## Upstream MIT notices (retained)
 

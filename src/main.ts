@@ -4,7 +4,8 @@ import { openStorage, type StudyStorage } from './storage';
 import { createPronunciation } from './audio';
 import { createGrammar } from './grammar';
 import { createReadings } from './readings';
-import { loadCurriculum } from './curriculum';
+import { loadVocabulary } from './vocabulary';
+import { createTests, type TestsSection } from './tests';
 import type { Word } from './types';
 
 const element = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -19,8 +20,9 @@ const readings = createReadings(element('readings'));
 const gradeButtons = [...ratings.querySelectorAll<HTMLButtonElement>('button')];
 const dateFormat = new Intl.DateTimeFormat('it', { dateStyle: 'short', timeStyle: 'short' });
 const numberFormat = new Intl.NumberFormat('it');
-const cache = new Map<number, Promise<Word[]>>();
+const sectionTitles: Record<string, string> = { flashcards: 'Flashcard', grammar: 'Grammatica', readings: 'Letture', tests: 'Test' };
 let storage: StudyStorage;
+let tests: TestsSection | undefined;
 let words: Word[] = [];
 let current: Word | undefined;
 let revealed = false;
@@ -37,6 +39,9 @@ let needsStudyRender = false;
 
 function updateControls() {
   levelSelect.disabled = !ready || busy;
+  if (ready) {
+    for (const option of levelSelect.options) option.disabled = Number(option.value) > storage.unlockedLevel;
+  }
   revealButton.disabled = busy || deckLoading;
   gradeButtons.forEach(button => { button.disabled = busy || deckLoading; });
 }
@@ -45,34 +50,6 @@ function showError(error: unknown) {
   const message = error instanceof Error ? error.message : String(error);
   element('error').textContent = `Impossibile completare l’operazione. ${message}`;
   element('error').hidden = false;
-}
-
-async function loadDeck(target: number): Promise<Word[]> {
-  const levels = await Promise.all(Array.from({ length: target }, (_, index) => {
-    const n = index + 1;
-    let pending = cache.get(n);
-    if (!pending) {
-      pending = Promise.all([
-        fetch(`${import.meta.env.BASE_URL}data/level-${n}.json`)
-          .then(async response => {
-            if (!response.ok) throw new Error(`Vocabolario HSK ${n}: HTTP ${response.status}.`);
-            return await response.json() as Word[];
-          }),
-        loadCurriculum(n),
-      ])
-        .then(([levelWords, curriculum]) => {
-          const byId = new Map(levelWords.map(word => [word.id, word]));
-          return curriculum.words.map(id => byId.get(id)!);
-        })
-        .catch((error: unknown) => {
-          cache.delete(n);
-          throw error;
-        });
-      cache.set(n, pending);
-    }
-    return pending;
-  }));
-  return levels.flat();
 }
 
 function interval(due: Date, now: Date): string {
@@ -187,7 +164,7 @@ async function showDeck() {
   for (const id of ['new-count', 'due-count', 'studied-count']) element(id).textContent = '—';
   updateControls();
   try {
-    const nextWords = await loadDeck(target);
+    const nextWords = await loadVocabulary(target);
     if (request !== deckRequest || activeSection !== 'flashcards' || target !== level) return;
     words = nextWords;
     deckLevel = target;
@@ -213,9 +190,10 @@ function showSection() {
   flashcards.setAttribute('aria-busy', 'false');
   grammar.hide();
   readings.hide();
+  tests?.hide();
   element('error').hidden = true;
-  element('section-heading').hidden = activeSection === 'tests';
-  element('section-title').textContent = activeSection === 'grammar' ? 'Grammatica' : activeSection === 'readings' ? 'Letture' : 'Flashcard';
+  element('section-heading').hidden = false;
+  element('section-title').textContent = sectionTitles[activeSection]!;
   for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
     const active = tab.dataset.section === activeSection;
     if (active) tab.setAttribute('aria-current', 'page');
@@ -227,6 +205,7 @@ function showSection() {
   if (activeSection === 'flashcards') void showDeck();
   else if (activeSection === 'grammar') void grammar.show(level);
   else if (activeSection === 'readings') void readings.show(level);
+  else if (activeSection === 'tests') void tests?.show(level);
 }
 
 levelSelect.addEventListener('change', async () => {
@@ -236,6 +215,7 @@ levelSelect.addEventListener('change', async () => {
   deckLoading = false;
   grammar.hide();
   readings.hide();
+  tests?.hide();
   busy = true;
   levelSaving = true;
   updateControls();
@@ -285,6 +265,7 @@ document.addEventListener('visibilitychange', () => {
 async function start() {
   try {
     storage = await openStorage();
+    tests = createTests(element('tests'), storage, updateControls);
     level = storage.level;
     levelSelect.value = String(level);
     ready = true;

@@ -113,10 +113,14 @@ class Lexicon:
             return True
         if _toneless(candidate) != _toneless(actual):
             return False
-        # Citation vs contextual neutral/sandhi tones may vary, but never merge
-        # official homophones differentiated solely by tone (e.g. 得 dé/de).
-        alternatives = {p for p in self.readings.get(surface, ()) if _toneless(p) == _toneless(candidate)}
-        return len(alternatives) <= 1
+        # A contextual neutral reading can leave several citation identities
+        # unresolved. Retain all of them below, and never borrow a future-level
+        # reading. An explicit neutral dictionary entry (e.g. 地 de) stays distinct.
+        readings = self.readings.get(surface, set())
+        alternatives = {p for p in readings if _toneless(p) == _toneless(candidate)}
+        available = {_pinyin(p) for word in self.by_surface.get(surface, ()) for p in word['pinyin'].split('/')}
+        return len(alternatives) <= 1 or (
+            actual == _toneless(candidate) and actual not in readings and alternatives <= available)
 
 
 def _form_context(surface: str, text: str, start: int, end: int, mention: bool,
@@ -150,13 +154,15 @@ def _aabb_pinyin(reading: str) -> list[str]:
 def _span_segment(text: str, lexicon: Lexicon, forms: dict[str, tuple[str, ...]],
                   known: set[str], pinyin: str | None = None,
                   mention: bool = False, boundaries: frozenset[int] = frozenset()) -> dict:
-    # A state includes the consumed pinyin offset: polyphonic IDs are never
-    # collapsed by surface. Cost first prefers full lexemes, then known IDs.
+    # Neutral reduplication and bound forms depend on the preceding lexical
+    # identities; equal character/pinyin offsets alone are not equivalent states.
     target = _pinyin(pinyin) if pinyin is not None else None
-    states: dict[tuple[int, int], tuple[tuple, list[dict]]] = {(0, 0): ((0, 0, ()), [])}
+    history_size = 2 if target is not None and 'A一A' in forms else int(
+        '儿' in forms or (target is not None and 'AA' in forms))
+    states: dict[tuple, tuple[tuple, list[dict]]] = {(0, 0, (), False): ((0, 0, ()), [])}
     max_length = max(lexicon.max_length, max(map(len, forms), default=0))
     for start in range(len(text)):
-        for (position, pronunciation), (cost, tokens) in list(states.items()):
+        for (position, pronunciation, _, _), (cost, tokens) in list(states.items()):
             if position != start:
                 continue
             for end in range(start + 1, min(len(text), start + max_length) + 1):
@@ -197,22 +203,44 @@ def _span_segment(text: str, lexicon: Lexicon, forms: dict[str, tuple[str, ...]]
                                                       and tokens[-2]['surface'] == surface))
                                                  and _toneless(target[pronunciation:pronunciation + len(p)]) == target[pronunciation:pronunciation + len(p)]
                                                  and _toneless(p) == target[pronunciation:pronunciation + len(p)]))]
+                    repetition_id = None
+                    if start not in boundaries:
+                        if 'AA' in forms and tokens and tokens[-1]['surface'] == surface:
+                            repetition_id = tokens[-1]['id']
+                        elif ('A一A' in forms and len(tokens) >= 2 and tokens[-1]['surface'] == '一'
+                              and tokens[-2]['surface'] == surface):
+                            repetition_id = tokens[-2]['id']
                     for offset in offsets:
+                        actual = target[pronunciation:offset] if target is not None else ''
+                        neutral = actual and actual == _toneless(actual) and actual not in lexicon.readings.get(surface, ())
+                        raw_repeat = (text[max(0, start - len(surface)):start] == surface
+                                      or text[max(0, start - len(surface) - 1):start] == surface + '一')
+                        if (neutral and raw_repeat and len({p for p in lexicon.readings.get(surface, ()) if _toneless(p) == actual}) > 1
+                                and (repetition_id is None or identifier != repetition_id)):
+                            continue
                         identity = identifier or '@' + owners[0] + ':' + surface
                         new_cost = (cost[0] + 1, cost[1] + int(identifier is not None and identifier not in known),
                                     cost[2] + (identity,))
-                        key = (end, offset)
+                        token = {'surface': surface, 'id': identifier, 'start': start, 'end': end}
+                        if target is not None:
+                            token['pinyin'] = target[pronunciation:offset]
+                            if neutral and repetition_id == identifier:
+                                token['repetition'] = True
+                        if owners:
+                            token['grammarIds'] = list(owners)
+                        if surface == '澡':
+                            token['dependencyIds'] = [w['id'] for w in lexicon.by_surface.get('洗澡', [])]
+                        next_tokens = tokens + [token]
+                        history = tuple((t['surface'], t['id']) for t in next_tokens[-history_size:]) if history_size else ()
+                        clause_start = max((b for b in boundaries if b < end), default=0)
+                        washed = '澡' in forms and any(t['surface'] == '洗' and t['start'] >= clause_start for t in next_tokens)
+                        key = (end, offset, history, washed)
                         if key not in states or new_cost < states[key][0]:
-                            token = {'surface': surface, 'id': identifier, 'start': start, 'end': end}
-                            if owners:
-                                token['grammarIds'] = list(owners)
-                            if surface == '澡':
-                                token['dependencyIds'] = [w['id'] for w in lexicon.by_surface.get('洗澡', [])]
-                            states[key] = (new_cost, tokens + [token])
-    ends = [(cost, tokens) for (pos, pron), (cost, tokens) in states.items()
+                            states[key] = (new_cost, next_tokens)
+    ends = [(cost, tokens) for (pos, pron, _, _), (cost, tokens) in states.items()
             if pos == len(text) and (target is None or pron == len(target))]
     if not ends:
-        return {'ok': False, 'tokens': [], 'unmatchedAt': max((p for p, _ in states), default=0)}
+        return {'ok': False, 'tokens': [], 'unmatchedAt': max((key[0] for key in states), default=0)}
     _, tokens = min(ends, key=lambda item: item[0])
     return {'ok': True, 'tokens': tokens}
 
@@ -267,13 +295,20 @@ def segment(text: str, lexicon: Lexicon | Iterable[dict], *,
                 if len(entries) > 1:
                     candidates = [w['id'] for w in entries]
                     if pinyin and joined_tokens is not None and token['id']:
-                        chosen = lexicon.by_id[token['id']]
-                        candidates = [w['id'] for w in entries if _pinyin(w['pinyin']) == _pinyin(chosen['pinyin'])]
+                        actual = token.get('pinyin', '')
+                        if (actual and actual == _toneless(actual) and not token.get('repetition')
+                                and actual not in lexicon.readings.get(token['surface'], ())):
+                            candidates = [w['id'] for w in entries if any(
+                                _toneless(_pinyin(p)) == actual for p in w['pinyin'].split('/'))]
+                        else:
+                            chosen = lexicon.by_id[token['id']]
+                            candidates = [w['id'] for w in entries if _pinyin(w['pinyin']) == _pinyin(chosen['pinyin'])]
                     if len(candidates) > 1:
                         ambiguities.append({'snippet': token['surface'], 'chosenId': token['id'], 'candidateIds': candidates})
         cursor += len(snippet)
     if pinyin and joined_tokens is None and not failures:
-        failures.append({'reason': 'pinyin_alignment_unresolved', 'snippet': text, 'pinyin': pinyin})
+        failures.append({'reason': 'pinyin_alignment_unresolved', 'snippet': text, 'pinyin': pinyin,
+                         'unmatchedAt': aligned.get('unmatchedAt', 0)})
     return {'ok': not failures, 'tokens': tokens,
             'wordIds': sorted({t['id'] for t in tokens if t['id']} |
                               {identifier for item in ambiguities for identifier in item.get('candidateIds', [])} |
@@ -477,10 +512,20 @@ def validate_readings(corpus: Corpus, plan: dict, readings: list) -> dict:
         forms = corpus.forms_for(set(grammar) & allowance['grammarIds'])
         lexicon = corpus.lexicon(level)
         for number, paragraph in enumerate(paragraphs, 1):
-            if not isinstance(paragraph, str) or not HAN.search(paragraph) or re.search(r'[^\u3400-\u9fff\U00020000-\U0002fa1f〇，。？！；：、！？”“‘’（）《》—…\s]', paragraph):
+            if not isinstance(paragraph, dict) or set(paragraph) != {'hanzi', 'pinyin', 'translation'} or any(
+                    not isinstance(paragraph.get(field), str) or not paragraph[field].strip()
+                    for field in ('hanzi', 'pinyin', 'translation')):
+                failures.append({'id': identifier, 'paragraph': number, 'reason': 'reading_support_fields'})
+                continue
+            hanzi = paragraph['hanzi']
+            if not HAN.search(hanzi) or re.search(r'[^\u3400-\u9fff\U00020000-\U0002fa1f〇，。？！；：、！？”“‘’（）《》—…\s]', hanzi):
                 failures.append({'id': identifier, 'paragraph': number, 'reason': 'reading_chinese_only'})
                 continue
-            result = segment(paragraph, lexicon, forms=forms, known_ids=allowance['wordIds'])
+            if HAN.search(paragraph['pinyin']) or HAN.search(paragraph['translation']):
+                failures.append({'id': identifier, 'paragraph': number, 'reason': 'reading_support_language'})
+                continue
+            result = segment(hanzi, lexicon, forms=forms, known_ids=allowance['wordIds'],
+                             pinyin=paragraph['pinyin'])
             outside = sorted(set(result['wordIds']) - allowance['wordIds'])
             if outside:
                 failures.append({'reason': 'reading_words_outside_prefix', 'id': identifier,

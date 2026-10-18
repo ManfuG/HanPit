@@ -42,7 +42,7 @@ dd { margin: 0; font-size: 15px; font-variant-numeric: tabular-nums; font-weight
 .speak { margin: 20px auto 0; display: flex; align-items: center; gap: 8px; border: 1px solid var(--border); border-radius: 24px; background: white; padding: 8px 14px; font-size: 12px; color: var(--accent); }
 #speech-status { color: var(--muted); font-size: 12px; margin-bottom: 0; }
 .actions { margin-top: 18px; }
-.primary { background: var(--accent); color: white; border: 0; border-radius: 9px; padding: 17px; width: 100%; font-weight: 550; font-size: 14px; }
+.primary, .test-controls button { background: var(--accent); color: white; border: 0; border-radius: 9px; padding: 17px; width: 100%; font-weight: 550; font-size: 14px; }
 kbd { font-family: inherit; font-weight: 400; opacity: .55; font-size: 10px; margin-left: 8px; }
 .ratings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
 .ratings button { display: grid; grid-template-columns: 1fr auto; gap: 6px 0; padding: 14px; border: 1px solid var(--border); border-radius: 9px; background: white; text-align: left; color: #2c5146; }
@@ -72,6 +72,18 @@ kbd { font-family: inherit; font-weight: 400; opacity: .55; font-size: 10px; mar
 .grammar-example .grammar-pinyin { color: var(--accent); margin-bottom: 4px; }
 .grammar-example .speak { margin: 10px 0 0; }
 .grammar-example .grammar-audio-status { color: var(--muted); font-size: 12px; margin: 10px 0 0; }
+.reading-supports { display: flex; gap: 24px; margin: 20px 0; font-size: 14px; }
+.reading-supports label { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+.reading-body .reading-pinyin { color: var(--accent); font-size: 15px; line-height: 1.8; }
+.reading-body .reading-translation { font-size: 14px; line-height: 1.8; }
+.test-progress, .test-feedback { font-size: 14px; line-height: 1.7; }
+.test-question { border: 0; padding: 0; margin: 24px 0; min-width: 0; }
+.test-prompt { font-size: 24px; line-height: 1.7; overflow-wrap: anywhere; margin: 16px 0; }
+.test-options { display: grid; gap: 10px; }
+.test-options label { display: flex; align-items: flex-start; gap: 10px; padding: 14px; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; line-height: 1.7; overflow-wrap: anywhere; min-width: 0; }
+.test-options input { margin: 6px 0 0; flex-shrink: 0; }
+.test-controls { margin: 20px 0; }
+#test-status[role="alert"] { color: #91392e; font-size: 14px; line-height: 1.7; }
 @media (hover: hover) { button:not(:disabled):hover { filter: brightness(.96); } }
 @media (max-width: 540px) {
   .header { padding: 20px; }

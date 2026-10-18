@@ -1,9 +1,15 @@
 import { loadCurriculum } from './curriculum';
 
+export interface ReadingParagraph {
+  hanzi: string;
+  pinyin: string;
+  translation: string;
+}
+
 export interface Reading {
   id: string;
   title: string;
-  paragraphs: string[];
+  paragraphs: ReadingParagraph[];
   grammarIds: string[];
 }
 
@@ -42,7 +48,22 @@ export function createReadings(section: HTMLElement) {
   status.hidden = true;
   const list = document.createElement('div');
   list.id = 'readings-list';
-  section.append(status, list);
+  const supports = document.createElement('div');
+  supports.className = 'reading-supports';
+  function toggle(labelText: string, className: string) {
+    const label = document.createElement('label');
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.addEventListener('change', () => {
+      for (const text of list.querySelectorAll<HTMLElement>(`.${className}`)) text.hidden = !input.checked;
+    });
+    label.append(input, document.createTextNode(labelText));
+    supports.append(label);
+    return input;
+  }
+  const showPinyin = toggle('Pinyin', 'reading-pinyin');
+  const showTranslation = toggle('Traduzione', 'reading-translation');
+  section.append(status, supports, list);
   let request = 0;
   let active = false;
   let renderedLevel: number | undefined;
@@ -53,8 +74,18 @@ export function createReadings(section: HTMLElement) {
     body.lang = 'zh-CN';
     for (const paragraph of reading.paragraphs) {
       const text = document.createElement('p');
-      text.textContent = paragraph;
-      body.append(text);
+      text.textContent = paragraph.hanzi;
+      const pinyin = document.createElement('p');
+      pinyin.className = 'reading-pinyin';
+      pinyin.lang = 'zh-Latn';
+      pinyin.textContent = paragraph.pinyin;
+      pinyin.hidden = !showPinyin.checked;
+      const translation = document.createElement('p');
+      translation.className = 'reading-translation';
+      translation.lang = 'it';
+      translation.textContent = paragraph.translation;
+      translation.hidden = !showTranslation.checked;
+      body.append(text, pinyin, translation);
     }
     details.append(body);
   }
