@@ -8,6 +8,35 @@
     <title>HanPit</title>
   </head>
   <body>
+    <div class="page-garden" aria-hidden="true">
+      <svg class="garden-sprig" viewBox="0 0 180 650" fill="none" focusable="false">
+        <defs>
+          <g id="garden-sprig">
+            <path class="garden-stems" d="M90 650C38 480 130 275 82 40M84 500L35 432M84 420L135 342M95 330L45 260M92 240L135 170M88 145L52 90" />
+            <g class="garden-leaves">
+              <path d="M84 500Q10 490 20 420Q76 428 84 500ZM84 500Q148 480 153 425Q106 434 84 500Z" />
+              <path d="M84 420Q16 402 22 345Q67 350 84 420ZM84 420Q153 402 143 330Q96 349 84 420Z" />
+              <path d="M95 330Q25 319 30 247Q78 259 95 330ZM95 330Q153 306 151 255Q111 259 95 330Z" />
+              <path d="M92 240Q37 223 40 170Q84 180 92 240ZM92 240Q150 217 143 157Q102 171 92 240Z" />
+              <path d="M88 145Q35 124 42 77Q82 88 88 145ZM88 145Q137 121 125 73Q94 83 88 145Z" />
+            </g>
+            <g class="garden-stars">
+              <path d="M82 19L85 31L97 34L85 37L82 49L79 37L67 34L79 31Z" />
+              <circle cx="34" cy="300" r="2" /><circle cx="147" cy="466" r="2.5" /><circle cx="135" cy="122" r="1.5" />
+            </g>
+          </g>
+        </defs>
+        <use href="#garden-sprig" />
+      </svg>
+      <svg class="garden-sprig garden-sprig-right" viewBox="0 0 180 650" fill="none" focusable="false"><use href="#garden-sprig" /></svg>
+      <svg class="garden-orbits" viewBox="0 0 400 320" fill="none" focusable="false">
+        <g stroke="currentColor" stroke-width=".8" opacity=".2" transform="rotate(-28 200 160)">
+          <ellipse cx="200" cy="160" rx="184" ry="78" /><ellipse cx="200" cy="160" rx="145" ry="112" />
+          <ellipse cx="200" cy="160" rx="104" ry="104" stroke-dasharray="2 8" />
+        </g>
+        <g class="garden-stars"><circle cx="64" cy="166" r="3" /><circle cx="293" cy="73" r="5" /><path d="M168 51V65M161 58H175" stroke="currentColor" /></g>
+      </svg>
+    </div>
     <header class="header">
       <a class="brand" href="./" aria-label="HanPit, home"><span lang="zh-CN">汉</span> HanPit</a>
       <span class="standard">HSK 3.0</span>

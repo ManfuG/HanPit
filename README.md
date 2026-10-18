@@ -2,7 +2,7 @@
 
 Local-first Chinese study with HSK flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
 
-The interface shares Syne/Fraunces typography and rounded dark panels with QuantaPit and KnightPit, using a distinct forest-green and citron palette. Fonts are served locally; the four-section study layout is unchanged.
+The interface keeps its original system sans-serif typography and four-section study layout. Forest-green panels, citron accents, and static botanical/orbital SVG details echo the portfolio without external fonts, animation, or decorative text.
 
 ## Run
 
@@ -19,7 +19,7 @@ Open the URL printed by Vite. Static build: `npm run build`; production preview:
 
 `npm run build` writes `dist/`. Vite uses a relative base so the same build can be served at a domain root or a GitHub project subpath such as `/HanPit/`; data and audio requests use `import.meta.env.BASE_URL`. Serve the directory over HTTP(S), with the project URL ending in `/`, rather than opening `index.html` as a local file. Preview locally before any separately authorized upload.
 
-Only `dist/` is needed by a static host. It includes the local data/audio, font licenses and runtime dependency notice; keep those files together. Do not upload source environments or model weights. No deployment workflow, hosting activation or remote repository is configured by these instructions.
+Only `dist/` is needed by a static host. It includes the local data/audio and runtime dependency notice; keep those files together. Do not upload source environments or model weights. The GitHub workflow validates changes; it does not deploy a hosted site.
 
 Study progress remains in IndexedDB for the browser origin. Moving from localhost to a public domain does not transfer progress; projects on the same origin share the `hanpit` database even when hosted at different paths.
 
@@ -27,7 +27,7 @@ Study progress remains in IndexedDB for the browser origin. Moving from localhos
 
 There is **no project-wide application license** in this repository. Public source visibility alone does not grant general reuse rights to the application or original lesson/reading content. Choosing a license requires the rights holder's decision; none is inferred from dependency licenses.
 
-The adapted vocabulary dataset is CC BY-SA 3.0, upstream transcription notices are retained, and local Syne/Fraunces fonts use OFL 1.1. Kokoro's Apache-2.0 model license and synthesis attribution do not establish a blanket license for all app content or generated recordings. Scope, sources and bundled notices are listed in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+The adapted vocabulary dataset is CC BY-SA 3.0 and upstream transcription notices are retained. Kokoro's Apache-2.0 model license and synthesis attribution do not establish a blanket license for all app content or generated recordings. Scope, sources and bundled notices are listed in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## Flashcards
 
