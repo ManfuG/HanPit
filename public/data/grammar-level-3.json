@@ -4,8 +4,8 @@
     "level": 3,
     "sourceNo": 131,
     "title": "Prefissi per ordini e appellativi",
-    "pattern": "第 + numero; 老 / 小 + cognome",
-    "explanation": "第 forma i numeri ordinali. 老 e 小 davanti a un cognome sono appellativi familiari: richiamano rispettivamente anzianità o maggiore giovinezza, non equivalgono automaticamente a vecchio e piccolo.",
+    "pattern": "第 + numero; 老／小 + nome di persona o cognome",
+    "explanation": "第 forma i numeri ordinali. 老 e 小 possono aggiungere familiarità o un riferimento all'età, come in 老同学 e 小朋友. Davanti a un cognome sono appellativi familiari: richiamano rispettivamente anzianità o maggiore giovinezza, non equivalgono automaticamente a vecchio e piccolo.",
     "examples": [
       {
         "id": "G3-001-1",
@@ -15,9 +15,9 @@
       },
       {
         "id": "G3-001-2",
-        "hanzi": "老王，小李今天来吗？",
-        "pinyin": "Lǎo Wáng, Xiǎo Lǐ jīntiān lái ma?",
-        "translation": "Wang, oggi viene il giovane Li?"
+        "hanzi": "老同学带着小朋友来了。",
+        "pinyin": "Lǎo tóngxué dài zhe xiǎo péngyou lái le.",
+        "translation": "Un vecchio compagno di scuola è arrivato con un bambino."
       }
     ]
   },
@@ -131,8 +131,8 @@
     "examples": [
       {
         "id": "G3-006-1",
-        "hanzi": "这扇门我打不开。",
-        "pinyin": "Zhè shàn mén wǒ dǎ bù kāi.",
+        "hanzi": "这门我打不开。",
+        "pinyin": "Zhè mén wǒ dǎ bù kāi.",
         "translation": "Non riesco ad aprire questa porta."
       },
       {
@@ -165,8 +165,8 @@
       },
       {
         "id": "G3-007-3",
-        "hanzi": "我想吃点儿什么。",
-        "pinyin": "Wǒ xiǎng chī diǎnr shénme.",
+        "hanzi": "我想吃点什么。",
+        "pinyin": "Wǒ xiǎng chī diǎn shénme.",
         "translation": "Vorrei mangiare qualcosa."
       }
     ]
@@ -193,9 +193,9 @@
       },
       {
         "id": "G3-008-3",
-        "hanzi": "各组可以选择任何一种颜色。",
-        "pinyin": "Gè zǔ kěyǐ xuǎnzé rènhé yī zhǒng yánsè.",
-        "translation": "Ogni gruppo può scegliere un colore qualsiasi."
+        "hanzi": "各组可以用任何一种颜色。",
+        "pinyin": "Gè zǔ kěyǐ yòng rènhé yī zhǒng yánsè.",
+        "translation": "Ogni gruppo può usare un colore qualsiasi."
       },
       {
         "id": "G3-008-4",
@@ -215,8 +215,8 @@
     "examples": [
       {
         "id": "G3-009-1",
-        "hanzi": "桌上有一束花和两支笔。",
-        "pinyin": "Zhuō shang yǒu yī shù huā hé liǎng zhī bǐ.",
+        "hanzi": "桌子上有一束花和两支笔。",
+        "pinyin": "Zhuōzi shang yǒu yī shù huā hé liǎng zhī bǐ.",
         "translation": "Sul tavolo ci sono un mazzo di fiori e due penne."
       },
       {
@@ -321,9 +321,9 @@
     "examples": [
       {
         "id": "G3-013-1",
-        "hanzi": "屋里就我一个人。",
-        "pinyin": "Wū lǐ jiù wǒ yī ge rén.",
-        "translation": "In casa ci sono solo io."
+        "hanzi": "房间里就我一个人。",
+        "pinyin": "Fángjiān lǐ jiù wǒ yī ge rén.",
+        "translation": "Nella stanza ci sono solo io."
       },
       {
         "id": "G3-013-2",
@@ -361,9 +361,9 @@
       },
       {
         "id": "G3-014-3",
-        "hanzi": "她始终相信我，早已把我当成朋友。",
-        "pinyin": "Tā shǐzhōng xiāngxìn wǒ, zǎoyǐ bǎ wǒ dàngchéng péngyou.",
-        "translation": "Ha sempre avuto fiducia in me e mi considera un amico già da tempo."
+        "hanzi": "她始终相信我，早已和我一起工作。",
+        "pinyin": "Tā shǐzhōng xiāngxìn wǒ, zǎoyǐ hé wǒ yīqǐ gōngzuò.",
+        "translation": "Ha sempre avuto fiducia in me e lavora con me già da tempo."
       },
       {
         "id": "G3-014-4",
@@ -373,9 +373,9 @@
       },
       {
         "id": "G3-014-5",
-        "hanzi": "快迟到了，赶紧出门吧！",
-        "pinyin": "Kuài chídào le, gǎnjǐn chūmén ba!",
-        "translation": "Stiamo per fare tardi, usciamo subito!"
+        "hanzi": "快上课了，赶紧出门吧！",
+        "pinyin": "Kuài shàng kè le, gǎnjǐn chūmén ba!",
+        "translation": "La lezione sta per iniziare, usciamo subito!"
       }
     ]
   },
@@ -395,15 +395,15 @@
       },
       {
         "id": "G3-015-2",
-        "hanzi": "周末这里往往很热闹。",
-        "pinyin": "Zhōumò zhèlǐ wǎngwǎng hěn rènao.",
-        "translation": "Nel fine settimana qui c’è spesso molta animazione."
+        "hanzi": "周末这里往往有很多人。",
+        "pinyin": "Zhōumò zhèlǐ wǎngwǎng yǒu hěn duō rén.",
+        "translation": "Nel fine settimana qui c’è spesso molta gente."
       },
       {
         "id": "G3-015-3",
-        "hanzi": "他总是忘记带钥匙。",
-        "pinyin": "Tā zǒngshì wàngjì dài yàoshi.",
-        "translation": "Si dimentica sempre di portare le chiavi."
+        "hanzi": "他总是忘记带手机。",
+        "pinyin": "Tā zǒngshì wàngjì dài shǒujī.",
+        "translation": "Si dimentica sempre di portare il cellulare."
       }
     ]
   },
@@ -445,8 +445,8 @@
       },
       {
         "id": "G3-017-2",
-        "hanzi": "请尽量早点儿来。",
-        "pinyin": "Qǐng jǐnliàng zǎo diǎnr lái.",
+        "hanzi": "请尽量早点来。",
+        "pinyin": "Qǐng jǐnliàng zǎo diǎn lái.",
         "translation": "Cerca di venire un po’ prima, se possibile."
       },
       {
@@ -529,9 +529,9 @@
     "examples": [
       {
         "id": "G3-020-1",
-        "hanzi": "这趟车由南京开往北京。",
-        "pinyin": "Zhè tàng chē yóu Nánjīng kāi wǎng Běijīng.",
-        "translation": "Questo treno parte da Nanchino ed è diretto a Pechino."
+        "hanzi": "这辆车由上海开往北京。",
+        "pinyin": "Zhè liàng chē yóu Shànghǎi kāi wǎng Běijīng.",
+        "translation": "Questo mezzo parte da Shanghai ed è diretto a Pechino."
       },
       {
         "id": "G3-020-2",
@@ -557,9 +557,9 @@
       },
       {
         "id": "G3-021-2",
-        "hanzi": "自从认识你，我就不觉得孤单了。",
-        "pinyin": "Zìcóng rènshi nǐ, wǒ jiù bù juéde gūdān le.",
-        "translation": "Da quando ti conosco, non mi sento più solo."
+        "hanzi": "自从认识你，我就每天都很开心。",
+        "pinyin": "Zìcóng rènshi nǐ, wǒ jiù měi tiān dōu hěn kāixīn.",
+        "translation": "Da quando ti conosco, sono felice ogni giorno."
       }
     ]
   },
@@ -683,9 +683,9 @@
     "examples": [
       {
         "id": "G3-027-1",
-        "hanzi": "请把窗户关上。",
-        "pinyin": "Qǐng bǎ chuānghu guān shàng.",
-        "translation": "Chiudi la finestra, per favore."
+        "hanzi": "请把门关上。",
+        "pinyin": "Qǐng bǎ mén guān shàng.",
+        "translation": "Chiudi la porta, per favore."
       },
       {
         "id": "G3-027-2",
@@ -695,9 +695,9 @@
       },
       {
         "id": "G3-027-3",
-        "hanzi": "我的伞让他拿走了。",
-        "pinyin": "Wǒ de sǎn ràng tā ná zǒu le.",
-        "translation": "Lui ha portato via il mio ombrello."
+        "hanzi": "我的包让他拿走了。",
+        "pinyin": "Wǒ de bāo ràng tā ná zǒu le.",
+        "translation": "Lui ha portato via la mia borsa."
       }
     ]
   },
@@ -717,9 +717,9 @@
       },
       {
         "id": "G3-028-2",
-        "hanzi": "除了中文，她还会说法语。",
-        "pinyin": "Chúle Zhōngwén, tā hái huì shuō Fǎyǔ.",
-        "translation": "Oltre al cinese, sa parlare anche francese."
+        "hanzi": "除了中文，她还会说英语。",
+        "pinyin": "Chúle Zhōngwén, tā hái huì shuō Yīngyǔ.",
+        "translation": "Oltre al cinese, sa parlare anche inglese."
       }
     ]
   },
@@ -733,9 +733,9 @@
     "examples": [
       {
         "id": "G3-029-1",
-        "hanzi": "请按顺序上车。",
-        "pinyin": "Qǐng àn shùnxù shàng chē.",
-        "translation": "Salite sul mezzo in ordine, per favore."
+        "hanzi": "请按人数准备椅子。",
+        "pinyin": "Qǐng àn rénshù zhǔnbèi yǐzi.",
+        "translation": "Prepara le sedie in base al numero delle persone, per favore."
       },
       {
         "id": "G3-029-2",
@@ -801,19 +801,19 @@
     "sourceNo": 162,
     "title": "Sintagmi preposizionali, locali, a perno e appositivi",
     "pattern": "preposizione + oggetto; nome + posizione; verbo + persona + verbo; nome + apposizione",
-    "explanation": "Un sintagma preposizionale come 在家 indica una relazione, mentre un sintagma locale come 桌子下面 nomina una posizione. Nel sintagma a perno la persona è oggetto del primo verbo e soggetto del secondo, come 请他来. Nell’apposizione due espressioni identificano lo stesso referente, come 我们三个人 o 王老师.",
+    "explanation": "Un sintagma preposizionale come 在家 indica una relazione, mentre un sintagma locale come 桌子下面 nomina una posizione. Nel sintagma a perno la persona è oggetto del primo verbo e soggetto del secondo, come 请他来. Nell’apposizione due espressioni identificano lo stesso referente, come 我们三个人.",
     "examples": [
       {
         "id": "G3-032-1",
-        "hanzi": "我在家等你，钥匙在桌子下面。",
-        "pinyin": "Wǒ zài jiā děng nǐ, yàoshi zài zhuōzi xiàmiàn.",
-        "translation": "Ti aspetto a casa, le chiavi sono sotto il tavolo."
+        "hanzi": "我在家等你，手机在桌子下面。",
+        "pinyin": "Wǒ zài jiā děng nǐ, shǒujī zài zhuōzi xiàmian.",
+        "translation": "Ti aspetto a casa; il cellulare è sotto il tavolo."
       },
       {
         "id": "G3-032-2",
-        "hanzi": "我们三个人请王老师介绍一下学校。",
-        "pinyin": "Wǒmen sān ge rén qǐng Wáng lǎoshī jièshào yīxià xuéxiào.",
-        "translation": "Noi tre chiediamo al professor Wang di presentarci brevemente la scuola."
+        "hanzi": "我们三个人请老师介绍一下学校。",
+        "pinyin": "Wǒmen sān ge rén qǐng lǎoshī jièshào yīxià xuéxiào.",
+        "translation": "Noi tre chiediamo all'insegnante di presentarci brevemente la scuola."
       }
     ]
   },
@@ -845,7 +845,7 @@
     "sourceNo": 164,
     "title": "Espressioni a quattro caratteri con 不",
     "pattern": "不 + A + 不 + B",
-    "explanation": "不A不B coordina due negazioni e forma espressioni compatte, spesso già fissate nell’uso. Con qualità opposte può indicare equilibrio, come 不冷不热, oppure un comportamento, come 不慌不忙; non si possono combinare liberamente due parole qualsiasi.",
+    "explanation": "不A不B coordina due negazioni e forma espressioni compatte, spesso già fissate nell’uso. Con qualità opposte può indicare equilibrio, come 不冷不热, oppure un comportamento, come 不紧不慢; non si possono combinare liberamente due parole qualsiasi.",
     "examples": [
       {
         "id": "G3-034-1",
@@ -855,9 +855,9 @@
       },
       {
         "id": "G3-034-2",
-        "hanzi": "他不慌不忙地回答了问题。",
-        "pinyin": "Tā bù huāng bù máng de huídá le wèntí.",
-        "translation": "Ha risposto alla domanda senza agitarsi né affrettarsi."
+        "hanzi": "他说话不紧不慢，大家都听得很清楚。",
+        "pinyin": "Tā shuōhuà bù jǐn bù màn, dàjiā dōu tīng de hěn qīngchu.",
+        "translation": "Parla con calma, senza fretta, e tutti lo sentono chiaramente."
       }
     ]
   },
@@ -915,8 +915,8 @@
     "examples": [
       {
         "id": "G3-037-1",
-        "hanzi": "别着急，我们有的是时间。",
-        "pinyin": "Bié zháojí, wǒmen yǒu de shì shíjiān.",
+        "hanzi": "别急，我们有的是时间。",
+        "pinyin": "Bié jí, wǒmen yǒu de shì shíjiān.",
         "translation": "Non avere fretta, abbiamo tutto il tempo che vogliamo."
       },
       {
@@ -943,9 +943,9 @@
       },
       {
         "id": "G3-038-2",
-        "hanzi": "除了小王以外，大家都到了。",
-        "pinyin": "Chúle Xiǎo Wáng yǐwài, dàjiā dōu dào le.",
-        "translation": "Sono arrivati tutti tranne Wang."
+        "hanzi": "除了他以外，大家都到了。",
+        "pinyin": "Chúle tā yǐwài, dàjiā dōu dào le.",
+        "translation": "Sono arrivati tutti tranne lui."
       },
       {
         "id": "G3-038-3",
@@ -993,9 +993,9 @@
       },
       {
         "id": "G3-040-2",
-        "hanzi": "对孩子来说，睡眠很重要。",
-        "pinyin": "Duì háizi lái shuō, shuìmián hěn zhòngyào.",
-        "translation": "Per i bambini il sonno è molto importante."
+        "hanzi": "对孩子来说，睡觉很重要。",
+        "pinyin": "Duì háizi lái shuō, shuìjiào hěn zhòngyào.",
+        "translation": "Per i bambini dormire è molto importante."
       }
     ]
   },
@@ -1081,9 +1081,9 @@
       },
       {
         "id": "G3-044-2",
-        "hanzi": "孩子们都爱热闹。",
-        "pinyin": "Háizimen dōu ài rènao.",
-        "translation": "Ai bambini piace l’animazione."
+        "hanzi": "孩子们都爱漂亮。",
+        "pinyin": "Háizimen dōu ài piàoliang.",
+        "translation": "Ai bambini piace essere belli."
       },
       {
         "id": "G3-044-3",
@@ -1109,9 +1109,9 @@
       },
       {
         "id": "G3-045-2",
-        "hanzi": "这是老师推荐的电影。",
-        "pinyin": "Zhè shì lǎoshī tuījiàn de diànyǐng.",
-        "translation": "Questo è il film che ha consigliato l’insegnante."
+        "hanzi": "这是老师喜欢的电影。",
+        "pinyin": "Zhè shì lǎoshī xǐhuan de diànyǐng.",
+        "translation": "Questo è un film che piace all’insegnante."
       }
     ]
   },
@@ -1125,15 +1125,15 @@
     "examples": [
       {
         "id": "G3-046-1",
-        "hanzi": "我终于找到钥匙了。",
-        "pinyin": "Wǒ zhōngyú zhǎodào yàoshi le.",
-        "translation": "Finalmente ho trovato le chiavi."
+        "hanzi": "我终于找到手机了。",
+        "pinyin": "Wǒ zhōngyú zhǎodào shǒujī le.",
+        "translation": "Finalmente ho trovato il cellulare."
       },
       {
         "id": "G3-046-2",
-        "hanzi": "请记住这个地址。",
-        "pinyin": "Qǐng jìzhù zhège dìzhǐ.",
-        "translation": "Ricorda questo indirizzo, per favore."
+        "hanzi": "请记住这个地方。",
+        "pinyin": "Qǐng jì zhù zhège dìfang.",
+        "translation": "Ricordati di questo posto, per favore."
       },
       {
         "id": "G3-046-3",
@@ -1177,9 +1177,9 @@
       },
       {
         "id": "G3-047-5",
-        "hanzi": "请把箱子拿下去。",
-        "pinyin": "Qǐng bǎ xiāngzi ná xià qù.",
-        "translation": "Porta giù la valigia, per favore."
+        "hanzi": "请把书拿下去。",
+        "pinyin": "Qǐng bǎ shū ná xiàqù.",
+        "translation": "Porta giù il libro, per favore."
       }
     ]
   },
@@ -1199,9 +1199,9 @@
       },
       {
         "id": "G3-048-2",
-        "hanzi": "箱子太重，我搬不动。",
-        "pinyin": "Xiāngzi tài zhòng, wǒ bān bù dòng.",
-        "translation": "La valigia è troppo pesante, non riesco a spostarla."
+        "hanzi": "桌子太重，我搬不动。",
+        "pinyin": "Zhuōzi tài zhòng, wǒ bān bù dòng.",
+        "translation": "Il tavolo è troppo pesante, non riesco a spostarlo."
       },
       {
         "id": "G3-048-3",
@@ -1211,9 +1211,9 @@
       },
       {
         "id": "G3-048-4",
-        "hanzi": "这点儿工作我做得了。",
-        "pinyin": "Zhè diǎnr gōngzuò wǒ zuò de liǎo.",
-        "translation": "Riesco a fare questo poco lavoro."
+        "hanzi": "这点工作我做得了。",
+        "pinyin": "Zhè diǎn gōngzuò wǒ zuò de liǎo.",
+        "translation": "Questo po’ di lavoro riesco a farlo."
       }
     ]
   },
@@ -1267,9 +1267,9 @@
       },
       {
         "id": "G3-050-3",
-        "hanzi": "我去过杭州两次。",
-        "pinyin": "Wǒ qù guo Hángzhōu liǎng cì.",
-        "translation": "Sono stato a Hangzhou due volte."
+        "hanzi": "我去过北京两次。",
+        "pinyin": "Wǒ qù guo Běijīng liǎng cì.",
+        "translation": "Sono stato a Pechino due volte."
       }
     ]
   },
@@ -1333,9 +1333,9 @@
     "examples": [
       {
         "id": "G3-053-1",
-        "hanzi": "这辆车发动机很安静。",
-        "pinyin": "Zhè liàng chē fādòngjī hěn ānjìng.",
-        "translation": "Questa macchina ha un motore molto silenzioso."
+        "hanzi": "这辆车颜色很好看。",
+        "pinyin": "Zhè liàng chē yánsè hěn hǎokàn.",
+        "translation": "Questa macchina ha un bel colore."
       },
       {
         "id": "G3-053-2",
@@ -1385,9 +1385,9 @@
       },
       {
         "id": "G3-054-6",
-        "hanzi": "他把房间打扫得很干净。",
-        "pinyin": "Tā bǎ fángjiān dǎsǎo de hěn gānjìng.",
-        "translation": "Ha pulito la stanza molto bene."
+        "hanzi": "他把衣服洗得很干净。",
+        "pinyin": "Tā bǎ yīfu xǐ de hěn gānjìng.",
+        "translation": "Ha lavato i vestiti rendendoli molto puliti."
       }
     ]
   },
@@ -1407,9 +1407,9 @@
       },
       {
         "id": "G3-055-2",
-        "hanzi": "他的衣服叫雨淋湿了。",
-        "pinyin": "Tā de yīfu jiào yǔ lín shī le.",
-        "translation": "I suoi vestiti si sono inzuppati di pioggia."
+        "hanzi": "他的衣服叫弟弟洗坏了。",
+        "pinyin": "Tā de yīfu jiào dìdi xǐ huài le.",
+        "translation": "I suoi vestiti sono stati rovinati da suo fratello minore lavandoli."
       },
       {
         "id": "G3-055-3",
@@ -1591,9 +1591,9 @@
       },
       {
         "id": "G3-062-2",
-        "hanzi": "他一方面想去旅行，另一方面又担心花钱。",
-        "pinyin": "Tā yī fāngmiàn xiǎng qù lǚxíng, lìng yī fāngmiàn yòu dānxīn huā qián.",
-        "translation": "Da un lato vuole viaggiare, dall’altro si preoccupa della spesa."
+        "hanzi": "他一方面想去旅行，另一方面又不想花钱。",
+        "pinyin": "Tā yī fāngmiàn xiǎng qù lǚxíng, lìng yī fāngmiàn yòu bù xiǎng huā qián.",
+        "translation": "Da una parte vuole viaggiare, dall’altra non vuole spendere."
       }
     ]
   },
@@ -1613,9 +1613,9 @@
       },
       {
         "id": "G3-063-2",
-        "hanzi": "大家又唱歌，又跳舞，玩得很开心。",
-        "pinyin": "Dàjiā yòu chàng gē, yòu tiào wǔ, wán de hěn kāixīn.",
-        "translation": "Tutti cantano e ballano, divertendosi molto."
+        "hanzi": "大家又唱歌，又跳舞，都很开心。",
+        "pinyin": "Dàjiā yòu chàng gē, yòu tiào wǔ, dōu hěn kāixīn.",
+        "translation": "Tutti cantano e ballano e sono molto felici."
       }
     ]
   },
@@ -1657,9 +1657,9 @@
       },
       {
         "id": "G3-065-2",
-        "hanzi": "这家店价格便宜，并且可以送货。",
-        "pinyin": "Zhè jiā diàn jiàgé piányi, bìngqiě kěyǐ sòng huò.",
-        "translation": "Questo negozio ha prezzi bassi e inoltre effettua consegne."
+        "hanzi": "这家店价格便宜，并且服务很好。",
+        "pinyin": "Zhè jiā diàn jiàgé piányi, bìngqiě fúwù hěn hǎo.",
+        "translation": "Questo negozio ha prezzi bassi e offre anche un ottimo servizio."
       }
     ]
   },
@@ -1673,9 +1673,9 @@
     "examples": [
       {
         "id": "G3-066-1",
-        "hanzi": "她不仅会弹琴，而且会写歌。",
-        "pinyin": "Tā bùjǐn huì tán qín, érqiě huì xiě gē.",
-        "translation": "Non solo sa suonare, ma sa anche comporre canzoni."
+        "hanzi": "她不仅会唱歌，而且会写歌。",
+        "pinyin": "Tā bùjǐn huì chàng gē, érqiě huì xiě gē.",
+        "translation": "Non solo sa cantare, ma sa anche scrivere canzoni."
       },
       {
         "id": "G3-066-2",
@@ -1707,9 +1707,9 @@
       },
       {
         "id": "G3-067-2",
-        "hanzi": "钥匙不是在包里，就是在桌上。",
-        "pinyin": "Yàoshi bù shì zài bāo lǐ, jiù shì zài zhuō shang.",
-        "translation": "Le chiavi sono o nella borsa o sul tavolo."
+        "hanzi": "手机不是在包里，就是在桌子上。",
+        "pinyin": "Shǒujī bù shì zài bāo lǐ, jiù shì zài zhuōzi shang.",
+        "translation": "Il cellulare o è nella borsa o è sul tavolo."
       }
     ]
   },
@@ -1789,15 +1789,15 @@
     "examples": [
       {
         "id": "G3-071-1",
-        "hanzi": "由于他没带钥匙，所以进不了门。",
-        "pinyin": "Yóuyú tā méi dài yàoshi, suǒyǐ jìn bù liǎo mén.",
-        "translation": "Dato che non ha portato le chiavi, non riesce a entrare."
+        "hanzi": "由于他没带钱，所以买不了票。",
+        "pinyin": "Yóuyú tā méi dài qián, suǒyǐ mǎi bù liǎo piào.",
+        "translation": "Dato che non ha portato soldi, non può comprare il biglietto."
       },
       {
         "id": "G3-071-2",
-        "hanzi": "路上发生了事故，因此我们迟到了。",
-        "pinyin": "Lù shang fāshēng le shìgù, yīncǐ wǒmen chídào le.",
-        "translation": "C’è stato un incidente lungo la strada, perciò siamo arrivati tardi."
+        "hanzi": "路上发生了事故，因此我们没按时到达。",
+        "pinyin": "Lù shang fāshēng le shìgù, yīncǐ wǒmen méi ànshí dàodá.",
+        "translation": "Sulla strada c’è stato un incidente, perciò non siamo arrivati in orario."
       }
     ]
   },
@@ -1817,8 +1817,8 @@
       },
       {
         "id": "G3-072-2",
-        "hanzi": "为了早点儿到家，她决定坐出租车。",
-        "pinyin": "Wèile zǎo diǎnr dào jiā, tā juédìng zuò chūzūchē.",
+        "hanzi": "为了早点到家，她决定坐出租车。",
+        "pinyin": "Wèile zǎo diǎn dào jiā, tā juédìng zuò chūzūchē.",
         "translation": "Per arrivare a casa prima, ha deciso di prendere un taxi."
       }
     ]
@@ -1889,9 +1889,9 @@
       },
       {
         "id": "G3-075-2",
-        "hanzi": "这道菜一点儿也不辣。",
-        "pinyin": "Zhè dào cài yīdiǎnr yě bù là.",
-        "translation": "Questo piatto non è affatto piccante."
+        "hanzi": "这道菜一点儿也不甜。",
+        "pinyin": "Zhè dào cài yīdiǎnr yě bù tián.",
+        "translation": "Questo piatto non è per niente dolce."
       }
     ]
   },
@@ -1977,9 +1977,9 @@
       },
       {
         "id": "G3-079-2",
-        "hanzi": "孩子都上中学了，你还当他小。",
-        "pinyin": "Háizi dōu shàng zhōngxué le, nǐ hái dàng tā xiǎo.",
-        "translation": "Il ragazzo va già alle medie e tu lo consideri ancora piccolo."
+        "hanzi": "孩子都上中学了，你还说他小。",
+        "pinyin": "Háizi dōu shàng zhōngxué le, nǐ hái shuō tā xiǎo.",
+        "translation": "Il ragazzo va già alle medie e tu dici ancora che è piccolo."
       }
     ]
   },

@@ -37,9 +37,9 @@
       },
       {
         "id": "G4-002-2",
-        "hanzi": "别打扰人家工作。",
-        "pinyin": "Bié dǎrǎo rénjia gōngzuò.",
-        "translation": "Non disturbare quella persona mentre lavora."
+        "hanzi": "人家在工作，别一直问问题。",
+        "pinyin": "Rénjia zài gōngzuò, bié yīzhí wèn wèntí.",
+        "translation": "Sta lavorando: non continuare a fare domande."
       }
     ]
   },
@@ -59,8 +59,8 @@
       },
       {
         "id": "G4-003-2",
-        "hanzi": "桌上有两根筷子和一卷纸。",
-        "pinyin": "Zhuō shàng yǒu liǎng gēn kuàizi hé yī juǎn zhǐ.",
+        "hanzi": "桌子上有两根筷子和一卷纸。",
+        "pinyin": "Zhuōzi shang yǒu liǎng gēn kuàizi hé yī juǎn zhǐ.",
         "translation": "Sul tavolo ci sono due bacchette e un rotolo di carta."
       },
       {
@@ -81,15 +81,15 @@
     "examples": [
       {
         "id": "G4-004-1",
-        "hanzi": "他端着一碗汤，弄了一手油。",
-        "pinyin": "Tā duānzhe yī wǎn tāng，nòng le yī shǒu yóu.",
-        "translation": "Portava una ciotola di zuppa e si è riempito una mano d’olio."
+        "hanzi": "他喝了一碗汤，弄了一手油。",
+        "pinyin": "Tā hē le yī wǎn tāng, nòng le yī shǒu yóu.",
+        "translation": "Ha bevuto una ciotola di zuppa e si è sporcato tutta la mano d’olio."
       },
       {
         "id": "G4-004-2",
-        "hanzi": "她一脸汗，屋里还坐着一屋子人。",
-        "pinyin": "Tā yī liǎn hàn，wū lǐ hái zuòzhe yī wūzi rén.",
-        "translation": "Ha il viso coperto di sudore e nella stanza è ancora seduta una folla di persone."
+        "hanzi": "她一脸水，屋子里还坐着一屋子人。",
+        "pinyin": "Tā yī liǎn shuǐ, wūzi lǐ hái zuòzhe yī wūzi rén.",
+        "translation": "Ha il viso tutto bagnato e nella stanza è ancora seduta tanta gente da riempirla."
       },
       {
         "id": "G4-004-3",
@@ -121,9 +121,9 @@
     "examples": [
       {
         "id": "G4-005-1",
-        "hanzi": "雨后的空气格外清新。",
-        "pinyin": "Yǔ hòu de kōngqì géwài qīngxīn.",
-        "translation": "Dopo la pioggia l’aria è particolarmente fresca."
+        "hanzi": "雨后的空气格外干净。",
+        "pinyin": "Yǔ hòu de kōngqì géwài gānjìng.",
+        "translation": "Dopo la pioggia l’aria è particolarmente pulita."
       },
       {
         "id": "G4-005-2",
@@ -177,9 +177,9 @@
       },
       {
         "id": "G4-007-2",
-        "hanzi": "听到门铃，他急忙跑去开门。",
-        "pinyin": "Tīngdào ménlíng，tā jímáng pǎo qù kāimén.",
-        "translation": "Sentendo il campanello, è corso in fretta ad aprire."
+        "hanzi": "听到有人叫他，他急忙跑去开门。",
+        "pinyin": "Tīngdào yǒu rén jiào tā, tā jímáng pǎo qù kāi mén.",
+        "translation": "Sentendo qualcuno chiamarlo, è corso ad aprire la porta."
       },
       {
         "id": "G4-007-3",
@@ -199,9 +199,9 @@
     "examples": [
       {
         "id": "G4-008-1",
-        "hanzi": "我一再提醒他带钥匙。",
-        "pinyin": "Wǒ yīzài tíxǐng tā dài yàoshi.",
-        "translation": "Gli ho ricordato più e più volte di portare le chiavi."
+        "hanzi": "我一再提醒他带手机。",
+        "pinyin": "Wǒ yīzài tíxǐng tā dài shǒujī.",
+        "translation": "Gli ho ricordato più e più volte di portare il cellulare."
       },
       {
         "id": "G4-008-2",
@@ -293,9 +293,9 @@
       },
       {
         "id": "G4-012-2",
-        "hanzi": "我劝了他，他反而更生气了。",
-        "pinyin": "Wǒ quàn le tā，tā fǎn'ér gèng shēngqì le.",
-        "translation": "Ho cercato di farlo ragionare, ma si è arrabbiato ancora di più."
+        "hanzi": "我向他解释，他反而更生气了。",
+        "pinyin": "Wǒ xiàng tā jiěshì, tā fǎn’ér gèng shēngqì le.",
+        "translation": "Gli ho dato una spiegazione, ma invece di calmarsi si è arrabbiato ancora di più."
       },
       {
         "id": "G4-012-3",
@@ -459,9 +459,9 @@
     "examples": [
       {
         "id": "G4-019-1",
-        "hanzi": "请填写表格并签名。",
-        "pinyin": "Qǐng tiánxiě biǎogé bìng qiānmíng.",
-        "translation": "Compila il modulo e firmalo."
+        "hanzi": "请填写表格并交给老师。",
+        "pinyin": "Qǐng tiánxiě biǎogé bìng jiāo gěi lǎoshī.",
+        "translation": "Compila il modulo e consegnalo all’insegnante."
       },
       {
         "id": "G4-019-2",
@@ -601,19 +601,19 @@
     "sourceNo": 235,
     "title": "Espressioni a quattro caratteri con 一",
     "pattern": "一 + elemento + 一 + elemento",
-    "explanation": "一A一B forma espressioni fisse che possono indicare unità minime considerate insieme o un modo di agire. Il valore non è sempre letteralmente uno: 一心一意 significa con piena dedizione, 一言一行 ogni parola e ogni gesto.",
+    "explanation": "一A一B forma espressioni fisse che possono indicare unità minime considerate insieme o un modo di agire. 一举一动 indica ogni movimento e ogni gesto; 一来一往 descrive un movimento o uno scambio nelle due direzioni.",
     "examples": [
       {
         "id": "G4-024-1",
-        "hanzi": "她一心一意地照顾孩子。",
-        "pinyin": "Tā yī xīn yī yì de zhàogu háizi.",
-        "translation": "Si dedica con tutta se stessa alla cura del bambino."
+        "hanzi": "他的一举一动都很自然。",
+        "pinyin": "Tā de yī jǔ yī dòng dōu hěn zìrán.",
+        "translation": "Ogni suo movimento è molto naturale."
       },
       {
         "id": "G4-024-2",
-        "hanzi": "老师的一言一行都会影响学生。",
-        "pinyin": "Lǎoshī de yī yán yī xíng dōu huì yǐngxiǎng xuésheng.",
-        "translation": "Ogni parola e ogni gesto dell’insegnante possono influenzare gli studenti."
+        "hanzi": "他们一来一往地传球，练习了很久。",
+        "pinyin": "Tāmen yī lái yī wǎng de chuán qiú, liànxí le hěn jiǔ.",
+        "translation": "Si sono allenati a lungo passandosi la palla avanti e indietro."
       }
     ]
   },
@@ -837,9 +837,9 @@
       },
       {
         "id": "G4-034-2",
-        "hanzi": "他不参加很可惜。",
-        "pinyin": "Tā bù cānjiā hěn kěxī.",
-        "translation": "È un peccato che lui non partecipi."
+        "hanzi": "他不参加让我很难过。",
+        "pinyin": "Tā bù cānjiā ràng wǒ hěn nánguò.",
+        "translation": "Il fatto che non partecipi mi rattrista molto."
       }
     ]
   },
@@ -937,9 +937,9 @@
       },
       {
         "id": "G4-038-2",
-        "hanzi": "他把那封信给撕了。",
-        "pinyin": "Tā bǎ nà fēng xìn gěi sī le.",
-        "translation": "Ha strappato quella lettera."
+        "hanzi": "他把那封信给烧了。",
+        "pinyin": "Tā bǎ nà fēng xìn gěi shāo le.",
+        "translation": "Ha bruciato quella lettera."
       },
       {
         "id": "G4-038-3",
@@ -971,9 +971,9 @@
     "examples": [
       {
         "id": "G4-039-1",
-        "hanzi": "我的自行车被偷走了。",
-        "pinyin": "Wǒ de zìxíngchē bèi tōu zǒu le.",
-        "translation": "La mia bicicletta è stata rubata."
+        "hanzi": "我的自行车被骑走了。",
+        "pinyin": "Wǒ de zìxíngchē bèi qí zǒu le.",
+        "translation": "Qualcuno ha portato via la mia bicicletta pedalando."
       },
       {
         "id": "G4-039-2",
@@ -999,9 +999,9 @@
       },
       {
         "id": "G4-040-2",
-        "hanzi": "桌上少了一支笔。",
-        "pinyin": "Zhuō shàng shǎo le yī zhī bǐ.",
-        "translation": "Sul tavolo manca una penna rispetto a prima."
+        "hanzi": "桌子上拿走了一支笔。",
+        "pinyin": "Zhuōzi shang ná zǒu le yī zhī bǐ.",
+        "translation": "Dal tavolo è stata portata via una penna."
       },
       {
         "id": "G4-040-3",
@@ -1243,9 +1243,9 @@
       },
       {
         "id": "G4-050-2",
-        "hanzi": "请保存文件，否则修改会丢失。",
-        "pinyin": "Qǐng bǎocún wénjiàn，fǒuzé xiūgǎi huì diūshī.",
-        "translation": "Salva il file, altrimenti perderai le modifiche."
+        "hanzi": "请带上手机，否则我们联系不上你。",
+        "pinyin": "Qǐng dài shang shǒujī, fǒuzé wǒmen liánxì bù shàng nǐ.",
+        "translation": "Porta il cellulare, altrimenti non riusciremo a contattarti."
       }
     ]
   },
@@ -1325,9 +1325,9 @@
     "examples": [
       {
         "id": "G4-054-1",
-        "hanzi": "无论遇到什么困难，我们都不放弃。",
-        "pinyin": "Wúlùn yùdào shénme kùnnan，wǒmen dōu bù fàngqì.",
-        "translation": "Qualunque difficoltà incontriamo, non ci arrendiamo."
+        "hanzi": "无论遇到什么困难，我们都坚持下去。",
+        "pinyin": "Wúlùn yùdào shénme kùnnan, wǒmen dōu jiānchí xiàqù.",
+        "translation": "Qualunque difficoltà incontriamo, continuiamo a perseverare."
       },
       {
         "id": "G4-054-2",
@@ -1507,9 +1507,9 @@
       },
       {
         "id": "G4-062-2",
-        "hanzi": "我吃了这块蛋糕的三分之一。",
-        "pinyin": "Wǒ chī le zhè kuài dàngāo de sān fēn zhī yī.",
-        "translation": "Ho mangiato un terzo di questa fetta di torta."
+        "hanzi": "我吃了这块面包的三分之一。",
+        "pinyin": "Wǒ chī le zhè kuài miànbāo de sān fēn zhī yī.",
+        "translation": "Ho mangiato un terzo di questo pezzo di pane."
       },
       {
         "id": "G4-062-3",
@@ -1519,8 +1519,8 @@
       },
       {
         "id": "G4-062-4",
-        "hanzi": "这间房的面积是那间的两倍。",
-        "pinyin": "Zhè jiān fáng de miànjī shì nà jiān de liǎng bèi.",
+        "hanzi": "这间房间的面积是那间的两倍。",
+        "pinyin": "Zhè jiān fángjiān de miànjī shì nà jiān de liǎng bèi.",
         "translation": "Questa stanza ha una superficie doppia rispetto a quella."
       },
       {
@@ -1613,9 +1613,9 @@
     "examples": [
       {
         "id": "G4-066-1",
-        "hanzi": "连爷爷都会用这个软件。",
-        "pinyin": "Lián yéye dōu huì yòng zhè ge ruǎnjiàn.",
-        "translation": "Perfino il nonno sa usare questo programma."
+        "hanzi": "连爷爷都会用这台电脑。",
+        "pinyin": "Lián yéye dōu huì yòng zhè tái diànnǎo.",
+        "translation": "Perfino il nonno sa usare questo computer."
       },
       {
         "id": "G4-066-2",
@@ -1641,9 +1641,9 @@
       },
       {
         "id": "G4-067-2",
-        "hanzi": "这里可以免费试吃，不尝白不尝。",
-        "pinyin": "Zhèlǐ kěyǐ miǎnfèi shìchī，bù cháng bái bù cháng.",
-        "translation": "Qui si può assaggiare gratis: tanto vale approfittarne."
+        "hanzi": "这里可以免费吃，不吃白不吃。",
+        "pinyin": "Zhèlǐ kěyǐ miǎnfèi chī, bù chī bái bù chī.",
+        "translation": "Qui si può mangiare gratis: tanto vale approfittarne."
       }
     ]
   },

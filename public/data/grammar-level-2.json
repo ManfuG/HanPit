@@ -37,9 +37,9 @@
       },
       {
         "id": "G2-002-2",
-        "hanzi": "我们不该迟到。",
-        "pinyin": "Wǒmen bù gāi chídào.",
-        "translation": "Non dovremmo arrivare in ritardo."
+        "hanzi": "我们不该在这儿说话。",
+        "pinyin": "Wǒmen bù gāi zài zhèr shuōhuà.",
+        "translation": "Non dovremmo parlare qui."
       }
     ]
   },
@@ -60,7 +60,7 @@
       {
         "id": "G2-003-2",
         "hanzi": "她不愿意一个人去。",
-        "pinyin": "Tā bù yuànyì yī ge rén qù.",
+        "pinyin": "Tā bù yuànyì yī gè rén qù.",
         "translation": "Non vuole andarci da sola."
       }
     ]
@@ -75,9 +75,9 @@
     "examples": [
       {
         "id": "G2-004-1",
-        "hanzi": "你看看这张照片。",
-        "pinyin": "Nǐ kànkan zhè zhāng zhàopiàn.",
-        "translation": "Dai un’occhiata a questa foto."
+        "hanzi": "你看看这些照片。",
+        "pinyin": "Nǐ kànkan zhèxiē zhàopiàn.",
+        "translation": "Dai un’occhiata a queste foto."
       },
       {
         "id": "G2-004-2",
@@ -94,7 +94,7 @@
       {
         "id": "G2-004-4",
         "hanzi": "我们讨论讨论这个问题。",
-        "pinyin": "Wǒmen tǎolùn tǎolùn zhège wèntí.",
+        "pinyin": "Wǒmen tǎolùn tǎolùn zhègè wèntí.",
         "translation": "Discutiamo un po’ di questo problema."
       }
     ]
@@ -128,7 +128,7 @@
       {
         "id": "G2-005-4",
         "hanzi": "这个字怎样读？",
-        "pinyin": "Zhège zì zěnyàng dú?",
+        "pinyin": "Zhègè zì zěnyàng dú?",
         "translation": "Come si legge questo carattere?"
       }
     ]
@@ -161,9 +161,9 @@
       },
       {
         "id": "G2-006-4",
-        "hanzi": "这两只猫很小，它们很可爱。",
-        "pinyin": "Zhè liǎng zhī māo hěn xiǎo, tāmen hěn kě'ài.",
-        "translation": "Questi due gatti sono piccoli e molto carini."
+        "hanzi": "这些猫很小，它们很可爱。",
+        "pinyin": "Zhèxiē māo hěn xiǎo, tāmen hěn kě'ài.",
+        "translation": "Questi gatti sono piccoli e molto carini."
       }
     ]
   },
@@ -207,19 +207,19 @@
     "sourceNo": 56,
     "title": "Aggettivi raddoppiati",
     "pattern": "AA / AABB",
-    "explanation": "Il raddoppiamento rende una qualità vivida e concreta: 小 diventa 小小, 干净 diventa 干干净净. Queste forme possono descrivere uno stato o modificare un nome con 的; di norma non richiedono 很.",
+    "explanation": "Il raddoppiamento rende una qualità vivida e concreta: 小 diventa 小小, 高兴 diventa 高高兴兴. Queste forme possono descrivere uno stato o modificare un nome con 的; di norma non richiedono 很.",
     "examples": [
       {
         "id": "G2-008-1",
-        "hanzi": "她有一双大大的眼睛。",
-        "pinyin": "Tā yǒu yī shuāng dàdà de yǎnjing.",
-        "translation": "Ha due grandi occhi."
+        "hanzi": "她的眼睛大大的。",
+        "pinyin": "Tā de yǎnjing dàdà de.",
+        "translation": "Ha degli occhi proprio grandi."
       },
       {
         "id": "G2-008-2",
-        "hanzi": "房间里干干净净的。",
-        "pinyin": "Fángjiān lǐ gāngānjìngjìng de.",
-        "translation": "La stanza è tutta pulita."
+        "hanzi": "孩子们高高兴兴地回家了。",
+        "pinyin": "Háizimen gāogāoxìngxìng de huí jiā le.",
+        "translation": "I bambini sono tornati a casa tutti contenti."
       }
     ]
   },
@@ -233,20 +233,20 @@
     "examples": [
       {
         "id": "G2-009-1",
-        "hanzi": "这台电脑三千元。",
-        "pinyin": "Zhè tái diànnǎo sān qiān yuán.",
+        "hanzi": "这个电脑三千元。",
+        "pinyin": "Zhègè diànnǎo sān qiān yuán.",
         "translation": "Questo computer costa tremila yuan."
       },
       {
         "id": "G2-009-2",
-        "hanzi": "这个城市有两百万人。",
-        "pinyin": "Zhège chéngshì yǒu liǎng bǎi wàn rén.",
-        "translation": "Questa città ha due milioni di abitanti."
+        "hanzi": "这个国家有两百万人。",
+        "pinyin": "Zhègè guójiā yǒu liǎng bǎi wàn rén.",
+        "translation": "Questo paese ha due milioni di abitanti."
       },
       {
         "id": "G2-009-3",
         "hanzi": "那个国家有一亿人。",
-        "pinyin": "Nàge guójiā yǒu yī yì rén.",
+        "pinyin": "Nàgè guójiā yǒu yī yì rén.",
         "translation": "Quel paese ha cento milioni di abitanti."
       }
     ]
@@ -273,9 +273,9 @@
       },
       {
         "id": "G2-010-3",
-        "hanzi": "她买了一件上衣和一条裤子。",
-        "pinyin": "Tā mǎi le yī jiàn shàngyī hé yī tiáo kùzi.",
-        "translation": "Ha comprato una maglia e un paio di pantaloni."
+        "hanzi": "她穿着一件新衣服，走在一条小路上。",
+        "pinyin": "Tā chuān zhe yī jiàn xīn yīfu, zǒu zài yī tiáo xiǎo lù shàng.",
+        "translation": "Indossa un vestito nuovo e cammina lungo una stradina."
       }
     ]
   },
@@ -289,27 +289,27 @@
     "examples": [
       {
         "id": "G2-011-1",
-        "hanzi": "这篇文章我读了两遍。",
-        "pinyin": "Zhè piān wénzhāng wǒ dú le liǎng biàn.",
-        "translation": "Ho letto questo articolo due volte per intero."
+        "hanzi": "这篇课文我读了两遍。",
+        "pinyin": "Zhè piān kèwén wǒ dú le liǎng biàn.",
+        "translation": "Ho letto questo testo due volte per intero."
       },
       {
         "id": "G2-011-2",
-        "hanzi": "今年我回了三次家。",
-        "pinyin": "Jīnnián wǒ huí le sān cì jiā.",
-        "translation": "Quest’anno sono tornato a casa tre volte."
+        "hanzi": "我去了两次，他只去了一回。",
+        "pinyin": "Wǒ qù le liǎng cì, tā zhǐ qù le yī huí.",
+        "translation": "Io ci sono andato due volte, lui soltanto una."
       },
       {
         "id": "G2-011-3",
-        "hanzi": "我们看了一场球赛。",
-        "pinyin": "Wǒmen kàn le yī chǎng qiúsài.",
-        "translation": "Abbiamo visto una partita."
+        "hanzi": "我们看了一场电影。",
+        "pinyin": "Wǒmen kàn le yī chǎng diànyǐng.",
+        "translation": "Abbiamo assistito alla proiezione di un film."
       },
       {
         "id": "G2-011-4",
-        "hanzi": "他敲了两下门。",
-        "pinyin": "Tā qiāo le liǎng xià mén.",
-        "translation": "Ha bussato due volte alla porta."
+        "hanzi": "请看一下这个字。",
+        "pinyin": "Qǐng kàn yī xià zhègè zì.",
+        "translation": "Dai un’occhiata a questo carattere, per favore."
       }
     ]
   },
@@ -323,9 +323,9 @@
     "examples": [
       {
         "id": "G2-012-1",
-        "hanzi": "我每天走三十分钟。",
-        "pinyin": "Wǒ měi tiān zǒu sānshí fēnzhōng.",
-        "translation": "Cammino trenta minuti ogni giorno."
+        "hanzi": "我上午走了三十分钟。",
+        "pinyin": "Wǒ shàngwǔ zǒu le sānshí fēnzhōng.",
+        "translation": "Stamattina ho camminato per trenta minuti."
       },
       {
         "id": "G2-012-2",
@@ -465,15 +465,15 @@
       },
       {
         "id": "G2-016-2",
-        "hanzi": "你怎么老是迟到？",
-        "pinyin": "Nǐ zěnme lǎoshi chídào?",
-        "translation": "Come mai arrivi sempre in ritardo?"
+        "hanzi": "你怎么老是忘记带书？",
+        "pinyin": "Nǐ zěnme lǎoshì wàngjì dài shū?",
+        "translation": "Come mai dimentichi sempre di portare i libri?"
       },
       {
         "id": "G2-016-3",
-        "hanzi": "我又忘了带伞。",
-        "pinyin": "Wǒ yòu wàng le dài sǎn.",
-        "translation": "Ho dimenticato di nuovo l’ombrello."
+        "hanzi": "我又忘了带书。",
+        "pinyin": "Wǒ yòu wàng le dài shū.",
+        "translation": "Ho dimenticato di nuovo di portare i libri."
       },
       {
         "id": "G2-016-4",
@@ -537,8 +537,8 @@
     "examples": [
       {
         "id": "G2-019-1",
-        "hanzi": "你必须早点儿睡。",
-        "pinyin": "Nǐ bìxū zǎo diǎnr shuì.",
+        "hanzi": "你必须早一点儿睡觉。",
+        "pinyin": "Nǐ bìxū zǎo yīdiǎnr shuìjiào.",
         "translation": "Devi andare a dormire prima."
       },
       {
@@ -601,9 +601,9 @@
       },
       {
         "id": "G2-020-5",
-        "hanzi": "这双鞋正好合适。",
-        "pinyin": "Zhè shuāng xié zhènghǎo héshì.",
-        "translation": "Queste scarpe sono proprio della misura giusta."
+        "hanzi": "这件衣服正好合适。",
+        "pinyin": "Zhè jiàn yīfu zhènghǎo héshì.",
+        "translation": "Questo vestito è proprio della misura giusta."
       }
     ]
   },
@@ -661,9 +661,9 @@
     "examples": [
       {
         "id": "G2-023-1",
-        "hanzi": "她向窗外看。",
-        "pinyin": "Tā xiàng chuāng wài kàn.",
-        "translation": "Guarda fuori dalla finestra."
+        "hanzi": "她向门外看。",
+        "pinyin": "Tā xiàng mén wài kàn.",
+        "translation": "Guarda fuori dalla porta."
       },
       {
         "id": "G2-023-2",
@@ -771,9 +771,9 @@
     "examples": [
       {
         "id": "G2-028-1",
-        "hanzi": "我们为比赛做准备。",
-        "pinyin": "Wǒmen wèi bǐsài zuò zhǔnbèi.",
-        "translation": "Ci prepariamo per la gara."
+        "hanzi": "我们为考试做准备。",
+        "pinyin": "Wǒmen wèi kǎoshì zuò zhǔnbèi.",
+        "translation": "Ci prepariamo per l’esame."
       },
       {
         "id": "G2-028-2",
@@ -883,9 +883,9 @@
       },
       {
         "id": "G2-032-2",
-        "hanzi": "她没喝过这种茶。",
-        "pinyin": "Tā méi hē guo zhè zhǒng chá.",
-        "translation": "Non ha mai bevuto questo tipo di tè."
+        "hanzi": "她没喝过这里的茶。",
+        "pinyin": "Tā méi hē guo zhèlǐ de chá.",
+        "translation": "Non ha mai bevuto il tè di qui."
       }
     ]
   },
@@ -905,9 +905,9 @@
       },
       {
         "id": "G2-033-2",
-        "hanzi": "她穿着一件白衬衫。",
-        "pinyin": "Tā chuān zhe yī jiàn bái chènshān.",
-        "translation": "Indossa una camicia bianca."
+        "hanzi": "她穿着一件白色的衣服。",
+        "pinyin": "Tā chuān zhe yī jiàn báisè de yīfu.",
+        "translation": "Indossa un vestito bianco."
       }
     ]
   },
@@ -933,9 +933,9 @@
       },
       {
         "id": "G2-034-3",
-        "hanzi": "别担心，他会来的。",
-        "pinyin": "Bié dānxīn, tā huì lái de.",
-        "translation": "Non preoccuparti, verrà di sicuro."
+        "hanzi": "你放心，他会来的。",
+        "pinyin": "Nǐ fàngxīn, tā huì lái de.",
+        "translation": "Sta’ tranquillo, verrà di sicuro."
       }
     ]
   },
@@ -955,9 +955,9 @@
       },
       {
         "id": "G2-035-2",
-        "hanzi": "商店卖苹果、香蕉等水果。",
-        "pinyin": "Shāngdiàn mài píngguǒ, xiāngjiāo děng shuǐguǒ.",
-        "translation": "Il negozio vende mele, banane e altri frutti."
+        "hanzi": "商店卖面包、牛奶等食物。",
+        "pinyin": "Shāngdiàn mài miànbāo, niúnǎi děng shíwù.",
+        "translation": "Il negozio vende pane, latte e altri alimenti."
       }
     ]
   },
@@ -1006,7 +1006,7 @@
       {
         "id": "G2-037-3",
         "hanzi": "我觉得这个办法很好。",
-        "pinyin": "Wǒ juéde zhège bànfǎ hěn hǎo.",
+        "pinyin": "Wǒ juéde zhègè bànfǎ hěn hǎo.",
         "translation": "Penso che questo metodo sia molto buono."
       }
     ]
@@ -1044,7 +1044,7 @@
       {
         "id": "G2-039-1",
         "hanzi": "我的两个朋友都来了。",
-        "pinyin": "Wǒ de liǎng ge péngyou dōu lái le.",
+        "pinyin": "Wǒ de liǎng gè péngyou dōu lái le.",
         "translation": "Sono venuti entrambi i miei amici."
       },
       {
@@ -1065,9 +1065,9 @@
     "examples": [
       {
         "id": "G2-040-1",
-        "hanzi": "她每天练习写字。",
-        "pinyin": "Tā měi tiān liànxí xiě zì.",
-        "translation": "Si esercita a scrivere ogni giorno."
+        "hanzi": "她上午练习写字。",
+        "pinyin": "Tā shàngwǔ liànxí xiě zì.",
+        "translation": "La mattina si esercita a scrivere."
       },
       {
         "id": "G2-040-2",
@@ -1093,9 +1093,9 @@
       },
       {
         "id": "G2-041-2",
-        "hanzi": "我喜欢比较大的房间。",
-        "pinyin": "Wǒ xǐhuan bǐjiào dà de fángjiān.",
-        "translation": "Mi piacciono le stanze piuttosto grandi."
+        "hanzi": "我喜欢特别大的房间。",
+        "pinyin": "Wǒ xǐhuan tèbié dà de fángjiān.",
+        "translation": "Mi piacciono le stanze particolarmente grandi."
       }
     ]
   },
@@ -1137,9 +1137,9 @@
       },
       {
         "id": "G2-043-2",
-        "hanzi": "周末我们打球、跑步什么的。",
-        "pinyin": "Zhōumò wǒmen dǎ qiú, pǎo bù shénme de.",
-        "translation": "Nel fine settimana giochiamo a palla, corriamo e così via."
+        "hanzi": "周末我们打球、爬山什么的。",
+        "pinyin": "Zhōumò wǒmen dǎ qiú, pá shān shénme de.",
+        "translation": "Nel fine settimana giochiamo a palla, facciamo escursioni in montagna e così via."
       }
     ]
   },
@@ -1197,15 +1197,15 @@
     "examples": [
       {
         "id": "G2-046-1",
-        "hanzi": "这个苹果又大又甜。",
-        "pinyin": "Zhège píngguǒ yòu dà yòu tián.",
-        "translation": "Questa mela è grande e dolce."
+        "hanzi": "这个包子又大又好吃。",
+        "pinyin": "Zhègè bāozi yòu dà yòu hǎochī.",
+        "translation": "Questo panino al vapore è grande e buono."
       },
       {
         "id": "G2-046-2",
-        "hanzi": "孩子们又唱又跳。",
-        "pinyin": "Háizimen yòu chàng yòu tiào.",
-        "translation": "I bambini cantano e ballano."
+        "hanzi": "孩子们又说又笑。",
+        "pinyin": "Háizimen yòu shuō yòu xiào.",
+        "translation": "I bambini parlano e ridono."
       }
     ]
   },
@@ -1282,7 +1282,7 @@
       {
         "id": "G2-049-2",
         "hanzi": "你写错了这个字。",
-        "pinyin": "Nǐ xiě cuò le zhège zì.",
+        "pinyin": "Nǐ xiě cuò le zhègè zì.",
         "translation": "Hai scritto male questo carattere."
       },
       {
@@ -1293,15 +1293,15 @@
       },
       {
         "id": "G2-049-4",
-        "hanzi": "他学会了游泳。",
-        "pinyin": "Tā xué huì le yóuyǒng.",
-        "translation": "Ha imparato a nuotare."
+        "hanzi": "他学会了开车。",
+        "pinyin": "Tā xué huì le kāi chē.",
+        "translation": "Ha imparato a guidare."
       },
       {
         "id": "G2-049-5",
-        "hanzi": "桌子已经擦干净了。",
-        "pinyin": "Zhuōzi yǐjīng cā gānjìng le.",
-        "translation": "Il tavolo è già stato pulito bene."
+        "hanzi": "衣服已经洗干净了。",
+        "pinyin": "Yīfu yǐjīng xǐ gānjìng le.",
+        "translation": "I vestiti sono già stati lavati bene."
       }
     ]
   },
@@ -1315,9 +1315,9 @@
     "examples": [
       {
         "id": "G2-050-1",
-        "hanzi": "请拿来一把椅子。",
-        "pinyin": "Qǐng ná lái yī bǎ yǐzi.",
-        "translation": "Porta qui una sedia, per favore."
+        "hanzi": "请拿来一本书。",
+        "pinyin": "Qǐng ná lái yī běn shū.",
+        "translation": "Porta qui un libro, per favore."
       },
       {
         "id": "G2-050-2",
@@ -1333,9 +1333,9 @@
       },
       {
         "id": "G2-050-4",
-        "hanzi": "他们搬开了桌子。",
-        "pinyin": "Tāmen bān kāi le zhuōzi.",
-        "translation": "Hanno spostato il tavolo per liberare il passaggio."
+        "hanzi": "他们拉开了门。",
+        "pinyin": "Tāmen lā kāi le mén.",
+        "translation": "Hanno aperto la porta tirandola."
       }
     ]
   },
@@ -1405,9 +1405,9 @@
       },
       {
         "id": "G2-053-2",
-        "hanzi": "这条裙子长了两厘米。",
-        "pinyin": "Zhè tiáo qúnzi cháng le liǎng límǐ.",
-        "translation": "Questa gonna è lunga due centimetri di troppo."
+        "hanzi": "这条路比那条路长两米。",
+        "pinyin": "Zhè tiáo lù bǐ nà tiáo lù cháng liǎng mǐ.",
+        "translation": "Questa strada è più lunga dell’altra di due metri."
       }
     ]
   },
@@ -1449,9 +1449,9 @@
       },
       {
         "id": "G2-055-2",
-        "hanzi": "这棵树有十米高。",
-        "pinyin": "Zhè kē shù yǒu shí mǐ gāo.",
-        "translation": "Quest’albero raggiunge i dieci metri di altezza."
+        "hanzi": "这座楼有十米高。",
+        "pinyin": "Zhè zuò lóu yǒu shí mǐ gāo.",
+        "translation": "Questo edificio raggiunge i dieci metri di altezza."
       },
       {
         "id": "G2-055-3",
@@ -1471,15 +1471,15 @@
     "examples": [
       {
         "id": "G2-056-1",
-        "hanzi": "桌上有两杯茶。",
-        "pinyin": "Zhuō shàng yǒu liǎng bēi chá.",
+        "hanzi": "桌子上有两杯茶。",
+        "pinyin": "Zhuōzi shàng yǒu liǎng bēi chá.",
         "translation": "Sul tavolo ci sono due tazze di tè."
       },
       {
         "id": "G2-056-2",
-        "hanzi": "墙上挂着一张地图。",
-        "pinyin": "Qiáng shàng guà zhe yī zhāng dìtú.",
-        "translation": "Alla parete è appesa una cartina."
+        "hanzi": "门口站着两位老师。",
+        "pinyin": "Ménkǒu zhàn zhe liǎng wèi lǎoshī.",
+        "translation": "All’ingresso ci sono due insegnanti in piedi."
       }
     ]
   },
@@ -1499,9 +1499,9 @@
       },
       {
         "id": "G2-057-2",
-        "hanzi": "她拿了雨伞走出家门。",
-        "pinyin": "Tā ná le yǔsǎn zǒu chū jiāmén.",
-        "translation": "Ha preso l’ombrello ed è uscita di casa."
+        "hanzi": "她拿了书包走出家门。",
+        "pinyin": "Tā ná le shūbāo zǒu chū jiā mén.",
+        "translation": "Ha preso lo zaino ed è uscita di casa."
       }
     ]
   },
@@ -1555,8 +1555,8 @@
       },
       {
         "id": "G2-059-2",
-        "hanzi": "这间房跟那间一样大。",
-        "pinyin": "Zhè jiān fáng gēn nà jiān yīyàng dà.",
+        "hanzi": "这间房间跟那间一样大。",
+        "pinyin": "Zhè jiān fángjiān gēn nà jiān yīyàng dà.",
         "translation": "Questa stanza è grande quanto l’altra."
       }
     ]
@@ -1589,9 +1589,9 @@
       },
       {
         "id": "G2-060-4",
-        "hanzi": "这顿饭是爸爸做的。",
-        "pinyin": "Zhè dùn fàn shì bàba zuò de.",
-        "translation": "Questa cena l’ha preparata papà."
+        "hanzi": "晚饭是爸爸做的。",
+        "pinyin": "Wǎnfàn shì bàba zuò de.",
+        "translation": "La cena l’ha preparata papà."
       }
     ]
   },
@@ -1606,7 +1606,7 @@
       {
         "id": "G2-061-1",
         "hanzi": "老师问我一个问题。",
-        "pinyin": "Lǎoshī wèn wǒ yī ge wèntí.",
+        "pinyin": "Lǎoshī wèn wǒ yī gè wèntí.",
         "translation": "L’insegnante mi fa una domanda."
       },
       {
@@ -1661,9 +1661,9 @@
       },
       {
         "id": "G2-063-2",
-        "hanzi": "她不但唱得好，而且跳得也好。",
-        "pinyin": "Tā bùdàn chàng de hǎo, érqiě tiào de yě hǎo.",
-        "translation": "Non solo canta bene, ma balla anche bene."
+        "hanzi": "她不但读得好，而且写得也好。",
+        "pinyin": "Tā bùdàn dú de hǎo, érqiě xiě de yě hǎo.",
+        "translation": "Non solo legge bene, ma scrive anche bene."
       },
       {
         "id": "G2-063-3",
@@ -1789,9 +1789,9 @@
     "examples": [
       {
         "id": "G2-068-1",
-        "hanzi": "因为下雨，所以比赛取消了。",
-        "pinyin": "Yīnwèi xià yǔ, suǒyǐ bǐsài qǔxiāo le.",
-        "translation": "La gara è stata annullata perché piove."
+        "hanzi": "因为下雨，所以我们没去公园。",
+        "pinyin": "Yīnwèi xià yǔ, suǒyǐ wǒmen méi qù gōngyuán.",
+        "translation": "Non siamo andati al parco perché pioveva."
       },
       {
         "id": "G2-068-2",
@@ -1817,9 +1817,9 @@
       },
       {
         "id": "G2-069-2",
-        "hanzi": "他一喝咖啡就睡不着。",
-        "pinyin": "Tā yī hē kāfēi jiù shuì bù zháo.",
-        "translation": "Ogni volta che beve caffè non riesce a dormire."
+        "hanzi": "他一到学校就看书。",
+        "pinyin": "Tā yī dào xuéxiào jiù kàn shū.",
+        "translation": "Appena arriva a scuola si mette a leggere."
       }
     ]
   },
@@ -1833,9 +1833,9 @@
     "examples": [
       {
         "id": "G2-070-1",
-        "hanzi": "窗户一直开着。",
-        "pinyin": "Chuānghu yīzhí kāi zhe.",
-        "translation": "La finestra rimane aperta."
+        "hanzi": "门一直开着。",
+        "pinyin": "Mén yīzhí kāi zhe.",
+        "translation": "La porta rimane aperta."
       },
       {
         "id": "G2-070-2",
@@ -1845,9 +1845,9 @@
       },
       {
         "id": "G2-070-3",
-        "hanzi": "孩子们在外面玩着呢。",
-        "pinyin": "Háizimen zài wàimiàn wán zhe ne.",
-        "translation": "I bambini stanno giocando fuori."
+        "hanzi": "孩子们一直唱着歌。",
+        "pinyin": "Háizimen yīzhí chàng zhe gē.",
+        "translation": "I bambini continuano a cantare."
       }
     ]
   },
@@ -1861,8 +1861,8 @@
     "examples": [
       {
         "id": "G2-071-1",
-        "hanzi": "你看过这部电影吗？",
-        "pinyin": "Nǐ kàn guo zhè bù diànyǐng ma?",
+        "hanzi": "你看过这个电影吗？",
+        "pinyin": "Nǐ kàn guo zhègè diànyǐng ma?",
         "translation": "Hai mai visto questo film?"
       },
       {
@@ -1912,13 +1912,13 @@
       {
         "id": "G2-073-1",
         "hanzi": "教室里有二十多个学生。",
-        "pinyin": "Jiàoshì lǐ yǒu èrshí duō ge xuésheng.",
+        "pinyin": "Jiàoshì lǐ yǒu èrshí duō gè xuéshēng.",
         "translation": "In aula ci sono più di venti studenti, meno di trenta."
       },
       {
         "id": "G2-073-2",
         "hanzi": "我等了一个多小时。",
-        "pinyin": "Wǒ děng le yī ge duō xiǎoshí.",
+        "pinyin": "Wǒ děng le yī gè duō xiǎoshí.",
         "translation": "Ho aspettato poco più di un’ora."
       }
     ]
@@ -1940,7 +1940,7 @@
       {
         "id": "G2-074-2",
         "hanzi": "今天就我一个人在家。",
-        "pinyin": "Jīntiān jiù wǒ yī ge rén zài jiā.",
+        "pinyin": "Jīntiān jiù wǒ yī gè rén zài jiā.",
         "translation": "Oggi a casa ci sono soltanto io."
       }
     ]

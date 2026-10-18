@@ -115,6 +115,26 @@ python3 scripts/check-grammar.py --write-index
 
 The second command rebuilds only the canonical inventory from the pinned CSV; it does not generate or rewrite teaching prose. Validation checks exact point coverage, source identities, per-level order, unique example IDs, required fields, Unicode normalization and at least two examples per rule. Example audio is generated separately under `../audio/grammar/`; its manifest records the source text, Pinyin, surface pronunciation, phonemes and hashes.
 
+## Study sequence and progressive readings
+
+`curriculum-level-1.json` through `curriculum-level-7.json` contain complete permutations of the stable vocabulary and grammar IDs for each block. These are local teaching sequences, not a replacement for the official inventories or a renumbering of persisted cards. Vocabulary source files and their existing audio are unchanged. Only new-card introduction follows this sequence; due reviews retain FSRS precedence.
+
+For a block with N new words and R new rules, rule i may use the first `floor(N*i/R)` current words plus all previous levels. Every Chinese span in lesson titles, patterns, explanations and examples is checked. HSK1 has 48 rules: its initial word limits are 10, 20, 31 and 41.
+
+Some grammatical forms are not independent flashcard entries. `scripts/sources/grammar-forms.json` records narrow exceptions evidenced by the owning official inventory entry, not arbitrary lexical additions. The checker constrains bound suffixes/prefixes and separated compounds, derives AA/AABB/A一A forms from known roots only when their rule is available, and distinguishes contextual interjection tones from the separate 啊 particle ID. Unknown content words and proper names are not given a free-character fallback. Example Pinyin disambiguates polyphonic IDs; unresolved readings fail rather than silently using another pronunciation.
+
+`readings-level-1.json` through `readings-level-7.json` contain **70 original HanPit passages**, ten per block, with Italian topic titles and Chinese paragraphs. They are not official examination texts or copied Ministry examples. Stage j permits the first `floor(N*j/10)` current words and the current rules whose cumulative word limit has been reached, plus all previous knowledge. `grammarIds` identifies actual targeted constructions and required grammatical-form owners; it is not a complete syntactic parse. Topics vary with the available vocabulary and later passages introduce words from their own new batch.
+
+The word-prefix validator conservatively reports ambiguous written identities; it does not pretend to resolve every homograph’s meaning without Pinyin. Chinese syntax and discourse coherence also receive a separate editorial review against the available rules, not an automated-parser guarantee.
+
+```sh
+npm run curriculum:check
+npm run curriculum:test
+npm run curriculum:build
+```
+
+These commands use the Python standard library only and run offline. `curriculum:build` writes only missing, valid plans and never overwrites a frozen sequence. `curriculum:check` checks all saved plans and all seventy readings. After lesson changes, recheck the fixed prefixes and regenerate grammar audio; do not alter official IDs or rewrite existing review progress.
+
 ## Upstream MIT notices (retained)
 
 ### ivankra/hsk30

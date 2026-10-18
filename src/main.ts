@@ -3,6 +3,8 @@ import { getStudyState, preview, type Grade } from './study';
 import { openStorage, type StudyStorage } from './storage';
 import { createPronunciation } from './audio';
 import { createGrammar } from './grammar';
+import { createReadings } from './readings';
+import { loadCurriculum } from './curriculum';
 import type { Word } from './types';
 
 const element = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -13,6 +15,7 @@ const speakButton = element<HTMLButtonElement>('speak');
 const flashcards = element('flashcards');
 const pronunciation = createPronunciation(element('speech-status'));
 const grammar = createGrammar(element('grammar'), pronunciation);
+const readings = createReadings(element('readings'));
 const gradeButtons = [...ratings.querySelectorAll<HTMLButtonElement>('button')];
 const dateFormat = new Intl.DateTimeFormat('it', { dateStyle: 'short', timeStyle: 'short' });
 const numberFormat = new Intl.NumberFormat('it');
@@ -49,10 +52,17 @@ async function loadDeck(target: number): Promise<Word[]> {
     const n = index + 1;
     let pending = cache.get(n);
     if (!pending) {
-      pending = fetch(`${import.meta.env.BASE_URL}data/level-${n}.json`)
-        .then(async response => {
-          if (!response.ok) throw new Error(`Vocabolario HSK ${n}: HTTP ${response.status}.`);
-          return await response.json() as Word[];
+      pending = Promise.all([
+        fetch(`${import.meta.env.BASE_URL}data/level-${n}.json`)
+          .then(async response => {
+            if (!response.ok) throw new Error(`Vocabolario HSK ${n}: HTTP ${response.status}.`);
+            return await response.json() as Word[];
+          }),
+        loadCurriculum(n),
+      ])
+        .then(([levelWords, curriculum]) => {
+          const byId = new Map(levelWords.map(word => [word.id, word]));
+          return curriculum.words.map(id => byId.get(id)!);
         })
         .catch((error: unknown) => {
           cache.delete(n);
@@ -202,9 +212,10 @@ function showSection() {
   deckLoading = false;
   flashcards.setAttribute('aria-busy', 'false');
   grammar.hide();
+  readings.hide();
   element('error').hidden = true;
   element('section-heading').hidden = activeSection === 'tests';
-  element('section-title').textContent = activeSection === 'grammar' ? 'Grammatica' : 'Flashcard';
+  element('section-title').textContent = activeSection === 'grammar' ? 'Grammatica' : activeSection === 'readings' ? 'Letture' : 'Flashcard';
   for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
     const active = tab.dataset.section === activeSection;
     if (active) tab.setAttribute('aria-current', 'page');
@@ -215,6 +226,7 @@ function showSection() {
   if (!ready || levelSaving) return;
   if (activeSection === 'flashcards') void showDeck();
   else if (activeSection === 'grammar') void grammar.show(level);
+  else if (activeSection === 'readings') void readings.show(level);
 }
 
 levelSelect.addEventListener('change', async () => {
@@ -223,6 +235,7 @@ levelSelect.addEventListener('change', async () => {
   deckRequest += 1;
   deckLoading = false;
   grammar.hide();
+  readings.hide();
   busy = true;
   levelSaving = true;
   updateControls();

@@ -31,9 +31,9 @@
     "examples": [
       {
         "id": "G5-002-1",
-        "hanzi": "她买了一册画集和两幅画。",
-        "pinyin": "Tā mǎi le yī cè huàjí hé liǎng fú huà.",
-        "translation": "Ha comprato un volume di riproduzioni e due dipinti."
+        "hanzi": "她买了一册书和两幅画。",
+        "pinyin": "Tā mǎi le yī cè shū hé liǎng fú huà.",
+        "translation": "Ha comprato un volume e due dipinti."
       },
       {
         "id": "G5-002-2",
@@ -115,8 +115,8 @@
     "examples": [
       {
         "id": "G5-005-1",
-        "hanzi": "会议将于明天开始。",
-        "pinyin": "Huìyì jiāng yú míngtiān kāishǐ.",
+        "hanzi": "会议明天将开始。",
+        "pinyin": "Huìyì míngtiān jiāng kāishǐ.",
         "translation": "La riunione inizierà domani."
       },
       {
@@ -299,8 +299,8 @@
     "examples": [
       {
         "id": "G5-012-1",
-        "hanzi": "凭这张票可以入场。",
-        "pinyin": "Píng zhè zhāng piào kěyǐ rùchǎng.",
+        "hanzi": "凭这张票可以进去。",
+        "pinyin": "Píng zhè zhāng piào kěyǐ jìnqù.",
         "translation": "Con questo biglietto si può entrare."
       },
       {
@@ -405,9 +405,9 @@
       },
       {
         "id": "G5-016-2",
-        "hanzi": "你先回家也好，免得太晚。",
-        "pinyin": "Nǐ xiān huí jiā yě hǎo, miǎnde tài wǎn.",
-        "translation": "Va bene anche se torni a casa prima, così non fai troppo tardi."
+        "hanzi": "你先回家也好，路上还要走一个小时呢。",
+        "pinyin": "Nǐ xiān huí jiā yě hǎo, lù shang hái yào zǒu yī ge xiǎoshí ne.",
+        "translation": "Va bene anche se torni a casa prima: ti resta ancora un’ora di cammino."
       }
     ]
   },
@@ -443,9 +443,9 @@
     "examples": [
       {
         "id": "G5-018-1",
-        "hanzi": "我们聊着聊着，就忘了时间。",
-        "pinyin": "Wǒmen liáo zhe liáo zhe, jiù wàng le shíjiān.",
-        "translation": "Chiacchierando abbiamo finito per perdere la nozione del tempo."
+        "hanzi": "我们谈着谈着，就忘了时间。",
+        "pinyin": "Wǒmen tán zhe tán zhe, jiù wàng le shíjiān.",
+        "translation": "Parlando abbiamo finito per perdere la nozione del tempo."
       },
       {
         "id": "G5-018-2",
@@ -795,9 +795,9 @@
     "examples": [
       {
         "id": "G5-034-1",
-        "hanzi": "他们一见面就聊上了。",
-        "pinyin": "Tāmen yī jiànmiàn jiù liáo shàng le.",
-        "translation": "Appena si sono incontrati, si sono messi a chiacchierare."
+        "hanzi": "他们一见面就谈上了。",
+        "pinyin": "Tāmen yī jiànmiàn jiù tán shàng le.",
+        "translation": "Appena si sono incontrati, si sono messi a parlare."
       },
       {
         "id": "G5-034-2",
@@ -829,9 +829,9 @@
     "examples": [
       {
         "id": "G5-035-1",
-        "hanzi": "这种野果吃得吗？",
-        "pinyin": "Zhè zhǒng yěguǒ chī de ma?",
-        "translation": "Questi frutti selvatici si possono mangiare?"
+        "hanzi": "这种水果吃得吗？",
+        "pinyin": "Zhè zhǒng shuǐguǒ chī de ma?",
+        "translation": "Questo tipo di frutta si può mangiare?"
       },
       {
         "id": "G5-035-2",
@@ -857,9 +857,9 @@
       },
       {
         "id": "G5-036-2",
-        "hanzi": "屋里闷得慌。",
-        "pinyin": "Wū lǐ mēn de huang.",
-        "translation": "Nella stanza si soffoca."
+        "hanzi": "我饿得慌。",
+        "pinyin": "Wǒ è de huang.",
+        "translation": "Ho una fame terribile."
       },
       {
         "id": "G5-036-3",
@@ -897,9 +897,9 @@
       },
       {
         "id": "G5-037-2",
-        "hanzi": "我紧张得手都抖了。",
-        "pinyin": "Wǒ jǐnzhāng de shǒu dōu dǒu le.",
-        "translation": "Ero così nervoso che mi tremavano le mani."
+        "hanzi": "我紧张得手都出汗了。",
+        "pinyin": "Wǒ jǐnzhāng de shǒu dōu chū hàn le.",
+        "translation": "Ero così nervoso che mi sudavano perfino le mani."
       },
       {
         "id": "G5-037-3",
@@ -919,9 +919,9 @@
     "examples": [
       {
         "id": "G5-038-1",
-        "hanzi": "这座城市有着悠久的历史。",
-        "pinyin": "Zhè zuò chéngshì yǒu zhe yōujiǔ de lìshǐ.",
-        "translation": "Questa città ha una lunga storia."
+        "hanzi": "这座城市有着丰富的文化。",
+        "pinyin": "Zhè zuò chéngshì yǒu zhe fēngfù de wénhuà.",
+        "translation": "Questa città ha una ricca cultura."
       },
       {
         "id": "G5-038-2",
@@ -1037,9 +1037,9 @@
       },
       {
         "id": "G5-042-3",
-        "hanzi": "这场病使他变得虚弱。",
-        "pinyin": "Zhè chǎng bìng shǐ tā biàn de xūruò.",
-        "translation": "Questa malattia lo ha indebolito."
+        "hanzi": "这场病使他瘦了很多。",
+        "pinyin": "Zhè chǎng bìng shǐ tā shòu le hěn duō.",
+        "translation": "Questa malattia lo ha fatto dimagrire molto."
       },
       {
         "id": "G5-042-4",
@@ -1131,9 +1131,9 @@
       },
       {
         "id": "G5-046-2",
-        "hanzi": "一旦发现火情，就要立即报警。",
-        "pinyin": "Yīdàn fāxiàn huǒqíng, jiù yào lìjí bàojǐng.",
-        "translation": "Appena si rileva un incendio, bisogna dare subito l’allarme."
+        "hanzi": "一旦发现着火，就要立即报警。",
+        "pinyin": "Yīdàn fāxiàn zháohuǒ, jiù yào lìjí bàojǐng.",
+        "translation": "Appena ci si accorge che qualcosa ha preso fuoco, bisogna dare subito l’allarme."
       }
     ]
   },
@@ -1213,9 +1213,9 @@
     "examples": [
       {
         "id": "G5-050-1",
-        "hanzi": "设备出了故障，因而生产暂停了。",
-        "pinyin": "Shèbèi chū le gùzhàng, yīn'ér shēngchǎn zàntíng le.",
-        "translation": "L’impianto ha avuto un guasto, quindi la produzione è stata sospesa."
+        "hanzi": "设备出了问题，因而生产暂停了。",
+        "pinyin": "Shèbèi chū le wèntí, yīn'ér shēngchǎn zàntíng le.",
+        "translation": "L’impianto ha avuto un problema, quindi la produzione è stata sospesa."
       },
       {
         "id": "G5-050-2",
@@ -1257,9 +1257,9 @@
     "examples": [
       {
         "id": "G5-052-1",
-        "hanzi": "我每天练习，为的是提高发音。",
-        "pinyin": "Wǒ měitiān liànxí, wèi de shì tígāo fāyīn.",
-        "translation": "Mi esercito ogni giorno per migliorare la pronuncia."
+        "hanzi": "我每天练习，为的是提高口语水平。",
+        "pinyin": "Wǒ měitiān liànxí, wèi de shì tígāo kǒuyǔ shuǐpíng.",
+        "translation": "Mi esercito ogni giorno per migliorare il mio livello nella lingua parlata."
       },
       {
         "id": "G5-052-2",
@@ -1417,9 +1417,9 @@
       },
       {
         "id": "G5-059-2",
-        "hanzi": "我怎么都没找到钥匙。",
-        "pinyin": "Wǒ zěnme dōu méi zhǎodào yàoshi.",
-        "translation": "Non sono riuscito a trovare le chiavi in nessun modo."
+        "hanzi": "我怎么都没找到本子。",
+        "pinyin": "Wǒ zěnme dōu méi zhǎodào běnzi.",
+        "translation": "Non sono riuscito a trovare il quaderno in nessun modo."
       }
     ]
   },
@@ -1505,8 +1505,8 @@
       },
       {
         "id": "G5-063-2",
-        "hanzi": "等着也是等着，我们聊聊天吧。",
-        "pinyin": "Děng zhe yě shì děng zhe, wǒmen liáo liao tiān ba.",
+        "hanzi": "等着也是等着，我们说说话吧。",
+        "pinyin": "Děng zhe yě shì děng zhe, wǒmen shuō shuo huà ba.",
         "translation": "Dato che dobbiamo comunque aspettare, facciamo due chiacchiere."
       }
     ]
@@ -1543,8 +1543,8 @@
     "examples": [
       {
         "id": "G5-065-1",
-        "hanzi": "不管怎样说，你都应该道歉。",
-        "pinyin": "Bùguǎn zěnyàng shuō, nǐ dōu yīnggāi dàoqiàn.",
+        "hanzi": "不管怎样说，你都应该说对不起。",
+        "pinyin": "Bùguǎn zěnyàng shuō, nǐ dōu yīnggāi shuō duìbuqǐ.",
         "translation": "Comunque la si metta, dovresti chiedere scusa."
       },
       {

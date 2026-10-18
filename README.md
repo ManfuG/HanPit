@@ -1,6 +1,6 @@
 # HanPit
 
-Web app essenziale per flashcard e grammatica di cinese HSK 3.0. TypeScript, Vite e FSRS-6; nessun backend.
+Web app essenziale per flashcard, grammatica e letture di cinese HSK 3.0. TypeScript, Vite e FSRS-6; nessun backend.
 
 ## Avvio
 
@@ -20,7 +20,7 @@ Aprire l’indirizzo mostrato da Vite. Build statica: `npm run build`; anteprima
 - FSRS-6 tramite `ts-fsrs`: ritenzione 90%, apprendimento 1/10 minuti, riapprendimento 10 minuti. **Il primo Facile su una carta nuova vale 5 giorni**, con stabilità iniziale FSRS di 5 giorni, non una scadenza sovrascritta dopo il calcolo. Gli altri parametri restano quelli di FSRS-6. Le scadenze già salvate non vengono riscritte. Prima le carte in apprendimento scadute, poi i ripassi scaduti, poi le nuove; nessun limite giornaliero. Le carte future non vengono anticipate.
 - Carte, storico delle valutazioni e livello conservati in IndexedDB. Il salvataggio di carta e storico è atomico; si passa alla carta successiva solo dopo il salvataggio. Dati locali al browser e all’origine, senza account o sincronizzazione; cancellare i dati del sito elimina i progressi.
 - Si parte da HSK 1. Il selettore include cumulativamente il vocabolario dei livelli precedenti senza azzerarne i progressi. Tornare a un livello inferiore nasconde, ma non elimina, le carte superiori.
-- Grammatica mostra le regole del livello selezionato. Test resta vuoto; il blocco dei livelli tramite test non è implementato e il livello si seleziona manualmente.
+- Grammatica e Letture mostrano il livello selezionato. Test resta vuoto; il blocco dei livelli tramite test non è implementato e il livello si seleziona manualmente.
 
 ## Vocabolario
 
@@ -43,6 +43,25 @@ L’importazione verifica SHA-256, conteggi ufficiali, ID e copertura delle defi
 Si scarica soltanto il JSON del livello corrente, con cache delle richieste. Gli esempi vengono inseriti nel DOM alla prima apertura della regola; aprirla non avvia né precarica audio. Ascolta carica e riproduce soltanto la frase scelta. Il vocabolario delle flashcard resta cumulativo e i progressi non vengono modificati studiando grammatica.
 
 Inventario, correzioni della trascrizione, conteggi e provenienza in [`public/data/README.md`](public/data/README.md). `npm run grammar:check` verifica tutti i livelli senza caricare il modello vocale.
+
+## Progressione e letture
+
+`curriculum-level-{1..7}.json` definisce l’ordine di introduzione delle parole e delle regole, senza cambiare ID o livelli ufficiali. Si riordinano solo le carte nuove: i ripassi scaduti mantengono la precedenza FSRS e le scadenze persistite non vengono riscritte.
+
+Con `N` parole e `R` regole nuove nel livello, la regola in posizione `i` usa al massimo le prime `floor(N × i / R)` parole, oltre a tutti i livelli precedenti. HSK 1 ha **500 parole e 48 regole**: i primi limiti sono 10, 20, 31 e 41, fino a 500. Gli esempi sono stati adattati al lessico disponibile. Le forme grammaticali introdotte dalla regola stessa, come il suffisso 儿 o la particella 矣, appartengono alla conoscenza grammaticale e non richiedono una flashcard inesistente.
+
+**Letture** contiene dieci testi originali per ciascuno dei sette blocchi: **70 testi**, con temi diversi. La lettura `j` usa le prime `floor(N × j / 10)` parole e le regole già comprese entro quel limite, più le conoscenze dei livelli precedenti. Per HSK 1: 50, 100, …, 500 parole. I testi sono in cinese, con titolo italiano e indicazione del limite; nessun audio o traduzione aggiuntivi.
+
+Si caricano soltanto percorso e letture del livello scelto, con cache delle richieste; i paragrafi vengono inseriti alla prima apertura. I limiti indicano la sequenza didattica, non nuovi blocchi automatici legati alle valutazioni.
+
+Verifiche offline, con la sola libreria standard Python:
+
+```sh
+npm run curriculum:check
+npm run curriculum:test
+```
+
+Il controllo verifica permutazioni complete degli ID, dipendenze lessicali dei testi cinesi, letture polifoniche negli esempi e disponibilità delle regole dichiarate. La coerenza sintattica delle letture è sottoposta anche a revisione editoriale; il controllo lessicale non è un parser grammaticale completo. `npm run curriculum:build` crea soltanto percorsi mancanti validi e non sovrascrive quelli già fissati.
 
 ## Pronuncia e compatibilità
 
@@ -77,13 +96,17 @@ Il modello e le dipendenze CPU restano nella directory ignorata `.venv-audio/`; 
 ```sh
 npm test
 npm run grammar:check
+npm run curriculum:check
+npm run curriculum:test
 npm run build
 ```
 
-Test dello scheduler su precedenze, scadenze, espansione cumulativa, transizioni FSRS, primo Facile a 5 giorni e conservazione dello stato. Test fonetici su polifonia, segmentazione, ü, erhua, toni neutri, sandhi e pinyin non allineato. Smoke browser su desktop/mobile: rivelazione, valutazioni, persistenza, livelli cumulativi, attesa e scorciatoie. La nuova riproduzione MP3 è stata esercitata anche in Chromium senza voci di sistema: precaricamento silenzioso, avvio, fine, ripetizione, arresto al cambio sezione/livello e recupero dopo un file corrotto simulato. La verifica strumentale non equivale a una valutazione umana della naturalezza o di tutte le pronunce.
+**38 test passati**: 7 FSRS, 11 sulla progressione lessicale, 7 fonetici del vocabolario e 13 delle frasi. Verificati tutti i percorsi, **572 regole**, **1.365 esempi** e **70 letture**, senza errori nei vincoli didattici.
 
-Verificata anche la build del vocabolario servita da `npm run preview`: MP3 riprodotti fino a fine, rivelazione, primo Facile a 5 giorni, persistenza dopo reload e assenza di overflow mobile. Il corpus del vocabolario è stato interamente decodificato: 11.092 file, 24 kHz mono, durate 0,475–2,05 secondi, nessun segnale silenzioso.
+Smoke Chromium su sviluppo e produzione, desktop 1280×900 e mobile 390×844; sviluppo anche a 320×740. Verificati ordine delle nuove e delle regole, limiti progressivi, apertura lazy e da tastiera, tutte le settanta letture, assenza di audio nelle letture e di richieste del vocabolario cambiandone il livello. Recupero dopo HTTP 503 e vecchie risposte ignorate verificati sullo sviluppo. Nessun overflow osservato.
 
-Grammatica verificata: inventario completo, 13 regressioni fonetiche e tutti i **1.365 MP3** decodificati, con hash, durata e RMS validi (circa **34,6 MiB**, 1,1–6,225 secondi). Smoke desktop/mobile anche sulla produzione: tutti i livelli, apertura da tastiera, nessun autoplay, riproduzione effettiva fino a fine, unico player, arresto su chiusura/cambio sezione/livello/uscita pagina, errore e recupero di JSON/audio, risposte asincrone obsolete ignorate. Confermati Test vuoto, primo Facile a 5 giorni e progressi invariati dopo cambio livello e reload. Nessun errore runtime o overflow osservato nel percorso di produzione.
+Confermati primo Facile a **5 giorni**, precedenza delle vecchie carte scadute e progressi invariati dopo letture/cambio livello/reload. In produzione il livello avanzato conserva tutte le **11.092 carte cumulative**, il player nativo resta unico, gli MP3 raggiungono `ended` e si arrestano entrando in Letture. Test resta vuoto. Nessun errore runtime/media o richiesta esterna osservati nei percorsi verificati.
 
-Build TypeScript/Vite riuscita: JavaScript **10,62 kB gzip**, esclusi dati/audio. Tutti gli hash di **12.457 MP3** e **15 JSON** della distribuzione corrispondono ai manifest; il generatore del vocabolario è invariato e nessun peso del modello è incluso. I dati sintetici degli smoke sono stati rimossi dalle sole origini di verifica.
+Audio grammaticale rigenerato sugli esempi adattati: **1.365 MP3**, circa **34,7 MiB**, 24 kHz mono, durate **1,1–6,225 secondi**; tutti interamente decodificati e verificati per hash e segnale. Gli **11.092 MP3** del vocabolario e il suo generatore sono invariati. La verifica strumentale non equivale a un ascolto umano o a una garanzia universale di naturalezza.
+
+Build TypeScript/Vite riuscita: JavaScript **11,21 kB gzip**, esclusi dati/audio. Verificati tutti gli hash di **12.457 MP3**, **29 JSON** e **due manifest** nella distribuzione; nessun peso del modello o audio di lettura incluso. Dati sintetici rimossi soltanto da localhost:5177 e :5178; mantenuta l’origine utente localhost:5173 senza modificarne i progressi.

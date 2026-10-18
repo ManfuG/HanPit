@@ -115,8 +115,8 @@
       },
       {
         "id": "G7-005-2",
-        "hanzi": "此法简单，效果亦佳。",
-        "pinyin": "Cǐ fǎ jiǎndān, xiàoguǒ yì jiā.",
+        "hanzi": "此法简单，效果亦好。",
+        "pinyin": "Cǐ fǎ jiǎndān, xiàoguǒ yì hǎo.",
         "translation": "Questo metodo è semplice e anche i risultati sono buoni."
       }
     ]
@@ -137,9 +137,9 @@
       },
       {
         "id": "G7-006-2",
-        "hanzi": "雨水顺着屋檐流下来。",
-        "pinyin": "Yǔshuǐ shùn zhe wūyán liú xiàlai.",
-        "translation": "L’acqua piovana scende lungo la grondaia."
+        "hanzi": "雨水顺着墙流下来。",
+        "pinyin": "Yǔshuǐ shùn zhe qiáng liú xiàlái.",
+        "translation": "L’acqua piovana scende lungo la parete."
       }
     ]
   },
@@ -241,8 +241,8 @@
     "examples": [
       {
         "id": "G7-011-1",
-        "hanzi": "饭在桌上，你爱吃不吃。",
-        "pinyin": "Fàn zài zhuō shàng, nǐ ài chī bù chī.",
+        "hanzi": "饭在桌子上，你爱吃不吃。",
+        "pinyin": "Fàn zài zhuōzi shang, nǐ ài chī bù chī.",
         "translation": "Il cibo è sul tavolo: se lo vuoi mangiare, bene, altrimenti pazienza."
       },
       {
@@ -369,7 +369,7 @@
     "sourceNo": 442,
     "title": "Alternanza nel tempo con 时A时B",
     "pattern": "时 + stato A + 时 + stato B",
-    "explanation": "时A时B significa a volte A, a volte B e mette in rilievo la variabilità nel tempo. Rispetto a 忽A忽B non insiste necessariamente sulla bruschezza del cambiamento.",
+    "explanation": "时A时B significa a volte A, a volte B e mette in rilievo la variabilità nel tempo, senza insistere necessariamente sulla bruschezza del cambiamento.",
     "examples": [
       {
         "id": "G7-017-1",
@@ -395,8 +395,8 @@
     "examples": [
       {
         "id": "G7-018-1",
-        "hanzi": "老人坐在窗边自言自语。",
-        "pinyin": "Lǎorén zuò zài chuāng biān zì yán zì yǔ.",
+        "hanzi": "老人坐在窗户旁边自言自语。",
+        "pinyin": "Lǎorén zuò zài chuānghu pángbiān zì yán zì yǔ.",
         "translation": "L’anziano è seduto vicino alla finestra e parla da solo."
       },
       {
@@ -899,8 +899,8 @@
       },
       {
         "id": "G7-039-2",
-        "hanzi": "她学会了游泳，此后每周都去泳池。",
-        "pinyin": "Tā xuéhuì le yóuyǒng, cǐhòu měi zhōu dōu qù yǒngchí.",
+        "hanzi": "她学会了游泳，此后每周都去游泳池。",
+        "pinyin": "Tā xuéhuì le yóuyǒng, cǐhòu měi zhōu dōu qù yóuyǒngchí.",
         "translation": "Ha imparato a nuotare e da allora va in piscina ogni settimana."
       }
     ]
@@ -1037,8 +1037,8 @@
     "examples": [
       {
         "id": "G7-045-1",
-        "hanzi": "这款软件免费，且操作简单。",
-        "pinyin": "Zhè kuǎn ruǎnjiàn miǎnfèi, qiě cāozuò jiǎndān.",
+        "hanzi": "这个软件免费，且操作简单。",
+        "pinyin": "Zhè ge ruǎnjiàn miǎnfèi, qiě cāozuò jiǎndān.",
         "translation": "Questo programma è gratuito e anche semplice da usare."
       },
       {
@@ -1287,8 +1287,8 @@
       },
       {
         "id": "G7-055-4",
-        "hanzi": "幸亏及时停工，否则后果不堪设想。",
-        "pinyin": "Xìngkuī jíshí tíng gōng, fǒuzé hòuguǒ bù kān shèxiǎng.",
+        "hanzi": "幸亏及时停止施工，否则后果不堪设想。",
+        "pinyin": "Xìngkuī jíshí tíngzhǐ shīgōng, fǒuzé hòuguǒ bù kān shèxiǎng.",
         "translation": "Per fortuna i lavori sono stati fermati in tempo, altrimenti le conseguenze sarebbero state inimmaginabili."
       }
     ]
@@ -1645,8 +1645,8 @@
     "examples": [
       {
         "id": "G7-071-1",
-        "hanzi": "要玩就玩个痛快。",
-        "pinyin": "Yào wán jiù wán ge tòngkuai.",
+        "hanzi": "要玩儿就玩儿个痛快。",
+        "pinyin": "Yào wánr jiù wánr ge tòngkuai.",
         "translation": "Se vuoi divertirti, divertiti fino in fondo."
       },
       {
@@ -1805,9 +1805,9 @@
       },
       {
         "id": "G7-078-2",
-        "hanzi": "他把积木搭了又拆，拆了又搭。",
-        "pinyin": "Tā bǎ jīmù dā le yòu chāi, chāi le yòu dā.",
-        "translation": "Monta e smonta le costruzioni, poi le rimonta da capo."
+        "hanzi": "他把衣服穿了又脱，脱了又穿。",
+        "pinyin": "Tā bǎ yīfu chuān le yòu tuō, tuō le yòu chuān.",
+        "translation": "Si mette e si toglie i vestiti, poi se li rimette da capo."
       }
     ]
   },
@@ -2069,8 +2069,8 @@
       },
       {
         "id": "G7-090-2",
-        "hanzi": "这间房很安静。此外，窗外还有一片花园。",
-        "pinyin": "Zhè jiān fáng hěn ānjìng. Cǐwài, chuāng wài hái yǒu yī piàn huāyuán.",
+        "hanzi": "这个房间很安静。此外，窗户外面还有一片花园。",
+        "pinyin": "Zhè ge fángjiān hěn ānjìng. Cǐwài, chuānghu wàimian hái yǒu yī piàn huāyuán.",
         "translation": "Questa stanza è silenziosa. Inoltre, fuori dalla finestra c’è un giardino."
       }
     ]
@@ -2103,7 +2103,7 @@
     "sourceNo": 517,
     "title": "Rapporti coordinativi tra gruppi di frasi",
     "pattern": "frasi parallele／in successione／in progressione／alternative／esplicative／riassuntive",
-    "explanation": "I gruppi coordinativi comprendono: 并列, aspetti sullo stesso piano; 承接, successione; 递进, aggiunta più forte; 选择, alternative; 解说, spiegazione; 总括, sintesi. Il rapporto può essere esplicito o affidato al contesto; gli esempi mostrano nell’ordine questi sei tipi.",
+    "explanation": "I gruppi coordinativi collegano aspetti sullo stesso piano oppure esprimono successione, aggiunta più forte, alternative, spiegazione o sintesi. Il rapporto può essere esplicito o affidato al contesto; gli esempi mostrano nell’ordine questi sei tipi.",
     "examples": [
       {
         "id": "G7-092-1",
@@ -2113,8 +2113,8 @@
       },
       {
         "id": "G7-092-2",
-        "hanzi": "他放下行李。接着，他走到窗前。",
-        "pinyin": "Tā fàng xià xíngli. Jiēzhe, tā zǒu dào chuāng qián.",
+        "hanzi": "他放下行李。接着，他走到窗户前面。",
+        "pinyin": "Tā fàng xià xíngli. Jiēzhe, tā zǒu dào chuānghu qiánmiàn.",
         "translation": "Posò i bagagli. Poi andò alla finestra."
       },
       {
@@ -2149,7 +2149,7 @@
     "sourceNo": 518,
     "title": "Rapporti subordinativi tra gruppi di frasi",
     "pattern": "condizione／causa／scopo／contrasto／ipotesi／concessione tra frasi",
-    "explanation": "Nei gruppi 偏正 una parte fornisce lo sfondo logico dell’altra: condizione 条件, causa 因果, scopo 目的, contrasto 转折, ipotesi 假设 o concessione 让步. Questi rapporti organizzano intere frasi autonome, non soltanto proposizioni entro una frase; gli esempi seguono lo stesso ordine.",
+    "explanation": "Nei gruppi con rapporto subordinativo una parte fornisce lo sfondo logico dell’altra: condizione, causa, scopo, contrasto, ipotesi o concessione. Questi rapporti organizzano intere frasi autonome, non soltanto proposizioni entro una frase; gli esempi seguono lo stesso ordine.",
     "examples": [
       {
         "id": "G7-093-1",
@@ -2159,15 +2159,15 @@
       },
       {
         "id": "G7-093-2",
-        "hanzi": "昨晚下了一夜大雪。因此，今天的比赛取消了。",
-        "pinyin": "Zuówǎn xià le yī yè dà xuě. Yīncǐ, jīntiān de bǐsài qǔxiāo le.",
+        "hanzi": "昨天晚上下了一夜大雪。因此，今天的比赛取消了。",
+        "pinyin": "Zuótiān wǎnshang xià le yī yè dà xuě. Yīncǐ, jīntiān de bǐsài qǔxiāo le.",
         "translation": "Ieri ha nevicato forte tutta la notte. Perciò la gara di oggi è stata annullata."
       },
       {
         "id": "G7-093-3",
-        "hanzi": "她每天跟着录音练习。为的是让自己的发音更自然。",
-        "pinyin": "Tā měi tiān gēnzhe lùyīn liànxí. Wèi de shì ràng zìjǐ de fāyīn gèng zìrán.",
-        "translation": "Si esercita ogni giorno seguendo le registrazioni. Lo fa per rendere la pronuncia più naturale."
+        "hanzi": "她每天跟着录音练习。为的是让自己说话更自然。",
+        "pinyin": "Tā měi tiān gēn zhe lùyīn liànxí. Wèi de shì ràng zìjǐ shuōhuà gèng zìrán.",
+        "translation": "Si esercita ogni giorno seguendo le registrazioni. Lo fa per parlare in modo più naturale."
       },
       {
         "id": "G7-093-4",
@@ -2392,8 +2392,8 @@
     "level": 7,
     "sourceNo": 528,
     "title": "Chiunque rientri in una categoria",
-    "pattern": "凡 + condizione／categoria，都／均 + predicato",
-    "explanation": "凡 delimita tutti i casi che soddisfano una condizione, con valore di chiunque o tutto ciò che. È comune in regolamenti e generalizzazioni; la conclusione spesso contiene 都 o 均.",
+    "pattern": "凡 + condizione／categoria，都 + predicato",
+    "explanation": "凡 delimita tutti i casi che soddisfano una condizione, con valore di chiunque o tutto ciò che. È comune in regolamenti e generalizzazioni; la conclusione spesso contiene 都.",
     "examples": [
       {
         "id": "G7-103-1",
@@ -2425,8 +2425,8 @@
       },
       {
         "id": "G7-104-2",
-        "hanzi": "这些资料皆可免费查阅。",
-        "pinyin": "Zhèxiē zīliào jiē kě miǎnfèi cháyuè.",
+        "hanzi": "这些资料皆可免费查看。",
+        "pinyin": "Zhèxiē zīliào jiē kě miǎnfèi chákàn.",
         "translation": "Tutti questi materiali sono consultabili gratuitamente."
       }
     ]
@@ -2441,8 +2441,8 @@
     "examples": [
       {
         "id": "G7-105-1",
-        "hanzi": "桌上的旧报纸统统收起来。",
-        "pinyin": "Zhuō shàng de jiù bàozhǐ tǒngtǒng shōu qǐlái.",
+        "hanzi": "桌子上的旧报纸统统收起来。",
+        "pinyin": "Zhuōzi shang de jiù bàozhǐ tǒngtǒng shōu qǐlái.",
         "translation": "Metti via tutti i vecchi giornali che sono sul tavolo."
       },
       {
@@ -2573,9 +2573,9 @@
     "examples": [
       {
         "id": "G7-111-1",
-        "hanzi": "请勿触摸展品。",
-        "pinyin": "Qǐng wù chùmō zhǎnpǐn.",
-        "translation": "Si prega di non toccare gli oggetti esposti."
+        "hanzi": "请勿触摸文物。",
+        "pinyin": "Qǐng wù chùmō wénwù.",
+        "translation": "Si prega di non toccare i beni culturali."
       },
       {
         "id": "G7-111-2",
@@ -2617,9 +2617,9 @@
     "examples": [
       {
         "id": "G7-113-1",
-        "hanzi": "两位老友多年后再度相聚。",
-        "pinyin": "Liǎng wèi lǎoyǒu duō nián hòu zàidù xiāngjù.",
-        "translation": "I due vecchi amici si sono ritrovati dopo molti anni."
+        "hanzi": "两位老朋友多年后再度见面。",
+        "pinyin": "Liǎng wèi lǎo péngyou duō nián hòu zàidù jiànmiàn.",
+        "translation": "I due vecchi amici si sono incontrati di nuovo dopo molti anni."
       },
       {
         "id": "G7-113-2",
@@ -3101,8 +3101,8 @@
     "examples": [
       {
         "id": "G7-135-1",
-        "hanzi": "你昨晚没睡好，怪不得今天这么累。",
-        "pinyin": "Nǐ zuówǎn méi shuì hǎo, guàibude jīntiān zhème lèi.",
+        "hanzi": "你昨天晚上没睡好，怪不得今天这么累。",
+        "pinyin": "Nǐ zuótiān wǎnshang méi shuì hǎo, guàibude jīntiān zhème lèi.",
         "translation": "Ieri notte hai dormito male: ecco perché oggi sei così stanco."
       },
       {
@@ -3151,9 +3151,9 @@
       },
       {
         "id": "G7-137-2",
-        "hanzi": "诚信乃立身之本。",
-        "pinyin": "Chéngxìn nǎi lìshēn zhī běn.",
-        "translation": "L’integrità è il fondamento della condotta personale."
+        "hanzi": "诚信乃合作之本。",
+        "pinyin": "Chéngxìn nǎi hézuò zhī běn.",
+        "translation": "L’integrità è il fondamento della collaborazione."
       }
     ]
   },
@@ -3387,14 +3387,14 @@
     "examples": [
       {
         "id": "G7-148-1",
-        "hanzi": "吾心安矣。",
-        "pinyin": "Wú xīn ān yǐ.",
+        "hanzi": "我心安矣。",
+        "pinyin": "Wǒ xīn ān yǐ.",
         "translation": "Il mio animo è ormai in pace."
       },
       {
         "id": "G7-148-2",
-        "hanzi": "如今悔之晚矣。",
-        "pinyin": "Rújīn huǐ zhī wǎn yǐ.",
+        "hanzi": "如今后悔，已晚矣。",
+        "pinyin": "Rújīn hòuhuǐ, yǐ wǎn yǐ.",
         "translation": "Ormai è troppo tardi per pentirsene."
       }
     ]

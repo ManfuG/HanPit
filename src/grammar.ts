@@ -1,4 +1,5 @@
 import type { Pronunciation } from './audio';
+import { loadCurriculum } from './curriculum';
 
 export interface GrammarExample {
   id: string;
@@ -17,15 +18,30 @@ export interface GrammarRule {
   examples: GrammarExample[];
 }
 
-const cache = new Map<number, Promise<GrammarRule[]>>();
+interface GrammarLesson {
+  rules: GrammarRule[];
+  wordCount: number;
+}
 
-function loadRules(level: number): Promise<GrammarRule[]> {
+const cache = new Map<number, Promise<GrammarLesson>>();
+
+function loadRules(level: number): Promise<GrammarLesson> {
   let pending = cache.get(level);
   if (!pending) {
-    pending = fetch(`${import.meta.env.BASE_URL}data/grammar-level-${level}.json`)
-      .then(async response => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}.`);
-        return await response.json() as GrammarRule[];
+    pending = Promise.all([
+      fetch(`${import.meta.env.BASE_URL}data/grammar-level-${level}.json`)
+        .then(async response => {
+          if (!response.ok) throw new Error(`Grammatica HSK ${level === 7 ? '7–9' : level}: HTTP ${response.status}.`);
+          return await response.json() as GrammarRule[];
+        }),
+      loadCurriculum(level),
+    ])
+      .then(([rules, curriculum]) => {
+        const byId = new Map(rules.map(rule => [rule.id, rule]));
+        return {
+          rules: curriculum.grammar.map(id => byId.get(id)!),
+          wordCount: curriculum.words.length,
+        };
       })
       .catch((error: unknown) => {
         cache.delete(level);
@@ -108,15 +124,19 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
     status.textContent = 'Caricamento della grammatica…';
     status.hidden = false;
     try {
-      const rules = await loadRules(level);
+      const { rules, wordCount } = await loadRules(level);
       if (!active || request !== currentRequest) return;
       const fragment = document.createDocumentFragment();
-      for (const rule of rules) {
+      for (const [index, rule] of rules.entries()) {
         const details = document.createElement('details');
         details.className = 'grammar-rule';
         details.id = rule.id;
         const summary = document.createElement('summary');
         summary.textContent = rule.title;
+        const cutoff = document.createElement('small');
+        cutoff.className = 'lesson-cutoff';
+        cutoff.textContent = `Flashcard 1–${Math.floor(wordCount * (index + 1) / rules.length)}`;
+        summary.append(cutoff);
         details.append(summary);
         let filled = false;
         details.addEventListener('toggle', () => {
