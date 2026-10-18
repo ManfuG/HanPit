@@ -9,7 +9,7 @@ export function initialProgress(): TestProgress {
 
 export function applyTestResult(progress: TestProgress, level: number, perfect: boolean): void {
   if (!Number.isInteger(level) || level < 1 || level > progress.unlockedLevel) {
-    throw new Error('Livello HSK bloccato.');
+    throw new Error('HSK level locked.');
   }
   if (!perfect) {
     progress.streaks.delete(level);

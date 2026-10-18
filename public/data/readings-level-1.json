@@ -1,172 +1,230 @@
 [
   {
     "id": "R1-01",
-    "title": "Con la maestra",
+    "title": "With the teacher",
     "paragraphs": [
       {
         "hanzi": "这里是我的学校。她是我的老师。我认识她。老师看我的书，我看老师的书。",
         "pinyin": "Zhèlǐ shì wǒ de xuéxiào。Tā shì wǒ de lǎoshī。Wǒ rènshi tā。Lǎoshī kàn wǒ de shū，wǒ kàn lǎoshī de shū。",
-        "translation": "Questa è la mia scuola. Lei è la mia insegnante. La conosco. L'insegnante guarda il mio libro e io guardo il suo."
+        "translation": "This is my school. She is my teacher. I know her. The teacher looks at my book, and I look at hers."
       },
       {
         "hanzi": "老师说，我们说。我们看她的书。老师喝茶，我们喝水。这里的书是老师的书，我们的书在这里。",
         "pinyin": "Lǎoshī shuō，wǒmen shuō。Wǒmen kàn tā de shū。Lǎoshī hē chá，wǒmen hē shuǐ。Zhèlǐ de shū shì lǎoshī de shū，wǒmen de shū zài zhèlǐ。",
-        "translation": "L'insegnante parla e noi parliamo. Guardiamo il suo libro. L'insegnante beve tè e noi beviamo acqua. I libri che sono qui sono dell'insegnante; anche i nostri libri sono qui."
+        "translation": "The teacher speaks, and we speak. We look at her book. The teacher drinks tea, and we drink water. The books here belong to the teacher; our books are here too."
       }
     ],
-    "grammarIds": ["G1-036", "G1-005", "G1-029", "G1-020"]
+    "grammarIds": [
+      "G1-036",
+      "G1-005",
+      "G1-029",
+      "G1-020"
+    ]
   },
   {
     "id": "R1-02",
-    "title": "La spesa per gli amici",
+    "title": "Shopping for friends",
     "paragraphs": [
       {
         "hanzi": "今天朋友来这里。她想吃饭，妈妈想买面包，爸爸想买米饭。早上我们去商店。妈妈看了面包，买了面包。爸爸买了米饭，我买了水。",
         "pinyin": "Jīntiān péngyou lái zhèlǐ。Tā xiǎng chī fàn，māma xiǎng mǎi miànbāo，bàba xiǎng mǎi mǐfàn。Zǎoshang wǒmen qù shāngdiàn。Māma kàn le miànbāo，mǎi le miànbāo。Bàba mǎi le mǐfàn，wǒ mǎi le shuǐ。",
-        "translation": "Oggi viene qui un'amica. Vuole mangiare; la mamma vuole comprare del pane e papà del riso. La mattina andiamo al negozio. La mamma ha guardato il pane e lo ha comprato. Papà ha comprato il riso e io ho comprato dell'acqua."
+        "translation": "A friend is coming here today. She wants to eat; Mom wants to buy bread, and Dad wants to buy rice. In the morning, we go to the shop. Mom looked at the bread and bought it. Dad bought rice, and I bought water."
       },
       {
         "hanzi": "朋友来了，她的孩子来了。朋友想吃面包，孩子想吃米饭。妈妈的面包是朋友的，爸爸的米饭是孩子的。我们喝茶，孩子喝水。",
         "pinyin": "Péngyou lái le，tā de háizi lái le。Péngyou xiǎng chī miànbāo，háizi xiǎng chī mǐfàn。Māma de miànbāo shì péngyou de，bàba de mǐfàn shì háizi de。Wǒmen hē chá，háizi hē shuǐ。",
-        "translation": "L'amica è arrivata ed è arrivato anche suo figlio. L'amica vuole mangiare il pane e il bambino vuole mangiare il riso. Il pane comprato dalla mamma è per l'amica e il riso comprato da papà è per il bambino. Noi beviamo tè e il bambino beve acqua."
+        "translation": "Our friend has arrived, and her child has arrived too. Our friend wants to eat bread, and the child wants to eat rice. The bread Mom bought is for our friend, and the rice Dad bought is for the child. We drink tea, and the child drinks water."
       }
     ],
-    "grammarIds": ["G1-003", "G1-021", "G1-028", "G1-029", "G1-020"]
+    "grammarIds": [
+      "G1-003",
+      "G1-021",
+      "G1-028",
+      "G1-029",
+      "G1-020"
+    ]
   },
   {
     "id": "R1-03",
-    "title": "Imparare insieme",
+    "title": "Learning together",
     "paragraphs": [
       {
         "hanzi": "我和姐姐都学习汉语。姐姐会说汉语，也会写汉字。我会说汉语，还在学写汉字。今天我们一起看老师的书。",
         "pinyin": "Wǒ hé jiějie dōu xuéxí Hànyǔ。Jiějie huì shuō Hànyǔ，yě huì xiě Hànzì。Wǒ huì shuō Hànyǔ，hái zài xué xiě Hànzì。Jīntiān wǒmen yīqǐ kàn lǎoshī de shū。",
-        "translation": "Mia sorella maggiore e io studiamo tutti e due il cinese. Mia sorella sa parlare cinese e sa anche scrivere i caratteri cinesi. Io so parlare cinese, ma sto ancora imparando a scrivere i caratteri. Oggi leggiamo insieme il libro dell'insegnante."
+        "translation": "My older sister and I both study Chinese. My sister can speak Chinese and can also write Chinese characters. I can speak Chinese, but I am still learning to write the characters. Today we read the teacher’s book together."
       },
       {
         "hanzi": "姐姐先看，我跟她一起看。她说汉字，我写汉字。我有时慢慢地写。我说：“我能写。”明天我们还要一起学习。",
         "pinyin": "Jiějie xiān kàn，wǒ gēn tā yīqǐ kàn。Tā shuō Hànzì，wǒ xiě Hànzì。Wǒ yǒushí mànmàn de xiě。Wǒ shuō：“Wǒ néng xiě。”Míngtiān wǒmen hái yào yīqǐ xuéxí。",
-        "translation": "Mia sorella comincia a leggere e io leggo insieme a lei. Lei pronuncia i caratteri cinesi e io li scrivo. A volte scrivo lentamente. Dico: «Riesco a scrivere». Anche domani studieremo insieme."
+        "translation": "My sister starts reading, and I read along with her. She says the Chinese characters, and I write them. Sometimes I write slowly. I say, “I can write.” Tomorrow we will study together again."
       }
     ],
-    "grammarIds": ["G1-002", "G1-010", "G1-011", "G1-013", "G1-017"]
+    "grammarIds": [
+      "G1-002",
+      "G1-010",
+      "G1-011",
+      "G1-013",
+      "G1-017"
+    ]
   },
   {
     "id": "R1-04",
-    "title": "Chi viene a scuola?",
+    "title": "Who is coming to school?",
     "paragraphs": [
       {
         "hanzi": "今天谁来学校？这些人是我们的老师，那些人是学生。这个人是谁？他是我的哥哥。哥哥学什么？他学汉语，也学写汉字。",
         "pinyin": "Jīntiān shéi lái xuéxiào？Zhèxiē rén shì wǒmen de lǎoshī，nàxiē rén shì xuésheng。Zhège rén shì shéi？Tā shì wǒ de gēge。Gēge xué shénme？Tā xué Hànyǔ，yě xué xiě Hànzì。",
-        "translation": "Chi viene a scuola oggi? Queste persone sono i nostri insegnanti e quelle sono studenti. Chi è questa persona? È mio fratello maggiore. Che cosa studia mio fratello? Studia il cinese e impara anche a scrivere i caratteri cinesi."
+        "translation": "Who is coming to school today? These people are our teachers, and those people are students. Who is this person? He is my older brother. What does my brother study? He studies Chinese and also learns to write Chinese characters."
       },
       {
         "hanzi": "老师看了我的书。老师说：“这几页汉字很好看。”哥哥看了两本书，也写了三页汉字。我们都想学习，明天还来这里。",
         "pinyin": "Lǎoshī kàn le wǒ de shū。Lǎoshī shuō：“Zhè jǐ yè Hànzì hěn hǎokàn。”Gēge kàn le liǎng běn shū，yě xiě le sān yè Hànzì。Wǒmen dōu xiǎng xuéxí，míngtiān hái lái zhèlǐ。",
-        "translation": "L'insegnante ha guardato il mio libro. Ha detto: «I caratteri cinesi su queste pagine sono molto belli». Mio fratello ha letto due libri e ha anche scritto tre pagine di caratteri cinesi. Vogliamo tutti studiare e domani torneremo qui."
+        "translation": "The teacher looked at my book. The teacher said, “The Chinese characters on these pages are very beautiful.” My brother read two books and also wrote three pages of Chinese characters. We all want to study, and we will come back here tomorrow."
       }
     ],
-    "grammarIds": ["G1-004", "G1-006", "G1-007", "G1-008", "G1-013"]
+    "grammarIds": [
+      "G1-004",
+      "G1-006",
+      "G1-007",
+      "G1-008",
+      "G1-013"
+    ]
   },
   {
     "id": "R1-05",
-    "title": "La strada verso la stazione",
+    "title": "The way to the station",
     "paragraphs": [
       {
         "hanzi": "早上，我从家里走到车站。车站在学校的北边，商店在车站里。爸爸常常从这里打车去学校，我不打车。",
         "pinyin": "Zǎoshang，wǒ cóng jiālǐ zǒudào chēzhàn。Chēzhàn zài xuéxiào de běibian，shāngdiàn zài chēzhàn lǐ。Bàba chángcháng cóng zhèlǐ dǎ chē qù xuéxiào，wǒ bù dǎ chē。",
-        "translation": "La mattina vado a piedi da casa alla stazione. La stazione è a nord della scuola e il negozio è dentro la stazione. Papà prende spesso un taxi da qui per andare a scuola; io non prendo il taxi."
+        "translation": "In the morning, I walk from home to the station. The station is north of the school, and the shop is inside the station. Dad often takes a taxi from here to school; I do not take a taxi."
       },
       {
         "hanzi": "今天爸爸在车站等妈妈。妈妈的包在车上，车票在包里。妈妈看了包里的车票，爸爸等妈妈。我们从车站出来，先去商店。我们还要去学校。",
         "pinyin": "Jīntiān bàba zài chēzhàn děng māma。Māma de bāo zài chēshang，chēpiào zài bāo lǐ。Māma kàn le bāo lǐ de chēpiào，bàba děng māma。Wǒmen cóng chēzhàn chūlái，xiān qù shāngdiàn。Wǒmen hái yào qù xuéxiào。",
-        "translation": "Oggi papà aspetta la mamma alla stazione. La borsa della mamma è a bordo e il biglietto è nella borsa. La mamma ha guardato il biglietto nella borsa e papà la aspetta. Usciamo dalla stazione e andiamo prima al negozio. Dobbiamo andare anche a scuola."
+        "translation": "Today Dad is waiting for Mom at the station. Mom’s bag is on board, and the ticket is in the bag. Mom looked at the ticket in her bag, and Dad is waiting for her. We leave the station and go to the shop first. We also need to go to school."
       }
     ],
-    "grammarIds": ["G1-001", "G1-012", "G1-014", "G1-015", "G1-016"]
+    "grammarIds": [
+      "G1-001",
+      "G1-012",
+      "G1-014",
+      "G1-015",
+      "G1-016"
+    ]
   },
   {
     "id": "R1-06",
-    "title": "Un film nel giorno libero",
+    "title": "A film on a day off",
     "paragraphs": [
       {
         "hanzi": "今天放假了。我想看电影，弟弟想在家看电视。电影院比商店大，也比我们家大。我说：“看电影还是看电视？”",
         "pinyin": "Jīntiān fàngjià le。Wǒ xiǎng kàn diànyǐng，dìdi xiǎng zài jiā kàn diànshì。Diànyǐngyuàn bǐ shāngdiàn dà，yě bǐ wǒmen jiā dà。Wǒ shuō：“Kàn diànyǐng háishi kàn diànshì？”",
-        "translation": "Oggi è un giorno di vacanza. Io voglio vedere un film e mio fratello minore vuole guardare la televisione a casa. Il cinema è più grande del negozio e anche di casa nostra. Chiedo: «Vediamo un film o guardiamo la televisione?»"
+        "translation": "Today is a day off. I want to see a film, and my younger brother wants to watch television at home. The cinema is bigger than the shop and also bigger than our home. I ask, “Shall we see a film or watch television?”"
       },
       {
         "hanzi": "弟弟说：“先吃饭吧。”妈妈买了面包和牛奶，我们吃了面包。弟弟说：“电影好看吗？”我说：“电影很好看。”我们都想看电影了。",
         "pinyin": "Dìdi shuō：“Xiān chī fàn ba。”Māma mǎi le miànbāo hé niúnǎi，wǒmen chī le miànbāo。Dìdi shuō：“Diànyǐng hǎokàn ma？”Wǒ shuō：“Diànyǐng hěn hǎokàn。”Wǒmen dōu xiǎng kàn diànyǐng le。",
-        "translation": "Mio fratello dice: «Prima mangiamo». La mamma ha comprato pane e latte e noi abbiamo mangiato il pane. Mio fratello chiede: «Il film è bello?» Io rispondo: «Il film è molto bello». Adesso vogliamo tutti vedere il film."
+        "translation": "My brother says, “Let us eat first.” Mom bought bread and milk, and we ate the bread. My brother asks, “Is the film good?” I reply, “The film is very good.” Now we all want to see the film."
       }
     ],
-    "grammarIds": ["G1-018", "G1-019", "G1-022", "G1-023"]
+    "grammarIds": [
+      "G1-018",
+      "G1-019",
+      "G1-022",
+      "G1-023"
+    ]
   },
   {
     "id": "R1-07",
-    "title": "Il lavoro di mio fratello",
+    "title": "My brother’s job",
     "paragraphs": [
       {
         "hanzi": "我的哥哥是老师。他在学校教汉语，常常早上来到学校。学生看课本，他读课文。学生读课文，他也慢慢地读。",
         "pinyin": "Wǒ de gēge shì lǎoshī。Tā zài xuéxiào jiāo Hànyǔ，chángcháng zǎoshang láidào xuéxiào。Xuésheng kàn kèběn，tā dú kèwén。Xuésheng dú kèwén，tā yě mànmàn de dú。",
-        "translation": "Mio fratello maggiore è un insegnante. Insegna cinese a scuola e arriva spesso a scuola la mattina. Gli studenti guardano il libro di testo e lui legge il brano. Gli studenti leggono il brano e anche lui legge lentamente."
+        "translation": "My older brother is a teacher. He teaches Chinese at school and often arrives at school in the morning. The students look at the textbook, and he reads the passage. The students read the passage, and he also reads slowly."
       },
       {
         "hanzi": "哥哥说：“学习汉语很好。”他的学生喜欢学习，也喜欢上课。今年他认识了很多学生。放学了，哥哥很累，也很高兴。",
         "pinyin": "Gēge shuō：“Xuéxí Hànyǔ hěn hǎo。”Tā de xuésheng xǐhuan xuéxí，yě xǐhuan shàng kè。Jīnnián tā rènshi le hěn duō xuésheng。Fàng xué le，gēge hěn lèi，yě hěn gāoxìng。",
-        "translation": "Mio fratello dice: «Studiare il cinese è una bella cosa». Ai suoi studenti piace studiare e piace anche seguire le lezioni. Quest'anno ha conosciuto molti studenti. Le lezioni sono finite: mio fratello è molto stanco, ma anche molto contento."
+        "translation": "My brother says, “Studying Chinese is a good thing.” His students like studying and also like attending lessons. This year he has met many students. School is over: my brother is very tired, but also very happy."
       }
     ],
-    "grammarIds": ["G1-025", "G1-027", "G1-030", "G1-032", "G1-020"]
+    "grammarIds": [
+      "G1-025",
+      "G1-027",
+      "G1-030",
+      "G1-032",
+      "G1-020"
+    ]
   },
   {
     "id": "R1-08",
-    "title": "Scegliere un vestito",
+    "title": "Choosing clothes",
     "paragraphs": [
       {
         "hanzi": "今天我和妈妈去商场。商场里有很多衣服。这里的衣服很好看，那边的衣服也好看。妈妈说，这些衣服没有那些贵。",
         "pinyin": "Jīntiān wǒ hé māma qù shāngchǎng。Shāngchǎng lǐ yǒu hěn duō yīfu。Zhèlǐ de yīfu hěn hǎokàn，nàbian de yīfu yě hǎokàn。Māma shuō，zhèxiē yīfu méiyǒu nàxiē guì。",
-        "translation": "Oggi vado al centro commerciale con la mamma. Nel centro commerciale ci sono molti vestiti. Quelli qui sono molto belli e anche quelli laggiù sono belli. La mamma dice che questi vestiti sono meno cari di quelli."
+        "translation": "Today I go to the shopping mall with Mom. There are many clothes in the mall. The clothes here are very nice, and the clothes over there are nice too. Mom says these clothes are not as expensive as those."
       },
       {
         "hanzi": "我看了很多衣服，想买这些。妈妈说，你的钱包呢？我的钱包在家里，我没有钱。妈妈说，别买太多。我们买了衣服，妈妈很高兴。",
         "pinyin": "Wǒ kàn le hěn duō yīfu，xiǎng mǎi zhèxiē。Māma shuō，nǐ de qiánbāo ne？Wǒ de qiánbāo zài jiālǐ，wǒ méiyǒu qián。Māma shuō，bié mǎi tài duō。Wǒmen mǎi le yīfu，māma hěn gāoxìng。",
-        "translation": "Ho guardato molti vestiti e voglio comprare questi. La mamma chiede: «Dov'è il tuo portafoglio?» Il mio portafoglio è a casa e non ho soldi. La mamma dice: «Non comprarne troppi». Abbiamo comprato dei vestiti e la mamma è molto contenta."
+        "translation": "I looked at lots of clothes and want to buy these. Mom asks, “Where is your wallet?” My wallet is at home, and I have no money. Mom says, “Do not buy too many.” We bought clothes, and Mom is very happy."
       }
     ],
-    "grammarIds": ["G1-033", "G1-034", "G1-035", "G1-037", "G1-038"]
+    "grammarIds": [
+      "G1-033",
+      "G1-034",
+      "G1-035",
+      "G1-037",
+      "G1-038"
+    ]
   },
   {
     "id": "R1-09",
-    "title": "Un regalo per la mamma",
+    "title": "A gift for Mom",
     "paragraphs": [
       {
         "hanzi": "今天是妈妈的生日。哥哥下班了，买了两本书。我买了花，也买了水果。两本书二十元，花十元五毛。这些书和花是妈妈的。",
         "pinyin": "Jīntiān shì māma de shēngrì。Gēge xià bān le，mǎi le liǎng běn shū。Wǒ mǎi le huā，yě mǎi le shuǐguǒ。Liǎng běn shū èrshí yuán，huā shí yuán wǔ máo。Zhèxiē shū hé huā shì māma de。",
-        "translation": "Oggi è il compleanno della mamma. Mio fratello maggiore ha finito di lavorare e ha comprato due libri. Io ho comprato dei fiori e anche della frutta. I due libri costano venti yuan e i fiori dieci yuan e cinquanta centesimi. Questi libri e questi fiori sono per la mamma."
+        "translation": "Today is Mom’s birthday. My older brother finished work and bought two books. I bought flowers and also bought fruit. The two books cost twenty yuan, and the flowers cost ten yuan and fifty fen. These books and flowers are for Mom."
       },
       {
         "hanzi": "晚上，妈妈正在看电视呢。我们送了书和花，她高兴了。妈妈一边看书，一边听我们说话。爸爸在洗水果，我们一起吃水果。",
         "pinyin": "Wǎnshang，māma zhèngzài kàn diànshì ne。Wǒmen sòng le shū hé huā，tā gāoxìng le。Māma yībiān kàn shū，yībiān tīng wǒmen shuō huà。Bàba zài xǐ shuǐguǒ，wǒmen yīqǐ chī shuǐguǒ。",
-        "translation": "La sera la mamma sta guardando la televisione. Le abbiamo regalato i libri e i fiori e lei si è rallegrata. La mamma legge e intanto ci ascolta parlare. Papà sta lavando la frutta e noi la mangiamo tutti insieme."
+        "translation": "In the evening, Mom is watching television. We gave her the books and flowers, and she became happy. Mom reads while listening to us talk. Dad is washing the fruit, and we eat it together."
       }
     ],
-    "grammarIds": ["G1-039", "G1-040", "G1-041", "G1-042", "G1-043"]
+    "grammarIds": [
+      "G1-039",
+      "G1-040",
+      "G1-041",
+      "G1-042",
+      "G1-043"
+    ]
   },
   {
     "id": "R1-10",
-    "title": "Una visita dal medico",
+    "title": "A visit to the doctor",
     "paragraphs": [
       {
         "hanzi": "今天是星期日。上午九点，我和爷爷来到医院。医生问爷爷，您哪里不太好？爷爷说，我很累。医生说，您要休息，也要多喝水。",
         "pinyin": "Jīntiān shì xīngqīrì。Shàngwǔ jiǔ diǎn，wǒ hé yéye láidào yīyuàn。Yīshēng wèn yéye，nín nǎlǐ bù tài hǎo？Yéye shuō，wǒ hěn lèi。Yīshēng shuō，nín yào xiūxi，yě yào duō hē shuǐ。",
-        "translation": "Oggi è domenica. Alle nove del mattino arrivo all'ospedale con mio nonno. Il medico gli chiede: «Dove si sente poco bene?» Il nonno risponde: «Sono molto stanco». Il medico dice: «Deve riposare e bere più acqua»."
+        "translation": "Today is Sunday. At nine in the morning, I arrive at the hospital with my grandfather. The doctor asks him, “Where do you feel unwell?” Grandfather replies, “I am very tired.” The doctor says, “You need to rest and drink more water.”"
       },
       {
         "hanzi": "爷爷问，今天能不能回家？医生说，能。回到家里，我问爷爷，您喝茶还是喝水？爷爷说，喝水吧。奶奶问，水冷不冷？我说，水不冷，您也喝水吧。",
         "pinyin": "Yéye wèn，jīntiān néng bu néng huí jiā？Yīshēng shuō，néng。Huídào jiālǐ，wǒ wèn yéye，nín hē chá háishi hē shuǐ？Yéye shuō，hē shuǐ ba。Nǎinai wèn，shuǐ lěng bu lěng？Wǒ shuō，shuǐ bù lěng，nín yě hē shuǐ ba。",
-        "translation": "Il nonno chiede: «Posso tornare a casa oggi?» Il medico risponde di sì. Tornati a casa, chiedo al nonno: «Preferisce bere tè o acqua?» Il nonno dice: «Dell'acqua». La nonna chiede: «L'acqua è fredda?» Io rispondo: «Non è fredda, beva dell'acqua anche lei»."
+        "translation": "Grandfather asks, “Can I go home today?” The doctor says he can. Back at home, I ask Grandfather, “Would you like tea or water?” Grandfather says, “Water, please.” Grandmother asks, “Is the water cold?” I reply, “It is not cold. Have some water too.”"
       }
     ],
-    "grammarIds": ["G1-044", "G1-045", "G1-046", "G1-047", "G1-048"]
+    "grammarIds": [
+      "G1-044",
+      "G1-045",
+      "G1-046",
+      "G1-047",
+      "G1-048"
+    ]
   }
 ]

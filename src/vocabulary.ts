@@ -13,7 +13,7 @@ export function loadVocabulary(level: number): Promise<Word[]> {
       if (!pending) {
         pending = Promise.all([
           fetch(`${import.meta.env.BASE_URL}data/level-${n}.json`).then(async response => {
-            if (!response.ok) throw new Error(`Vocabolario HSK ${n}: HTTP ${response.status}.`);
+            if (!response.ok) throw new Error(`HSK ${n} vocabulary: HTTP ${response.status}.`);
             return await response.json() as Word[];
           }),
           loadCurriculum(n),

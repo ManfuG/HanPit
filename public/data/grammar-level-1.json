@@ -1,520 +1,520 @@
 [
   {
     "id": "G1-001", "level": 1, "sourceNo": 1,
-    "title": "Parole di posizione",
-    "pattern": "luogo + 上／下／里／外／前／后／左／右",
-    "explanation": "Le parole di posizione indicano dove si trova qualcosa: sopra, sotto, dentro, fuori, davanti, dietro, a sinistra o a destra. Seguono normalmente il nome di riferimento; molte hanno anche la forma con 边, come 上边 e 里边. 东、南、西、北 indicano est, sud, ovest e nord e possono anch'essi prendere 边.",
+    "title": "Position words",
+    "pattern": "place + 上／下／里／外／前／后／左／右",
+    "explanation": "Position words indicate where something is: above, below, inside, outside, in front, behind, to the left or to the right. They normally follow the reference noun; many also have forms with 边, such as 上边 and 里边. 东、南、西、北 mean east, south, west and north, and can also take 边.",
     "examples": [
-      {"id":"G1-001-1","hanzi":"书在桌子上。","pinyin":"Shū zài zhuōzi shàng.","translation":"Il libro è sul tavolo."},
-      {"id":"G1-001-2","hanzi":"学校在我家北边。","pinyin":"Xuéxiào zài wǒ jiā běibian.","translation":"La scuola è a nord di casa mia."},
-      {"id":"G1-001-3","hanzi":"孩子在门外。","pinyin":"Háizi zài mén wài.","translation":"Il bambino è fuori dalla porta."}
+      {"id":"G1-001-1","hanzi":"书在桌子上。","pinyin":"Shū zài zhuōzi shàng.","translation":"The book is on the table."},
+      {"id":"G1-001-2","hanzi":"学校在我家北边。","pinyin":"Xuéxiào zài wǒ jiā běibian.","translation":"The school is north of my home."},
+      {"id":"G1-001-3","hanzi":"孩子在门外。","pinyin":"Háizi zài mén wài.","translation":"The child is outside the door."}
     ]
   },
   {
     "id": "G1-002", "level": 1, "sourceNo": 2,
-    "title": "Saper fare e poter fare: 会 e 能",
-    "pattern": "soggetto + 会／能 + verbo",
-    "explanation": "会 indica soprattutto una capacità appresa, come saper parlare una lingua. 能 indica che capacità fisiche o circostanze rendono possibile un'azione; in una domanda può chiedere il permesso. Il verbo seguente non cambia forma e la negazione è 不会 o 不能.",
+    "title": "Knowing how and being able: 会 and 能",
+    "pattern": "subject + 会／能 + verb",
+    "explanation": "会 mainly indicates a learned ability, such as knowing how to speak a language. 能 indicates that physical ability or circumstances make an action possible; in a question it can ask permission. The following verb does not change form, and the negative forms are 不会 and 不能.",
     "examples": [
-      {"id":"G1-002-1","hanzi":"我会说汉语。","pinyin":"Wǒ huì shuō Hànyǔ.","translation":"So parlare cinese."},
-      {"id":"G1-002-2","hanzi":"我今天不能去。","pinyin":"Wǒ jīntiān bù néng qù.","translation":"Oggi non posso andare."},
-      {"id":"G1-002-3","hanzi":"我能坐这儿吗？","pinyin":"Wǒ néng zuò zhèr ma?","translation":"Posso sedermi qui?"}
+      {"id":"G1-002-1","hanzi":"我会说汉语。","pinyin":"Wǒ huì shuō Hànyǔ.","translation":"I can speak Chinese."},
+      {"id":"G1-002-2","hanzi":"我今天不能去。","pinyin":"Wǒ jīntiān bù néng qù.","translation":"I cannot go today."},
+      {"id":"G1-002-3","hanzi":"我能坐这儿吗？","pinyin":"Wǒ néng zuò zhèr ma?","translation":"May I sit here?"}
     ]
   },
   {
     "id": "G1-003", "level": 1, "sourceNo": 3,
-    "title": "Desiderio e intenzione: 想 e 要",
-    "pattern": "soggetto + 想／要 + verbo",
-    "explanation": "想 esprime un desiderio o un'intenzione non troppo categorica, spesso traducibile con vorrei. 要 esprime una volontà o intenzione più decisa e può anche indicare una necessità secondo il contesto. Per dire che non si desidera fare qualcosa si usa normalmente 不想; 不要 può invece essere un divieto.",
+    "title": "Desire and intention: 想 and 要",
+    "pattern": "subject + 想／要 + verb",
+    "explanation": "想 expresses a desire or a less categorical intention, often translated as would like to. 要 expresses a firmer wish or intention and can also indicate necessity, depending on the context. To say that someone does not want to do something, normally use 不想; 不要 can instead express a prohibition.",
     "examples": [
-      {"id":"G1-003-1","hanzi":"我想喝茶。","pinyin":"Wǒ xiǎng hē chá.","translation":"Vorrei bere del tè."},
-      {"id":"G1-003-2","hanzi":"明天我要去北京。","pinyin":"Míngtiān wǒ yào qù Běijīng.","translation":"Domani ho intenzione di andare a Pechino."},
-      {"id":"G1-003-3","hanzi":"她不想看电视。","pinyin":"Tā bù xiǎng kàn diànshì.","translation":"Non ha voglia di guardare la televisione."}
+      {"id":"G1-003-1","hanzi":"我想喝茶。","pinyin":"Wǒ xiǎng hē chá.","translation":"I would like to drink some tea."},
+      {"id":"G1-003-2","hanzi":"明天我要去北京。","pinyin":"Míngtiān wǒ yào qù Běijīng.","translation":"I intend to go to Beijing tomorrow."},
+      {"id":"G1-003-3","hanzi":"她不想看电视。","pinyin":"Tā bù xiǎng kàn diànshì.","translation":"She does not feel like watching television."}
     ]
   },
   {
     "id": "G1-004", "level": 1, "sourceNo": 4,
-    "title": "Pronomi ed espressioni interrogative",
-    "pattern": "frase con 谁／什么／哪／几／怎么 nella posizione richiesta",
-    "explanation": "L'interrogativo resta nella posizione dell'informazione cercata: 谁 per una persona, 什么 per una cosa, 哪 con classificatore per quale, 哪些 per quali, 哪儿 o 哪里 per dove. 几 chiede un numero generalmente piccolo e richiede il classificatore, mentre 多少 chiede una quantità senza limitarla. 多 precede un aggettivo per chiedere una misura o un'età; 怎么 chiede il modo di fare qualcosa. Non si aggiunge 吗 a queste domande.",
+    "title": "Question words and expressions",
+    "pattern": "sentence with 谁／什么／哪／几／怎么 in the required position",
+    "explanation": "The question word stays in the position of the information being requested: 谁 for a person, 什么 for a thing, 哪 with a classifier for which, 哪些 for which ones, and 哪儿 or 哪里 for where. 几 asks for a generally small number and requires a classifier, whereas 多少 asks about quantity without that restriction. 多 precedes an adjective to ask about a measurement or age; 怎么 asks how something is done. Do not add 吗 to these questions.",
     "examples": [
-      {"id":"G1-004-1","hanzi":"谁是你的老师？","pinyin":"Shéi shì nǐ de lǎoshī?","translation":"Chi è il tuo insegnante?"},
-      {"id":"G1-004-2","hanzi":"你家有几口人？","pinyin":"Nǐ jiā yǒu jǐ kǒu rén?","translation":"Quante persone ci sono nella tua famiglia?"},
-      {"id":"G1-004-3","hanzi":"这个多少钱？","pinyin":"Zhègè duōshao qián?","translation":"Quanto costa questo?"},
-      {"id":"G1-004-4","hanzi":"你怎么去学校？","pinyin":"Nǐ zěnme qù xuéxiào?","translation":"Come vai a scuola?"}
+      {"id":"G1-004-1","hanzi":"谁是你的老师？","pinyin":"Shéi shì nǐ de lǎoshī?","translation":"Who is your teacher?"},
+      {"id":"G1-004-2","hanzi":"你家有几口人？","pinyin":"Nǐ jiā yǒu jǐ kǒu rén?","translation":"How many people are there in your family?"},
+      {"id":"G1-004-3","hanzi":"这个多少钱？","pinyin":"Zhègè duōshao qián?","translation":"How much does this cost?"},
+      {"id":"G1-004-4","hanzi":"你怎么去学校？","pinyin":"Nǐ zěnme qù xuéxiào?","translation":"How do you get to school?"}
     ]
   },
   {
     "id": "G1-005", "level": 1, "sourceNo": 5,
-    "title": "Pronomi personali",
-    "pattern": "我／你／您／他／她; plurale con 们",
-    "explanation": "我 significa io, 你 tu e 您 è la forma di cortesia per rivolgersi a una persona. 他 e 她 significano lui e lei ma si pronunciano entrambi tā. 我们、你们、他们、她们 sono i plurali; 他们 può riferirsi anche a un gruppo misto. I pronomi mantengono la stessa forma come soggetto e come oggetto.",
+    "title": "Personal pronouns",
+    "pattern": "我／你／您／他／她; plural with 们",
+    "explanation": "我 means I, 你 means you, and 您 is the polite form used to address one person. 他 and 她 mean he and she, but both are pronounced tā. 我们、你们、他们、她们 are the plural forms; 他们 can also refer to a mixed group. Pronouns have the same form as subjects and objects.",
     "examples": [
-      {"id":"G1-005-1","hanzi":"您喝茶吗？","pinyin":"Nín hē chá ma?","translation":"Desidera del tè?"},
-      {"id":"G1-005-2","hanzi":"我们认识她们。","pinyin":"Wǒmen rènshi tāmen.","translation":"Noi le conosciamo."}
+      {"id":"G1-005-1","hanzi":"您喝茶吗？","pinyin":"Nín hē chá ma?","translation":"Would you like some tea?"},
+      {"id":"G1-005-2","hanzi":"我们认识她们。","pinyin":"Wǒmen rènshi tāmen.","translation":"We know them."}
     ]
   },
   {
     "id": "G1-006", "level": 1, "sourceNo": 6,
-    "title": "Indicare persone, cose e luoghi",
-    "pattern": "这／那 + classificatore + nome; 这些／那些 + nome",
-    "explanation": "这 indica qualcosa di vicino e 那 qualcosa di più lontano; davanti a un nome singolare si inserisce normalmente un classificatore. 这些 e 那些 indicano gruppi, mentre 这儿、这里 e 那儿、那里 indicano luoghi. 别的 significa altro e 有的 indica alcuni elementi di un insieme, anche nella sequenza 有的…有的… per distinguere gruppi.",
+    "title": "Pointing out people, things and places",
+    "pattern": "这／那 + classifier + noun; 这些／那些 + noun",
+    "explanation": "这 indicates something nearby and 那 something farther away; a classifier is normally inserted before a singular noun. 这些 and 那些 indicate groups, whereas 这儿、这里 and 那儿、那里 indicate places. 别的 means other, and 有的 indicates some members of a set, including in the sequence 有的…有的… to distinguish groups.",
     "examples": [
-      {"id":"G1-006-1","hanzi":"这些书是我的。","pinyin":"Zhèxiē shū shì wǒ de.","translation":"Questi libri sono miei."},
-      {"id":"G1-006-2","hanzi":"那里有一家商店。","pinyin":"Nàlǐ yǒu yī jiā shāngdiàn.","translation":"Lì c'è un negozio."},
-      {"id":"G1-006-3","hanzi":"我想看别的书。","pinyin":"Wǒ xiǎng kàn bié de shū.","translation":"Vorrei leggere altri libri."},
-      {"id":"G1-006-4","hanzi":"有的学生喝茶，有的学生喝水。","pinyin":"Yǒude xuéshēng hē chá, yǒude xuéshēng hē shuǐ.","translation":"Alcuni studenti bevono tè, altri bevono acqua."}
+      {"id":"G1-006-1","hanzi":"这些书是我的。","pinyin":"Zhèxiē shū shì wǒ de.","translation":"These books are mine."},
+      {"id":"G1-006-2","hanzi":"那里有一家商店。","pinyin":"Nàlǐ yǒu yī jiā shāngdiàn.","translation":"There is a shop there."},
+      {"id":"G1-006-3","hanzi":"我想看别的书。","pinyin":"Wǒ xiǎng kàn bié de shū.","translation":"I would like to read other books."},
+      {"id":"G1-006-4","hanzi":"有的学生喝茶，有的学生喝水。","pinyin":"Yǒude xuéshēng hē chá, yǒude xuéshēng hē shuǐ.","translation":"Some students drink tea, and others drink water."}
     ]
   },
   {
     "id": "G1-007", "level": 1, "sourceNo": 7,
-    "title": "Numeri, 二 e 两, e metà",
-    "pattern": "decine + 十 + unità; 两 + classificatore; 半 + classificatore",
-    "explanation": "I numeri si costruiscono combinando unità, 十 e 百: 十一 è undici, 二十 è venti e 一百零三 è centotré, con 零 per la posizione vuota. 二 si usa nel conteggio, nelle cifre e nelle decine, mentre 两 è la forma normale di due davanti a un classificatore. 半 significa metà: precede il classificatore per mezza unità e segue numero e classificatore per un'unità e mezza.",
+    "title": "Numbers, 二 and 两, and halves",
+    "pattern": "tens + 十 + units; 两 + classifier; 半 + classifier",
+    "explanation": "Numbers are built by combining units, 十 and 百: 十一 is eleven, 二十 is twenty, and 一百零三 is one hundred and three, with 零 marking the empty place. 二 is used in counting, digits and tens, whereas 两 is the normal form of two before a classifier. 半 means half: it precedes the classifier for half a unit and follows the number and classifier for one and a half units.",
     "examples": [
-      {"id":"G1-007-1","hanzi":"我们班有二十个学生。","pinyin":"Wǒmen bān yǒu èrshí gè xuéshēng.","translation":"Nella nostra classe ci sono venti studenti."},
-      {"id":"G1-007-2","hanzi":"我有两本书。","pinyin":"Wǒ yǒu liǎng běn shū.","translation":"Ho due libri."},
-      {"id":"G1-007-3","hanzi":"我喝了半杯水。","pinyin":"Wǒ hē le bàn bēi shuǐ.","translation":"Ho bevuto mezzo bicchiere d'acqua."},
-      {"id":"G1-007-4","hanzi":"他喝了一杯半牛奶。","pinyin":"Tā hē le yī bēi bàn niúnǎi.","translation":"Ha bevuto un bicchiere e mezzo di latte."}
+      {"id":"G1-007-1","hanzi":"我们班有二十个学生。","pinyin":"Wǒmen bān yǒu èrshí gè xuéshēng.","translation":"There are twenty students in our class."},
+      {"id":"G1-007-2","hanzi":"我有两本书。","pinyin":"Wǒ yǒu liǎng běn shū.","translation":"I have two books."},
+      {"id":"G1-007-3","hanzi":"我喝了半杯水。","pinyin":"Wǒ hē le bàn bēi shuǐ.","translation":"I drank half a glass of water."},
+      {"id":"G1-007-4","hanzi":"他喝了一杯半牛奶。","pinyin":"Tā hē le yī bēi bàn niúnǎi.","translation":"He drank one and a half glasses of milk."}
     ]
   },
   {
     "id": "G1-008", "level": 1, "sourceNo": 8,
-    "title": "Classificatori nominali",
-    "pattern": "numero／dimostrativo + classificatore + nome",
-    "explanation": "Tra un numero e un nome si inserisce un classificatore adatto: 本 per libri, 杯 per contenitori di bevande, 家 per attività come negozi e 间 per stanze. 个 è molto comune, 口 conta i componenti della famiglia, 块 conta pezzi o unità monetarie e 页 le pagine. Il classificatore serve anche dopo 这、那 e 几, non soltanto dopo un numero.",
+    "title": "Noun classifiers",
+    "pattern": "number／demonstrative + classifier + noun",
+    "explanation": "An appropriate classifier is inserted between a number and a noun: 本 for books, 杯 for cups or glasses of drinks, 家 for businesses such as shops, and 间 for rooms. 个 is very common, 口 counts family members, 块 counts pieces or monetary units, and 页 counts pages. A classifier is also needed after 这、那 and 几, not just after a number.",
     "examples": [
-      {"id":"G1-008-1","hanzi":"我买了三本书。","pinyin":"Wǒ mǎi le sān běn shū.","translation":"Ho comprato tre libri."},
-      {"id":"G1-008-2","hanzi":"这家饭店有两间大房间。","pinyin":"Zhè jiā fàndiàn yǒu liǎng jiān dà fángjiān.","translation":"Questo ristorante ha due grandi stanze."},
-      {"id":"G1-008-3","hanzi":"我们家有四口人。","pinyin":"Wǒmen jiā yǒu sì kǒu rén.","translation":"Siamo in quattro in famiglia."}
+      {"id":"G1-008-1","hanzi":"我买了三本书。","pinyin":"Wǒ mǎi le sān běn shū.","translation":"I bought three books."},
+      {"id":"G1-008-2","hanzi":"这家饭店有两间大房间。","pinyin":"Zhè jiā fàndiàn yǒu liǎng jiān dà fángjiān.","translation":"This restaurant has two large rooms."},
+      {"id":"G1-008-3","hanzi":"我们家有四口人。","pinyin":"Wǒmen jiā yǒu sì kǒu rén.","translation":"There are four people in our family."}
     ]
   },
   {
     "id": "G1-009", "level": 1, "sourceNo": 9,
-    "title": "Intensità e grado",
-    "pattern": "很／非常／太／真／最 + aggettivo",
-    "explanation": "很 e 非常 precedono un aggettivo: 非常 esprime un grado forte, mentre 很 può semplicemente rendere naturale un predicato descrittivo senza significare molto. 太 esprime un grado eccessivo o un'esclamazione, spesso con 了 finale; 真 esprime un giudizio sentito, davvero. 最 indica il grado massimo all'interno di un gruppo o contesto.",
+    "title": "Intensity and degree",
+    "pattern": "很／非常／太／真／最 + adjective",
+    "explanation": "很 and 非常 precede an adjective: 非常 expresses a high degree, whereas 很 can simply make a descriptive predicate sound natural without meaning very. 太 expresses an excessive degree or an exclamation, often with final 了; 真 expresses a heartfelt judgment, meaning really. 最 indicates the highest degree within a group or context.",
     "examples": [
-      {"id":"G1-009-1","hanzi":"今天很热。","pinyin":"Jīntiān hěn rè.","translation":"Oggi fa caldo."},
-      {"id":"G1-009-2","hanzi":"这本书太贵了！","pinyin":"Zhè běn shū tài guì le!","translation":"Questo libro è troppo caro!"},
-      {"id":"G1-009-3","hanzi":"这个菜真好吃！","pinyin":"Zhègè cài zhēn hǎochī!","translation":"Questo piatto è davvero buono!"},
-      {"id":"G1-009-4","hanzi":"这本书最好看。","pinyin":"Zhè běn shū zuì hǎokàn.","translation":"Questo libro è il più bello."}
+      {"id":"G1-009-1","hanzi":"今天很热。","pinyin":"Jīntiān hěn rè.","translation":"It is hot today."},
+      {"id":"G1-009-2","hanzi":"这本书太贵了！","pinyin":"Zhè běn shū tài guì le!","translation":"This book is too expensive!"},
+      {"id":"G1-009-3","hanzi":"这个菜真好吃！","pinyin":"Zhègè cài zhēn hǎochī!","translation":"This dish is really delicious!"},
+      {"id":"G1-009-4","hanzi":"这本书最好看。","pinyin":"Zhè běn shū zuì hǎokàn.","translation":"This book is the best."}
     ]
   },
   {
     "id": "G1-010", "level": 1, "sourceNo": 10,
-    "title": "Tutti e insieme",
-    "pattern": "soggetto plurale + 都／一起／一块儿 + verbo",
-    "explanation": "都 si colloca dopo il soggetto e prima del predicato: indica che l'affermazione vale per tutti gli elementi già nominati. 一起 e 一块儿 indicano invece che le persone fanno qualcosa insieme. 都不 significa che nessuno compie l'azione, mentre 不都 significa non tutti.",
+    "title": "All and together",
+    "pattern": "plural subject + 都／一起／一块儿 + verb",
+    "explanation": "都 goes after the subject and before the predicate: it indicates that the statement applies to all the previously mentioned members. 一起 and 一块儿 instead indicate that people do something together. 都不 means that none of them performs the action, whereas 不都 means not all.",
     "examples": [
-      {"id":"G1-010-1","hanzi":"他们都是学生。","pinyin":"Tāmen dōu shì xuéshēng.","translation":"Sono tutti studenti."},
-      {"id":"G1-010-2","hanzi":"我们一起吃饭吧。","pinyin":"Wǒmen yīqǐ chīfàn ba.","translation":"Mangiamo insieme."},
-      {"id":"G1-010-3","hanzi":"我们都不喝茶。","pinyin":"Wǒmen dōu bù hē chá.","translation":"Nessuno di noi beve tè."},
-      {"id":"G1-010-4","hanzi":"他们不都是老师。","pinyin":"Tāmen bù dōu shì lǎoshī.","translation":"Non sono tutti insegnanti."}
+      {"id":"G1-010-1","hanzi":"他们都是学生。","pinyin":"Tāmen dōu shì xuéshēng.","translation":"They are all students."},
+      {"id":"G1-010-2","hanzi":"我们一起吃饭吧。","pinyin":"Wǒmen yīqǐ chīfàn ba.","translation":"Let us eat together."},
+      {"id":"G1-010-3","hanzi":"我们都不喝茶。","pinyin":"Wǒmen dōu bù hē chá.","translation":"None of us drinks tea."},
+      {"id":"G1-010-4","hanzi":"他们不都是老师。","pinyin":"Tāmen bù dōu shì lǎoshī.","translation":"They are not all teachers."}
     ]
   },
   {
     "id": "G1-011", "level": 1, "sourceNo": 11,
-    "title": "Quando si svolge un'azione",
-    "pattern": "soggetto + 马上／先／有时／在／正／正在 + verbo",
-    "explanation": "马上 annuncia un'azione imminente, 先 indica che si fa qualcosa prima di altro e 有时 significa a volte. 在、正 e 正在 davanti al verbo segnalano un'azione in corso; 正 mette in risalto proprio quel momento. Questi avverbi non vanno confusi con la preposizione 在, che introduce un luogo o un momento.",
+    "title": "When an action takes place",
+    "pattern": "subject + 马上／先／有时／在／正／正在 + verb",
+    "explanation": "马上 announces an imminent action, 先 indicates doing something before something else, and 有时 means sometimes. 在、正 and 正在 before a verb mark an action in progress; 正 emphasizes that very moment. These adverbs should not be confused with the preposition 在, which introduces a place or time.",
     "examples": [
-      {"id":"G1-011-1","hanzi":"我马上来。","pinyin":"Wǒ mǎshàng lái.","translation":"Arrivo subito."},
-      {"id":"G1-011-2","hanzi":"你先吃，我马上来。","pinyin":"Nǐ xiān chī, wǒ mǎshàng lái.","translation":"Comincia a mangiare, arrivo subito."},
-      {"id":"G1-011-3","hanzi":"我有时在家吃饭。","pinyin":"Wǒ yǒushí zài jiā chīfàn.","translation":"A volte mangio a casa."},
-      {"id":"G1-011-4","hanzi":"妈妈正在看书。","pinyin":"Māma zhèngzài kàn shū.","translation":"La mamma sta leggendo."}
+      {"id":"G1-011-1","hanzi":"我马上来。","pinyin":"Wǒ mǎshàng lái.","translation":"I will be right there."},
+      {"id":"G1-011-2","hanzi":"你先吃，我马上来。","pinyin":"Nǐ xiān chī, wǒ mǎshàng lái.","translation":"Start eating; I will be right there."},
+      {"id":"G1-011-3","hanzi":"我有时在家吃饭。","pinyin":"Wǒ yǒushí zài jiā chīfàn.","translation":"I sometimes eat at home."},
+      {"id":"G1-011-4","hanzi":"妈妈正在看书。","pinyin":"Māma zhèngzài kàn shū.","translation":"Mom is reading."}
     ]
   },
   {
     "id": "G1-012", "level": 1, "sourceNo": 12,
-    "title": "Abitudini e ripetizioni future",
-    "pattern": "常／常常 + verbo; 再 + verbo",
-    "explanation": "常 e 常常 indicano che un'azione si ripete abitualmente e si collocano prima del verbo. 再 indica qui un'altra esecuzione ancora da realizzare, come di nuovo o un'altra volta. Non è il normale avverbio per raccontare una ripetizione già avvenuta.",
+    "title": "Habits and future repetition",
+    "pattern": "常／常常 + verb; 再 + verb",
+    "explanation": "常 and 常常 indicate that an action is repeated habitually and go before the verb. Here 再 indicates another performance that has yet to happen, meaning again or another time. It is not the usual adverb for describing a repetition that has already occurred.",
     "examples": [
-      {"id":"G1-012-1","hanzi":"我常常去那家商店。","pinyin":"Wǒ chángcháng qù nà jiā shāngdiàn.","translation":"Vado spesso in quel negozio."},
-      {"id":"G1-012-2","hanzi":"请再说。","pinyin":"Qǐng zài shuō.","translation":"Per favore, ripeti."}
+      {"id":"G1-012-1","hanzi":"我常常去那家商店。","pinyin":"Wǒ chángcháng qù nà jiā shāngdiàn.","translation":"I often go to that shop."},
+      {"id":"G1-012-2","hanzi":"请再说。","pinyin":"Qǐng zài shuō.","translation":"Please say it again."}
     ]
   },
   {
     "id": "G1-013", "level": 1, "sourceNo": 13,
-    "title": "Aggiungere un'informazione: 也 e 还",
-    "pattern": "soggetto + 也／还 + predicato",
-    "explanation": "也 aggiunge un'informazione parallela: anche una persona o una cosa presenta la stessa caratteristica o compie la stessa azione. 还, in questo uso, aggiunge un ulteriore elemento o un'ulteriore azione allo stesso discorso. Entrambi precedono il verbo o l'aggettivo, non seguono il nome come l'italiano anche.",
+    "title": "Adding information: 也 and 还",
+    "pattern": "subject + 也／还 + predicate",
+    "explanation": "也 adds parallel information: another person or thing also has the same characteristic or performs the same action. In this use, 还 adds a further item or action to the discussion. Both precede the verb or adjective; they do not follow the noun they refer to, unlike some uses of English too.",
     "examples": [
-      {"id":"G1-013-1","hanzi":"我学汉语，她也学汉语。","pinyin":"Wǒ xué Hànyǔ, tā yě xué Hànyǔ.","translation":"Io studio cinese e anche lei studia cinese."},
-      {"id":"G1-013-2","hanzi":"我买了书，还买了衣服。","pinyin":"Wǒ mǎi le shū, hái mǎi le yīfu.","translation":"Ho comprato dei libri e anche dei vestiti."}
+      {"id":"G1-013-1","hanzi":"我学汉语，她也学汉语。","pinyin":"Wǒ xué Hànyǔ, tā yě xué Hànyǔ.","translation":"I study Chinese, and she studies Chinese too."},
+      {"id":"G1-013-2","hanzi":"我买了书，还买了衣服。","pinyin":"Wǒ mǎi le shū, hái mǎi le yīfu.","translation":"I bought books and also bought clothes."}
     ]
   },
   {
     "id": "G1-014", "level": 1, "sourceNo": 14,
-    "title": "Negare e vietare",
-    "pattern": "不 + predicato; 没／没有 + verbo; 别 + verbo",
-    "explanation": "不 nega abitudini, volontà, giudizi e azioni future; 没 o 没有 nega che un'azione sia avvenuta e normalmente esclude 了 di completamento. Per negare il possesso o l'esistenza espressi da 有 si usa 没有, mai 不有. 别 introduce un invito a non fare qualcosa, non una semplice constatazione negativa.",
+    "title": "Negation and prohibition",
+    "pattern": "不 + predicate; 没／没有 + verb; 别 + verb",
+    "explanation": "不 negates habits, wishes, judgments and future actions; 没 or 没有 denies that an action occurred and normally excludes completion 了. To negate possession or existence expressed by 有, use 没有, never 不有. 别 introduces a request not to do something, rather than a simple negative statement.",
     "examples": [
-      {"id":"G1-014-1","hanzi":"我不喝茶。","pinyin":"Wǒ bù hē chá.","translation":"Non bevo tè."},
-      {"id":"G1-014-2","hanzi":"我昨天没去学校。","pinyin":"Wǒ zuótiān méi qù xuéxiào.","translation":"Ieri non sono andato a scuola."},
-      {"id":"G1-014-3","hanzi":"他没有钱。","pinyin":"Tā méiyǒu qián.","translation":"Non ha soldi."},
-      {"id":"G1-014-4","hanzi":"别在这儿跑！","pinyin":"Bié zài zhèr pǎo!","translation":"Non correre qui!"}
+      {"id":"G1-014-1","hanzi":"我不喝茶。","pinyin":"Wǒ bù hē chá.","translation":"I do not drink tea."},
+      {"id":"G1-014-2","hanzi":"我昨天没去学校。","pinyin":"Wǒ zuótiān méi qù xuéxiào.","translation":"I did not go to school yesterday."},
+      {"id":"G1-014-3","hanzi":"他没有钱。","pinyin":"Tā méiyǒu qián.","translation":"He has no money."},
+      {"id":"G1-014-4","hanzi":"别在这儿跑！","pinyin":"Bié zài zhèr pǎo!","translation":"Do not run here!"}
     ]
   },
   {
     "id": "G1-015", "level": 1, "sourceNo": 15,
-    "title": "Il punto di partenza con 从",
-    "pattern": "从 + luogo／momento + verbo",
-    "explanation": "从 introduce il luogo da cui parte un movimento oppure il momento da cui comincia una situazione. Il gruppo con 从 precede il verbo. Se si indica anche il punto di arrivo o il termine, si può aggiungere 到.",
+    "title": "Starting points with 从",
+    "pattern": "从 + place／time + verb",
+    "explanation": "从 introduces the place where a movement starts or the time when a situation begins. The phrase with 从 precedes the verb. If the destination or endpoint is also given, 到 can be added.",
     "examples": [
-      {"id":"G1-015-1","hanzi":"我从家里去学校。","pinyin":"Wǒ cóng jiā li qù xuéxiào.","translation":"Vado a scuola partendo da casa."},
-      {"id":"G1-015-2","hanzi":"我从九点工作到五点。","pinyin":"Wǒ cóng jiǔ diǎn gōngzuò dào wǔ diǎn.","translation":"Lavoro dalle nove alle cinque."}
+      {"id":"G1-015-1","hanzi":"我从家里去学校。","pinyin":"Wǒ cóng jiā li qù xuéxiào.","translation":"I go from home to school."},
+      {"id":"G1-015-2","hanzi":"我从九点工作到五点。","pinyin":"Wǒ cóng jiǔ diǎn gōngzuò dào wǔ diǎn.","translation":"I work from nine to five."}
     ]
   },
   {
     "id": "G1-016", "level": 1, "sourceNo": 16,
-    "title": "Il luogo e il momento con 在",
-    "pattern": "soggetto + 在 + luogo／momento + verbo",
-    "explanation": "在 introduce il luogo in cui si compie un'azione e si mette, con il suo complemento, prima del verbo. Può introdurre anche un momento precisato, per esempio un'ora; molte espressioni temporali semplici, come 今天, si usano invece senza 在. Questo uso preposizionale è distinto da 在 che da solo significa trovarsi.",
+    "title": "Place and time with 在",
+    "pattern": "subject + 在 + place／time + verb",
+    "explanation": "在 introduces the place where an action is performed and, together with its complement, comes before the verb. It can also introduce a specified time, such as an hour; many simple time expressions, such as 今天, are used without 在. This prepositional use is distinct from 在 used on its own to mean be located.",
     "examples": [
-      {"id":"G1-016-1","hanzi":"他在学校吃午饭。","pinyin":"Tā zài xuéxiào chī wǔfàn.","translation":"Pranza a scuola."},
-      {"id":"G1-016-2","hanzi":"我们在八点见面。","pinyin":"Wǒmen zài bā diǎn jiànmiàn.","translation":"Ci incontriamo alle otto."}
+      {"id":"G1-016-1","hanzi":"他在学校吃午饭。","pinyin":"Tā zài xuéxiào chī wǔfàn.","translation":"He has lunch at school."},
+      {"id":"G1-016-2","hanzi":"我们在八点见面。","pinyin":"Wǒmen zài bā diǎn jiànmiàn.","translation":"We meet at eight."}
     ]
   },
   {
     "id": "G1-017", "level": 1, "sourceNo": 17,
-    "title": "Con qualcuno: 跟 e 和",
-    "pattern": "soggetto + 跟／和 + persona + verbo",
-    "explanation": "跟 e 和 possono introdurre la persona con cui si compie un'azione. Il gruppo preposizionale viene prima del verbo e può essere seguito da 一起 per sottolineare che si agisce insieme. Qui non collegano semplicemente due nomi: introducono un partecipante rispetto al soggetto già espresso.",
+    "title": "With someone: 跟 and 和",
+    "pattern": "subject + 跟／和 + person + verb",
+    "explanation": "跟 and 和 can introduce the person with whom an action is performed. The prepositional phrase comes before the verb and can be followed by 一起 to emphasize doing something together. Here they do not simply join two nouns: they introduce a participant in relation to the subject already stated.",
     "examples": [
-      {"id":"G1-017-1","hanzi":"我跟妈妈去商店。","pinyin":"Wǒ gēn māma qù shāngdiàn.","translation":"Vado al negozio con la mamma."},
-      {"id":"G1-017-2","hanzi":"他和朋友一起学习。","pinyin":"Tā hé péngyou yīqǐ xuéxí.","translation":"Studia insieme a un amico."}
+      {"id":"G1-017-1","hanzi":"我跟妈妈去商店。","pinyin":"Wǒ gēn māma qù shāngdiàn.","translation":"I go to the shop with Mom."},
+      {"id":"G1-017-2","hanzi":"他和朋友一起学习。","pinyin":"Tā hé péngyou yīqǐ xuéxí.","translation":"He studies together with a friend."}
     ]
   },
   {
     "id": "G1-018", "level": 1, "sourceNo": 18,
-    "title": "Il termine di confronto con 比",
-    "pattern": "A + 比 + B + aggettivo",
-    "explanation": "比 introduce il termine con cui si confronta il soggetto e precede l'aggettivo. L'aggettivo esprime già il grado maggiore: non si aggiunge 很 per tradurre più. A e B devono essere confrontabili, per esempio due persone o i loro oggetti.",
+    "title": "The standard of comparison with 比",
+    "pattern": "A + 比 + B + adjective",
+    "explanation": "比 introduces the standard against which the subject is compared and precedes the adjective. The adjective already expresses the greater degree: do not add 很 to translate more. A and B must be comparable, for example two people or their belongings.",
     "examples": [
-      {"id":"G1-018-1","hanzi":"姐姐比我高。","pinyin":"Jiějie bǐ wǒ gāo.","translation":"Mia sorella maggiore è più alta di me."},
-      {"id":"G1-018-2","hanzi":"今天比昨天冷。","pinyin":"Jīntiān bǐ zuótiān lěng.","translation":"Oggi fa più freddo di ieri."}
+      {"id":"G1-018-1","hanzi":"姐姐比我高。","pinyin":"Jiějie bǐ wǒ gāo.","translation":"My older sister is taller than me."},
+      {"id":"G1-018-2","hanzi":"今天比昨天冷。","pinyin":"Jīntiān bǐ zuótiān lěng.","translation":"It is colder today than yesterday."}
     ]
   },
   {
     "id": "G1-019", "level": 1, "sourceNo": 19,
-    "title": "Collegare nomi e proporre alternative",
-    "pattern": "nome + 和／跟 + nome; alternativa + 还是 + alternativa",
-    "explanation": "和 e 跟 possono coordinare nomi o gruppi nominali con il significato di e. Non si usano come collegamento universale tra frasi complete o verbi indipendenti. 还是 collega alternative in una domanda che richiede una scelta; normalmente non si aggiunge 吗.",
+    "title": "Joining nouns and offering alternatives",
+    "pattern": "noun + 和／跟 + noun; alternative + 还是 + alternative",
+    "explanation": "和 and 跟 can join nouns or noun phrases with the meaning and. They are not universal connectors between complete clauses or independent verbs. 还是 joins alternatives in a question that asks for a choice; 吗 is normally not added.",
     "examples": [
-      {"id":"G1-019-1","hanzi":"桌子上有书和水。","pinyin":"Zhuōzi shàng yǒu shū hé shuǐ.","translation":"Sul tavolo ci sono libri e acqua."},
-      {"id":"G1-019-2","hanzi":"爸爸跟妈妈都在家。","pinyin":"Bàba gēn māma dōu zài jiā.","translation":"Papà e mamma sono entrambi a casa."},
-      {"id":"G1-019-3","hanzi":"你喝茶还是喝水？","pinyin":"Nǐ hē chá háishi hē shuǐ?","translation":"Bevi tè o acqua?"}
+      {"id":"G1-019-1","hanzi":"桌子上有书和水。","pinyin":"Zhuōzi shàng yǒu shū hé shuǐ.","translation":"There are books and water on the table."},
+      {"id":"G1-019-2","hanzi":"爸爸跟妈妈都在家。","pinyin":"Bàba gēn māma dōu zài jiā.","translation":"Dad and Mom are both at home."},
+      {"id":"G1-019-3","hanzi":"你喝茶还是喝水？","pinyin":"Nǐ hē chá háishi hē shuǐ?","translation":"Will you have tea or water?"}
     ]
   },
   {
     "id": "G1-020", "level": 1, "sourceNo": 20,
-    "title": "的 davanti al nome, 地 davanti al verbo",
-    "pattern": "determinante + 的 + nome; modo + 地 + verbo",
-    "explanation": "的 lega una specificazione al nome seguente, per esempio il possessore o una descrizione. Con relazioni strette, come 我妈妈, 的 può essere omesso. 地 lega invece una descrizione del modo all'azione che segue; entrambi si pronunciano de, ma hanno funzioni diverse. Non ogni aggettivo davanti a un nome né ogni avverbio davanti a un verbo richiede una particella.",
+    "title": "的 before nouns, 地 before verbs",
+    "pattern": "modifier + 的 + noun; manner + 地 + verb",
+    "explanation": "的 links a modifier to the following noun, for example a possessor or a description. With close relationships, as in 我妈妈, 的 can be omitted. 地 instead links a description of manner to the action that follows; both are pronounced de, but have different functions. Not every adjective before a noun or adverb before a verb requires a particle.",
     "examples": [
-      {"id":"G1-020-1","hanzi":"这是老师的书。","pinyin":"Zhè shì lǎoshī de shū.","translation":"Questo è il libro dell'insegnante."},
-      {"id":"G1-020-2","hanzi":"请慢慢地说。","pinyin":"Qǐng mànmàn de shuō.","translation":"Per favore, parla lentamente."}
+      {"id":"G1-020-1","hanzi":"这是老师的书。","pinyin":"Zhè shì lǎoshī de shū.","translation":"This is the teacher’s book."},
+      {"id":"G1-020-2","hanzi":"请慢慢地说。","pinyin":"Qǐng mànmàn de shuō.","translation":"Please speak slowly."}
     ]
   },
   {
     "id": "G1-021", "level": 1, "sourceNo": 21,
-    "title": "了 dopo il verbo",
-    "pattern": "verbo + 了 + oggetto",
-    "explanation": "La particella 了 dopo il verbo presenta l'azione come realizzata e delimitata, non come abitudine o semplice progetto. Non è una desinenza di passato: il tempo dipende dal contesto. Se si nega che l'azione sia avvenuta, si usa 没 o 没有 senza questo 了.",
+    "title": "了 after the verb",
+    "pattern": "verb + 了 + object",
+    "explanation": "The particle 了 after a verb presents the action as realized and bounded, not as a habit or a mere plan. It is not a past-tense ending: the time depends on the context. To deny that the action took place, use 没 or 没有 without this 了.",
     "examples": [
-      {"id":"G1-021-1","hanzi":"我买了三个杯子。","pinyin":"Wǒ mǎi le sān gè bēizi.","translation":"Ho comprato tre tazze."},
-      {"id":"G1-021-2","hanzi":"他喝了一杯茶。","pinyin":"Tā hē le yī bēi chá.","translation":"Ha bevuto una tazza di tè."}
+      {"id":"G1-021-1","hanzi":"我买了三个杯子。","pinyin":"Wǒ mǎi le sān gè bēizi.","translation":"I bought three cups."},
+      {"id":"G1-021-2","hanzi":"他喝了一杯茶。","pinyin":"Tā hē le yī bēi chá.","translation":"He drank a cup of tea."}
     ]
   },
   {
     "id": "G1-022", "level": 1, "sourceNo": 22,
-    "title": "Particelle alla fine della frase",
-    "pattern": "frase + 吧／了／吗／呢",
-    "explanation": "吧 rende una proposta o un invito meno categorico; 吗 trasforma una dichiarazione in una domanda sì o no. 了 finale segnala una situazione nuova o cambiata, non semplicemente un'azione passata. 呢 permette una domanda di rimando, come e tu, e può anche accompagnare una situazione in corso.",
+    "title": "Sentence-final particles",
+    "pattern": "sentence + 吧／了／吗／呢",
+    "explanation": "吧 makes a proposal or invitation less categorical; 吗 turns a statement into a yes-or-no question. Final 了 signals a new or changed situation, not simply a past action. 呢 allows a follow-up question, such as and you, and can also accompany an ongoing situation.",
     "examples": [
-      {"id":"G1-022-1","hanzi":"我们走吧。","pinyin":"Wǒmen zǒu ba.","translation":"Andiamo."},
-      {"id":"G1-022-2","hanzi":"下雨了。","pinyin":"Xià yǔ le.","translation":"Ha cominciato a piovere."},
-      {"id":"G1-022-3","hanzi":"你是学生吗？","pinyin":"Nǐ shì xuéshēng ma?","translation":"Sei uno studente?"},
-      {"id":"G1-022-4","hanzi":"我很好，你呢？","pinyin":"Wǒ hěn hǎo, nǐ ne?","translation":"Io sto bene, e tu?"}
+      {"id":"G1-022-1","hanzi":"我们走吧。","pinyin":"Wǒmen zǒu ba.","translation":"Let us go."},
+      {"id":"G1-022-2","hanzi":"下雨了。","pinyin":"Xià yǔ le.","translation":"It has started raining."},
+      {"id":"G1-022-3","hanzi":"你是学生吗？","pinyin":"Nǐ shì xuéshēng ma?","translation":"Are you a student?"},
+      {"id":"G1-022-4","hanzi":"我很好，你呢？","pinyin":"Wǒ hěn hǎo, nǐ ne?","translation":"I am well, and you?"}
     ]
   },
   {
     "id": "G1-023", "level": 1, "sourceNo": 23,
-    "title": "Il gruppo numero e classificatore",
-    "pattern": "numero + classificatore + nome facoltativo",
-    "explanation": "Numero e classificatore formano un gruppo che quantifica il nome seguente. Se dal contesto si capisce quale oggetto si sta contando, il nome può essere omesso ma il classificatore rimane. Il gruppo può quindi far parte di un'espressione nominale più lunga oppure funzionare da solo nella frase.",
+    "title": "Number-classifier phrases",
+    "pattern": "number + classifier + optional noun",
+    "explanation": "A number and classifier form a phrase that quantifies the following noun. If the context makes clear what is being counted, the noun can be omitted but the classifier remains. The phrase can therefore be part of a longer noun phrase or function on its own in the sentence.",
     "examples": [
-      {"id":"G1-023-1","hanzi":"这儿有三杯茶。","pinyin":"Zhèr yǒu sān bēi chá.","translation":"Qui ci sono tre tazze di tè."},
-      {"id":"G1-023-2","hanzi":"这些杯子，我要两个。","pinyin":"Zhèxiē bēizi, wǒ yào liǎng gè.","translation":"Di queste tazze ne voglio due."}
+      {"id":"G1-023-1","hanzi":"这儿有三杯茶。","pinyin":"Zhèr yǒu sān bēi chá.","translation":"There are three cups of tea here."},
+      {"id":"G1-023-2","hanzi":"这些杯子，我要两个。","pinyin":"Zhèxiē bēizi, wǒ yào liǎng gè.","translation":"I want two of these cups."}
     ]
   },
   {
     "id": "G1-024", "level": 1, "sourceNo": 24,
-    "title": "Il soggetto della frase",
-    "pattern": "nome／pronome／gruppo nominale + predicato",
-    "explanation": "Il soggetto indica la persona o la cosa di cui si parla e precede normalmente il predicato. Può essere un nome, un pronome o un gruppo nominale con classificatore e altre specificazioni. La sua forma non cambia secondo la persona o il numero.",
+    "title": "The subject of a sentence",
+    "pattern": "noun／pronoun／noun phrase + predicate",
+    "explanation": "The subject indicates the person or thing being discussed and normally precedes the predicate. It can be a noun, a pronoun or a noun phrase with a classifier and other modifiers. Its form does not change according to person or number.",
     "examples": [
-      {"id":"G1-024-1","hanzi":"妈妈在家。","pinyin":"Māma zài jiā.","translation":"La mamma è a casa."},
-      {"id":"G1-024-2","hanzi":"他喜欢喝茶。","pinyin":"Tā xǐhuan hē chá.","translation":"A lui piace bere il tè."},
-      {"id":"G1-024-3","hanzi":"这三个学生都是我的朋友。","pinyin":"Zhè sān gè xuéshēng dōu shì wǒ de péngyou.","translation":"Questi tre studenti sono tutti miei amici."}
+      {"id":"G1-024-1","hanzi":"妈妈在家。","pinyin":"Māma zài jiā.","translation":"Mom is at home."},
+      {"id":"G1-024-2","hanzi":"他喜欢喝茶。","pinyin":"Tā xǐhuan hē chá.","translation":"He likes drinking tea."},
+      {"id":"G1-024-3","hanzi":"这三个学生都是我的朋友。","pinyin":"Zhè sān gè xuéshēng dōu shì wǒ de péngyou.","translation":"These three students are all my friends."}
     ]
   },
   {
     "id": "G1-025", "level": 1, "sourceNo": 25,
-    "title": "Il predicato verbale o aggettivale",
-    "pattern": "soggetto + verbo／gruppo verbale／aggettivo",
-    "explanation": "Il predicato dice che cosa fa il soggetto o quale caratteristica presenta. Può essere un verbo con i suoi complementi oppure un aggettivo, spesso preceduto da 很. Davanti a un aggettivo descrittivo non si inserisce normalmente 是.",
+    "title": "Verbal and adjectival predicates",
+    "pattern": "subject + verb／verb phrase／adjective",
+    "explanation": "The predicate says what the subject does or what characteristic it has. It can be a verb with its complements or an adjective, often preceded by 很. 是 is not normally inserted before a descriptive adjective.",
     "examples": [
-      {"id":"G1-025-1","hanzi":"弟弟吃米饭。","pinyin":"Dìdi chī mǐfàn.","translation":"Il fratellino mangia riso."},
-      {"id":"G1-025-2","hanzi":"这本书很好看。","pinyin":"Zhè běn shū hěn hǎokàn.","translation":"Questo libro è molto bello."}
+      {"id":"G1-025-1","hanzi":"弟弟吃米饭。","pinyin":"Dìdi chī mǐfàn.","translation":"My little brother eats rice."},
+      {"id":"G1-025-2","hanzi":"这本书很好看。","pinyin":"Zhè běn shū hěn hǎokàn.","translation":"This book is very good."}
     ]
   },
   {
     "id": "G1-026", "level": 1, "sourceNo": 26,
-    "title": "L'oggetto dopo il verbo",
-    "pattern": "soggetto + verbo + nome／pronome／gruppo nominale",
-    "explanation": "L'oggetto segue normalmente il verbo e indica chi o che cosa riguarda l'azione. Può essere un nome, un pronome o un gruppo nominale completo. A differenza dell'italiano, i pronomi oggetto non si spostano normalmente davanti al verbo e non cambiano forma.",
+    "title": "The object after the verb",
+    "pattern": "subject + verb + noun／pronoun／noun phrase",
+    "explanation": "The object normally follows the verb and indicates who or what the action concerns. It can be a noun, a pronoun or a complete noun phrase. Object pronouns normally remain after the verb and do not change form from their subject forms.",
     "examples": [
-      {"id":"G1-026-1","hanzi":"我认识你。","pinyin":"Wǒ rènshi nǐ.","translation":"Ti conosco."},
-      {"id":"G1-026-2","hanzi":"她买了两杯茶。","pinyin":"Tā mǎi le liǎng bēi chá.","translation":"Ha comprato due tazze di tè."},
-      {"id":"G1-026-3","hanzi":"他喝水。","pinyin":"Tā hē shuǐ.","translation":"Lui beve acqua."}
+      {"id":"G1-026-1","hanzi":"我认识你。","pinyin":"Wǒ rènshi nǐ.","translation":"I know you."},
+      {"id":"G1-026-2","hanzi":"她买了两杯茶。","pinyin":"Tā mǎi le liǎng bēi chá.","translation":"She bought two cups of tea."},
+      {"id":"G1-026-3","hanzi":"他喝水。","pinyin":"Tā hē shuǐ.","translation":"He drinks water."}
     ]
   },
   {
     "id": "G1-027", "level": 1, "sourceNo": 27,
-    "title": "Specificare un nome",
-    "pattern": "specificazione + nome",
-    "explanation": "Le specificazioni precedono il nome: possono indicare il possessore, una qualità oppure una quantità. Un possessore si lega di norma con 的; un aggettivo breve direttamente unito al nome, come 大房间, spesso non lo richiede. Quando coesistono quantità e qualità, la sequenza comune è numero, classificatore, aggettivo, nome.",
+    "title": "Modifying a noun",
+    "pattern": "modifier + noun",
+    "explanation": "Modifiers precede the noun: they can indicate the possessor, a quality or a quantity. A possessor is normally linked with 的; a short adjective directly attached to the noun, as in 大房间, often does not require it. When quantity and quality occur together, the usual sequence is number, classifier, adjective, noun.",
     "examples": [
-      {"id":"G1-027-1","hanzi":"老师的女儿在北京。","pinyin":"Lǎoshī de nǚ'ér zài Běijīng.","translation":"La figlia dell'insegnante è a Pechino."},
-      {"id":"G1-027-2","hanzi":"我想买两个大杯子。","pinyin":"Wǒ xiǎng mǎi liǎng gè dà bēizi.","translation":"Vorrei comprare due tazze grandi."}
+      {"id":"G1-027-1","hanzi":"老师的女儿在北京。","pinyin":"Lǎoshī de nǚ'ér zài Běijīng.","translation":"The teacher’s daughter is in Beijing."},
+      {"id":"G1-027-2","hanzi":"我想买两个大杯子。","pinyin":"Wǒ xiǎng mǎi liǎng gè dà bēizi.","translation":"I would like to buy two large cups."}
     ]
   },
   {
     "id": "G1-028", "level": 1, "sourceNo": 28,
-    "title": "Specificare tempo, luogo e modo dell'azione",
-    "pattern": "soggetto + tempo／luogo／modo／avverbio + verbo",
-    "explanation": "Gli elementi che specificano quando, dove o come si svolge l'azione vengono normalmente prima del verbo. Un'espressione temporale può anche precedere il soggetto, mentre il luogo dell'azione si introduce spesso con 在. Avverbi come 也 si collocano dopo il soggetto; una descrizione del modo può usare 地.",
+    "title": "Specifying the time, place and manner of an action",
+    "pattern": "subject + time／place／manner／adverb + verb",
+    "explanation": "Elements specifying when, where or how an action takes place normally come before the verb. A time expression can also precede the subject, whereas the place of the action is often introduced with 在. Adverbs such as 也 go after the subject; a description of manner can use 地.",
     "examples": [
-      {"id":"G1-028-1","hanzi":"我明天在家学习。","pinyin":"Wǒ míngtiān zài jiā xuéxí.","translation":"Domani studierò a casa."},
-      {"id":"G1-028-2","hanzi":"他也慢慢地走。","pinyin":"Tā yě mànmàn de zǒu.","translation":"Anche lui cammina lentamente."}
+      {"id":"G1-028-1","hanzi":"我明天在家学习。","pinyin":"Wǒ míngtiān zài jiā xuéxí.","translation":"I will study at home tomorrow."},
+      {"id":"G1-028-2","hanzi":"他也慢慢地走。","pinyin":"Tā yě mànmàn de zǒu.","translation":"He also walks slowly."}
     ]
   },
   {
     "id": "G1-029", "level": 1, "sourceNo": 29,
-    "title": "La frase con predicato verbale",
-    "pattern": "soggetto + verbo + eventuale oggetto",
-    "explanation": "Una frase verbale presenta un'azione o una situazione tramite un verbo. L'ordine di base è soggetto, verbo e oggetto, ma un verbo come 来 può anche non richiedere un oggetto. Il verbo non si coniuga secondo la persona né esprime da solo il tempo passato o futuro.",
+    "title": "Sentences with verbal predicates",
+    "pattern": "subject + verb + optional object",
+    "explanation": "A verbal sentence presents an action or situation through a verb. The basic order is subject, verb and object, but a verb such as 来 may not require an object. The verb is not conjugated for person and does not by itself express past or future time.",
     "examples": [
-      {"id":"G1-029-1","hanzi":"我看书。","pinyin":"Wǒ kàn shū.","translation":"Io leggo un libro."},
-      {"id":"G1-029-2","hanzi":"他明天来。","pinyin":"Tā míngtiān lái.","translation":"Viene domani."}
+      {"id":"G1-029-1","hanzi":"我看书。","pinyin":"Wǒ kàn shū.","translation":"I read a book."},
+      {"id":"G1-029-2","hanzi":"他明天来。","pinyin":"Tā míngtiān lái.","translation":"He is coming tomorrow."}
     ]
   },
   {
     "id": "G1-030", "level": 1, "sourceNo": 30,
-    "title": "La frase con predicato aggettivale",
-    "pattern": "soggetto + 很／不 + aggettivo",
-    "explanation": "Un aggettivo può costituire direttamente il predicato, senza 是. Nelle affermazioni neutre si usa spesso 很, che non deve sempre essere tradotto con molto. La negazione ordinaria è 不 davanti all'aggettivo; un aggettivo senza 很 può mettere in risalto un contrasto.",
+    "title": "Sentences with adjectival predicates",
+    "pattern": "subject + 很／不 + adjective",
+    "explanation": "An adjective can directly form the predicate, without 是. Neutral statements often use 很, which does not always need to be translated as very. The normal negative is 不 before the adjective; an adjective without 很 can emphasize a contrast.",
     "examples": [
-      {"id":"G1-030-1","hanzi":"这个房间很大。","pinyin":"Zhègè fángjiān hěn dà.","translation":"Questa stanza è grande."},
-      {"id":"G1-030-2","hanzi":"今天不冷。","pinyin":"Jīntiān bù lěng.","translation":"Oggi non fa freddo."}
+      {"id":"G1-030-1","hanzi":"这个房间很大。","pinyin":"Zhègè fángjiān hěn dà.","translation":"This room is big."},
+      {"id":"G1-030-2","hanzi":"今天不冷。","pinyin":"Jīntiān bù lěng.","translation":"It is not cold today."}
     ]
   },
   {
     "id": "G1-031", "level": 1, "sourceNo": 31,
-    "title": "Frasi senza struttura soggetto e predicato",
-    "pattern": "espressione autonoma adatta al contesto",
-    "explanation": "Non tutti gli enunciati cinesi hanno un soggetto seguito da un predicato. Una parola o un gruppo di parole può funzionare da saluto, risposta, richiamo o avviso completo nel contesto. Non occorre aggiungere un soggetto artificiale a queste espressioni.",
+    "title": "Utterances without a subject-predicate structure",
+    "pattern": "standalone expression appropriate to the context",
+    "explanation": "Not all Chinese utterances have a subject followed by a predicate. A word or phrase can function as a complete greeting, answer, call or warning in context. There is no need to add an artificial subject to these expressions.",
     "examples": [
-      {"id":"G1-031-1","hanzi":"早上好！","pinyin":"Zǎoshang hǎo!","translation":"Buongiorno!"},
-      {"id":"G1-031-2","hanzi":"谢谢！","pinyin":"Xièxie!","translation":"Grazie!"},
-      {"id":"G1-031-3","hanzi":"两杯茶。","pinyin":"Liǎng bēi chá.","translation":"Due tazze di tè."}
+      {"id":"G1-031-1","hanzi":"早上好！","pinyin":"Zǎoshang hǎo!","translation":"Good morning!"},
+      {"id":"G1-031-2","hanzi":"谢谢！","pinyin":"Xièxie!","translation":"Thank you!"},
+      {"id":"G1-031-3","hanzi":"两杯茶。","pinyin":"Liǎng bēi chá.","translation":"Two cups of tea."}
     ]
   },
   {
     "id": "G1-032", "level": 1, "sourceNo": 32,
-    "title": "Dichiarare un'informazione",
-    "pattern": "soggetto + predicato affermativo／negativo",
-    "explanation": "La frase dichiarativa comunica un fatto, una descrizione o un'opinione, senza chiedere una risposta. Può essere affermativa o negativa e non richiede una particella finale specifica. Le indicazioni di tempo chiariscono quando vale l'informazione.",
+    "title": "Making a statement",
+    "pattern": "subject + affirmative／negative predicate",
+    "explanation": "A declarative sentence communicates a fact, description or opinion without asking for an answer. It can be affirmative or negative and does not require a particular sentence-final particle. Time expressions clarify when the information applies.",
     "examples": [
-      {"id":"G1-032-1","hanzi":"我在北京工作。","pinyin":"Wǒ zài Běijīng gōngzuò.","translation":"Lavoro a Pechino."},
-      {"id":"G1-032-2","hanzi":"他今天不在家。","pinyin":"Tā jīntiān bù zài jiā.","translation":"Oggi non è a casa."}
+      {"id":"G1-032-1","hanzi":"我在北京工作。","pinyin":"Wǒ zài Běijīng gōngzuò.","translation":"I work in Beijing."},
+      {"id":"G1-032-2","hanzi":"他今天不在家。","pinyin":"Tā jīntiān bù zài jiā.","translation":"He is not at home today."}
     ]
   },
   {
     "id": "G1-033", "level": 1, "sourceNo": 33,
-    "title": "Quattro tipi di domanda",
-    "pattern": "吗; interrogativo; 还是; forma affermativa + negativa",
-    "explanation": "Una domanda sì o no può terminare con 吗. Per cercare un'informazione precisa si usa un interrogativo nella posizione del dato mancante; per scegliere tra alternative si usa 还是. La forma affermativa e negativa dello stesso predicato, come 去不去, offre un altro modo di chiedere sì o no. Queste ultime tre costruzioni normalmente non aggiungono 吗.",
+    "title": "Four types of question",
+    "pattern": "吗; question word; 还是; affirmative + negative form",
+    "explanation": "A yes-or-no question can end with 吗. To request specific information, use a question word in the position of the missing information; to choose between alternatives, use 还是. The affirmative and negative forms of the same predicate, as in 去不去, offer another way to ask a yes-or-no question. These last three constructions normally do not add 吗.",
     "examples": [
-      {"id":"G1-033-1","hanzi":"你忙吗？","pinyin":"Nǐ máng ma?","translation":"Sei occupato?"},
-      {"id":"G1-033-2","hanzi":"你住在哪儿？","pinyin":"Nǐ zhù zài nǎr?","translation":"Dove abiti?"},
-      {"id":"G1-033-3","hanzi":"你今天来还是明天来？","pinyin":"Nǐ jīntiān lái háishi míngtiān lái?","translation":"Vieni oggi o domani?"},
-      {"id":"G1-033-4","hanzi":"你去不去？","pinyin":"Nǐ qù bu qù?","translation":"Vai o no?"}
+      {"id":"G1-033-1","hanzi":"你忙吗？","pinyin":"Nǐ máng ma?","translation":"Are you busy?"},
+      {"id":"G1-033-2","hanzi":"你住在哪儿？","pinyin":"Nǐ zhù zài nǎr?","translation":"Where do you live?"},
+      {"id":"G1-033-3","hanzi":"你今天来还是明天来？","pinyin":"Nǐ jīntiān lái háishi míngtiān lái?","translation":"Are you coming today or tomorrow?"},
+      {"id":"G1-033-4","hanzi":"你去不去？","pinyin":"Nǐ qù bu qù?","translation":"Are you going or not?"}
     ]
   },
   {
     "id": "G1-034", "level": 1, "sourceNo": 34,
-    "title": "Inviti, richieste e divieti",
-    "pattern": "请 + verbo; verbo + 吧; 别 + verbo",
-    "explanation": "La frase imperativa serve a far compiere o evitare un'azione, spesso senza esprimere 你. 请 rende la richiesta cortese e 吧 può ammorbidire un invito o una proposta. 别 davanti al verbo esprime un divieto.",
+    "title": "Invitations, requests and prohibitions",
+    "pattern": "请 + verb; verb + 吧; 别 + verb",
+    "explanation": "An imperative sentence asks someone to perform or avoid an action, often without stating 你. 请 makes the request polite, and 吧 can soften an invitation or proposal. 别 before the verb expresses a prohibition.",
     "examples": [
-      {"id":"G1-034-1","hanzi":"请坐。","pinyin":"Qǐng zuò.","translation":"Prego, siediti."},
-      {"id":"G1-034-2","hanzi":"我们一起去吧。","pinyin":"Wǒmen yīqǐ qù ba.","translation":"Andiamo insieme."},
-      {"id":"G1-034-3","hanzi":"别说话！","pinyin":"Bié shuōhuà!","translation":"Non parlare!"}
+      {"id":"G1-034-1","hanzi":"请坐。","pinyin":"Qǐng zuò.","translation":"Please sit down."},
+      {"id":"G1-034-2","hanzi":"我们一起去吧。","pinyin":"Wǒmen yīqǐ qù ba.","translation":"Let us go together."},
+      {"id":"G1-034-3","hanzi":"别说话！","pinyin":"Bié shuōhuà!","translation":"Do not talk!"}
     ]
   },
   {
     "id": "G1-035", "level": 1, "sourceNo": 35,
-    "title": "Esprimere un'esclamazione",
-    "pattern": "真 + aggettivo; 太 + aggettivo + 了",
-    "explanation": "Una frase esclamativa esprime sorpresa, ammirazione o una reazione forte. 真 sottolinea che una qualità colpisce chi parla, mentre 太…了 può esprimere entusiasmo oppure un grado eccessivo. Il senso positivo o negativo dipende dall'aggettivo e dal contesto.",
+    "title": "Expressing an exclamation",
+    "pattern": "真 + adjective; 太 + adjective + 了",
+    "explanation": "An exclamatory sentence expresses surprise, admiration or a strong reaction. 真 emphasizes that a quality strikes the speaker, whereas 太…了 can express enthusiasm or an excessive degree. The positive or negative meaning depends on the adjective and context.",
     "examples": [
-      {"id":"G1-035-1","hanzi":"这个孩子真好看！","pinyin":"Zhègè háizi zhēn hǎokàn!","translation":"Questo bambino è proprio bello!"},
-      {"id":"G1-035-2","hanzi":"太好了！","pinyin":"Tài hǎo le!","translation":"Fantastico!"}
+      {"id":"G1-035-1","hanzi":"这个孩子真好看！","pinyin":"Zhègè háizi zhēn hǎokàn!","translation":"This child is really beautiful!"},
+      {"id":"G1-035-2","hanzi":"太好了！","pinyin":"Tài hǎo le!","translation":"Wonderful!"}
     ]
   },
   {
     "id": "G1-036", "level": 1, "sourceNo": 36,
-    "title": "Le frasi con 是",
-    "pattern": "A + 是 + B; luogo + 是 + persona／cosa",
-    "explanation": "是 identifica una persona o una cosa oppure la assegna a una categoria. Può anche precisare una caratteristica, come l'appartenenza di un oggetto. Con un luogo come tema, 是 può indicare che cosa vi si trova, identificando il contenuto di quel luogo. Non si usa normalmente 是 davanti a un semplice aggettivo descrittivo.",
+    "title": "Sentences with 是",
+    "pattern": "A + 是 + B; place + 是 + person／thing",
+    "explanation": "是 identifies a person or thing or assigns it to a category. It can also specify a characteristic, such as ownership of an object. With a place as the topic, 是 can indicate what is there, identifying the contents of that place. 是 is not normally used before a simple descriptive adjective.",
     "examples": [
-      {"id":"G1-036-1","hanzi":"她是老师。","pinyin":"Tā shì lǎoshī.","translation":"Lei è un'insegnante."},
-      {"id":"G1-036-2","hanzi":"书是我的。","pinyin":"Shū shì wǒ de.","translation":"Il libro è mio."},
-      {"id":"G1-036-3","hanzi":"这里是学校。","pinyin":"Zhèlǐ shì xuéxiào.","translation":"Qui c'è la scuola."}
+      {"id":"G1-036-1","hanzi":"她是老师。","pinyin":"Tā shì lǎoshī.","translation":"She is a teacher."},
+      {"id":"G1-036-2","hanzi":"书是我的。","pinyin":"Shū shì wǒ de.","translation":"The book is mine."},
+      {"id":"G1-036-3","hanzi":"这里是学校。","pinyin":"Zhèlǐ shì xuéxiào.","translation":"This is the school."}
     ]
   },
   {
     "id": "G1-037", "level": 1, "sourceNo": 37,
-    "title": "Avere e esserci con 有",
-    "pattern": "persona + 有 + cosa; luogo + 有 + persona／cosa",
-    "explanation": "Con una persona come soggetto, 有 indica il possesso. Con un luogo all'inizio della frase, indica la presenza o l'esistenza di qualcuno o qualcosa in quel luogo. In entrambi i casi si nega con 没有.",
+    "title": "Possession and existence with 有",
+    "pattern": "person + 有 + thing; place + 有 + person／thing",
+    "explanation": "With a person as the subject, 有 indicates possession. With a place at the beginning of the sentence, it indicates the presence or existence of someone or something there. Both uses are negated with 没有.",
     "examples": [
-      {"id":"G1-037-1","hanzi":"我有一个弟弟。","pinyin":"Wǒ yǒu yī gè dìdi.","translation":"Ho un fratello minore."},
-      {"id":"G1-037-2","hanzi":"桌子上有一杯水。","pinyin":"Zhuōzi shàng yǒu yī bēi shuǐ.","translation":"Sul tavolo c'è un bicchiere d'acqua."},
-      {"id":"G1-037-3","hanzi":"房间里没有人。","pinyin":"Fángjiān lǐ méiyǒu rén.","translation":"Nella stanza non c'è nessuno."}
+      {"id":"G1-037-1","hanzi":"我有一个弟弟。","pinyin":"Wǒ yǒu yī gè dìdi.","translation":"I have a younger brother."},
+      {"id":"G1-037-2","hanzi":"桌子上有一杯水。","pinyin":"Zhuōzi shàng yǒu yī bēi shuǐ.","translation":"There is a glass of water on the table."},
+      {"id":"G1-037-3","hanzi":"房间里没有人。","pinyin":"Fángjiān lǐ méiyǒu rén.","translation":"There is nobody in the room."}
     ]
   },
   {
     "id": "G1-038", "level": 1, "sourceNo": 38,
-    "title": "Più di e non quanto",
-    "pattern": "A + 比 + B + aggettivo; A + 没有 + B + aggettivo",
-    "explanation": "A比B seguito da un aggettivo afferma che A presenta quella qualità in grado maggiore di B. A没有B seguito dall'aggettivo afferma che A non raggiunge il grado di B, quindi non è altrettanto alto, caro e così via. Non si aggiunge 很 all'aggettivo in queste strutture e 没有 qui non esprime il possesso.",
+    "title": "More than and not as ... as",
+    "pattern": "A + 比 + B + adjective; A + 没有 + B + adjective",
+    "explanation": "A比B followed by an adjective states that A has that quality to a greater degree than B. A没有B followed by the adjective states that A does not reach B’s degree, so is not as tall, expensive, and so on. Do not add 很 to the adjective in these structures, and 没有 here does not express possession.",
     "examples": [
-      {"id":"G1-038-1","hanzi":"这本书比那本书贵。","pinyin":"Zhè běn shū bǐ nà běn shū guì.","translation":"Questo libro è più caro di quello."},
-      {"id":"G1-038-2","hanzi":"我没有哥哥高。","pinyin":"Wǒ méiyǒu gēge gāo.","translation":"Non sono alto quanto mio fratello maggiore."}
+      {"id":"G1-038-1","hanzi":"这本书比那本书贵。","pinyin":"Zhè běn shū bǐ nà běn shū guì.","translation":"This book is more expensive than that one."},
+      {"id":"G1-038-2","hanzi":"我没有哥哥高。","pinyin":"Wǒ méiyǒu gēge gāo.","translation":"I am not as tall as my older brother."}
     ]
   },
   {
     "id": "G1-039", "level": 1, "sourceNo": 39,
-    "title": "Frasi parallele e azioni contemporanee",
-    "pattern": "frase，frase; 一边 + azione，一边 + azione; frase，也 + predicato",
-    "explanation": "Due proposizioni di pari importanza possono essere accostate senza una congiunzione. 一边…一边… presenta due azioni svolte contemporaneamente dallo stesso soggetto. 也 aggiunge una seconda informazione parallela e si colloca prima del suo predicato.",
+    "title": "Parallel clauses and simultaneous actions",
+    "pattern": "clause，clause; 一边 + action，一边 + action; clause，也 + predicate",
+    "explanation": "Two equally important clauses can be placed side by side without a conjunction. 一边…一边… presents two actions performed simultaneously by the same subject. 也 adds a second parallel piece of information and goes before its predicate.",
     "examples": [
-      {"id":"G1-039-1","hanzi":"爸爸看书，妈妈看电视。","pinyin":"Bàba kàn shū, māma kàn diànshì.","translation":"Papà legge e mamma guarda la televisione."},
-      {"id":"G1-039-2","hanzi":"她一边吃饭，一边看电视。","pinyin":"Tā yībiān chīfàn, yībiān kàn diànshì.","translation":"Mangia guardando la televisione."},
-      {"id":"G1-039-3","hanzi":"我喜欢喝茶，也喜欢喝牛奶。","pinyin":"Wǒ xǐhuan hē chá, yě xǐhuan hē niúnǎi.","translation":"Mi piace bere il tè e mi piace anche bere il latte."}
+      {"id":"G1-039-1","hanzi":"爸爸看书，妈妈看电视。","pinyin":"Bàba kàn shū, māma kàn diànshì.","translation":"Dad reads while Mom watches television."},
+      {"id":"G1-039-2","hanzi":"她一边吃饭，一边看电视。","pinyin":"Tā yībiān chīfàn, yībiān kàn diànshì.","translation":"She eats while watching television."},
+      {"id":"G1-039-3","hanzi":"我喜欢喝茶，也喜欢喝牛奶。","pinyin":"Wǒ xǐhuan hē chá, yě xǐhuan hē niúnǎi.","translation":"I like drinking tea, and I also like drinking milk."}
     ]
   },
   {
     "id": "G1-040", "level": 1, "sourceNo": 40,
-    "title": "Una situazione nuova con 了 finale",
-    "pattern": "nuova situazione + 了",
-    "explanation": "了 alla fine della frase segnala che la situazione è cambiata rispetto a prima o che ora emerge un fatto nuovo. Può seguire anche un aggettivo, quindi non implica necessariamente un'azione completata. Con 不…了 indica che un'abitudine o un'intenzione non vale più.",
+    "title": "A new situation with final 了",
+    "pattern": "new situation + 了",
+    "explanation": "了 at the end of a sentence signals that the situation has changed or that a new fact has now emerged. It can also follow an adjective, so it does not necessarily imply a completed action. With 不…了, it indicates that a habit or intention no longer applies.",
     "examples": [
-      {"id":"G1-040-1","hanzi":"天气冷了。","pinyin":"Tiānqì lěng le.","translation":"È arrivato il freddo."},
-      {"id":"G1-040-2","hanzi":"我不喝茶了。","pinyin":"Wǒ bù hē chá le.","translation":"Non bevo più tè."}
+      {"id":"G1-040-1","hanzi":"天气冷了。","pinyin":"Tiānqì lěng le.","translation":"The weather has turned cold."},
+      {"id":"G1-040-2","hanzi":"我不喝茶了。","pinyin":"Wǒ bù hē chá le.","translation":"I no longer drink tea."}
     ]
   },
   {
     "id": "G1-041", "level": 1, "sourceNo": 41,
-    "title": "L'azione realizzata con 了",
-    "pattern": "verbo + 了 + quantità／oggetto",
-    "explanation": "Per presentare un'azione come un evento realizzato si può mettere 了 subito dopo il verbo. Una quantità dell'oggetto rende spesso chiaro il limite dell'evento. Questo aspetto non equivale al tempo passato: anche in un contesto futuro può indicare che un'azione dovrà essere compiuta prima della successiva.",
+    "title": "Realized actions with 了",
+    "pattern": "verb + 了 + quantity／object",
+    "explanation": "To present an action as a realized event, 了 can be placed immediately after the verb. A quantity for the object often makes the boundary of the event clear. This aspect is not the same as past tense: even in a future context, it can indicate that an action must be completed before the next one.",
     "examples": [
-      {"id":"G1-041-1","hanzi":"昨天我写了三个汉字。","pinyin":"Zuótiān wǒ xiě le sān gè Hànzì.","translation":"Ieri ho scritto tre caratteri cinesi."},
-      {"id":"G1-041-2","hanzi":"明天吃了早饭，我去学校。","pinyin":"Míngtiān chī le zǎofàn, wǒ qù xuéxiào.","translation":"Domani, dopo aver fatto colazione, andrò a scuola."}
+      {"id":"G1-041-1","hanzi":"昨天我写了三个汉字。","pinyin":"Zuótiān wǒ xiě le sān gè Hànzì.","translation":"I wrote three Chinese characters yesterday."},
+      {"id":"G1-041-2","hanzi":"明天吃了早饭，我去学校。","pinyin":"Míngtiān chī le zǎofàn, wǒ qù xuéxiào.","translation":"Tomorrow, after having breakfast, I will go to school."}
     ]
   },
   {
     "id": "G1-042", "level": 1, "sourceNo": 42,
-    "title": "Un'azione in corso",
-    "pattern": "在／正在 + verbo; 正／在／正在 + verbo + 呢; verbo + 呢",
-    "explanation": "在 o 正在 davanti al verbo presentano un'azione in svolgimento nel momento di riferimento. Si può aggiungere 呢 finale; con 呢 è possibile anche 正 davanti al verbo. Quando il contesto è chiaro, il solo 呢 dopo il gruppo verbale può segnalare che l'azione è ancora in corso. Non si applica automaticamente a qualunque stato, come essere o possedere.",
+    "title": "An action in progress",
+    "pattern": "在／正在 + verb; 正／在／正在 + verb + 呢; verb + 呢",
+    "explanation": "在 or 正在 before a verb presents an action in progress at the reference time. Final 呢 can be added; with 呢, 正 is also possible before the verb. When the context is clear, 呢 alone after the verb phrase can signal that the action is still in progress. This does not automatically apply to every state, such as being or possessing.",
     "examples": [
-      {"id":"G1-042-1","hanzi":"爸爸在做饭。","pinyin":"Bàba zài zuò fàn.","translation":"Papà sta cucinando."},
-      {"id":"G1-042-2","hanzi":"老师正说话呢。","pinyin":"Lǎoshī zhèng shuōhuà ne.","translation":"L'insegnante sta parlando proprio ora."},
-      {"id":"G1-042-3","hanzi":"弟弟睡觉呢。","pinyin":"Dìdi shuìjiào ne.","translation":"Il fratellino sta dormendo."}
+      {"id":"G1-042-1","hanzi":"爸爸在做饭。","pinyin":"Bàba zài zuò fàn.","translation":"Dad is cooking."},
+      {"id":"G1-042-2","hanzi":"老师正说话呢。","pinyin":"Lǎoshī zhèng shuōhuà ne.","translation":"The teacher is speaking right now."},
+      {"id":"G1-042-3","hanzi":"弟弟睡觉呢。","pinyin":"Dìdi shuìjiào ne.","translation":"My little brother is sleeping."}
     ]
   },
   {
     "id": "G1-043", "level": 1, "sourceNo": 43,
-    "title": "Esprimere prezzi e somme",
-    "pattern": "numero + 元／块 + numero + 毛 + numero + 分",
-    "explanation": "La moneta si esprime con 元, colloquialmente 块; un decimo è 毛 e un centesimo è 分. Le unità si ordinano dalla maggiore alla minore, e nella lingua parlata 三块五 può indicare tre yuan e cinque mao. In un prezzo come 三块零五分, 零 segnala che mancano i decimi; per chiedere il prezzo si usa 多少钱.",
+    "title": "Expressing prices and amounts",
+    "pattern": "number + 元／块 + number + 毛 + number + 分",
+    "explanation": "Currency is expressed with 元, colloquially 块; one tenth is 毛 and one hundredth is 分. The units are ordered from largest to smallest, and in speech 三块五 can mean three yuan and five mao. In a price such as 三块零五分, 零 signals the missing tenths; to ask the price, use 多少钱.",
     "examples": [
-      {"id":"G1-043-1","hanzi":"这本书二十块钱。","pinyin":"Zhè běn shū èrshí kuài qián.","translation":"Questo libro costa venti yuan."},
-      {"id":"G1-043-2","hanzi":"一杯水三块五毛。","pinyin":"Yī bēi shuǐ sān kuài wǔ máo.","translation":"Un bicchiere d'acqua costa tre yuan e cinquanta centesimi."},
-      {"id":"G1-043-3","hanzi":"这个三块零五分。","pinyin":"Zhègè sān kuài líng wǔ fēn.","translation":"Questo costa tre yuan e cinque centesimi."}
+      {"id":"G1-043-1","hanzi":"这本书二十块钱。","pinyin":"Zhè běn shū èrshí kuài qián.","translation":"This book costs twenty yuan."},
+      {"id":"G1-043-2","hanzi":"一杯水三块五毛。","pinyin":"Yī bēi shuǐ sān kuài wǔ máo.","translation":"A glass of water costs three yuan and fifty fen."},
+      {"id":"G1-043-3","hanzi":"这个三块零五分。","pinyin":"Zhègè sān kuài líng wǔ fēn.","translation":"This costs three yuan and five fen."}
     ]
   },
   {
     "id": "G1-044", "level": 1, "sourceNo": 44,
-    "title": "Date, giorni e ore",
-    "pattern": "anno + 年 + mese + 月 + giorno + 日／号; numero + 点 + minuti + 分",
-    "explanation": "La data procede dall'unità maggiore alla minore: anno, mese e giorno; le cifre dell'anno si leggono una alla volta, e 号 è comune nel parlato al posto di 日. 星期一 fino a 星期六 indicano da lunedì a sabato, mentre domenica è 星期日 o 星期天. Per l'ora si usa 点, seguito dai minuti con 分; 半 vale trenta minuti e 两点 significa le due. Un'indicazione come 上午 o 下午 distingue la parte della giornata.",
+    "title": "Dates, days and times",
+    "pattern": "year + 年 + month + 月 + day + 日／号; number + 点 + minutes + 分",
+    "explanation": "Dates run from the largest unit to the smallest: year, month and day; the digits of the year are read individually, and 号 is common in speech instead of 日. 星期一 through 星期六 mean Monday through Saturday, whereas Sunday is 星期日 or 星期天. For the time, use 点, followed by minutes with 分; 半 means thirty minutes, and 两点 means two o’clock. An expression such as 上午 or 下午 distinguishes the part of the day.",
     "examples": [
-      {"id":"G1-044-1","hanzi":"今天是二零二六年五月三号。","pinyin":"Jīntiān shì èr líng èr liù nián wǔ yuè sān hào.","translation":"Oggi è il tre maggio duemilaventisei."},
-      {"id":"G1-044-2","hanzi":"星期天我不工作。","pinyin":"Xīngqītiān wǒ bù gōngzuò.","translation":"La domenica non lavoro."},
-      {"id":"G1-044-3","hanzi":"现在是下午两点半。","pinyin":"Xiànzài shì xiàwǔ liǎng diǎn bàn.","translation":"Sono le due e mezza del pomeriggio."},
-      {"id":"G1-044-4","hanzi":"我们八点十分上课。","pinyin":"Wǒmen bā diǎn shí fēn shàng kè.","translation":"Cominciamo la lezione alle otto e dieci."}
+      {"id":"G1-044-1","hanzi":"今天是二零二六年五月三号。","pinyin":"Jīntiān shì èr líng èr liù nián wǔ yuè sān hào.","translation":"Today is May third, two thousand and twenty-six."},
+      {"id":"G1-044-2","hanzi":"星期天我不工作。","pinyin":"Xīngqītiān wǒ bù gōngzuò.","translation":"I do not work on Sundays."},
+      {"id":"G1-044-3","hanzi":"现在是下午两点半。","pinyin":"Xiànzài shì xiàwǔ liǎng diǎn bàn.","translation":"It is half past two in the afternoon."},
+      {"id":"G1-044-4","hanzi":"我们八点十分上课。","pinyin":"Wǒmen bā diǎn shí fēn shàng kè.","translation":"We start class at ten past eight."}
     ]
   },
   {
     "id": "G1-045", "level": 1, "sourceNo": 45,
-    "title": "Fare una domanda con 吗",
-    "pattern": "frase dichiarativa + 吗？",
-    "explanation": "Per chiedere se un'affermazione è vera si aggiunge 吗 alla fine, senza cambiare l'ordine delle parole. La risposta può riprendere il verbo o l'aggettivo in forma affermativa o negativa, senza un equivalente fisso di sì. Non si combina normalmente 吗 con un interrogativo, con 还是 di scelta o con una forma come 去不去.",
+    "title": "Asking a question with 吗",
+    "pattern": "declarative sentence + 吗？",
+    "explanation": "To ask whether a statement is true, add 吗 at the end without changing the word order. The answer can repeat the verb or adjective in an affirmative or negative form, without a fixed equivalent of yes. 吗 is not normally combined with a question word, with choice-marking 还是, or with a form such as 去不去.",
     "examples": [
-      {"id":"G1-045-1","hanzi":"你喜欢这本书吗？","pinyin":"Nǐ xǐhuan zhè běn shū ma?","translation":"Ti piace questo libro?"},
-      {"id":"G1-045-2","hanzi":"你今天不去学校吗？","pinyin":"Nǐ jīntiān bù qù xuéxiào ma?","translation":"Oggi non vai a scuola?"}
+      {"id":"G1-045-1","hanzi":"你喜欢这本书吗？","pinyin":"Nǐ xǐhuan zhè běn shū ma?","translation":"Do you like this book?"},
+      {"id":"G1-045-2","hanzi":"你今天不去学校吗？","pinyin":"Nǐ jīntiān bù qù xuéxiào ma?","translation":"Aren’t you going to school today?"}
     ]
   },
   {
     "id": "G1-046", "level": 1, "sourceNo": 46,
-    "title": "Chiedere un'informazione precisa",
-    "pattern": "interrogativo al posto dell'informazione mancante",
-    "explanation": "Si lascia invariato l'ordine della frase e si sostituisce il dato cercato con 谁, 什么, 哪 con classificatore, 哪些, 哪儿 o 哪里. 几 con classificatore chiede quanti in un insieme solitamente piccolo, mentre 多少 è una richiesta generale di quantità. 多 con un aggettivo chiede un grado o una misura, e 怎么 chiede come si fa qualcosa. La risposta occupa la stessa posizione dell'interrogativo e non si aggiunge 吗.",
+    "title": "Asking for specific information",
+    "pattern": "question word in place of the missing information",
+    "explanation": "Keep the sentence order unchanged and replace the information requested with 谁, 什么, 哪 with a classifier, 哪些, 哪儿 or 哪里. 几 with a classifier asks how many in a usually small set, whereas 多少 is a general request for quantity. 多 with an adjective asks about a degree or measurement, and 怎么 asks how something is done. The answer occupies the same position as the question word, and 吗 is not added.",
     "examples": [
-      {"id":"G1-046-1","hanzi":"你要哪本书？","pinyin":"Nǐ yào nǎ běn shū?","translation":"Quale libro vuoi?"},
-      {"id":"G1-046-2","hanzi":"你在看什么？","pinyin":"Nǐ zài kàn shénme?","translation":"Che cosa stai guardando?"},
-      {"id":"G1-046-3","hanzi":"你女儿多大？","pinyin":"Nǐ nǚ'ér duō dà?","translation":"Quanti anni ha tua figlia?"},
-      {"id":"G1-046-4","hanzi":"哪些学生住在这里？","pinyin":"Nǎxiē xuéshēng zhù zài zhèlǐ?","translation":"Quali studenti abitano qui?"}
+      {"id":"G1-046-1","hanzi":"你要哪本书？","pinyin":"Nǐ yào nǎ běn shū?","translation":"Which book do you want?"},
+      {"id":"G1-046-2","hanzi":"你在看什么？","pinyin":"Nǐ zài kàn shénme?","translation":"What are you looking at?"},
+      {"id":"G1-046-3","hanzi":"你女儿多大？","pinyin":"Nǐ nǚ'ér duō dà?","translation":"How old is your daughter?"},
+      {"id":"G1-046-4","hanzi":"哪些学生住在这里？","pinyin":"Nǎxiē xuéshēng zhù zài zhèlǐ?","translation":"Which students live here?"}
     ]
   },
   {
     "id": "G1-047", "level": 1, "sourceNo": 47,
-    "title": "Scegliere tra alternative con 还是",
-    "pattern": "prima alternativa + 还是 + seconda alternativa？",
-    "explanation": "还是 collega le possibilità tra cui l'interlocutore deve scegliere. Si può ripetere il verbo in entrambe le alternative oppure ometterlo nella seconda quando resta uguale. La risposta indica la possibilità scelta; non si aggiunge normalmente 吗.",
+    "title": "Choosing between alternatives with 还是",
+    "pattern": "first alternative + 还是 + second alternative？",
+    "explanation": "还是 links the possibilities from which the listener must choose. The verb can be repeated in both alternatives or omitted in the second when it remains the same. The answer states the chosen option; 吗 is normally not added.",
     "examples": [
-      {"id":"G1-047-1","hanzi":"你想吃米饭还是面包？","pinyin":"Nǐ xiǎng chī mǐfàn háishi miànbāo?","translation":"Vuoi mangiare riso o pane?"},
-      {"id":"G1-047-2","hanzi":"我们在家吃还是去饭店吃？","pinyin":"Wǒmen zài jiā chī háishi qù fàndiàn chī?","translation":"Mangiamo a casa o andiamo al ristorante?"}
+      {"id":"G1-047-1","hanzi":"你想吃米饭还是面包？","pinyin":"Nǐ xiǎng chī mǐfàn háishi miànbāo?","translation":"Do you want to eat rice or bread?"},
+      {"id":"G1-047-2","hanzi":"我们在家吃还是去饭店吃？","pinyin":"Wǒmen zài jiā chī háishi qù fàndiàn chī?","translation":"Shall we eat at home or go to a restaurant?"}
     ]
   },
   {
     "id": "G1-048", "level": 1, "sourceNo": 48,
-    "title": "Domande affermativo-negative",
-    "pattern": "verbo + 不 + verbo; aggettivo + 不 + aggettivo; 有没有",
-    "explanation": "Accostando la forma affermativa e negativa del predicato si chiede se una situazione vale oppure no: 去不去, 好不好, 是不是. Non si aggiunge 吗 e l'eventuale oggetto segue normalmente l'intero gruppo. Con 有 si usa 有没有, mentre per chiedere se un'azione è avvenuta si può usare verbo + 没 + verbo. La risposta riprende la forma affermativa o negativa appropriata.",
+    "title": "Affirmative-negative questions",
+    "pattern": "verb + 不 + verb; adjective + 不 + adjective; 有没有",
+    "explanation": "Placing the affirmative and negative forms of the predicate together asks whether a situation applies or not: 去不去, 好不好, 是不是. Do not add 吗, and any object normally follows the entire phrase. With 有, use 有没有, whereas to ask whether an action occurred, verb + 没 + verb can be used. The answer repeats the appropriate affirmative or negative form.",
     "examples": [
-      {"id":"G1-048-1","hanzi":"你是不是老师？","pinyin":"Nǐ shì bu shì lǎoshī?","translation":"Sei un insegnante?"},
-      {"id":"G1-048-2","hanzi":"今天冷不冷？","pinyin":"Jīntiān lěng bu lěng?","translation":"Oggi fa freddo?"},
-      {"id":"G1-048-3","hanzi":"你有没有时间？","pinyin":"Nǐ yǒu méi yǒu shíjiān?","translation":"Hai tempo?"},
-      {"id":"G1-048-4","hanzi":"你吃没吃早饭？","pinyin":"Nǐ chī méi chī zǎofàn?","translation":"Hai fatto colazione?"}
+      {"id":"G1-048-1","hanzi":"你是不是老师？","pinyin":"Nǐ shì bu shì lǎoshī?","translation":"Are you a teacher?"},
+      {"id":"G1-048-2","hanzi":"今天冷不冷？","pinyin":"Jīntiān lěng bu lěng?","translation":"Is it cold today?"},
+      {"id":"G1-048-3","hanzi":"你有没有时间？","pinyin":"Nǐ yǒu méi yǒu shíjiān?","translation":"Do you have time?"},
+      {"id":"G1-048-4","hanzi":"你吃没吃早饭？","pinyin":"Nǐ chī méi chī zǎofàn?","translation":"Have you had breakfast?"}
     ]
   }
 ]

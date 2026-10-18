@@ -1,5 +1,7 @@
+import type { Card } from 'ts-fsrs';
 import type { Pronunciation } from './audio';
-import { loadCurriculum } from './curriculum';
+import { loadCurriculum, type Curriculum } from './curriculum';
+import { getStudiedPrefix, requiredVocabulary } from './study-access';
 
 export interface GrammarExample {
   id: string;
@@ -20,7 +22,7 @@ export interface GrammarRule {
 
 interface GrammarLesson {
   rules: GrammarRule[];
-  wordCount: number;
+  curricula: Curriculum[];
 }
 
 const cache = new Map<number, Promise<GrammarLesson>>();
@@ -31,16 +33,16 @@ export function loadRules(level: number): Promise<GrammarLesson> {
     pending = Promise.all([
       fetch(`${import.meta.env.BASE_URL}data/grammar-level-${level}.json`)
         .then(async response => {
-          if (!response.ok) throw new Error(`Grammatica HSK ${level === 7 ? '7–9' : level}: HTTP ${response.status}.`);
+          if (!response.ok) throw new Error(`Grammar HSK ${level === 7 ? '7–9' : level}: HTTP ${response.status}.`);
           return await response.json() as GrammarRule[];
         }),
-      loadCurriculum(level),
+      Promise.all(Array.from({ length: level }, (_, index) => loadCurriculum(index + 1))),
     ])
-      .then(([rules, curriculum]) => {
+      .then(([rules, curricula]) => {
         const byId = new Map(rules.map(rule => [rule.id, rule]));
         return {
-          rules: curriculum.grammar.map(id => byId.get(id)!),
-          wordCount: curriculum.words.length,
+          rules: curricula[level - 1].grammar.map(id => byId.get(id)!),
+          curricula,
         };
       })
       .catch((error: unknown) => {
@@ -52,7 +54,11 @@ export function loadRules(level: number): Promise<GrammarLesson> {
   return pending;
 }
 
-export function createGrammar(section: HTMLElement, pronunciation: Pronunciation) {
+export function createGrammar(
+  section: HTMLElement,
+  pronunciation: Pronunciation,
+  getProgress: () => ReadonlyMap<string, Card>,
+) {
   const status = document.createElement('p');
   status.className = 'grammar-status';
   status.setAttribute('role', 'status');
@@ -63,6 +69,8 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
   let request = 0;
   let active = false;
   let renderedLevel: number | undefined;
+  let renderedLesson: GrammarLesson | undefined;
+  let rows: { details: HTMLDetailsElement; summary: HTMLElement; label: string; required: number }[] = [];
   let playingDetails: HTMLDetailsElement | undefined;
 
   function fillBody(details: HTMLDetailsElement, rule: GrammarRule) {
@@ -71,7 +79,7 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
     const pattern = document.createElement('p');
     pattern.className = 'grammar-pattern';
     const label = document.createElement('strong');
-    label.textContent = 'Schema: ';
+    label.textContent = 'Pattern: ';
     pattern.append(label, rule.pattern);
     const explanation = document.createElement('p');
     explanation.textContent = rule.explanation;
@@ -92,8 +100,8 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'speak';
-      button.textContent = 'Ascolta';
-      button.setAttribute('aria-label', `Ascolta: ${example.hanzi}`);
+      button.textContent = 'Listen';
+      button.setAttribute('aria-label', `Listen: ${example.hanzi}`);
       button.dataset.example = example.id;
       const audioStatus = document.createElement('p');
       audioStatus.id = `speech-${example.id}`;
@@ -113,19 +121,36 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
     details.append(body);
   }
 
+  function refreshReadiness() {
+    const prefix = getStudiedPrefix(renderedLesson!.curricula, getProgress());
+    for (const { details, summary, label, required } of rows) {
+      const ready = prefix >= required;
+      if (details.dataset.ready === String(ready)) continue;
+      details.dataset.ready = String(ready);
+      summary.setAttribute('aria-label', `${label}. Flashcards 1–${required}. ${ready ? 'Ready: all required vocabulary has been studied.' : 'Not ready: required vocabulary has not all been studied.'}`);
+    }
+  }
+
   async function show(level: number) {
     active = true;
     const currentRequest = ++request;
-    if (renderedLevel === level) return;
+    if (renderedLevel === level) {
+      refreshReadiness();
+      return;
+    }
     list.replaceChildren();
     renderedLevel = undefined;
+    renderedLesson = undefined;
+    rows = [];
     section.setAttribute('aria-busy', 'true');
     status.setAttribute('role', 'status');
-    status.textContent = 'Caricamento della grammatica…';
+    status.textContent = 'Loading grammar…';
     status.hidden = false;
     try {
-      const { rules, wordCount } = await loadRules(level);
+      const lesson = await loadRules(level);
       if (!active || request !== currentRequest) return;
+      const { rules, curricula } = lesson;
+      const wordCount = curricula[level - 1].words.length;
       const fragment = document.createDocumentFragment();
       for (const [index, rule] of rules.entries()) {
         const details = document.createElement('details');
@@ -135,9 +160,11 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
         summary.textContent = rule.title;
         const cutoff = document.createElement('small');
         cutoff.className = 'lesson-cutoff';
-        cutoff.textContent = `Flashcard 1–${Math.floor(wordCount * (index + 1) / rules.length)}`;
+        const required = requiredVocabulary(wordCount, index + 1, rules.length);
+        cutoff.textContent = `Flashcards 1–${required}`;
         summary.append(cutoff);
         details.append(summary);
+        rows.push({ details, summary, label: rule.title, required });
         let filled = false;
         details.addEventListener('toggle', () => {
           if (details.open && !filled) {
@@ -152,12 +179,14 @@ export function createGrammar(section: HTMLElement, pronunciation: Pronunciation
       }
       list.append(fragment);
       renderedLevel = level;
+      renderedLesson = lesson;
+      refreshReadiness();
       status.hidden = true;
     } catch (error) {
       if (!active || request !== currentRequest) return;
       const message = error instanceof Error ? error.message : String(error);
       status.setAttribute('role', 'alert');
-      status.textContent = `Impossibile caricare la grammatica. ${message} Seleziona di nuovo Grammatica o un livello per riprovare.`;
+      status.textContent = `Unable to load grammar. ${message} Select Grammar or a level again to retry.`;
     } finally {
       if (request === currentRequest) section.setAttribute('aria-busy', 'false');
     }

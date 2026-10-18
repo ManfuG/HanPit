@@ -1,5 +1,5 @@
 import { loadRules } from './grammar';
-import { createQuizPool, sampleQuiz, type ItalianGlosses, type PinyinReadings, type QuizPool, type QuizQuestion } from './quiz';
+import { createQuizPool, sampleQuiz, type PinyinReadings, type QuizPool, type QuizQuestion } from './quiz';
 import type { StudyStorage } from './storage';
 import { loadVocabulary } from './vocabulary';
 
@@ -9,25 +9,12 @@ export interface TestsSection {
 }
 
 const pools = new Map<number, Promise<QuizPool>>();
-const dictionaries = new Map<number, Promise<ItalianGlosses>>();
 let pinyinRequest: Promise<PinyinReadings> | undefined;
 
 async function fetchData<T>(file: string): Promise<T> {
   const response = await fetch(`${import.meta.env.BASE_URL}data/${file}`);
   if (!response.ok) throw new Error(`${file}: HTTP ${response.status}.`);
   return await response.json() as T;
-}
-
-function loadItalian(level: number): Promise<ItalianGlosses> {
-  let pending = dictionaries.get(level);
-  if (!pending) {
-    pending = fetchData<ItalianGlosses>(`word-italian-level-${level}.json`).catch((error: unknown) => {
-      dictionaries.delete(level);
-      throw error;
-    });
-    dictionaries.set(level, pending);
-  }
-  return pending;
 }
 
 function loadPinyin(): Promise<PinyinReadings> {
@@ -45,11 +32,10 @@ function loadPool(level: number): Promise<QuizPool> {
     pending = Promise.all([
       loadVocabulary(level),
       Promise.all(levels.map(loadRules)),
-      Promise.all(levels.map(loadItalian)),
       loadPinyin(),
     ])
-      .then(([words, lessons, glosses, pinyin]) => createQuizPool(
-        words, lessons.flatMap(lesson => lesson.rules), Object.assign({}, ...glosses) as ItalianGlosses, pinyin,
+      .then(([words, lessons, pinyin]) => createQuizPool(
+        words, lessons.flatMap(lesson => lesson.rules), pinyin,
       ))
       .catch((error: unknown) => {
         pools.delete(level);
@@ -84,16 +70,16 @@ interface PendingResult {
 }
 
 const instructions: Record<QuizQuestion['type'], string> = {
-  pinyin: 'Scegli il Pinyin corretto.',
-  meaning: 'Scegli il significato italiano.',
-  grammar: 'Scegli la traduzione italiana della frase.',
-  hanzi: 'Scegli gli hanzi corrispondenti alla traduzione italiana.',
+  pinyin: 'Choose the correct pinyin.',
+  meaning: 'Choose the correct meaning.',
+  grammar: 'Choose the English translation of the sentence.',
+  hanzi: 'Choose the hanzi matching the English meaning.',
 };
 
 const optionLanguages: Record<QuizQuestion['type'], string> = {
   pinyin: 'zh-Latn',
-  meaning: 'it',
-  grammar: 'it',
+  meaning: 'en',
+  grammar: 'en',
   hanzi: 'zh-CN',
 };
 
@@ -107,7 +93,7 @@ function errorMessage(error: unknown): string {
 }
 
 export function createTests(section: HTMLElement, storage: StudyStorage, onProgress: () => void): TestsSection {
-  section.lang = 'it';
+  section.lang = 'en';
   const progress = document.createElement('p');
   progress.className = 'test-progress';
   const status = document.createElement('p');
@@ -143,7 +129,7 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
     if (!active || selectedLevel === undefined) return;
     const level = selectedLevel;
     const streak = storage.streaks.get(level) ?? 0;
-    progress.textContent = `Test perfetti consecutivi: ${streak}/20`;
+    progress.textContent = `Consecutive perfect tests: ${streak}/20`;
     section.setAttribute('aria-busy', String(loading || !!pendingResult?.saving));
     status.hidden = true;
     status.setAttribute('role', 'status');
@@ -151,15 +137,15 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
     body.replaceChildren();
 
     if (loading) {
-      status.textContent = 'Caricamento di vocabolario, grammatica, traduzioni italiane e Pinyin…';
+      status.textContent = 'Loading vocabulary, grammar and pinyin…';
       status.hidden = false;
     } else if (loadError) {
       status.setAttribute('role', 'alert');
-      status.textContent = `Impossibile caricare il test. ${loadError}`;
+      status.textContent = `Unable to load the test. ${loadError}`;
       status.hidden = false;
       const controls = document.createElement('div');
       controls.className = 'test-controls';
-      controls.append(button('Riprova il caricamento', 'test-start', () => { void show(level); }));
+      controls.append(button('Retry loading', 'test-start', () => { void show(level); }));
       body.append(controls);
     }
 
@@ -167,13 +153,13 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
       const result = pendingResult;
       status.hidden = false;
       if (result.saving) {
-        status.textContent = `Salvataggio del risultato ${levelLabel(result.level)}…`;
+        status.textContent = `Saving ${levelLabel(result.level)} result…`;
       } else {
         status.setAttribute('role', 'alert');
-        status.textContent = `Impossibile salvare il risultato ${levelLabel(result.level)}. ${result.error ?? ''} Il risultato non è ancora registrato: riprova per proseguire.`;
+        status.textContent = `Unable to save the ${levelLabel(result.level)} result. ${result.error ?? ''} The result has not been recorded: retry to continue.`;
         const controls = document.createElement('div');
         controls.className = 'test-controls';
-        controls.append(button('Riprova il salvataggio', 'test-next', () => { void persist(result); }));
+        controls.append(button('Retry saving', 'test-next', () => { void persist(result); }));
         body.append(controls);
       }
     }
@@ -187,7 +173,7 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
       const result = document.createElement('h3');
       result.className = 'test-feedback';
       result.tabIndex = -1;
-      result.textContent = `Risultato: ${current.score}/${current.questions.length}`;
+      result.textContent = `Score: ${current.score}/${current.questions.length}`;
       body.append(result);
       if (focus) result.focus();
     }
@@ -196,11 +182,11 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
       const error = document.createElement('p');
       error.className = 'test-feedback';
       error.setAttribute('role', 'alert');
-      error.textContent = `Impossibile preparare il test. ${startError}`;
+      error.textContent = `Unable to prepare the test. ${startError}`;
       body.append(error);
     }
     const readyPool = pool;
-    const start = button(current ? 'Riprova il test' : 'Inizia il test', 'test-start', () => startQuiz(level, readyPool));
+    const start = button(current ? 'Retake test' : 'Start test', 'test-start', () => startQuiz(level, readyPool));
     start.disabled = !!pendingResult;
     const controls = document.createElement('div');
     controls.className = 'test-controls';
@@ -217,11 +203,11 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
     fieldset.dataset.type = question.type;
     fieldset.disabled = !!pendingResult;
     const legend = document.createElement('legend');
-    legend.textContent = `Domanda ${index + 1} di ${current.questions.length}. ${instructions[question.type]}`;
+    legend.textContent = `Question ${index + 1} of ${current.questions.length}. ${instructions[question.type]}`;
     const prompt = document.createElement('p');
     prompt.id = 'test-prompt';
     prompt.className = 'test-prompt';
-    prompt.lang = question.type === 'hanzi' ? 'it' : 'zh-CN';
+    prompt.lang = question.type === 'hanzi' ? 'en' : 'zh-CN';
     prompt.tabIndex = -1;
     prompt.textContent = question.prompt;
     fieldset.setAttribute('aria-describedby', prompt.id);
@@ -231,7 +217,7 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
     next.type = 'submit';
     // The save-retry button owns this ID while a result awaits persistence.
     if (!pendingResult) next.id = 'test-next';
-    next.textContent = index === current.questions.length - 1 ? 'Termina' : 'Avanti';
+    next.textContent = index === current.questions.length - 1 ? 'Finish' : 'Next';
     next.disabled = current.selected === undefined || !!pendingResult;
     question.options.forEach((value, optionIndex) => {
       const label = document.createElement('label');
@@ -330,7 +316,7 @@ export function createTests(section: HTMLElement, storage: StudyStorage, onProgr
 
   async function show(level: number): Promise<void> {
     if (!Number.isInteger(level) || level < 1 || level > 7 || level > storage.unlockedLevel) {
-      throw new Error('Livello HSK bloccato.');
+      throw new Error('HSK level locked.');
     }
     active = true;
     const currentRequest = ++request;

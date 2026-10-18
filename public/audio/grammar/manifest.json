@@ -1,5 +1,5 @@
 {
-  "fingerprint": "996b3add7cd860cab2d97238af71fbd9fcd40a577957c9a970117a3642497649",
+  "fingerprint": "142e693da8f8da79cc8fae548735af8b4d3c85134b006c8ef89dede9839dfb61",
   "settings": {
     "repo": "hexgrad/Kokoro-82M-v1.1-zh",
     "revision": "01e7505bd6a7a2ac4975463114c3a7650a9f7218",
@@ -150,13 +150,13 @@
   },
   "inputs": {
     "grammar-index.json": "3b3696cd7660b33ece7c06230a4781cb6522a1f1397ce365682427789ebe1bab",
-    "grammar-level-1.json": "3cf0b3c34027819e46407860d3068768b222e076ce1acb81dbe44d3c305b61e9",
-    "grammar-level-2.json": "11ce095c3bca0c73b2cc5ed14ff76d04d41cc2fde8aee6b86685202aa01f2ae4",
-    "grammar-level-3.json": "74f92199416aec9e811ebf22c54ddb5617b8ff64f18f9041fb9ba32d44f5e017",
-    "grammar-level-4.json": "fab46589e7e2fd88ade4d6f48fabdf2b25d2ff3fd51c5c387270d331ef7f5127",
-    "grammar-level-5.json": "155456aa8d09204e771d760958ebba7f056199febf9a0cefe77cdde0e9fa5367",
-    "grammar-level-6.json": "1361e3e34916189c0a0eaa4a78aa70f5fde3cbd36a138aad51f4af6994001b66",
-    "grammar-level-7.json": "6f2a5908d381ca918bd3c8c3beb334e36741e1b530fd2dae05e4f8b11df40075"
+    "grammar-level-1.json": "ec87305aedfcfb0c5ca3515133b08daa408b035974d5ae1666696e70630e2307",
+    "grammar-level-2.json": "64ed9807b91f08e5c25003d7ee3f7ce5ebfb7bd5d5fe36249a53942601ab29e1",
+    "grammar-level-3.json": "e9b7f65d0f0d83a3f5fc9b753b44f42824c60836e81b5074939b3acab52973df",
+    "grammar-level-4.json": "706589f47519cb64bdf07fef3f755bfe97f33de56c507850357806ab2cad8d9a",
+    "grammar-level-5.json": "ba303c1a643ffb5f1fb608e661bdc566a86f0a61d73aaaab28c2692fe3384b01",
+    "grammar-level-6.json": "283d02fc88cf936b2462991369de0b89510cd7f3254f6215ce3f819027df78f7",
+    "grammar-level-7.json": "2d936a7f5d29d14eb60e5b8158587ad403d4f86c388bcdf21469f6a0e29b5d37"
   },
   "clips": {
     "G1-001-1": {

@@ -27,14 +27,14 @@ export async function openStorage(): Promise<StudyStorage> {
   };
   request.onsuccess = () => resolve(request.result);
   request.onerror = () => reject(request.error);
-  request.onblocked = () => reject(new Error('Chiudi le altre schede di HanPit e ricarica.'));
+  request.onblocked = () => reject(new Error('Close the other HanPit tabs and reload.'));
   const db = await promise;
 
   function completed(tx: IDBTransaction): Promise<void> {
     const { promise, resolve, reject } = Promise.withResolvers<void>();
     tx.oncomplete = () => resolve();
-    tx.onabort = () => reject(tx.error ?? new Error('Salvataggio interrotto.'));
-    tx.onerror = () => reject(tx.error ?? new Error('Salvataggio interrotto.'));
+    tx.onabort = () => reject(tx.error ?? new Error('Saving interrupted.'));
+    tx.onerror = () => reject(tx.error ?? new Error('Saving interrupted.'));
     return promise;
   }
   db.onversionchange = () => db.close();
@@ -96,7 +96,7 @@ export async function openStorage(): Promise<StudyStorage> {
     },
     async setLevel(level: number) {
       if (!Number.isInteger(level) || level < 1 || level > storage.unlockedLevel) {
-        throw new Error('Livello HSK bloccato.');
+        throw new Error('HSK level locked.');
       }
       const tx = db.transaction('settings', 'readwrite');
       const done = completed(tx);

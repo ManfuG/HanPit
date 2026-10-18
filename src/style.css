@@ -58,9 +58,12 @@ kbd { font-family: inherit; font-weight: 400; opacity: .55; font-size: 10px; mar
 .grammar-status, .readings-status { color: var(--muted); font-size: 13px; line-height: 1.7; margin: 22px 0; }
 .grammar-status[role="alert"], .readings-status[role="alert"] { color: #91392e; }
 .grammar-rule, .reading { border-bottom: 1px solid var(--border); }
-.grammar-rule summary, .reading summary { cursor: pointer; padding: 17px 0; font-size: 15px; line-height: 1.6; overflow-wrap: anywhere; }
-.grammar-rule[open] summary, .reading[open] summary { color: var(--accent); }
-.lesson-cutoff { display: block; color: var(--muted); font-size: 12px; font-weight: 400; }
+.grammar-rule summary, .reading summary { cursor: pointer; padding: 17px 12px; font-size: 15px; line-height: 1.6; overflow-wrap: anywhere; }
+.grammar-rule[data-ready="false"], .reading[data-ready="false"] { border-bottom-color: #d8b5b0; }
+.grammar-rule[data-ready="false"] summary, .reading[data-ready="false"] summary { color: #8e352d; background: #fbefed; }
+.grammar-rule[data-ready="true"], .reading[data-ready="true"] { border-bottom-color: #aacabb; }
+.grammar-rule[data-ready="true"] summary, .reading[data-ready="true"] summary { color: #176347; background: #edf5ef; }
+.lesson-cutoff { display: block; color: inherit; font-size: 12px; font-weight: 400; }
 .reading-body { padding: 0 0 20px; font-size: 21px; line-height: 1.9; overflow-wrap: anywhere; }
 .reading-body p { margin: 0 0 16px; }
 .reading-body p:last-child { margin-bottom: 0; }

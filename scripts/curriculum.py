@@ -251,7 +251,7 @@ def segment(text: str, lexicon: Lexicon | Iterable[dict], *,
             mention: bool = False) -> dict:
     """DP-segment every Chinese span exactly; never invent unknown characters.
 
-    Non-Chinese punctuation/Italian prose delimit spans. With sentence pinyin,
+    Non-Chinese punctuation/English prose delimit spans. With sentence pinyin,
     attempt pronunciation-sensitive matching first, reporting unresolved alignment
     rather than silently conflating different official identities.
     """
@@ -495,7 +495,7 @@ def validate_readings(corpus: Corpus, plan: dict, readings: list) -> dict:
             failures.append({'id': identifier, 'reason': 'reading_fields'})
             continue
         if reading['id'] != identifier or not isinstance(reading['title'], str) or not reading['title'].strip() or HAN.search(reading['title']):
-            failures.append({'id': identifier, 'reason': 'reading_identity_or_italian_title'})
+            failures.append({'id': identifier, 'reason': 'reading_identity_or_english_title'})
         allowance = reading_allowance(corpus, plan, position)
         grammar = reading['grammarIds']
         if not isinstance(grammar, list) or any(not isinstance(g, str) for g in grammar):

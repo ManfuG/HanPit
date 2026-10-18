@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Check complete Italian test glosses and the official polyphonic-form index."""
+"""Check English vocabulary meanings and the official polyphonic-form index."""
 import argparse
 import json
 from pathlib import Path
-import re
 
 DATA = Path(__file__).resolve().parent.parent / 'public/data'
 
@@ -15,19 +14,15 @@ def main():
     readings, counts, levels = {}, {}, []
     for level in range(1, 8):
         words = json.loads((DATA / f'level-{level}.json').read_text())
-        italian = json.loads((DATA / f'word-italian-level-{level}.json').read_text())
-        expected = {word['id'] for word in words}
-        if set(italian) != expected:
-            raise ValueError(f'HSK {level}: Italian ID coverage mismatch')
         for word in words:
-            gloss = italian[word['id']]
-            if not isinstance(gloss, str) or not gloss.strip() or re.search(r'[\u3400-\u9fff]', gloss):
-                raise ValueError(f'{word["id"]}: invalid Italian gloss')
+            gloss = word['meaning']
+            if not isinstance(gloss, str) or not gloss.strip():
+                raise ValueError(f'{word["id"]}: missing English meaning')
             counts[word['hanzi']] = counts.get(word['hanzi'], 0) + 1
             variants = readings.setdefault(word['hanzi'], [])
             if word['pinyin'] not in variants:
                 variants.append(word['pinyin'])
-        levels.append({'level': level, 'words': len(words), 'italian': len(italian)})
+        levels.append({'level': level, 'words': len(words)})
     expected_index = {hanzi: variants for hanzi, variants in readings.items() if counts[hanzi] > 1}
     path = DATA / 'test-pinyin.json'
     if args.write_pinyin:

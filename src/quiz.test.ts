@@ -1,32 +1,31 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { createQuizPool, sampleQuiz, normalizePinyin, wordMeaningsOverlap, grammarExamplesOverlap } from './quiz.ts';
+import { createQuizPool, sampleQuiz, normalizePinyin } from './quiz.ts';
 import type { Word } from './types.ts';
 import type { GrammarRule } from './grammar.ts';
 
 const rows = [
-  ['书', 'shū', 'book', 'libro'], ['猫', 'māo', 'cat', 'gatto'],
-  ['狗', 'gǒu', 'dog', 'cane'], ['水', 'shuǐ', 'water', 'acqua'],
-  ['火', 'huǒ', 'fire', 'fuoco'], ['山', 'shān', 'mountain', 'montagna'],
-  ['雨', 'yǔ', 'rain', 'pioggia'], ['风', 'fēng', 'wind', 'vento'],
-  ['门', 'mén', 'door', 'porta'], ['窗', 'chuāng', 'window', 'finestra'],
-  ['花', 'huā', 'flower', 'fiore'], ['树', 'shù', 'tree', 'albero'],
-  ['鱼', 'yú', 'fish', 'pesce'], ['鸟', 'niǎo', 'bird', 'uccello'],
-  ['车', 'chē', 'vehicle', 'veicolo'], ['船', 'chuán', 'boat', 'barca'],
-  ['笔', 'bǐ', 'pen', 'penna'], ['纸', 'zhǐ', 'paper', 'carta'],
-  ['米', 'mǐ', 'rice', 'riso'], ['盐', 'yán', 'salt', 'sale'],
-  ['长', 'cháng', 'long', 'lungo'], ['掌', 'zhǎng', 'palm', 'palmo'],
-  ['常', 'cháng', 'often', 'spesso'], ['糖', 'táng', 'sugar', 'zucchero'],
+  ['书', 'shū', 'book'], ['猫', 'māo', 'cat'],
+  ['狗', 'gǒu', 'dog'], ['水', 'shuǐ', 'water'],
+  ['火', 'huǒ', 'fire'], ['山', 'shān', 'mountain'],
+  ['雨', 'yǔ', 'rain'], ['风', 'fēng', 'wind'],
+  ['门', 'mén', 'door'], ['窗', 'chuāng', 'window'],
+  ['花', 'huā', 'flower'], ['树', 'shù', 'tree'],
+  ['鱼', 'yú', 'fish'], ['鸟', 'niǎo', 'bird'],
+  ['车', 'chē', 'vehicle'], ['船', 'chuán', 'boat'],
+  ['笔', 'bǐ', 'pen'], ['纸', 'zhǐ', 'paper'],
+  ['米', 'mǐ', 'rice'], ['盐', 'yán', 'salt'],
+  ['长', 'cháng', 'long'], ['掌', 'zhǎng', 'palm'],
+  ['常', 'cháng', 'often'], ['糖', 'táng', 'sugar'],
 ];
 const words: Word[] = rows.map(([hanzi, pinyin, meaning], i) => ({ id: `w${i}`, level: 1, hanzi: hanzi!, pinyin: pinyin!, meaning: meaning! }));
-const italian = Object.fromEntries(rows.map((row, i) => [`w${i}`, row[3]!]));
 const sentences = [
-  ['我读书。', 'Wǒ dú shū.', 'Leggo un libro.'],
-  ['猫睡觉。', 'Māo shuìjiào.', 'Il gatto dorme.'],
-  ['狗跑得快。', 'Gǒu pǎo de kuài.', 'Il cane corre veloce.'],
-  ['天下雨了。', 'Tiān xià yǔ le.', 'Piove.'],
-  ['花开了。', 'Huā kāi le.', 'Il fiore è sbocciato.'],
-  ['船到了。', 'Chuán dào le.', 'La barca è arrivata.'],
+  ['我读书。', 'Wǒ dú shū.', 'I read a book.'],
+  ['猫睡觉。', 'Māo shuìjiào.', 'The cat sleeps.'],
+  ['狗跑得快。', 'Gǒu pǎo de kuài.', 'The dog runs fast.'],
+  ['天下雨了。', 'Tiān xià yǔ le.', 'It is raining.'],
+  ['花开了。', 'Huā kāi le.', 'The flower has bloomed.'],
+  ['船到了。', 'Chuán dào le.', 'The boat has arrived.'],
 ];
 const rules: GrammarRule[] = sentences.map(([hanzi, pinyin, translation], i) => ({
   id: `g${i}`, level: 1, sourceNo: i, title: '', pattern: '', explanation: '',
@@ -37,7 +36,7 @@ function random(seed: number) {
 }
 
 test('every attempt has five questions of each type, unique targets and correctly shuffled answers', () => {
-  const pool = createQuizPool(words, rules, italian, { 长: ['cháng', 'zhǎng'] });
+  const pool = createQuizPool(words, rules, { 长: ['cháng', 'zhǎng'] });
   const quiz = sampleQuiz(pool, random(42));
   assert.equal(quiz.length, 20);
   for (const type of ['pinyin', 'meaning', 'hanzi', 'grammar']) assert.equal(quiz.filter(q => q.type === type).length, 5);
@@ -46,13 +45,13 @@ test('every attempt has five questions of each type, unique targets and correctl
     assert.equal(new Set(q.options).size, 4);
     const word = words.find(w => w.id === q.targetId);
     const expected = q.type === 'grammar' ? rules.find(r => r.id === q.targetId)!.examples[0]!.translation
-      : q.type === 'pinyin' ? word!.pinyin : q.type === 'meaning' ? italian[q.targetId] : word!.hanzi;
+      : q.type === 'pinyin' ? word!.pinyin : q.type === 'meaning' ? word!.meaning : word!.hanzi;
     assert.equal(q.options[q.correctIndex], expected);
   }
 });
 
 test('all source words and rules remain eligible, including final array entries', () => {
-  const pool = createQuizPool(words, rules, italian, {});
+  const pool = createQuizPool(words, rules, {});
   const seen = new Set<string>();
   const rng = random(2718);
   for (let attempt = 0; attempt < 60; attempt++) for (const q of sampleQuiz(pool, rng)) seen.add(q.targetId);
@@ -60,7 +59,7 @@ test('all source words and rules remain eligible, including final array entries'
 });
 
 test('another valid reading of the target character cannot be offered as a wrong answer', () => {
-  const pool = createQuizPool(words, rules, italian, { 长: ['cháng / zhǎng'] });
+  const pool = createQuizPool(words, rules, { 长: ['cháng / zhǎng'] });
   let checked = false;
   const rng = random(123);
   for (let attempt = 0; attempt < 80; attempt++) {
@@ -74,13 +73,37 @@ test('another valid reading of the target character cannot be offered as a wrong
   assert.deepEqual(normalizePinyin('NǏ / nì'), ['nǐ', 'nì']);
 });
 
-test('synonyms and equivalent sentence translations are excluded conservatively', () => {
-  const doctor = { ...words[0]!, hanzi: '医生', meaning: 'doctor; physician' };
-  const physician = { ...words[1]!, hanzi: '大夫', meaning: 'physician' };
-  assert.equal(wordMeaningsOverlap(doctor, 'medico', physician, 'dottore'), true);
-  assert.equal(wordMeaningsOverlap(doctor, 'medico', words[2]!, italian.w2!), false);
-  const happy = { id: 'a', hanzi: '我很高兴。', pinyin: 'Wǒ hěn gāoxìng.', translation: 'Sono felice.' };
-  const glad = { id: 'b', hanzi: '我很开心。', pinyin: 'Wǒ hěn kāixīn.', translation: 'Sono contento.' };
-  assert.equal(grammarExamplesOverlap(happy, glad), true);
-  assert.equal(grammarExamplesOverlap(happy, rules[0]!.examples[0]!), false);
+test('synonymous meanings and equivalent sentence translations cannot become distractors', () => {
+  const medicalWords = [
+    { ...words[0]!, hanzi: '医生', pinyin: 'yīshēng', meaning: 'doctor' },
+    { ...words[1]!, hanzi: '大夫', pinyin: 'dàifu', meaning: 'physician' },
+    ...words.slice(2),
+  ];
+  const synonymousRules = rules.map((rule, index) => index < 2 ? {
+    ...rule,
+    examples: [{
+      id: `${rule.id}-1`,
+      hanzi: index === 0 ? '我很高兴。' : '我很开心。',
+      pinyin: index === 0 ? 'Wǒ hěn gāoxìng.' : 'Wǒ hěn kāixīn.',
+      translation: index === 0 ? 'I am happy.' : 'I am glad.',
+    }],
+  } : rule);
+  const pool = createQuizPool(medicalWords, synonymousRules, {});
+  const checked = new Set<string>();
+  const rng = random(83);
+  for (let attempt = 0; attempt < 80; attempt++) {
+    for (const q of sampleQuiz(pool, rng)) {
+      const index = q.targetId === 'w0' || q.targetId === 'g0' ? 0 : q.targetId === 'w1' || q.targetId === 'g1' ? 1 : -1;
+      if (index < 0) continue;
+      if (q.type === 'meaning' || q.type === 'hanzi') {
+        const other = medicalWords[1 - index]!;
+        assert.equal(q.options.includes(q.type === 'meaning' ? other.meaning : other.hanzi), false);
+        checked.add(q.type);
+      } else if (q.type === 'grammar') {
+        assert.equal(q.options.includes(synonymousRules[1 - index]!.examples[0]!.translation), false);
+        checked.add(q.type);
+      }
+    }
+  }
+  assert.deepEqual([...checked].sort(), ['grammar', 'hanzi', 'meaning']);
 });

@@ -15,12 +15,12 @@ const ratings = element('ratings');
 const speakButton = element<HTMLButtonElement>('speak');
 const flashcards = element('flashcards');
 const pronunciation = createPronunciation(element('speech-status'));
-const grammar = createGrammar(element('grammar'), pronunciation);
-const readings = createReadings(element('readings'));
+const grammar = createGrammar(element('grammar'), pronunciation, () => storage.progress);
+const readings = createReadings(element('readings'), () => storage.progress);
 const gradeButtons = [...ratings.querySelectorAll<HTMLButtonElement>('button')];
-const dateFormat = new Intl.DateTimeFormat('it', { dateStyle: 'short', timeStyle: 'short' });
-const numberFormat = new Intl.NumberFormat('it');
-const sectionTitles: Record<string, string> = { flashcards: 'Flashcard', grammar: 'Grammatica', readings: 'Letture', tests: 'Test' };
+const dateFormat = new Intl.DateTimeFormat('en', { dateStyle: 'short', timeStyle: 'short' });
+const numberFormat = new Intl.NumberFormat('en');
+const sectionTitles: Record<string, string> = { flashcards: 'Flashcards', grammar: 'Grammar', readings: 'Readings', tests: 'Tests' };
 let storage: StudyStorage;
 let tests: TestsSection | undefined;
 let words: Word[] = [];
@@ -48,7 +48,7 @@ function updateControls() {
 
 function showError(error: unknown) {
   const message = error instanceof Error ? error.message : String(error);
-  element('error').textContent = `Impossibile completare l’operazione. ${message}`;
+  element('error').textContent = `Unable to complete the operation. ${message}`;
   element('error').hidden = false;
 }
 
@@ -57,10 +57,10 @@ function interval(due: Date, now: Date): string {
   if (minutes < 60) return `${minutes} min`;
   if (minutes < 1440) {
     const hours = Math.round(minutes / 60);
-    return `${hours} ${hours === 1 ? 'ora' : 'ore'}`;
+    return `${hours} ${hours === 1 ? 'hour' : 'hours'}`;
   }
   const days = Math.round(minutes / 1440);
-  return `${numberFormat.format(days)} ${days === 1 ? 'giorno' : 'giorni'}`;
+  return `${numberFormat.format(days)} ${days === 1 ? 'day' : 'days'}`;
 }
 
 function render() {
@@ -87,8 +87,8 @@ function render() {
     element('meaning').textContent = current.meaning;
   } else {
     element('empty').textContent = state.nextDue
-      ? `Nessuna carta da ripassare. Prossimo ripasso: ${dateFormat.format(state.nextDue)}.`
-      : 'Nessuna carta da ripassare.';
+      ? `No cards to review. Next review: ${dateFormat.format(state.nextDue)}.`
+      : 'No cards to review.';
     if (state.nextDue) {
       wakeTimer = setTimeout(render, Math.min(2_147_483_647, Math.max(100, state.nextDue.getTime() - now.getTime())));
     }
@@ -131,7 +131,8 @@ async function rate(grade: Grade) {
       element('error').hidden = true;
       render();
       revealButton.focus({ preventScroll: true });
-    }
+    } else if (activeSection === 'grammar') void grammar.show(level);
+    else if (activeSection === 'readings') void readings.show(level);
   } catch (error) {
     if (activeSection === 'flashcards') showError(error);
   } finally {
@@ -160,7 +161,7 @@ async function showDeck() {
   revealButton.hidden = true;
   ratings.hidden = true;
   element('empty').hidden = false;
-  element('empty').textContent = 'Caricamento…';
+  element('empty').textContent = 'Loading…';
   for (const id of ['new-count', 'due-count', 'studied-count']) element(id).textContent = '—';
   updateControls();
   try {
@@ -171,7 +172,7 @@ async function showDeck() {
     render();
   } catch (error) {
     if (request !== deckRequest || activeSection !== 'flashcards' || target !== level) return;
-    element('empty').textContent = 'Caricamento non riuscito. Seleziona di nuovo Flashcard o un livello per riprovare.';
+    element('empty').textContent = 'Loading failed. Select Flashcards or a level again to retry.';
     showError(error);
   } finally {
     if (request === deckRequest) {
@@ -272,7 +273,7 @@ async function start() {
     busy = false;
     showSection();
   } catch (error) {
-    element('empty').textContent = 'Caricamento non riuscito. Ricarica la pagina per riprovare.';
+    element('empty').textContent = 'Loading failed. Reload the page to retry.';
     if (activeSection !== 'tests') showError(error);
     flashcards.setAttribute('aria-busy', 'false');
   }

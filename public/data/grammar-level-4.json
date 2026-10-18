@@ -3,21 +3,21 @@
     "id": "G4-001",
     "level": 4,
     "sourceNo": 212,
-    "title": "Dovere per necessità",
-    "pattern": "soggetto + 得 + verbo",
-    "explanation": "得 si legge děi e indica una necessità concreta o un obbligo, spesso nel parlato. Non è il de dei complementi né il dé di ottenere; per dire che non serve fare qualcosa si usa normalmente 不用 o 不必.",
+    "title": "Necessity and obligation",
+    "pattern": "subject + 得 + verb",
+    "explanation": "得 is pronounced děi and expresses a practical necessity or obligation, often in speech. It is neither the de used in complements nor the dé meaning to obtain; to say that something need not be done, normally use 不用 or 不必.",
     "examples": [
       {
         "id": "G4-001-1",
         "hanzi": "我得先去银行。",
         "pinyin": "Wǒ děi xiān qù yínháng.",
-        "translation": "Devo prima andare in banca."
+        "translation": "I have to go to the bank first."
       },
       {
         "id": "G4-001-2",
         "hanzi": "明天得早点出发。",
         "pinyin": "Míngtiān děi zǎo diǎn chūfā.",
-        "translation": "Domani bisogna partire presto."
+        "translation": "We need to leave early tomorrow."
       }
     ]
   },
@@ -25,21 +25,21 @@
     "id": "G4-002",
     "level": 4,
     "sourceNo": 213,
-    "title": "Gli altri e quella persona",
-    "pattern": "人家 + predicato",
-    "explanation": "人家 può indicare altre persone o una persona già identificabile dal contesto, spesso contrapponendola a noi o a te. Nel parlato può anche essere un modo affettato o scherzoso di riferirsi a se stessi; non equivale sempre a un generico loro.",
+    "title": "Other people or that person",
+    "pattern": "人家 + predicate",
+    "explanation": "人家 can refer to other people or someone identifiable from context, often in contrast to us or you. In speech it can also be a coy or playful way to refer to oneself; it does not always mean a generic “they.”",
     "examples": [
       {
         "id": "G4-002-1",
         "hanzi": "人家都到了，你怎么还没出门？",
         "pinyin": "Rénjia dōu dào le，nǐ zěnme hái méi chūmén？",
-        "translation": "Gli altri sono già arrivati, come mai non sei ancora uscito?"
+        "translation": "The others have already arrived. Why haven't you left yet?"
       },
       {
         "id": "G4-002-2",
         "hanzi": "人家在工作，别一直问问题。",
         "pinyin": "Rénjia zài gōngzuò, bié yīzhí wèn wèntí.",
-        "translation": "Sta lavorando: non continuare a fare domande."
+        "translation": "They are working. Stop asking questions."
       }
     ]
   },
@@ -47,27 +47,27 @@
     "id": "G4-003",
     "level": 4,
     "sourceNo": 214,
-    "title": "Classificatori di forma e di gruppo",
-    "pattern": "numero + 打／袋／根／卷／棵／批 + nome",
-    "explanation": "打 conta dozzine, 袋 sacchetti e 根 oggetti lunghi e sottili; 卷 conta rotoli, 棵 piante e 批 gruppi o lotti. Il classificatore dipende dal modo in cui si presenta o si raggruppa l’oggetto.",
+    "title": "Classifiers for shapes and groups",
+    "pattern": "number + 打／袋／根／卷／棵／批 + noun",
+    "explanation": "打 counts dozens, 袋 bags, and 根 long, thin objects; 卷 counts rolls, 棵 plants, and 批 groups or batches. The classifier depends on how the object is presented or grouped.",
     "examples": [
       {
         "id": "G4-003-1",
         "hanzi": "我买了一袋米和一打鸡蛋。",
         "pinyin": "Wǒ mǎi le yī dài mǐ hé yī dá jīdàn.",
-        "translation": "Ho comprato un sacco di riso e una dozzina di uova."
+        "translation": "I bought a bag of rice and a dozen eggs."
       },
       {
         "id": "G4-003-2",
         "hanzi": "桌子上有两根筷子和一卷纸。",
         "pinyin": "Zhuōzi shang yǒu liǎng gēn kuàizi hé yī juǎn zhǐ.",
-        "translation": "Sul tavolo ci sono due bacchette e un rotolo di carta."
+        "translation": "There are two chopsticks and a roll of paper on the table."
       },
       {
         "id": "G4-003-3",
         "hanzi": "这一批树里有三棵苹果树。",
         "pinyin": "Zhè yī pī shù lǐ yǒu sān kē píngguǒshù.",
-        "translation": "In questo lotto di alberi ci sono tre meli."
+        "translation": "There are three apple trees in this batch of trees."
       }
     ]
   },
@@ -75,39 +75,39 @@
     "id": "G4-004",
     "level": 4,
     "sourceNo": 215,
-    "title": "Nomi usati come unità di misura",
-    "pattern": "numero + contenitore／parte del corpo；verbo + numero + 刀／针",
-    "explanation": "Nomi come 碗, 脸, 手, 屋子 e 桌子 possono misurare il contenuto o la superficie coperta: una ciotola di zuppa, mani sporche, una stanza piena di gente. 刀 e 针 dopo il verbo contano rispettivamente tagli e punture.",
+    "title": "Nouns used as units of measure",
+    "pattern": "number + container／body part；verb + number + 刀／针",
+    "explanation": "Nouns such as 碗, 脸, 手, 屋子 and 桌子 can measure contents or the surface covered: a bowl of soup, dirty hands, or a roomful of people. 刀 and 针 after a verb count cuts and injections respectively.",
     "examples": [
       {
         "id": "G4-004-1",
         "hanzi": "他喝了一碗汤，弄了一手油。",
         "pinyin": "Tā hē le yī wǎn tāng, nòng le yī shǒu yóu.",
-        "translation": "Ha bevuto una ciotola di zuppa e si è sporcato tutta la mano d’olio."
+        "translation": "He drank a bowl of soup and got oil all over his hand."
       },
       {
         "id": "G4-004-2",
         "hanzi": "她一脸水，屋子里还坐着一屋子人。",
         "pinyin": "Tā yī liǎn shuǐ, wūzi lǐ hái zuòzhe yī wūzi rén.",
-        "translation": "Ha il viso tutto bagnato e nella stanza è ancora seduta tanta gente da riempirla."
+        "translation": "Her face is covered in water, and there is still a roomful of people sitting inside."
       },
       {
         "id": "G4-004-3",
         "hanzi": "这一桌子菜够我们吃了。",
         "pinyin": "Zhè yī zhuōzi cài gòu wǒmen chī le.",
-        "translation": "Questo tavolo pieno di piatti basta per tutti noi."
+        "translation": "This tableful of food is enough for all of us."
       },
       {
         "id": "G4-004-4",
         "hanzi": "请把黄瓜切两刀。",
         "pinyin": "Qǐng bǎ huángguā qiē liǎng dāo.",
-        "translation": "Dai due tagli al cetriolo, per favore."
+        "translation": "Please make two cuts in the cucumber."
       },
       {
         "id": "G4-004-5",
         "hanzi": "护士给我打了一针。",
         "pinyin": "Hùshi gěi wǒ dǎ le yī zhēn.",
-        "translation": "L’infermiera mi ha fatto un’iniezione."
+        "translation": "The nurse gave me an injection."
       }
     ]
   },
@@ -115,27 +115,27 @@
     "id": "G4-005",
     "level": 4,
     "sourceNo": 216,
-    "title": "Grado particolarmente elevato",
-    "pattern": "格外／极／极其 + aggettivo",
-    "explanation": "格外 segnala un grado superiore al normale o particolarmente evidente nel contesto. 极 e 极其 significano estremamente e precedono l’aggettivo; 极其 appartiene soprattutto a un registro formale, mentre 极了 segue l’aggettivo.",
+    "title": "An exceptionally high degree",
+    "pattern": "格外／极／极其 + adjective",
+    "explanation": "格外 indicates a degree above normal or particularly noticeable in context. 极 and 极其 mean extremely and precede the adjective; 极其 is mainly formal, whereas 极了 follows the adjective.",
     "examples": [
       {
         "id": "G4-005-1",
         "hanzi": "雨后的空气格外干净。",
         "pinyin": "Yǔ hòu de kōngqì géwài gānjìng.",
-        "translation": "Dopo la pioggia l’aria è particolarmente pulita."
+        "translation": "The air is especially clean after the rain."
       },
       {
         "id": "G4-005-2",
         "hanzi": "这项工作极其重要，不能出错。",
         "pinyin": "Zhè xiàng gōngzuò jíqí zhòngyào，bù néng chūcuò.",
-        "translation": "Questo lavoro è estremamente importante, non si possono commettere errori."
+        "translation": "This work is extremely important; no mistakes can be made."
       },
       {
         "id": "G4-005-3",
         "hanzi": "这里冬天极冷。",
         "pinyin": "Zhèlǐ dōngtiān jí lěng.",
-        "translation": "Qui d’inverno fa estremamente freddo."
+        "translation": "It is extremely cold here in winter."
       }
     ]
   },
@@ -143,21 +143,21 @@
     "id": "G4-006",
     "level": 4,
     "sourceNo": 217,
-    "title": "Un totale complessivo",
-    "pattern": "共 + quantità",
-    "explanation": "共 introduce il totale di persone, oggetti, tempo o altre quantità. Si colloca prima dell’espressione numerica, spesso dopo il soggetto o dopo un verbo di conteggio.",
+    "title": "An overall total",
+    "pattern": "共 + quantity",
+    "explanation": "共 introduces the total number of people, objects, units of time, or other quantities. It comes before the numerical expression, often after the subject or a counting verb.",
     "examples": [
       {
         "id": "G4-006-1",
         "hanzi": "我们共买了六张票。",
         "pinyin": "Wǒmen gòng mǎi le liù zhāng piào.",
-        "translation": "Abbiamo comprato sei biglietti in tutto."
+        "translation": "We bought six tickets in total."
       },
       {
         "id": "G4-006-2",
         "hanzi": "这次旅行共花了五天。",
         "pinyin": "Zhè cì lǚxíng gòng huā le wǔ tiān.",
-        "translation": "Questo viaggio è durato complessivamente cinque giorni."
+        "translation": "This trip took five days altogether."
       }
     ]
   },
@@ -165,27 +165,27 @@
     "id": "G4-007",
     "level": 4,
     "sourceNo": 218,
-    "title": "Scadenza, imminenza e rapidità",
-    "pattern": "按时／即将／急忙／渐渐／尽快 + verbo",
-    "explanation": "按时 significa all’orario stabilito, 即将 annuncia un evento imminente e 渐渐 un cambiamento graduale. 急忙 descrive un’azione compiuta in fretta per una situazione urgente; 尽快 chiede o promette di agire il prima possibile e si legge jǐnkuài.",
+    "title": "Timing, imminence, and speed",
+    "pattern": "按时／即将／急忙／渐渐／尽快 + verb",
+    "explanation": "按时 means at the scheduled time, 即将 announces an imminent event, and 渐渐 a gradual change. 急忙 describes an action performed hurriedly in an urgent situation; 尽快 requests or promises action as soon as possible and is pronounced jǐnkuài.",
     "examples": [
       {
         "id": "G4-007-1",
         "hanzi": "请按时到达，会议即将开始。",
         "pinyin": "Qǐng ànshí dàodá，huìyì jíjiāng kāishǐ.",
-        "translation": "Arrivate puntuali, la riunione sta per cominciare."
+        "translation": "Please arrive on time; the meeting is about to begin."
       },
       {
         "id": "G4-007-2",
         "hanzi": "听到有人叫他，他急忙跑去开门。",
         "pinyin": "Tīngdào yǒu rén jiào tā, tā jímáng pǎo qù kāi mén.",
-        "translation": "Sentendo qualcuno chiamarlo, è corso ad aprire la porta."
+        "translation": "Hearing someone call him, he hurried to open the door."
       },
       {
         "id": "G4-007-3",
         "hanzi": "天渐渐黑了，请尽快回来。",
         "pinyin": "Tiān jiànjiàn hēi le，qǐng jǐnkuài huílái.",
-        "translation": "Si sta facendo buio, torna il prima possibile."
+        "translation": "It is gradually getting dark. Please come back as soon as possible."
       }
     ]
   },
@@ -193,21 +193,21 @@
     "id": "G4-008",
     "level": 4,
     "sourceNo": 219,
-    "title": "Ripetere con insistenza",
-    "pattern": "一再／再三 + verbo",
-    "explanation": "一再 e 再三 sottolineano che un’azione si ripete più volte, non necessariamente un numero esatto di volte. 一再 mette in risalto la reiterazione; 再三 ricorre spesso con richieste, avvertimenti, ringraziamenti o riflessioni insistenti.",
+    "title": "Persistent repetition",
+    "pattern": "一再／再三 + verb",
+    "explanation": "一再 and 再三 emphasize that an action is repeated several times, not necessarily an exact number. 一再 highlights repetition; 再三 often accompanies insistent requests, warnings, thanks, or deliberation.",
     "examples": [
       {
         "id": "G4-008-1",
         "hanzi": "我一再提醒他带手机。",
         "pinyin": "Wǒ yīzài tíxǐng tā dài shǒujī.",
-        "translation": "Gli ho ricordato più e più volte di portare il cellulare."
+        "translation": "I reminded him over and over to bring his phone."
       },
       {
         "id": "G4-008-2",
         "hanzi": "她再三考虑，还是决定留下。",
         "pinyin": "Tā zàisān kǎolǜ，háishi juédìng liúxià.",
-        "translation": "Ci ha riflettuto a lungo e alla fine ha deciso di restare."
+        "translation": "After thinking it over repeatedly, she still decided to stay."
       }
     ]
   },
@@ -215,21 +215,21 @@
     "id": "G4-009",
     "level": 4,
     "sourceNo": 220,
-    "title": "Un contrasto inatteso",
-    "pattern": "soggetto + 却 + predicato",
-    "explanation": "却 introduce un risultato o un comportamento in contrasto con quanto precede o ci si aspetta. A differenza di 但是, si mette normalmente dopo il soggetto, non davanti a esso.",
+    "title": "An unexpected contrast",
+    "pattern": "subject + 却 + predicate",
+    "explanation": "却 introduces a result or behavior that contrasts with what precedes it or what is expected. Unlike 但是, it normally follows the subject rather than preceding it.",
     "examples": [
       {
         "id": "G4-009-1",
         "hanzi": "外面很冷，他却只穿了一件衬衫。",
         "pinyin": "Wàimian hěn lěng，tā què zhǐ chuān le yī jiàn chènshān.",
-        "translation": "Fuori fa freddo, eppure indossa solo una camicia."
+        "translation": "It is cold outside, yet he is wearing only a shirt."
       },
       {
         "id": "G4-009-2",
         "hanzi": "我想帮忙，却不知道怎么做。",
         "pinyin": "Wǒ xiǎng bāngmáng，què bù zhīdào zěnme zuò.",
-        "translation": "Vorrei aiutare, ma non so come fare."
+        "translation": "I would like to help, but I don't know how."
       }
     ]
   },
@@ -237,21 +237,21 @@
     "id": "G4-010",
     "level": 4,
     "sourceNo": 221,
-    "title": "Non necessariamente",
-    "pattern": "未必 + predicato",
-    "explanation": "未必 mette in dubbio che una conclusione sia certa: significa non necessariamente o non è detto che. Non afferma semplicemente il contrario e può precedere un predicato già negativo.",
+    "title": "Not necessarily",
+    "pattern": "未必 + predicate",
+    "explanation": "未必 questions whether a conclusion is certain: it means not necessarily or it is not certain that. It does not simply assert the opposite and can precede an already negative predicate.",
     "examples": [
       {
         "id": "G4-010-1",
         "hanzi": "贵的东西未必好。",
         "pinyin": "Guì de dōngxi wèibì hǎo.",
-        "translation": "Le cose costose non sono necessariamente buone."
+        "translation": "Expensive things are not necessarily good."
       },
       {
         "id": "G4-010-2",
         "hanzi": "他没回答，未必是不愿意。",
         "pinyin": "Tā méi huídá，wèibì shì bù yuànyì.",
-        "translation": "Non ha risposto, ma non è detto che non voglia."
+        "translation": "He hasn't replied, but that doesn't necessarily mean he is unwilling."
       }
     ]
   },
@@ -259,21 +259,21 @@
     "id": "G4-011",
     "level": 4,
     "sourceNo": 222,
-    "title": "Quasi oppure apparentemente",
-    "pattern": "几乎／似乎 + predicato",
-    "explanation": "几乎 indica che si è vicinissimi a un limite, oppure che un’affermazione vale per quasi tutti i casi. 似乎 esprime invece un’impressione non confermata, traducibile con sembra che; non misura una quantità.",
+    "title": "Almost or apparently",
+    "pattern": "几乎／似乎 + predicate",
+    "explanation": "几乎 indicates being very close to a limit or that a statement holds in almost all cases. 似乎 instead expresses an unconfirmed impression, meaning it seems that; it does not measure a quantity.",
     "examples": [
       {
         "id": "G4-011-1",
         "hanzi": "我几乎每天都走路上班。",
         "pinyin": "Wǒ jīhū měi tiān dōu zǒulù shàngbān.",
-        "translation": "Vado al lavoro a piedi quasi ogni giorno."
+        "translation": "I walk to work almost every day."
       },
       {
         "id": "G4-011-2",
         "hanzi": "他似乎没听见我的话。",
         "pinyin": "Tā sìhū méi tīngjiàn wǒ de huà.",
-        "translation": "Sembra che non abbia sentito quello che ho detto."
+        "translation": "He seems not to have heard what I said."
       }
     ]
   },
@@ -281,39 +281,39 @@
     "id": "G4-012",
     "level": 4,
     "sourceNo": 223,
-    "title": "Certezza, sorpresa e contrasto",
-    "pattern": "的确／反而／还／竟然／究竟 + predicato",
-    "explanation": "的确 conferma un fatto; 反而 indica un esito opposto all’attesa. Qui 还 esprime una valutazione confermata con una certa sorpresa, non semplicemente ancora; 竟然 evidenzia l’imprevisto. 究竟 rafforza una domanda per ottenere la risposta precisa.",
+    "title": "Certainty, surprise, and contrast",
+    "pattern": "的确／反而／还／竟然／究竟 + predicate",
+    "explanation": "的确 confirms a fact; 反而 indicates an outcome contrary to expectations. Here 还 expresses an assessment confirmed with some surprise, not simply still; 竟然 highlights the unexpected. 究竟 reinforces a question to obtain a precise answer.",
     "examples": [
       {
         "id": "G4-012-1",
         "hanzi": "这家店的菜的确不错。",
         "pinyin": "Zhè jiā diàn de cài díquè bùcuò.",
-        "translation": "I piatti di questo locale sono davvero buoni."
+        "translation": "The food at this restaurant really is good."
       },
       {
         "id": "G4-012-2",
         "hanzi": "我向他解释，他反而更生气了。",
         "pinyin": "Wǒ xiàng tā jiěshì, tā fǎn’ér gèng shēngqì le.",
-        "translation": "Gli ho dato una spiegazione, ma invece di calmarsi si è arrabbiato ancora di più."
+        "translation": "I explained it to him, but instead of calming down he became even angrier."
       },
       {
         "id": "G4-012-3",
         "hanzi": "这个办法还真管用。",
         "pinyin": "Zhè ge bànfǎ hái zhēn guǎnyòng.",
-        "translation": "Questo metodo funziona davvero, a quanto pare."
+        "translation": "This method really does work, it seems."
       },
       {
         "id": "G4-012-4",
         "hanzi": "他竟然忘了自己的生日。",
         "pinyin": "Tā jìngrán wàng le zìjǐ de shēngrì.",
-        "translation": "Incredibilmente, si è dimenticato del proprio compleanno."
+        "translation": "Incredibly, he forgot his own birthday."
       },
       {
         "id": "G4-012-5",
         "hanzi": "你究竟想买哪一本？",
         "pinyin": "Nǐ jiūjìng xiǎng mǎi nǎ yī běn？",
-        "translation": "Quale libro vuoi comprare, esattamente?"
+        "translation": "Which book exactly do you want to buy?"
       }
     ]
   },
@@ -321,21 +321,21 @@
     "id": "G4-013",
     "level": 4,
     "sourceNo": 224,
-    "title": "A partire da un luogo o un momento",
-    "pattern": "自 + luogo／tempo",
-    "explanation": "自 introduce un punto di partenza nello spazio o nel tempo, con un tono più scritto di 从. Per un periodo che arriva fino al presente può accompagnarsi a 以来.",
+    "title": "Starting from a place or time",
+    "pattern": "自 + place／time",
+    "explanation": "自 introduces a starting point in space or time, with a more written tone than 从. For a period extending to the present, it can be combined with 以来.",
     "examples": [
       {
         "id": "G4-013-1",
         "hanzi": "列车自上海出发。",
         "pinyin": "Lièchē zì Shànghǎi chūfā.",
-        "translation": "Il treno parte da Shanghai."
+        "translation": "The train departs from Shanghai."
       },
       {
         "id": "G4-013-2",
         "hanzi": "自去年以来，这里变化很大。",
         "pinyin": "Zì qùnián yǐlái，zhèlǐ biànhuà hěn dà.",
-        "translation": "Dall’anno scorso qui sono cambiate molte cose."
+        "translation": "Many things have changed here since last year."
       }
     ]
   },
@@ -343,21 +343,21 @@
     "id": "G4-014",
     "level": 4,
     "sourceNo": 225,
-    "title": "Nei confronti di un oggetto o tema",
-    "pattern": "对于 + tema + valutazione",
-    "explanation": "对于 introduce ciò a cui si riferiscono un atteggiamento, una valutazione o una reazione. Il gruppo può stare prima del soggetto oppure dopo di esso; non sostituisce automaticamente tutte le funzioni di 对.",
+    "title": "With regard to an object or topic",
+    "pattern": "对于 + topic + assessment",
+    "explanation": "对于 introduces what an attitude, assessment, or reaction concerns. The phrase can come before or after the subject; it does not automatically replace every use of 对.",
     "examples": [
       {
         "id": "G4-014-1",
         "hanzi": "对于这个问题，我还没有答案。",
         "pinyin": "Duìyú zhè ge wèntí，wǒ hái méiyǒu dá’àn.",
-        "translation": "Per quanto riguarda questo problema, non ho ancora una risposta."
+        "translation": "As for this problem, I don't have an answer yet."
       },
       {
         "id": "G4-014-2",
         "hanzi": "她对于新工作很满意。",
         "pinyin": "Tā duìyú xīn gōngzuò hěn mǎnyì.",
-        "translation": "È molto soddisfatta del nuovo lavoro."
+        "translation": "She is very satisfied with her new job."
       }
     ]
   },
@@ -365,21 +365,21 @@
     "id": "G4-015",
     "level": 4,
     "sourceNo": 226,
-    "title": "Riguardo a un argomento",
-    "pattern": "关于 + argomento",
-    "explanation": "关于 delimita l’argomento di un discorso o di un testo e si colloca spesso all’inizio della frase. Con 的 può anche introdurre un modificatore nominale, come un libro su un certo tema.",
+    "title": "Regarding a topic",
+    "pattern": "关于 + topic",
+    "explanation": "关于 defines the topic of a discussion or text and often appears at the beginning of a sentence. With 的 it can also introduce a noun modifier, such as a book about a particular topic.",
     "examples": [
       {
         "id": "G4-015-1",
         "hanzi": "关于这次旅行，我们明天再谈。",
         "pinyin": "Guānyú zhè cì lǚxíng，wǒmen míngtiān zài tán.",
-        "translation": "Del viaggio riparliamo domani."
+        "translation": "Let's discuss the trip again tomorrow."
       },
       {
         "id": "G4-015-2",
         "hanzi": "我想找一本关于中国历史的书。",
         "pinyin": "Wǒ xiǎng zhǎo yī běn guānyú Zhōngguó lìshǐ de shū.",
-        "translation": "Vorrei trovare un libro sulla storia cinese."
+        "translation": "I would like to find a book about Chinese history."
       }
     ]
   },
@@ -387,21 +387,21 @@
     "id": "G4-016",
     "level": 4,
     "sourceNo": 227,
-    "title": "Fare qualcosa al posto di qualcuno",
-    "pattern": "替 + persona + verbo",
-    "explanation": "替 introduce la persona al cui posto si agisce o per conto della quale si fa qualcosa. Con verbi di sentimento può anche indicare per chi si prova gioia o preoccupazione.",
+    "title": "Doing something in someone's place",
+    "pattern": "替 + person + verb",
+    "explanation": "替 introduces the person in whose place or on whose behalf an action is performed. With verbs of emotion it can also indicate the person one feels happy or worried for.",
     "examples": [
       {
         "id": "G4-016-1",
         "hanzi": "你能替我接一下电话吗？",
         "pinyin": "Nǐ néng tì wǒ jiē yīxià diànhuà ma？",
-        "translation": "Puoi rispondere al telefono al posto mio?"
+        "translation": "Could you answer the phone for me?"
       },
       {
         "id": "G4-016-2",
         "hanzi": "听到这个消息，我真替你高兴。",
         "pinyin": "Tīngdào zhè ge xiāoxi，wǒ zhēn tì nǐ gāoxìng.",
-        "translation": "Sono davvero felice per te di questa notizia."
+        "translation": "I'm really happy for you about this news."
       }
     ]
   },
@@ -409,21 +409,21 @@
     "id": "G4-017",
     "level": 4,
     "sourceNo": 228,
-    "title": "Basarsi su dati o criteri",
-    "pattern": "根据 + base + frase",
-    "explanation": "根据 presenta il dato, il criterio o la fonte su cui si fonda una decisione o un’affermazione. Diversamente da 因为, non introduce semplicemente una causa ma la base utilizzata per ragionare o agire.",
+    "title": "Relying on data or criteria",
+    "pattern": "根据 + basis + clause",
+    "explanation": "根据 presents the information, criterion, or source on which a decision or statement is based. Unlike 因为, it does not simply introduce a cause but the basis used to reason or act.",
     "examples": [
       {
         "id": "G4-017-1",
         "hanzi": "根据天气预报，明天会下雪。",
         "pinyin": "Gēnjù tiānqì yùbào，míngtiān huì xià xuě.",
-        "translation": "Secondo le previsioni, domani nevicherà."
+        "translation": "According to the forecast, it will snow tomorrow."
       },
       {
         "id": "G4-017-2",
         "hanzi": "请根据自己的情况选择。",
         "pinyin": "Qǐng gēnjù zìjǐ de qíngkuàng xuǎnzé.",
-        "translation": "Scegli in base alla tua situazione."
+        "translation": "Choose according to your own circumstances."
       }
     ]
   },
@@ -431,21 +431,21 @@
     "id": "G4-018",
     "level": 4,
     "sourceNo": 229,
-    "title": "In qualità di",
-    "pattern": "作为 + ruolo／funzione",
-    "explanation": "作为 introduce la veste in cui una persona agisce o la funzione attribuita a qualcosa. Può quindi significare in qualità di oppure come, senza esprimere una semplice somiglianza.",
+    "title": "In the capacity of",
+    "pattern": "作为 + role／function",
+    "explanation": "作为 introduces the capacity in which a person acts or the function assigned to something. It can therefore mean in the capacity of or as, without expressing mere resemblance.",
     "examples": [
       {
         "id": "G4-018-1",
         "hanzi": "作为老师，我应该认真回答。",
         "pinyin": "Zuòwéi lǎoshī，wǒ yīnggāi rènzhēn huídá.",
-        "translation": "In qualità di insegnante, dovrei rispondere con attenzione."
+        "translation": "As a teacher, I should answer carefully."
       },
       {
         "id": "G4-018-2",
         "hanzi": "我把这本书作为生日礼物送给她。",
         "pinyin": "Wǒ bǎ zhè běn shū zuòwéi shēngrì lǐwù sòng gěi tā.",
-        "translation": "Le regalo questo libro come dono di compleanno."
+        "translation": "I am giving her this book as a birthday present."
       }
     ]
   },
@@ -453,21 +453,21 @@
     "id": "G4-019",
     "level": 4,
     "sourceNo": 230,
-    "title": "Coordinare azioni ed elementi",
-    "pattern": "verbo + 并 + verbo；nome + 以及 + nome",
-    "explanation": "并 collega azioni o gruppi verbali in un registro piuttosto scritto, spesso con il senso di e inoltre. 以及 aggiunge elementi coordinati in un elenco nominale; non è una congiunzione per scegliere fra alternative.",
+    "title": "Coordinating actions and items",
+    "pattern": "verb + 并 + verb；noun + 以及 + noun",
+    "explanation": "并 links actions or verb phrases in a fairly written register, often meaning and also. 以及 adds coordinated items to a list of nouns; it is not a conjunction for choosing between alternatives.",
     "examples": [
       {
         "id": "G4-019-1",
         "hanzi": "请填写表格并交给老师。",
         "pinyin": "Qǐng tiánxiě biǎogé bìng jiāo gěi lǎoshī.",
-        "translation": "Compila il modulo e consegnalo all’insegnante."
+        "translation": "Fill in the form and hand it to the teacher."
       },
       {
         "id": "G4-019-2",
         "hanzi": "请带上护照以及其他材料。",
         "pinyin": "Qǐng dàishàng hùzhào yǐjí qítā cáiliào.",
-        "translation": "Porta il passaporto e gli altri documenti."
+        "translation": "Bring your passport and the other documents."
       }
     ]
   },
@@ -475,57 +475,57 @@
     "id": "G4-020",
     "level": 4,
     "sourceNo": 231,
-    "title": "Collegare e organizzare il ragionamento",
+    "title": "Linking and organizing reasoning",
     "pattern": "此外／而／而是／既然／可见／甚至／假如／总之",
-    "explanation": "此外 aggiunge un punto, 而 coordina o contrappone, 而是 corregge una negazione precedente. 既然 parte da un fatto acquisito, 可见 trae una conclusione, 甚至 introduce un caso estremo e 假如 una condizione ipotetica. 总之 riassume quanto detto; i connettivi non sono intercambiabili.",
+    "explanation": "此外 adds a point, 而 coordinates or contrasts, and 而是 corrects a preceding negation. 既然 starts from an established fact, 可见 draws a conclusion, 甚至 introduces an extreme case, and 假如 a hypothetical condition. 总之 summarizes what has been said; these connectives are not interchangeable.",
     "examples": [
       {
         "id": "G4-020-1",
         "hanzi": "房间很大，此外，交通也方便。",
         "pinyin": "Fángjiān hěn dà，cǐwài，jiāotōng yě fāngbiàn.",
-        "translation": "La stanza è grande e, inoltre, i collegamenti sono comodi."
+        "translation": "The room is large and, furthermore, conveniently located for transport."
       },
       {
         "id": "G4-020-2",
         "hanzi": "姐姐喜欢茶，而弟弟喜欢咖啡。",
         "pinyin": "Jiějie xǐhuan chá，ér dìdi xǐhuan kāfēi.",
-        "translation": "La sorella maggiore ama il tè, mentre il fratello minore ama il caffè."
+        "translation": "The older sister likes tea, whereas the younger brother likes coffee."
       },
       {
         "id": "G4-020-3",
         "hanzi": "他不是忘了，而是没时间。",
         "pinyin": "Tā bù shì wàng le，érshì méi shíjiān.",
-        "translation": "Non se n’è dimenticato: è che non ha tempo."
+        "translation": "It isn't that he forgot; he has no time."
       },
       {
         "id": "G4-020-4",
         "hanzi": "既然你来了，就一起吃饭吧。",
         "pinyin": "Jìrán nǐ lái le，jiù yīqǐ chīfàn ba.",
-        "translation": "Visto che sei qui, mangiamo insieme."
+        "translation": "Since you are here, let's eat together."
       },
       {
         "id": "G4-020-5",
         "hanzi": "他天天练习，可见他很认真。",
         "pinyin": "Tā tiān tiān liànxí，kějiàn tā hěn rènzhēn.",
-        "translation": "Si esercita ogni giorno: evidentemente fa sul serio."
+        "translation": "He practices every day; clearly, he is serious."
       },
       {
         "id": "G4-020-6",
         "hanzi": "他太忙了，甚至没时间吃饭。",
         "pinyin": "Tā tài máng le，shènzhì méi shíjiān chīfàn.",
-        "translation": "È così impegnato che non ha neppure tempo di mangiare."
+        "translation": "He is so busy that he doesn't even have time to eat."
       },
       {
         "id": "G4-020-7",
         "hanzi": "假如明天下雨，我们就在家看书。",
         "pinyin": "Jiǎrú míngtiān xià yǔ，wǒmen jiù zài jiā kàn shū.",
-        "translation": "Se domani piove, leggeremo a casa."
+        "translation": "If it rains tomorrow, we will read at home."
       },
       {
         "id": "G4-020-8",
         "hanzi": "总之，这次旅行很值得。",
         "pinyin": "Zǒngzhī，zhè cì lǚxíng hěn zhíde.",
-        "translation": "Insomma, questo viaggio vale proprio la pena."
+        "translation": "In short, this trip is well worth it."
       }
     ]
   },
@@ -533,21 +533,21 @@
     "id": "G4-021",
     "level": 4,
     "sourceNo": 232,
-    "title": "Una somiglianza apparente",
-    "pattern": "nome／frase + 似的",
-    "explanation": "似的 si legge shìde e indica somiglianza, spesso dopo 像 oppure 好像. Può concludere una comparazione o formare un modificatore con 的: non afferma che le due cose siano identiche.",
+    "title": "An apparent resemblance",
+    "pattern": "noun／clause + 似的",
+    "explanation": "似的 is pronounced shìde and indicates resemblance, often after 像 or 好像. It can complete a comparison or form a modifier with 的: it does not assert that the two things are identical.",
     "examples": [
       {
         "id": "G4-021-1",
         "hanzi": "孩子跑得像风似的。",
         "pinyin": "Háizi pǎo de xiàng fēng shìde.",
-        "translation": "Il bambino corre come il vento."
+        "translation": "The child runs like the wind."
       },
       {
         "id": "G4-021-2",
         "hanzi": "他好像没听见似的，一直看书。",
         "pinyin": "Tā hǎoxiàng méi tīngjiàn shìde，yīzhí kàn shū.",
-        "translation": "Continua a leggere, come se non avesse sentito."
+        "translation": "He keeps reading as if he hadn't heard."
       }
     ]
   },
@@ -555,21 +555,21 @@
     "id": "G4-022",
     "level": 4,
     "sourceNo": 233,
-    "title": "L’interiezione 啊",
-    "pattern": "啊 + esclamazione／domanda",
-    "explanation": "All’inizio di una battuta 啊 è un’interiezione autonoma che può segnalare sorpresa, comprensione, risposta o dubbio. L’intonazione ne determina il valore; non è qui la particella finale che ammorbidisce una frase.",
+    "title": "The interjection 啊",
+    "pattern": "啊 + exclamation／question",
+    "explanation": "At the beginning of an utterance, 啊 is an independent interjection that can signal surprise, understanding, a response, or doubt. Intonation determines its meaning; here it is not the sentence-final particle that softens a statement.",
     "examples": [
       {
         "id": "G4-022-1",
         "hanzi": "啊，原来你住在这里！",
         "pinyin": "À，yuánlái nǐ zhù zài zhèlǐ！",
-        "translation": "Ah, dunque abiti qui!"
+        "translation": "Oh, so you live here!"
       },
       {
         "id": "G4-022-2",
         "hanzi": "啊？你已经买好了？",
         "pinyin": "Á？Nǐ yǐjīng mǎi hǎo le？",
-        "translation": "Eh? Hai già fatto l’acquisto?"
+        "translation": "Huh? Have you already bought it?"
       }
     ]
   },
@@ -577,21 +577,21 @@
     "id": "G4-023",
     "level": 4,
     "sourceNo": 234,
-    "title": "Espressioni a quattro caratteri con 大",
-    "pattern": "大 + elemento + 大 + elemento",
-    "explanation": "La struttura 大A大B compare in espressioni consolidate che intensificano due aspetti collegati, come 大吃大喝 o 大手大脚. Non è un modello da riempire liberamente con qualsiasi parola: il significato dipende dalla combinazione.",
+    "title": "Four-character expressions with 大",
+    "pattern": "大 + element + 大 + element",
+    "explanation": "The structure 大A大B occurs in established expressions that intensify two related aspects, such as 大吃大喝 or 大手大脚. It is not a template that can freely take any word: the meaning depends on the combination.",
     "examples": [
       {
         "id": "G4-023-1",
         "hanzi": "过节也别大吃大喝。",
         "pinyin": "Guò jié yě bié dà chī dà hē.",
-        "translation": "Anche durante le feste, non esagerare con cibo e bevande."
+        "translation": "Even during celebrations, don't overindulge in food and drink."
       },
       {
         "id": "G4-023-2",
         "hanzi": "他花钱总是大手大脚。",
         "pinyin": "Tā huā qián zǒngshì dà shǒu dà jiǎo.",
-        "translation": "Spende sempre senza badare a spese."
+        "translation": "He always spends extravagantly."
       }
     ]
   },
@@ -599,21 +599,21 @@
     "id": "G4-024",
     "level": 4,
     "sourceNo": 235,
-    "title": "Espressioni a quattro caratteri con 一",
-    "pattern": "一 + elemento + 一 + elemento",
-    "explanation": "一A一B forma espressioni fisse che possono indicare unità minime considerate insieme o un modo di agire. 一举一动 indica ogni movimento e ogni gesto; 一来一往 descrive un movimento o uno scambio nelle due direzioni.",
+    "title": "Four-character expressions with 一",
+    "pattern": "一 + element + 一 + element",
+    "explanation": "一A一B forms fixed expressions that can indicate minimal units considered together or a manner of acting. 一举一动 means every movement and gesture; 一来一往 describes movement or exchange in both directions.",
     "examples": [
       {
         "id": "G4-024-1",
         "hanzi": "他的一举一动都很自然。",
         "pinyin": "Tā de yī jǔ yī dòng dōu hěn zìrán.",
-        "translation": "Ogni suo movimento è molto naturale."
+        "translation": "Every movement he makes is very natural."
       },
       {
         "id": "G4-024-2",
         "hanzi": "他们一来一往地传球，练习了很久。",
         "pinyin": "Tāmen yī lái yī wǎng de chuán qiú, liànxí le hěn jiǔ.",
-        "translation": "Si sono allenati a lungo passandosi la palla avanti e indietro."
+        "translation": "They practiced for a long time, passing the ball back and forth."
       }
     ]
   },
@@ -621,21 +621,21 @@
     "id": "G4-025",
     "level": 4,
     "sourceNo": 236,
-    "title": "A quanto pare",
-    "pattern": "看来，+ conclusione",
-    "explanation": "看来 presenta una valutazione ricavata dagli indizi disponibili. Può apparire all’inizio della frase o dopo il soggetto; non esprime una certezza verificata direttamente.",
+    "title": "Apparently",
+    "pattern": "看来，+ conclusion",
+    "explanation": "看来 presents an assessment drawn from available clues. It can appear at the beginning of the sentence or after the subject; it does not express directly verified certainty.",
     "examples": [
       {
         "id": "G4-025-1",
         "hanzi": "看来，今天不会下雨了。",
         "pinyin": "Kànlái，jīntiān bù huì xià yǔ le.",
-        "translation": "A quanto pare oggi non pioverà più."
+        "translation": "It looks as though it won't rain again today."
       },
       {
         "id": "G4-025-2",
         "hanzi": "他一直没回电话，看来还在开会。",
         "pinyin": "Tā yīzhí méi huí diànhuà，kànlái hái zài kāihuì.",
-        "translation": "Non ha ancora richiamato: a quanto pare è ancora in riunione."
+        "translation": "He hasn't called back yet; apparently, he is still in a meeting."
       }
     ]
   },
@@ -643,21 +643,21 @@
     "id": "G4-026",
     "level": 4,
     "sourceNo": 237,
-    "title": "Avere o non avere tempo sufficiente",
-    "pattern": "来得及／来不及 + verbo",
-    "explanation": "来得及 indica che il tempo disponibile basta per compiere l’azione; 来不及 indica che non basta. Non si parla semplicemente di velocità e la forma interrogativa può essere 来得及来不及 oppure 来得及吗.",
+    "title": "Having or lacking enough time",
+    "pattern": "来得及／来不及 + verb",
+    "explanation": "来得及 indicates that there is enough time to perform the action; 来不及 indicates that there is not. It is not simply about speed, and the question form can be 来得及来不及 or 来得及吗.",
     "examples": [
       {
         "id": "G4-026-1",
         "hanzi": "现在走，还来得及。",
         "pinyin": "Xiànzài zǒu，hái láidejí.",
-        "translation": "Se partiamo ora, siamo ancora in tempo."
+        "translation": "If we leave now, we still have time."
       },
       {
         "id": "G4-026-2",
         "hanzi": "我来不及吃早饭，就出门了。",
         "pinyin": "Wǒ láibují chī zǎofàn，jiù chūmén le.",
-        "translation": "Sono uscito senza avere il tempo di fare colazione."
+        "translation": "I left without having time for breakfast."
       }
     ]
   },
@@ -665,21 +665,21 @@
     "id": "G4-027",
     "level": 4,
     "sourceNo": 238,
-    "title": "Una possibilità incerta",
-    "pattern": "说不定 + frase",
-    "explanation": "说不定 introduce una possibilità che il parlante non può escludere, spesso con il senso di magari o chissà. Può precedere il soggetto o il predicato e non equivale a una previsione sicura.",
+    "title": "An uncertain possibility",
+    "pattern": "说不定 + clause",
+    "explanation": "说不定 introduces a possibility the speaker cannot rule out, often meaning perhaps or who knows. It can precede the subject or predicate and is not a definite prediction.",
     "examples": [
       {
         "id": "G4-027-1",
         "hanzi": "说不定他已经到家了。",
         "pinyin": "Shuōbudìng tā yǐjīng dào jiā le.",
-        "translation": "Magari è già arrivato a casa."
+        "translation": "Perhaps he has already arrived home."
       },
       {
         "id": "G4-027-2",
         "hanzi": "这家小店说不定有你要的书。",
         "pinyin": "Zhè jiā xiǎodiàn shuōbudìng yǒu nǐ yào de shū.",
-        "translation": "Chissà, forse questo negozietto ha il libro che cerchi."
+        "translation": "Who knows, this little shop might have the book you are looking for."
       }
     ]
   },
@@ -687,21 +687,21 @@
     "id": "G4-028",
     "level": 4,
     "sourceNo": 239,
-    "title": "Parlare in termini generali",
-    "pattern": "一般来说，+ affermazione",
-    "explanation": "一般来说 introduce una regola o valutazione generale che ammette eccezioni. Riguarda l’intera affermazione e si colloca normalmente prima di essa.",
+    "title": "Speaking in general terms",
+    "pattern": "一般来说，+ statement",
+    "explanation": "一般来说 introduces a general rule or assessment that allows exceptions. It applies to the entire statement and normally precedes it.",
     "examples": [
       {
         "id": "G4-028-1",
         "hanzi": "一般来说，周末这里人比较多。",
         "pinyin": "Yībān lái shuō，zhōumò zhèlǐ rén bǐjiào duō.",
-        "translation": "In genere, qui nel fine settimana c’è più gente."
+        "translation": "Generally speaking, there are more people here on weekends."
       },
       {
         "id": "G4-028-2",
         "hanzi": "一般来说，提前买票更便宜。",
         "pinyin": "Yībān lái shuō，tíqián mǎi piào gèng piányi.",
-        "translation": "Di solito acquistare i biglietti in anticipo costa meno."
+        "translation": "Buying tickets in advance is usually cheaper."
       }
     ]
   },
@@ -709,21 +709,21 @@
     "id": "G4-029",
     "level": 4,
     "sourceNo": 240,
-    "title": "Un elemento più dell’altro",
-    "pattern": "一 + classificatore + 比 + 一 + classificatore + aggettivo",
-    "explanation": "La ripetizione dello stesso classificatore descrive un aumento progressivo o un confronto fra elementi successivi. Il predicato indica la proprietà che cresce; non si aggiunge 更 dopo 比 in questa struttura.",
+    "title": "One item more than the next",
+    "pattern": "一 + classifier + 比 + 一 + classifier + adjective",
+    "explanation": "Repeating the same classifier describes a progressive increase or a comparison between successive items. The predicate indicates the property that increases; 更 is not added after 比 in this structure.",
     "examples": [
       {
         "id": "G4-029-1",
         "hanzi": "天气一天比一天暖和。",
         "pinyin": "Tiānqì yī tiān bǐ yī tiān nuǎnhuo.",
-        "translation": "Il tempo si fa ogni giorno più mite."
+        "translation": "The weather is getting milder every day."
       },
       {
         "id": "G4-029-2",
         "hanzi": "这些题一道比一道难。",
         "pinyin": "Zhèxiē tí yī dào bǐ yī dào nán.",
-        "translation": "Questi esercizi sono uno più difficile dell’altro."
+        "translation": "These exercises are each harder than the last."
       }
     ]
   },
@@ -731,21 +731,21 @@
     "id": "G4-030",
     "level": 4,
     "sourceNo": 241,
-    "title": "Da un momento fino a ora",
-    "pattern": "自 + tempo／evento + 以来",
-    "explanation": "以来 delimita un periodo che parte da un momento o evento e arriva al momento di riferimento, di solito il presente. 自 può essere omesso; non si usa normalmente 以来 con un punto di partenza futuro.",
+    "title": "From a starting point until now",
+    "pattern": "自 + time／event + 以来",
+    "explanation": "以来 defines a period beginning at a time or event and extending to the reference time, usually the present. 自 can be omitted; 以来 is not normally used with a future starting point.",
     "examples": [
       {
         "id": "G4-030-1",
         "hanzi": "自搬家以来，我每天都坐地铁。",
         "pinyin": "Zì bānjiā yǐlái，wǒ měi tiān dōu zuò dìtiě.",
-        "translation": "Da quando ho traslocato prendo la metro ogni giorno."
+        "translation": "Since moving, I have taken the subway every day."
       },
       {
         "id": "G4-030-2",
         "hanzi": "开学以来，她从没迟到过。",
         "pinyin": "Kāixué yǐlái，tā cóng méi chídào guo.",
-        "translation": "Dall’inizio delle lezioni non è mai arrivata in ritardo."
+        "translation": "She has never been late since classes began."
       }
     ]
   },
@@ -753,21 +753,21 @@
     "id": "G4-031",
     "level": 4,
     "sourceNo": 242,
-    "title": "Essere composto da",
-    "pattern": "insieme + 由 + componenti + 组成",
-    "explanation": "由 introduce gli elementi che formano un insieme; 组成 chiude il predicato con il senso di essere composto da. Il soggetto è l’insieme, non la singola parte.",
+    "title": "Being composed of",
+    "pattern": "whole + 由 + components + 组成",
+    "explanation": "由 introduces the elements forming a whole; 组成 completes the predicate with the meaning be composed of. The subject is the whole, not an individual part.",
     "examples": [
       {
         "id": "G4-031-1",
         "hanzi": "我们的小组由五名学生组成。",
         "pinyin": "Wǒmen de xiǎozǔ yóu wǔ míng xuésheng zǔchéng.",
-        "translation": "Il nostro gruppo è composto da cinque studenti."
+        "translation": "Our group consists of five students."
       },
       {
         "id": "G4-031-2",
         "hanzi": "这顿晚饭由三道菜和一个汤组成。",
         "pinyin": "Zhè dùn wǎnfàn yóu sān dào cài hé yī ge tāng zǔchéng.",
-        "translation": "Questa cena comprende tre piatti e una zuppa."
+        "translation": "This dinner consists of three dishes and a soup."
       }
     ]
   },
@@ -775,21 +775,21 @@
     "id": "G4-032",
     "level": 4,
     "sourceNo": 243,
-    "title": "In un determinato ambito",
-    "pattern": "在 + ambito + 方面",
-    "explanation": "在……方面 delimita il campo in cui vale una capacità, un problema o un giudizio. 方面 non indica qui una direzione fisica e può essere seguito da 的 quando modifica un nome.",
+    "title": "In a particular area",
+    "pattern": "在 + area + 方面",
+    "explanation": "在……方面 defines the area in which an ability, problem, or judgment applies. Here 方面 does not indicate a physical direction and can be followed by 的 when modifying a noun.",
     "examples": [
       {
         "id": "G4-032-1",
         "hanzi": "她在语言方面很有天分。",
         "pinyin": "Tā zài yǔyán fāngmiàn hěn yǒu tiānfèn.",
-        "translation": "Ha molto talento per le lingue."
+        "translation": "He is very talented at languages."
       },
       {
         "id": "G4-032-2",
         "hanzi": "我们在管理方面还需要学习。",
         "pinyin": "Wǒmen zài guǎnlǐ fāngmiàn hái xūyào xuéxí.",
-        "translation": "Nell’ambito della gestione abbiamo ancora da imparare."
+        "translation": "We still have things to learn about management."
       }
     ]
   },
@@ -797,27 +797,27 @@
     "id": "G4-033",
     "level": 4,
     "sourceNo": 244,
-    "title": "Sotto un’influenza, in un processo, su un piano",
-    "pattern": "在 + nome + 上／下／中",
-    "explanation": "Queste localizzazioni possono essere astratte: 上 delimita un piano o un ambito, 下 le condizioni o l’influenza in cui si agisce, 中 un processo o una situazione in corso. La scelta dipende dal rapporto logico, non da una posizione fisica.",
+    "title": "Under an influence, within a process, on a level",
+    "pattern": "在 + noun + 上／下／中",
+    "explanation": "These location expressions can be abstract: 上 defines a level or area, 下 the conditions or influence under which one acts, and 中 an ongoing process or situation. The choice depends on the logical relationship, not physical position.",
     "examples": [
       {
         "id": "G4-033-1",
         "hanzi": "我们在这个问题上意见不同。",
         "pinyin": "Wǒmen zài zhè ge wèntí shàng yìjiàn bù tóng.",
-        "translation": "Su questo problema abbiamo opinioni diverse."
+        "translation": "We have different opinions on this issue."
       },
       {
         "id": "G4-033-2",
         "hanzi": "在老师的帮助下，我通过了考试。",
         "pinyin": "Zài lǎoshī de bāngzhù xià，wǒ tōngguò le kǎoshì.",
-        "translation": "Con l’aiuto dell’insegnante ho superato l’esame."
+        "translation": "With the teacher's help, I passed the exam."
       },
       {
         "id": "G4-033-3",
         "hanzi": "在学习中，我认识了很多朋友。",
         "pinyin": "Zài xuéxí zhōng，wǒ rènshi le hěn duō péngyou.",
-        "translation": "Durante il percorso di studio ho conosciuto molti amici."
+        "translation": "During my studies, I made many friends."
       }
     ]
   },
@@ -825,21 +825,21 @@
     "id": "G4-034",
     "level": 4,
     "sourceNo": 245,
-    "title": "Una frase come soggetto",
-    "pattern": "frase soggetto-predicato + predicato principale",
-    "explanation": "Un’intera combinazione soggetto-predicato può fungere da soggetto della frase maggiore. La valutazione finale riguarda il fatto descritto nel suo insieme, senza che sia obbligatorio aggiungere 的.",
+    "title": "A clause as the subject",
+    "pattern": "subject-predicate clause + main predicate",
+    "explanation": "An entire subject-predicate combination can serve as the subject of a larger sentence. The final assessment concerns the fact described as a whole, without requiring 的.",
     "examples": [
       {
         "id": "G4-034-1",
         "hanzi": "你能来太好了。",
         "pinyin": "Nǐ néng lái tài hǎo le.",
-        "translation": "È bellissimo che tu possa venire."
+        "translation": "It is wonderful that you can come."
       },
       {
         "id": "G4-034-2",
         "hanzi": "他不参加让我很难过。",
         "pinyin": "Tā bù cānjiā ràng wǒ hěn nánguò.",
-        "translation": "Il fatto che non partecipi mi rattrista molto."
+        "translation": "The fact that he is not taking part makes me very sad."
       }
     ]
   },
@@ -847,21 +847,21 @@
     "id": "G4-035",
     "level": 4,
     "sourceNo": 246,
-    "title": "L’oggetto coinvolto diventa soggetto",
-    "pattern": "oggetto interessato + verbo + complemento",
-    "explanation": "Il soggetto può essere ciò che subisce o risulta dall’azione, mentre chi agisce resta implicito. Senza 被 la frase mette soprattutto a fuoco lo stato o l’esito dell’oggetto, e non sempre è una passiva traducibile parola per parola.",
+    "title": "The affected object becomes the subject",
+    "pattern": "affected object + verb + complement",
+    "explanation": "The subject can be what undergoes or results from the action, while the agent remains implicit. Without 被, the sentence focuses mainly on the object's state or outcome and is not always a passive that can be translated word for word.",
     "examples": [
       {
         "id": "G4-035-1",
         "hanzi": "饭已经做好了。",
         "pinyin": "Fàn yǐjīng zuò hǎo le.",
-        "translation": "Da mangiare è già pronto."
+        "translation": "The food is ready."
       },
       {
         "id": "G4-035-2",
         "hanzi": "这本书借出去了。",
         "pinyin": "Zhè běn shū jiè chūqù le.",
-        "translation": "Questo libro è stato dato in prestito."
+        "translation": "This book has been lent out."
       }
     ]
   },
@@ -869,21 +869,21 @@
     "id": "G4-036",
     "level": 4,
     "sourceNo": 247,
-    "title": "Più modificatori davanti al nome",
-    "pattern": "possesso／tempo／quantità／descrizione + nome",
-    "explanation": "Più determinanti possono precedere lo stesso nome: in genere possesso o riferimento, tempo o luogo, quantità e descrizioni più vicine al nome. 的 collega spesso le descrizioni al nome, mentre numero e classificatore normalmente non lo richiedono; l’ordine può cambiare con il rilievo comunicativo.",
+    "title": "Multiple modifiers before a noun",
+    "pattern": "possession／time／quantity／description + noun",
+    "explanation": "Several modifiers can precede the same noun: generally possession or reference, time or place, quantity, then descriptions closer to the noun. 的 often links descriptions to the noun, whereas a number and classifier normally do not require it; the order can change with communicative emphasis.",
     "examples": [
       {
         "id": "G4-036-1",
         "hanzi": "这是我昨天买的两件白衬衫。",
         "pinyin": "Zhè shì wǒ zuótiān mǎi de liǎng jiàn bái chènshān.",
-        "translation": "Queste sono le due camicie bianche che ho comprato ieri."
+        "translation": "These are the two white shirts I bought yesterday."
       },
       {
         "id": "G4-036-2",
         "hanzi": "门口那个穿蓝衣服的年轻人是我弟弟。",
         "pinyin": "Ménkǒu nà ge chuān lán yīfu de niánqīngrén shì wǒ dìdi.",
-        "translation": "Il giovane all’ingresso con i vestiti blu è mio fratello minore."
+        "translation": "The young man at the entrance wearing blue clothes is my younger brother."
       }
     ]
   },
@@ -891,33 +891,33 @@
     "id": "G4-037",
     "level": 4,
     "sourceNo": 248,
-    "title": "Complementi direzionali con valore di risultato",
-    "pattern": "verbo + 上／出／起／下",
-    "explanation": "Questi elementi possono esprimere un esito anziché un movimento letterale: 上 il raggiungimento di un contatto o obiettivo, 出 l’emergere di un risultato, 起 l’avvio o il richiamo e 下 la fissazione o conservazione. Le combinazioni sono lessicalmente limitate, come 联系上, 想出, 想起 e 记下.",
+    "title": "Directional complements expressing results",
+    "pattern": "verb + 上／出／起／下",
+    "explanation": "These elements can express an outcome rather than literal movement: 上 achieving contact or a goal, 出 the emergence of a result, 起 initiation or recollection, and 下 recording or preservation. Combinations are lexically restricted, as in 联系上, 想出, 想起 and 记下.",
     "examples": [
       {
         "id": "G4-037-1",
         "hanzi": "我终于联系上他了。",
         "pinyin": "Wǒ zhōngyú liánxì shàng tā le.",
-        "translation": "Finalmente sono riuscito a contattarlo."
+        "translation": "I finally managed to get in touch with him."
       },
       {
         "id": "G4-037-2",
         "hanzi": "她想出了一个好办法。",
         "pinyin": "Tā xiǎng chū le yī ge hǎo bànfǎ.",
-        "translation": "Le è venuta una buona idea."
+        "translation": "She came up with a good idea."
       },
       {
         "id": "G4-037-3",
         "hanzi": "我想起了他的名字。",
         "pinyin": "Wǒ xiǎng qǐ le tā de míngzi.",
-        "translation": "Mi sono ricordato il suo nome."
+        "translation": "I remembered his name."
       },
       {
         "id": "G4-037-4",
         "hanzi": "请记下这个地址。",
         "pinyin": "Qǐng jì xià zhè ge dìzhǐ.",
-        "translation": "Annota questo indirizzo."
+        "translation": "Write down this address."
       }
     ]
   },
@@ -925,39 +925,39 @@
     "id": "G4-038",
     "level": 4,
     "sourceNo": 249,
-    "title": "把 con azione ripetuta, stato o durata",
-    "pattern": "把 + oggetto + verbo ripetuto／了／着／quantità",
-    "explanation": "把 anticipa un oggetto identificabile e presenta come viene trattato: il verbo può essere raddoppiato, portare 了 o 着, oppure avere un complemento di frequenza o durata. Il raddoppiamento attenua una richiesta; 给 prima del verbo può rafforzare il coinvolgimento dell’oggetto, soprattutto nel parlato.",
+    "title": "把 with repeated actions, states, or duration",
+    "pattern": "把 + object + reduplicated verb／了／着／quantity",
+    "explanation": "把 brings an identifiable object forward and presents how it is handled: the verb can be reduplicated, take 了 or 着, or have a frequency or duration complement. Reduplication softens a request; 给 before the verb can emphasize the object's involvement, especially in speech.",
     "examples": [
       {
         "id": "G4-038-1",
         "hanzi": "请把这份材料看一看。",
         "pinyin": "Qǐng bǎ zhè fèn cáiliào kàn yī kàn.",
-        "translation": "Dai un’occhiata a questo materiale."
+        "translation": "Take a look at this material."
       },
       {
         "id": "G4-038-2",
         "hanzi": "他把那封信给烧了。",
         "pinyin": "Tā bǎ nà fēng xìn gěi shāo le.",
-        "translation": "Ha bruciato quella lettera."
+        "translation": "He burned that letter."
       },
       {
         "id": "G4-038-3",
         "hanzi": "先把这张票留着。",
         "pinyin": "Xiān bǎ zhè zhāng piào liúzhe.",
-        "translation": "Per ora conserva questo biglietto."
+        "translation": "Keep this ticket for now."
       },
       {
         "id": "G4-038-4",
         "hanzi": "我把这篇文章读了三遍。",
         "pinyin": "Wǒ bǎ zhè piān wénzhāng dú le sān biàn.",
-        "translation": "Ho letto questo articolo tre volte."
+        "translation": "I have read this article three times."
       },
       {
         "id": "G4-038-5",
         "hanzi": "他把那本书借了一个月。",
         "pinyin": "Tā bǎ nà běn shū jiè le yī ge yuè.",
-        "translation": "Ha tenuto quel libro in prestito per un mese."
+        "translation": "He borrowed that book for a month."
       }
     ]
   },
@@ -965,21 +965,21 @@
     "id": "G4-039",
     "level": 4,
     "sourceNo": 250,
-    "title": "Passiva senza agente espresso",
-    "pattern": "soggetto + 被 + verbo + altri elementi",
-    "explanation": "Dopo 被 si può omettere chi compie l’azione quando non è noto o non è importante. Il verbo ha normalmente un risultato, un complemento o una particella aspettuale, non resta un’azione isolata.",
+    "title": "Passive without an expressed agent",
+    "pattern": "subject + 被 + verb + other elements",
+    "explanation": "After 被, the person performing the action can be omitted when unknown or unimportant. The verb normally has a result, complement, or aspect particle rather than remaining an isolated action.",
     "examples": [
       {
         "id": "G4-039-1",
         "hanzi": "我的自行车被骑走了。",
         "pinyin": "Wǒ de zìxíngchē bèi qí zǒu le.",
-        "translation": "Qualcuno ha portato via la mia bicicletta pedalando."
+        "translation": "My bicycle was ridden away by someone."
       },
       {
         "id": "G4-039-2",
         "hanzi": "这个问题已经被解决了。",
         "pinyin": "Zhè ge wèntí yǐjīng bèi jiějué le.",
-        "translation": "Questo problema è già stato risolto."
+        "translation": "This problem has already been solved."
       }
     ]
   },
@@ -987,27 +987,27 @@
     "id": "G4-040",
     "level": 4,
     "sourceNo": 251,
-    "title": "Apparizione e scomparsa in un luogo",
-    "pattern": "luogo + verbo + risultato／direzione + 了 + quantità + nome",
-    "explanation": "Queste frasi presentano ciò che appare o scompare in un luogo, mettendo il luogo all’inizio. Il nome nuovo segue il verbo con una quantità; il complemento distingue l’arrivo o l’emergere dall’allontanamento o dalla perdita.",
+    "title": "Appearance and disappearance at a location",
+    "pattern": "place + verb + result／direction + 了 + quantity + noun",
+    "explanation": "These sentences present what appears or disappears at a location, placing the location first. The new noun follows the verb with a quantity; the complement distinguishes arrival or emergence from departure or loss.",
     "examples": [
       {
         "id": "G4-040-1",
         "hanzi": "门口走进来两位客人。",
         "pinyin": "Ménkǒu zǒu jìnlái liǎng wèi kèrén.",
-        "translation": "Dall’ingresso entrano due ospiti."
+        "translation": "Two guests come in through the entrance."
       },
       {
         "id": "G4-040-2",
         "hanzi": "桌子上拿走了一支笔。",
         "pinyin": "Zhuōzi shang ná zǒu le yī zhī bǐ.",
-        "translation": "Dal tavolo è stata portata via una penna."
+        "translation": "A pen has been taken away from the table."
       },
       {
         "id": "G4-040-3",
         "hanzi": "我们楼里搬走了三户人家。",
         "pinyin": "Wǒmen lóu lǐ bān zǒu le sān hù rénjiā.",
-        "translation": "Dal nostro palazzo sono andate via tre famiglie."
+        "translation": "Three families have moved out of our building."
       }
     ]
   },
@@ -1015,39 +1015,39 @@
     "id": "G4-041",
     "level": 4,
     "sourceNo": 252,
-    "title": "Un nome condiviso da due predicati",
-    "pattern": "表扬／批评 + persona + azione；叫／选 + persona + ruolo",
-    "explanation": "Con 表扬 e 批评 la persona è oggetto della valutazione e soggetto dell’azione per cui viene lodata o criticata. Con verbi di denominazione o scelta, la stessa persona riceve un nome o un ruolo introdotto da 做, 为, 当 o 是, secondo il verbo utilizzato.",
+    "title": "A noun shared by two predicates",
+    "pattern": "表扬／批评 + person + action；叫／选 + person + role",
+    "explanation": "With 表扬 and 批评, the person is the object of the evaluation and the subject of the action for which they are praised or criticized. With naming or selection verbs, that person receives a name or role introduced by 做, 为, 当 or 是, depending on the verb.",
     "examples": [
       {
         "id": "G4-041-1",
         "hanzi": "老师表扬她帮助新同学。",
         "pinyin": "Lǎoshī biǎoyáng tā bāngzhù xīn tóngxué.",
-        "translation": "L’insegnante l’ha lodata perché aiuta i nuovi compagni."
+        "translation": "The teacher praised her for helping the new classmates."
       },
       {
         "id": "G4-041-2",
         "hanzi": "妈妈批评我乱放东西。",
         "pinyin": "Māma pīpíng wǒ luàn fàng dōngxi.",
-        "translation": "Mamma mi rimprovera perché lascio le cose in disordine."
+        "translation": "Mom criticizes me for leaving things untidy."
       },
       {
         "id": "G4-041-3",
         "hanzi": "大家选他当队长。",
         "pinyin": "Dàjiā xuǎn tā dāng duìzhǎng.",
-        "translation": "Tutti lo hanno scelto come capitano."
+        "translation": "Everyone chose him as captain."
       },
       {
         "id": "G4-041-4",
         "hanzi": "我们称她为王老师。",
         "pinyin": "Wǒmen chēng tā wéi Wáng lǎoshī.",
-        "translation": "La chiamiamo professoressa Wang."
+        "translation": "We call her Professor Wang."
       },
       {
         "id": "G4-041-5",
         "hanzi": "张老师收我做学生。",
         "pinyin": "Zhāng lǎoshī shōu wǒ zuò xuésheng.",
-        "translation": "Il maestro Zhang mi ha accettato come allievo."
+        "translation": "Master Zhang accepted me as his student."
       }
     ]
   },
@@ -1055,21 +1055,21 @@
     "id": "G4-042",
     "level": 4,
     "sourceNo": 253,
-    "title": "是……的 per affermare una valutazione",
-    "pattern": "soggetto + 是 + giudizio + 的",
-    "explanation": "Qui 是……的 rafforza una valutazione, una convinzione o una rassicurazione del parlante. Non mette in evidenza il tempo o il luogo di un evento passato: il contenuto centrale è il giudizio fra 是 e 的.",
+    "title": "是……的 to affirm an assessment",
+    "pattern": "subject + 是 + judgment + 的",
+    "explanation": "Here 是……的 reinforces the speaker's assessment, conviction, or reassurance. It does not highlight the time or place of a past event: the central content is the judgment between 是 and 的.",
     "examples": [
       {
         "id": "G4-042-1",
         "hanzi": "这个办法是行得通的。",
         "pinyin": "Zhè ge bànfǎ shì xíngdetōng de.",
-        "translation": "Questo metodo può senz’altro funzionare."
+        "translation": "This method can certainly work."
       },
       {
         "id": "G4-042-2",
         "hanzi": "你不用担心，他是不会忘记的。",
         "pinyin": "Nǐ bù yòng dānxīn，tā shì bù huì wàngjì de.",
-        "translation": "Non preoccuparti, non se ne dimenticherà di certo."
+        "translation": "Don't worry; he definitely won't forget."
       }
     ]
   },
@@ -1077,21 +1077,21 @@
     "id": "G4-043",
     "level": 4,
     "sourceNo": 254,
-    "title": "Non questo, bensì quello",
-    "pattern": "不是 + prima ipotesi，而是 + correzione",
-    "explanation": "不是……而是…… respinge una spiegazione, un’identità o una caratteristica e ne propone un’altra. Le due parti devono essere confrontabili; la seconda corregge la prima, non aggiunge semplicemente un contrasto.",
+    "title": "Not this, but that",
+    "pattern": "不是 + first proposition，而是 + correction",
+    "explanation": "不是……而是…… rejects an explanation, identity, or characteristic and proposes another. The two parts must be comparable; the second corrects the first rather than merely adding a contrast.",
     "examples": [
       {
         "id": "G4-043-1",
         "hanzi": "我不是生气，而是有点累。",
         "pinyin": "Wǒ bù shì shēngqì，érshì yǒu diǎn lèi.",
-        "translation": "Non sono arrabbiato, sono solo un po’ stanco."
+        "translation": "I'm not angry, just a little tired."
       },
       {
         "id": "G4-043-2",
         "hanzi": "我们需要的不是速度，而是质量。",
         "pinyin": "Wǒmen xūyào de bù shì sùdù，érshì zhìliàng.",
-        "translation": "Quello che ci serve non è la velocità, ma la qualità."
+        "translation": "What we need is not speed but quality."
       }
     ]
   },
@@ -1099,21 +1099,21 @@
     "id": "G4-044",
     "level": 4,
     "sourceNo": 255,
-    "title": "Due qualità presenti insieme",
-    "pattern": "既 + predicato，又／也 + predicato",
-    "explanation": "既……又／也…… attribuisce allo stesso referente due caratteristiche o situazioni contemporaneamente valide. I due predicati hanno pari rilievo: non si tratta di una sequenza temporale.",
+    "title": "Two qualities present together",
+    "pattern": "既 + predicate，又／也 + predicate",
+    "explanation": "既……又／也…… attributes two simultaneously valid characteristics or situations to the same referent. The two predicates have equal weight: this is not a sequence in time.",
     "examples": [
       {
         "id": "G4-044-1",
         "hanzi": "这家饭馆既便宜又干净。",
         "pinyin": "Zhè jiā fànguǎn jì piányi yòu gānjìng.",
-        "translation": "Questo ristorante è sia economico sia pulito."
+        "translation": "This restaurant is both inexpensive and clean."
       },
       {
         "id": "G4-044-2",
         "hanzi": "他既会唱歌，也会跳舞。",
         "pinyin": "Tā jì huì chànggē，yě huì tiàowǔ.",
-        "translation": "Sa sia cantare sia ballare."
+        "translation": "She can both sing and dance."
       }
     ]
   },
@@ -1121,21 +1121,21 @@
     "id": "G4-045",
     "level": 4,
     "sourceNo": 256,
-    "title": "Ordinare più punti",
-    "pattern": "首先 + primo punto，其次 + secondo punto",
-    "explanation": "首先 e 其次 ordinano motivi, istruzioni o parti di un ragionamento. Possono indicare una successione pratica ma anche soltanto una gerarchia espositiva, senza che gli eventi avvengano in quell’ordine.",
+    "title": "Ordering several points",
+    "pattern": "首先 + first point，其次 + second point",
+    "explanation": "首先 and 其次 order reasons, instructions, or parts of an argument. They can indicate a practical sequence or merely an order of presentation, without events occurring in that order.",
     "examples": [
       {
         "id": "G4-045-1",
         "hanzi": "首先洗手，其次准备材料。",
         "pinyin": "Shǒuxiān xǐ shǒu，qícì zhǔnbèi cáiliào.",
-        "translation": "Prima lavati le mani, poi prepara gli ingredienti."
+        "translation": "First wash your hands, then prepare the ingredients."
       },
       {
         "id": "G4-045-2",
         "hanzi": "首先，价格太高；其次，地方太远。",
         "pinyin": "Shǒuxiān，jiàgé tài gāo；qícì，dìfang tài yuǎn.",
-        "translation": "Primo, il prezzo è troppo alto; secondo, il posto è troppo lontano."
+        "translation": "First, the price is too high; second, the place is too far away."
       }
     ]
   },
@@ -1143,21 +1143,21 @@
     "id": "G4-046",
     "level": 4,
     "sourceNo": 257,
-    "title": "Un’azione che ne consegue",
-    "pattern": "situazione，于是 + azione conseguente",
-    "explanation": "于是 collega una situazione a ciò che accade o si decide subito dopo come conseguenza. Si usa soprattutto nella narrazione di eventi, non per introdurre qualsiasi conclusione astratta come 所以.",
+    "title": "A consequent action",
+    "pattern": "situation，于是 + consequent action",
+    "explanation": "于是 links a situation to what happens or is decided immediately afterward as a consequence. It is used mainly in narratives, not to introduce any abstract conclusion in the way 所以 can.",
     "examples": [
       {
         "id": "G4-046-1",
         "hanzi": "公交车没来，于是我们走路回家。",
         "pinyin": "Gōngjiāochē méi lái，yúshì wǒmen zǒulù huí jiā.",
-        "translation": "L’autobus non è arrivato, così siamo tornati a casa a piedi."
+        "translation": "The bus didn't come, so we walked home."
       },
       {
         "id": "G4-046-2",
         "hanzi": "她看见门开着，于是走了进去。",
         "pinyin": "Tā kànjiàn mén kāizhe，yúshì zǒu le jìnqù.",
-        "translation": "Ha visto la porta aperta e così è entrata."
+        "translation": "She saw the door was open, so she went in."
       }
     ]
   },
@@ -1165,21 +1165,21 @@
     "id": "G4-047",
     "level": 4,
     "sourceNo": 258,
-    "title": "Arrivare al caso estremo",
-    "pattern": "affermazione，甚至 + caso più forte",
-    "explanation": "甚至 aggiunge un caso che supera le aspettative e rafforza l’affermazione precedente. Può collegare nomi, predicati o frasi; spesso il caso estremo è accompagnato da 都 o 也.",
+    "title": "Reaching the extreme case",
+    "pattern": "statement，甚至 + stronger case",
+    "explanation": "甚至 adds a case that exceeds expectations and reinforces the preceding statement. It can link nouns, predicates, or clauses; the extreme case is often accompanied by 都 or 也.",
     "examples": [
       {
         "id": "G4-047-1",
         "hanzi": "这里冬天很冷，甚至河水都会结冰。",
         "pinyin": "Zhèlǐ dōngtiān hěn lěng，shènzhì héshuǐ dōu huì jiébīng.",
-        "translation": "Qui d’inverno fa molto freddo, tanto che persino il fiume gela."
+        "translation": "It is very cold here in winter; even the river freezes."
       },
       {
         "id": "G4-047-2",
         "hanzi": "他喜欢这本书，甚至能背出整段内容。",
         "pinyin": "Tā xǐhuan zhè běn shū，shènzhì néng bèi chū zhěng duàn nèiróng.",
-        "translation": "Gli piace così tanto questo libro che sa persino recitarne interi brani."
+        "translation": "He likes this book so much that he can even recite whole passages."
       }
     ]
   },
@@ -1187,21 +1187,21 @@
     "id": "G4-048",
     "level": 4,
     "sourceNo": 259,
-    "title": "Alternative in un’affermazione",
-    "pattern": "或者 + possibilità，或者 + possibilità",
-    "explanation": "或者……或者…… presenta possibilità alternative senza chiedere all’interlocutore di sceglierne una. Per una domanda diretta di scelta si usa invece 还是; 或者 può anche comparire una sola volta fra le alternative.",
+    "title": "Alternatives in a statement",
+    "pattern": "或者 + possibility，或者 + possibility",
+    "explanation": "或者……或者…… presents alternative possibilities without asking the listener to choose one. A direct choice question instead uses 还是; 或者 can also appear just once between alternatives.",
     "examples": [
       {
         "id": "G4-048-1",
         "hanzi": "周末我们或者爬山，或者去游泳。",
         "pinyin": "Zhōumò wǒmen huòzhě pá shān，huòzhě qù yóuyǒng.",
-        "translation": "Nel fine settimana andremo in montagna oppure a nuotare."
+        "translation": "At the weekend we will either go to the mountains or go swimming."
       },
       {
         "id": "G4-048-2",
         "hanzi": "你可以或者发邮件，或者打电话。",
         "pinyin": "Nǐ kěyǐ huòzhě fā yóujiàn，huòzhě dǎ diànhuà.",
-        "translation": "Puoi mandare un’e-mail oppure telefonare."
+        "translation": "You can send an email or make a phone call."
       }
     ]
   },
@@ -1209,21 +1209,21 @@
     "id": "G4-049",
     "level": 4,
     "sourceNo": 260,
-    "title": "Tuttavia nel registro scritto",
-    "pattern": "prima frase，然而 + contrasto",
-    "explanation": "然而 introduce un fatto contrario alle aspettative create dalla prima frase. È più scritto e formale di 可是 o 但是 e normalmente si colloca all’inizio della seconda proposizione.",
+    "title": "However in written language",
+    "pattern": "first clause，然而 + contrast",
+    "explanation": "然而 introduces a fact contrary to the expectations created by the first clause. It is more written and formal than 可是 or 但是 and normally comes at the beginning of the second clause.",
     "examples": [
       {
         "id": "G4-049-1",
         "hanzi": "大家都很努力，然而结果并不理想。",
         "pinyin": "Dàjiā dōu hěn nǔlì，rán'ér jiéguǒ bìng bù lǐxiǎng.",
-        "translation": "Tutti si sono impegnati molto, tuttavia il risultato non è soddisfacente."
+        "translation": "Everyone worked very hard; however, the result is unsatisfactory."
       },
       {
         "id": "G4-049-2",
         "hanzi": "计划很好，然而时间不够。",
         "pinyin": "Jìhuà hěn hǎo，rán'ér shíjiān bù gòu.",
-        "translation": "Il piano è buono, tuttavia il tempo non basta."
+        "translation": "The plan is good; however, there is not enough time."
       }
     ]
   },
@@ -1231,21 +1231,21 @@
     "id": "G4-050",
     "level": 4,
     "sourceNo": 261,
-    "title": "Altrimenti",
-    "pattern": "azione richiesta，否则 + conseguenza",
-    "explanation": "否则 presenta ciò che accadrebbe se la condizione precedente non venisse rispettata. È frequente dopo consigli, ordini o indicazioni necessarie; la conseguenza è spesso sfavorevole.",
+    "title": "Otherwise",
+    "pattern": "required action，否则 + consequence",
+    "explanation": "否则 presents what would happen if the preceding condition were not met. It is common after advice, orders, or necessary instructions; the consequence is often unfavorable.",
     "examples": [
       {
         "id": "G4-050-1",
         "hanzi": "快出门，否则会迟到。",
         "pinyin": "Kuài chūmén，fǒuzé huì chídào.",
-        "translation": "Esci subito, altrimenti farai tardi."
+        "translation": "Leave now, or you will be late."
       },
       {
         "id": "G4-050-2",
         "hanzi": "请带上手机，否则我们联系不上你。",
         "pinyin": "Qǐng dài shang shǒujī, fǒuzé wǒmen liánxì bù shàng nǐ.",
-        "translation": "Porta il cellulare, altrimenti non riusciremo a contattarti."
+        "translation": "Bring your phone; otherwise, we won't be able to contact you."
       }
     ]
   },
@@ -1253,21 +1253,21 @@
     "id": "G4-051",
     "level": 4,
     "sourceNo": 262,
-    "title": "Formulare un’ipotesi",
-    "pattern": "假如 + condizione，就 + conseguenza",
-    "explanation": "假如 introduce una situazione immaginata, non necessariamente reale. 就 può segnalarne la conseguenza ma si può omettere quando il rapporto è già chiaro.",
+    "title": "Formulating a hypothesis",
+    "pattern": "假如 + condition，就 + consequence",
+    "explanation": "假如 introduces an imagined situation, not necessarily a real one. 就 can mark its consequence but can be omitted when the relationship is already clear.",
     "examples": [
       {
         "id": "G4-051-1",
         "hanzi": "假如你有空，就来我家坐坐。",
         "pinyin": "Jiǎrú nǐ yǒu kòng，jiù lái wǒ jiā zuòzuo.",
-        "translation": "Se hai tempo, passa da me."
+        "translation": "If you have time, come over."
       },
       {
         "id": "G4-051-2",
         "hanzi": "假如找不到路，可以给我打电话。",
         "pinyin": "Jiǎrú zhǎo bu dào lù，kěyǐ gěi wǒ dǎ diànhuà.",
-        "translation": "Se non trovi la strada, puoi telefonarmi."
+        "translation": "If you can't find the way, you can call me."
       }
     ]
   },
@@ -1275,21 +1275,21 @@
     "id": "G4-052",
     "level": 4,
     "sourceNo": 263,
-    "title": "Nell’eventualità che",
-    "pattern": "万一 + evento imprevisto，就 + rimedio／esito",
-    "explanation": "万一 introduce un’eventualità percepita come poco probabile, spesso indesiderata, per prepararne le conseguenze. Non descrive una semplice condizione abituale; 就 può collegare la risposta prevista.",
+    "title": "In the event that",
+    "pattern": "万一 + unexpected event，就 + remedy／outcome",
+    "explanation": "万一 introduces an eventuality perceived as unlikely and often undesirable, in order to prepare for its consequences. It does not describe a simple habitual condition; 就 can link the planned response.",
     "examples": [
       {
         "id": "G4-052-1",
         "hanzi": "万一下雨，我们就去图书馆。",
         "pinyin": "Wànyī xià yǔ，wǒmen jiù qù túshūguǎn.",
-        "translation": "Se per caso piove, andremo in biblioteca."
+        "translation": "If it happens to rain, we will go to the library."
       },
       {
         "id": "G4-052-2",
         "hanzi": "万一手机没电，你可以用我的。",
         "pinyin": "Wànyī shǒujī méi diàn，nǐ kěyǐ yòng wǒ de.",
-        "translation": "Se mai il cellulare si scarica, puoi usare il mio."
+        "translation": "If your phone runs out of battery, you can use mine."
       }
     ]
   },
@@ -1297,21 +1297,21 @@
     "id": "G4-053",
     "level": 4,
     "sourceNo": 264,
-    "title": "Qualunque sia la condizione",
-    "pattern": "不管 + interrogativo／alternative，都／也 + esito",
-    "explanation": "不管 afferma che il risultato non cambia al variare di una condizione. Si accompagna a un interrogativo, a un’alternativa o a una coppia positivo-negativo; non introduce normalmente un unico fatto già determinato.",
+    "title": "Whatever the condition",
+    "pattern": "不管 + question word／alternatives，都／也 + outcome",
+    "explanation": "不管 states that the result remains unchanged as a condition varies. It accompanies a question word, alternatives, or a positive-negative pair; it does not normally introduce a single already determined fact.",
     "examples": [
       {
         "id": "G4-053-1",
         "hanzi": "不管你去哪儿，我都支持你。",
         "pinyin": "Bùguǎn nǐ qù nǎr，wǒ dōu zhīchí nǐ.",
-        "translation": "Ovunque tu vada, ti sosterrò."
+        "translation": "Wherever you go, I will support you."
       },
       {
         "id": "G4-053-2",
         "hanzi": "不管忙不忙，他也会给家里打电话。",
         "pinyin": "Bùguǎn máng bù máng，tā yě huì gěi jiā lǐ dǎ diànhuà.",
-        "translation": "Che sia impegnato o no, telefona comunque a casa."
+        "translation": "Whether you are busy or not, call home anyway."
       }
     ]
   },
@@ -1319,21 +1319,21 @@
     "id": "G4-054",
     "level": 4,
     "sourceNo": 265,
-    "title": "Indipendentemente da ogni alternativa",
-    "pattern": "无论 + interrogativo／alternative，都／也 + esito",
-    "explanation": "无论 introduce una condizione variabile che non modifica la conclusione, con un tono spesso più formale di 不管. Dopo 无论 si presentano le possibili varianti, non una condizione unica e affermata.",
+    "title": "Regardless of any alternative",
+    "pattern": "无论 + question word／alternatives，都／也 + outcome",
+    "explanation": "无论 introduces a variable condition that does not change the conclusion, often in a more formal tone than 不管. After 无论, the possible variants are presented, not a single asserted condition.",
     "examples": [
       {
         "id": "G4-054-1",
         "hanzi": "无论遇到什么困难，我们都坚持下去。",
         "pinyin": "Wúlùn yùdào shénme kùnnan, wǒmen dōu jiānchí xiàqù.",
-        "translation": "Qualunque difficoltà incontriamo, continuiamo a perseverare."
+        "translation": "Whatever difficulties we encounter, we keep persevering."
       },
       {
         "id": "G4-054-2",
         "hanzi": "无论晴天还是雨天，他也照常出门。",
         "pinyin": "Wúlùn qíngtiān háishi yǔtiān，tā yě zhàocháng chūmén.",
-        "translation": "Che ci sia il sole o piova, esce comunque come sempre."
+        "translation": "Whether it is sunny or rainy, he goes out as usual."
       }
     ]
   },
@@ -1341,21 +1341,21 @@
     "id": "G4-055",
     "level": 4,
     "sourceNo": 266,
-    "title": "Dato un fatto, trarne una conseguenza",
-    "pattern": "既然 + fatto acquisito，就 + conclusione",
-    "explanation": "既然 presenta una premessa trattata come già nota o accettata e ne ricava una decisione, una richiesta o un giudizio. A differenza di 假如, non immagina una condizione ancora incerta.",
+    "title": "Drawing a consequence from a given fact",
+    "pattern": "既然 + established fact，就 + conclusion",
+    "explanation": "既然 presents a premise treated as already known or accepted and derives a decision, request, or judgment from it. Unlike 假如, it does not imagine a condition that is still uncertain.",
     "examples": [
       {
         "id": "G4-055-1",
         "hanzi": "既然大家都同意，就这样决定吧。",
         "pinyin": "Jìrán dàjiā dōu tóngyì，jiù zhèyàng juédìng ba.",
-        "translation": "Dato che tutti sono d’accordo, decidiamo così."
+        "translation": "Since everyone agrees, let's decide on that."
       },
       {
         "id": "G4-055-2",
         "hanzi": "既然不舒服，就早点休息。",
         "pinyin": "Jìrán bù shūfu，jiù zǎo diǎn xiūxi.",
-        "translation": "Visto che non stai bene, riposati presto."
+        "translation": "Since you are not feeling well, get some rest early."
       }
     ]
   },
@@ -1363,21 +1363,21 @@
     "id": "G4-056",
     "level": 4,
     "sourceNo": 267,
-    "title": "Una conclusione ricavata dagli indizi",
-    "pattern": "indizio，可见 + conclusione",
-    "explanation": "可见 segnala che il fatto precedente permette di trarre una conclusione. Non presenta una causa che produce materialmente l’effetto, ma il ragionamento del parlante a partire da una prova.",
+    "title": "A conclusion drawn from evidence",
+    "pattern": "evidence，可见 + conclusion",
+    "explanation": "可见 signals that the preceding fact supports a conclusion. It does not present a cause physically producing an effect, but the speaker's reasoning based on evidence.",
     "examples": [
       {
         "id": "G4-056-1",
         "hanzi": "门口排了很长的队，可见这家店很受欢迎。",
         "pinyin": "Ménkǒu pái le hěn cháng de duì，kějiàn zhè jiā diàn hěn shòu huānyíng.",
-        "translation": "All’ingresso c’è una lunga fila: si vede che questo locale è molto apprezzato."
+        "translation": "There is a long line at the entrance; clearly, this place is very popular."
       },
       {
         "id": "G4-056-2",
         "hanzi": "他记得每个人的名字，可见他很用心。",
         "pinyin": "Tā jìde měi ge rén de míngzi，kějiàn tā hěn yòngxīn.",
-        "translation": "Ricorda il nome di tutti: evidentemente ci mette molta attenzione."
+        "translation": "He remembers everyone's name; evidently, he pays close attention."
       }
     ]
   },
@@ -1385,21 +1385,21 @@
     "id": "G4-057",
     "level": 4,
     "sourceNo": 268,
-    "title": "Anche nell’ipotesi più estrema",
-    "pattern": "哪怕 + condizione estrema，也／还 + esito",
-    "explanation": "哪怕 ammette una condizione sfavorevole o estrema senza cambiare l’esito affermato. Può riferirsi a una difficoltà anche minima: 哪怕 solo un poco basta a fissare una soglia.",
+    "title": "Even under the most extreme assumption",
+    "pattern": "哪怕 + extreme condition，也／还 + outcome",
+    "explanation": "哪怕 admits an unfavorable or extreme condition without changing the stated outcome. It can also refer to even a minimal difficulty: 哪怕 with just a little is enough to establish a threshold.",
     "examples": [
       {
         "id": "G4-057-1",
         "hanzi": "哪怕只有一天，我也想去看看。",
         "pinyin": "Nǎpà zhǐ yǒu yī tiān，wǒ yě xiǎng qù kànkan.",
-        "translation": "Anche se avessi un solo giorno, vorrei andarci a dare un’occhiata."
+        "translation": "Even if I had only one day, I would want to go and have a look."
       },
       {
         "id": "G4-057-2",
         "hanzi": "哪怕再累，他还会坚持练习。",
         "pinyin": "Nǎpà zài lèi，tā hái huì jiānchí liànxí.",
-        "translation": "Per quanto possa essere stanco, continuerà comunque a esercitarsi."
+        "translation": "No matter how tired he is, he will keep practicing."
       }
     ]
   },
@@ -1407,21 +1407,21 @@
     "id": "G4-058",
     "level": 4,
     "sourceNo": 269,
-    "title": "Fare qualcosa per poter fare altro",
-    "pattern": "azione preparatoria，好 + scopo",
-    "explanation": "好 fra due proposizioni indica che la prima azione crea condizioni favorevoli per la seconda: così da poter. Non è l’aggettivo buono né significa semplicemente che un’azione è facile.",
+    "title": "Doing something to enable something else",
+    "pattern": "preparatory action，好 + purpose",
+    "explanation": "好 between two clauses indicates that the first action creates favorable conditions for the second: so as to be able to. It is neither the adjective good nor simply a statement that an action is easy.",
     "examples": [
       {
         "id": "G4-058-1",
         "hanzi": "把地址写清楚，好让司机找到。",
         "pinyin": "Bǎ dìzhǐ xiě qīngchu，hǎo ràng sījī zhǎodào.",
-        "translation": "Scrivi bene l’indirizzo, così l’autista potrà trovarlo."
+        "translation": "Write the address clearly so the driver can find it."
       },
       {
         "id": "G4-058-2",
         "hanzi": "我们早点出发，好避开堵车。",
         "pinyin": "Wǒmen zǎo diǎn chūfā，hǎo bìkāi dǔchē.",
-        "translation": "Partiamo presto, così da evitare il traffico."
+        "translation": "Let's leave early to avoid traffic."
       }
     ]
   },
@@ -1429,21 +1429,21 @@
     "id": "G4-059",
     "level": 4,
     "sourceNo": 270,
-    "title": "Due eventi uniti senza connettivo",
-    "pattern": "azione + risultato／reazione",
-    "explanation": "Due segmenti brevi possono fondersi senza congiunzioni esplicite: il primo pone una condizione e il secondo ne ricava l’azione. Il soggetto può essere ripetuto nelle due parti; è il contesto a far capire il legame, senza una pausa da frase autonoma.",
+    "title": "Two events joined without a connective",
+    "pattern": "action + result／reaction",
+    "explanation": "Two short segments can merge without explicit conjunctions: the first sets a condition and the second derives an action from it. The subject may be repeated in both parts; context makes the relationship clear, without a separate-sentence pause.",
     "examples": [
       {
         "id": "G4-059-1",
         "hanzi": "你有急事你先走。",
         "pinyin": "Nǐ yǒu jíshì nǐ xiān zǒu.",
-        "translation": "Se hai qualcosa di urgente, vai pure prima tu."
+        "translation": "If you have something urgent to do, go ahead first."
       },
       {
         "id": "G4-059-2",
         "hanzi": "你不累你继续，我要休息了。",
         "pinyin": "Nǐ bù lèi nǐ jìxù，wǒ yào xiūxi le.",
-        "translation": "Se non sei stanco, continua tu: io mi riposo."
+        "translation": "If you are not tired, keep going; I'll rest."
       }
     ]
   },
@@ -1451,21 +1451,21 @@
     "id": "G4-060",
     "level": 4,
     "sourceNo": 271,
-    "title": "Pur rinunciando a una cosa, farne un’altra",
-    "pattern": "不 + azione，也 + azione prioritaria",
-    "explanation": "In questa frase compatta 不……也…… presenta una rinuncia o una condizione estrema pur di realizzare l’altra azione, spesso con 要 o 得. Non significa qui semplicemente anche se non accade la prima cosa: il contesto evidenzia la priorità della seconda.",
+    "title": "Giving up one thing to do another",
+    "pattern": "不 + action，也 + priority action",
+    "explanation": "In this compact sentence, 不……也…… presents a sacrifice or extreme condition in order to accomplish the other action, often with 要 or 得. Here it does not simply mean even if the first thing does not happen: context emphasizes the priority of the second.",
     "examples": [
       {
         "id": "G4-060-1",
         "hanzi": "我不吃午饭也要把报告写完。",
         "pinyin": "Wǒ bù chī wǔfàn yě yào bǎ bàogào xiě wán.",
-        "translation": "Finirò la relazione anche a costo di saltare il pranzo."
+        "translation": "I will finish the report even if it means skipping lunch."
       },
       {
         "id": "G4-060-2",
         "hanzi": "他不休息也要把车修好。",
         "pinyin": "Tā bù xiūxi yě yào bǎ chē xiū hǎo.",
-        "translation": "Vuole riparare l’auto anche a costo di non riposarsi."
+        "translation": "He wants to repair the car even if it means going without rest."
       }
     ]
   },
@@ -1473,21 +1473,21 @@
     "id": "G4-061",
     "level": 4,
     "sourceNo": 272,
-    "title": "Quantità approssimative con 来",
-    "pattern": "numero tondo + 来 + classificatore",
-    "explanation": "来 dopo un numero tondo indica una quantità approssimativa vicina a quel numero, come una decina o un centinaio. In questa costruzione precede il classificatore; non è il verbo venire.",
+    "title": "Approximate quantities with 来",
+    "pattern": "round number + 来 + classifier",
+    "explanation": "来 after a round number indicates an approximate quantity near that number, such as around ten or a hundred. In this construction it precedes the classifier; it is not the verb to come.",
     "examples": [
       {
         "id": "G4-061-1",
         "hanzi": "门外站着十来个人。",
         "pinyin": "Mén wài zhànzhe shí lái ge rén.",
-        "translation": "Fuori dalla porta ci sono una decina di persone."
+        "translation": "There are around ten people outside the door."
       },
       {
         "id": "G4-061-2",
         "hanzi": "这本书有一百来页。",
         "pinyin": "Zhè běn shū yǒu yī bǎi lái yè.",
-        "translation": "Questo libro ha un centinaio di pagine."
+        "translation": "This book has around a hundred pages."
       }
     ]
   },
@@ -1495,39 +1495,39 @@
     "id": "G4-062",
     "level": 4,
     "sourceNo": 273,
-    "title": "Decimali, frazioni, percentuali e multipli",
-    "pattern": "intero + 点 + cifre；denominatore + 分之 + numeratore；numero + 倍",
-    "explanation": "Nei decimali le cifre dopo 点 si leggono una per una; nelle frazioni il denominatore precede 分之 e il numeratore lo segue. Le percentuali iniziano con 百分之. A 是 B 的两倍 significa che A è il doppio di B; 增加一倍 indica invece un aumento pari alla quantità iniziale, quindi un raddoppio.",
+    "title": "Decimals, fractions, percentages, and multiples",
+    "pattern": "whole number + 点 + digits；denominator + 分之 + numerator；number + 倍",
+    "explanation": "In decimals, the digits after 点 are read one by one; in fractions, the denominator precedes 分之 and the numerator follows it. Percentages begin with 百分之. A 是 B 的两倍 means that A is twice B; 增加一倍 instead indicates an increase equal to the original quantity, hence a doubling.",
     "examples": [
       {
         "id": "G4-062-1",
         "hanzi": "这瓶水有一点五升。",
         "pinyin": "Zhè píng shuǐ yǒu yī diǎn wǔ shēng.",
-        "translation": "Questa bottiglia contiene un litro e mezzo d’acqua."
+        "translation": "This bottle contains one and a half liters of water."
       },
       {
         "id": "G4-062-2",
         "hanzi": "我吃了这块面包的三分之一。",
         "pinyin": "Wǒ chī le zhè kuài miànbāo de sān fēn zhī yī.",
-        "translation": "Ho mangiato un terzo di questo pezzo di pane."
+        "translation": "I ate one third of this piece of bread."
       },
       {
         "id": "G4-062-3",
         "hanzi": "今年的价格降低了百分之十。",
         "pinyin": "Jīnnián de jiàgé jiàngdī le bǎi fēn zhī shí.",
-        "translation": "Quest’anno il prezzo è sceso del dieci per cento."
+        "translation": "The price has fallen by ten percent this year."
       },
       {
         "id": "G4-062-4",
         "hanzi": "这间房间的面积是那间的两倍。",
         "pinyin": "Zhè jiān fángjiān de miànjī shì nà jiān de liǎng bèi.",
-        "translation": "Questa stanza ha una superficie doppia rispetto a quella."
+        "translation": "This room has twice the floor area of that one."
       },
       {
         "id": "G4-062-5",
         "hanzi": "游客人数比去年增加了一倍。",
         "pinyin": "Yóukè rénshù bǐ qùnián zēngjiā le yī bèi.",
-        "translation": "Il numero dei turisti è raddoppiato rispetto all’anno scorso."
+        "translation": "The number of tourists has doubled compared with last year."
       }
     ]
   },
@@ -1535,27 +1535,27 @@
     "id": "G4-063",
     "level": 4,
     "sourceNo": 274,
-    "title": "Domande retoriche con interrogativi",
-    "pattern": "谁／怎么／哪里 + predicato interrogativo",
-    "explanation": "Un interrogativo può esprimere una forte affermazione anziché chiedere informazioni. 谁不知道 implica che tutti sanno; 怎么会 o 哪里有 possono respingere rispettivamente una possibilità o l’esistenza di qualcosa: il contesto distingue la domanda retorica da quella reale.",
+    "title": "Rhetorical questions with question words",
+    "pattern": "谁／怎么／哪里 + interrogative predicate",
+    "explanation": "A question word can express a strong assertion instead of requesting information. 谁不知道 implies that everyone knows; 怎么会 or 哪里有 can reject a possibility or the existence of something respectively: context distinguishes rhetorical questions from genuine ones.",
     "examples": [
       {
         "id": "G4-063-1",
         "hanzi": "这么简单，谁不会做？",
         "pinyin": "Zhème jiǎndān，shéi bù huì zuò？",
-        "translation": "È così semplice: chi non saprebbe farlo?"
+        "translation": "It is so simple; who wouldn't know how to do it?"
       },
       {
         "id": "G4-063-2",
         "hanzi": "我一直在这里，怎么会不知道？",
         "pinyin": "Wǒ yīzhí zài zhèlǐ，zěnme huì bù zhīdào？",
-        "translation": "Sono sempre stato qui: come potrei non saperlo?"
+        "translation": "I've been here all along; how could I not know?"
       },
       {
         "id": "G4-063-3",
         "hanzi": "事情这么多，哪里有时间休息？",
         "pinyin": "Shìqing zhème duō，nǎlǐ yǒu shíjiān xiūxi？",
-        "translation": "Con così tante cose da fare, dove lo trovo il tempo per riposare?"
+        "translation": "With so much to do, where would I find time to rest?"
       }
     ]
   },
@@ -1563,21 +1563,21 @@
     "id": "G4-064",
     "level": 4,
     "sourceNo": 275,
-    "title": "Affermare attraverso due negazioni",
-    "pattern": "没有 + persona + 不 + verbo；不可能／不会 + 不 + verbo",
-    "explanation": "Due negazioni possono rafforzare un’affermazione: 没有人不 significa che tutti fanno qualcosa, 不可能不 che è inevitabile farla. Il valore dipende dalla struttura: 不是不 può invece attenuare un’ammissione e 不得不 esprime una necessità imposta dalle circostanze.",
+    "title": "Affirming through two negatives",
+    "pattern": "没有 + person + 不 + verb；不可能／不会 + 不 + verb",
+    "explanation": "Two negatives can reinforce an assertion: 没有人不 means everyone does something, and 不可能不 means doing it is inevitable. The meaning depends on the structure: 不是不 can instead soften an admission, while 不得不 expresses necessity imposed by circumstances.",
     "examples": [
       {
         "id": "G4-064-1",
         "hanzi": "我们班没有人不认识她。",
         "pinyin": "Wǒmen bān méiyǒu rén bù rènshi tā.",
-        "translation": "Nella nostra classe la conoscono proprio tutti."
+        "translation": "Absolutely everyone in our class knows her."
       },
       {
         "id": "G4-064-2",
         "hanzi": "这么好的机会，我不可能不参加。",
         "pinyin": "Zhème hǎo de jīhuì，wǒ bù kěnéng bù cānjiā.",
-        "translation": "Con un’occasione così bella, non posso certo mancare."
+        "translation": "With such a wonderful opportunity, I certainly can't miss it."
       }
     ]
   },
@@ -1585,21 +1585,21 @@
     "id": "G4-065",
     "level": 4,
     "sourceNo": 276,
-    "title": "Neppure una sola unità",
-    "pattern": "一 + classificatore + nome + 也／都 + 不／没 + verbo",
-    "explanation": "Una sola unità posta prima di 也 o 都 con una negazione sottolinea la totale assenza di quantità o azioni. 没 nega ciò che è avvenuto, mentre 不 può negare una volontà, un’abitudine o una possibilità; il nome può essere omesso se è chiaro.",
+    "title": "Not even a single unit",
+    "pattern": "一 + classifier + noun + 也／都 + 不／没 + verb",
+    "explanation": "A single unit placed before 也 or 都 with a negative emphasizes the total absence of a quantity or action. 没 negates what has happened, while 不 can negate willingness, a habit, or a possibility; the noun can be omitted when clear.",
     "examples": [
       {
         "id": "G4-065-1",
         "hanzi": "我一口水也没喝。",
         "pinyin": "Wǒ yī kǒu shuǐ yě méi hē.",
-        "translation": "Non ho bevuto nemmeno un sorso d’acqua."
+        "translation": "I haven't drunk even a sip of water."
       },
       {
         "id": "G4-065-2",
         "hanzi": "这些衣服我一件都不喜欢。",
         "pinyin": "Zhèxiē yīfu wǒ yī jiàn dōu bù xǐhuan.",
-        "translation": "Di questi vestiti non me ne piace neanche uno."
+        "translation": "I don't like a single one of these clothes."
       }
     ]
   },
@@ -1607,21 +1607,21 @@
     "id": "G4-066",
     "level": 4,
     "sourceNo": 277,
-    "title": "Persino il caso meno atteso",
-    "pattern": "连 + elemento messo in rilievo + 也／都 + predicato",
-    "explanation": "连……也／都…… mette in risalto un caso estremo e lascia intendere che l’affermazione valga a maggior ragione per gli altri. Può essere affermativo o negativo; l’elemento evidenziato può essere un soggetto, un oggetto o un’azione.",
+    "title": "Even the least expected case",
+    "pattern": "连 + highlighted element + 也／都 + predicate",
+    "explanation": "连……也／都…… highlights an extreme case and implies that the statement applies all the more to the others. It can be affirmative or negative; the highlighted element can be a subject, object, or action.",
     "examples": [
       {
         "id": "G4-066-1",
         "hanzi": "连爷爷都会用这台电脑。",
         "pinyin": "Lián yéye dōu huì yòng zhè tái diànnǎo.",
-        "translation": "Perfino il nonno sa usare questo computer."
+        "translation": "Even Grandpa knows how to use this computer."
       },
       {
         "id": "G4-066-2",
         "hanzi": "他连我的名字也没记住。",
         "pinyin": "Tā lián wǒ de míngzi yě méi jìzhù.",
-        "translation": "Non si è ricordato nemmeno il mio nome."
+        "translation": "He didn't even remember my name."
       }
     ]
   },
@@ -1629,21 +1629,21 @@
     "id": "G4-067",
     "level": 4,
     "sourceNo": 278,
-    "title": "Tanto vale approfittarne",
-    "pattern": "不 + verbo + 白不 + stesso verbo",
-    "explanation": "不X白不X suggerisce di approfittare di un’occasione disponibile: non farlo significherebbe rinunciarvi inutilmente. Il tono è molto colloquiale e talvolta opportunistico; non è una doppia negazione neutra.",
+    "title": "Might as well take advantage",
+    "pattern": "不 + verb + 白不 + same verb",
+    "explanation": "不X白不X suggests taking advantage of an available opportunity: not doing so would mean passing it up for no reason. The tone is very colloquial and sometimes opportunistic; it is not a neutral double negative.",
     "examples": [
       {
         "id": "G4-067-1",
         "hanzi": "票都买好了，不看白不看。",
         "pinyin": "Piào dōu mǎi hǎo le，bù kàn bái bù kàn.",
-        "translation": "I biglietti sono già comprati: tanto vale vedere lo spettacolo."
+        "translation": "The tickets are already bought; we might as well see the show."
       },
       {
         "id": "G4-067-2",
         "hanzi": "这里可以免费吃，不吃白不吃。",
         "pinyin": "Zhèlǐ kěyǐ miǎnfèi chī, bù chī bái bù chī.",
-        "translation": "Qui si può mangiare gratis: tanto vale approfittarne."
+        "translation": "The food here is free; we might as well have some."
       }
     ]
   },
@@ -1651,21 +1651,21 @@
     "id": "G4-068",
     "level": 4,
     "sourceNo": 279,
-    "title": "Un’unità alla volta è già qualcosa",
-    "pattern": "verbo + 一 + unità + 是 + 一 + stessa unità",
-    "explanation": "La struttura considera ogni unità completata come un risultato utile, anche quando non si può finire tutto. Con il tempo può invece significare tirare avanti alla giornata, senza un piano: il giudizio dipende dal contesto.",
+    "title": "One unit at a time still counts",
+    "pattern": "verb + 一 + unit + 是 + 一 + same unit",
+    "explanation": "The structure treats every completed unit as a useful achievement, even when finishing everything is impossible. With time, it can instead mean getting by from day to day without a plan: the judgment depends on context.",
     "examples": [
       {
         "id": "G4-068-1",
         "hanzi": "能记一个是一个，别着急。",
         "pinyin": "Néng jì yī ge shì yī ge，bié zháojí.",
-        "translation": "Ogni cosa che riesci a memorizzare è già qualcosa: non agitarti."
+        "translation": "Every bit you manage to memorize counts; don't worry."
       },
       {
         "id": "G4-068-2",
         "hanzi": "不能总是过一天是一天，要有计划。",
         "pinyin": "Bù néng zǒngshì guò yī tiān shì yī tiān，yào yǒu jìhuà.",
-        "translation": "Non puoi sempre vivere alla giornata: devi avere un piano."
+        "translation": "You can't always live from day to day; you need a plan."
       }
     ]
   },
@@ -1673,21 +1673,21 @@
     "id": "G4-069",
     "level": 4,
     "sourceNo": 280,
-    "title": "Non c’è motivo di",
-    "pattern": "没什么好 + verbo + 的；有什么好 + verbo + 的",
-    "explanation": "没什么好X的 nega che esista un motivo per provare un sentimento o fare un’azione. 有什么好X的, spesso come domanda retorica, esprime lo stesso giudizio: il parlante minimizza o respinge la reazione dell’altro; 好 non significa qui buono.",
+    "title": "There is no reason to",
+    "pattern": "没什么好 + verb + 的；有什么好 + verb + 的",
+    "explanation": "没什么好X的 denies that there is a reason to feel something or perform an action. 有什么好X的, often a rhetorical question, expresses the same judgment: the speaker downplays or rejects the other person's reaction; here 好 does not mean good.",
     "examples": [
       {
         "id": "G4-069-1",
         "hanzi": "只是晚了几分钟，没什么好担心的。",
         "pinyin": "Zhǐshì wǎn le jǐ fēnzhōng，méi shénme hǎo dānxīn de.",
-        "translation": "È solo in ritardo di qualche minuto: non c’è da preoccuparsi."
+        "translation": "He is only a few minutes late; there is no need to worry."
       },
       {
         "id": "G4-069-2",
         "hanzi": "这有什么好笑的？",
         "pinyin": "Zhè yǒu shénme hǎo xiào de？",
-        "translation": "Che cosa ci sarebbe da ridere?"
+        "translation": "What's so funny?"
       }
     ]
   },
@@ -1695,21 +1695,21 @@
     "id": "G4-070",
     "level": 4,
     "sourceNo": 281,
-    "title": "Tenere distinte due cose",
-    "pattern": "elemento + 是 + stesso elemento，altro + 是 + stesso altro",
-    "explanation": "X是X，Y是Y insiste sul fatto che due persone, situazioni o ambiti non vanno confusi. La ripetizione non è informativamente vuota: rifiuta che ciò che vale per una cosa venga trasferito automaticamente all’altra.",
+    "title": "Keeping two things distinct",
+    "pattern": "element + 是 + same element，other item + 是 + same other item",
+    "explanation": "X是X，Y是Y insists that two people, situations, or areas must not be confused. The repetition is not devoid of information: it rejects automatically transferring what applies to one thing to the other.",
     "examples": [
       {
         "id": "G4-070-1",
         "hanzi": "工作是工作，生活是生活。",
         "pinyin": "Gōngzuò shì gōngzuò，shēnghuó shì shēnghuó.",
-        "translation": "Il lavoro è lavoro, la vita privata è un’altra cosa."
+        "translation": "Work is work; private life is something else."
       },
       {
         "id": "G4-070-2",
         "hanzi": "他是他，你是你，不用总跟他比。",
         "pinyin": "Tā shì tā，nǐ shì nǐ，bù yòng zǒng gēn tā bǐ.",
-        "translation": "Lui è lui e tu sei tu: non devi sempre confrontarti con lui."
+        "translation": "He is himself and you are yourself; don't keep comparing yourself to him."
       }
     ]
   },
@@ -1717,21 +1717,21 @@
     "id": "G4-071",
     "level": 4,
     "sourceNo": 282,
-    "title": "Nessuna scelta: bisogna farlo",
-    "pattern": "verbo + 也得 + verbo，不 + verbo + 也得 + verbo",
-    "explanation": "La ripetizione afferma in modo perentorio che l’azione è obbligatoria, qualunque sia la volontà dell’interlocutore. 得 si legge děi in entrambe le parti; il tono può risultare autoritario.",
+    "title": "No choice: it must be done",
+    "pattern": "verb + 也得 + verb，不 + verb + 也得 + verb",
+    "explanation": "The repetition states forcefully that the action is obligatory, regardless of the listener's wishes. 得 is pronounced děi in both parts; the tone can sound authoritarian.",
     "examples": [
       {
         "id": "G4-071-1",
         "hanzi": "今天你交也得交，不交也得交。",
         "pinyin": "Jīntiān nǐ jiāo yě děi jiāo，bù jiāo yě děi jiāo.",
-        "translation": "Oggi devi consegnarlo, che tu lo voglia o no."
+        "translation": "You have to hand it in today, whether you want to or not."
       },
       {
         "id": "G4-071-2",
         "hanzi": "这次检查你去也得去，不去也得去。",
         "pinyin": "Zhè cì jiǎnchá nǐ qù yě děi qù，bù qù yě děi qù.",
-        "translation": "A questo controllo devi andare per forza."
+        "translation": "You have to attend this checkup, no matter what."
       }
     ]
   },
@@ -1739,21 +1739,21 @@
     "id": "G4-072",
     "level": 4,
     "sourceNo": 283,
-    "title": "Basta fare così",
-    "pattern": "azione + 就是了",
-    "explanation": "就是了 alla fine di una proposta presenta un’azione come soluzione semplice e sufficiente. Può rassicurare o chiudere una discussione; non equivale qui a identificare un oggetto con 是.",
+    "title": "Just do this",
+    "pattern": "action + 就是了",
+    "explanation": "就是了 at the end of a suggestion presents an action as a simple and sufficient solution. It can reassure or close a discussion; here it does not identify an object with 是.",
     "examples": [
       {
         "id": "G4-072-1",
         "hanzi": "不懂就问老师就是了。",
         "pinyin": "Bù dǒng jiù wèn lǎoshī jiù shì le.",
-        "translation": "Se non capisci, basta chiedere all’insegnante."
+        "translation": "If you don't understand, just ask the teacher."
       },
       {
         "id": "G4-072-2",
         "hanzi": "你放心，需要钱我借给你就是了。",
         "pinyin": "Nǐ fàngxīn，xūyào qián wǒ jiè gěi nǐ jiù shì le.",
-        "translation": "Stai tranquillo: se ti servono soldi, te li presto io e basta."
+        "translation": "Don't worry; if you need money, I'll simply lend it to you."
       }
     ]
   },
@@ -1761,21 +1761,21 @@
     "id": "G4-073",
     "level": 4,
     "sourceNo": 284,
-    "title": "Altro che: una pretesa smentita",
-    "pattern": "还 + qualità／titolo rivendicato + 呢，+ smentita",
-    "explanation": "In questo modello 还X呢 riprende ironicamente una qualità, un titolo o una reputazione per metterli in dubbio. Non significa essere ancora impegnati in un’azione: il seguito mostra che la pretesa è ingiustificata.",
+    "title": "So much for a disproved claim",
+    "pattern": "还 + quality／claimed title + 呢，+ refutation",
+    "explanation": "In this pattern, 还X呢 ironically echoes a quality, title, or reputation to call it into question. It does not mean still being engaged in an action: what follows shows that the claim is unjustified.",
     "examples": [
       {
         "id": "G4-073-1",
         "hanzi": "还高手呢，第一题就做错了。",
         "pinyin": "Hái gāoshǒu ne，dì yī tí jiù zuò cuò le.",
-        "translation": "Altro che esperto: ha sbagliato già la prima domanda."
+        "translation": "Some expert! He got the very first question wrong."
       },
       {
         "id": "G4-073-2",
         "hanzi": "还新车呢，刚开两天就坏了。",
         "pinyin": "Hái xīn chē ne，gāng kāi liǎng tiān jiù huài le.",
-        "translation": "E sarebbe un’auto nuova: si è guastata dopo appena due giorni."
+        "translation": "And it's supposed to be a new car! It broke down after just two days."
       }
     ]
   },
@@ -1783,21 +1783,21 @@
     "id": "G4-074",
     "level": 4,
     "sourceNo": 285,
-    "title": "Continua pure per conto tuo",
-    "pattern": "你 + verbo + 你的 + 吧",
-    "explanation": "你X你的吧 invita l’altro a continuare la propria attività senza preoccuparsi del parlante. Può essere rassicurante o distaccato secondo l’intonazione; il secondo 你的 non richiede un nome espresso.",
+    "title": "Go ahead with your own activity",
+    "pattern": "你 + verb + 你的 + 吧",
+    "explanation": "你X你的吧 invites the other person to continue their own activity without worrying about the speaker. It can sound reassuring or detached depending on intonation; the second 你的 does not require an explicit noun.",
     "examples": [
       {
         "id": "G4-074-1",
         "hanzi": "你忙你的吧，我自己找。",
         "pinyin": "Nǐ máng nǐ de ba，wǒ zìjǐ zhǎo.",
-        "translation": "Continua pure con le tue cose, cerco da solo."
+        "translation": "Go ahead with what you are doing; I'll look on my own."
       },
       {
         "id": "G4-074-2",
         "hanzi": "你吃你的吧，不用等我。",
         "pinyin": "Nǐ chī nǐ de ba，bù yòng děng wǒ.",
-        "translation": "Mangia pure, non devi aspettarmi."
+        "translation": "Go ahead and eat; you don't need to wait for me."
       }
     ]
   },
@@ -1805,21 +1805,21 @@
     "id": "G4-075",
     "level": 4,
     "sourceNo": 286,
-    "title": "Fa’ quello che ti si dice",
-    "pattern": "让／叫你 + azione，你就 + stessa azione",
-    "explanation": "La ripetizione esige che l’interlocutore esegua l’istruzione senza discutere. 让 o 叫 introduce ciò che viene richiesto, non una passiva; il tono è deciso e può risultare brusco.",
+    "title": "Do as you are told",
+    "pattern": "让／叫你 + action，你就 + same action",
+    "explanation": "The repetition demands that the listener follow the instruction without arguing. 让 or 叫 introduces what is requested, not a passive; the tone is firm and can sound brusque.",
     "examples": [
       {
         "id": "G4-075-1",
         "hanzi": "让你坐你就坐，别站着了。",
         "pinyin": "Ràng nǐ zuò nǐ jiù zuò，bié zhànzhe le.",
-        "translation": "Se ti dico di sederti, siediti: non restare in piedi."
+        "translation": "If I tell you to sit down, sit down; don't remain standing."
       },
       {
         "id": "G4-075-2",
         "hanzi": "叫你等你就等，别乱跑。",
         "pinyin": "Jiào nǐ děng nǐ jiù děng，bié luàn pǎo.",
-        "translation": "Se ti dico di aspettare, aspetta e non andare in giro."
+        "translation": "If I tell you to wait, wait and don't wander around."
       }
     ]
   },
@@ -1827,21 +1827,21 @@
     "id": "G4-076",
     "level": 4,
     "sourceNo": 287,
-    "title": "A ogni costo bisogna",
-    "pattern": "说什么／怎么着 + 也得 + azione",
-    "explanation": "说什么也得 e 怎么着也得 esprimono una necessità o determinazione che non ammette ostacoli: in ogni caso, costi quel che costi. Non introducono una domanda su che cosa dire o come fare; 得 si legge děi.",
+    "title": "It must be done at any cost",
+    "pattern": "说什么／怎么着 + 也得 + action",
+    "explanation": "说什么也得 and 怎么着也得 express a necessity or determination that admits no obstacles: in any case, whatever the cost. They do not introduce a question about what to say or how to act; 得 is pronounced děi.",
     "examples": [
       {
         "id": "G4-076-1",
         "hanzi": "答应了孩子，我说什么也得去。",
         "pinyin": "Dāying le háizi，wǒ shuō shénme yě děi qù.",
-        "translation": "L’ho promesso al bambino: devo andarci a ogni costo."
+        "translation": "I promised the child; I have to go at any cost."
       },
       {
         "id": "G4-076-2",
         "hanzi": "明天是妈妈的生日，我怎么着也得回家。",
         "pinyin": "Míngtiān shì māma de shēngrì，wǒ zěnmezhāo yě děi huí jiā.",
-        "translation": "Domani è il compleanno di mamma: devo tornare a casa in ogni caso."
+        "translation": "Tomorrow is Mom's birthday; I have to go home no matter what."
       }
     ]
   }

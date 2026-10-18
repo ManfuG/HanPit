@@ -42,8 +42,8 @@ export function createPronunciation(defaultStatus: HTMLElement): Pronunciation {
     const showError = (blocked = false) => {
       if (attempt !== playingAttempt || source !== playingSource) return;
       status.textContent = blocked
-        ? 'Riproduzione automatica bloccata. Premi Ascolta per ascoltare la pronuncia.'
-        : 'File audio non disponibile o non valido. Premi Ascolta per riprovare.';
+        ? 'Autoplay blocked. Press Listen to hear the pronunciation.'
+        : 'Audio file unavailable or invalid. Press Listen to retry.';
       status.hidden = false;
     };
     onError = () => {

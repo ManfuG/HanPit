@@ -1,100 +1,93 @@
 # HanPit
 
-Web app essenziale per flashcard, grammatica e letture di cinese HSK 3.0. TypeScript, Vite e FSRS-6; nessun backend.
+Minimal HSK 3.0 Chinese study web app: flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
 
-## Avvio
+## Run
 
-Node.js 24 o superiore.
+Node.js 24 or later.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Aprire l’indirizzo mostrato da Vite. Build statica: `npm run build`; anteprima: `npm run preview`.
+Open the URL printed by Vite. Static build: `npm run build`; production preview: `npm run preview`.
 
-## Comportamento
+## Flashcards
 
-- Fronte: carattere/parola. Retro: pinyin, significato **in inglese**, pronuncia neurale mandarino.
-- Valutazioni Di nuovo / Difficile / Bene / Facile, con anteprima dell’intervallo. Spazio mostra la risposta; 1–4 valutano.
-- FSRS-6 tramite `ts-fsrs`: ritenzione 90%, apprendimento 1/10 minuti, riapprendimento 10 minuti. **Il primo Facile su una carta nuova vale 5 giorni**, con stabilità iniziale FSRS di 5 giorni, non una scadenza sovrascritta dopo il calcolo. Gli altri parametri restano quelli di FSRS-6. Le scadenze già salvate non vengono riscritte. Prima le carte in apprendimento scadute, poi i ripassi scaduti, poi le nuove; nessun limite giornaliero. Le carte future non vengono anticipate.
-- Carte, storico delle valutazioni e livello conservati in IndexedDB. Il salvataggio di carta e storico è atomico; si passa alla carta successiva solo dopo il salvataggio. Dati locali al browser e all’origine, senza account o sincronizzazione; cancellare i dati del sito elimina i progressi.
-- Si parte da HSK 1; il selettore mostra soltanto come disponibili i livelli già sbloccati. Il mazzo include cumulativamente il vocabolario precedente. Tornare a un livello inferiore nasconde, ma non elimina, le carte superiori.
-- Grammatica e Letture mostrano il livello selezionato. Test permette di sbloccare il livello successivo con 20 risultati perfetti consecutivi.
+- Front: Chinese character/word. Back: pinyin, English meaning and local neural Mandarin audio.
+- Again / Hard / Good / Easy, with interval previews. Space reveals the answer; 1–4 grade it.
+- FSRS-6 through `ts-fsrs`: 90% retention, 1/10-minute learning steps, 10-minute relearning. **The first Easy on a new card schedules five days**, through FSRS initial stability rather than an overridden due date. Existing schedules remain unchanged. Due learning cards precede due reviews, then new cards; no daily limit or early future reviews.
+- Cards, review history, selected level and test progress are stored locally in IndexedDB. Card and review are committed atomically before advancing. No account or synchronization; clearing site data deletes progress.
+- Start at HSK 1. Higher levels require twenty consecutive perfect tests. Vocabulary is cumulative; selecting a lower level hides, but never deletes, higher-level cards.
 
-## Vocabolario
+## Vocabulary
 
-**11.092 voci**, secondo lo standard ufficiale [GF0025-2021 del Ministero dell’Istruzione cinese](https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/t20211118_580755.html). Livelli 1–6 e blocco comune **7–9**: lo standard non suddivide il vocabolario avanzato in tre liste. Non va confuso con successivi programmi d’esame.
+**11,092 entries** from the Chinese Ministry of Education's official [GF0025-2021 standard](https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/t20211118_580755.html): levels 1–6 and the common advanced **7–9** block. The standard does not split the advanced vocabulary into three separate lists; this is not a later examination syllabus.
 
-I JSON sono inclusi: nessun download esterno durante lo studio. Caricamento per livello, cache in memoria e selezione della carta in un solo passaggio O(n), senza ordinamento del mazzo. Stato FSRS indicizzato per ID ufficiale stabile; ogni valutazione scrive solo una carta e una voce di storico.
-
-Per rigenerare i dati dalle revisioni fissate delle fonti:
+JSON files ship with the app. Per-level Promise caches and stable official IDs are shared by flashcards and tests. Scheduling scans the deck once, O(n), without sorting or copying it per answer. Each grade writes one card and one review.
 
 ```sh
 npm run data:import
 ```
 
-L’importazione verifica SHA-256, conteggi ufficiali, ID e copertura delle definizioni prima di pubblicare i file. Fonti, correzioni editoriali e licenze in [`public/data/README.md`](public/data/README.md). I significati delle flashcard restano in inglese. I test usano anche glossari italiani originali derivati dagli stessi significati CC-CEDICT, sotto CC BY-SA 3.0.
+The importer checks pinned SHA-256 hashes, official counts, IDs and definition coverage. Sources, editorial adaptations and licenses: [`public/data/README.md`](public/data/README.md). Flashcards and tests reuse the same English meanings; there is no separate translation dictionary or runtime translation service.
 
-## Grammatica
+## Grammar and vocabulary readiness
 
-**572 punti grammaticali dell’Appendice A di GF0025-2021**, nei livelli 1–6 e nel blocco comune 7–9. Ogni regola ha schema, spiegazione italiana ed esempi con caratteri, pinyin, traduzione italiana e Ascolta: **1.365 frasi** complessive. Spiegazioni ed esempi sono contenuti didattici originali, non una traduzione ufficiale dello standard.
+**572 grammar points from Appendix A of GF0025-2021**, with patterns, English explanations and **1,365 Chinese examples**, explicit pinyin, English translations and Listen controls. These are editorial teaching materials, not an official English translation.
 
-Si scarica soltanto il JSON del livello corrente, con cache delle richieste. Gli esempi vengono inseriti nel DOM alla prima apertura della regola; aprirla non avvia né precarica audio. Ascolta carica e riproduce soltanto la frase scelta. Il vocabolario delle flashcard resta cumulativo e i progressi non vengono modificati studiando grammatica.
+With N new words and R new rules, rule i requires the first `floor(N*i/R)` words of its block, plus all earlier levels. HSK 1 has 500 words and 48 rules: its first cutoffs are 10, 20, 31 and 41. Curriculum files reorder only new-card introduction; existing cards, review history and due dates are not rewritten.
 
-Inventario, correzioni della trascrizione, conteggi e provenienza in [`public/data/README.md`](public/data/README.md). `npm run grammar:check` verifica tutti i livelli senza caricare il modello vocale.
+**Green** summaries have all required vocabulary studied; **red** summaries still have missing vocabulary. A word counts only after a saved rating (`reps > 0`), not merely revealing the answer. Readiness checks the actual contiguous curriculum prefix and every previous level: unrelated or later studied cards cannot fill a hole. Red lessons remain openable. Accessible summary labels state readiness as well as using color.
 
-## Progressione e letture
+Readiness is refreshed on returning to the section and when a pending review commits after navigation. Only small curriculum metadata is needed; opening Grammar or Readings does not fetch flashcard vocabulary. Prefix calculation is shared, performed once per show, not once per row or per answer.
 
-`curriculum-level-{1..7}.json` definisce l’ordine di introduzione delle parole e delle regole, senza cambiare ID o livelli ufficiali. Si riordinano solo le carte nuove: i ripassi scaduti mantengono la precedenza FSRS e le scadenze persistite non vengono riscritte.
+Grammar loads only the selected lesson JSON, with cached requests. Bodies are created on first expansion. Expanding a rule does not preload or play audio; Listen loads only the selected example. Closing the rule or changing section stops playback.
 
-Con `N` parole e `R` regole nuove nel livello, la regola in posizione `i` usa al massimo le prime `floor(N × i / R)` parole, oltre a tutti i livelli precedenti. HSK 1 ha **500 parole e 48 regole**: i primi limiti sono 10, 20, 31 e 41, fino a 500. Gli esempi sono stati adattati al lessico disponibile. Le forme grammaticali introdotte dalla regola stessa, come il suffisso 儿 o la particella 矣, appartengono alla conoscenza grammaticale e non richiedono una flashcard inesistente.
+## Readings
 
-**Letture** contiene dieci testi originali per ciascuno dei sette blocchi: **70 testi**, con temi diversi. La lettura `j` usa le prime `floor(N × j / 10)` parole e le regole già comprese entro quel limite, più le conoscenze dei livelli precedenti. Per HSK 1: 50, 100, …, 500 parole. Ogni paragrafo ha caratteri, Pinyin e traduzione italiana; due caselle indipendenti mostrano o nascondono i supporti sotto il cinese. Entrambi sono nascosti inizialmente. **Nessun audio nelle letture.**
+Ten original passages per block, **70 in total**. Reading j requires the first `floor(N*j/10)` current words and the grammar taught within that cutoff, plus earlier levels. HSK 1 cutoffs are 50, 100, …, 500 words. The same green/red vocabulary indication applies.
 
-Si caricano soltanto percorso e letture del livello scelto, con cache delle richieste; i paragrafi vengono inseriti alla prima apertura. I limiti restano indicazioni didattiche: lo sblocco avviene per livello, non per singola regola o lettura.
-
-Verifiche offline, con la sola libreria standard Python:
+All **193 paragraphs** contain Chinese, citation-tone pinyin and an English translation. Independent Pinyin and Translation checkboxes show these supports below the Chinese; both start hidden. **No reading audio.** Only selected-level readings and curriculum metadata are loaded; paragraphs are created on first expansion.
 
 ```sh
 npm run curriculum:check
 npm run curriculum:test
 ```
 
-Il controllo verifica permutazioni complete degli ID, dipendenze lessicali dei testi cinesi, letture polifoniche negli esempi e disponibilità delle regole dichiarate. La coerenza sintattica delle letture è sottoposta anche a revisione editoriale; il controllo lessicale non è un parser grammaticale completo. `npm run curriculum:build` crea soltanto percorsi mancanti validi e non sovrascrive quelli già fissati.
+The offline Python standard-library validator checks complete ID permutations, lexical prefixes, pronunciation-sensitive identities, and declared grammar availability. It is not a complete syntactic parser or a claim of native-speaker review. `npm run curriculum:build` creates only missing valid plans and never overwrites existing sequences. Sources and narrowly authorized grammatical forms are documented in `public/data/README.md`.
 
-## Test e sblocco
+## Tests and unlocking
 
-Un test per ciascuno dei sette blocchi HSK, **20 domande casuali a scelta multipla**, quattro opzioni e una risposta corretta. Ogni tentativo comprende cinque domande per tipo:
+One test per HSK block: **20 random multiple-choice questions**, four options and one correct answer, five questions of each type:
 
-- caratteri → Pinyin;
-- caratteri → significato italiano;
-- frase cinese della grammatica → traduzione italiana;
-- parola o espressione italiana → caratteri.
+- Chinese → pinyin;
+- Chinese → English meaning;
+- Chinese grammar sentence → English translation;
+- English meaning → Chinese.
 
-Il pool comprende tutte le parole e le regole del livello selezionato e dei precedenti: fino a **11.092 voci e 572 regole / 1.365 esempi**. I glossari italiani sono contenuti editoriali locali, non traduzioni ufficiali dello standard. Letture e test non richiedono servizi esterni o sintesi audio.
+The cumulative pool includes every vocabulary entry and grammar rule through the selected level: up to **11,092 words and 572 rules / 1,365 examples**. Sampling does not copy or shuffle the whole deck. Conservative sense/content filters reject synonymous distractors; the global pinyin index excludes valid alternative readings, including later-level readings. These filters are not a complete semantic parser or an official examination bank.
 
-**20 test da 20/20 consecutivi sbloccano il livello seguente.** Una risposta errata confermata azzera immediatamente la serie del proprio livello, anche abbandonando il tentativo. Un tentativo incompleto non assegna successi. Le serie sono indipendenti; un livello già sbloccato non si riblocca. Il blocco 7–9 è l’ultimo.
+**Twenty consecutive 20/20 results unlock the next level.** A committed wrong answer immediately resets that level's streak, even if the attempt is abandoned. Incomplete attempts award no success. Streaks are independent; unlocked levels never relock. The common 7–9 block is final.
 
-Conteggi e sblocco sono salvati atomicamente in IndexedDB prima di avanzare la UI. In caso di errore di salvataggio la stessa risposta resta recuperabile, senza assegnare due successi. Il caricamento dei pool è lazy e condiviso con le cache del vocabolario e della grammatica; il campionamento non copia o mescola l’intero mazzo.
+Results are saved atomically before advancing the UI. A failed save remains explicitly retryable without awarding a duplicate success. Pools load lazily and share vocabulary/grammar caches. Only consecutive-success counts and unlocked level are persisted, not a test history.
 
-Questo aggiornamento applica il **reset richiesto una sola volta per browser/origine**: carte, storico, livello, serie e sblocchi tornano allo stato iniziale, con HSK 1 disponibile. Il marcatore `settings.progressRevision = 1` viene scritto nella stessa transazione del reset; i nuovi progressi non vengono cancellati ai reload successivi.
+This English/readiness update does **not** reset progress. The previous user-requested reset remains a one-time migration guarded by `settings.progressRevision = 1`; the marker and existing database schema are unchanged.
 
-`npm run tests:check` verifica glossari italiani e indice delle letture polifoniche. `python3 scripts/check-tests.py --write-pinyin` rigenera soltanto tale indice dai JSON ufficiali invariati.
+`npm run tests:check` checks vocabulary meanings and exact agreement of the pronunciation index with the official source. `python3 scripts/check-tests.py --write-pinyin` rebuilds only that index.
 
-## Pronuncia e compatibilità
+## Audio
 
-Browser moderno con IndexedDB, `Promise.withResolvers` e riproduzione MP3. La voce è **Kokoro-82M-v1.1-zh, zf_001**, modello neurale dedicato al cinese con [licenza Apache 2.0](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh). Le **11.092 pronunce del vocabolario** sono generate in anticipo e incluse in `public/audio/` (circa **91,2 MiB** per il vocabolario): nessun servizio a pagamento, chiave API, voce del sistema o modello da eseguire sul dispositivo. Durante lo studio si scarica/precarica solo il piccolo file della carta corrente, non l’intero corpus.
+Requires a modern browser with IndexedDB, `Promise.withResolvers` and MP3 playback. **Kokoro-82M-v1.1-zh, voice zf_001**, [Apache 2.0](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh), generated offline. The 11,092 vocabulary MP3s occupy about 91.2 MiB; grammar MP3s are separate under `public/audio/grammar/`. No model, paid service, API key, system voice or robotic fallback runs on the device. One player is reused; only the current card or explicitly selected example is loaded.
 
-Per il vocabolario, il generatore usa il **pinyin della carta** per distinguere i caratteri polifonici, comprese ü, sillabe neutre ed erhua, e applica il sandhi tonale contestuale. Per le voci con più letture ufficiali viene pronunciata la prima. Il manifest registra pinyin di citazione, lettura di superficie e fonemi per ogni ID. Questa prosodia riguarda parole isolate.
+Vocabulary audio starts on reveal; Listen repeats it. Grading, changing card/level/section or hiding the page stops playback. Playback failures are visible and explicitly retryable. Official pinyin selects polyphonic readings; variants separated by `/` use the first reading. Manifests record citation pinyin, surface pronunciation, phonemes and hashes.
 
-Alla rivelazione parte l’audio; Ascolta lo ripete. Cambiare carta, livello, sezione o nascondere la pagina interrompe la riproduzione. Se il browser blocca l’avvio automatico o il file non è disponibile, il motivo è visibile e Ascolta permette di riprovare. Nessun fallback alla vecchia voce robotica.
+Sentence audio respects punctuation, neutral tones, erhua and contextual tone sandhi, including numeral/compound/classifier uses of 一. Misalignment, unknown phonemes and excessive length are rejected, never truncated. Instrumental validation does not imply human listening review or universally natural pronunciation.
 
-Le frasi grammaticali usano lo stesso modello, con MP3 separati in `public/audio/grammar/`. Il pinyin esplicito degli esempi guida i polifonici; la punteggiatura conserva pause e confini del sandhi. Il generatore distingue 一 nei numerali e nelle parole composte da 一 davanti ai classificatori, senza cambiare i toni neutri scritti. Frasi troppo lunghe o non allineate vengono rifiutate, mai troncate. Chiudere la regola interrompe la sua pronuncia. Nessuna revisione d’ascolto umana dell’intero corpus è dichiarata.
+### Offline audio tools
 
-### Rigenerazione audio, solo sviluppo
-
-I file sono inclusi: per usare o compilare la web app non serve Python. Per rigenerarli servono Python 3.12, `uv`, FFmpeg con `libmp3lame` e rete per il primo download del modello:
+The app does not require Python to run or build. Regeneration requires Python 3.12, `uv`, FFmpeg with `libmp3lame`, and network access for the initial pinned-model download:
 
 ```sh
 uv venv --python 3.12 .venv-audio
@@ -108,9 +101,9 @@ npm run grammar:audio:check
 npm run grammar:audio:test
 ```
 
-Il modello e le dipendenze CPU restano nella directory ignorata `.venv-audio/`; non entrano nella build né in git. Revisione del modello, SHA-256, dipendenze, voce e regole fonetiche sono fissati e registrati nei manifest. `audio:check` e `grammar:audio:check` decodificano i rispettivi corpus e verificano copertura, hash, durata e segnale non silenzioso. Dopo una modifica ai dati, rigenerare e verificare il relativo audio. Il generatore delle frasi riusa quello del vocabolario senza modificarlo né riscrivere i suoi MP3.
+Weights and CPU dependencies stay in ignored `.venv-audio/`, outside Git and the build. Manifests pin model revision, sources, generators and runtime. Audio checks decode complete corpora and verify coverage, format, duration, signal and SHA-256. Changed spoken Chinese/pinyin requires regeneration. English-only editorial changes preserved all pronunciation records and MP3s; grammar source fingerprints were refreshed only after verifying phonetic equivalence.
 
-## Verifiche
+## Verification
 
 ```sh
 npm test
@@ -121,12 +114,10 @@ npm run tests:check
 npm run build
 ```
 
-**49 test passati**: 7 FSRS, 4 sulla generazione dei quiz, 4 sulla progressione dei test, 14 sul validatore didattico, 7 fonetici del vocabolario e 13 delle frasi. Controllati tutti i percorsi, **572 regole**, **1.365 esempi**, **70 letture**, le **11.092 glosse italiane** e le **138 grafie con più letture ufficiali**. Uno smoke sul generatore reale ha prodotto 1.400 tentativi, 200 per livello, verificando le quattro tipologie, quattro opzioni uniche e venti bersagli distinti per tentativo.
+54 behavior/phonetic tests passed: 7 FSRS, 4 quiz, 4 test progression, 5 readiness, 14 curriculum, 7 vocabulary phonetics and 13 sentence phonetics. The grammar audio check decoded and validated all 1,365 existing clips after the English migration.
 
-Smoke Chromium sullo sviluppo a 1280×900 e 390×844 e sulla produzione a 390×844. Completati venti test perfetti consecutivi su HSK 1: HSK 2 resta bloccato fino al ventesimo, poi si sblocca e conserva 1.272 carte cumulative dopo reload. Una risposta errata azzera subito la serie, anche abbandonando il tentativo. Verificati persistenza, recupero dopo HTTP 503, conservazione del tentativo cambiando sezione e mancata duplicazione del successo dopo errore di salvataggio e doppio clic sul recupero. In produzione l’interruzione forzata della transazione mostra un errore leggibile e non attribuisce successi prima del commit; avviati inoltre i test di tutti i sette blocchi.
+Development Chromium smoke at 1280×900 and 390×844 covered actual saved-review thresholds (9→10 and 49→50), missing current/prior vocabulary, retained lesson bodies, and a review held open while navigating: readiness stayed red until commit. All grammar lessons and readings were opened; English supports and the absence of reading audio or additional vocabulary requests were checked. An English 20/20 test exercised all four question types, persisted its streak across reload, then reset it on a wrong answer. Another 1,400 generated attempts covered all seven cumulative pools. Chinese, pinyin, IDs, ordering and pronunciation records were compared against the pre-translation data.
 
-Aperte tutte le 70 letture, con 193 paragrafi: Pinyin e Traduzione si attivano indipendentemente sotto il cinese, senza audio né nuove richieste del vocabolario passando tra i livelli. Verificati anche i supporti della lettura avanzata sulla produzione mobile. Nessun overflow, errore runtime non gestito o richiesta esterna osservato nei percorsi verificati.
+Production Chromium at 390×844 confirmed the 49→50 reading boundary, four ready grammar rules after fifty studied words, retained reading supports, and no redundant readiness-attribute writes when revisiting unchanged progress. Vocabulary and grammar MP3s reached native `ended` with a single reused player; first Easy remained five days. A complete English test persisted its success after reload without changing cards, review history, Dates or the reset marker. No unhandled runtime errors, external requests or overflow were observed.
 
-Verificato il reset una tantum con progressi preesistenti sullo sviluppo e lo stato iniziale sull’origine utente localhost:5173: HSK 1, 500 nuove carte, nessuna review o serie di successi, livelli superiori bloccati. Dopo il reset, primo Facile ancora a **5 giorni**, Date e stabilità persistite; i nuovi progressi delle carte e dei test sopravvivono al reload. Rimossi i dati sintetici dalle sole origini di verifica localhost:5177 e :5178.
-
-Build TypeScript/Vite riuscita: JavaScript **16,25 kB gzip**, esclusi dati/audio. Verificati gli hash di tutti i **12.457 MP3**, **37 JSON** e **due manifest** nella distribuzione; vocabolario ufficiale, lezioni grammaticali, generatore audio del vocabolario e corpus MP3 invariati. Nessun peso del modello o audio di lettura/test incluso. La verifica strumentale dell’audio non equivale a un ascolto umano o a una garanzia universale di naturalezza.
+Final TypeScript/Vite build: JavaScript **15.70 kB gzip**, excluding data/audio. All **12,457 MP3 hashes**, **30 JSON files** and **two manifests** in the distribution were verified; no model weights, obsolete Italian glossaries or reading/test audio are included. Synthetic data was removed only from verification origins localhost:5177 and :5178; the user origin localhost:5173 was not cleared by this update.
