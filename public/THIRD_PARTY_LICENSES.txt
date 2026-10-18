@@ -1,3 +1,113 @@
+HanPit — original application and authored material
+https://github.com/ManfuG/HanPit
+
+MIT License
+
+Copyright (c) 2026 Giacomo Manfucci (ManfuG)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Scope: original application code, design, documentation, curriculum sequencing,
+grammar lessons and readings, and only other contributions whose rights are
+held by Giacomo Manfucci. This does not relicense third-party material.
+The adapted vocabulary in data/level-*.json is distributed under CC BY-SA 4.0;
+retain data/README.md (attribution, changes and upstream transcription notices)
+and both data/CC-BY-SA-4.0.txt and data/CC-BY-SA-3.0.txt. Grammar contributions
+retain their upstream MIT notices. The source audio generators retain their
+Apache-2.0 terms and Misaki/PaddleSpeech notices; dependencies retain their
+own licenses.
+
+For generated MP3s, MIT covers only any copyright or related rights held by
+Giacomo Manfucci in HanPit's contributions, not third-party voices, training
+data or underlying-text rights. Copyrightability and related rights vary by
+jurisdiction. Preserve underlying CC BY-SA obligations for any protected
+vocabulary-data adaptation. The model's Apache-2.0 license does not itself
+license outputs or establish that they are copyrightable or rights-cleared.
+Retain audio/LICENSE, audio/NOTICE and audio/grammar/NOTICE.
+
+------------------------------------------------------------------------
+
+Vocabulary and grammar sources
+
+The adapted data/level-*.json vocabulary is licensed under Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), not MIT:
+https://creativecommons.org/licenses/by-sa/4.0/
+Full legal code: data/CC-BY-SA-4.0.txt; original source: data/CC-BY-SA-3.0.txt.
+
+Adapted from CC-CEDICT, published by MDBG and maintained by the CC-CEDICT
+community, including earlier CEDICT work:
+Copyright (C) 1997, 1998 Paul Andrew Denisowski.
+https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+https://cc-cedict.org/wiki/
+
+Source transcriptions and grammar inventory:
+Copyright (c) 2023 Ivan Krasilnikov
+Copyright (c) 2021 Shawky
+Copyright (c) 2021 Pleco Inc.
+https://github.com/ivankra/hsk30
+Copyright (c) 2023 Yanis Zafirópulos
+Copyright (c) 2025 Yanis Zafirópulos (aka Dr.Kameleon)
+https://github.com/drkameleon/complete-hsk-vocabulary
+https://github.com/jelleverheyen/hsk-vocabulary
+
+HanPit contributors adapted the per-level dataset. Retain attribution,
+identify changes, and share protected adaptations under the terms permitted
+by CC BY-SA 4.0. The transcription MIT grants do not remove these terms.
+The pinned 2013 dictionary snapshot retains its CC BY-SA 3.0 notice. The
+modern vocabulary fork does not pin its underlying dictionary snapshot;
+MDBG's current terms are 4.0. The combined adaptation uses 4.0, permitted
+for the older input by CC BY-SA 3.0 section 4(b).
+Full immutable revisions, changes and transcription MIT permission notices:
+data/README.md
+Official GF0025-2021 standard (alignment does not imply endorsement):
+https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/t20211118_580755.html
+
+------------------------------------------------------------------------
+
+Offline synthesis tooling (not a blanket output license)
+
+Kokoro-82M-v1.1-zh by hexgrad, Apache-2.0, voice zf_001.
+Revision: 01e7505bd6a7a2ac4975463114c3a7650a9f7218
+https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
+The pinned model card credits LongMaoData for Chinese training data and
+crowdsourced synthetic English data contributors; full attribution and
+model hashes are retained in audio/NOTICE.
+
+Misaki 0.9.4 Chinese phoneme and tone-sandhi frontend, Apache-2.0, adapted
+from PaddlePaddle/PaddleSpeech:
+Copyright (c) 2021 PaddlePaddle Authors. All Rights Reserved.
+https://github.com/hexgrad/misaki
+https://github.com/PaddlePaddle/PaddleSpeech
+HanPit's adapter preserves authoritative Pinyin and applies contextual
+surface pronunciation rules; its source generators retain Apache-2.0.
+
+Full Apache-2.0 license: audio/LICENSE
+Vocabulary synthesis attribution, adaptation and output-rights notice:
+audio/NOTICE
+Grammar synthesis attribution and output-rights notice: audio/grammar/NOTICE
+Model weights and Python runtime packages are not distributed in this app.
+See the limited MIT grant and underlying-data obligations above; model/tool
+licensing does not establish copyrightability or clear third-party rights
+in generated recordings.
+
+------------------------------------------------------------------------
+
 ts-fsrs 5.4.2
 https://github.com/open-spaced-repetition/ts-fsrs
 

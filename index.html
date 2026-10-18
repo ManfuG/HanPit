@@ -39,20 +39,21 @@
       </svg>
     </div>
     <header class="header">
-      <a class="brand" href="./" aria-label="HanPit, home"><span lang="zh-CN">汉</span> HanPit</a>
+      <a class="brand" href="%BASE_URL%" aria-label="HanPit, home"><span lang="zh-CN">汉</span> HanPit</a>
       <span class="standard">HSK 3.0</span>
     </header>
     <main>
       <nav class="tabs" aria-label="Sections">
-        <button type="button" data-section="flashcards" aria-current="page">Flashcards</button>
+        <button type="button" data-section="home" aria-current="page">Home</button>
+        <button type="button" data-section="flashcards">Flashcards</button>
         <button type="button" data-section="grammar">Grammar</button>
         <button type="button" data-section="readings">Readings</button>
         <button type="button" data-section="tests">Tests</button>
       </nav>
       <p id="error" role="alert" hidden></p>
       <div id="section-heading" class="deck-heading">
-        <h1 id="section-title">Flashcards</h1>
-        <label class="level-label" for="level">Level
+        <h1 id="section-title">Home</h1>
+        <label class="level-label" for="level" hidden>Level
           <select id="level" disabled>
             <option value="1">HSK 1</option>
             <option value="2">HSK 2</option>
@@ -64,7 +65,41 @@
           </select>
         </label>
       </div>
-      <section id="flashcards" aria-label="Flashcards" aria-busy="true">
+      <section id="home" aria-label="Home">
+        <svg class="home-orbital" viewBox="0 -20 640 380" fill="none" aria-hidden="true" focusable="false">
+          <g class="home-orbit" transform="translate(320 170) rotate(-24) scale(1 .4)">
+            <circle r="260" />
+            <g class="home-satellite"><circle cx="260" r="9" /></g>
+          </g>
+          <g class="home-orbit" transform="translate(320 170) rotate(42) scale(1 .5)">
+            <circle r="224" />
+            <g class="home-satellite home-satellite-reverse"><circle cx="-112" cy="194" r="7" /></g>
+          </g>
+          <g class="home-orbit" transform="translate(320 170) rotate(-60) scale(1 .62)">
+            <circle r="194" />
+            <g class="home-satellite home-satellite-slow"><circle cx="-97" cy="-168" r="6" /></g>
+          </g>
+          <g transform="translate(320 170)">
+            <circle class="home-planet" r="65" />
+            <g class="home-wireframe">
+              <circle r="65" />
+              <ellipse rx="25" ry="65" /><ellipse rx="49" ry="65" />
+              <ellipse rx="65" ry="24" /><ellipse rx="65" ry="48" />
+              <path d="M-65 0H65M0-65V65" />
+            </g>
+          </g>
+          <g class="home-stars">
+            <circle cx="126" cy="86" r="1.5" /><circle cx="502" cy="236" r="2" />
+            <path d="M477 61V73M471 67H483M180 269V277M176 273H184" />
+          </g>
+        </svg>
+        <ol class="home-steps">
+          <li><h2>Start at HSK 1</h2><p>Learn vocabulary with Flashcards: reveal the answer, listen, then rate your recall.</p></li>
+          <li><h2>Read and practise</h2><p>Grammar and Readings are marked ready as you study the required vocabulary. Red lessons can still be opened.</p></li>
+          <li><h2>Advance through Tests</h2><p>Earn twenty consecutive perfect 20/20 results to unlock the next level. A wrong answer resets the streak. HSK 7–9 is the final block.</p></li>
+        </ol>
+      </section>
+      <section id="flashcards" aria-label="Flashcards" hidden>
         <dl class="counts" aria-label="Deck status">
           <div><dt>New</dt><dd id="new-count">—</dd></div>
           <div><dt>Due</dt><dd id="due-count">—</dd></div>
@@ -101,6 +136,7 @@
       <section id="readings" aria-label="Readings" hidden></section>
       <section id="tests" aria-label="Tests" hidden></section>
     </main>
+    <footer class="credits"><a href="%BASE_URL%THIRD_PARTY_LICENSES.txt">Licenses &amp; credits</a></footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

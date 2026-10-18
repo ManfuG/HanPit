@@ -6,6 +6,22 @@ Pinned revision: 01e7505bd6a7a2ac4975463114c3a7650a9f7218
 License: Apache License, Version 2.0 (included as LICENSE).
 The model weights and CPU runtime are not served with these audio assets.
 
+Output licensing (separate from the model/tool license):
+Copyright (c) 2026 Giacomo Manfucci (ManfuG), only for rights he holds.
+Any such copyright or related rights in HanPit's contributions are offered
+under MIT; the full grant is in ../THIRD_PARTY_LICENSES.txt. This is not a
+grant of third-party voice, training-data or underlying-text rights.
+These clips pronounce entries from the adapted CC-CEDICT vocabulary.
+Retain ../data/README.md and both bundled CC license texts, including
+attribution to CC-CEDICT / MDBG and community contributors, Paul Andrew Denisowski,
+Ivan Krasilnikov and transcription contributors, and Yanis Zafiropulos.
+Apply CC BY-SA 4.0 to any protected adaptation of that data; do not treat
+the recordings as unconditionally MIT or infer share-alike is waived.
+Copyrightability of generated sounds and any producer/related rights
+depend on jurisdiction and human contribution. Apache-2.0 licenses the
+model/tooling, not automatically its outputs. No blanket ownership,
+public-domain status or clearance of third-party rights is asserted.
+
 Model source SHA256:
 config.json: bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890
 kokoro-v1_1-zh.pth: b1d8410fa44dfb5c15471fd6c4225ea6b4e9ac7fa03c98e8bea47a9928476e2b

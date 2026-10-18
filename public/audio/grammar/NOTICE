@@ -5,6 +5,17 @@ reviewed Pinyin accompany the GF0025-2021-aligned grammar lessons. The authored
 examples and English teaching prose are not official examples or quotations
 from the standard, and are not copied from commercial grammar websites.
 
+The original HanPit example text is MIT-licensed, copyright (c) 2026
+Giacomo Manfucci (ManfuG). For these generated MP3s, MIT covers only his
+own copyright or related rights, if any, in HanPit's contributions; the
+full grant is in ../../THIRD_PARTY_LICENSES.txt. The source inventory's
+upstream MIT notices remain in ../../data/README.md. Independent grammar
+examples are not CC-CEDICT-derived definitions. Apache-2.0 licenses the
+model/tooling, not automatically its outputs; copyrightability and
+producer/related rights depend on jurisdiction and human contribution.
+No blanket ownership of generated sounds, public-domain status or grant
+of third-party voice, training-data or other rights is asserted.
+
 Generated with hexgrad/Kokoro-82M-v1.1-zh, pinned revision
 01e7505bd6a7a2ac4975463114c3a7650a9f7218, Mandarin voice zf_001, speed 1.0.
 Model: https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh

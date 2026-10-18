@@ -2,9 +2,11 @@
 
 Local-first Chinese study with HSK flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
 
-The interface keeps its original system sans-serif typography and four-section study layout. Forest-green panels, citron accents, and static botanical/orbital SVG details echo the portfolio without external fonts, animation, or decorative text.
+Home explains the HSK study flow with a lightweight orbital scene; Flashcards, Grammar, Readings and Tests retain their study layouts. The original system sans-serif typography and forest-green/citron palette remain. Graphics use inline SVG and CSS, without external fonts or rendering libraries; motion pauses outside Home and respects reduced-motion preferences.
 
 [Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/).
+
+![HanPit Home with its orbital scene and three-step HSK study guide](docs/home.webp)
 
 ## Run
 
@@ -29,9 +31,9 @@ Study progress remains in IndexedDB for the browser origin. Moving from localhos
 
 ## Licensing
 
-There is **no project-wide application license** in this repository. Public source visibility alone does not grant general reuse rights to the application or original lesson/reading content. Choosing a license requires the rights holder's decision; none is inferred from dependency licenses.
+Original HanPit code, design and authored teaching content are [MIT-licensed](LICENSE), copyright © 2026 Giacomo Manfucci (ManfuG), for rights he holds. The adapted CC-CEDICT vocabulary is distributed under **CC BY-SA 4.0**, with original source notices preserved; upstream transcription notices and the audio generators' Apache-2.0 terms remain intact.
 
-The adapted vocabulary dataset is CC BY-SA 3.0 and upstream transcription notices are retained. Kokoro's Apache-2.0 model license and synthesis attribution do not establish a blanket license for all app content or generated recordings. Scope, sources and bundled notices are listed in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+The model's license does not automatically license generated recordings. MIT covers only HanPit-owned audio contributions, with underlying-data obligations and output-rights limitations detailed in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md). The app's **Licenses & credits** link exposes the bundled notices and attributions.
 
 ## Flashcards
 

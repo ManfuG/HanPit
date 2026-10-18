@@ -20,14 +20,14 @@ const readings = createReadings(element('readings'), () => storage.progress);
 const gradeButtons = [...ratings.querySelectorAll<HTMLButtonElement>('button')];
 const dateFormat = new Intl.DateTimeFormat('en', { dateStyle: 'short', timeStyle: 'short' });
 const numberFormat = new Intl.NumberFormat('en');
-const sectionTitles: Record<string, string> = { flashcards: 'Flashcards', grammar: 'Grammar', readings: 'Readings', tests: 'Tests' };
+const sectionTitles: Record<string, string> = { home: 'Home', flashcards: 'Flashcards', grammar: 'Grammar', readings: 'Readings', tests: 'Tests' };
 let storage: StudyStorage;
 let tests: TestsSection | undefined;
 let words: Word[] = [];
 let current: Word | undefined;
 let revealed = false;
 let busy = true;
-let activeSection = 'flashcards';
+let activeSection = 'home';
 let level = 1;
 let wakeTimer: number | undefined;
 let ready = false;
@@ -195,6 +195,7 @@ function showSection() {
   if (ready) element('error').hidden = true;
   element('section-heading').hidden = false;
   element('section-title').textContent = sectionTitles[activeSection]!;
+  levelSelect.parentElement!.hidden = activeSection === 'home';
   for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
     const active = tab.dataset.section === activeSection;
     if (active) tab.setAttribute('aria-current', 'page');
@@ -243,6 +244,13 @@ for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')
   });
 }
 
+document.querySelector<HTMLAnchorElement>('.brand')!.addEventListener('click', event => {
+  if (event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  event.preventDefault();
+  activeSection = 'home';
+  showSection();
+});
+
 document.addEventListener('keydown', event => {
   if (activeSection !== 'flashcards' || busy || deckLoading || event.repeat || event.altKey || event.ctrlKey || event.metaKey) return;
   if ((event.target as HTMLElement).matches('select, input, textarea, a, [contenteditable]')) return;
@@ -260,9 +268,12 @@ window.addEventListener('focus', () => {
   if (ready && activeSection === 'flashcards' && !busy && !deckLoading && !current && deckLevel === level) render();
 });
 window.addEventListener('pagehide', pronunciation.stop);
-document.addEventListener('visibilitychange', () => {
+function updateVisibility() {
+  document.documentElement.classList.toggle('page-hidden', document.hidden);
   if (document.hidden) pronunciation.stop();
-});
+}
+document.addEventListener('visibilitychange', updateVisibility);
+updateVisibility();
 
 async function start() {
   try {

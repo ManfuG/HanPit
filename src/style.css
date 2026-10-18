@@ -33,6 +33,8 @@ input { accent-color: var(--accent); }
 .brand { display: flex; gap: 10px; align-items: center; text-decoration: none; color: inherit; font-size: 22px; font-weight: 650; letter-spacing: -.6px; }
 .brand span { display: grid; place-items: center; width: 37px; height: 37px; border: 1px solid #d5e59b50; border-radius: 12px; color: var(--accent); background: var(--accent-soft); font-family: sans-serif; font-size: 24px; font-weight: 400; }
 .standard { color: var(--muted); font-size: 12px; letter-spacing: 1.2px; }
+.credits { margin: 0 20px 24px; text-align: center; font-size: 11px; }
+.credits a { color: var(--muted); text-underline-offset: 3px; }
 main { max-width: 760px; margin: 28px auto 56px; padding: 0 28px; }
 .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 34px; padding-bottom: 22px; border-bottom: 1px solid var(--border); }
 .tabs button { border: 1px solid transparent; border-radius: 12px; background: none; color: var(--muted); padding: 10px 14px; font-size: 13px; font-weight: 600; line-height: 1.4; }
@@ -41,6 +43,26 @@ main { max-width: 760px; margin: 28px auto 56px; padding: 0 28px; }
 h1 { margin: 0; font-size: clamp(28px, 4vw, 38px); font-weight: 600; letter-spacing: -.8px; line-height: 1.15; }
 .level-label { display: flex; align-items: center; gap: 12px; font-size: 12px; color: var(--muted); }
 select { min-height: 44px; max-width: 100%; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); color: var(--fg); padding: 9px 28px 9px 12px; font-size: 13px; }
+.home-orbital { display: block; width: 100%; max-width: 620px; height: auto; margin: 6px auto 20px; color: var(--accent); pointer-events: none; }
+.home-orbit > circle { stroke: currentColor; stroke-opacity: .3; stroke-width: 1; }
+.home-satellite { transform-origin: 0 0; animation: home-orbit 60s linear infinite; }
+.home-satellite circle { fill: currentColor; stroke: var(--bg); stroke-width: 1; }
+.home-satellite-reverse { animation-duration: 82s; animation-direction: reverse; }
+.home-satellite-slow { animation-duration: 104s; }
+.home-planet { fill: var(--panel); stroke: currentColor; stroke-opacity: .5; }
+.home-wireframe { stroke: currentColor; stroke-opacity: .35; stroke-width: .8; transform-origin: 0 0; animation: home-orbit 140s linear infinite; }
+.home-stars { fill: currentColor; stroke: currentColor; stroke-opacity: .45; fill-opacity: .5; }
+.home-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; margin: 0; padding-left: 20px; }
+.home-steps li { padding-left: 3px; }
+.home-steps li::marker { color: var(--accent); font-size: 12px; }
+.home-steps h2 { margin: 0 0 8px; font-size: 15px; font-weight: 600; }
+.home-steps p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+#home[hidden] .home-satellite, #home[hidden] .home-wireframe,
+.page-hidden .home-satellite, .page-hidden .home-wireframe { animation-play-state: paused; }
+@keyframes home-orbit { to { transform: rotate(1turn); } }
+@media (prefers-reduced-motion: reduce) {
+  .home-satellite, .home-wireframe { animation: none; }
+}
 .counts { display: flex; gap: 36px; margin: 26px 0 20px; }
 .counts div { display: flex; align-items: baseline; gap: 8px; }
 dt { font-size: 12px; color: var(--muted); }
@@ -112,10 +134,13 @@ kbd { font-family: inherit; font-weight: 400; opacity: .75; font-size: 10px; mar
   .header { margin: 16px 20px 0; padding: 14px 16px; }
   main { margin-top: 24px; padding: 0 20px; }
   .tabs { gap: 4px; justify-content: space-between; margin-bottom: 28px; }
-  .tabs button { padding: 10px 8px; font-size: 12px; }
+  .tabs button { padding: 10px 5px; font-size: 12px; }
   .deck-heading { align-items: flex-start; flex-wrap: wrap; }
   .level-label { margin-left: auto; flex-direction: column; align-items: flex-end; gap: 6px; }
   h1 { font-size: 28px; padding-top: 4px; }
+  .home-orbital { margin-block: 12px 20px; }
+  .home-steps { grid-template-columns: 1fr; gap: 20px; }
+  .home-steps h2 { margin-bottom: 4px; }
   .counts { gap: 24px; margin-top: 24px; }
   .counts div { flex-direction: column; gap: 5px; }
   .card { padding: 18px 20px 26px; min-height: 350px; }
@@ -125,7 +150,7 @@ kbd { font-family: inherit; font-weight: 400; opacity: .75; font-size: 10px; mar
   .ratings kbd, .primary kbd { display: none; }
 }
 @media (max-width: 360px) {
-  .tabs button { padding-inline: 6px; font-size: 11px; }
+  .tabs button { padding-inline: 3px; font-size: 11px; }
 }
 .page-garden { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; color: var(--positive); }
 .garden-sprig { position: absolute; bottom: -20px; left: -12px; width: clamp(110px, calc((100vw - 760px) / 2), 260px); height: min(76vh, 680px); }

@@ -68,16 +68,19 @@ These are deliberate, explicit mappings, not silent pronunciation-insensitive jo
 
 English dictionaries do not always subdivide a reading exactly as the standard does. Beyond the explicit numbered and affix refinements, these are dictionary glosses for the matched official reading, not a claim that every listed sense is individually examinable. The source transcription's spelling/pronunciation conventions are retained rather than silently rewriting the official identities.
 
-## Data license: CC BY-SA 3.0
+## Data license: CC BY-SA 4.0
 
-The **derived `level-*.json` vocabulary dataset**, including its adapted CC-CEDICT definitions and editorial dictionary adaptations, is distributed under the **Creative Commons Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0)**:
+The **derived `level-*.json` vocabulary dataset**, including its adapted CC-CEDICT definitions and editorial dictionary adaptations, is distributed under the **Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0)**:
 
-- [License deed](https://creativecommons.org/licenses/by-sa/3.0/)
-- [Full legal code](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+- [License deed](https://creativecommons.org/licenses/by-sa/4.0/)
+- [Full legal code](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+- [Bundled full legal code](CC-BY-SA-4.0.txt), retained for offline distribution.
+
+The [pinned 2013 CC-CEDICT header](https://github.com/regisb/CC-CEDICT/blob/a8e7ebcc6b7d19f6a615f9f1e8b1e3df6fad1e38/cedict_ts.u8#L1-L29) says CC BY-SA 3.0; its [original legal text](CC-BY-SA-3.0.txt) is also retained. MDBG's current publisher terms are CC BY-SA 4.0, while the modern vocabulary fork credits CC-CEDICT without pinning its dictionary snapshot or license version. The combined HanPit adaptation uses 4.0, permitted for the older input by CC BY-SA 3.0 section 4(b), rather than assuming all modern definitions carry 3.0. This does not replace the original license on the immutable 2013 source. The intermediary MIT notices do not waive underlying dictionary obligations.
 
 Attribution: **CC-CEDICT / MDBG and its community contributors; Ivan Krasilnikov and the transcription contributors named below; Yanis Zafirópulos (Dr.Kameleon); HanPit contributors for the adapted per-level dataset.** This file records the sources, immutable versions and changes. CC-CEDICT is based in part on CEDICT, copyright (C) 1997, 1998 Paul Andrew Denisowski. Attribution does not imply endorsement by these authors or by the Ministry of Education.
 
-You may share and adapt the data, including commercially, subject to attribution, a license link, indication of changes, and sharing adaptations under the same or a compatible license as permitted by CC BY-SA 3.0. No additional restrictions are imposed here. The upstream MIT notices below are retained for their respective contributions; they do **not** remove CC-CEDICT's attribution/share-alike requirements. This data licensing statement does not relicense unrelated application source code.
+You may share and adapt the data, including commercially, subject to attribution, a license link, indication of changes, and sharing adaptations under the same or a compatible license as permitted by CC BY-SA 4.0. No additional restrictions are imposed here. The upstream MIT notices below are retained for their respective contributions; they do **not** remove CC-CEDICT's attribution/share-alike requirements. This data licensing statement does not relicense unrelated application source code.
 
 ## Grammar inventory and original lessons
 
@@ -105,6 +108,8 @@ The inventory uses Ivan Krasilnikov’s [hsk30-grammar.csv at commit 4ff9e3915ce
 `grammar-index.json` preserves the corrected inventory’s source group, category, details and construction. `sourceNo` is the original CSV number. **`G1-001` … `G7-148` are stable local lesson IDs, not official appendix numbers**; in particular, the advanced transcription’s order differs from the PDF’s order. No point is deduplicated by its spelling.
 
 The seven lesson files contain English titles, patterns and explanations, plus original Chinese examples, explicit citation Pinyin and English translations. The English editorial migration preserves every Chinese/Pinyin value, identity and Chinese-character sequence in teaching prose. These are teaching materials aligned to the inventory, not an official English translation or Ministry endorsement. They do not derive from CC-CEDICT glosses; the vocabulary’s CC BY-SA statement above applies to `level-*.json`, not these independent lesson texts. The upstream MIT notice applies to the source transcription and its adapted inventory.
+
+Original HanPit teaching prose, examples, readings, curriculum sequencing and design are MIT-licensed, copyright (c) 2026 Giacomo Manfucci (ManfuG), only to the extent he holds the rights. The full grant is in [`../THIRD_PARTY_LICENSES.txt`](../THIRD_PARTY_LICENSES.txt) and the repository's root `LICENSE`. This does not relicense the CC-CEDICT-derived vocabulary or remove the inventory's retained upstream MIT notices. For generated audio, MIT covers only his own copyright or related rights, if any; the model license does not license every output. Preserve applicable underlying-text/data obligations and see [`../audio/NOTICE`](../audio/NOTICE) and [`../audio/grammar/NOTICE`](../audio/grammar/NOTICE).
 
 Validation from the project root:
 
@@ -141,7 +146,7 @@ These commands use the Python standard library only and run offline. `curriculum
 
 ## Test content
 
-Tests reuse the pronunciation-qualified English `meaning` values already provided by all **11,092 official vocabulary IDs**; there is no separate glossary or runtime translation model. The obsolete Italian glossary files and their loader were removed. Original IDs remain distinct, and the vocabulary attribution and CC BY-SA 3.0 license above continue to apply.
+Tests reuse the pronunciation-qualified English `meaning` values already provided by all **11,092 official vocabulary IDs**; there is no separate glossary or runtime translation model. The obsolete Italian glossary files and their loader were removed. Original IDs remain distinct, and the vocabulary attribution and CC BY-SA 4.0 license above continue to apply.
 
 `test-pinyin.json` is a derived index of the **138 repeated written forms** and their distinct raw official Pinyin values across all seven blocks. Quiz distractors must exclude every valid reading of the displayed form, including a pronunciation belonging to a later block; loading a lower test does not grant access to that later vocabulary.
 
