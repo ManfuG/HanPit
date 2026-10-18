@@ -4,6 +4,8 @@ Local-first Chinese study with HSK flashcards, grammar, readings and tests. Type
 
 The interface keeps its original system sans-serif typography and four-section study layout. Forest-green panels, citron accents, and static botanical/orbital SVG details echo the portfolio without external fonts, animation, or decorative text.
 
+[Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/).
+
 ## Run
 
 Node.js 24 LTS (`.nvmrc`; `nvm use` if installed). The npm lockfile is committed; use `npm ci` for a clean install.
@@ -20,6 +22,8 @@ Open the URL printed by Vite. Static build: `npm run build`; production preview:
 `npm run build` writes `dist/`. Vite uses a relative base so the same build can be served at a domain root or a GitHub project subpath such as `/HanPit/`; data and audio requests use `import.meta.env.BASE_URL`. Serve the directory over HTTP(S), with the project URL ending in `/`, rather than opening `index.html` as a local file. Preview locally before any separately authorized upload.
 
 Only `dist/` is needed by a static host. It includes the local data/audio and runtime dependency notice; keep those files together. Do not upload source environments or model weights. The GitHub workflow validates changes; it does not deploy a hosted site.
+
+The sibling `giacomo-portfolio` project also builds HanPit at `/projects/hanpit/` alongside QuantaPit and KnightPit, preserving the original source checkout and local-first runtime. Its Cloudflare publication audit retains the data/audio notices and checks Free-plan file limits.
 
 Study progress remains in IndexedDB for the browser origin. Moving from localhost to a public domain does not transfer progress; projects on the same origin share the `hanpit` database even when hosted at different paths.
 
