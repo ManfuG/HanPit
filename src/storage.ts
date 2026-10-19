@@ -17,6 +17,7 @@ export interface StudyStorage {
   review(id: string, card: Card, log: ReviewLog): Promise<void>;
   exportSession(): Promise<string>;
   importSession(source: string): Promise<void>;
+  resetProgress(): Promise<void>;
 }
 
 export async function openStorage(): Promise<StudyStorage> {
@@ -158,6 +159,19 @@ export async function openStorage(): Promise<StudyStorage> {
       storage.unlockedLevel = session.testProgress.unlockedLevel;
       storage.streaks.clear();
       for (const [level, count] of session.testProgress.streaks) storage.streaks.set(level, count);
+    },
+    async resetProgress() {
+      const tx = db.transaction(['cards', 'reviews', 'settings'], 'readwrite');
+      const done = completed(tx);
+      tx.objectStore('cards').clear();
+      tx.objectStore('reviews').clear();
+      const settings = tx.objectStore('settings');
+      settings.clear();
+      settings.put(1, 'progressRevision');
+      await done;
+      progress.clear();
+      storage.level = storage.unlockedLevel = 1;
+      storage.streaks.clear();
     },
   };
   return storage;

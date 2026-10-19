@@ -1,0 +1,64 @@
+name: Android release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
+        with:
+          distribution: temurin
+          java-version: '21'
+      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      - name: Check release version
+        run: test "$GITHUB_REF_NAME" = "v$(node -p 'JSON.parse(require("fs").readFileSync("package.json")).version')"
+      - run: npm ci
+      - run: npm test && npm run grammar:check && npm run curriculum:check && npm run curriculum:test && npm run tests:check
+      - run: npm run android:sync
+      - name: Restore signing key
+        env:
+          KEYSTORE: ${{ secrets.HANPIT_KEYSTORE_BASE64 }}
+        run: |
+          test -n "$KEYSTORE"
+          printf '%s' "$KEYSTORE" | base64 --decode > "$RUNNER_TEMP/hanpit.jks"
+          chmod 600 "$RUNNER_TEMP/hanpit.jks"
+      - name: Build signed APK
+        working-directory: android
+        env:
+          HANPIT_KEYSTORE_PATH: ${{ runner.temp }}/hanpit.jks
+          HANPIT_KEYSTORE_PASSWORD: ${{ secrets.HANPIT_KEYSTORE_PASSWORD }}
+          HANPIT_KEY_ALIAS: hanpit
+          HANPIT_KEY_PASSWORD: ${{ secrets.HANPIT_KEY_PASSWORD }}
+        run: ./gradlew testDebugUnitTest lintRelease assembleRelease --no-daemon
+      - run: python3 scripts/check-android.py android/app/build/outputs/apk/release/app-release.apk
+      - name: Publish installable APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir "$RUNNER_TEMP/release"
+          cp android/app/build/outputs/apk/release/app-release.apk "$RUNNER_TEMP/release/HanPit-Android.apk"
+          cd "$RUNNER_TEMP/release"
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs HanPit-Android.apk > SIGNING-CERTIFICATE.txt
+          sha256sum HanPit-Android.apk > SHA256SUMS
+          gh release create "$GITHUB_REF_NAME" HanPit-Android.apk SHA256SUMS SIGNING-CERTIFICATE.txt --repo "$GITHUB_REPOSITORY" --verify-tag --title "HanPit ${GITHUB_REF_NAME#v} · Android" --notes "Download HanPit-Android.apk below and open it on Android to install. Allow installation from your browser when Android asks. All lessons and audio are bundled for offline study. Progress stays on your device; Home provides session import/export and confirmed reset. Allow notifications for one reminder around 19:00 local time on days you have not opened HanPit. Android power saving may delay delivery; force-stopped apps cannot send reminders until reopened. Keep the same app installed when updating to preserve progress. Checksums and the public signing-certificate fingerprint are attached."
+      - name: Remove temporary signing key
+        if: always()
+        run: rm -f "$RUNNER_TEMP/hanpit.jks"

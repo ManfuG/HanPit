@@ -7,6 +7,7 @@ import { createReadings } from './readings';
 import { loadVocabulary } from './vocabulary';
 import { createTests, type TestsSection } from './tests';
 import type { Word } from './types';
+import { exportSessionFile, initializePlatform } from './platform';
 
 const element = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 const levelSelect = element<HTMLSelectElement>('level');
@@ -15,6 +16,7 @@ const ratings = element('ratings');
 const exportButton = element<HTMLButtonElement>('export-session');
 const importButton = element<HTMLButtonElement>('import-session');
 const sessionFile = element<HTMLInputElement>('session-file');
+const resetButton = element<HTMLButtonElement>('reset-progress');
 const speakButton = element<HTMLButtonElement>('speak');
 const flashcards = element('flashcards');
 const pronunciation = createPronunciation(element('speech-status'));
@@ -35,6 +37,7 @@ let level = 1;
 let wakeTimer: number | undefined;
 let ready = false;
 let levelSaving = false;
+let replacingSession = false;
 let deckLoading = false;
 let deckLevel: number | undefined;
 let deckRequest = 0;
@@ -42,7 +45,7 @@ let needsStudyRender = false;
 
 function updateControls() {
   levelSelect.disabled = !ready || busy;
-  exportButton.disabled = importButton.disabled = !ready || busy;
+  exportButton.disabled = importButton.disabled = resetButton.disabled = !ready || busy;
   if (ready) {
     for (const option of levelSelect.options) option.disabled = Number(option.value) > storage.unlockedLevel;
   }
@@ -247,6 +250,7 @@ for (const tab of document.querySelectorAll<HTMLElement>('[data-section]')) {
       if (event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
       event.preventDefault();
     }
+    if (replacingSession) return;
     activeSection = tab.dataset.section!;
     showSection();
   });
@@ -258,15 +262,11 @@ exportButton.addEventListener('click', async () => {
   updateControls();
   element('error').hidden = true;
   try {
-    const source = await storage.exportSession();
-    const url = URL.createObjectURL(new Blob([source], { type: 'application/json' }));
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `hanpit-session-${new Date().toISOString().slice(0, 10)}.json`;
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-    element('session-status').textContent = 'Session exported.';
-    element('session-status').hidden = false;
+    element('session-status').hidden = true;
+    if (await exportSessionFile(await storage.exportSession())) {
+      element('session-status').textContent = 'Session exported.';
+      element('session-status').hidden = false;
+    }
   } catch (error) {
     showError(error);
   } finally {
@@ -280,8 +280,9 @@ sessionFile.addEventListener('change', async () => {
   const file = sessionFile.files?.[0];
   sessionFile.value = '';
   if (!file || !ready || busy) return;
-  if (!window.confirm('Replace all HanPit progress in this browser with the selected session?')) return;
+  if (!window.confirm('Replace all HanPit progress on this device with the selected session?')) return;
   busy = true;
+  replacingSession = true;
   updateControls();
   element('error').hidden = true;
   element('session-status').hidden = true;
@@ -291,6 +292,27 @@ sessionFile.addEventListener('change', async () => {
   } catch (error) {
     showError(error);
     busy = false;
+    replacingSession = false;
+    updateControls();
+  }
+});
+
+resetButton.addEventListener('click', async () => {
+  if (!ready || busy) return;
+  if (!window.confirm('Delete all HanPit progress on this device? Export a session first if you want a backup. This cannot be undone.')) return;
+  busy = true;
+  replacingSession = true;
+  updateControls();
+  element('error').hidden = true;
+  element('session-status').hidden = true;
+  pronunciation.stop();
+  try {
+    await storage.resetProgress();
+    window.location.reload();
+  } catch (error) {
+    showError(error);
+    busy = false;
+    replacingSession = false;
     updateControls();
   }
 });
@@ -328,6 +350,7 @@ async function start() {
     ready = true;
     busy = false;
     showSection();
+    void initializePlatform().catch(showError);
   } catch (error) {
     element('empty').textContent = 'Loading failed. Reload the page to retry.';
     showError(error);

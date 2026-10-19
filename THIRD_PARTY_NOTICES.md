@@ -31,12 +31,18 @@ Direct dependencies resolved by `package-lock.json`:
 | Package | Version | License | Role / upstream |
 | --- | --- | --- | --- |
 | ts-fsrs | 5.4.2 | MIT | Browser scheduling — https://github.com/open-spaced-repetition/ts-fsrs |
+| @capacitor/core / @capacitor/android | 8.5.3 | MIT | Native bridge / Android container — https://github.com/ionic-team/capacitor |
+| @capacitor/cli | 8.5.3 | MIT | Development-only native project tooling — https://github.com/ionic-team/capacitor |
 | TypeScript | 5.9.3 | Apache-2.0 | Development type checker — https://github.com/microsoft/TypeScript |
 | Vite | 8.3.4 | MIT | Development server and static build — https://github.com/vitejs/vite |
 
 The full [ts-fsrs v5.4.2 MIT notice](https://github.com/open-spaced-repetition/ts-fsrs/blob/v5.4.2/LICENSE), matching the installed package, and HanPit's scoped MIT grant are retained in [`public/THIRD_PARTY_LICENSES.txt`](public/THIRD_PARTY_LICENSES.txt), which Vite copies into `dist/`. Full [CC BY-SA 4.0](public/data/CC-BY-SA-4.0.txt) and [original 3.0](public/data/CC-BY-SA-3.0.txt) legal texts are bundled for offline use. Keep them together with `public/data/README.md` (attribution, source revisions, changes and transcription MIT notices), `public/audio/LICENSE`, both audio `NOTICE` files and the runtime notice. The app links to its central licenses/credits notice; all records must survive static publication.
 
 The lockfile records transitive build dependencies and their upstream licenses. Non-MIT entries include `detect-libc@2.1.2` (Apache-2.0), `lightningcss@1.33.0` and its platform bindings (MPL-2.0), `picocolors@1.1.1` (ISC), and `source-map-js@1.2.2` (BSD-3-Clause). These tools are not reclassified as MIT or relicensed by HanPit. Dependency source and `node_modules/` are not vendored in the repository; retain upstream notices if redistributing development dependencies.
+
+The bundled runtime notice includes Capacitor's full Drifty Co. MIT grant and Apache Cordova's retained NOTICE. Android dependencies resolved by the pinned Gradle files include AndroidX, Kotlin/kotlinx.coroutines and Cordova 14.0.1 under Apache-2.0; the complete Apache license is already shipped at `public/audio/LICENSE`. These notices are accessible offline in the APK. The app targets Android 8+ and uses the platform's `java.time`; it does not bundle `desugar_jdk_libs`. Android System WebView and platform libraries are supplied by the device, not redistributed as a browser engine.
+
+The development-only `xcode` dependency of Capacitor CLI resolves `uuid` to 11.1.1 through the npm override, avoiding GHSA-w5hq-g745-h8pq while retaining its CommonJS `v4` API. This does not add an iOS target or a client dependency. Build dependencies remain subject to their own recorded terms.
 
 ## Heading font
 

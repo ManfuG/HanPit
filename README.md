@@ -4,9 +4,41 @@ Local-first Chinese study with HSK flashcards, grammar, readings and tests. Type
 
 Home explains the HSK study flow and session backups beneath a luminous SVG globe. Study navigation lives in the header; click HanPit to return Home. English headings use the same locally served Syne font as QuantaPit and KnightPit; body text keeps its system sans-serif stack. The forest-green/citron palette remains. SVG/CSS motion pauses outside Home and respects reduced-motion preferences; no external font service or rendering library.
 
-[Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/).
+[Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/) · **[Download Android APK](https://github.com/ManfuG/HanPit/releases/latest/download/HanPit-Android.apk)**
 
-[![Watch the HanPit demo: flashcards, grammar, readings, tests and session export/import](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
+[![Watch HanPit on Android: session reset and restore](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
+
+## Android
+
+Download the APK above and open it on your phone. Android may ask you to allow installation from your browser/file manager. Requires Android 8.0+ and Android System WebView 119+. Updates use the same package and signing key; install over the existing app to preserve progress.
+
+The Capacitor app bundles all vocabulary, grammar, readings, tests, fonts and **12,457 recordings**. It works offline from first launch, including audio and local session backups; no login, first-run download or server is needed. The hosted web app is unchanged in this respect: it fetches static assets and is not an offline PWA.
+
+Allow notifications when Android asks. On days you have not opened HanPit, one local reminder is scheduled around **19:00 in the phone's timezone**:
+
+> **A little Chinese tonight?**  
+> Your flashcards are ready. A few words before dinner?
+
+Opening the app suppresses that day's reminder. One replaceable inexact alarm avoids polling, background services and exact-alarm permission. Reboot, app updates, timezone and clock changes reschedule it; yesterday's delayed alarm never becomes a morning reminder. Android power saving/OEM restrictions can delay or prevent delivery, and force-stopping the app prevents reminders until it is reopened. Notification permission/channel settings remain under Android's control. Moving the clock backwards conservatively suppresses reminders until the latest visited/notified calendar date has passed; only two date markers are stored, not a visit history.
+
+Progress stays in the app's private IndexedDB storage, independently of the website. Android cloud backup/device transfer is disabled; use Home's **Export session / Import session** to transfer progress. Export uses Android's system save picker; choose local storage to save offline. **Reset progress** asks for confirmation, then atomically deletes flashcards, review history, selected level, unlocks and streaks without reinstalling. Export first to keep a backup. Uninstalling or clearing Android app storage also deletes local progress.
+
+### Build Android
+
+Use Node 24, JDK **21** and Android SDK platform/build-tools **36 / 36.0.0**. Set `JAVA_HOME` and `ANDROID_HOME` (or use Android Studio); SDK paths and signing material stay outside Git.
+
+```sh
+npm ci
+npm run android:sync
+cd android
+./gradlew testDebugUnitTest lintDebug assembleDebug
+```
+
+The debug APK is `android/app/build/outputs/apk/debug/app-debug.apk`. `npx cap open android` from the repository root opens Android Studio. `npm run android:sync` rebuilds/copies the complete web bundle; never configure a remote `server.url` for the offline app.
+
+For a signed release, set `HANPIT_KEYSTORE_PATH` (absolute path), `HANPIT_KEYSTORE_PASSWORD`, `HANPIT_KEY_ALIAS` and `HANPIT_KEY_PASSWORD`, then run `npm run android:build` from the root. Missing signing configuration fails rather than publishing a debug-signed APK. Back up the release key securely: a different key cannot update installed copies without uninstalling and losing local progress.
+
+GitHub CI builds/lints Android and verifies every bundled source asset byte-for-byte. Pushing a `v<package-version>` tag publishes `HanPit-Android.apk`, `SHA256SUMS` and the public signing-certificate fingerprint. The release workflow uses an encrypted `HANPIT_KEYSTORE_BASE64` secret plus password secrets; it never commits the private key. Increment both npm/native versions and native `versionCode` for subsequent releases. This publishes an APK, not a Play Store listing or hosted-site deployment.
 
 ## Run
 
@@ -23,7 +55,7 @@ Open the URL printed by Vite. Static build: `npm run build`; production preview:
 
 `npm run build` writes `dist/`. Vite uses a relative base so the same build can be served at a domain root or a GitHub project subpath such as `/HanPit/`; data and audio requests use `import.meta.env.BASE_URL`. Serve the directory over HTTP(S), with the project URL ending in `/`, rather than opening `index.html` as a local file. Preview locally before any separately authorized upload.
 
-Only `dist/` is needed by a static host. It includes the local data/audio, heading font and runtime dependency notice; keep those files and `fonts/Syne-OFL.txt` together. Do not upload source environments or model weights. The GitHub workflow validates changes; it does not deploy a hosted site.
+Only `dist/` is needed by a static host. It includes the local data/audio, heading font and runtime dependency notices; keep those files and `fonts/Syne-OFL.txt` together. Do not upload source environments or model weights. GitHub workflows validate changes and publish tagged Android APKs; they do not deploy the hosted website.
 
 The sibling `giacomo-portfolio` project also builds HanPit at `/projects/hanpit/` alongside QuantaPit and KnightPit, preserving the original source checkout and local-first runtime. Its Cloudflare publication audit retains the data/audio notices and checks Free-plan file limits.
 
@@ -45,9 +77,9 @@ The model's license does not automatically license generated recordings. MIT cov
 
 ## Session backup and restore
 
-On Home, **Export session** downloads a versioned JSON file containing flashcard schedules, review history, selected HSK level, unlocked levels and test streaks. Keep the file to resume in another browser/device or after clearing site data; there is no cloud synchronization.
+On Home, **Export session** saves a versioned JSON file containing flashcard schedules, review history, selected HSK level, unlocked levels and test streaks. The browser downloads it; Android opens its system save picker. Keep the file to resume on another browser/phone or after clearing local data; there is no cloud synchronization.
 
-**Import session** restores that file after confirmation and replaces this browser's existing HanPit progress, then reloads the app. An unfinished test is not included. Export first if you want to keep the current progress.
+**Import session** restores that same file after confirmation and replaces this device's existing HanPit progress, then reloads the app. An unfinished test is not included. Export first if you want to keep the current progress. **Reset progress** separately confirms deletion and starts again at HSK 1; a failed transaction leaves the previous session untouched.
 
 The complete file is validated before writing. Invalid or incompatible files leave progress untouched; replacement is one IndexedDB transaction, so an interrupted save preserves the previous session. Scheduling dates are restored as Dates without recalculating due times or resetting progression. No vocabulary or audio is duplicated in the backup.
 
@@ -146,6 +178,6 @@ npm run tests:check
 npm run build
 ```
 
-The GitHub workflow runs the checks above on pushes and pull requests using Node 24 and Python 3.12. It installs no TTS environment, regenerates no datasets/audio and has no deployment job. Full phonetic/audio validation remains an explicit local operation using the offline environment above.
+GitHub CI runs these checks on pushes/pull requests using Node 24 and Python 3.12, plus JDK 21 for Android unit tests, lint, debug build and bundled-asset integrity. Version tags run the signed APK release workflow. Neither workflow installs TTS dependencies, regenerates datasets/audio or deploys the hosted website. Full phonetic/audio validation remains an explicit local operation using the offline environment above.
 
 Before a separately authorized publication, review the files being committed and the complete Git history for private data or credentials; ignore rules do not remove already-tracked files. No API keys or environment variables are needed by the app. Never place secrets in Vite's client-exposed `VITE_*` variables.

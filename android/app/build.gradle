@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+def signingEnvironment = [
+    HANPIT_KEYSTORE_PATH: System.getenv('HANPIT_KEYSTORE_PATH'),
+    HANPIT_KEYSTORE_PASSWORD: System.getenv('HANPIT_KEYSTORE_PASSWORD'),
+    HANPIT_KEY_ALIAS: System.getenv('HANPIT_KEY_ALIAS'),
+    HANPIT_KEY_PASSWORD: System.getenv('HANPIT_KEY_PASSWORD')
+]
+def hasReleaseSigning = signingEnvironment.values().every { it != null && !it.isEmpty() }
+
+android {
+    namespace = "io.github.manfug.hanpit"
+    compileSdk = rootProject.ext.compileSdkVersion
+    buildToolsVersion "36.0.0"
+    defaultConfig {
+        applicationId "io.github.manfug.hanpit"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0.0"
+        aaptOptions {
+             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
+             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
+            ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+        }
+    }
+    signingConfigs {
+        release {
+            if (hasReleaseSigning) {
+                storeFile rootProject.file(signingEnvironment.HANPIT_KEYSTORE_PATH)
+                storePassword signingEnvironment.HANPIT_KEYSTORE_PASSWORD
+                keyAlias signingEnvironment.HANPIT_KEY_ALIAS
+                keyPassword signingEnvironment.HANPIT_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+tasks.configureEach { task ->
+    if (task.name == 'preReleaseBuild') {
+        task.doFirst {
+            if (!hasReleaseSigning) {
+                throw new GradleException('Release signing requires HANPIT_KEYSTORE_PATH, HANPIT_KEYSTORE_PASSWORD, HANPIT_KEY_ALIAS, and HANPIT_KEY_PASSWORD.')
+            }
+        }
+    }
+}
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation project(':capacitor-android')
+    testImplementation "junit:junit:$junitVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'
+

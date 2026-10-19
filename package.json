@@ -1,7 +1,7 @@
 {
   "name": "hanpit",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "description": "Local-first Chinese study with HSK flashcards, grammar, readings and tests.",
@@ -12,6 +12,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
+    "android:sync": "npm run build && cap sync android",
+    "android:build": "npm run android:sync && cd android && ./gradlew assembleRelease",
     "test": "node --experimental-strip-types --test src/*.test.ts",
     "data:import": "node scripts/import-vocabulary.mjs",
     "audio:generate": ".venv-audio/bin/python scripts/generate-audio.py",
@@ -26,10 +28,16 @@
     "curriculum:test": "python3 scripts/test_curriculum.py",
     "tests:check": "python3 scripts/check-tests.py"
   },
+  "overrides": {
+    "xcode": { "uuid": "11.1.1" }
+  },
   "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3",
     "ts-fsrs": "5.4.2"
   },
   "devDependencies": {
+    "@capacitor/cli": "8.5.3",
     "typescript": "~5.9.3",
     "vite": "8.3.4"
   }
