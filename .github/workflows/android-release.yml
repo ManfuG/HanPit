@@ -27,6 +27,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
+      - uses: android-actions/setup-android@be39fa834029ff78f1a44aa3bb0819b8fc2bd8fd # v4.0.4
       - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
       - name: Check release version
         run: test "$GITHUB_REF_NAME" = "v$(node -p 'JSON.parse(require("fs").readFileSync("package.json")).version')"
