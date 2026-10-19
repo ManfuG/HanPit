@@ -1,0 +1,379 @@
+/* Android's activity consumes system-bar, cutout and keyboard insets before
+   sizing the WebView. Do not add those insets a second time here. */
+html.android body {
+  min-width: 0;
+}
+
+html.android .header {
+  margin: 8px 12px 0;
+  padding: 6px 10px;
+  gap: 4px 12px;
+  border-radius: 18px;
+}
+
+html.android .brand {
+  min-height: 48px;
+  font-size: 1.25rem;
+}
+
+html.android .brand span {
+  width: 32px;
+  height: 32px;
+  font-size: 1.375rem;
+  border-radius: 10px;
+}
+
+html.android .tabs {
+  order: 1;
+  width: 100%;
+  gap: 4px;
+}
+
+html.android .tabs button {
+  flex: 1;
+  min-width: 0;
+  min-height: 48px;
+  padding: 8px 4px;
+  font-size: .8125rem;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+/* Only study surfaces claim the viewport. Other sections retain normal
+   document scrolling, including the licenses link in the footer. */
+html.android body:is([data-section="flashcards"], [data-section="tests"]) {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  min-height: 100dvh;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) .header {
+  flex: none;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  min-height: 0;
+  margin: 8px auto 0;
+  padding: 0 12px 12px;
+  /* Enlarged system text can make the chrome taller than the viewport.
+     Allow scrolling rather than clipping controls or disabling text scaling. */
+  overflow: auto;
+  scroll-padding-block: 8px;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) .deck-heading {
+  flex: none;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) h1 {
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) .level-label {
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  font-size: .75rem;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) select {
+  min-height: 48px;
+  padding-block: 8px;
+  font-size: .875rem;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) #error {
+  flex: none;
+  margin: 0;
+}
+
+html.android body:is([data-section="flashcards"], [data-section="tests"]) .credits {
+  display: none;
+}
+
+html.android #flashcards,
+html.android #tests {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+html.android #flashcards {
+  min-height: min(22rem, 52dvh);
+}
+
+html.android .counts {
+  flex: none;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+}
+
+html.android .counts div {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 6px;
+}
+
+html.android .counts dt {
+  font-size: .75rem;
+}
+
+html.android .counts dd {
+  font-size: .875rem;
+}
+
+html.android .card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 0;
+  padding: 10px 14px;
+  border-radius: 18px;
+  /* A very long term/pinyin can also outgrow the available card height. */
+  overflow: auto;
+  scroll-padding-block: 8px;
+}
+
+html.android .card-level {
+  flex: none;
+  font-size: .6875rem;
+}
+
+html.android .card-content {
+  flex: 1;
+  gap: 6px;
+  min-height: 0;
+}
+
+html.android #hanzi {
+  flex: none;
+  max-width: 100%;
+  margin: 0;
+  font-size: clamp(2.5rem, 6dvh, 3.5rem);
+  line-height: 1.25;
+}
+
+html.android #answer {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  min-height: 0;
+}
+
+html.android #pinyin {
+  flex: none;
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+html.android .meaning-label {
+  flex: none;
+  margin: 0;
+  font-size: .625rem;
+}
+
+html.android #meaning {
+  min-height: 1.5em;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  /* Keep every gloss available without moving Listen or the rating row off
+     screen. No line clamp, ellipsis, or fixed text-height assumption. */
+  overflow: auto;
+}
+
+html.android #speak {
+  flex: none;
+  min-height: 48px;
+  margin: 0 auto;
+  padding: 10px 14px;
+  font-size: .875rem;
+}
+
+html.android #speech-status {
+  flex: none;
+  margin: 0;
+  font-size: .75rem;
+  overflow-wrap: anywhere;
+}
+
+html.android .actions {
+  flex: none;
+  margin: 0;
+}
+
+html.android #reveal,
+html.android .test-controls button {
+  min-height: 48px;
+  padding: 11px 14px;
+  font-size: .9375rem;
+  line-height: 1.4;
+}
+
+html.android .ratings {
+  gap: 6px;
+}
+
+html.android .ratings button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+  min-height: 64px;
+  padding: 8px 4px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+html.android .ratings button span {
+  font-size: .8125rem;
+}
+
+html.android .ratings small {
+  font-size: .6875rem;
+}
+
+html.android .ratings kbd,
+html.android #reveal kbd {
+  display: none;
+}
+
+html.android .empty {
+  margin: auto 0;
+  padding: 20px 12px;
+  font-size: .9375rem;
+}
+
+html.android #tests {
+  min-height: min(24rem, 56dvh);
+}
+
+html.android .test-progress,
+html.android #test-status,
+html.android .test-feedback {
+  flex: none;
+  margin: 0;
+  font-size: .875rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+html.android #tests > div,
+html.android #tests form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+}
+
+html.android .test-question {
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  padding: 4px;
+  /* Only unusually long questions/options need to scroll; Next stays outside
+     the scroll area, and every option retains its full accessible text. */
+  overflow: auto;
+  scroll-padding-block: 8px;
+}
+
+html.android .test-question legend {
+  max-width: 100%;
+  padding: 0;
+  font-size: .8125rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+html.android .test-prompt {
+  margin: 8px 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+html.android .test-prompt[lang="en"] {
+  font-size: 1rem;
+}
+
+html.android .test-options {
+  gap: 6px;
+}
+
+html.android .test-options label {
+  gap: 8px;
+  min-height: 48px;
+  padding: 8px 10px;
+  font-size: .875rem;
+  line-height: 1.4;
+}
+
+html.android .test-options input {
+  margin: .25em 0 0;
+}
+
+html.android .test-options span {
+  min-width: 0;
+}
+
+html.android .test-options span[lang="zh-CN"] {
+  font-size: 1rem;
+}
+
+html.android .test-controls {
+  flex: none;
+  margin: 0;
+}
+
+/* Short/landscape windows favor an ordinary flowing page over tiny nested
+   scroll areas. Large text remains unabridged at every viewport size. */
+@media (max-height: 600px), (orientation: landscape) {
+  html.android body:is([data-section="flashcards"], [data-section="tests"]) {
+    height: auto;
+  }
+
+  html.android body:is([data-section="flashcards"], [data-section="tests"]) main {
+    flex: none;
+    overflow: visible;
+  }
+
+  html.android #flashcards,
+  html.android #tests,
+  html.android #tests > div,
+  html.android #tests form,
+  html.android .card,
+  html.android .card-content,
+  html.android #answer,
+  html.android .test-question {
+    flex: none;
+    min-height: 0;
+  }
+
+  html.android .card,
+  html.android #meaning,
+  html.android .test-question {
+    overflow: visible;
+  }
+}

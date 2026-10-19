@@ -70,10 +70,11 @@ select { min-height: 44px; max-width: 100%; border: 1px solid var(--border); bor
 .session { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border); }
 .session h2 { margin: 0 0 8px; font-size: 15px; font-weight: 600; }
 .session p { color: var(--muted); font-size: 14px; line-height: 1.75; margin: 0 0 16px; }
-.session-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.session-actions button { min-height: 44px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); color: var(--accent); padding: 10px 16px; font-size: 13px; }
+.session-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.session-actions button { min-height: 48px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); color: var(--accent); padding: 10px 8px; font-size: 13px; }
 .session #session-status { margin: 12px 0 0; }
 #home[hidden] .home-satellite, #home[hidden] .home-wireframe,
+.entry-open .home-satellite, .entry-open .home-wireframe,
 .page-hidden .home-satellite, .page-hidden .home-wireframe { animation-play-state: paused; }
 @keyframes home-orbit { to { transform: rotate(1turn); } }
 @media (prefers-reduced-motion: reduce) {
@@ -127,8 +128,11 @@ kbd { font-family: inherit; font-weight: 400; opacity: .75; font-size: 10px; mar
 .grammar-example .grammar-pinyin { color: var(--accent); margin-bottom: 4px; }
 .grammar-example .speak { margin: 10px 0 0; }
 .grammar-example .grammar-audio-status { color: var(--muted); font-size: 12px; margin: 10px 0 0; }
-.reading-supports { display: flex; gap: 24px; margin: 20px 0; font-size: 14px; }
-.reading-supports label { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+.reading-supports { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 20px 0; font-size: 14px; }
+.reading-supports label { position: relative; display: grid; place-items: center; min-height: 48px; padding: 10px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); color: var(--muted); cursor: pointer; }
+.reading-supports input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; }
+.reading-supports label:has(:checked) { border-color: var(--accent); background: var(--accent); color: var(--bg); }
+.reading-supports label:has(:focus-visible) { outline: 2px solid var(--accent); outline-offset: 4px; }
 .reading-body .reading-pinyin { color: var(--accent); font-size: 15px; line-height: 1.8; }
 .reading-body .reading-translation { font-size: 14px; line-height: 1.8; }
 .test-progress, .test-feedback { font-size: 14px; line-height: 1.7; }

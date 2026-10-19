@@ -6,13 +6,17 @@ Home explains the HSK study flow and session backups beneath a luminous SVG glob
 
 [Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/) · **[Download Android APK](https://github.com/ManfuG/HanPit/releases/latest/download/HanPit-Android.apk)**
 
-[![Watch HanPit on Android: session reset and restore](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
+[![Watch HanPit on Android: swipe entry and compact study screens](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
 
 ## Android
 
 Download the APK above and open it on your phone. Android may ask you to allow installation from your browser/file manager. Requires Android 8.0+ and Android System WebView 119+. Updates use the same package and signing key; install over the existing app to preserve progress.
 
 The Capacitor app bundles all vocabulary, grammar, readings, tests, fonts and **12,457 recordings**. It works offline from first launch, including audio and local session backups; no login, first-run download or server is needed. The hosted web app is unchanged in this respect: it fetches static assets and is not an offline PWA.
+
+Android opens with the portfolio's orbital/botanical scene in HanPit's forest/citron palette. Swipe up to dissolve into Home; the arrow also works with keyboard and accessibility controls. The scene appears once per app document, not on ordinary background/resume. SVG artwork and CSS motion paths need no rendering library or JavaScript frame loop; motion pauses in the background and respects reduced motion.
+
+Flashcards and Tests use the available portrait viewport, keeping Listen/ratings and Next on screen without scrolling the page. Unusually long text can scroll inside its content area; short landscape windows and enlarged accessibility text retain scrolling rather than clipping content. Reading support toggles span the content width and light up independently when enabled. Home's Export session, Import session and Reset progress controls share one row.
 
 Allow notifications when Android asks. On days you have not opened HanPit, one local reminder is scheduled around **19:00 in the phone's timezone**:
 
@@ -111,7 +115,7 @@ Grammar loads only the selected lesson JSON, with cached requests. Bodies are cr
 
 Ten original passages per block, **70 in total**. Reading j requires the first `floor(N*j/10)` current words and the grammar taught within that cutoff, plus earlier levels. HSK 1 cutoffs are 50, 100, …, 500 words. The same green/red vocabulary indication applies.
 
-All **193 paragraphs** contain Chinese, citation-tone pinyin and an English translation. Independent Pinyin and Translation checkboxes show these supports below the Chinese; both start hidden. **No reading audio.** Only selected-level readings and curriculum metadata are loaded; paragraphs are created on first expansion.
+All **193 paragraphs** contain Chinese, citation-tone pinyin and an English translation. Independent full-width Pinyin and Translation toggle controls show these supports below the Chinese and highlight their active state; both start hidden. **No reading audio.** Only selected-level readings and curriculum metadata are loaded; paragraphs are created on first expansion.
 
 ```sh
 npm run curriculum:check

@@ -1,0 +1,248 @@
+.android.entry-open,
+.android.entry-open body {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+.android .entry-dialog {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  isolation: isolate;
+  color: #f2efdf;
+  background: radial-gradient(ellipse at 50% 38%, #293e29 0, #182d23 42%, #142720 80%);
+  touch-action: none;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+  transform-origin: center;
+}
+
+.android .entry-dialog::after {
+  content: "";
+  position: absolute;
+  inset: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+  z-index: 5;
+  border: 1px solid #f2efdf14;
+  border-bottom: 0;
+  border-radius: 32px;
+  mask-image: linear-gradient(#000 55%, transparent);
+  pointer-events: none;
+}
+
+.android .entry-dialog > svg {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+
+.android .entry-constellation,
+.android .entry-orbital {
+  width: 94%;
+  height: 88%;
+  top: 4%;
+  left: 3%;
+  overflow: visible;
+}
+
+.android .entry-constellation {
+  z-index: 0;
+  opacity: .85;
+}
+
+.android .entry-orbital {
+  z-index: 1;
+}
+
+.android .entry-dialog .entry-title {
+  position: absolute;
+  z-index: 2;
+  top: 46%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  color: #f2efdf;
+  font: 800 clamp(76px, 13vw, 170px)/.9 "Syne", Arial, sans-serif;
+  letter-spacing: -.065em;
+  text-indent: -.04em;
+  text-shadow: 0 3px 30px #14272035;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.android .entry-landscape {
+  z-index: 3;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 35%;
+  min-height: 210px;
+  overflow: visible;
+  transform-origin: center bottom;
+}
+
+.android .entry-dialog > .entry-landscape--mobile {
+  display: none;
+}
+
+.android .entry-dialog .entry-open {
+  position: absolute;
+  z-index: 6;
+  bottom: calc(28px + env(safe-area-inset-bottom));
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid #f2efdf40;
+  border-radius: 50%;
+  background: #142720bd;
+  color: #d5e59b;
+  transform: translateX(-50%);
+  touch-action: none;
+}
+
+.android .entry-open > svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.android .entry-dialog .entry-open:focus-visible {
+  outline: 2px solid #d5e59b;
+  outline-offset: 5px;
+}
+
+.android .entry-planet {
+  offset-anchor: 0px 0px;
+  offset-rotate: 0deg;
+  transform-origin: 0px 0px;
+  animation-duration: var(--entry-period);
+  animation-delay: var(--entry-delay);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: var(--entry-play-state, running);
+}
+
+.android .entry-planet--front {
+  animation-name: entry-orbit-front;
+}
+
+.android .entry-planet--rear {
+  animation-name: entry-orbit-rear;
+}
+
+.android .entry-dialog--dismissed {
+  animation: entry-dissolve .52s cubic-bezier(.22, .68, .3, 1) forwards;
+  animation-play-state: var(--entry-play-state, running);
+}
+
+.page-hidden .entry-planet,
+.page-hidden .entry-dialog--dismissed {
+  animation-play-state: paused;
+}
+
+@keyframes entry-orbit-front {
+  0% { offset-distance: 0%; transform: scale(1); opacity: 1; }
+  25% { transform: scale(1.16); }
+  49.999% { opacity: 1; }
+  50% { transform: scale(1); opacity: 0; }
+  75% { transform: scale(.84); }
+  100% { offset-distance: 100%; transform: scale(1); opacity: 0; }
+}
+
+@keyframes entry-orbit-rear {
+  0% { offset-distance: 0%; transform: scale(1); opacity: 0; }
+  25% { transform: scale(1.16); }
+  49.999% { opacity: 0; }
+  50% { transform: scale(1); opacity: .64; }
+  75% { transform: scale(.84); }
+  100% { offset-distance: 100%; transform: scale(1); opacity: .64; }
+}
+
+@keyframes entry-dissolve {
+  to { opacity: 0; transform: translateY(-4vh); }
+}
+
+@media (max-width: 900px) {
+  .android .entry-landscape {
+    width: 140%;
+    left: -20%;
+    height: 32%;
+  }
+}
+
+@media (max-width: 600px) {
+  .android .entry-constellation {
+    width: 112%;
+    left: -6%;
+    height: 83%;
+  }
+
+  .android .entry-orbital {
+    width: 174%;
+    left: -37%;
+    height: 86%;
+  }
+
+  .android .entry-dialog .entry-title {
+    top: 45%;
+    font-size: clamp(50px, 17vw, 112px);
+  }
+
+  .android .entry-landscape {
+    width: 205%;
+    left: -52.5%;
+    height: 29%;
+    min-height: 185px;
+  }
+
+  .android .entry-dialog > .entry-landscape--wide {
+    display: none;
+  }
+
+  .android .entry-dialog > .entry-landscape--mobile {
+    display: block;
+  }
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+  .android .entry-dialog .entry-title {
+    font-size: clamp(58px, 16vh, 90px);
+  }
+
+  .android .entry-landscape {
+    min-height: 110px;
+    height: 38%;
+  }
+
+  .android .entry-dialog .entry-open {
+    bottom: calc(14px + env(safe-area-inset-bottom));
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .android .entry-planet,
+  .android .entry-dialog--dismissed {
+    animation: none;
+  }
+}

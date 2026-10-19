@@ -1,4 +1,7 @@
 import './style.css';
+import './android.css';
+import { Capacitor } from '@capacitor/core';
+import { setupAndroidEntry } from './entry';
 import { getStudyState, preview, type Grade } from './study';
 import { openStorage, type StudyStorage } from './storage';
 import { createPronunciation } from './audio';
@@ -8,6 +11,11 @@ import { loadVocabulary } from './vocabulary';
 import { createTests, type TestsSection } from './tests';
 import type { Word } from './types';
 import { exportSessionFile, initializePlatform } from './platform';
+
+if (Capacitor.getPlatform() === 'android') {
+  document.documentElement.classList.add('android');
+  setupAndroidEntry();
+}
 
 const element = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 const levelSelect = element<HTMLSelectElement>('level');
@@ -191,6 +199,7 @@ async function showDeck() {
 }
 
 function showSection() {
+  document.body.dataset.section = activeSection;
   pronunciation.stop();
   clearTimeout(wakeTimer);
   deckRequest += 1;
@@ -339,6 +348,12 @@ function updateVisibility() {
   if (document.hidden) pronunciation.stop();
 }
 document.addEventListener('visibilitychange', updateVisibility);
+// Capacitor emits pause/resume even when Android leaves document.hidden false.
+document.addEventListener('pause', () => {
+  document.documentElement.classList.add('page-hidden');
+  pronunciation.stop();
+});
+document.addEventListener('resume', updateVisibility);
 updateVisibility();
 
 async function start() {

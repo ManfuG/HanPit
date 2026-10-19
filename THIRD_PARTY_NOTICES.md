@@ -47,3 +47,7 @@ The development-only `xcode` dependency of Capacitor CLI resolves `uuid` to 11.1
 ## Heading font
 
 English headings use the unmodified, locally served Syne variable font copied from the sibling applications. Copyright 2017 The Syne Project Authors ([upstream](https://gitlab.com/bonjour-monde/fonderie/syne-typeface)); SIL Open Font License 1.1, retained in [`public/fonts/Syne-OFL.txt`](public/fonts/Syne-OFL.txt). Body text uses the system sans-serif stack, with no downloaded body font. The font's OFL terms are separate from HanPit's MIT license.
+
+## Android entry artwork
+
+The opening scene adapts the sibling portfolio's locally authored orbital and botanical SVG drawings, recolored for HanPit. Its Taurus figure is a stylized adaptation of [Taurus Pattern](https://noirlab.edu/public/products/line-art/taurus-pattern/), credited to **NOIRLab**, with the NOIRLab / Sky & Telescope constellation-pattern context, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and [NOIRLab's copyright policy](https://noirlab.edu/public/copyright/). Star geometry, scale, colors and presentation have been modified. No photograph/logo or endorsement is implied. Attribution also ships in the offline runtime credits.
