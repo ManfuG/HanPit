@@ -1,5 +1,6 @@
 import type { Card, ReviewLog } from 'ts-fsrs';
 import { applyTestResult, initialProgress, type TestProgress } from './progression';
+import { decodeSession, encodeSession, type SessionReview } from './session';
 
 interface StoredCard {
   id: string;
@@ -14,6 +15,8 @@ export interface StudyStorage {
   recordTest(level: number, perfect: boolean): Promise<void>;
   setLevel(level: number): Promise<void>;
   review(id: string, card: Card, log: ReviewLog): Promise<void>;
+  exportSession(): Promise<string>;
+  importSession(source: string): Promise<void>;
 }
 
 export async function openStorage(): Promise<StudyStorage> {
@@ -111,6 +114,50 @@ export async function openStorage(): Promise<StudyStorage> {
       tx.objectStore('reviews').add({ id, log });
       await done;
       progress.set(id, card);
+    },
+    async exportSession() {
+      const tx = db.transaction(['cards', 'reviews', 'settings'], 'readonly');
+      const done = completed(tx);
+      const cards = tx.objectStore('cards').getAll();
+      const reviews = tx.objectStore('reviews').getAll();
+      const level = tx.objectStore('settings').get('level');
+      const tests = tx.objectStore('settings').get('testProgress');
+      await done;
+      return encodeSession({
+        cards: cards.result as StoredCard[],
+        reviews: reviews.result as SessionReview[],
+        level: level.result ?? 1,
+        testProgress: (tests.result as TestProgress | undefined) ?? initialProgress(),
+      });
+    },
+    async importSession(source: string) {
+      // Fully validate untrusted input before opening any write transaction.
+      const session = decodeSession(source);
+      const tx = db.transaction(['cards', 'reviews', 'settings'], 'readwrite');
+      const done = completed(tx);
+      try {
+        const cards = tx.objectStore('cards');
+        const reviews = tx.objectStore('reviews');
+        cards.clear();
+        reviews.clear();
+        for (const card of session.cards) cards.put(card);
+        for (const review of session.reviews) reviews.add(review);
+        const settings = tx.objectStore('settings');
+        settings.put(session.level, 'level');
+        settings.put(session.testProgress, 'testProgress');
+      } catch (error) {
+        tx.abort();
+        await done.catch(() => {});
+        throw error;
+      }
+      await done;
+      // Grammar and Readings retain this Map: replace its contents, not its identity.
+      progress.clear();
+      for (const { id, card } of session.cards) progress.set(id, card);
+      storage.level = session.level;
+      storage.unlockedLevel = session.testProgress.unlockedLevel;
+      storage.streaks.clear();
+      for (const [level, count] of session.testProgress.streaks) storage.streaks.set(level, count);
     },
   };
   return storage;

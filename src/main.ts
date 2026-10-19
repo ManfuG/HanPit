@@ -12,6 +12,9 @@ const element = <T extends HTMLElement = HTMLElement>(id: string) => document.ge
 const levelSelect = element<HTMLSelectElement>('level');
 const revealButton = element<HTMLButtonElement>('reveal');
 const ratings = element('ratings');
+const exportButton = element<HTMLButtonElement>('export-session');
+const importButton = element<HTMLButtonElement>('import-session');
+const sessionFile = element<HTMLInputElement>('session-file');
 const speakButton = element<HTMLButtonElement>('speak');
 const flashcards = element('flashcards');
 const pronunciation = createPronunciation(element('speech-status'));
@@ -39,6 +42,7 @@ let needsStudyRender = false;
 
 function updateControls() {
   levelSelect.disabled = !ready || busy;
+  exportButton.disabled = importButton.disabled = !ready || busy;
   if (ready) {
     for (const option of levelSelect.options) option.disabled = Number(option.value) > storage.unlockedLevel;
   }
@@ -196,7 +200,7 @@ function showSection() {
   element('section-heading').hidden = false;
   element('section-title').textContent = sectionTitles[activeSection]!;
   levelSelect.parentElement!.hidden = activeSection === 'home';
-  for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
+  for (const tab of document.querySelectorAll<HTMLElement>('[data-section]')) {
     const active = tab.dataset.section === activeSection;
     if (active) tab.setAttribute('aria-current', 'page');
     else tab.removeAttribute('aria-current');
@@ -237,18 +241,58 @@ levelSelect.addEventListener('change', async () => {
   }
 });
 
-for (const tab of document.querySelectorAll<HTMLButtonElement>('[data-section]')) {
-  tab.addEventListener('click', () => {
+for (const tab of document.querySelectorAll<HTMLElement>('[data-section]')) {
+  tab.addEventListener('click', event => {
+    if (tab instanceof HTMLAnchorElement) {
+      if (event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+      event.preventDefault();
+    }
     activeSection = tab.dataset.section!;
     showSection();
   });
 }
 
-document.querySelector<HTMLAnchorElement>('.brand')!.addEventListener('click', event => {
-  if (event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
-  event.preventDefault();
-  activeSection = 'home';
-  showSection();
+exportButton.addEventListener('click', async () => {
+  if (!ready || busy) return;
+  busy = true;
+  updateControls();
+  element('error').hidden = true;
+  try {
+    const source = await storage.exportSession();
+    const url = URL.createObjectURL(new Blob([source], { type: 'application/json' }));
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `hanpit-session-${new Date().toISOString().slice(0, 10)}.json`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    element('session-status').textContent = 'Session exported.';
+    element('session-status').hidden = false;
+  } catch (error) {
+    showError(error);
+  } finally {
+    busy = false;
+    updateControls();
+  }
+});
+
+importButton.addEventListener('click', () => { sessionFile.click(); });
+sessionFile.addEventListener('change', async () => {
+  const file = sessionFile.files?.[0];
+  sessionFile.value = '';
+  if (!file || !ready || busy) return;
+  if (!window.confirm('Replace all HanPit progress in this browser with the selected session?')) return;
+  busy = true;
+  updateControls();
+  element('error').hidden = true;
+  element('session-status').hidden = true;
+  try {
+    await storage.importSession(await file.text());
+    window.location.reload();
+  } catch (error) {
+    showError(error);
+    busy = false;
+    updateControls();
+  }
 });
 
 document.addEventListener('keydown', event => {

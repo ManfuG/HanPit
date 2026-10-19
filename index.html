@@ -39,17 +39,16 @@
       </svg>
     </div>
     <header class="header">
-      <a class="brand" href="%BASE_URL%" aria-label="HanPit, home"><span lang="zh-CN">汉</span> HanPit</a>
-      <span class="standard">HSK 3.0</span>
-    </header>
-    <main>
+      <a class="brand" href="%BASE_URL%" data-section="home" aria-label="HanPit, home" aria-current="page"><span lang="zh-CN">汉</span> HanPit</a>
       <nav class="tabs" aria-label="Sections">
-        <button type="button" data-section="home" aria-current="page">Home</button>
         <button type="button" data-section="flashcards">Flashcards</button>
         <button type="button" data-section="grammar">Grammar</button>
         <button type="button" data-section="readings">Readings</button>
         <button type="button" data-section="tests">Tests</button>
       </nav>
+      <span class="standard">HSK 3.0</span>
+    </header>
+    <main>
       <p id="error" role="alert" hidden></p>
       <div id="section-heading" class="deck-heading">
         <h1 id="section-title">Home</h1>
@@ -67,6 +66,17 @@
       </div>
       <section id="home" aria-label="Home">
         <svg class="home-orbital" viewBox="0 -20 640 380" fill="none" aria-hidden="true" focusable="false">
+          <defs>
+            <radialGradient id="planet-light" cx=".32" cy=".25" r=".8">
+              <stop stop-color="#f2efdf" /><stop offset=".3" stop-color="#d5e59b" />
+              <stop offset=".7" stop-color="#78b99b" /><stop offset="1" stop-color="#254c3d" />
+            </radialGradient>
+            <radialGradient id="planet-halo">
+              <stop offset=".45" stop-color="#d5e59b" stop-opacity=".3" />
+              <stop offset="1" stop-color="#d5e59b" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+          <circle cx="320" cy="170" r="112" fill="url(#planet-halo)" />
           <g class="home-orbit" transform="translate(320 170) rotate(-24) scale(1 .4)">
             <circle r="260" />
             <g class="home-satellite"><circle cx="260" r="9" /></g>
@@ -98,6 +108,16 @@
           <li><h2>Read and practise</h2><p>Grammar and Readings are marked ready as you study the required vocabulary. Red lessons can still be opened.</p></li>
           <li><h2>Advance through Tests</h2><p>Earn twenty consecutive perfect 20/20 results to unlock the next level. A wrong answer resets the streak. HSK 7–9 is the final block.</p></li>
         </ol>
+        <div class="session">
+          <h2>Your progress</h2>
+          <p>Progress is saved in this browser. Export your flashcards, review history, HSK level and test streaks, then import the file to continue here or on another device. Import replaces existing progress.</p>
+          <div class="session-actions">
+            <button id="export-session" type="button" disabled>Export session</button>
+            <button id="import-session" type="button" disabled>Import session</button>
+            <input id="session-file" type="file" accept=".json,application/json" hidden />
+          </div>
+          <p id="session-status" role="status" hidden></p>
+        </div>
       </section>
       <section id="flashcards" aria-label="Flashcards" hidden>
         <dl class="counts" aria-label="Deck status">

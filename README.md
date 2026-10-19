@@ -2,11 +2,11 @@
 
 Local-first Chinese study with HSK flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
 
-Home explains the HSK study flow with a lightweight orbital scene; Flashcards, Grammar, Readings and Tests retain their study layouts. The original system sans-serif typography and forest-green/citron palette remain. Graphics use inline SVG and CSS, without external fonts or rendering libraries; motion pauses outside Home and respects reduced-motion preferences.
+Home explains the HSK study flow and session backups beneath a luminous SVG globe. Study navigation lives in the header; click HanPit to return Home. The original system sans-serif typography and forest-green/citron palette remain. SVG/CSS motion pauses outside Home and respects reduced-motion preferences; no external fonts or rendering libraries.
 
 [Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/).
 
-![HanPit Home with its orbital scene and three-step HSK study guide](docs/home.webp)
+[![Watch the HanPit demo: flashcards, grammar, readings, tests and session export/import](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
 
 ## Run
 
@@ -27,7 +27,7 @@ Only `dist/` is needed by a static host. It includes the local data/audio and ru
 
 The sibling `giacomo-portfolio` project also builds HanPit at `/projects/hanpit/` alongside QuantaPit and KnightPit, preserving the original source checkout and local-first runtime. Its Cloudflare publication audit retains the data/audio notices and checks Free-plan file limits.
 
-Study progress remains in IndexedDB for the browser origin. Moving from localhost to a public domain does not transfer progress; projects on the same origin share the `hanpit` database even when hosted at different paths.
+Study progress remains in IndexedDB for the browser origin. Moving from localhost to a public domain does not automatically transfer progress; export and import a session to carry it across. Projects on the same origin share the `hanpit` database even when hosted at different paths.
 
 ## Licensing
 
@@ -42,6 +42,14 @@ The model's license does not automatically license generated recordings. MIT cov
 - FSRS-6 through `ts-fsrs`: 90% retention, 1/10-minute learning steps, 10-minute relearning. **The first Easy on a new card schedules five days**, through FSRS initial stability rather than an overridden due date. Existing schedules remain unchanged. Due learning cards precede due reviews, then new cards; no daily limit or early future reviews.
 - Cards, review history, selected level and test progress are stored locally in IndexedDB. Card and review are committed atomically before advancing. No account or synchronization; clearing site data deletes progress.
 - Start at HSK 1. Higher levels require twenty consecutive perfect tests. Vocabulary is cumulative; selecting a lower level hides, but never deletes, higher-level cards.
+
+## Session backup and restore
+
+On Home, **Export session** downloads a versioned JSON file containing flashcard schedules, review history, selected HSK level, unlocked levels and test streaks. Keep the file to resume in another browser/device or after clearing site data; there is no cloud synchronization.
+
+**Import session** restores that file after confirmation and replaces this browser's existing HanPit progress, then reloads the app. An unfinished test is not included. Export first if you want to keep the current progress.
+
+The complete file is validated before writing. Invalid or incompatible files leave progress untouched; replacement is one IndexedDB transaction, so an interrupted save preserves the previous session. Scheduling dates are restored as Dates without recalculating due times or resetting progression. No vocabulary or audio is duplicated in the backup.
 
 ## Vocabulary
 
