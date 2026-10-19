@@ -2,7 +2,7 @@
 
 Local-first Chinese study with HSK flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
 
-Home explains the HSK study flow and session backups beneath a luminous SVG globe. Study navigation lives in the header; click HanPit to return Home. The original system sans-serif typography and forest-green/citron palette remain. SVG/CSS motion pauses outside Home and respects reduced-motion preferences; no external fonts or rendering libraries.
+Home explains the HSK study flow and session backups beneath a luminous SVG globe. Study navigation lives in the header; click HanPit to return Home. English headings use the same locally served Syne font as QuantaPit and KnightPit; body text keeps its system sans-serif stack. The forest-green/citron palette remains. SVG/CSS motion pauses outside Home and respects reduced-motion preferences; no external font service or rendering library.
 
 [Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/).
 
@@ -23,7 +23,7 @@ Open the URL printed by Vite. Static build: `npm run build`; production preview:
 
 `npm run build` writes `dist/`. Vite uses a relative base so the same build can be served at a domain root or a GitHub project subpath such as `/HanPit/`; data and audio requests use `import.meta.env.BASE_URL`. Serve the directory over HTTP(S), with the project URL ending in `/`, rather than opening `index.html` as a local file. Preview locally before any separately authorized upload.
 
-Only `dist/` is needed by a static host. It includes the local data/audio and runtime dependency notice; keep those files together. Do not upload source environments or model weights. The GitHub workflow validates changes; it does not deploy a hosted site.
+Only `dist/` is needed by a static host. It includes the local data/audio, heading font and runtime dependency notice; keep those files and `fonts/Syne-OFL.txt` together. Do not upload source environments or model weights. The GitHub workflow validates changes; it does not deploy a hosted site.
 
 The sibling `giacomo-portfolio` project also builds HanPit at `/projects/hanpit/` alongside QuantaPit and KnightPit, preserving the original source checkout and local-first runtime. Its Cloudflare publication audit retains the data/audio notices and checks Free-plan file limits.
 
