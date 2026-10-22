@@ -29,7 +29,7 @@ Progress stays in the app's private IndexedDB storage, independently of the webs
 
 ### Build Android
 
-Use Node 24, JDK **21** and Android SDK platform/build-tools **36 / 36.0.0**. Set `JAVA_HOME` and `ANDROID_HOME` (or use Android Studio); SDK paths and signing material stay outside Git.
+Use Node **24.22.1+ on 24.x**, JDK **21** and Android SDK platform/build-tools **36 / 36.0.0**. Set `JAVA_HOME` and `ANDROID_HOME` (or use Android Studio); SDK paths and signing material stay outside Git.
 
 ```sh
 npm ci
@@ -46,7 +46,7 @@ GitHub CI builds/lints Android and verifies every bundled source asset byte-for-
 
 ## Run
 
-Node.js 24 LTS (`.nvmrc`; `nvm use` if installed). The npm lockfile is committed; use `npm ci` for a clean install.
+Node.js **24.22.1+ on 24.x** (`.nvmrc`; `nvm use` if installed), including the October 2026 security fixes. The npm lockfile is committed; use `npm ci` for a clean install.
 
 ```sh
 npm ci
@@ -185,3 +185,7 @@ npm run build
 GitHub CI runs these checks on pushes/pull requests using Node 24 and Python 3.12, plus JDK 21 for Android unit tests, lint, debug build and bundled-asset integrity. Version tags run the signed APK release workflow. Neither workflow installs TTS dependencies, regenerates datasets/audio or deploys the hosted website. Full phonetic/audio validation remains an explicit local operation using the offline environment above.
 
 Before a separately authorized publication, review the files being committed and the complete Git history for private data or credentials; ignore rules do not remove already-tracked files. No API keys or environment variables are needed by the app. Never place secrets in Vite's client-exposed `VITE_*` variables.
+
+## 1.0.2 — suite alignment and security
+
+The favicon and Android launcher retain the forest/citron 汉 mark with a NotePit-style tilted orbit. Requires October-security-patched Node 24.22.1+. No study content, scheduler, storage or progress migration changed. Clean installation/npm audit found zero known vulnerabilities; 26 behavior tests, standalone/embedded builds, signed Android assembly and the 12,501-asset integrity check passed. The same-key update and orbital launcher were exercised on API 36. The locally verified APK is published directly without duplicate hosted CI. [Node advisory](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases).

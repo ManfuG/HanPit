@@ -4,6 +4,11 @@
     android:viewportWidth="64" android:viewportHeight="64">
     <path android:fillColor="#142720"
         android:pathData="M16,0h32a16,16 0,0 1,16 16v32a16,16 0,0 1,-16 16h-32a16,16 0,0 1,-16 -16v-32a16,16 0,0 1,16 -16" />
+    <group android:pivotX="32" android:pivotY="32" android:rotation="-24">
+        <path android:fillColor="@android:color/transparent"
+            android:strokeColor="#d5e59b" android:strokeWidth="1.4"
+            android:pathData="M3,32A29,13 0,1 1,61,32A29,13 0,1 1,3,32" />
+    </group>
     <path android:fillColor="@android:color/transparent"
         android:strokeColor="#d5e59b" android:strokeWidth="3.5"
         android:strokeLineCap="round" android:strokeLineJoin="round"
