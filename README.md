@@ -2,17 +2,26 @@
 
 Local-first Chinese study with HSK flashcards, grammar, readings and tests. TypeScript, Vite and FSRS-6; no backend. Interface and teaching explanations/translations are in English; Chinese and pinyin are preserved.
 
-Home explains the HSK study flow and session backups beneath a luminous SVG globe. Study navigation lives in the header; click HanPit to return Home. English headings use the same locally served Syne font as QuantaPit and KnightPit; body text keeps its system sans-serif stack. The forest-green/citron palette remains. SVG/CSS motion pauses outside Home and respects reduced-motion preferences; no external font service or rendering library.
+[![PitVerse](https://img.shields.io/badge/PitVerse-suite-75dbca)](https://giacomo-manfucci.pages.dev/pitverse/)
+[![Release](https://img.shields.io/github/v/release/ManfuG/HanPit)](https://github.com/ManfuG/HanPit/releases/latest)
 
-[Open HanPit](https://giacomo-manfucci.pages.dev/projects/hanpit/) · **[Download Android APK](https://github.com/ManfuG/HanPit/releases/latest/download/HanPit-Android.apk)**
+## Try and download
 
-[![Watch HanPit on Android: swipe entry and compact study screens](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
+**[Download Android APK](https://github.com/ManfuG/HanPit/releases/latest/download/HanPit-Android.apk)** · [Open web app](https://giacomo-manfucci.pages.dev/projects/hanpit/) · [Latest release](https://github.com/ManfuG/HanPit/releases/latest) · [SHA-256 checksums](https://github.com/ManfuG/HanPit/releases/latest/download/SHA256SUMS)
+
+Current release: **v1.0.2** (Android version code **3**), with suite icon alignment and October 2026 security maintenance. Study content, FSRS schedules and stored progress are unchanged. Android bundles the study assets for offline use; the hosted web app requires a modern browser and is not an offline PWA.
+
+## Demo
+
+[![Watch HanPit's desktop web demo: Home, flashcards, grammar, readings and tests](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
+
+[Watch the MP4](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4) — current v1.0.2 desktop web build at 1280 × 900: Home → answer reveal and Listen → grammar examples → reading supports → test options → Home. Silent recording; no reviews, completed tests or synthetic unlocks.
 
 ## Android
 
 Download the APK above and open it on your phone. Android may ask you to allow installation from your browser/file manager. Requires Android 8.0+ and Android System WebView 119+. Updates use the same package and signing key; install over the existing app to preserve progress.
 
-The Capacitor app bundles all vocabulary, grammar, readings, tests, fonts and **12,457 recordings**. It works offline from first launch, including audio and local session backups; no login, first-run download or server is needed. The hosted web app is unchanged in this respect: it fetches static assets and is not an offline PWA.
+The Capacitor app bundles all vocabulary, grammar, readings, tests, fonts and **12,457 recordings**. It works offline from first launch, including audio and local session backups; no login, first-run download or server is needed. The hosted web app fetches static assets and is not an offline PWA.
 
 Android opens with the portfolio's orbital/botanical scene in HanPit's forest/citron palette. Swipe up to dissolve into Home; the arrow also works with keyboard and accessibility controls. The scene appears once per app document, not on ordinary background/resume. SVG artwork and CSS motion paths need no rendering library or JavaScript frame loop; motion pauses in the background and respects reduced motion.
 
@@ -139,7 +148,7 @@ The cumulative pool includes every vocabulary entry and grammar rule through the
 
 Results are saved atomically before advancing the UI. A failed save remains explicitly retryable without awarding a duplicate success. Pools load lazily and share vocabulary/grammar caches. Only consecutive-success counts and unlocked level are persisted, not a test history.
 
-This English/readiness update does **not** reset progress. The previous user-requested reset remains a one-time migration guarded by `settings.progressRevision = 1`; the marker and existing database schema are unchanged.
+The historical progress reset is a one-time migration guarded by `settings.progressRevision = 1`; the current release does not increment that marker or reset existing progress.
 
 `npm run tests:check` checks vocabulary meanings and exact agreement of the pronunciation index with the official source. `python3 scripts/check-tests.py --write-pinyin` rebuilds only that index.
 
