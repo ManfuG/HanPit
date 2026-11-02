@@ -216,3 +216,9 @@ Git inizializzato su `main`. Nessuna identità Git utente configurata: primo com
 - README now starts with common PitVerse/release badges, prominent latest APK/web/checksum links, explicit v1.0.2/code3 and Demo. GitHub topics include `pitverse`, `hanpit` and the actual platform/study technologies; immutable release tags are unchanged.
 - Replaced `docs/demo.mp4` / `docs/home.webp` Android footage with the current desktop web app at1280×900: Home, answer reveal/Listen, grammar, reading supports, test options, Home. Isolated5195 origin; no reviews, quiz answers or synthetic unlocks. Silent H264/yuv420p MP4,12.67s/356,561 bytes; sound playback is not claimed by the recording.
 - GitHub GFM rendered the README; current APK redirect returns200; actual Chromium decoded frames and reached the video end without media error. No app/data/build/dependency changes or broad tests. Future demo preference: web/desktop first; mobile only where no browser app exists.
+
+## Website parent navigation
+
+- Added a native PitVerse return link to the existing web header, using the shared production suite URL. CSS hides it under the existing Android class; no navigation handler, dependency, study data, storage or APK change.
+- Portfolio lint, all integrated production builds and the 12,577-file publication audit passed. Actual browser checks at 320/390/980/1280px found one visible return link and no horizontal overflow. No review/test result submitted or user origin cleared.
+- Publish website changes through the existing portfolio Pages project and normal source updates to origin/main. Existing Android releases/tags remain unchanged.
