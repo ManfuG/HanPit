@@ -34,20 +34,10 @@ html:root:not(.android) {
   h1 { font-size: clamp(36px, 5vw, 64px); font-weight: 600; letter-spacing: -.03em; }
   h2, h3 { letter-spacing: -.02em; }
   .level-label { font-size: 14px; }
-  #home { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 48px 64px; }
-  .home-orbital { margin: 0; max-width: none; }
-  .home-orbit > circle { stroke-opacity: .6; }
-  .home-satellite circle, .home-stars { fill: var(--accent); }
-  #planet-light stop:nth-child(1) { stop-color: #edf1fa; }
-  #planet-light stop:nth-child(2) { stop-color: #a9bfe8; }
-  #planet-light stop:nth-child(3) { stop-color: #6d89bc; }
-  #planet-light stop:nth-child(4) { stop-color: #293d68; }
-  #planet-halo stop { stop-color: #a9bfe8; }
-  .home-wireframe { stroke: #202a47; }
-  .home-steps { grid-template-columns: 1fr; gap: 24px; padding-inline-start: 24px; }
+  .home-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; padding-inline-start: 24px; }
   .home-steps h2, .session h2 { font-size: 20px; font-weight: 600; }
   .home-steps p, .session p { font-size: 16px; line-height: 1.75; }
-  .session { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 2fr; gap: 16px 48px; margin: 0; padding-block-start: 32px; border-color: var(--line); }
+  .session { display: grid; grid-template-columns: 1fr 2fr; gap: 16px 48px; margin: 40px 0 0; padding-block-start: 32px; border-color: var(--line); }
   .session h2 { margin: 0; }
   .session p { margin: 0; }
   .session > p, .session-actions { grid-column: 2; }
@@ -91,7 +81,6 @@ html:root:not(.android) {
     button:not(:disabled):active { transform: translateY(1px); }
   }
   @media (max-width: 1000px) {
-    #home { gap: 32px; grid-template-columns: 1fr 1fr; }
     .standard { display: none; }
   }
   @media (max-width: 700px) {
@@ -101,8 +90,7 @@ html:root:not(.android) {
     main, .credits { width: calc(100% - 40px); }
     main { margin-block: 32px 48px; }
     .deck-heading { margin-block-end: 24px; }
-    #home { grid-template-columns: 1fr; gap: 32px; }
-    .home-orbital { width: min(100%, 420px); margin-inline: auto; }
+    .home-steps { grid-template-columns: 1fr; gap: 24px; }
     .session { grid-template-columns: 1fr; gap: 16px; }
     .session > p, .session-actions { grid-column: 1; }
     .session-actions { gap: 8px; }

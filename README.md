@@ -72,6 +72,8 @@ The hosted website uses an indigo/blue-paper palette, flat controls and ruled la
 
 The web header retains its native [PitVerse](https://giacomo-manfucci.pages.dev/pitverse/) return link, hidden in Android. Study content, FSRS scheduling and stored progress are unchanged.
 
+The website homepage omits the orbital illustration and uses the available width for its existing study instructions. The artwork remains in ordinary production/Android builds; the website-mode HTML transform removes it before publication, without changing shared app markup or study behavior.
+
 Only `dist/` is needed by a static host. It includes the local data/audio, heading font and runtime dependency notices; keep those files and `fonts/Syne-OFL.txt` together. Do not upload source environments or model weights. GitHub workflows validate changes and publish tagged Android APKs; they do not deploy the hosted website.
 
 The sibling `giacomo-portfolio` project also builds HanPit at `/projects/hanpit/` alongside QuantaPit and KnightPit, preserving the original source checkout and local-first runtime. Its Cloudflare publication audit retains the data/audio notices and checks Free-plan file limits.
