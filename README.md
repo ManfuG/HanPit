@@ -15,7 +15,7 @@ Current release: **v1.0.2** (Android version code **3**), with suite icon alignm
 
 [![Watch HanPit's desktop web demo: Home, flashcards, grammar, readings and tests](docs/home.webp)](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4)
 
-[Watch the MP4](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4) — current v1.0.2 desktop web build at 1280 × 900: Home → answer reveal and Listen → grammar examples → reading supports → test options → Home. Silent recording; no reviews, completed tests or synthetic unlocks.
+[Watch the MP4](https://github.com/ManfuG/HanPit/raw/refs/heads/main/docs/demo.mp4) — v1.0.2 desktop web build at 1280 × 900, recorded before the website-only visual refresh: Home → answer reveal and Listen → grammar examples → reading supports → test options → Home. Silent recording; no reviews, completed tests or synthetic unlocks.
 
 ## Android
 
@@ -68,7 +68,9 @@ Open the URL printed by Vite. Static build: `npm run build`; production preview:
 
 `npm run build` writes `dist/`. Vite uses a relative base so the same build can be served at a domain root or a GitHub project subpath such as `/HanPit/`; data and audio requests use `import.meta.env.BASE_URL`. Serve the directory over HTTP(S), with the project URL ending in `/`, rather than opening `index.html` as a local file. Preview locally before any separately authorized upload.
 
-The web header includes a native [PitVerse](https://giacomo-manfucci.pages.dev/pitverse/) return link, hidden in Android. The integrated production build and 320/390/980/1280px browser layout checks passed; study data and progress are unchanged. This website update does not publish a new APK.
+The hosted website uses an indigo/blue-paper palette, flat controls and ruled layouts aligned with the personal portfolio and the other PitVerse pages. Vite's explicit `website` mode loads `src/web.css`; the portfolio selects this mode for both development and publication. Preview it independently with `npm run dev -- --mode website`. Ordinary builds and Android retain their existing forest/citron UI, entry scene and bundled assets; no APK or release tag changes.
+
+The web header retains its native [PitVerse](https://giacomo-manfucci.pages.dev/pitverse/) return link, hidden in Android. Study content, FSRS scheduling and stored progress are unchanged.
 
 Only `dist/` is needed by a static host. It includes the local data/audio, heading font and runtime dependency notices; keep those files and `fonts/Syne-OFL.txt` together. Do not upload source environments or model weights. GitHub workflows validate changes and publish tagged Android APKs; they do not deploy the hosted website.
 
